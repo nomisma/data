@@ -6,7 +6,7 @@ The files in the id directory are xml "snippets". To be properly processed as RD
 
 
 
-<?xml version="1.0" encoding="UTF-8"?>
+'<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.1//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"
 prefix="nm: http://nomisma.org/id/
@@ -26,4 +26,4 @@ prefix="nm: http://nomisma.org/id/
 <!-- put snippet here -->
 
 </body>
-<?html>
+</html>'
