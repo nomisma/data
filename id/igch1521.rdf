@@ -12,19 +12,18 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Hoard rdf:about="http://nomisma.org/id/igch1521">
-      <rdf:type resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:prefLabel xml:lang="en">IGCH 1521</skos:prefLabel>
       <dcterms:source rdf:resource="http://nomisma.org/id/igch"/>
-      <nmo:hasClosingDate>
-         <dcterms:PeriodOfTime>
-            <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0299</nmo:hasStartDate>
-            <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0299</nmo:hasEndDate>
-         </dcterms:PeriodOfTime>
-      </nmo:hasClosingDate>
+      <nmo:hasClosingDate rdf:resource="http://nomisma.org/id/igch1521#closingDate"/>
       <nmo:hasFindSpot rdf:resource="http://nomisma.org/id/igch1521#this"/>
    </nmo:Hoard>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/igch1521#this">
       <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">33.5625</geo:lat>
       <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.36861111</geo:long>
    </geo:SpatialThing>
+   <dcterms:PeriodOfTime rdf:about="http://nomisma.org/id/igch1521#closingDate">
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0299</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0299</nmo:hasEndDate>
+   </dcterms:PeriodOfTime>
 </rdf:RDF>

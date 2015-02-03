@@ -12,15 +12,9 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Hoard rdf:about="http://nomisma.org/id/igch1689">
-      <rdf:type resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:prefLabel xml:lang="en">IGCH 1689</skos:prefLabel>
       <dcterms:source rdf:resource="http://nomisma.org/id/igch"/>
-      <nmo:hasClosingDate>
-         <dcterms:PeriodOfTime>
-            <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0234</nmo:hasStartDate>
-            <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0234</nmo:hasEndDate>
-         </dcterms:PeriodOfTime>
-      </nmo:hasClosingDate>
       <nm:item rdf:resource="http://numismatics.org/collection/1944.100.76261"/>
       <nm:item rdf:resource="http://numismatics.org/collection/1964.79.59"/>
       <nm:item rdf:resource="http://numismatics.org/collection/1967.152.627"/>
@@ -28,10 +22,15 @@
       <nm:item rdf:resource="http://numismatics.org/collection/1944.100.75928"/>
       <nm:item rdf:resource="http://numismatics.org/collection/1944.100.75929"/>
       <nm:item rdf:resource="http://numismatics.org/collection/1944.100.75930"/>
+      <nmo:hasClosingDate rdf:resource="http://nomisma.org/id/igch1689#closingDate"/>
       <nmo:hasFindSpot rdf:resource="http://nomisma.org/id/igch1689#this"/>
    </nmo:Hoard>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/igch1689#this">
       <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.5852777778</geo:lat>
       <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.5025</geo:long>
    </geo:SpatialThing>
+   <dcterms:PeriodOfTime rdf:about="http://nomisma.org/id/igch1689#closingDate">
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0234</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0234</nmo:hasEndDate>
+   </dcterms:PeriodOfTime>
 </rdf:RDF>

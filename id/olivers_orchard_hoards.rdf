@@ -12,18 +12,17 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Hoard rdf:about="http://nomisma.org/id/olivers_orchard_hoards">
-      <rdf:type resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:prefLabel xml:lang="en">Oliver's Orchard Hoards</skos:prefLabel>
-      <nmo:hasClosingDate>
-         <dcterms:PeriodOfTime>
-            <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0274</nmo:hasStartDate>
-            <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0274</nmo:hasEndDate>
-         </dcterms:PeriodOfTime>
-      </nmo:hasClosingDate>
+      <nmo:hasClosingDate rdf:resource="http://nomisma.org/id/olivers_orchard_hoards#closingDate"/>
       <nmo:hasFindSpot rdf:resource="http://www.geonames.org/2652618/"/>
    </nmo:Hoard>
    <geo:SpatialThing rdf:about="http://www.geonames.org/2652618/">
       <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.8917</geo:lat>
       <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.903</geo:long>
    </geo:SpatialThing>
+   <dcterms:PeriodOfTime rdf:about="http://nomisma.org/id/olivers_orchard_hoards#closingDate">
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0274</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0274</nmo:hasEndDate>
+   </dcterms:PeriodOfTime>
 </rdf:RDF>

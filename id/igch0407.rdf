@@ -12,14 +12,13 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Hoard rdf:about="http://nomisma.org/id/igch0407">
-      <rdf:type resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:prefLabel xml:lang="en">IGCH 0407</skos:prefLabel>
       <dcterms:source rdf:resource="http://nomisma.org/id/igch"/>
-      <nmo:hasClosingDate>
-         <dcterms:PeriodOfTime>
-            <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0324</nmo:hasStartDate>
-            <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0309</nmo:hasEndDate>
-         </dcterms:PeriodOfTime>
-      </nmo:hasClosingDate>
+      <nmo:hasClosingDate rdf:resource="http://nomisma.org/id/igch0407#closingDate"/>
    </nmo:Hoard>
+   <dcterms:PeriodOfTime rdf:about="http://nomisma.org/id/igch0407#closingDate">
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0324</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0309</nmo:hasEndDate>
+   </dcterms:PeriodOfTime>
 </rdf:RDF>

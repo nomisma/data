@@ -12,15 +12,9 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Hoard rdf:about="http://nomisma.org/id/igch1384">
-      <rdf:type resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:prefLabel xml:lang="en">IGCH 1384</skos:prefLabel>
       <dcterms:source rdf:resource="http://nomisma.org/id/igch"/>
-      <nmo:hasClosingDate>
-         <dcterms:PeriodOfTime>
-            <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0074</nmo:hasStartDate>
-            <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0074</nmo:hasEndDate>
-         </dcterms:PeriodOfTime>
-      </nmo:hasClosingDate>
       <nm:item rdf:resource="http://numismatics.org/collection/1944.100.41911"/>
       <nm:item rdf:resource="http://numismatics.org/collection/1944.100.41912"/>
       <nm:item rdf:resource="http://numismatics.org/collection/1944.100.41910"/>
@@ -40,5 +34,10 @@
       <nm:item rdf:resource="http://numismatics.org/collection/1944.100.41472"/>
       <nm:item rdf:resource="http://numismatics.org/collection/1944.100.41478"/>
       <nm:item rdf:resource="http://numismatics.org/collection/1944.100.41479"/>
+      <nmo:hasClosingDate rdf:resource="http://nomisma.org/id/igch1384#closingDate"/>
    </nmo:Hoard>
+   <dcterms:PeriodOfTime rdf:about="http://nomisma.org/id/igch1384#closingDate">
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0074</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0074</nmo:hasEndDate>
+   </dcterms:PeriodOfTime>
 </rdf:RDF>
