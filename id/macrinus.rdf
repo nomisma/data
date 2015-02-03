@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/macrinus">
+      <rdf:type resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Macrinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Macrinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Макрін</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">马克里努斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Macrí</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Macrinus</skos:prefLabel>
+      <skos:definition xml:lang="en">Roman emperor from 217 to 218.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Macrinus"/>
+      <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/2/23/MacrinusBust.jpg"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/89202499"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/macrinus#roman_emperor"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/macrinus#roman_emperor">
+      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+   </org:Membership>
+</rdf:RDF>

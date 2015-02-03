@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/hostilian">
+      <rdf:type resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Hostilian</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Гостіліан</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">霍斯蒂利安</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Hostilianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Hostilià</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Hostilian</skos:prefLabel>
+      <skos:definition xml:lang="en">Roman emperor in 251 A.D.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hostilian"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/89202565"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/hostilian#roman_emperor"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/hostilian#roman_emperor">
+      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+   </org:Membership>
+</rdf:RDF>

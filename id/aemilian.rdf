@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/aemilian">
+      <rdf:type resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Aemilian</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Aemilianus (Kaiser)</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Émilien</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">マルクス・アエミリウス・アエミリアヌス</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Aemilianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">埃米利安努斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Марк Эмилий Эмилиан</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Aemilianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Emilian (cesarz)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Emiliano (imperatore romano)</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Emiliano</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Emiliano</skos:prefLabel>
+      <skos:definition xml:lang="en">Marcus Aemilius Aemilianus Augustus (c. 207/213 – 253), also known as Aemilian, was Roman Emperor for three months in AD 253.</skos:definition>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/89202596/"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aemilianus"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:altLabel xml:lang="la">Marcus Aemilius Aemilianus</skos:altLabel>
+      <nm:numismatic_start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0253</nm:numismatic_start_date>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/aemilian#roman_emperor"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/aemilian#roman_emperor">
+      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+   </org:Membership>
+</rdf:RDF>

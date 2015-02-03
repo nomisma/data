@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/a_plavtivs_aed_cvr_rrc">
+      <rdf:type resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">A. Plautius</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">A. Plautius</skos:prefLabel>
+      <skos:definition xml:lang="en">Roman Republican Moneyer, c. 55 BC</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/177521"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/a_plavtivs_aed_cvr_rrc#rrc_moneyer"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/a_plavtivs_aed_cvr_rrc#rrc_moneyer">
+      <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
+   </org:Membership>
+</rdf:RDF>
