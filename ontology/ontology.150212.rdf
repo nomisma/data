@@ -1,0 +1,1148 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://nomisma.org/ontology#"
+     xml:base="http://nomisma.org/ontology"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://nomisma.org/ontology#">
+        <owl:versionInfo rdf:datatype="&xsd;dateTimeStamp"></owl:versionInfo>
+        <rdfs:comment rdf:datatype="&xsd;string">This ontology namespace defines:
+1: The classes and their hierarchy that are used in the nomisma.org/id namespace.
+2: Properties (that can be seen as a set of verbs) 
+
+Currently we are not defining any ranges or domains for the properties in order to allow more flexibility for the users and their modelling preferences. </rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">Tracking changes and issue tracking!
+
+Changes since last version:
+Changed due to call 10th Febr. 2015
+ - remove classes under ObjectType
+ - ObjectType for facets like nm:coin
+ - new class for physical objects like a coin called NumismaticObject  - nmo:hasObjectType (to be used for nmo:NumismaticObject) and nmo:representsObjectType (to be used in nmo:TypeSeriesItem)
+
+
+Version 16:
+according to call 27. Jan 2015 
+
+Version 15: based on proposals discussed during conf call of Jan. 13th
+
+  a) new classes for: Obverse and Reverse … Rim, … Axis?
+    Proposal: 
+        Axis class - not now
+        Obverse and Reverse - might be useful for die … postpone until needed
+        Rim: not at a class at the moment, but include a property “hasEdge” as subproperty of hasAppearance.
+
+
+  b) TypeSeries as subclass of ReferenceWork?
+    accepted
+  c) remove hasTypeSeries with dcterms:source or dcterms:isPartOf
+        → remove hasTypeSeries from Ontology
+
+Proposal: accepted
+http://nomisma.org/id/rrc-100 dcterms:source nm:rrc
+nm:igch1200 dcterms:source nm:igch
+
+
+  d) nmo:Find (e.g. for Hoards?): do we need it, if yes, should it be part of our ontology? (Additional remark - we already have: nmo:FindType)
+Proposal: nmo:Find as subclass of nmo:Context 
+
+igch1200 a nmo:Find ;
+  nmo:hasFindType nm:hoard ;
+  dcterms:source nm:igch ;
+  nmo:hasFindSpot &lt;URI&gt;
+&lt;URI&gt; a geo:SpatialThing; 
+  geo:lat ?lat ;
+  geo:long ?long .
+
+nm:hoard a nmo:FindType
+
+&lt;coin&gt; is:partOf nm:igch1200
+
+What is the difference between nmo:ObjectType and nmo:Find … and their relation to hoards?
+
+  e) We need to agree how to link from the ontology to the ID namespace concepts (nmo:Mint --&gt; nm:mint).
+Example:
+###  http://nomisma.org/ontology#Collection
+ 
+:Collection rdf:type owl:Class ;
+           
+           skos:exactMatch &lt;http://nomisma.org/id/collection&gt; .
+
+Proposal: Using owl:sameAs! … have it in both: ID namespace and ontology!
+
+
+
+
+Version 14:
+included: nmo:hasFindType property
+
+
+Version 13:
+removed underscores in names
+
+Version 12:
+changed Classes to be instance of this Ontology linked with skos:exactMatch to the according instances of the id namespace.
+changed Classes having capital letters at the beginning
+
+
+
+
+Removed uncertain_value  ... goal is to use W3C namespace --&gt; un:hasCertainty 
+-- due to conf call of 19. May 2014:
+add class controlmark as superclass for mintmark
+add property hasControlmark as superproperty for hasMintmark
+add class die as subclass of production_object
+medallion not as subclass of medal
+type_series not as subclass of reference work
+hasIconograph as superpropery for hasPortray
+hasReferenceWork
+hasProduction_object and hasDie
+
+Naming convention: 
+all properties should start with &quot;has&quot;
+
+change data properties into object properties seams at the moment more appropiate (not finally decised)
+ 
+
+--- up to version 9
+hasType_series_item,
+ hasCollection,
+ hasMintmark,
+ hasPeculiarity --&gt; (hasPeculiarity_of_production and hasSecondary_treatment --&gt; hasCountermark) .
+
+Added classes: peculiarity --&gt; (peculiarity of production and seconary treatment --&gt; countermark) ... and according object properties.
+
+Removed class for undertype: could be &quot;overstrike&quot; together with &quot;hasType_series_item&quot;.
+
+
+--- due to conf call of 09. Mai 2014:
+- corrected Hight --&gt; Height for properties hasHeight, hasMinHeight, hasMaxHeight
+- changed from using nm:nomisma_region to nm:region
+- findspot as region! no extra class needed (similar/equal as CRM Place)
+- ranges and domains removed (at least for now)
+- Not taking into account for this ontology:
+http://nomisma.org/id/indiction; http://nomisma.org/id/imperatorial_issue;
+http://nomisma.org/id/koinon;
+http://nomisma.org/id/league;
+http://nomisma.org/id/monogram;
+http://nomisma.org/id/royal_issue;
+http://nomisma.org/id/rrc_moneyer;
+http://nomisma.org/id/ruler;
+http://nomisma.org/id/tribal_issue;
+  
+---- up to version 5
+- included http://nomisma.org/id/weight_standard as class
+- usage of &apos;#&apos; 
+- removed all ranges and domains from object properties in order to give broader flexibility to users
+- all classes are from the nomisma.org/id namespace … also if they do not exist there! … some need to be created or renamed.
+- hasStartDate, hasEndDate: for closing_date_end und closing_date_start ... more generic, but removing the numismatic part somehow.
+- added more data properties
+- added class http://nomisma.org/id/ethnic
+
+Open issues:
+ 
+New classes for: Obverse and Reverse
+TypeSeries as sublass of ReferenceWork
+remove hasTypeSeries with dcterms:source or dcterms:isPartOf
+
+
+
+
+Next steps:
+- generate some examples how all this should function and how it could be used (Karsten)
+</skos:definition>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="&skos;definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://nomisma.org/ontology#hasAppearance -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasAppearance">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasAuthority -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasAuthority">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasAxis -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasAxis">
+        <skos:definition rdf:datatype="&xsd;string">The directional relationship between the obverse and reverse of a numismatic object.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasCollection -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasCollection">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasControlmark -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasControlmark">
+        <skos:definition rdf:datatype="&xsd;string">The letter, symbol or an inscription on the object intended to distinguish it as part of a group of coins within an issue or series.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasPeculiarityOfProduction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasCorrosion -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasCorrosion">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasCountermark -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasCountermark">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasSecondaryTreatment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasDate -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasDate">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasDenomination -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasDenomination">
+        <skos:definition rdf:datatype="&xsd;string">The term designating the moneatry value assigned to the object. Examples: tetradrachm, chalkous, denarius.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasDepth -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasDepth">
+        <skos:definition rdf:datatype="&xsd;string">The depth of the object.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasDiameter -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasDiameter">
+        <skos:definition rdf:datatype="&xsd;string">The diameter of the object.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasDie -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasDie">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasProductionObject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasEdge -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasEdge">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasAppearance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasEndDate -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasEndDate">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasDate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasFindType -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasFindType">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasFindspot -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasFindspot">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasRegion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasHeight -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasHeight">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasIconography -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasIconography">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasAppearance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasIssuer -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasIssuer">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasLegend -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasLegend">
+        <skos:definition rdf:datatype="&xsd;string">The text shown on the object.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasAppearance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasManufacture -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasManufacture">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasMaterial -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasMaterial">
+        <skos:definition rdf:datatype="&xsd;string">The physical material from which an object is made.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasMaxDepth -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasMaxDepth">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasDepth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasMaxDiameter -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasMaxDiameter">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasDiameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasMaxHeight -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasMaxHeight">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasHeight"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasMaxWidth -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasMaxWidth">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasWidth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasMinDepth -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasMinDepth">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasDepth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasMinDiameter -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasMinDiameter">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasDiameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasMinHeight -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasMinHeight">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasHeight"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasMinWidth -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasMinWidth">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasWidth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasMint -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasMint">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasMintmark -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasMintmark">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasControlmark"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasObjectType -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasObjectType">
+        <skos:definition rdf:datatype="&xsd;string">To indicate that an object is of a certain object type (facet), e.g. that a coin is a coin.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasObverse -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasObverse">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasAppearance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasPeculiarity -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasPeculiarity">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasPeculiarityOfProduction -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasPeculiarityOfProduction">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasPeculiarity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasPortrait -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasPortrait">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasIconography"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasProductionObject -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasProductionObject">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasReferenceWork -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasReferenceWork">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasRegion -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasRegion">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasReverse -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasReverse">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasAppearance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasSecondaryTreatment -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasSecondaryTreatment">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasPeculiarity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasStartDate -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasStartDate">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://nomisma.org/ontology#hasDate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasTypeSeriesItem -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasTypeSeriesItem">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasWear -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasWear">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasWeight -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasWeight">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasWeightStandard -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasWeightStandard">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#hasWidth -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#hasWidth">
+        <skos:definition rdf:datatype="&xsd;string"></skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://nomisma.org/ontology#representsObjectType -->
+
+    <owl:ObjectProperty rdf:about="http://nomisma.org/ontology#representsObjectType">
+        <skos:definition rdf:datatype="&xsd;string">Can be used to describe that the for example a TypeSeriesItem represents a certain object type like a coin or pinback.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://nomisma.org/ontology#CoinWear -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#CoinWear">
+        <rdfs:subClassOf rdf:resource="http://nomisma.org/ontology#Wear"/>
+        <skos:definition rdf:datatype="&xsd;string">Wear on a coin occuring as a result of its use.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Collection -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Collection">
+        <skos:definition rdf:datatype="&xsd;string">General term meaning the objects held by an institution or individual. Or the holding entity itself.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Context -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Context">
+        <skos:definition rdf:datatype="&xsd;string"> </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Controlmark -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Controlmark">
+        <skos:definition rdf:datatype="&xsd;string"> </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Corrosion -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Corrosion">
+        <skos:definition rdf:datatype="&xsd;string"> </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Countermark -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Countermark">
+        <rdfs:subClassOf rdf:resource="http://nomisma.org/ontology#SecondaryTreatment"/>
+        <skos:definition rdf:datatype="&xsd;string">A mark or symbol punched into a coin at some point during its time in circulation.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Denomination -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Denomination">
+        <skos:definition rdf:datatype="&xsd;string">Term indicating the value of a coin. Examples: tetradrachm, chalkous, denarius.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#DieWear -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#DieWear">
+        <rdfs:subClassOf rdf:resource="http://nomisma.org/ontology#Wear"/>
+        <skos:definition rdf:datatype="&xsd;string"> </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Ethnic -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Ethnic">
+        <skos:definition rdf:datatype="&xsd;string">Generally, a tribal or ethnic name appearing on a coin. Distinct from personal authority as indicated by the presence of ruler&apos;s name.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#FieldOfNumismatics -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#FieldOfNumismatics">
+        <skos:definition rdf:datatype="&xsd;string">Any widely recognized area of study within the discipline of numismatics.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Find -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Find">
+        <rdfs:subClassOf rdf:resource="http://nomisma.org/ontology#Context"/>
+        <skos:definition rdf:datatype="&xsd;string"> </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#FindType -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#FindType">
+        <skos:definition rdf:datatype="&xsd;string"> </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Manufacture -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Manufacture">
+        <skos:definition rdf:datatype="&xsd;string">The technique of manufacture. For example, struck or cast.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Material -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Material">
+        <skos:definition rdf:datatype="&xsd;string">The physical material from which an object is made.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Mint -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Mint">
+        <skos:definition rdf:datatype="&xsd;string">Generic term for a place of manufacture of a coin or for the issuing city.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Mintmark -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Mintmark">
+        <rdfs:subClassOf rdf:resource="http://nomisma.org/ontology#Controlmark"/>
+        <skos:definition rdf:datatype="&xsd;string">A mint mark is a letter, symbol or an inscription on a coin indicating the mint where the coin was produced.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#MountWear -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#MountWear">
+        <rdfs:subClassOf rdf:resource="http://nomisma.org/ontology#Wear"/>
+        <skos:definition rdf:datatype="&xsd;string"> </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#NumismaticObject -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#NumismaticObject"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#ObjectType -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#ObjectType">
+        <skos:definition rdf:datatype="&xsd;string">The numismatic type of an object. Ex. &apos;coin&apos;.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Peculiarity -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Peculiarity">
+        <skos:definition rdf:datatype="&xsd;string">A feature of an individual object that marks it out from other objects of the same type. Often a result of post-production activity, such as piercing, cutting or mounting.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#PeculiarityOfProduction -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#PeculiarityOfProduction">
+        <rdfs:subClassOf rdf:resource="http://nomisma.org/ontology#Peculiarity"/>
+        <skos:definition rdf:datatype="&xsd;string">Anomalies or unusual features which are related to the process of production of a coin; for example serratus, plating, doublestrike, etc.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#ReferenceWork -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#ReferenceWork">
+        <skos:definition rdf:datatype="&xsd;string">Any well-known reference work in numismatics.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Region -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Region">
+        <skos:definition rdf:datatype="&xsd;string">An area of geographic significance and/or taxonomic importance, perhaps part of a larger geographic/adminitsrative unit, having definable characteristics but not always fixed boundaries.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#SecondaryTreatment -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#SecondaryTreatment">
+        <rdfs:subClassOf rdf:resource="http://nomisma.org/ontology#Peculiarity"/>
+        <skos:definition rdf:datatype="&xsd;string">Anomalies or unusual features which arise subsequent to the actual production of a coin; for example halving, chop-marking, etc.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#TypeSeries -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#TypeSeries">
+        <rdfs:subClassOf rdf:resource="http://nomisma.org/ontology#ReferenceWork"/>
+        <skos:definition rdf:datatype="&xsd;string">A list with items describing individual numismatic types.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#TypeSeriesItem -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#TypeSeriesItem">
+        <skos:definition rdf:datatype="&xsd;string">An item within a type series describing an individual coin type.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#Wear -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#Wear">
+        <skos:definition rdf:datatype="&xsd;string">Wear on an object occuring as a result of its use.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://nomisma.org/ontology#WeightStandard -->
+
+    <owl:Class rdf:about="http://nomisma.org/ontology#WeightStandard">
+        <skos:definition rdf:datatype="&xsd;string">A named system of standardized weights to which a series of coins is produced.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://nomisma.org/id/coin -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/coin">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Coin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/coin_wear -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/coin_wear">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#CoinWear"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/collection -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/collection">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Collection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/denomination -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/denomination">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Denomination"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/ethnic -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/ethnic">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Ethnic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/field_of_numismatics -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/field_of_numismatics">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#FieldOfNumismatics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/manufacture -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/manufacture">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Manufacture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/material -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/material">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/medal -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/medal">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Medal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/mint -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/mint">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Mint"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/object_type -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/object_type">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#ObjectType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/reference_work -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/reference_work">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#ReferenceWork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/region -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/region">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/seal -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/seal">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Seal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/tessera -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/tessera">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Tessera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/token -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/token">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#Token"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/type_series -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/type_series">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#TypeSeries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/type_series_item -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/type_series_item">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#TypeSeriesItem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/id/weight_standard -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/id/weight_standard">
+        <owl:sameAs rdf:resource="http://nomisma.org/ontology#WeightStandard"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nomisma.org/ontology#Coin -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Coin"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#CoinWear -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#CoinWear"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Collection -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Collection"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Denomination -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Denomination"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Ethnic -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Ethnic"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#FieldOfNumismatics -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#FieldOfNumismatics"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Manufacture -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Manufacture"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Material -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Material"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Medal -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Medal"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Medallion -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Medallion"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Mint -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Mint"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#ObjectType -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#ObjectType"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#ReferenceWork -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#ReferenceWork"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Region -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Region"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Seal -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Seal"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Tessera -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Tessera"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Token -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Token"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#TypeSeries -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#TypeSeries"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#TypeSeriesItem -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#TypeSeriesItem"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#Wear -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#Wear"/>
+    
+
+
+    <!-- http://nomisma.org/ontology#WeightStandard -->
+
+    <owl:NamedIndividual rdf:about="http://nomisma.org/ontology#WeightStandard"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
