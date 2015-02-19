@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -9,40 +10,41 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Region rdf:about="http://nomisma.org/id/sicily">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Sicily</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Sicilia</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">西西里岛</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Сицилія</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Sicílie</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Sicília</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Sizilien</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Сицилия</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">シチリア</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Sicile</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Sicilië</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Sicilia</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Sicilia</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Sicilien</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">시칠리아</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Szicília</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Sisilia</skos:prefLabel>
-      <skos:prefLabel xml:lang="no">Sicilia</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Sycylia</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Sicília</skos:prefLabel>
-      <skos:definition xml:lang="en">The region of Sicily as defined in Head (1911)</skos:definition>
-      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/europe"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sicily"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/462492"/>
-      <geo:location rdf:resource="http://nomisma.org/id/sicily#this"/>
-   </nmo:Region>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Sicily</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Sicilia</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">西西里岛</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Сицилія</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Sicílie</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Sicília</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sizilien</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Сицилия</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">シチリア</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sicile</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Sicilië</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Sicilia</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sicilia</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Sicilien</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">시칠리아</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Szicília</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Sisilia</skos:prefLabel>
+        <skos:prefLabel xml:lang="no">Sicilia</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Sycylia</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Sicília</skos:prefLabel>
+        <skos:definition xml:lang="en">The region of Sicily as defined in Head (1911)</skos:definition>
+        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/europe"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sicily"/>
+        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/462492"/>
+        <geo:location rdf:resource="http://nomisma.org/id/sicily#this"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7003122"/>
+    </nmo:Region>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/sicily#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.5445773</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.0625</geo:long>
-      <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+        <osgeo:asGeoJSON>{"type":"Polygon","coordinates":[[[13.027317523956874,37.50101042949303],[12.942173480988505,37.57505900514943],[12.673008441925269,37.56199695314291],[12.590610980988167,37.6468593362088],[12.557651996612968,37.666429212089945],[12.531559467316384,37.65881931773091],[12.464268207550798,37.715331331026334],[12.471134662628518,37.743571187448524],[12.440922260284584,37.790251927932644],[12.4230694770818,37.80001858607341],[12.449162006378383,37.817378345650724],[12.465641498565985,37.821717647838874],[12.467014789582066,37.83907230547572],[12.465641498565985,37.91820111976607],[12.498600482941184,37.96585412874916],[12.506840229034985,38.018885877387426],[12.565891742706766,38.068635886703575],[12.586491107941717,38.07728461129889],[12.612583637238302,38.07404145941924],[12.66476869583147,38.09565975529541],[12.657902240753753,38.10970821951419],[12.675755023956537,38.1194324969524],[12.68948793411287,38.11078875872382],[12.727940082550603,38.12375398242169],[12.727940082550603,38.14103736644267],[12.704594135285285,38.19394226595845],[12.743046283722121,38.1907042939962],[12.774631977082137,38.17991001446075],[12.774631977082137,38.15507710218048],[12.791111469269737,38.13779704369409],[12.796604633332269,38.11078875872382],[12.808964252472522,38.08160859008986],[12.869389057160387,38.04917251752282],[12.902348041534689,38.02537692593861],[13.03418397903459,38.070798163726096],[13.080875873566123,38.08809407886622],[13.064396381378524,38.099982647364634],[13.069889545441058,38.112949789189535],[13.047916889190924,38.136716904134715],[13.080875873566123,38.1626358405859],[13.075382709503591,38.17559185481622],[13.122074604035125,38.19825933797022],[13.16601991653539,38.187466178077216],[13.168766498566658,38.174512274921696],[13.241550922394774,38.1907042939962],[13.282749652862877,38.214446078489814],[13.322575092316692,38.22307753495285],[13.332188129425676,38.205813598134526],[13.344547748565928,38.19286295796662],[13.361027240753529,38.19610083395603],[13.376133441925944,38.131315966526174],[13.411839008331514,38.101063330425056],[13.502476215363313,38.10646650598273],[13.507969379425845,38.1194324969524],[13.545048236847496,38.112949789189535],[13.545048236847496,38.06539235133211],[13.650791645050816,38.00590205538669],[13.746922016144248,37.97451499202438],[13.847172260285033,37.98966904403604],[13.948795795441002,38.035112420612414],[14.033939838410268,38.044846621406826],[14.065525531769387,38.019967758742105],[14.146549701691303,38.03186739948045],[14.292118549347538,38.01564013749313],[14.434940814972508,38.04592811939861],[14.429447650909973,38.03835729798064],[14.550297260284808,38.06214867215786],[14.64917421341041,38.087013204022476],[14.727451801301058,38.16371559639446],[14.759037494660179,38.16803445971129],[14.794743061066644,38.15831665744149],[14.915592670441479,38.19610083395603],[14.98975038528478,38.15615696992509],[15.058414936066447,38.15615696992509],[15.080387592316578,38.12591462924157],[15.209476947785218,38.19933856598357],[15.228703022004082,38.272688535981125],[15.258915424347117,38.272688535981125],[15.261662006378385,38.22307753495285],[15.530827045440724,38.307180561882824],[15.654423236847723,38.26837588020492],[15.58850526809732,38.236022799686644],[15.456669330597418,38.0178039800612],[15.283634662628517,37.8336494134593],[15.21497011184775,37.74682893940115],[15.242435932159518,37.722935428661415],[15.203983783722682,37.67729913640438],[15.201237201691416,37.6381599579992],[15.187504291535083,37.61205571141254],[15.19025087356635,37.56199695314365],[15.132572650909749,37.52061867886918],[15.088627338409482,37.48139702942699],[15.113346576690882,37.3286726450623],[15.272648334503451,37.241261872053435],[15.201237201691416,37.215018845563385],[15.212223529816482,37.16250539941084],[15.247929096222052,37.12090636165286],[15.311100482941184,37.10557463437737],[15.33856630325385,36.98719701173365],[15.256168842315851,37.00693943418548],[15.195744037628884,36.932330061503016],[15.110599994659614,36.846658706232894],[15.105106830597082,36.79169061907051],[15.162785053253684,36.677230602345986],[15.077641010285314,36.635366119934936],[15.019962787628714,36.692648619939796],[14.962284564972114,36.68604127658175],[14.901859760285145,36.73228075607211],[14.797489643097013,36.692648619939796],[14.679386615753442,36.71687068791304],[14.607975482941411,36.76089124956516],[14.487125873566573,36.782892061990346],[14.330570697785271,37.013519102580176],[14.179508686066503,37.077093191754464],[13.893864154816567,37.09023980307218],[13.822453022003632,37.134045371264136],[13.68237733840993,37.182202221079756],[13.545048236847496,37.2674957643816],[13.44891786575406,37.29153547292727],[13.358280658722261,37.33740813707819],[13.240177631378693,37.40725549559863],[13.16052675247196,37.485756007847925],[13.105595111847522,37.490114731950136],[13.027317523956874,37.50101042949303]]]}</osgeo:asGeoJSON>
+      
+      
+      
    </geo:SpatialThing>
 </rdf:RDF>
