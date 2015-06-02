@@ -2,6 +2,7 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -11,12 +12,11 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/constantine_smybatius">
-        
+    <foaf:Person rdf:about="http://nomisma.org/id/constantine_symbatius">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Symbatius</skos:prefLabel>
-        <skos:definition xml:lang="en">The Byzantine emperor Constantine (Symbatius).</skos:definition>
-        
-        
-        <dcterms:isReplacedBy rdf:resource="http://nomisma.org/id/constantine_smybatius"/>
+        <skos:definition xml:lang="en">The Byzantine co-emperor Symbatius, son of Leo V.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/page/Constantine_(son_of_Leo_V)"/>
     </foaf:Person>
 </rdf:RDF>
