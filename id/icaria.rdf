@@ -20,10 +20,12 @@
         <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Icaria"/>
         <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/599667"/>
         <geo:location rdf:resource="http://nomisma.org/id/icaria#this"/>
-   </nmo:Mint>
+        <skos:broader rdf:resource="http://nomisma.org/id/islands_off_ionia"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/icaria#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.583333</geo:lat>
         <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.166667</geo:long>
         <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
-   </geo:SpatialThing>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islands_off_ionia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

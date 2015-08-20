@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -7,39 +8,41 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Region rdf:about="http://nomisma.org/id/gallia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Gallia</skos:prefLabel>
-      <skos:definition xml:lang="en">The region of Gallia as defined in Head (1911)</skos:definition>
-      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/europe"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/993"/>
-      <skos:prefLabel xml:lang="de">Gallien</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Gaule</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Gallia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Галлия</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Gallië</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Gallia</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Γαλατία</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Галлія</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Galie</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">高卢</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Gaule</skos:prefLabel>
-      <skos:prefLabel xml:lang="no">Gallia</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Gallia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">갈리아</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Gallien</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Gália</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Galia</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Galia</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Gallia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ガリア</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Gàl·lia</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaul"/>
-      <skos:prefLabel xml:lang="bg">Галиен</skos:prefLabel>
-   </nmo:Region>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Gallia</skos:prefLabel>
+        <skos:definition xml:lang="en">The region of Gallia as defined in Head (1911)</skos:definition>
+        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/europe"/>
+        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/993"/>
+        <skos:prefLabel xml:lang="de">Gallien</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Gaule</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Gallia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Галлия</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Gallië</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gallia</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Γαλατία</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Галлія</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Galie</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">高卢</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Gaule</skos:prefLabel>
+        <skos:prefLabel xml:lang="no">Gallia</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Gallia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">갈리아</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Gallien</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Gália</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Galia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Galia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Gallia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ガリア</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Gàl·lia</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaul"/>
+        <skos:prefLabel xml:lang="bg">Галиен</skos:prefLabel>
+        <skos:broader rdf:resource="http://nomisma.org/id/greek_europe"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+    </nmo:Region>
 </rdf:RDF>

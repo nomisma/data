@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -7,25 +8,26 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Region rdf:about="http://nomisma.org/id/thrace">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Thrace</skos:prefLabel>
-      <skos:definition xml:lang="en">The region of Thrace as defined in Head (1911)</skos:definition>
-      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="de">Thrakien</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Thrace</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Tracia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Фракия</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Thracië</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Tracia</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Θράκη</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Тракия</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-   </nmo:Region>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Thrace</skos:prefLabel>
+        <skos:definition xml:lang="en">The region of Thrace as defined in Head (1911)</skos:definition>
+        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="de">Thrakien</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Thrace</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Tracia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Фракия</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Thracië</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Tracia</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Θράκη</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Тракия</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/greek_europe"/>
+    </nmo:Region>
 </rdf:RDF>

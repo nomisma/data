@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -7,42 +8,45 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Region rdf:about="http://nomisma.org/id/ionia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Ionia</skos:prefLabel>
-      <skos:definition xml:lang="en">The region of Ionia as defined in Head (1911)</skos:definition>
-      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/asia"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ionia"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/550597"/>
-      <skos:prefLabel xml:lang="de">Ionien</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Ionie</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Ionia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Иония</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Ionië</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Ionia</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Ιωνία</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Joonia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Jònia</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Jônia</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Jonia</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Jonia</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Іонія</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Jonien</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">이오니아</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">愛奧尼亞</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">イオニア</skos:prefLabel>
-      <skos:prefLabel xml:lang="no">Jonia</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Йония</skos:prefLabel>
-      <geo:location rdf:resource="http://nomisma.org/id/ionia#this"/>
-   </nmo:Region>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Ionia</skos:prefLabel>
+        <skos:definition xml:lang="en">The region of Ionia as defined in Head (1911)</skos:definition>
+        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/asia"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ionia"/>
+        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/550597"/>
+        <skos:prefLabel xml:lang="de">Ionien</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ionie</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Ionia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Иония</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Ionië</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ionia</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ιωνία</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Joonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Jònia</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Jônia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Jonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Jonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Іонія</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Jonien</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">이오니아</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">愛奧尼亞</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">イオニア</skos:prefLabel>
+        <skos:prefLabel xml:lang="no">Jonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Йония</skos:prefLabel>
+        <geo:location rdf:resource="http://nomisma.org/id/ionia#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+    </nmo:Region>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/ionia#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.2122881</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.1417236</geo:long>
-      <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.2122881</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.1417236</geo:long>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_asia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>
