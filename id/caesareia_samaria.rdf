@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -7,33 +8,36 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/caesareia_samaria">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Caesareia Samariae</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Caesarea</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Caesarea</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Кесария</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Cesarea</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">凯撒利亚</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Cezarea</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Cesareia</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Caesarea</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Caesarea</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Caesarea</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Césarée</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Καισάρεια</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">قيسارية</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Caesareia in Samaria.</skos:definition>
-      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/678401"/>
-      <geo:location rdf:resource="http://nomisma.org/id/caesareia_samaria#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Caesareia Samariae</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Caesarea</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Caesarea</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Кесария</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cesarea</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">凯撒利亚</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Cezarea</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Cesareia</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Caesarea</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Caesarea</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Caesarea</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Césarée</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Καισάρεια</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">قيسارية</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Caesareia in Samaria.</skos:definition>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/678401"/>
+        <geo:location rdf:resource="http://nomisma.org/id/caesareia_samaria#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/samaria"/>
+        <skos:altLabel xml:lang="en">Kaisareia</skos:altLabel>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/caesareia_samaria#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.501832</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.900416</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.501832</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.900416</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/samaria#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

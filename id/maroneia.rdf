@@ -8,7 +8,8 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/maroneia">
@@ -19,9 +20,11 @@
         <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Maroneia"/>
         <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/501507"/>
         <geo:location rdf:resource="http://nomisma.org/id/maroneia#this"/>
-   </nmo:Mint>
+        <skos:broader rdf:resource="http://nomisma.org/id/southern_coast_of_thrace"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/maroneia#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.90636915640242</geo:lat>
         <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.51912954421358</geo:long>
-   </geo:SpatialThing>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/southern_coast_of_thrace#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

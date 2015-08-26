@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -7,40 +8,43 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/cyzicus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Cyzicus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">キュジコス</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Cícico</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Kyzikos</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Cizico</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Cyzique</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Кізік</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Kyzikos</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Kyzikos</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Kyzikos</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Cízic</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Cízico</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Kyzikos</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Cyzicus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Кизик</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Κύζικο</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Kyzikos</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">سزيكس</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Cyzicus in Mysia.</skos:definition>
-      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Cyzicus"/>
-      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/511218"/>
-      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31080"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <geo:location rdf:resource="http://nomisma.org/id/cyzicus#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Cyzicus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">キュジコス</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cícico</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Kyzikos</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Cizico</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Cyzique</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Кізік</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Kyzikos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kyzikos</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Kyzikos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Cízic</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Cízico</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Kyzikos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Cyzicus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Кизик</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Κύζικο</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Kyzikos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">سزيكس</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Cyzicus in Mysia.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Cyzicus"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/511218"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31080"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <geo:location rdf:resource="http://nomisma.org/id/cyzicus#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/mysia"/>
+        <skos:altLabel xml:lang="en">Kyzikos</skos:altLabel>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/cyzicus#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.381323</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.892255</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.381323</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.892255</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/mysia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

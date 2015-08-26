@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -7,38 +8,40 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/sardes">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Sardis</skos:prefLabel>
-      <skos:altLabel xml:lang="en">Sardis</skos:altLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Sardes in ancient Asia Minor.</skos:definition>
-      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Sardis"/>
-      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/550867"/>
-      <skos:prefLabel xml:lang="de">Sardes</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Sardes</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Sardes</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Сарды</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Sardes</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Sardi</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Σάρδεις</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">薩第斯</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Sardes</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Sardes</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">サルディス</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Sárdis</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Sardes</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Сарди</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-      <geo:location rdf:resource="http://nomisma.org/id/sardes#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Sardis</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Sardis</skos:altLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Sardes in ancient Asia Minor.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Sardis"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/550867"/>
+        <skos:prefLabel xml:lang="de">Sardes</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sardes</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Sardes</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Сарды</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Sardes</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sardi</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Σάρδεις</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">薩第斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Sardes</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Sardes</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">サルディス</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Sárdis</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Sardes</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Сарди</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <geo:location rdf:resource="http://nomisma.org/id/sardes#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/lydia"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/sardes#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.488314</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.040286</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.488314</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.040286</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/lydia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>
