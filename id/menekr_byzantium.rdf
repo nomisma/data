@@ -2,7 +2,8 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:nmo="http://nomisma.org/ontology#"
@@ -17,10 +18,13 @@
         <skos:definition xml:lang="en">Moneyer attested on the coinage of Byzantium in Thrace, 3rd cent. BC </skos:definition>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/menekr_byzantium#issuer"/>
+        <skos:altLabel xml:lang="en">Menecr(…)</skos:altLabel>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/631982199"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/menekr_byzantium#issuer">
         <org:role rdf:resource="http://nomisma.org/id/issuer"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0299</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0200</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/byzantium"/>
     </org:Membership>
 </rdf:RDF>
