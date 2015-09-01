@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -7,18 +8,19 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-   <foaf:Person rdf:about="http://nomisma.org/id/dyrrhachii">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Dyrrhachii</skos:prefLabel>
-      <skos:definition xml:lang="en">The tribe of the Dyrrhachii.</skos:definition>
-      <skos:note>Head (1911) indicates that Epidamnos, later Dyrrachium, is the location of the mint that strick coins in the name of this tribe.</skos:note>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/dyrrhachii#authority"/>
-   </foaf:Person>
+   <nmo:Ethnic rdf:about="http://nomisma.org/id/dyrrhachii">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Dyrrhachii</skos:prefLabel>
+        <skos:definition xml:lang="en">The tribe of the Dyrrhachii.</skos:definition>
+        <skos:note>Head (1911) indicates that Epidamnos, later Dyrrachium, is the location of the mint that strick coins in the name of this tribe.</skos:note>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/dyrrhachii#authority"/>
+        <nmo:hasMint rdf:resource="http://nomisma.org/id/dyrrhachium"/>
+   </nmo:Ethnic>
    <org:Membership rdf:about="http://nomisma.org/id/dyrrhachii#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
    </org:Membership>
 </rdf:RDF>
