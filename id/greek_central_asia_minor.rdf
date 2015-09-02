@@ -13,20 +13,11 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/_mesembria">
+    <nmo:Region rdf:about="http://nomisma.org/id/greek_central_asia_minor">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="el">ΔΙ</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Di(...)</skos:prefLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/_mesembria#issuer"/>
-        <skos:definition xml:lang="en">Magistrate attested on the Alexander coinage of Mesembria, c. 250-175 BC. See M. J. Price, Coinage in the Name of Alexander the Great and Philip Arrhidaeus (London/Zurich, 1994), no. 1002</skos:definition>
+        <skos:prefLabel xml:lang="en">Central Asia Minor</skos:prefLabel>
+        <skos:definition xml:lang="en">The region of central Asia Minor</skos:definition>
+        <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    
-    
-    <org:Membership rdf:about="http://nomisma.org/id/_mesembria#issuer">
-        <org:organization rdf:resource="http://nomisma.org/id/mesembria"/>
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0250</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0175</nmo:hasEndDate>
-    </org:Membership>
+    </nmo:Region>
 </rdf:RDF>
