@@ -2,7 +2,8 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:nmo="http://nomisma.org/ontology#"
@@ -17,5 +18,12 @@
         <skos:definition xml:lang="en">Eligius (c. 588 – 1 December 660). Bishop of Noyon, Merovingian moneyer and goldsmith, patron Saint of Numismatics.
 Reference:  Jean Lafaurie, Eligius Monetarius, Revue Numismatique 1977, pp. 111-151.</skos:definition>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Saint_Eligius"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/3273353"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/eligius#merovingian_monetarius"/>
     </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/eligius#merovingian_monetarius">
+        <org:role rdf:resource="http://nomisma.org/id/merovingian_monetarius"/>
+    </org:Membership>
 </rdf:RDF>
