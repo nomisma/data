@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/stuttgart">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Stuttgart</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint(s) at the City of Stuttgart in Germany. It is today the capital of the National State of Baden-Württemberg.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:prefLabel xml:lang="de">Stuttgart</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Stoccarda</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Stuttgart</skos:prefLabel>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x29352"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7004425"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/118980"/>
+        <geo:lat rdf:datatype="xsd:float">48.813333</geo:lat>
+        <geo:long rdf:datatype="xsd:float">9.210833</geo:long>
+        <geo:location rdf:resource="http://nomisma.org/id/stuttgart#this"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Stuttgart"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2825297/stuttgart.html"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/stuttgart#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.783333</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.183333</geo:long>
+    </geo:SpatialThing>
+</rdf:RDF>
