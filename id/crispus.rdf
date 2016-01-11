@@ -2,7 +2,8 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:nmo="http://nomisma.org/ontology#"
@@ -14,12 +15,21 @@
     <foaf:Person rdf:about="http://nomisma.org/id/crispus">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Crispus</skos:prefLabel>
-        <skos:definition xml:lang="en">The Roman emperor Crispus.</skos:definition>
+        <skos:definition xml:lang="en">The Roman emperor Crispus, son of Constantine I.</skos:definition>
         <skos:prefLabel xml:lang="de">Crispus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Kryspus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Crispo</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Crispo</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Flavius Iulius Crispus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Crispus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">クリスプス</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Крисп</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Flávio Júlio Crispo</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/232497533"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Crispus"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/crispus#roman_emperor"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140665"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/crispus#roman_emperor">
         <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
