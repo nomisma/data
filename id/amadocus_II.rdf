@@ -2,7 +2,8 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:nmo="http://nomisma.org/ontology#"
@@ -14,10 +15,11 @@
     <foaf:Person rdf:about="http://nomisma.org/id/amadocus_II">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Amadocus II</skos:prefLabel>
-        <skos:definition xml:lang="en">King of Thrace</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/page/Amadocus_II"/>
+        <skos:definition xml:lang="en">King of Thrace.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amadocus_II"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/amadocus_II#ruler"/>
+        <skos:altLabel xml:lang="de">Amadokos II.</skos:altLabel>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/amadocus_II#ruler">
         <org:role rdf:resource="http://nomisma.org/id/ruler"/>
