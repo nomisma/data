@@ -1,0 +1,1102 @@
+@prefix : <http://nomisma.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <http://nomisma.org/ontology#> .
+
+<http://nomisma.org/ontology#> rdf:type owl:Ontology ;
+                               
+                               skos:definition "Nomisma.org is a collaborative project to provide stable digital representations of numismatic concepts according to the principles of Linked Open Data. These take the form of http URIs that also provide access to reusable information about those concepts, along with links to other resources."^^xsd:string .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+
+skos:definition rdf:type owl:AnnotationProperty .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://nomisma.org/ontology#hasAppearance
+
+:hasAppearance rdf:type owl:ObjectProperty ;
+               
+               skos:definition "Describes the appearance of a numismatic object. Eg. Iconography, legends and physical characteristics."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasAuthority
+
+:hasAuthority rdf:type owl:ObjectProperty ;
+              
+              skos:definition "Identifies the authority in whose name (explicitly or implicitly) a numismatic object was issued. Eg. Charlemagne, Augustus, Sparta, Federal Republic of Germany, Bank of England"^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasAxis
+
+:hasAxis rdf:type owl:ObjectProperty ;
+         
+         skos:definition "Describes the directional relationship between the obverse and reverse of a numismatic object."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasBearsDate
+
+:hasBearsDate rdf:type owl:ObjectProperty ;
+              
+              skos:definition "Describes a date that appears on an object"^^xsd:string ;
+              
+              rdfs:subPropertyOf :hasAppearance .
+
+
+
+###  http://nomisma.org/ontology#hasCollection
+
+:hasCollection rdf:type owl:ObjectProperty ;
+               
+               skos:definition "Identifies the modern collection or repository in which a coin resides or has resided in the past. Collections are defined by Nomisma IDs"^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasControlmark
+
+:hasControlmark rdf:type owl:ObjectProperty ;
+                
+                skos:definition "Identifies a letter, symbol or an inscription on an object intended to distinguish it as part of a group of coins within an issue or series."^^xsd:string ;
+                
+                rdfs:subPropertyOf :hasPeculiarityOfProduction .
+
+
+
+###  http://nomisma.org/ontology#hasCorrosion
+
+:hasCorrosion rdf:type owl:ObjectProperty ;
+              
+              skos:definition "Describes degradation due to chemical reaction with an environment, commonly in terms prescribed by \"Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne.\" (OCLC 174260520)"^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasCountermark
+
+:hasCountermark rdf:type owl:ObjectProperty ;
+                
+                skos:definition "Identifies a mark or symbol punched into an object at some point during its time in circulation."^^xsd:string ;
+                
+                rdfs:subPropertyOf :hasIconography ,
+                                   :hasSecondaryTreatment .
+
+
+
+###  http://nomisma.org/ontology#hasDate
+
+:hasDate rdf:type owl:ObjectProperty ;
+         
+         skos:definition "Describes date (range) assigned in a numismatic context."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasDenomination
+
+:hasDenomination rdf:type owl:ObjectProperty ;
+                 
+                 skos:definition "Describes the monetary value assigned to an object within a denominational system. Examples: tetradrachm, chalkous, denarius."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasDepth
+
+:hasDepth rdf:type owl:ObjectProperty ;
+          
+          skos:definition "Describes the depth of an object."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasDiameter
+
+:hasDiameter rdf:type owl:ObjectProperty ;
+             
+             skos:definition "Describes diameter of an object."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasDie
+
+:hasDie rdf:type owl:ObjectProperty ;
+        
+        skos:definition "Describes the die from which a numismatic object has been produced."^^xsd:string ;
+        
+        rdfs:subPropertyOf :hasProductionObject .
+
+
+
+###  http://nomisma.org/ontology#hasEdge
+
+:hasEdge rdf:type owl:ObjectProperty ;
+         
+         skos:definition "Describes characteristics of the edge of a numismatic object."^^xsd:string ;
+         
+         rdfs:subPropertyOf :hasAppearance .
+
+
+
+###  http://nomisma.org/ontology#hasEndDate
+
+:hasEndDate rdf:type owl:ObjectProperty ;
+            
+            skos:definition "Identifies the final date in a range assigned in a numismatic context."^^xsd:string ;
+            
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://nomisma.org/ontology#hasFindType
+
+:hasFindType rdf:type owl:ObjectProperty ;
+             
+             skos:definition "Describes the nature of and archaeological or other find. E.g. hoard, ritual deposit, single find, find in survey."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasFindspot
+
+:hasFindspot rdf:type owl:ObjectProperty ;
+             
+             skos:definition "Describes the location of the discovery of an object, whether by accident or in archaeological excavation."^^xsd:string ;
+             
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://nomisma.org/ontology#hasHeight
+
+:hasHeight rdf:type owl:ObjectProperty ;
+           
+           skos:definition "Describes the height of a numismatic object."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasIconography
+
+:hasIconography rdf:type owl:ObjectProperty ;
+                
+                skos:definition "Describes an iconography placed on a numismatic object."^^xsd:string ;
+                
+                rdfs:subPropertyOf :hasAppearance .
+
+
+
+###  http://nomisma.org/ontology#hasIssuer
+
+:hasIssuer rdf:type owl:ObjectProperty ;
+           
+           skos:definition "Identifies the person administratively responsible for the issue of a numismatic object, generally named in some capacity on the object."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasLegend
+
+:hasLegend rdf:type owl:ObjectProperty ;
+           
+           skos:definition "Describes the inscription or printing placed on a numismatic object as part of the production process."^^xsd:string ;
+           
+           rdfs:subPropertyOf :hasAppearance .
+
+
+
+###  http://nomisma.org/ontology#hasManufacture
+
+:hasManufacture rdf:type owl:ObjectProperty ;
+                
+                skos:definition "Describes the method of manufacture of a numismatic object. Eg. struck, cast, printed"^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasMaterial
+
+:hasMaterial rdf:type owl:ObjectProperty ;
+             
+             skos:definition "Describes the physical material from which a numismatic object is made."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasMaxDepth
+
+:hasMaxDepth rdf:type owl:ObjectProperty ;
+             
+             skos:definition "Describes the maximum depth of a numismatic object."^^xsd:string ;
+             
+             rdfs:subPropertyOf :hasDepth .
+
+
+
+###  http://nomisma.org/ontology#hasMaxDiameter
+
+:hasMaxDiameter rdf:type owl:ObjectProperty ;
+                
+                skos:definition "Describes the maximum diameter of a numismatic object."^^xsd:string ;
+                
+                rdfs:subPropertyOf :hasDiameter .
+
+
+
+###  http://nomisma.org/ontology#hasMaxHeight
+
+:hasMaxHeight rdf:type owl:ObjectProperty ;
+              
+              skos:definition "Describes the maximum height of a numismatic object."^^xsd:string ;
+              
+              rdfs:subPropertyOf :hasHeight .
+
+
+
+###  http://nomisma.org/ontology#hasMaxWidth
+
+:hasMaxWidth rdf:type owl:ObjectProperty ;
+             
+             skos:definition "Describes the maximum width of a numismatic object."^^xsd:string ;
+             
+             rdfs:subPropertyOf :hasWidth .
+
+
+
+###  http://nomisma.org/ontology#hasMinDepth
+
+:hasMinDepth rdf:type owl:ObjectProperty ;
+             
+             skos:definition "Describes the minimum depth of a numismatic object."^^xsd:string ;
+             
+             rdfs:subPropertyOf :hasDepth .
+
+
+
+###  http://nomisma.org/ontology#hasMinDiameter
+
+:hasMinDiameter rdf:type owl:ObjectProperty ;
+                
+                skos:definition "Describes the minimum diameter of a numismatic object."^^xsd:string ;
+                
+                rdfs:subPropertyOf :hasDiameter .
+
+
+
+###  http://nomisma.org/ontology#hasMinHeight
+
+:hasMinHeight rdf:type owl:ObjectProperty ;
+              
+              skos:definition "Describes the minimum height of a numismatic object."^^xsd:string ;
+              
+              rdfs:subPropertyOf :hasHeight .
+
+
+
+###  http://nomisma.org/ontology#hasMinWidth
+
+:hasMinWidth rdf:type owl:ObjectProperty ;
+             
+             skos:definition "Describes the minimum width of a numismatic object."^^xsd:string ;
+             
+             rdfs:subPropertyOf :hasWidth .
+
+
+
+###  http://nomisma.org/ontology#hasMint
+
+:hasMint rdf:type owl:ObjectProperty ;
+         
+         skos:definition "Identifies the place of manufacture or issue of a numismatic object."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasMintmark
+
+:hasMintmark rdf:type owl:ObjectProperty ;
+             
+             skos:definition "Identifies the letter, symbol or an inscription on a numismatic object indicating the mint where it was produced."^^xsd:string ;
+             
+             rdfs:subPropertyOf :hasControlmark ,
+                                :hasIconography .
+
+
+
+###  http://nomisma.org/ontology#hasMonogram
+
+:hasMonogram rdf:type owl:ObjectProperty ;
+             
+             skos:definition "Identifies the monogram that appears on a numismatic object."^^xsd:string ;
+             
+             rdfs:subPropertyOf :hasIconography .
+
+
+
+###  http://nomisma.org/ontology#hasObjectType
+
+:hasObjectType rdf:type owl:ObjectProperty ;
+               
+               skos:definition "Identifies the type of numismatic object. E.g. Coin, token, banknote."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasObverse
+
+:hasObverse rdf:type owl:ObjectProperty ;
+            
+            skos:definition "Identifies a particular face of a numismatic object. Normally it will be the face carrying the represenation, badge or inscription of the issuing authority. In ancient, hand-struck coinage it is generally the lower (anvil) die. In English often known as \"heads\"."^^xsd:string ;
+            
+            rdfs:subPropertyOf :hasAppearance .
+
+
+
+###  http://nomisma.org/ontology#hasPeculiarity
+
+:hasPeculiarity rdf:type owl:ObjectProperty ;
+                
+                skos:definition "Describes a feature of an individual numismatic object that marks it out from other objects of the same type. Can a result of production, such as plating, or post-production activity, such as piercing, cutting or mounting."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasPeculiarityOfProduction
+
+:hasPeculiarityOfProduction rdf:type owl:ObjectProperty ;
+                            
+                            skos:definition "Describes anomalies or unusual features which are related to the process of production of a numismatic object; for example serratus, plating, doublestrike, etc."^^xsd:string ;
+                            
+                            rdfs:subPropertyOf :hasPeculiarity .
+
+
+
+###  http://nomisma.org/ontology#hasPortrait
+
+:hasPortrait rdf:type owl:ObjectProperty ;
+             
+             skos:definition "Identifies the person whose portrait appears on a numismatic object."^^xsd:string ;
+             
+             rdfs:subPropertyOf :hasIconography .
+
+
+
+###  http://nomisma.org/ontology#hasProductionDate
+
+:hasProductionDate rdf:type owl:ObjectProperty ;
+                   
+                   skos:definition "Describes the date (range) of the production of a numismatic object."^^xsd:string ;
+                   
+                   rdfs:subPropertyOf :hasDate .
+
+
+
+###  http://nomisma.org/ontology#hasProductionObject
+
+:hasProductionObject rdf:type owl:ObjectProperty ;
+                     
+                     skos:definition ""^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasReferenceWork
+
+:hasReferenceWork rdf:type owl:ObjectProperty ;
+                  
+                  skos:definition "Specifies a published work of reference relevant to a numismatic object."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasReverse
+
+:hasReverse rdf:type owl:ObjectProperty ;
+            
+            skos:definition "Identifies a the face of a numismatic object opposed to the obverse. In ancient, hand-struck coinage it is generally the upper die. In English often known as \"tails\"."^^xsd:string ;
+            
+            rdfs:subPropertyOf :hasAppearance .
+
+
+
+###  http://nomisma.org/ontology#hasSecondaryTreatment
+
+:hasSecondaryTreatment rdf:type owl:ObjectProperty ;
+                       
+                       skos:definition "Describes anomalies or unusual features which arise subsequent to the actual production of a coin; for example halving, chop-marking, etc."^^xsd:string ;
+                       
+                       rdfs:subPropertyOf :hasPeculiarity .
+
+
+
+###  http://nomisma.org/ontology#hasStartDate
+
+:hasStartDate rdf:type owl:ObjectProperty ;
+              
+              skos:definition "Identifies the initial date in a range assigned in a numismatic context."^^xsd:string ;
+              
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://nomisma.org/ontology#hasStatedAuthority
+
+:hasStatedAuthority rdf:type owl:ObjectProperty ;
+                    
+                    skos:definition "The authority as stated on a numismatic object. This may, but need not, be the same as the real authority behind the object (expressed separately as hasAuthority)."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasTypeSeriesItem
+
+:hasTypeSeriesItem rdf:type owl:ObjectProperty ;
+                   
+                   skos:definition "Identifies the position of a numismatic object within a published or recognized reference list of coin types, such as a catalogue or corpus."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasWear
+
+:hasWear rdf:type owl:ObjectProperty ;
+         
+         skos:definition "Describes wear visible on a numismatic object due to use or circulation, commonly in terms prescribed by \"Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne.\" (OCLC 174260520)"^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasWeight
+
+:hasWeight rdf:type owl:ObjectProperty ;
+           
+           skos:definition "Describes the actual weight of a numismatic object."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasWeightStandard
+
+:hasWeightStandard rdf:type owl:ObjectProperty ;
+                   
+                   skos:definition "Describes the conventional weight system according to which a numismatic object of intrinsic value was produced."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#hasWidth
+
+:hasWidth rdf:type owl:ObjectProperty ;
+          
+          skos:definition "Describes the width of a numismatic object."^^xsd:string ;
+          
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://nomisma.org/ontology#representsObjectType
+
+:representsObjectType rdf:type owl:ObjectProperty ;
+                      
+                      skos:definition "To indicate what kind of object type is represented by (for example) an type series item (a coin, banknote, token, ...)."^^xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://nomisma.org/ontology#CoinWear
+
+:CoinWear rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Wear .
+
+
+
+###  http://nomisma.org/ontology#Collection
+
+:Collection rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#Context
+
+:Context rdf:type owl:Class ;
+         
+         skos:definition "The archaeological context of a numismatic object. "^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#Controlmark
+
+:Controlmark rdf:type owl:Class ;
+             
+             skos:definition "A control mark is a letter, symbol or an inscription on a coin intended to distinguish a group of coins within an issue or series."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#Corrosion
+
+:Corrosion rdf:type owl:Class ;
+           
+           skos:definition "Degradation to a numismatic object due to chemical reaction with its environment."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#Countermark
+
+:Countermark rdf:type owl:Class ;
+             
+             rdfs:subClassOf :SecondaryTreatment ;
+             
+             skos:definition "A mark or symbol punched into a coin at some point during its time in circulation."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#Denomination
+
+:Denomination rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#DepositionType
+
+:DepositionType rdf:type owl:Class ;
+                
+                skos:definition "The circumstances under which an object or group of objects came to be deposited and part of the archaeological record, for example as a hoard, votive deposit or chance loss."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#DieWear
+
+:DieWear rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Wear ;
+         
+         skos:definition "Wear on a die occurring as a result of its use."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#DiscoveryType
+
+:DiscoveryType rdf:type owl:Class ;
+               
+               skos:definition "The circumstances under which an object or group of objects came to be discovered, for example as a chance stray find or a controlled excavation."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#Ethnic
+
+:Ethnic rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#FieldOfNumismatics
+
+:FieldOfNumismatics rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#Find
+
+:Find rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Context ;
+      
+      skos:definition " "^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#Manufacture
+
+:Manufacture rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#Material
+
+:Material rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#Mint
+
+:Mint rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#Mintmark
+
+:Mintmark rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Controlmark ;
+          
+          skos:definition "A mint mark is a letter, symbol or an inscription on a coin indicating the mint where the coin was produced."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#Monogram
+
+:Monogram rdf:type owl:Class ;
+          
+          skos:definition "A monogram is a symbol made by overlapping or combining of letters or other graphemes."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#NumismaticObject
+
+:NumismaticObject rdf:type owl:Class ;
+                  
+                  skos:definition "The physical objects that are of interest in the numismatic domain."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#NumismaticTerm
+
+:NumismaticTerm rdf:type owl:Class ;
+                
+                skos:definition "A term used within the field of numismatics to describe or to otherwise convey information specific to the numismatic discipline, or to numismatic objects."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#ObjectType
+
+:ObjectType rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#Peculiarity
+
+:Peculiarity rdf:type owl:Class ;
+             
+             skos:definition "A feature of a numismatic object that is not part of the original design. "^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#PeculiarityOfProduction
+
+:PeculiarityOfProduction rdf:type owl:Class ;
+                         
+                         rdfs:subClassOf :Peculiarity ;
+                         
+                         skos:definition "Anomalies or unusual features which are related to the process of production of a coin; for example serratus, plating, doublestrike, etc."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#ReferenceWork
+
+:ReferenceWork rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#Region
+
+:Region rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#SecondaryTreatment
+
+:SecondaryTreatment rdf:type owl:Class ;
+                    
+                    rdfs:subClassOf :Peculiarity ;
+                    
+                    skos:definition "Anomalies or unusual features which arise subsequent to the actual production of a coin; for example halving, chop-marking, etc."^^xsd:string .
+
+
+
+###  http://nomisma.org/ontology#TypeSeries
+
+:TypeSeries rdf:type owl:Class ;
+            
+            rdfs:subClassOf :ReferenceWork .
+
+
+
+###  http://nomisma.org/ontology#TypeSeriesItem
+
+:TypeSeriesItem rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#Wear
+
+:Wear rdf:type owl:Class .
+
+
+
+###  http://nomisma.org/ontology#WeightStandard
+
+:WeightStandard rdf:type owl:Class .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://nomisma.org/id/coin
+
+<http://nomisma.org/id/coin> rdf:type owl:NamedIndividual ;
+                             
+                             owl:sameAs :Coin .
+
+
+
+###  http://nomisma.org/id/coin_wear
+
+<http://nomisma.org/id/coin_wear> rdf:type owl:NamedIndividual ;
+                                  
+                                  owl:sameAs :CoinWear .
+
+
+
+###  http://nomisma.org/id/collection
+
+<http://nomisma.org/id/collection> rdf:type owl:NamedIndividual ;
+                                   
+                                   owl:sameAs :Collection .
+
+
+
+###  http://nomisma.org/id/denomination
+
+<http://nomisma.org/id/denomination> rdf:type owl:NamedIndividual ;
+                                     
+                                     owl:sameAs :Denomination .
+
+
+
+###  http://nomisma.org/id/ethnic
+
+<http://nomisma.org/id/ethnic> rdf:type owl:NamedIndividual ;
+                               
+                               owl:sameAs :Ethnic .
+
+
+
+###  http://nomisma.org/id/field_of_numismatics
+
+<http://nomisma.org/id/field_of_numismatics> rdf:type owl:NamedIndividual ;
+                                             
+                                             owl:sameAs :FieldOfNumismatics .
+
+
+
+###  http://nomisma.org/id/manufacture
+
+<http://nomisma.org/id/manufacture> rdf:type owl:NamedIndividual ;
+                                    
+                                    owl:sameAs :Manufacture .
+
+
+
+###  http://nomisma.org/id/material
+
+<http://nomisma.org/id/material> rdf:type owl:NamedIndividual ;
+                                 
+                                 owl:sameAs :Material .
+
+
+
+###  http://nomisma.org/id/medal
+
+<http://nomisma.org/id/medal> rdf:type owl:NamedIndividual ;
+                              
+                              owl:sameAs :Medal .
+
+
+
+###  http://nomisma.org/id/mint
+
+<http://nomisma.org/id/mint> rdf:type owl:NamedIndividual ;
+                             
+                             owl:sameAs :Mint .
+
+
+
+###  http://nomisma.org/id/object_type
+
+<http://nomisma.org/id/object_type> rdf:type owl:NamedIndividual ;
+                                    
+                                    owl:sameAs :ObjectType .
+
+
+
+###  http://nomisma.org/id/reference_work
+
+<http://nomisma.org/id/reference_work> rdf:type owl:NamedIndividual ;
+                                       
+                                       owl:sameAs :ReferenceWork .
+
+
+
+###  http://nomisma.org/id/region
+
+<http://nomisma.org/id/region> rdf:type owl:NamedIndividual ;
+                               
+                               owl:sameAs :Region .
+
+
+
+###  http://nomisma.org/id/seal
+
+<http://nomisma.org/id/seal> rdf:type owl:NamedIndividual ;
+                             
+                             owl:sameAs :Seal .
+
+
+
+###  http://nomisma.org/id/tessera
+
+<http://nomisma.org/id/tessera> rdf:type owl:NamedIndividual ;
+                                
+                                owl:sameAs :Tessera .
+
+
+
+###  http://nomisma.org/id/token
+
+<http://nomisma.org/id/token> rdf:type owl:NamedIndividual ;
+                              
+                              owl:sameAs :Token .
+
+
+
+###  http://nomisma.org/id/type_series
+
+<http://nomisma.org/id/type_series> rdf:type owl:NamedIndividual ;
+                                    
+                                    owl:sameAs :TypeSeries .
+
+
+
+###  http://nomisma.org/id/type_series_item
+
+<http://nomisma.org/id/type_series_item> rdf:type owl:NamedIndividual ;
+                                         
+                                         owl:sameAs :TypeSeriesItem .
+
+
+
+###  http://nomisma.org/id/weight_standard
+
+<http://nomisma.org/id/weight_standard> rdf:type owl:NamedIndividual ;
+                                        
+                                        owl:sameAs :WeightStandard .
+
+
+
+###  http://nomisma.org/ontology#Coin
+
+:Coin rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#CoinWear
+
+:CoinWear rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Collection
+
+:Collection rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Denomination
+
+:Denomination rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Ethnic
+
+:Ethnic rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#FieldOfNumismatics
+
+:FieldOfNumismatics rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Manufacture
+
+:Manufacture rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Material
+
+:Material rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Medal
+
+:Medal rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Medallion
+
+:Medallion rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Mint
+
+:Mint rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#ObjectType
+
+:ObjectType rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#ReferenceWork
+
+:ReferenceWork rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Region
+
+:Region rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Seal
+
+:Seal rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Tessera
+
+:Tessera rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Token
+
+:Token rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#TypeSeries
+
+:TypeSeries rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#TypeSeriesItem
+
+:TypeSeriesItem rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#Wear
+
+:Wear rdf:type owl:NamedIndividual .
+
+
+
+###  http://nomisma.org/ontology#WeightStandard
+
+:WeightStandard rdf:type owl:NamedIndividual .
+
+
+
+
+
+#################################################################
+#
+#    Annotations
+#
+#################################################################
+
+
+:Ethnic skos:definition "Generally, a tribal or ethnic name appearing on a coin. Distinct from personal authority as indicated by the presence of ruler's name."^^xsd:string .
+
+
+
+:Wear skos:definition "Wear on a numismatic object occurring as a result of its use."^^xsd:string .
+
+
+
+:Material skos:definition "The physical material from which an object is made."^^xsd:string .
+
+
+
+:FieldOfNumismatics skos:definition "Any widely recognized area of study within the discipline of numismatics."^^xsd:string .
+
+
+
+:Mint skos:definition "Generic term for a place of manufacture of a coin or for the issuing city."^^xsd:string .
+
+
+
+:Collection skos:definition "General term meaning the objects held by an institution or individual. Or the holding entity itself."^^xsd:string .
+
+
+
+:ReferenceWork skos:definition "A published work of reference relevant to a numismatic object."^^xsd:string .
+
+
+
+:CoinWear skos:definition "Wear on a coin occurring as a result of its use."^^xsd:string .
+
+
+
+:WeightStandard skos:definition "The conventional weight system according to which a numismatic object was produced."^^xsd:string .
+
+
+
+:TypeSeries skos:definition "A published or recognized reference list of coin types, such as a catalogue or corpus."^^xsd:string .
+
+
+
+:ObjectType skos:definition "The numismatic type of an object. Ex. 'coin'."^^xsd:string .
+
+
+
+:Denomination skos:definition "Term indicating the value of a coin. Examples: tetradrachm, chalkous, denarius."^^xsd:string .
+
+
+
+:Manufacture skos:definition "The technique of manufacture. For example, struck or cast."^^xsd:string .
+
+
+
+:Region skos:definition "An area of geographic significance and/or taxonomic importance, perhaps part of a larger geographic/administrative unit, having definable characteristics but not always fixed boundaries."^^xsd:string .
+
+
+
+:TypeSeriesItem skos:definition "An item within a reference list of coin types."^^xsd:string .
+
+
+
+
+###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+
