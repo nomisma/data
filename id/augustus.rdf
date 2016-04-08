@@ -148,9 +148,21 @@
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12326866z"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0ngg"/>
         <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/136"/>
+        <bio:birth xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/augustus#birth"/>
+        <bio:death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/augustus#death"/>
     </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/augustus#roman_emperor">
         <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0026</nmo:hasStartDate>
    </org:Membership>
+    <bio:Birth xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/augustus#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0063-09-23</dcterms:date>
+    </bio:Birth>
+    <bio:Death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/augustus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0014-09-19</dcterms:date>
+    </bio:Death>
 </rdf:RDF>
