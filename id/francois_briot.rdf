@@ -23,6 +23,8 @@
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/294159059"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/francois_briot#engraver"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/francois_briot#engraver2"/>
+        <bio:birth xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/francois_briot#birth"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/francois_briot#medalist">
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1579</nmo:hasStartDate>
@@ -38,4 +40,8 @@
         <org:role rdf:resource="http://nomisma.org/id/engraver"/>
         <org:organization rdf:resource="http://nomisma.org/id/montbeliard"/>
     </org:Membership>
+    <bio:Birth xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/francois_briot#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</dcterms:date>
+    </bio:Birth>
 </rdf:RDF>

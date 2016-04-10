@@ -20,6 +20,8 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
         <skos:definition xml:lang="en">Die cutter in Stuttgart, Baden-Wuerttemberg, Germany 1561. Died in 1601. Lit.: U. Klein and A. Raff, Die Württembergischen Münzen von 1373 - 1693 (1993), p. 74, 87</skos:definition>
         <org:hasMembership rdf:resource="http://nomisma.org/id/stefan_schoen_stuttgart#modern_period_mint_staff"/>
+        <bio:death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/stefan_schoen_stuttgart#death"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/stefan_schoen_stuttgart#engraver">
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1561</nmo:hasStartDate>
@@ -30,4 +32,8 @@
     <org:Membership rdf:about="http://nomisma.org/id/stefan_schoen_stuttgart#modern_period_mint_staff">
         <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
     </org:Membership>
+    <bio:Death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/stefan_schoen_stuttgart#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1601</dcterms:date>
+    </bio:Death>
 </rdf:RDF>

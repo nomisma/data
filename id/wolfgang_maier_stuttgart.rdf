@@ -22,6 +22,8 @@
         <skos:definition xml:lang="en">Mint Warden in Stuttgart, Baden-Wuerttemberg, Germany 1579 ?, 1606-1615. Died in 1615. Lit.: U. Klein and A. Raff, Die Württembergischen Münzen von 1373 - 1693 (1993), p. 87, 109.</skos:definition>
         <skos:altLabel xml:lang="de">Wolf Maier</skos:altLabel>
         <skos:altLabel xml:lang="de">Wolf Meier</skos:altLabel>
+        <bio:death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/wolfgang_maier_stuttgart#death"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/wolfgang_maier_stuttgart#modern_period_mint_staff">
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1579</nmo:hasStartDate>
@@ -29,4 +31,8 @@
         <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1615</nmo:hasEndDate>
     </org:Membership>
+    <bio:Death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/wolfgang_maier_stuttgart#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1615</dcterms:date>
+    </bio:Death>
 </rdf:RDF>

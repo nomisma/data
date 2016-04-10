@@ -19,10 +19,16 @@
         <skos:prefLabel xml:lang="en">Alexander Baudistel</skos:prefLabel>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
         <skos:definition xml:lang="en">Mint Warden in Stuttgart, Baden-Wuerttemberg, Germany from 1595 to ?. Died in 1598. Lit.: U. Klein and A. Raff, Die Württembergischen Münzen von 1373 - 1693 (1993), p. 109</skos:definition>
+        <bio:death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/alexander_baudistel_stuttgart#death"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/alexander_baudistel_stuttgart#modern_period_mint_staff">
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1595</nmo:hasStartDate>
         <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
         <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
     </org:Membership>
+    <bio:Death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/alexander_baudistel_stuttgart#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1598</dcterms:date>
+    </bio:Death>
 </rdf:RDF>
