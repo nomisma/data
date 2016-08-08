@@ -18,7 +18,10 @@
         <org:hasMembership rdf:resource="http://nomisma.org/id/reiner_gronwalt_colonia_claudia_ara_agrippinensium#modern_period_mint_staff"/>
         <skos:prefLabel xml:lang="en">Reiner Gronwalt</skos:prefLabel>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <skos:definition xml:lang="en">Mintmaster in Cologne (City), Germany from 1602 to 1605. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926), pp. 47-49</skos:definition>
+        <skos:definition xml:lang="en">Mintmaster in Cologne (City), Germany, from 1602 to 1605, he died in office sometime soon before 25 April 1605. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926), pp. 39, 47.</skos:definition>
+        <skos:altLabel xml:lang="de">Reinerus Groinwaldt</skos:altLabel>
+        <bio:death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/reiner_gronwalt_colonia_claudia_ara_agrippinensium#death"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/reiner_gronwalt_colonia_claudia_ara_agrippinensium#modern_period_mint_staff">
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1602</nmo:hasStartDate>
@@ -26,4 +29,8 @@
         <org:organization rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
         <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
     </org:Membership>
+    <bio:Death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/reiner_gronwalt_colonia_claudia_ara_agrippinensium#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1605</dcterms:date>
+    </bio:Death>
 </rdf:RDF>

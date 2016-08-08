@@ -18,7 +18,10 @@
         <org:hasMembership rdf:resource="http://nomisma.org/id/johann_post_colonia_claudia_ara_agrippinensium#modern_period_mint_staff"/>
         <skos:prefLabel xml:lang="en">Johann Post</skos:prefLabel>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <skos:definition xml:lang="en">Mint Warden in Cologne (City), Germany from 1685 to 1702?, and General Warden from 1686 to 1702. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926), pp. 47-49</skos:definition>
+        <skos:definition xml:lang="en">The Goldsmith and Silversmith Johann Post was appointed Mint Warden and General Warden for the Cologne Circle, Germany, on 18 July 1685, soon after Rodorff''s death. His earliest appointment was noted as Citizen on 18 May 1663, and he died on 15 September 1702. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926), pp. 47-49, 224; Wolfgang Scheffler, Goldschmiede Rheinland-Westfalens - Aachen - Köln (1973) n. 1571, pp. 546-548.</skos:definition>
+        <skos:altLabel xml:lang="de">Johannes Post</skos:altLabel>
+        <bio:death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/johann_post_colonia_claudia_ara_agrippinensium#death"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/johann_post_colonia_claudia_ara_agrippinensium#modern_period_mint_staff">
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1685</nmo:hasStartDate>
@@ -26,4 +29,8 @@
         <org:organization rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
         <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
     </org:Membership>
+    <bio:Death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/johann_post_colonia_claudia_ara_agrippinensium#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1702</dcterms:date>
+    </bio:Death>
 </rdf:RDF>

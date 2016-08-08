@@ -18,8 +18,12 @@
         <org:hasMembership rdf:resource="http://nomisma.org/id/konrad_duisberg_colonia_claudia_ara_agrippinensium#modern_period_mint_staff"/>
         <skos:prefLabel xml:lang="en">Konrad Duisberg</skos:prefLabel>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <skos:definition xml:lang="en">Gold smith and Mint Warden in Cologne (City), Germany from 1608 to 1643, and General Warden in Cologne (City), Germany from 1631 to 1643. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926), pp. 47-49</skos:definition>
+        <skos:definition xml:lang="en">Taken into service on 14 May 1607 by his father-in-law Johann von Worringen, the Goldsmith Konrad Duisberg (Duisburg) became Mint Warden in Cologne (City), Germany, in 1608 and General Warden in 1631. Born in 1570, he died 7 May 1643 [Scheffler has 1648?] Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926), pp. 47-49, 140, 185; Wolfgang Scheffler, Goldschmiede Rheinland-Westfalens - Aachen - Köln (1973) n. 1154, p. 481.</skos:definition>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/8310957"/>
+        <bio:death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/konrad_duisberg_colonia_claudia_ara_agrippinensium#death"/>
+        <bio:birth xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/konrad_duisberg_colonia_claudia_ara_agrippinensium#birth"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/konrad_duisberg_colonia_claudia_ara_agrippinensium#modern_period_mint_staff">
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1608</nmo:hasStartDate>
@@ -27,4 +31,13 @@
         <org:organization rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
         <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
     </org:Membership>
+    <bio:Death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/konrad_duisberg_colonia_claudia_ara_agrippinensium#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1643</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+    </bio:Death>
+    <bio:Birth xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/konrad_duisberg_colonia_claudia_ara_agrippinensium#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1570</dcterms:date>
+    </bio:Birth>
 </rdf:RDF>

@@ -18,8 +18,10 @@
         <org:hasMembership rdf:resource="http://nomisma.org/id/peter_schlebusch_colonia_claudia_ara_agrippinensium#modern_period_mint_staff"/>
         <skos:prefLabel xml:lang="en">Peter Schlebusch</skos:prefLabel>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <skos:definition xml:lang="en">Die cutter in Cologne, Germany from 1608 to 1625. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926), pp. 47-49</skos:definition>
+        <skos:definition xml:lang="en">Appointed Die cutter for the Cologne Circle, Germany, in 1608, Schlebusch seems to have died in office in 1625. His mintmark was a clover. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926), pp. 47-49, 140, 161, 169.</skos:definition>
         <org:hasMembership rdf:resource="http://nomisma.org/id/peter_schlebusch_colonia_claudia_ara_agrippinensium#engraver"/>
+        <bio:death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/peter_schlebusch_colonia_claudia_ara_agrippinensium#death"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/peter_schlebusch_colonia_claudia_ara_agrippinensium#modern_period_mint_staff">
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1608</nmo:hasStartDate>
@@ -30,5 +32,12 @@
     <org:Membership rdf:about="http://nomisma.org/id/peter_schlebusch_colonia_claudia_ara_agrippinensium#engraver">
         <org:role rdf:resource="http://nomisma.org/id/engraver"/>
         <org:organization rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1608</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1625</nmo:hasEndDate>
     </org:Membership>
+    <bio:Death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/peter_schlebusch_colonia_claudia_ara_agrippinensium#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1625</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+    </bio:Death>
 </rdf:RDF>
