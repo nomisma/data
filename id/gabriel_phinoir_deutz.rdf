@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/gabriel_phinoir_deutz">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Gabriel Phinoir</skos:prefLabel>
+        <skos:definition xml:lang="en">The Cologne goldsmith Phinoir was appointed Special Warden in Deutz on 31 March 1569, a position he held until 1584. He was listed as being in employment already in 1542. Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Köln 1547-1794 (1925) p. 47; Wolfgang Scheffler, Goldschmiede Rheinland-Westfalens - Aachen - Köln (1973) p. 527; Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926) pp. 206, 224; ibid., Die Münzen der Stadt Neuss n. 774 p. 444.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/gabriel_phinoir_deutz#modern_period_mint_staff"/>
+        <skos:altLabel xml:lang="de">Gabriel Pfinor</skos:altLabel>
+        <skos:altLabel xml:lang="de">Gabriell Phonoer</skos:altLabel>
+        <skos:altLabel xml:lang="de">Gabriell Phenoir</skos:altLabel>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/gabriel_phinoir_deutz#modern_period_mint_staff">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1569</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1584</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/deutz"/>
+    </org:Membership>
+</rdf:RDF>
