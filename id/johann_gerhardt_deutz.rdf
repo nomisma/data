@@ -14,16 +14,17 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/urban_felgenhauer_marsberg">
+    <foaf:Person rdf:about="http://nomisma.org/id/johann_gerhardt_deutz">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Urban Felgenhauer</skos:prefLabel>
-        <skos:definition xml:lang="en">Mintmaster at Marsberg, a city in Germany, in 1630, with monogram VFH, Felgenhauer was Mintmaster at the Corvey Imperial Abbey (now within the territory of the City of Höxter) in 1655 and again in 1661. Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Köln 1547-1794 (1925) pp. 129, 145, 173.</skos:definition>
+        <skos:prefLabel xml:lang="en">Johann Gerhardt</skos:prefLabel>
+        <skos:definition xml:lang="en">Mint Warden in Deutz, Germany, from 1615 to 1617. Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Köln 1547-1794 (1925) p. 149.</skos:definition>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/urban_felgenhauer_marsberg#modern_period_mint_staff"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_gerhardt_deutz#modern_period_mint_staff"/>
     </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/urban_felgenhauer_marsberg#modern_period_mint_staff">
+    <org:Membership rdf:about="http://nomisma.org/id/johann_gerhardt_deutz#modern_period_mint_staff">
         <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
-        <org:organization rdf:resource="http://nomisma.org/id/marsberg"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1630</nmo:hasStartDate>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1615</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1617</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/deutz"/>
     </org:Membership>
 </rdf:RDF>
