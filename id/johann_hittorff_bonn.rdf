@@ -14,17 +14,21 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/heinrich_deyser_deutz">
+    <foaf:Person rdf:about="http://nomisma.org/id/johann_hittorff_bonn">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Heinrich Deyser</skos:prefLabel>
-        <skos:definition xml:lang="en">Mint worker in Deutz for the Archbishopric Cologne in 1580. Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Köln 1547-1794 (1925) p. 67.</skos:definition>
+        <skos:prefLabel xml:lang="en">Johann Hittorff</skos:prefLabel>
+        <skos:definition xml:lang="en">Mintmaster in Bonn, a city in Germany, from 1734 to 1738. He died on 7 August 1738. Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Köln 1547-1794 (1925) p. 350.</skos:definition>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/heinrich_deyser_deutz#modern_period_mint_staff"/>
-        <skos:altLabel xml:lang="de">Heinrich Deysser</skos:altLabel>
+        <bio:death rdf:resource="http://nomisma.org/id/johann_hittorff_bonn#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_hittorff_bonn#modern_period_mint_staff"/>
     </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/heinrich_deyser_deutz#modern_period_mint_staff">
+    <bio:Death rdf:about="http://nomisma.org/id/johann_hittorff_bonn#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1738</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/johann_hittorff_bonn#modern_period_mint_staff">
         <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1580</nmo:hasStartDate>
-        <org:organization rdf:resource="http://nomisma.org/id/deutz"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1734</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1738</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/bonn"/>
     </org:Membership>
 </rdf:RDF>
