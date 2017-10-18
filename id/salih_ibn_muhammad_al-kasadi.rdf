@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/salih_ibn_muhammad_al-kasadi">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Salih ibn Muhammad al-Kasadi</skos:prefLabel>
+        <skos:definition xml:lang="en">Salih ibn Muhammad al-Kasadi is the sixth ruler of the al-Kasadi dynasy, from 1851 to 11 May 1873.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/salih_ibn_muhammad_al-kasadi#authority"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <skos:prefLabel xml:lang="ar">صالح بن محمد الكسادية</skos:prefLabel>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/salih_ibn_muhammad_al-kasadi#authority">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1851</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1873</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/al-kasadi_imarate"/>
+    </org:Membership>
+</rdf:RDF>

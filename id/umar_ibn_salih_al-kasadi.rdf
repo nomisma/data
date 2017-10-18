@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/umar_ibn_salih_al-kasadi">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">`Umar ibn Salih al-Kasadi</skos:prefLabel>
+        <skos:definition xml:lang="en">`Umar ibn Salih al-Kasadi is the seventh and final ruler of the al-Kasadi dynasty, ruling from 1873 to 10 November 1881.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/umar_ibn_salih_al-kasadi#authority"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/umar_ibn_salih_al-kasadi#authority">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1881</nmo:hasEndDate>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1873</nmo:hasStartDate>
+        <org:organization rdf:resource="http://nomisma.org/id/al-kasadi_imarate"/>
+    </org:Membership>
+</rdf:RDF>
