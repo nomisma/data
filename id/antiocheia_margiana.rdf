@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/antiocheia_margiana">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Antioch of Margiana</skos:prefLabel>
+        <skos:definition xml:lang="en">Antiochia in Margiana (also Merv) was a major oasis-city in Central Asia, on the historical Silk Road, located near today's Mary in Turkmenistan. Several cities have existed on this site, which is significant for the interchange of culture and politics at a site of major strategic value.</skos:definition>
+        <skos:altLabel xml:lang="en">Alexandria of Margiana</skos:altLabel>
+        <skos:altLabel xml:lang="en">Merv</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Antiochia_Margiana"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q193325"/>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/961873"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7012244"/>
+        <skos:closeMatch rdf:resource="http://nomisma.org/id/marw"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/persian_numismatics"/>
+        <geo:location rdf:resource="http://nomisma.org/id/antiocheia_margiana#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/margiana"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/antiocheia_margiana#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.6684414606</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">62.1803034188</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/margiana#this"/>
+    </geo:SpatialThing>
+</rdf:RDF>
