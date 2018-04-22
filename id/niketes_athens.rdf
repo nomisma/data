@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/niketes_athens">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Niketes</skos:prefLabel>
+        <skos:definition xml:lang="en">First magistrate attested in Athens in 99/98 BC [issue 67]. Previously and later attested as third magistrate in Athens, in 100/99 BC [issue 65], and in 94/93 BC [issue 71]. From Eupyridai. Brother of his colleague Dionysios [issue 67]. Son of Athenobios, one of the third magistrates of issue 38. He and his brother are attested as boys in the Delphian Pythais in 128/127 BC. Together with their sister Philylla they have dedicated a statue of Chrysis, a priestess of Athena (IG II 2. ed. 3484). Being ephebe in 117/116 (Habicht 1991, p. 11) or 118/117 BC (Mattingly 1997, p. 259) he held the magistracy at the age of c. 37: See M. Thompson, The New Style Silver Coinage of Athens (1961) nos. 857-861, nos. 929-962, and nos. 1044-1046 / issues 65, 67 and 71 (p. 576); C. Habicht, Zu den Münzmagistraten der Silberprägung des Neuen Stils, Chiron 21, 1991, p. 5 f. and 11 (100/99, 98/97 and 94/93 BC); Prosopographia Attica 10754; P. M. Fraser – E. Matthews, A Lexicon of Greek Personal Names II Attica (1994) p. 332 s. v. Niketes, no. 15; H. B. Mattingly and W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 712 s. v. Niketes (99/98 BC, issue 67).</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/niketes_athens#issuer"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-48035"/>
+    </foaf:Person>
+    
+    
+    <org:Membership rdf:about="http://nomisma.org/id/niketes_athens#issuer">
+        <org:organization rdf:resource="http://nomisma.org/id/athens"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+    </org:Membership>
+</rdf:RDF>

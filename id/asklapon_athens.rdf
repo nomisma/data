@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/asklapon_athens">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Asklapon</skos:prefLabel>
+        <skos:definition xml:lang="en">Several times attested as third magistrate in Athens, first in 119/118 BC [issue 46], again in 116/115 BC [issue 49], 113/112 BC [issue 52], and in 111/110 BC [issue 54]. Most probably it is the same person abbreviated as ΑΣΚ, ΑΣΚΛΑ, ΑΣΚΛΑΠΩΝ: See M. Thompson, The New Style Silver Coinage of Athens (1961) nos. 571, 574-577, nos. 619, 621-622, nos. 677, and nos. 706-707 / issues 46, 49, 52 and 54 (commentary on p. 555 f.); C. Habicht, Zu den Münzmagistraten der Silberprägung des Neuen Stils, Chiron 21, 1991, p. 5 (119/118, 116/115, 113/112 and 111/110 BC); Prosopographia Attica 2582 and 2583; P. M. Fraser – E. Matthews, A Lexicon of Greek Personal Names II Attica (1994) p. 73 s. v. Asklapon, no. 1; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 376 s. v. Asklapon.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/asklapon_athens#issuer"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-10978"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/asklapon_athens#issuer">
+        <org:organization rdf:resource="http://nomisma.org/id/athens"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+    </org:Membership>
+</rdf:RDF>

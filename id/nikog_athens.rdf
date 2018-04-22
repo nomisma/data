@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/nikog_athens">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Nikogenes</skos:prefLabel>
+        <skos:definition xml:lang="en">Third magistrate attested in Athens in 135/134 BC [issue 30]. Then attested as second magistrate twice, in 133/132 BC [issue 32], and again in 131/130 BC [issue 34]. From Philaidai. Probably father of Nikogenes the younger (ΝΙΚΟΓ ΝΕ[ώτερος]), who also was one of the third magistrates of issue 30 (Thompson 1961, p. 576). In his youth victor in Panathenaic games twice, Agonothetes of the Theseia in 161/160 BC, Hipparchos in 157/156 BC, Hieropoios c. 150 BC (Habicht 1991, p. 20 and H. B. Mattingly, NC 157, 1997, p. 258): See M. Thompson, The New Style Silver Coinage of Athens (1961) nos. 351, 353, nos. 368, 373, 376-382, and nos. 396-403 / issues 30, 32 and 34 (p. 576 f.); C. Habicht, Zu den Münzmagistraten der Silberprägung des Neuen Stils, Chiron 21, 1991, pp. 5, 11 and 19 f. (135/134, 133/132 and 131/130 BC); Prosopographia Attica 10850; P. M. Fraser – E. Matthews, A Lexicon of Greek Personal Names II Attica (1994) p. 335 s. v. Nikogenes, no. 11; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 713 s. v. Nikogenes.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/nikog_athens#issuer"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-48455"/>
+    </foaf:Person>
+    
+    
+    <org:Membership rdf:about="http://nomisma.org/id/nikog_athens#issuer">
+        <org:organization rdf:resource="http://nomisma.org/id/athens"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+    </org:Membership>
+</rdf:RDF>

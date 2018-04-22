@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/deme_i_athens">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Demetrios</skos:prefLabel>
+        <skos:definition xml:lang="en">First magistrate attested in Athens in 143/142 BC [Thompson issue 23]. Later attested as third magistrate in 136/135 BC [issue 29]; most probably also the first monnneyer's monogram of 141/140 BC[issue 24] is to be read as "Demetrios" and the person seems to be identical with ΔΗΜΗ... of the two other issues (Thompson p. 91): See M. Thompson, The New Style Silver Coinage of Athens (1961) nos. 202-227, nos. 228-246, and nos. 330-332, 341-342 / her issues 23, 24 and 29 (pp. 88-91, 558); C. Habicht, Zu den Münzmagistraten der Silberprägung des Neuen Stils, Chiron 21, 1991, p. 5 (143/142,141/140 and 136/135 BC, his issues 22, 24 and 29); Prosopographia Attica 3340; P. M. Fraser – E. Matthews, A Lexicon of Greek Personal Names II Attica (1994) p. 104 s. v. Demetrios, no. 37; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 438 s. v. Demetrios.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/deme_i_athens#issuer"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-15049"/>
+        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-15056"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/deme_i_athens#issuer">
+        <org:organization rdf:resource="http://nomisma.org/id/athens"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+    </org:Membership>
+</rdf:RDF>
