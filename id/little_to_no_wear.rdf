@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -7,17 +8,21 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:CoinWear rdf:about="http://nomisma.org/id/little_to_no_wear">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Little to no wear</skos:prefLabel>
-      <skos:definition xml:lang="en">Indicates that an object has little visible wear as defined by "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Equivalent to "U-A 1" in that volume.</skos:definition>
-      <dcterms:source rdf:resource="http://www.worldcat.org/oclc/174260520"/>
-      <skos:prefLabel xml:lang="fr">Non à peu usé</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Nicht bis kaum abgenutzt</skos:prefLabel>
-      <skos:altLabel xml:lang="en">U-A 1</skos:altLabel>
-   </nmo:CoinWear>
+        <skos:definition xml:lang="de">Nicht bis kaum abgenutzt: Alle Einzelheiten des Münzbildes sind deutlich erkennbar. Die höchsten Stellen des Reliefs können schwache Spuren der Abnutzung zeigen. Nach "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Entspricht dort "A-A 1".</skos:definition>
+        <skos:definition xml:lang="fr">Non à peu usé: Tous les détails de la figure sont distincement visibles. Les parties proéminentes du relief peuvent accuser de faibles traces d'usure. D'après "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Voire "U-A 1".</skos:definition>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Little to no wear</skos:prefLabel>
+        <skos:definition xml:lang="en">Not or barely worn: all elements of the coin design are clearly visible. The highest points of the relief can show slight signs of wear: as defined by "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Equivalent to "W-A 1" in that volume.</skos:definition>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/174260520"/>
+        <skos:prefLabel xml:lang="fr">Non à peu usé</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Nicht bis kaum abgenutzt</skos:prefLabel>
+        <skos:altLabel xml:lang="en">W-A 1</skos:altLabel>
+        <skos:altLabel xml:lang="fr">U-A 1</skos:altLabel>
+        <skos:altLabel xml:lang="de">A-A 1</skos:altLabel>
+    </nmo:CoinWear>
 </rdf:RDF>
