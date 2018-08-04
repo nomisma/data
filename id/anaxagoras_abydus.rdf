@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/anaxagoras_abydus">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Anaxagoras</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">ΑΝΑΞΑΓΟΡΑΣ</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/anaxagoras_abydus#issuer"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:definition xml:lang="en">Magistrate attested in Abydos in c. 75-65 BC. See Th. Corsten, A Lexicon of Greek Personal Names VA Coastal Asia Minor: Pontos to Ionia (2010) s. v. Anaxagoras (34); W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 317 s. v. ΑΝΑΞΑΓΟΡΑΣ.</skos:definition>
+        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V5a-10646"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000808003"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/anaxagoras_abydus#issuer">
+        <org:organization rdf:resource="http://nomisma.org/id/abydus"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0075</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0065</nmo:hasEndDate>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+    </org:Membership>
+</rdf:RDF>
