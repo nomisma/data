@@ -1,41 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/silbannacus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Silbannacus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Silbannacus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Silbanaco</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Silbannacus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Silbannacus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Silbannacus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Silbannaco</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Силбаннак</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Silbanaco</skos:prefLabel>
-        <skos:definition xml:lang="en">Usurper active during the reign of Philip I.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Silbannacus"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q442570"/>
-        <skos:prefLabel xml:lang="tr">Marcius Silbannacus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Silbannacus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Silbanac</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Silbannacus</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Marcus Silbannacus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Силбаннак</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Silbanak</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Силбанак</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Mar. Silbannacus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02f4j6"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Silbannacus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Silbannacus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Silbanaco</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Silbannacus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Silbannacus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Silbannacus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Silbannaco</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Силбаннак</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Silbanaco</skos:prefLabel>
+      <skos:definition xml:lang="en">Usurper active during the reign of Philip I.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Silbannacus"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q442570"/>
+      <skos:prefLabel xml:lang="tr">Marcius Silbannacus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Silbannacus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Silbanac</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Silbannacus</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Marcus Silbannacus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Силбаннак</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Silbanak</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Силбанак</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Mar. Silbannacus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02f4j6"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/silbannacus#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/silbannacus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/silbannacus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-22T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

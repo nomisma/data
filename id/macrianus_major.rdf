@@ -1,43 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/macrianus_major">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Macrianus Major</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Макриан Старший</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Macriano Maggiore</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Macrien</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Macrianus Maior</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Macriano el Viejo</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Macrianus Maior</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Fulvius Macrianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Macriano Maior</skos:prefLabel>
-        <skos:definition xml:lang="en">Usurper during the reign of the Emperor Gallienus. Died AD 261.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Macrianus_Major"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/57516401"/>
-        <skos:altLabel xml:lang="de">Macrianus der Ältere</skos:altLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q378675"/>
-        <skos:prefLabel xml:lang="tr">Yaşlı Macrianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Macrià Major</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Macrianus Major</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Titus Fulvius Macrianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Макриан Старши</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Makrijan Stariji</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Makrijan Stariji</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Макријан Старији</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Макріан Старший</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02nym2"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Macrianus Major</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Макриан Старший</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Macriano Maggiore</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Macrien</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Macrianus Maior</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Macriano el Viejo</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Macrianus Maior</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Fulvius Macrianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Macriano Maior</skos:prefLabel>
+      <skos:definition xml:lang="en">Usurper during the reign of the Emperor Gallienus. Died AD 261.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Macrianus_Major"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/57516401"/>
+      <skos:altLabel xml:lang="de">Macrianus der Ältere</skos:altLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q378675"/>
+      <skos:prefLabel xml:lang="tr">Yaşlı Macrianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Macrià Major</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Macrianus Major</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Titus Fulvius Macrianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Макриан Старши</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Makrijan Stariji</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Makrijan Stariji</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Макријан Старији</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Макріан Старший</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02nym2"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/macrianus_major#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/macrianus_major#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/macrianus_major"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-27T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

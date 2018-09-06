@@ -1,58 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/alexander_ii_zabinas">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Alexander II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Alexander II. Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Alexandros II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Alexandre II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Alexandre Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Alessandro II Zabina</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Александр II Забина</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Alejandro II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">II. Alexandrosz szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Aleksanteri II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Aleksander II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Alexandre II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Alexander II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Alexander II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Aleksander II Zabinas</skos:prefLabel>
-        <skos:definition xml:lang="en">Alexander II Zabinas (Greek Ἀλέξανδρoς Zαβίνας), ruler of the Greek Seleucid kingdom, was a counter-king who emerged in the chaos following the Seleucidian loss
-			of Mesopotamia to the Parthians. Zabinas was a false Seleucid who claimed to be an adoptive son of Antiochus VII Sidetes, but in fact seems to have been the son of an Egyptian merchant
-			named Protarchus. </skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Alexander_II_Zabinas"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/alexander_ii_zabinas#authority"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q315006"/>
-        <skos:prefLabel xml:lang="be">Аляксандр II Забіна</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Alexander II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αλέξανδρος Β' Ζαβίνας</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Александър II Забинас</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">الکساندر دوم</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Aleksandar II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Alexander 2. Zabinas af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Aleksander II Zabinas</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">الكسندر زابيناس</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Александр II Забіна</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/015fk7"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Alexander II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Alexander II. Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Alexandros II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Alexandre II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Alexandre Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Alessandro II Zabina</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Александр II Забина</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Alejandro II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">II. Alexandrosz szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Aleksanteri II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Aleksander II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Alexandre II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Alexander II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Alexander II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Aleksander II Zabinas</skos:prefLabel>
+      <skos:definition xml:lang="en">Alexander II Zabinas (Greek Ἀλέξανδρoς Zαβίνας), ruler of the Greek Seleucid kingdom, was a counter-king who emerged in the chaos following the Seleucidian loss of Mesopotamia to the Parthians. Zabinas was a false Seleucid who claimed to be an adoptive son of Antiochus VII Sidetes, but in fact seems to have been the son of an Egyptian merchant named Protarchus.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Alexander_II_Zabinas"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/alexander_ii_zabinas#authority"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q315006"/>
+      <skos:prefLabel xml:lang="be">Аляксандр II Забіна</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Alexander II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αλέξανδρος Β' Ζαβίνας</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Александър II Забинас</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">الکساندر دوم</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Aleksandar II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Alexander 2. Zabinas af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Aleksander II Zabinas</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">الكسندر زابيناس</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Александр II Забіна</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/015fk7"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/alexander_ii_zabinas#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/alexander_ii_zabinas#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0128</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0123</nmo:hasEndDate>
-    </org:Membership>
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0128</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0123</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/alexander_ii_zabinas#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/alexander_ii_zabinas"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,31 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/deoynys_maroneia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/deoynys_maroneia#issuer"/>
-        <skos:definition xml:lang="en">An individual who issued coins at the ancient city of Maroneia, 411/410-398/397 BC. See E. Schönert-Geiss, Die Münzprägung von Maroneia (Berlin, 1987), pp. 44-45.</skos:definition>
-        <skos:prefLabel xml:lang="en">Deoynys</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/310978731"/>
-    </foaf:Person>
-    
-    
-    <org:Membership rdf:about="http://nomisma.org/id/deoynys_maroneia#issuer">
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0411</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0397</nmo:hasEndDate>
-        <org:organization rdf:resource="http://nomisma.org/id/maroneia"/>
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-    </org:Membership>
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/deoynys_maroneia">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/deoynys_maroneia#issuer"/>
+      <skos:definition xml:lang="en">An individual who issued coins at the ancient city of Maroneia, 411/410-398/397 BC. See E. Schönert-Geiss, Die Münzprägung von Maroneia (Berlin, 1987), pp. 44-45.</skos:definition>
+      <skos:prefLabel xml:lang="en">Deoynys</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:source rdf:resource="http://www.worldcat.org/oclc/310978731"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/deoynys_maroneia#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/deoynys_maroneia#issuer">
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0411</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0397</nmo:hasEndDate>
+      <org:organization rdf:resource="http://nomisma.org/id/maroneia"/>
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/deoynys_maroneia#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/deoynys_maroneia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-27T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/upeter"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1gr9eJOTv1PVb6VYLggjAiGQWpmivDOut13WTxWafUwA/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

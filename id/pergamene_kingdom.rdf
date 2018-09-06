@@ -1,31 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Organization rdf:about="http://nomisma.org/id/pergamene_kingdom">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Kingdom of Pergamum</skos:prefLabel>
-        <skos:definition xml:lang="en">The foundation of the Kingdom of Pergamum was laid when Philetaerus took control of the city in 282 BC. The later Attalids were descended from his father and they expanded the city into a kingdom. Attalus I proclaimed himself King in the 230s BC, following his victories over the Galatians. The Attalids ruled Pergamon until Attalus III bequeathed the kingdom to the Roman Republic in 133 BC</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pergamene_kingdom#authority"/>
-    </foaf:Organization>
-    <org:Membership rdf:about="http://nomisma.org/id/pergamene_kingdom#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0282</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0133</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Organization rdf:about="http://nomisma.org/id/pergamene_kingdom">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Kingdom of Pergamum</skos:prefLabel>
+      <skos:definition xml:lang="en">The foundation of the Kingdom of Pergamum was laid when Philetaerus took control of the city in 282 BC. The later Attalids were descended from his father and they expanded the city into a kingdom. Attalus I proclaimed himself King in the 230s BC, following his victories over the Galatians. The Attalids ruled Pergamon until Attalus III bequeathed the kingdom to the Roman Republic in 133 BC</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/pergamene_kingdom#authority"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pergamene_kingdom#provenance"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/pergamene_kingdom#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0282</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0133</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pergamene_kingdom#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/pergamene_kingdom"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-16T04:00:01+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1ohAgCJ3nRIoA8PKFaM65YcHkMrChwHrDK37yuScK_IY/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

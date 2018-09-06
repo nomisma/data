@@ -1,32 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Collection rdf:about="http://nomisma.org/id/uni_graz">
-        <skos:definition xml:lang="de">Das Institut für Alte Geschichte und Altertumskunde der Karl-Franzens-Universität Graz besitzt eine Münzsammlung, die fast 4000 antike Münzen umfasst.</skos:definition>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">University of Graz</skos:prefLabel>
-        <skos:definition xml:lang="en">The Institute of Ancient History and Classical Antiquities at the University of Graz houses a collection of nearly 4000 antique coins.</skos:definition>
-        <foaf:homepage rdf:resource="http://gams.uni-graz.at/numis"/>
-        <skos:prefLabel xml:lang="de">Karl-Franzens-Universität Graz</skos:prefLabel>
-        <foaf:thumbnail rdf:resource="http://gams.uni-graz.at/templates/img/logo_uni_graz_4c.jpg"/>
-        <rdfs:seeAlso rdf:resource="https://altegeschichte.uni-graz.at/"/>
-        <skos:exactMatch rdf:resource="https://viaf.org/viaf/7627149489174093810006"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1085252094"/>
-        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n00005281"/>
-        <skos:altLabel xml:lang="de">Institut für Alte Geschichte und Altertumskunde der Karl-Franzens-Universität Graz</skos:altLabel>
-    </nmo:Collection>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/uni_graz">
+      <skos:definition xml:lang="de">Das Institut für Alte Geschichte und Altertumskunde der Karl-Franzens-Universität Graz besitzt eine Münzsammlung, die fast 4000 antike Münzen umfasst.</skos:definition>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">University of Graz</skos:prefLabel>
+      <skos:definition xml:lang="en">The Institute of Ancient History and Classical Antiquities at the University of Graz houses a collection of nearly 4000 antique coins.</skos:definition>
+      <foaf:homepage rdf:resource="http://gams.uni-graz.at/numis"/>
+      <skos:prefLabel xml:lang="de">Karl-Franzens-Universität Graz</skos:prefLabel>
+      <foaf:thumbnail rdf:resource="http://gams.uni-graz.at/templates/img/logo_uni_graz_4c.jpg"/>
+      <rdfs:seeAlso rdf:resource="https://altegeschichte.uni-graz.at/"/>
+      <skos:exactMatch rdf:resource="https://viaf.org/viaf/7627149489174093810006"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1085252094"/>
+      <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n00005281"/>
+      <skos:altLabel xml:lang="de">Institut für Alte Geschichte und Altertumskunde der Karl-Franzens-Universität Graz</skos:altLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/uni_graz#provenance"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni_graz#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/uni_graz"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-02T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,52 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ariarathes_ix">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ariarathes IX</skos:prefLabel>
-        <skos:definition xml:lang="en">Ariarathes IX Eusebes Philopator ("Pious, Father-loving"), the nine-year-old son of Mithradates VI of Pontus, was placed on the throne of Cappadocia in c. 100 BC to serve as his father's puppet. He was deeply unpopular with the Cappadocians and was soon driven out by Ariarathes VIII. The superior forces of Mithradates VI restored Ariarathes IX to power in c. 95 BC, only to have him immediately deposed by the Romans. He was restored several times between 95 and 85 BC in opposition to the Roman-supported Ariobarzanes I. Mithradates VI removed Ariarathes IX from the Cappadocian throne in 85 BC under the peace terms that ended the First Mithradatic War (89-85 BC).</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ariarathes_IX_of_Cappadocia"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1259636"/>
-        <skos:prefLabel xml:lang="pt">Ariarate</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ariarates IX Eusebes Filopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Ariarates IX.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Арыярат IX</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ariarathe IX</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ariarates IX</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Ariarathes IX</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ariarates IX</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ariarathes IX</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Ariarate IX di Cappadocia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アリアラテス9世</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ariarathes IX của Cappadocia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Arijarat IX od Kapadokije</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ariarathes IX.</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ariarathes IX of Cappadocia</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ariarathes IX Eusebes Philopator</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0cfyb2"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ariarathes_ix#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/ariarathid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/ariarathes_ix#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/cappadocian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0096</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0095</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/ariarathes_ix">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ariarathes IX</skos:prefLabel>
+      <skos:definition xml:lang="en">Ariarathes IX Eusebes Philopator ("Pious, Father-loving"), the nine-year-old son of Mithradates VI of Pontus, was placed on the throne of Cappadocia in c. 100 BC to serve as his father's puppet. He was deeply unpopular with the Cappadocians and was soon driven out by Ariarathes VIII. The superior forces of Mithradates VI restored Ariarathes IX to power in c. 95 BC, only to have him immediately deposed by the Romans. He was restored several times between 95 and 85 BC in opposition to the Roman-supported Ariobarzanes I. Mithradates VI removed Ariarathes IX from the Cappadocian throne in 85 BC under the peace terms that ended the First Mithradatic War (89-85 BC).</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ariarathes_IX_of_Cappadocia"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1259636"/>
+      <skos:prefLabel xml:lang="pt">Ariarate</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ariarates IX Eusebes Filopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Ariarates IX.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Арыярат IX</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ariarathe IX</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ariarates IX</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Ariarathes IX</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ariarates IX</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ariarathes IX</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Ariarate IX di Cappadocia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アリアラテス9世</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ariarathes IX của Cappadocia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Arijarat IX od Kapadokije</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ariarathes IX.</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ariarathes IX of Cappadocia</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ariarathes IX Eusebes Philopator</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0cfyb2"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ariarathes_ix#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ariarathid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ariarathes_ix#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/ariarathes_ix#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/cappadocian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0096</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0095</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ariarathes_ix#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ariarathes_ix"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,29 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/marcus_antonius_zeno_pira883">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Marcus Antonius Zeno</skos:prefLabel>
-        <skos:definition xml:lang="en">Legatus Augusti pro praetore in Thrace c. AD 142-144.
-Consul suffectus in AD 148. His name appears on coins of Philippopolis and Perinthos partially with the title of Presbeutes, and in Nikopolis as Hegemon.
-
-Lit.: PIR² A 883; B. E. Thomasson, Laterculi Praesidum I (1984) 164 no. 21; ibid., Addenda I (2011) no. 22:021.</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/marcus_antonius_zeno_pira883#issuer"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/marcus_antonius_zeno_pira883#issuer">
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-    </org:Membership>
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/marcus_antonius_zeno_pira883">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Marcus Antonius Zeno</skos:prefLabel>
+      <skos:definition xml:lang="en">Legatus Augusti pro praetore in Thrace c. AD 142-144. Consul suffectus in AD 148. His name appears on coins of Philippopolis and Perinthos partially with the title of Presbeutes, and in Nikopolis as Hegemon. Lit.: PIR² A 883; B. E. Thomasson, Laterculi Praesidum I (1984) 164 no. 21; ibid., Addenda I (2011) no. 22:021.</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/marcus_antonius_zeno_pira883#issuer"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/marcus_antonius_zeno_pira883#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/marcus_antonius_zeno_pira883#issuer">
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/marcus_antonius_zeno_pira883#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/marcus_antonius_zeno_pira883"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-21T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-27T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

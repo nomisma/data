@@ -1,60 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/eumenes_i">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Eumenes I</skos:prefLabel>
-        <skos:definition xml:lang="en">Eumenes I was dynast of the city of Pergamon in Asia Minor from 263 BC until his death in 241 BC. He was the son of Eumenes, the brother of Philetaerus, the founder of the Attalid dynasty, and Satyra, daughter of Poseidonius. As he had no children, Philetaerus adopted Eumenes to become his heir.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Eumenes_I"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q314341"/>
-        <skos:prefLabel xml:lang="pl">Eumenes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Eumenes I.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Эвмен I</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Eumène Ier</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Эўмен I</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Եվմենոս I</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Eumenes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">I. Eumenes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Èumenes I de Pèrgam</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Eumenes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Евмен I</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Eumene I</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Eumenes I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">エウメネス1世</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Евмен I</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Eumenes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ευμένης Α' της Περγάμου</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Eumen I</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Eumenes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">يومينس الأول</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">歐邁尼斯一世</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Eumenes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Еумен I</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Eumen I.</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0414yb"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/eumenes_i#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/attalid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/eumenes_i#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/pergamene_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0263</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0241</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/eumenes_i">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Eumenes I</skos:prefLabel>
+      <skos:definition xml:lang="en">Eumenes I was dynast of the city of Pergamon in Asia Minor from 263 BC until his death in 241 BC. He was the son of Eumenes, the brother of Philetaerus, the founder of the Attalid dynasty, and Satyra, daughter of Poseidonius. As he had no children, Philetaerus adopted Eumenes to become his heir.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Eumenes_I"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q314341"/>
+      <skos:prefLabel xml:lang="pl">Eumenes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Eumenes I.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Эвмен I</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Eumène Ier</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Эўмен I</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Եվմենոս I</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Eumenes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">I. Eumenes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Èumenes I de Pèrgam</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Eumenes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Евмен I</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Eumene I</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Eumenes I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">エウメネス1世</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Евмен I</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Eumenes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ευμένης Α' της Περγάμου</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Eumen I</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Eumenes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">يومينس الأول</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">歐邁尼斯一世</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Eumenes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Еумен I</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Eumen I.</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0414yb"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/eumenes_i#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/attalid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/eumenes_i#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/eumenes_i#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/pergamene_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0263</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0241</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/eumenes_i#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/eumenes_i"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:17:11+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1gXcM0SRWqSZ4RJiDg21i5PI91EVyfMr1ogVgnH9zhIE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

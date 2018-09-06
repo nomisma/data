@@ -1,59 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
-    <rdac:Family rdf:about="http://nomisma.org/id/buyids">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Buwayhids </skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بويهى</skos:prefLabel>
-        <skos:definition xml:lang="en">The Buyid dynasty or the Buyids (Persian: آل بویه‎ Āl-e Buye), also known as Buwaihids, Bowayhids, Buyahids, or Buyyids, was a Shia dynasty which originated from Lahijan in Dailam.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Buyid_dynasty"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0932</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1062</nmo:hasEndDate>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q273874"/>
-        <skos:prefLabel xml:lang="pl">Bujidzi</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Дзяржава Буідаў</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Bouyides</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">השושלת הבויהית</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Dinastía búyida</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Buvajhidák</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Buwayhidi</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Buyiden</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ブワイフ朝</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Bujidi</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Buyider</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Dinastia Buyida</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Буиды</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Büveyhoğulları</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Buwàyhides</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Buijidit</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آل بویه</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">بنی بویہ</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Buveyhilər sülaləsi</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Bujidsko Carstvo</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Bujidų dinastija</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Буилер әулеті</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μπουγίδες</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">白益王朝</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Buwayhid</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Boejiden</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Buvayhiylar</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Dewleta Buweyhiyan</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Буїди</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118664859"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/22935416"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02rtwv"/>
-    </rdac:Family>
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdac:Family rdf:about="http://nomisma.org/id/buyids">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Buwayhids</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بويهى</skos:prefLabel>
+      <skos:definition xml:lang="en">The Buyid dynasty or the Buyids (Persian: آل بویه‎ Āl-e Buye), also known as Buwaihids, Bowayhids, Buyahids, or Buyyids, was a Shia dynasty which originated from Lahijan in Dailam.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Buyid_dynasty"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0932</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1062</nmo:hasEndDate>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q273874"/>
+      <skos:prefLabel xml:lang="pl">Bujidzi</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Дзяржава Буідаў</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Bouyides</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">השושלת הבויהית</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Dinastía búyida</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Buvajhidák</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Buwayhidi</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Buyiden</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ブワイフ朝</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Bujidi</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Buyider</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Dinastia Buyida</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Буиды</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Büveyhoğulları</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Buwàyhides</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Buijidit</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آل بویه</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">بنی بویہ</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Buveyhilər sülaləsi</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Bujidsko Carstvo</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Bujidų dinastija</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Буилер әулеті</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μπουγίδες</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">白益王朝</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Buwayhid</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Boejiden</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Buvayhiylar</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Dewleta Buweyhiyan</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Буїди</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118664859"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/22935416"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02rtwv"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/buyids#provenance"/>
+   </rdac:Family>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/buyids#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/buyids"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-13T15:08:09+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1poZUEV0n1lmRt0gdtAXJOvMumpJs8eAX0xxI9hm4wIU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+            <dcterms:description xml:lang="en">This ID was generated by processing a spreadsheet through a one-off PHP script, predating the Nomisma spreadsheet import feature.</dcterms:description>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-18T13:56:17+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

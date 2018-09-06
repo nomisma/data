@@ -1,67 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/larinum">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Larinum</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Larinum in the territory of the Frentani.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Larino"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/442629"/>
-        <geo:location rdf:resource="http://nomisma.org/id/larinum#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/frentani"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/6541725"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51629"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7004059"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q277643"/>
-        <skos:prefLabel xml:lang="it">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">لارينو</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Ларына</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ラリーノ</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Larinum</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Ларино</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Ларино</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">拉里诺</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">라리노</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Ларино</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Larino</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Լարինո</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/04qqhj"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/3175105"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4215827-8"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/130733796"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb121388638"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Larinum</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Larinum in the territory of the Frentani.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Larino"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/442629"/>
+      <geo:location rdf:resource="http://nomisma.org/id/larinum#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/frentani"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/6541725"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51629"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7004059"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q277643"/>
+      <skos:prefLabel xml:lang="it">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">لارينو</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Ларына</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ラリーノ</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Larinum</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Ларино</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Ларино</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">拉里诺</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">라리노</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Ларино</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Larino</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Լարինո</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/04qqhj"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/3175105"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4215827-8"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/130733796"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb121388638"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/larinum#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/larinum#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.807133</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.919231</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/frentani#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.807133</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.919231</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/frentani#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/larinum#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/larinum"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

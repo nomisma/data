@@ -1,89 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/colchis">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Colchis</skos:prefLabel>
-        <skos:definition xml:lang="en">The ancient region of Colchis.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Colchis"/>
-        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/863770"/>
-        <geo:location rdf:resource="http://nomisma.org/id/colchis#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/colchis"/>
-        <skos:altLabel xml:lang="en">Kolkhis</skos:altLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/7530592"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51828"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Colchis"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q183150"/>
-        <skos:prefLabel xml:lang="eu">Kolkida</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Kolchida</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Калхіда</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">콜키스</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קולכיס</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Colchide</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Cólquida</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Kolkhisz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Colchide</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Cólquida</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Kolchis</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kolkhis</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">コルキス</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Kolkida</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κολχίδα</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Kolhida</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Colchis</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Kolchis</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">كولخيس</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Cólquida</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Kolĉido</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Kolkis</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Kolchida</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Колхида</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կողքիս</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Kolhis</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Còlquida</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Kolkhis</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Колхіда</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Colchis</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Kolhida</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Kolchida</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کولخیس</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Колхида</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">კოლხეთის სამეფო</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Kolxida</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Kolhida</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Kolchidė</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">科爾基斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Колхида</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Kolchis</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Kolchis</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Colchis</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Colchida</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Coilcís</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Колхида ойдуңу</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0l1_p"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/234622396"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q183150"/>
-        <skos:prefLabel xml:lang="uz">Kolxida</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0l1_p"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/234622396"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Colchis</skos:prefLabel>
+      <skos:definition xml:lang="en">The ancient region of Colchis.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Colchis"/>
+      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/863770"/>
+      <geo:location rdf:resource="http://nomisma.org/id/colchis#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/colchis"/>
+      <skos:altLabel xml:lang="en">Kolkhis</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/7530592"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51828"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Colchis"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q183150"/>
+      <skos:prefLabel xml:lang="eu">Kolkida</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Kolchida</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Калхіда</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">콜키스</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קולכיס</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Colchide</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Cólquida</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Kolkhisz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Colchide</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Cólquida</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Kolchis</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kolkhis</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">コルキス</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Kolkida</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κολχίδα</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Kolhida</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Colchis</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Kolchis</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">كولخيس</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Cólquida</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Kolĉido</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Kolkis</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Kolchida</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Колхида</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կողքիս</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Kolhis</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Còlquida</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Kolkhis</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Колхіда</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Colchis</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Kolhida</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Kolchida</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کولخیس</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Колхида</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">კოლხეთის სამეფო</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Kolxida</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Kolhida</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Kolchidė</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">科爾基斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Колхида</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Kolchis</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Kolchis</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Colchis</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Colchida</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Coilcís</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Колхида ойдуңу</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0l1_p"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/234622396"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q183150"/>
+      <skos:prefLabel xml:lang="uz">Kolxida</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0l1_p"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/234622396"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/colchis#provenance"/>
+   </nmo:Region>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/colchis#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.5</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.5</geo:long>
-        <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_asia#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.5</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.5</geo:long>
+      <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_asia#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/colchis#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/colchis"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

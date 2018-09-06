@@ -1,70 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/antiochus_ii">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Antiochus II</skos:prefLabel>
-        <skos:definition xml:lang="en">Antiochus II Theos ("the God") was the third king of the Seleucid Empire, ruling from 261 to 246 BC. He succeeded his father Antiochus I Soter in the winter of 262–61 BC. He was the younger son of Antiochus I and princess Stratonice, the daughter of Demetrius Poliorcetes. He successfully fought against Ptolemy II in the Second Syrian War (260–253 BC), expanding his territory in Asia Minor and Thrace.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_II_Theos"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q222930"/>
-        <skos:prefLabel xml:lang="eu">Antioko II.a Theos</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Antioch II Theos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Antiochos II</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אנטיוכוס השני</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Антыёх II Тэас</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Antíoco II Theos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">II. Antiokhosz szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Antioco II</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Antiokhos II Theos</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Antiochos II.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">അന്ത്യോക്കസ് II തിയോസ്</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アンティオコス2世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αντίοχος Β΄ Θεός</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Antiochos II Theos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Antioh II Teos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Antiochus II</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Antiochos II</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Antíoco II Teos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Антиох II Теос</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Antíoc II Theós</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Antiokhos II Theos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Антіох II</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Antiochus II Theos</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Антиох II Теос</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آنتیوخوس دوم</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ანტიოქე II თეოსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Antiochos 2. af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Антиох II Тео</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">安条克二世</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Antiochus II Theos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Antiokos II Theos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أنطيوخوس الثاني</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Antiòc II Theòs</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">안티오코스 2세</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/128838442"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/57675602"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lj0h"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_ii#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/antiochus_ii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0261</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0246</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/antiochus_ii">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Antiochus II</skos:prefLabel>
+      <skos:definition xml:lang="en">Antiochus II Theos ("the God") was the third king of the Seleucid Empire, ruling from 261 to 246 BC. He succeeded his father Antiochus I Soter in the winter of 262–61 BC. He was the younger son of Antiochus I and princess Stratonice, the daughter of Demetrius Poliorcetes. He successfully fought against Ptolemy II in the Second Syrian War (260–253 BC), expanding his territory in Asia Minor and Thrace.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_II_Theos"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q222930"/>
+      <skos:prefLabel xml:lang="eu">Antioko II.a Theos</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Antioch II Theos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Antiochos II</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אנטיוכוס השני</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Антыёх II Тэас</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Antíoco II Theos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">II. Antiokhosz szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Antioco II</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Antiokhos II Theos</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Antiochos II.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">അന്ത്യോക്കസ് II തിയോസ്</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アンティオコス2世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αντίοχος Β΄ Θεός</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Antiochos II Theos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Antioh II Teos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Antiochus II</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Antiochos II</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Antíoco II Teos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Антиох II Теос</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Antíoc II Theós</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Antiokhos II Theos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Антіох II</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Antiochus II Theos</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Антиох II Теос</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آنتیوخوس دوم</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ანტიოქე II თეოსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Antiochos 2. af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Антиох II Тео</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">安条克二世</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Antiochus II Theos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Antiokos II Theos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أنطيوخوس الثاني</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Antiòc II Theòs</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">안티오코스 2세</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/128838442"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/57675602"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lj0h"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_ii#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_ii#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/antiochus_ii#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0261</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0246</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_ii#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_ii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-16T04:00:01+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

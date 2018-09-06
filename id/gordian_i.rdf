@@ -1,80 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/gordian_i">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Gordian I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Gordià I</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Gordian I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Gordianus I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Гордіан I</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">戈尔迪安一世</skos:prefLabel>
-        <skos:definition xml:lang="en">Roman emperor in 238 A.D.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gordian_I"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/3274737"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/gordian_i#roman_emperor"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1782"/>
-        <skos:prefLabel xml:lang="it">Gordiano I</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Gordian I</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Gordien Ier</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">جورديان الأول</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Гордиан I</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Gordian I</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Gordian 1.</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Γορδιανός Α'</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Gordiano la 1-a</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Gordiano I</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Gordianus I</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Gordiano I.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">گوردیان یکم</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Gordianus I</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Gordianus I</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Gordiano I</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">גורדיאנוס הראשון</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Gordijan I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">I. Gordianus római császár</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ゴルディアヌス1世</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">გორდიანე I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">고르디아누스 1세</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Gordianus I</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Гордијан I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Gordian I</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Gordianus I</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Gordian I</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Gordiano I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Gordian I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Гордиан I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Gordijan I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Gordián I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Гордијан I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Gordianus I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Gordian I</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">จักรพรรดิกอร์เดียนที่ 1</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Gordian I</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">I. Gordian</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Gordian 1k</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Gordian I</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Gordianus I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Gordijan I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Հորդիանոս I</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119166291"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/011kt5"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500355712"/>
-        <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/148"/>
-        <skos:prefLabel xml:lang="id">Gordian I</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Gordian I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Gordià I</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Gordian I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Gordianus I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Гордіан I</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">戈尔迪安一世</skos:prefLabel>
+      <skos:definition xml:lang="en">Roman emperor in 238 A.D.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gordian_I"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/3274737"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/gordian_i#roman_emperor"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1782"/>
+      <skos:prefLabel xml:lang="it">Gordiano I</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Gordian I</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Gordien Ier</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">جورديان الأول</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Гордиан I</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Gordian I</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Gordian 1.</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Γορδιανός Α'</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Gordiano la 1-a</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Gordiano I</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Gordianus I</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Gordiano I.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">گوردیان یکم</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Gordianus I</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Gordianus I</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Gordiano I</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">גורדיאנוס הראשון</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Gordijan I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">I. Gordianus római császár</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ゴルディアヌス1世</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">გორდიანე I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">고르디아누스 1세</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Gordianus I</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Гордијан I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Gordian I</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Gordianus I</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Gordian I</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Gordiano I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Gordian I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Гордиан I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Gordijan I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Gordián I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Гордијан I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Gordianus I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Gordian I</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">จักรพรรดิกอร์เดียนที่ 1</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Gordian I</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">I. Gordian</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Gordian 1k</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Gordian I</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Gordianus I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Gordijan I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Հորդիանոս I</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119166291"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/011kt5"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500355712"/>
+      <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/148"/>
+      <skos:prefLabel xml:lang="id">Gordian I</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/gordian_i#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/gordian_i#roman_emperor">
-        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
    </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/gordian_i#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/gordian_i"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-20T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

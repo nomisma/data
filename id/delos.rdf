@@ -1,88 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/delos">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Delos</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Delos on Delos, Cylcades.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Delos"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/599587"/>
-        <geo:location rdf:resource="http://nomisma.org/id/delos#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/aegaean_islands"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/263090"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x30267"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011273"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q173148"/>
-        <skos:prefLabel xml:lang="eu">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">델로스 섬</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Délos</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">דלוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Délosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Delo</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Delos - Δήλος</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">デロス島</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">ഡീലോസ്</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Δήλος</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Deloso</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Dilos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Делос</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Дилос</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Делос</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Dílos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Délos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">دلوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Делос</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">დელოსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Delas</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Делос</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">提洛岛</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Востраў Дэлас</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Dilos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Delos</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Dhilos</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Dēla</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0kkwl"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4011388-7"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/242963759"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11933458m"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011272"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Delos</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Delos on Delos, Cylcades.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Delos"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/599587"/>
+      <geo:location rdf:resource="http://nomisma.org/id/delos#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/aegaean_islands"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/263090"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x30267"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011273"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q173148"/>
+      <skos:prefLabel xml:lang="eu">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">델로스 섬</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Délos</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">דלוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Délosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Delo</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Delos - Δήλος</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">デロス島</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">ഡീലോസ്</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Δήλος</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Deloso</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Dilos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Делос</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Дилос</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Делос</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Dílos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Délos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">دلوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Делос</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">დელოსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Delas</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Делос</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">提洛岛</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Востраў Дэлас</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Dilos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Delos</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Dhilos</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Dēla</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0kkwl"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4011388-7"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/242963759"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11933458m"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011272"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/delos#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/delos#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.389480</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.269040</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/aegaean_islands#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.389480</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.269040</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/aegaean_islands#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/delos#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/delos"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

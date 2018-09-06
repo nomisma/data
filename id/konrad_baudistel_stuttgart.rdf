@@ -1,30 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/konrad_baudistel_stuttgart">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/konrad_baudistel_stuttgart#modern_period_mint_staff"/>
-        <skos:prefLabel xml:lang="en">Konrad Baudistel (Bawebdistel)</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Konrad Bawebdistel</skos:altLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <skos:definition xml:lang="en">Mintmaster in Stuttgart, Baden-Wuerttemberg, Germany from 1556 to ?. Mint Warden there from 1560 to 1561. Lit.: U. Klein and A. Raff, Die Württembergischen Münzen von 1373 - 1693 (1993), p. 74</skos:definition>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/konrad_baudistel_stuttgart#modern_period_mint_staff">
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1561</nmo:hasEndDate>
-        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
-        <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
-    </org:Membership>
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/konrad_baudistel_stuttgart">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/konrad_baudistel_stuttgart#modern_period_mint_staff"/>
+      <skos:prefLabel xml:lang="en">Konrad Baudistel (Bawebdistel)</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Konrad Bawebdistel</skos:altLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+      <skos:definition xml:lang="en">Mintmaster in Stuttgart, Baden-Wuerttemberg, Germany from 1556 to ?. Mint Warden there from 1560 to 1561. Lit.: U. Klein and A. Raff, Die Württembergischen Münzen von 1373 - 1693 (1993), p. 74</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/konrad_baudistel_stuttgart#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/konrad_baudistel_stuttgart#modern_period_mint_staff">
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1561</nmo:hasEndDate>
+      <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+      <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/konrad_baudistel_stuttgart#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/konrad_baudistel_stuttgart"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

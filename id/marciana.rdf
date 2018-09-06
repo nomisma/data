@@ -1,50 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/marciana">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ulpia Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Ulpia Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ulpia Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ulpia Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ウルピア・マルキアナ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Ульпия Марциана</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Marciana (keizerin)</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ulpia Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Marciana</skos:prefLabel>
-        <skos:definition xml:lang="en">Ulpia Marciana (August 15 and 30 48 – 112/114) was the elder sister of Roman Emperor Trajan. She was the eldest child born to the Spanish Roman senator Marcus
-			Ulpius Traianus and his wife Marcia.</skos:definition>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/11146820/"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ulpia_Marciana"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:altLabel xml:lang="la">Ulpia Marciana</skos:altLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q237622"/>
-        <skos:prefLabel xml:lang="ro">Ulpia Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ulpia Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Улпия Марциана</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ulpija Marcijana</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Ульпія Марціана</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Ulpia Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ulpia Marciana</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/11146820"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59276"/>
-        <skos:prefLabel xml:lang="hy">Ուլպիա Մարցիանա</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ulpia Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אולפיה מרקיאנה</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Marciana</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Marciana</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ulpia Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Ulpia Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ulpia Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ulpia Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ウルピア・マルキアナ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Ульпия Марциана</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Marciana (keizerin)</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ulpia Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Marciana</skos:prefLabel>
+      <skos:definition xml:lang="en">Ulpia Marciana (August 15 and 30 48 – 112/114) was the elder sister of Roman Emperor Trajan. She was the eldest child born to the Spanish Roman senator Marcus Ulpius Traianus and his wife Marcia.</skos:definition>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/11146820/"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ulpia_Marciana"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:altLabel xml:lang="la">Ulpia Marciana</skos:altLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q237622"/>
+      <skos:prefLabel xml:lang="ro">Ulpia Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ulpia Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Улпия Марциана</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ulpija Marcijana</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Ульпія Марціана</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Ulpia Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ulpia Marciana</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/11146820"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59276"/>
+      <skos:prefLabel xml:lang="hy">Ուլպիա Մարցիանա</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ulpia Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אולפיה מרקיאנה</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Marciana</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Marciana</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/marciana#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/marciana#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/marciana"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,34 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/gaius_iulius_bassus_piri205">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Gaius Iulius Bassus</skos:prefLabel>
-        <skos:definition xml:lang="en">Consul suffectus in AD 99. Proconsul of Bithynia and Pontus AD 101/102. His name and title (in Greek) appear on coin issued on behalf of the Koinon of Bithynia.
-Lit.: PIR² I 205; G. Stumpf, Numismatische Studien zur Chronologie der römischen Statthalter in Kleinasien 122 v. Chr.-163 n. Chr. (1991) pp. 278-280; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 405.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/gaius_iulius_bassus_piri205#issuer"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q5517440"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Julius_Bassus"/>
-        <skos:prefLabel xml:lang="de">Gaius Iulius Bassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Caius Julius Bassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Gaius Julius Bassus</skos:prefLabel>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/gaius_iulius_bassus_piri205#issuer">
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-    </org:Membership>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/gaius_iulius_bassus_piri205">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Gaius Iulius Bassus</skos:prefLabel>
+      <skos:definition xml:lang="en">Consul suffectus in AD 99. Proconsul of Bithynia and Pontus AD 101/102. His name and title (in Greek) appear on coin issued on behalf of the Koinon of Bithynia. Lit.: PIR² I 205; G. Stumpf, Numismatische Studien zur Chronologie der römischen Statthalter in Kleinasien 122 v. Chr.-163 n. Chr. (1991) pp. 278-280; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 405.</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/gaius_iulius_bassus_piri205#issuer"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q5517440"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Julius_Bassus"/>
+      <skos:prefLabel xml:lang="de">Gaius Iulius Bassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Caius Julius Bassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Gaius Julius Bassus</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/gaius_iulius_bassus_piri205#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/gaius_iulius_bassus_piri205#issuer">
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/gaius_iulius_bassus_piri205#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/gaius_iulius_bassus_piri205"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-02T04:00:01+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-06T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

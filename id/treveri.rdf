@@ -1,117 +1,168 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/treveri">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:prefLabel xml:lang="en">Trier</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Treveri</skos:altLabel>
-        <skos:definition xml:lang="en">The mint(s) at the ancient site of Treveri in Gallia Belgica, the Medieval and modern city of Trier, National State of Rhineland-Palatinate (German: Rheinland-Pfalz), Germany.</skos:definition>
-        <skos:closeMatch rdf:resource="http://www.dbpedia.org/resource/Trier"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/109390"/>
-        
-        <skos:prefLabel xml:lang="de">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Trèves</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Treveri</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Трир</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Treveri</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Treviri</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Τρήουηροι</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">特维希</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Treveři</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Trevirs</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Tréveros</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Treverer</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Treveri</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Treverit</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">트레베리족</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://geonames.org/2821164"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x29357"/>
-        <skos:prefLabel xml:lang="bg">тревери</skos:prefLabel>
-        <geo:location rdf:resource="http://nomisma.org/id/treveri#this"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q322168"/>
-        <skos:prefLabel xml:lang="cy">Treveri</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Treveri</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Treveri</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">טרוורים</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Tréveros</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/030lz_"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/2821164"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7004447"/>
-        <rdfs:seeAlso rdf:resource="http://finds.org.uk/database/search/map/q/pleiadesID%3A109390/objectType/COIN"/>
-        <skos:prefLabel xml:lang="pl">Trewir</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <skos:prefLabel xml:lang="lb">Tréier</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/3247911"/>
-        <skos:prefLabel xml:lang="la">Treveri</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q3138"/>
-        <skos:prefLabel xml:lang="af">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ትሪር</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ترير</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Трыр</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Treviro</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Treveris</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">تری‌یر</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Tréveris - Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">トリーア</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ტრირი</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Трир</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Tryras</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Trīre</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Trevèri</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Triri</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Трир</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="tg">Трир</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">เทรียร์</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Трір</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਟਰਾਏਰ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Трир</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Trier</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Տրիր</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Трир</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Трир</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Трир</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/07gdw"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4060877-3"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/135701727"/>
-        <skos:closeMatch rdf:resource="http://www.idref.fr/028860365"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120608288"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:prefLabel xml:lang="en">Trier</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Treveri</skos:altLabel>
+      <skos:definition xml:lang="en">The mint(s) at the ancient site of Treveri in Gallia Belgica, the Medieval and modern city of Trier, National State of Rhineland-Palatinate (German: Rheinland-Pfalz), Germany.</skos:definition>
+      <skos:closeMatch rdf:resource="http://www.dbpedia.org/resource/Trier"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/109390"/>
+      <skos:prefLabel xml:lang="de">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Trèves</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Treveri</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Трир</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Treveri</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Treviri</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Τρήουηροι</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">特维希</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Treveři</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Trevirs</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Tréveros</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Treverer</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Treveri</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Treverit</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">트레베리족</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://geonames.org/2821164"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x29357"/>
+      <skos:prefLabel xml:lang="bg">тревери</skos:prefLabel>
+      <geo:location rdf:resource="http://nomisma.org/id/treveri#this"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q322168"/>
+      <skos:prefLabel xml:lang="cy">Treveri</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Treveri</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Treveri</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">טרוורים</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Tréveros</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/030lz_"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/2821164"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7004447"/>
+      <rdfs:seeAlso rdf:resource="http://finds.org.uk/database/search/map/q/pleiadesID%3A109390/objectType/COIN"/>
+      <skos:prefLabel xml:lang="pl">Trewir</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <skos:prefLabel xml:lang="lb">Tréier</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/3247911"/>
+      <skos:prefLabel xml:lang="la">Treveri</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q3138"/>
+      <skos:prefLabel xml:lang="af">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ትሪር</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ترير</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Трыр</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Treviro</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Treveris</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">تری‌یر</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Tréveris - Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">トリーア</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ტრირი</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Трир</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Tryras</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Trīre</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Trevèri</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Triri</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Трир</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="tg">Трир</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">เทรียร์</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Трір</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਟਰਾਏਰ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Трир</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Trier</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Տրիր</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Трир</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Трир</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Трир</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/07gdw"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4060877-3"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/135701727"/>
+      <skos:closeMatch rdf:resource="http://www.idref.fr/028860365"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120608288"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/treveri#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/treveri#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">49.756667</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.641389</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">49.756667</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.641389</geo:long>
    </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/treveri#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/treveri"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-18T04:00:06+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VAcXfPy7GhWg7BZ9kMVIW1spX1f8afklCCSjM5frPgk/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+            <dcterms:description xml:lang="en">This ID was generated by processing a spreadsheet through a one-off PHP script, predating the Nomisma spreadsheet import feature.</dcterms:description>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-22T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1qEpZ4KFEHxjIUFT7sOloPuKW6ixd3cJnr0EWHwnkcX4/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

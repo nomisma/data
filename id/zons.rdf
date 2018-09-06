@@ -1,87 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/zons">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Zons</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) at the city of Zons, North Rhine-Westphalia (German: Nordrhein-Westfalen), Germany.</skos:definition>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q219964"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Zons"/>
-        <skos:prefLabel xml:lang="de">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ツォンス</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="kg">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="wa">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="wo">Zons</skos:prefLabel>
-        <skos:prefLabel xml:lang="zu">Zons</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0fj0tp"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/2803908"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4067957-3"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/129661419"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb135462008"/>
-        <skos:altLabel xml:lang="de">Feste Zons</skos:altLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <geo:location rdf:resource="http://nomisma.org/id/zons#this"/>
-    </nmo:Mint>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/zons#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.121944</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.842778</geo:long>
-    </geo:SpatialThing>
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/zons">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Zons</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) at the city of Zons, North Rhine-Westphalia (German: Nordrhein-Westfalen), Germany.</skos:definition>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q219964"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Zons"/>
+      <skos:prefLabel xml:lang="de">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ツォンス</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="kg">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="wa">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="wo">Zons</skos:prefLabel>
+      <skos:prefLabel xml:lang="zu">Zons</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0fj0tp"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/2803908"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4067957-3"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/129661419"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb135462008"/>
+      <skos:altLabel xml:lang="de">Feste Zons</skos:altLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+      <geo:location rdf:resource="http://nomisma.org/id/zons#this"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/zons#provenance"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/zons#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.121944</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.842778</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/zons#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/zons"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-05T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-09T08:26:42+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

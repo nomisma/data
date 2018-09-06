@@ -1,61 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/pegau">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Pegau</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) at the City of Pegau, also site of a  Benedictine monastery founded in 1096, National State of Saxony (German: Freistaat Sachsen), Germany.</skos:definition>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q10773"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Pegau"/>
-        <skos:prefLabel xml:lang="de">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ba">Пегау</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پگاو</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Пегау</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Пегау</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Пегау</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Пегау</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">佩高</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Pēgava</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بغاو</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Pegau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Пегау</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Pegau</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/088gxq"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4045009-0"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/2855068"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/248073528"/>
-        <geo:location rdf:resource="http://nomisma.org/id/pegau#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-    </nmo:Mint>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/pegau#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.166667</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.25</geo:long>
-    </geo:SpatialThing>
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/pegau">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Pegau</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) at the City of Pegau, also site of a Benedictine monastery founded in 1096, National State of Saxony (German: Freistaat Sachsen), Germany.</skos:definition>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q10773"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Pegau"/>
+      <skos:prefLabel xml:lang="de">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ba">Пегау</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پگاو</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Пегау</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Пегау</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Пегау</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Пегау</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">佩高</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Pēgava</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بغاو</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Pegau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Пегау</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Pegau</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/088gxq"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4045009-0"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/2855068"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/248073528"/>
+      <geo:location rdf:resource="http://nomisma.org/id/pegau#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pegau#provenance"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/pegau#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.166667</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.25</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pegau#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/pegau"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-03T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

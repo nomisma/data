@@ -1,78 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
-    <rdac:Family rdf:about="http://nomisma.org/id/ayyubids">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ayyubids </skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أيوبى</skos:prefLabel>
-        <skos:definition xml:lang="en">The Ayyubid dynasty (Kurdish: دووگەلی ئەییووبی Dûgela Eyûbîyan; Arabic: الأيوبيون‎ al-Ayyūbīyūn; Turkish: Eyyûbîler) was a Muslim dynasty of Kurdish origin, founded by Saladin and centered in Egypt. The dynasty ruled much of the Middle East during the 12th and 13th centuries CE</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ayyubid_dynasty"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1171</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1500</nmo:hasEndDate>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q180114"/>
-        <skos:prefLabel xml:lang="jv">Wangsa Ayyubiyyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ajjubidzi</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Aiubtar leinua</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ayyoubides</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">השושלת האיובית</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">아이유브 왕조</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Dinastía ayubí</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Dinasti Ayubiyyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Ayyubidi</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Dinasti Ayyubiyyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ayyubiden</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アイユーブ朝</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ayyubiderna</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ajjoebiden</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Império Aiúbida</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ajubidoj</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Султанат Айюбидов</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Eyyubiler</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Sultanatul Ayyubid</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Dinastia aiúbida</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Aijubidit</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Аюбіди</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ayyubidae</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Ajubidi</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ajjúbovci</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">ایوبیان</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">აიუბიდები</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">ایوبی سلطنت</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Əyyubilər sülaləsi</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ajubidai</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Ayyubide-dynastiet</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αγιουβίδες</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿尤布王朝</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Айюб әулеті</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Vương triều Ayyub</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Dewleta Eyûbiyan</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Ајубиди</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">അയ്യൂബി രാജവംശം</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ajjubide-dynastiet</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">আইয়ুবীয় রাজবংশ</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Ajjúbidák</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ajubidi</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Ajjubide-dynastiet</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Дынастыя Аюбідаў</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Այյուբյան սուլթանություն</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Ejubidska dinastija</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Aijubiidide riik</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Ayyubiylar</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118647466"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/50018958"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01g4b2"/>
-    </rdac:Family>
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdac:Family rdf:about="http://nomisma.org/id/ayyubids">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ayyubids</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أيوبى</skos:prefLabel>
+      <skos:definition xml:lang="en">The Ayyubid dynasty (Kurdish: دووگەلی ئەییووبی Dûgela Eyûbîyan; Arabic: الأيوبيون‎ al-Ayyūbīyūn; Turkish: Eyyûbîler) was a Muslim dynasty of Kurdish origin, founded by Saladin and centered in Egypt. The dynasty ruled much of the Middle East during the 12th and 13th centuries CE</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ayyubid_dynasty"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1171</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1500</nmo:hasEndDate>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q180114"/>
+      <skos:prefLabel xml:lang="jv">Wangsa Ayyubiyyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ajjubidzi</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Aiubtar leinua</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ayyoubides</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">השושלת האיובית</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">아이유브 왕조</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Dinastía ayubí</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Dinasti Ayubiyyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Ayyubidi</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Dinasti Ayyubiyyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ayyubiden</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アイユーブ朝</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ayyubiderna</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ajjoebiden</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Império Aiúbida</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ajubidoj</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Султанат Айюбидов</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Eyyubiler</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Sultanatul Ayyubid</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Dinastia aiúbida</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Aijubidit</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Аюбіди</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ayyubidae</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Ajubidi</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ajjúbovci</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">ایوبیان</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">აიუბიდები</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">ایوبی سلطنت</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Əyyubilər sülaləsi</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ajubidai</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Ayyubide-dynastiet</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αγιουβίδες</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿尤布王朝</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Айюб әулеті</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Vương triều Ayyub</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Dewleta Eyûbiyan</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Ајубиди</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">അയ്യൂബി രാജവംശം</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ajjubide-dynastiet</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">আইয়ুবীয় রাজবংশ</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Ajjúbidák</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ajubidi</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Ajjubide-dynastiet</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Дынастыя Аюбідаў</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Այյուբյան սուլթանություն</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Ejubidska dinastija</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Aijubiidide riik</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Ayyubiylar</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118647466"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/50018958"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01g4b2"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ayyubids#provenance"/>
+   </rdac:Family>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ayyubids#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ayyubids"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-13T15:08:09+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1poZUEV0n1lmRt0gdtAXJOvMumpJs8eAX0xxI9hm4wIU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+            <dcterms:description xml:lang="en">This ID was generated by processing a spreadsheet through a one-off PHP script, predating the Nomisma spreadsheet import feature.</dcterms:description>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

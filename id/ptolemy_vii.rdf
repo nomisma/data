@@ -1,71 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_vii">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ptolemy VII Neos Philopator</skos:prefLabel>
-        <skos:definition xml:lang="en">Ptolemy VII Neos Philopator ("Ptolemy the New Beloved of his Father") was an Egyptian king of the Ptolemaic period. His reign is controversial, and it is possible that he did not reign at all, but was only granted royal dignity posthumously.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_VII_Neos_Philopator"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q39976"/>
-        <skos:prefLabel xml:lang="zh">托勒密七世</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ptolemeusz VII Neos Filopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пталамей VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ptolémée VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ptolomeo VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Ptolemy 7k Neos Philopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">VII. Ptolemaiosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tolomeo VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Ptolemaios VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Ptolemaios VII Neos Philopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ptolemaios VII.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プトレマイオス7世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πτολεμαίος Ζ΄ Νέος Φιλοπάτωρ</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ptolemej VII od Egipta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بطليموس السابع</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ptolemaeus VII Neos Philopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ptolemaios VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ptolemeu VII Neos Filopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Птолемей VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ptolemeu VII Neofilopàtor</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ptolemaios VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ptolemaeus VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ptolemaios VII. Neos Filopatór</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Птолемей VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">VII Ptolemey</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ptolemėjas VII Naujasis Filopatoras I</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ptolemaios VII Neos Filopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Птолемей VII Неос</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תלמי השביעי</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პტოლემე VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Ptolemej VII. Neos Filopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">프톨레마이오스 7세</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ปโตเลมีที่ 7</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ptolemeo la 7-a</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Ptolemaj VII. Neos Filopator</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0mz01"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_vii#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_vii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0145</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0144</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_vii">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ptolemy VII Neos Philopator</skos:prefLabel>
+      <skos:definition xml:lang="en">Ptolemy VII Neos Philopator ("Ptolemy the New Beloved of his Father") was an Egyptian king of the Ptolemaic period. His reign is controversial, and it is possible that he did not reign at all, but was only granted royal dignity posthumously.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_VII_Neos_Philopator"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39976"/>
+      <skos:prefLabel xml:lang="zh">托勒密七世</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ptolemeusz VII Neos Filopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пталамей VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ptolémée VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ptolomeo VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Ptolemy 7k Neos Philopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">VII. Ptolemaiosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tolomeo VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Ptolemaios VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Ptolemaios VII Neos Philopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ptolemaios VII.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プトレマイオス7世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πτολεμαίος Ζ΄ Νέος Φιλοπάτωρ</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ptolemej VII od Egipta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بطليموس السابع</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ptolemaeus VII Neos Philopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ptolemaios VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ptolemeu VII Neos Filopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Птолемей VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ptolemeu VII Neofilopàtor</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ptolemaios VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ptolemaeus VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ptolemaios VII. Neos Filopatór</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Птолемей VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">VII Ptolemey</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ptolemėjas VII Naujasis Filopatoras I</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ptolemaios VII Neos Filopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Птолемей VII Неос</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תלמי השביעי</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პტოლემე VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Ptolemej VII. Neos Filopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">프톨레마이오스 7세</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ปโตเลมีที่ 7</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ptolemeo la 7-a</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Ptolemaj VII. Neos Filopator</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0mz01"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_vii#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_vii#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemy_vii#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0145</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0144</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_vii#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_vii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-13T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

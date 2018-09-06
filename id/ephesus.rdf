@@ -1,101 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/ephesus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Ephesus</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Ephesus in Ionia.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Ephesus"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/599612"/>
-        <skos:prefLabel xml:lang="de">Ephesos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ephèse</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Efesos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Эфес</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Efese</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Efeso</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Έφεσος</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Ефес</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x107267"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002499"/>
-        <geo:location rdf:resource="http://nomisma.org/id/ephesus#this"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q47611"/>
-        <skos:prefLabel xml:lang="zh">以弗所</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Efesus</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Efeso</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Efez</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Efes</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Éfeso</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">எபேசஸ்</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Efese</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Epheszosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Efesus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Efeso</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Efesos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Efesos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أفسس</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Éfeso</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Efesos</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Efeso</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Ефес</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Efes</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Ефес</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Efesos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Ефес</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Efesos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Efez</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Efes</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Efeso</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Efesos</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אפסוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">에페소스</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Горад Эфес</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Efesa</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Éfeso</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Ephesos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">エフェソス</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Efes</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Efez</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Եփեսոս</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">เอฟิซัส</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Efes</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ephesus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fo">Efesus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Effesus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Efez</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">افسس</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">इफेसूस</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ეფესო</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Efesos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">افسس</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ephesus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Efes</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ኤፌሶን</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Efesas</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Efez</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/02p8r"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/7522155"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/156158309"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/ionia"/>
-        <skos:altLabel xml:lang="en">Ephesos</skos:altLabel>
-        <skos:closeMatch rdf:resource="http://gazetteer.dainst.org/app/#!/show/2287728"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/163278095"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4015012-4"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Ephesus</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Ephesus in Ionia.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Ephesus"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/599612"/>
+      <skos:prefLabel xml:lang="de">Ephesos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ephèse</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Efesos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Эфес</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Efese</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Efeso</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Έφεσος</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Ефес</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x107267"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002499"/>
+      <geo:location rdf:resource="http://nomisma.org/id/ephesus#this"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q47611"/>
+      <skos:prefLabel xml:lang="zh">以弗所</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Efesus</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Efeso</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Efez</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Efes</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Éfeso</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">எபேசஸ்</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Efese</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Epheszosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Efesus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Efeso</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Efesos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Efesos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أفسس</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Éfeso</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Efesos</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Efeso</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Ефес</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Efes</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Ефес</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Efesos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Ефес</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Efesos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Efez</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Efes</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Efeso</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Efesos</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אפסוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">에페소스</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Горад Эфес</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Efesa</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Éfeso</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Ephesos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">エフェソス</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Efes</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Efez</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Եփեսոս</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">เอฟิซัส</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Efes</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ephesus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fo">Efesus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Effesus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Efez</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">افسس</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">इफेसूस</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ეფესო</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Efesos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">افسس</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ephesus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Efes</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ኤፌሶን</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Efesas</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Efez</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/02p8r"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/7522155"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/156158309"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/ionia"/>
+      <skos:altLabel xml:lang="en">Ephesos</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://gazetteer.dainst.org/app/#!/show/2287728"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/163278095"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4015012-4"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ephesus#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/ephesus#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.939722</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.340833</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/ionia#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.939722</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.340833</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/ionia#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ephesus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ephesus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

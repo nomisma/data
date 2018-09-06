@@ -1,75 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/cassander">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Cassander</skos:prefLabel>
-        <skos:definition xml:lang="en">Cassander, the eldest son of Antipater and a contemporary of Alexander the Great, was king of the Ancient Greek kingdom of Macedon from 305 BC until 297 BC, and de facto ruler of much of Greece from 317 BC until his death.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cassander"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q207183"/>
-        <skos:prefLabel xml:lang="eu">Kasandro</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Kassander</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Касандр</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">카산드로스</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קסנדרוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Cassandre de Macédoine</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Casandro de Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Kasszandrosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Cassandro</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Kassander</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">カッサンドロス</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Kassandros</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κάσσανδρος</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Kasandar</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Kassander</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Kassandros</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">كاسندر</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Cassandro</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Кассандр</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Kassandros</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Cassandre</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Касандар</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Kassandros</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Кассандр Македонський</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Cassander</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Cassander</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Kasander Makedonski</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Kassandros</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Касандър</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Kassander af Makedonien</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Касандер</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">卡山德</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کاساندر</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Kassandros</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Kassandër</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Kassandr</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">சசாண்டர்</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kassandros</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118560476"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/88881779"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/015v_2"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/075994062"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/cassander#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/antigonid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/cassander#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0305</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0297</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/cassander">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Cassander</skos:prefLabel>
+      <skos:definition xml:lang="en">Cassander, the eldest son of Antipater and a contemporary of Alexander the Great, was king of the Ancient Greek kingdom of Macedon from 305 BC until 297 BC, and de facto ruler of much of Greece from 317 BC until his death.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cassander"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q207183"/>
+      <skos:prefLabel xml:lang="eu">Kasandro</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Kassander</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Касандр</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">카산드로스</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קסנדרוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Cassandre de Macédoine</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Casandro de Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Kasszandrosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Cassandro</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Kassander</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">カッサンドロス</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Kassandros</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κάσσανδρος</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Kasandar</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Kassander</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Kassandros</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">كاسندر</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Cassandro</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Кассандр</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Kassandros</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Cassandre</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Касандар</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Kassandros</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Кассандр Македонський</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Cassander</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Cassander</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Kasander Makedonski</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Kassandros</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Касандър</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Kassander af Makedonien</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Касандер</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">卡山德</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کاساندر</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Kassandros</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Kassandër</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Kassandr</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">சசாண்டர்</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kassandros</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118560476"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/88881779"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/015v_2"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/075994062"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/cassander#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/antigonid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/cassander#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/cassander#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0305</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0297</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cassander#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/cassander"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-20T08:36:48+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1XYzJMQjDgfFUPgZpU8nqpN1CLJ43kmJYZhkYR0sJTzg/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

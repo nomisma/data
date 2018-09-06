@@ -1,83 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/lycia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Lycia</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Lycia as defined in Head (1911)</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/asia"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lycia"/>
-        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/638965"/>
-        <geo:location rdf:resource="http://nomisma.org/id/lycia#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/316588"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x111377"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Lycia"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q18927"/>
-        <skos:prefLabel xml:lang="zh">吕基亚</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Lykia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Lizia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Licja</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Lycie</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">ליקיה</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Лікія</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">리키아</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Licia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Lükia</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Licia</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Licia</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Lüükia</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Lykia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Lykien</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">リュキア</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Λυκία</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Likija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Lykien</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ليكيا</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Lycië</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Lícia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Likio</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Lýkia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Ликия</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Ликија</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Likya</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ลิเชีย</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Licia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Lícia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Lyykia</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Лікія</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Lýkie</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">لیکیه</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Ликия</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Licija</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Likiya</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Likija</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Lykien</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Likiya</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Lykia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Լիկիա</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Ликија</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0czhq"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q18927"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0czhq"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Lycia</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Lycia as defined in Head (1911)</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/asia"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lycia"/>
+      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/638965"/>
+      <geo:location rdf:resource="http://nomisma.org/id/lycia#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/316588"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x111377"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Lycia"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q18927"/>
+      <skos:prefLabel xml:lang="zh">吕基亚</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Lykia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Lizia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Licja</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Lycie</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">ליקיה</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Лікія</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">리키아</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Licia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Lükia</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Licia</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Licia</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Lüükia</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Lykia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Lykien</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">リュキア</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Λυκία</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Likija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Lykien</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ليكيا</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Lycië</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Lícia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Likio</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Lýkia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Ликия</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Ликија</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Likya</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ลิเชีย</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Licia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Lícia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Lyykia</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Лікія</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Lýkie</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">لیکیه</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Ликия</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Licija</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Likiya</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Likija</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Lykien</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Likiya</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Lykia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Լիկիա</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Ликија</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0czhq"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q18927"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0czhq"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/lycia#provenance"/>
+   </nmo:Region>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/lycia#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.3704335</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.8141479</geo:long>
-        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_asia#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.3704335</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.8141479</geo:long>
+      <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_asia#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lycia#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/lycia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

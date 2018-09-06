@@ -1,78 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/osca">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:prefLabel xml:lang="en">Osca</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Osca in Hispania Citerior.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Huesca"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/246539"/>
-        <geo:location rdf:resource="http://nomisma.org/id/osca#this"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/9970040"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51276"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7007785"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q11967"/>
-        <skos:prefLabel xml:lang="it">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Uesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">وشقة</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Уэска</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Уеска</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Osca</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">هوئسکا</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Huesca - Uesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אואסקה</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ウエスカ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">우에스카</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Osca</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Hueska</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Òsca</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Уэска</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Уеска</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Уеска</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">韦斯卡</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Huesca</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Χουέσκα</skos:prefLabel>
-        <skos:prefLabel xml:lang="wa">Wesca</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0hw4k"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/3120514"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4089293-1"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/240818500"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:prefLabel xml:lang="en">Osca</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Osca in Hispania Citerior.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Huesca"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/246539"/>
+      <geo:location rdf:resource="http://nomisma.org/id/osca#this"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/9970040"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51276"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7007785"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q11967"/>
+      <skos:prefLabel xml:lang="it">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Uesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">وشقة</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Уэска</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Уеска</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Osca</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">هوئسکا</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Huesca - Uesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אואסקה</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ウエスカ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">우에스카</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Osca</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Hueska</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Òsca</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Уэска</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Уеска</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Уеска</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">韦斯卡</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Huesca</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Χουέσκα</skos:prefLabel>
+      <skos:prefLabel xml:lang="wa">Wesca</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0hw4k"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/3120514"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4089293-1"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/240818500"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/osca#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/osca#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.140011</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.408948</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.140011</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.408948</geo:long>
    </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/osca#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/osca"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

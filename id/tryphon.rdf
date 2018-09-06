@@ -1,65 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/tryphon">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Tryphon</skos:prefLabel>
-        <skos:definition xml:lang="en">Tryphon ("Magnificent") was the pseudonym taken by the Seleucid commander Diodotus after he calimed the kingship at the death of Antiochus VI (c. 142 BC). He ruled in opposition to both Demetrius II and Antiochus VII between c. 142 and 138 BC. His authority was not recognized in Babylon, but he held Antioch and Apamea in Syria, as well as much of Phoenicia and Coele Syria. In 143/2. He struck heavy blows against both the Jews of Judaea and the generals of Demetrius II. However, in 138 BC, Antiochus VII drove him out of Syria and hounded him through Phoenicia. Tryphon was besieged first at Dora and then at Apamea before he was captured and killed in 138/7 BC.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Diodotus_Tryphon"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q297651"/>
-        <skos:prefLabel xml:lang="pl">Diodotos Tryfon</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">דיודוטוס טריפון</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Diodote Tryphon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">디오도토스 트리폰</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Diodoto Trifón</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Diodotosz Trüphón szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Diodoto Trifone</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Diodotos Tryphon</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Diodotos Tryphon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ディオドトス・トリュフォン</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Diodotos Tryphon</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Διόδοτος Τρύφων</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Diodot Trifon</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Diodotus Tryfon</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Diodotus Tryphon</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Diódoto Trífon</skos:prefLabel>
-        <skos:prefLabel xml:lang="su">Diodotos Tryphon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Диодот Трифон</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Diodot Trifó</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Diodotos Tryfon</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Diodotus Tryphon</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Диодот Трифон</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">تروفون</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Diodot Tripon</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Diodotos Tryfon af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">狄奧多特·特里豐</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Diodotus Tryfon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ديودوتس</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Діодот Трифон</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Дыядот Трыфан</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0mz1_"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/tryphon#authority"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/tryphon#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0142</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0138</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/tryphon">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Tryphon</skos:prefLabel>
+      <skos:definition xml:lang="en">Tryphon ("Magnificent") was the pseudonym taken by the Seleucid commander Diodotus after he calimed the kingship at the death of Antiochus VI (c. 142 BC). He ruled in opposition to both Demetrius II and Antiochus VII between c. 142 and 138 BC. His authority was not recognized in Babylon, but he held Antioch and Apamea in Syria, as well as much of Phoenicia and Coele Syria. In 143/2. He struck heavy blows against both the Jews of Judaea and the generals of Demetrius II. However, in 138 BC, Antiochus VII drove him out of Syria and hounded him through Phoenicia. Tryphon was besieged first at Dora and then at Apamea before he was captured and killed in 138/7 BC.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Diodotus_Tryphon"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q297651"/>
+      <skos:prefLabel xml:lang="pl">Diodotos Tryfon</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">דיודוטוס טריפון</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Diodote Tryphon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">디오도토스 트리폰</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Diodoto Trifón</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Diodotosz Trüphón szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Diodoto Trifone</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Diodotos Tryphon</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Diodotos Tryphon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ディオドトス・トリュフォン</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Diodotos Tryphon</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Διόδοτος Τρύφων</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Diodot Trifon</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Diodotus Tryfon</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Diodotus Tryphon</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Diódoto Trífon</skos:prefLabel>
+      <skos:prefLabel xml:lang="su">Diodotos Tryphon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Диодот Трифон</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Diodot Trifó</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Diodotos Tryfon</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Diodotus Tryphon</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Диодот Трифон</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">تروفون</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Diodot Tripon</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Diodotos Tryfon af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">狄奧多特·特里豐</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Diodotus Tryfon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ديودوتس</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Діодот Трифон</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Дыядот Трыфан</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0mz1_"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/tryphon#authority"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/tryphon#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/tryphon#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0142</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0138</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tryphon#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/tryphon"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

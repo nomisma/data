@@ -1,48 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/uranius_antoninus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Uranius Antoninus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Uranius Antoninus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Uranius</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Uranius Antoninus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Ураний Антонин</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Urânio (usurpador romano)</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Uranius Antoninus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Uranio Antonino</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Uranius Antoninus</skos:prefLabel>
-        <skos:definition xml:lang="en">Uranius is the name of a Roman usurper cited by Zosimus, and active during the reigns of Elagabalus or Alexander Severus.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Uranius"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/100170"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/304918967"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/72189781"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118763857"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/uranius_antoninus#roman_emperor"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q259150"/>
-        <skos:prefLabel xml:lang="sk">Uranius Antoninus</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Ուրանիոս Անտոնինոս</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Uranius Antoninus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Uranius Antoninus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">اورانیوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Ураний Антонин</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Uranius Antoninus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0334fv"/>
-        <skos:prefLabel xml:lang="da">Uranius Antoninus</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Uranius Antoninus</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Uranius Antoninus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Uranius Antoninus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Uranius</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Uranius Antoninus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Ураний Антонин</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Urânio (usurpador romano)</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Uranius Antoninus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Uranio Antonino</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Uranius Antoninus</skos:prefLabel>
+      <skos:definition xml:lang="en">Uranius is the name of a Roman usurper cited by Zosimus, and active during the reigns of Elagabalus or Alexander Severus.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Uranius"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/100170"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/304918967"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/72189781"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118763857"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/uranius_antoninus#roman_emperor"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q259150"/>
+      <skos:prefLabel xml:lang="sk">Uranius Antoninus</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Ուրանիոս Անտոնինոս</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Uranius Antoninus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Uranius Antoninus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">اورانیوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Ураний Антонин</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Uranius Antoninus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0334fv"/>
+      <skos:prefLabel xml:lang="da">Uranius Antoninus</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Uranius Antoninus</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/uranius_antoninus#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/uranius_antoninus#roman_emperor">
-        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
    </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uranius_antoninus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/uranius_antoninus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-02T04:00:06+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

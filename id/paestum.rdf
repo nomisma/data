@@ -1,68 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/paestum">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Paestum</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Paestum in Lucania.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Paestum"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/442733"/>
-        <geo:location rdf:resource="http://nomisma.org/id/paestum#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/lucania"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/3171709"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x26565"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7054730"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q329967"/>
-        <skos:prefLabel xml:lang="pl">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">パエストゥム</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ποσειδωνία</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Pesto</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Пестум</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Пестум</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Пестум</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პესტუმი</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">帕埃斯图姆</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Paestum</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Պեստում</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/040_h5"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4075809-6"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/248087281"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7054729"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Paestum</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Paestum in Lucania.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Paestum"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/442733"/>
+      <geo:location rdf:resource="http://nomisma.org/id/paestum#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/lucania"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/3171709"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x26565"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7054730"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q329967"/>
+      <skos:prefLabel xml:lang="pl">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">パエストゥム</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ποσειδωνία</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Pesto</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Пестум</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Пестум</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Пестум</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პესტუმი</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">帕埃斯图姆</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Paestum</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Պեստում</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/040_h5"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4075809-6"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/248087281"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7054729"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/paestum#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/paestum#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.422631</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.005569</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/lucania#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.422631</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.005569</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/lucania#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/paestum#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/paestum"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

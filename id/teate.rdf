@@ -1,85 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/teate">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Teate</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Teate in Apulia.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Chieti"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/413333"/>
-        <geo:location rdf:resource="http://nomisma.org/id/teate#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/apulia"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/10626988"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x49613"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7004155"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q13138"/>
-        <skos:prefLabel xml:lang="it">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">كييتي</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">К'еці</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Киети</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کیتی</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">キエーティ</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Кьети</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Teate</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Kjetis</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Кьети</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Кјети</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">К'єті</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">基耶蒂</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κιέτι</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">키에티</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קייטי</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կիետի</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Chieti</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">کئیتی</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Chieti</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/06f_4j"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/6542118"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4229741-2"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/305306593"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Teate</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Teate in Apulia.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Chieti"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/413333"/>
+      <geo:location rdf:resource="http://nomisma.org/id/teate#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/apulia"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/10626988"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x49613"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7004155"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q13138"/>
+      <skos:prefLabel xml:lang="it">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">كييتي</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">К'еці</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Киети</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کیتی</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">キエーティ</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Кьети</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Teate</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Kjetis</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Кьети</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Кјети</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">К'єті</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">基耶蒂</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κιέτι</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">키에티</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קייטי</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կիետի</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Chieti</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">کئیتی</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Chieti</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/06f_4j"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/6542118"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4229741-2"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/305306593"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/teate#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/teate#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.351795</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.167152</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/apulia#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.351795</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.167152</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/apulia#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/teate#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/teate"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

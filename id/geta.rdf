@@ -1,81 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/geta">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Geta (kejsare)</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Ґета (імператор)</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Publi Septimi Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Geta (cesarz)</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">塞普提米乌斯·盖塔</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Geta (Kaiser)</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Publius Septimius Geta római császár</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Publius Septimius Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Гета</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プブリウス・セプティミウス・ゲタ</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Geta (Rooman keisari)</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Publius Septimius Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Geta (keizer)</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Geta</skos:prefLabel>
-        <skos:definition xml:lang="en">Roman emperor from 209 to 211.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Publius_Septimius_Geta"/>
-        <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Publius_Septimius_Geta_Louvre_Ma1076.jpg/220px-Publius_Septimius_Geta_Louvre_Ma1076.jpg"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/77699459"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/geta#roman_emperor"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q183089"/>
-        <skos:prefLabel xml:lang="eu">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Луцый Публій Септымій Гета</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Publius Septimius Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Kaizari Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Xeta</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Γέτας</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">غيتا</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Publius Septimius Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Publius Septimius Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">จักรพรรดิพูบลิอัส เซ็พติมิอัส เกธา</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Publius Septimius Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Публий Септимий Гета</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پوبلیوس سپتیموس گتا</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">გეტა</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Publije Septimije Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Publius Septimius Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Publius Septimius Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Гета</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Publij Septimij Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Publius Septimius Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Geta</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Publius Septimius Geta</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000061392416"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118717154"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/027686043"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01d2h0"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500355710"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Geta (kejsare)</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Ґета (імператор)</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Publi Septimi Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Geta (cesarz)</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">塞普提米乌斯·盖塔</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Geta (Kaiser)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Publius Septimius Geta római császár</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Publius Septimius Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Гета</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プブリウス・セプティミウス・ゲタ</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Geta (Rooman keisari)</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Publius Septimius Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Geta (keizer)</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Geta</skos:prefLabel>
+      <skos:definition xml:lang="en">Roman emperor from 209 to 211.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Publius_Septimius_Geta"/>
+      <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Publius_Septimius_Geta_Louvre_Ma1076.jpg/220px-Publius_Septimius_Geta_Louvre_Ma1076.jpg"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/77699459"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/geta#roman_emperor"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q183089"/>
+      <skos:prefLabel xml:lang="eu">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Луцый Публій Септымій Гета</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Publius Septimius Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Kaizari Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Xeta</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Γέτας</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">غيتا</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Publius Septimius Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Publius Septimius Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">จักรพรรดิพูบลิอัส เซ็พติมิอัส เกธา</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Publius Septimius Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Публий Септимий Гета</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پوبلیوس سپتیموس گتا</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">გეტა</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Publije Septimije Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Publius Septimius Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Publius Septimius Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Гета</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Publij Septimij Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Publius Septimius Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Geta</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Publius Septimius Geta</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000061392416"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118717154"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/027686043"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01d2h0"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500355710"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/geta#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/geta#roman_emperor">
-        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
    </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/geta#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/geta"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

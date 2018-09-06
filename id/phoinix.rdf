@@ -1,54 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/phoinix">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Phoinikous</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient city of Phoinikous in Lykia (today Finike in Turkey).</skos:definition>
-        <skos:prefLabel xml:lang="de">Phoinix</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Phoinikos</skos:altLabel>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/639056"/>
-        
-        <skos:altLabel xml:lang="de">Phoenix</skos:altLabel>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1012894"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Finike"/>
-        <skos:prefLabel xml:lang="pt">Finike</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Finike</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Finike</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Финике</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Finike</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Finike</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Finike</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Finike</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Finike</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">فینیکه</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Finike</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Finike</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">فينيقيه</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">菲尼凱</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Finike</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">فنیقے</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0bj7gt"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/314923"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/316740280"/>
-        <geo:location rdf:resource="http://nomisma.org/id/phoinix#this"/>
-    </nmo:Mint>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/phoinix#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.292959</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.139016</geo:long>
-    </geo:SpatialThing>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/phoinix">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Phoinikous</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient city of Phoinikous in Lykia (today Finike in Turkey).</skos:definition>
+      <skos:prefLabel xml:lang="de">Phoinix</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Phoinikos</skos:altLabel>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/639056"/>
+      <skos:altLabel xml:lang="de">Phoenix</skos:altLabel>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1012894"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Finike"/>
+      <skos:prefLabel xml:lang="pt">Finike</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Finike</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Finike</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Финике</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Finike</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Finike</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Finike</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Finike</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Finike</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">فینیکه</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Finike</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Finike</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">فينيقيه</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">菲尼凱</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Finike</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">فنیقے</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0bj7gt"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/314923"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/316740280"/>
+      <geo:location rdf:resource="http://nomisma.org/id/phoinix#this"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/phoinix#provenance"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/phoinix#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.292959</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.139016</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/phoinix#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/phoinix"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-13T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-14T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

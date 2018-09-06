@@ -1,68 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/centuripae">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Centuripae</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Centuripae in Sicily.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Centuripe"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/462153"/>
-        <geo:location rdf:resource="http://nomisma.org/id/centuripae#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/sicily"/>
-        <skos:altLabel xml:lang="en">Kenturipai</skos:altLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/2525032"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51790"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7003900"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q56202"/>
-        <skos:prefLabel xml:lang="it">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">تشنتوريبي</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Чентурипе</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">チェントゥーリペ</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Чентурипе</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Centuripae</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Чентурипе</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Чентурипе</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">琴图里佩</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ჩენტურიპე</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Centuripe</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Չենտուրիպե</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/080cgc"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/6537795"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/245656062"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Centuripae</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Centuripae in Sicily.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Centuripe"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/462153"/>
+      <geo:location rdf:resource="http://nomisma.org/id/centuripae#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/sicily"/>
+      <skos:altLabel xml:lang="en">Kenturipai</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/2525032"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51790"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7003900"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q56202"/>
+      <skos:prefLabel xml:lang="it">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">تشنتوريبي</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Чентурипе</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">チェントゥーリペ</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Чентурипе</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Centuripae</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Чентурипе</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Чентурипе</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">琴图里佩</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ჩენტურიპე</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Centuripe</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Չենտուրիպե</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/080cgc"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/6537795"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/245656062"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/centuripae#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/centuripae#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.624073</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.740017</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/sicily#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.624073</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.740017</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/sicily#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/centuripae#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/centuripae"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

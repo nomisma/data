@@ -1,60 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ariobarzanes_i">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ariobarzanes I</skos:prefLabel>
-        <skos:definition xml:lang="en">Ariobarzanes I Philoromaios ("Friend of the Romans") alternated with Ariarathes IX as ruler of Cappadocia between 95 and 85 BC. He was usually deposed by Tigranes II of Armenia as an ally of Mithradates VI of Pontus only to be restored by Roman generals. Between 83 and 67 BC he was also driven out of Cappadocia by the Armenian and Pontic kings. Ariobarzanes I was restored by the Romans for the last time in 66 BC. Three years later he abdicated in favor of his son, Ariobarzanes II.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ariobarzanes_I_of_Cappadocia"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q380371"/>
-        <skos:prefLabel xml:lang="eu">Ariobarzanes I.a Filorromano</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ariobarzanes I Filoromajos</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Арыябарзан I Філарамей</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Ариобарзан I Филороман</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ariobarzane Ier de Cappadoce</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ariobarzanes I de Capadocia</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Ariobarzanes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ariobarzanes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ariobarzanes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Ariobarzane I di Cappadocia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ariobarzanes I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ariobarzanes I của Cappadocia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ariobarzan I od Kapadokije</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ariobarzanes I van Cappadocië</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Ariobarzanes 1. af Kappadokien</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ariobarzanes Filorromano</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אריוברזנס הראשון, מלך קפדוקיה</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Aryo Barzanê yekê yê Kapadokyayê</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Ариобарзан I Филоромеј</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Ариобарзан I</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Аріобарзан I Філоромей</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">I. Ariobarzanész</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アリオバルザネス1世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αριοβαρζάνης Α΄ της Καππαδοκίας</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03cmyg3"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ariobarzanes_i#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/ariobarzanid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/ariobarzanes_i#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/cappadocian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0095</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0062</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/ariobarzanes_i">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ariobarzanes I</skos:prefLabel>
+      <skos:definition xml:lang="en">Ariobarzanes I Philoromaios ("Friend of the Romans") alternated with Ariarathes IX as ruler of Cappadocia between 95 and 85 BC. He was usually deposed by Tigranes II of Armenia as an ally of Mithradates VI of Pontus only to be restored by Roman generals. Between 83 and 67 BC he was also driven out of Cappadocia by the Armenian and Pontic kings. Ariobarzanes I was restored by the Romans for the last time in 66 BC. Three years later he abdicated in favor of his son, Ariobarzanes II.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ariobarzanes_I_of_Cappadocia"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q380371"/>
+      <skos:prefLabel xml:lang="eu">Ariobarzanes I.a Filorromano</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ariobarzanes I Filoromajos</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Арыябарзан I Філарамей</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Ариобарзан I Филороман</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ariobarzane Ier de Cappadoce</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ariobarzanes I de Capadocia</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Ariobarzanes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ariobarzanes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ariobarzanes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Ariobarzane I di Cappadocia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ariobarzanes I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ariobarzanes I của Cappadocia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ariobarzan I od Kapadokije</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ariobarzanes I van Cappadocië</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Ariobarzanes 1. af Kappadokien</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ariobarzanes Filorromano</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אריוברזנס הראשון, מלך קפדוקיה</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Aryo Barzanê yekê yê Kapadokyayê</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Ариобарзан I Филоромеј</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Ариобарзан I</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Аріобарзан I Філоромей</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">I. Ariobarzanész</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アリオバルザネス1世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αριοβαρζάνης Α΄ της Καππαδοκίας</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03cmyg3"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ariobarzanes_i#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ariobarzanid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ariobarzanes_i#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/ariobarzanes_i#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/cappadocian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0095</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0062</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ariobarzanes_i#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ariobarzanes_i"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

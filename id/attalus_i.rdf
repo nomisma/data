@@ -1,68 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/attalus_i">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Attalus I</skos:prefLabel>
-        <skos:definition xml:lang="en">Attalus I, surnamed Soter ruled Pergamon, an Ionian Greek polis (what is now Bergama, Turkey), first as dynast, later as king, from 241 BC to 197 BC.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Attalus_I"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q110745"/>
-        <skos:prefLabel xml:lang="pl">Attalos I</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Атал I Сатэр</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Atalo I</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">I. Attalosz pergamoni király</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Attalo I</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Attalos I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アッタロス1世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Άτταλος Α' της Περγάμου</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Attalos I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Atal I</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Attalus I van Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Attalos I av Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Átalo I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Аттал I Сотер</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Ատտալոս I Սոտեր</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">I. Attalos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Àtal I de Pèrgam</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Attalos I</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Аттал I Сотер</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Attalus I</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Атал I</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Attale Ier</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿塔罗斯一世</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Atalo I.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Atal I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Атал I Сотер</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Attalus I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Attalos I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">아탈로스 1세</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Attalos I.</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/12089260X"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/18064950"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0ct1tv"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/attalus_i#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/attalid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/attalus_i#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/pergamene_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0241</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0197</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/attalus_i">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Attalus I</skos:prefLabel>
+      <skos:definition xml:lang="en">Attalus I, surnamed Soter ruled Pergamon, an Ionian Greek polis (what is now Bergama, Turkey), first as dynast, later as king, from 241 BC to 197 BC.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Attalus_I"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q110745"/>
+      <skos:prefLabel xml:lang="pl">Attalos I</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Атал I Сатэр</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Atalo I</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">I. Attalosz pergamoni király</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Attalo I</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Attalos I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アッタロス1世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Άτταλος Α' της Περγάμου</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Attalos I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Atal I</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Attalus I van Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Attalos I av Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Átalo I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Аттал I Сотер</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Ատտալոս I Սոտեր</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">I. Attalos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Àtal I de Pèrgam</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Attalos I</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Аттал I Сотер</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Attalus I</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Атал I</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Attale Ier</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿塔罗斯一世</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Atalo I.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Atal I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Атал I Сотер</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Attalus I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Attalos I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">아탈로스 1세</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Attalos I.</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/12089260X"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/18064950"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0ct1tv"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/attalus_i#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/attalid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/attalus_i#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/attalus_i#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/pergamene_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0241</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0197</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/attalus_i#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/attalus_i"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:17:11+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1gXcM0SRWqSZ4RJiDg21i5PI91EVyfMr1ogVgnH9zhIE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,71 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/antigonus_ii">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Antigonus II Gonatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">安提柯二世</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Антигон II Гонат</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Antigonos II. Gonatás</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Antigonos II Gonatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Antigonos II. Gonatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Antígon II Gònates</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">II. Antigonosz makedón király</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Antigonos II</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Antigono II Gonata</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">안티고노스 2세</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Antigone II Gonatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Антигон II Гонат</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Antígono II Gónatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Antigonos II Gonatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Antygon II Gonatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Antígono II Gónatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Antigonos II Gonatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アンティゴノス2世</skos:prefLabel>
-        <skos:definition xml:lang="en">Antigonus II Gonatas (Ancient Greek: Ἀντίγονος B΄ Γονατᾶς) (319 BC – 239 BC) was a powerful ruler who firmly established the Antigonid dynasty in Macedonia and
-			acquired fame for his victory over the Gauls who had invaded the Balkans.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antigonus_II_Gonatas"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antigonus_ii#authority"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q241386"/>
-        <skos:prefLabel xml:lang="eu">Antigono II.a Gonatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Antigon II Gonata</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αντίγονος Β΄ Γονατάς</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Antigon II Gonata</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أنتيغونوس الثاني غوناتاس</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Antigonos Gonatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Антигон II Гонат</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Антигон II Гонат</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Antigonus II Gonatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Антигон II Гонат</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Antigon II. Gonata</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Антигон II Гоната</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Antigonos II Gonatas</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/70653685"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118503367"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01l150"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/076101894"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12457086d"/>
-        <skos:prefLabel xml:lang="he">אנטיגונוס השני גונאטס, מלך מוקדון</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Antigonos II Gonatas</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://isni.org/000000039928173X"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/antigonid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Antigonus II Gonatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">安提柯二世</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Антигон II Гонат</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Antigonos II. Gonatás</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Antigonos II Gonatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Antigonos II. Gonatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Antígon II Gònates</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">II. Antigonosz makedón király</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Antigonos II</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Antigono II Gonata</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">안티고노스 2세</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Antigone II Gonatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Антигон II Гонат</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Antígono II Gónatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Antigonos II Gonatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Antygon II Gonatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Antígono II Gónatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Antigonos II Gonatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アンティゴノス2世</skos:prefLabel>
+      <skos:definition xml:lang="en">Antigonus II Gonatas (Ancient Greek: Ἀντίγονος B΄ Γονατᾶς) (319 BC – 239 BC) was a powerful ruler who firmly established the Antigonid dynasty in Macedonia and acquired fame for his victory over the Gauls who had invaded the Balkans.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antigonus_II_Gonatas"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/antigonus_ii#authority"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q241386"/>
+      <skos:prefLabel xml:lang="eu">Antigono II.a Gonatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Antigon II Gonata</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αντίγονος Β΄ Γονατάς</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Antigon II Gonata</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أنتيغونوس الثاني غوناتاس</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Antigonos Gonatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Антигон II Гонат</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Антигон II Гонат</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Antigonus II Gonatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Антигон II Гонат</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Antigon II. Gonata</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Антигон II Гоната</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Antigonos II Gonatas</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/70653685"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118503367"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01l150"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/076101894"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12457086d"/>
+      <skos:prefLabel xml:lang="he">אנטיגונוס השני גונאטס, מלך מוקדון</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Antigonos II Gonatas</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://isni.org/000000039928173X"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/antigonid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/antigonus_ii#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/antigonus_ii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0277</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0274</nmo:hasEndDate>
-    </org:Membership>
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0277</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0274</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antigonus_ii#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/antigonus_ii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-20T08:36:48+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1XYzJMQjDgfFUPgZpU8nqpN1CLJ43kmJYZhkYR0sJTzg/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

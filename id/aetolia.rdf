@@ -1,55 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/aetolia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Aetolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Етолія</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ätolien</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Etòlia</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Aitolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アイトーリア</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Etolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Этолия</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Etolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Aetolië</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Etólia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Etolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Aitolien</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Étolie</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Aetolia as defined in Head (1911)</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/europe"/>
-        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/540591"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aetolia"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q26857"/>
-        <skos:prefLabel xml:lang="eu">Etolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אטוליה</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Aitolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αιτωλία</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Etolija</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أيتوليا</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Aitólia</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Aetolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Aetolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Etolija</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Етолия</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Etolija</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Aitolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Aitólie</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Aitoolia</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01549g"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/248499626"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Aetolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Етолія</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ätolien</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Etòlia</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Aitolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アイトーリア</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Etolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Этолия</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Etolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Aetolië</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Etólia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Etolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Aitolien</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Étolie</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Aetolia as defined in Head (1911)</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/europe"/>
+      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/540591"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aetolia"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q26857"/>
+      <skos:prefLabel xml:lang="eu">Etolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אטוליה</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Aitolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αιτωλία</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Etolija</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أيتوليا</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Aitólia</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Aetolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Aetolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Etolija</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Етолия</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Etolija</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Aitolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Aitólie</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Aitoolia</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01549g"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/248499626"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/aetolia#provenance"/>
+   </nmo:Region>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/aetolia#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/aetolia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

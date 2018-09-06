@@ -1,49 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/tetradrachm">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Tetradrachm</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Tetradrachme</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">四德拉克馬</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Tetradracma</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Тетрадрахма</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">テトラドラクマ</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Tetradrachme</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Tetradrakme</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tetradramma</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Tetradracma</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Тетрадрахма</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Tetradrachm"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300037254"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/currency/tetradrachm"/>
-        <skos:definition xml:lang="en">An ancient denomination with the value of 4 drachms</skos:definition>
-        <skos:definition xml:lang="fr">4 drachmes</skos:definition>
-        <skos:prefLabel xml:lang="fr">Tétradrachme</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1083662"/>
-        <skos:prefLabel xml:lang="af">Tetradragme</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">تترادراخما</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Тетрадрахма</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Tetradracma</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">טטרדרכמא</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Tetradraĥmo</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Tetradrakme</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Tetradrachma</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Tetradrakhma</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Тэтрадрахма</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Τετράδραχμο</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03bxlbr"/>
-    </nmo:Denomination>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Tetradrachm</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Tetradrachme</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">四德拉克馬</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Tetradracma</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Тетрадрахма</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">テトラドラクマ</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Tetradrachme</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Tetradrakme</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tetradramma</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Tetradracma</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Тетрадрахма</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Tetradrachm"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300037254"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/currency/tetradrachm"/>
+      <skos:definition xml:lang="en">An ancient denomination with the value of 4 drachms</skos:definition>
+      <skos:definition xml:lang="fr">4 drachmes</skos:definition>
+      <skos:prefLabel xml:lang="fr">Tétradrachme</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1083662"/>
+      <skos:prefLabel xml:lang="af">Tetradragme</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">تترادراخما</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Тетрадрахма</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Tetradracma</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">טטרדרכמא</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Tetradraĥmo</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Tetradrakme</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Tetradrachma</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Tetradrakhma</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Тэтрадрахма</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Τετράδραχμο</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03bxlbr"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/tetradrachm#provenance"/>
+   </nmo:Denomination>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tetradrachm#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/tetradrachm"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-19T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vC7sRD5zbHcQKsCkMd3z6Zo-QH5PtX0Iq07xnKXGTGY/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

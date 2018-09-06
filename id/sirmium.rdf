@@ -1,66 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/sirmium">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:prefLabel xml:lang="en">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Сірмій</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Sirmium in Pannonia.</skos:definition>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/207447"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Sirmium"/>
-        <skos:closeMatch rdf:resource="http://geonames.org/3190103"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x38508"/>
-        <geo:location rdf:resource="http://nomisma.org/id/sirmium#this"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/3190103"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7015491"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q833060"/>
-        <skos:prefLabel xml:lang="pt">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Сирмий</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Sirmio</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Sirmio</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">シルミウム</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Сирмиум</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">سیرمیوم</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Sirmij</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Sirmijus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Сирмијум</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Горад Сірмій</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Sirmium</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/03bcsf"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4101044-9"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/267016150"/>
-        <skos:prefLabel xml:lang="hy">Սիրմիում</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">سرمیوم</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Sirmiumi</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Sirmium</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Sirmium</skos:prefLabel>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:prefLabel xml:lang="en">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Сірмій</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Sirmium in Pannonia.</skos:definition>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/207447"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Sirmium"/>
+      <skos:closeMatch rdf:resource="http://geonames.org/3190103"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x38508"/>
+      <geo:location rdf:resource="http://nomisma.org/id/sirmium#this"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/3190103"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7015491"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q833060"/>
+      <skos:prefLabel xml:lang="pt">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Сирмий</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Sirmio</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Sirmio</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">シルミウム</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Сирмиум</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">سیرمیوم</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Sirmij</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Sirmijus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Сирмијум</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Горад Сірмій</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Sirmium</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/03bcsf"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4101044-9"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/267016150"/>
+      <skos:prefLabel xml:lang="hy">Սիրմիում</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">سرمیوم</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Sirmiumi</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Sirmium</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Sirmium</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/sirmium#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/sirmium#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44.966447</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.610106</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44.966447</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.610106</geo:long>
    </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sirmium#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/sirmium"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

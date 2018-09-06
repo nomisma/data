@@ -1,39 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/annius_verus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Annius Verus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Marco Annio Vero César</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Annius Verus Caesar</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Marco Annio Vero Cesare</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Марк Анний Вер Цезарь</skos:prefLabel>
-        <skos:definition xml:lang="en">Marcus Annius Verus Caesar (after May 162 – 10 September 169) was a son of Marcus Aurelius and Faustina the Younger. In AD 166 he was made his father's first
-			heir. On 10 September 169, he died of natural causes in Rome.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Marcus_Annius_Verus_Caesar"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:altLabel xml:lang="la">Marcus Annius Verus</skos:altLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q567222"/>
-        <skos:prefLabel xml:lang="sh">Marko Anije Ver Cezar</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Марк Аний Вер Цезар</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Marcus Annius Verus Caesar</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Anni Ver (cèsar)</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Marcus Annius Verus Caesar</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Marcus Annius Verus Caesar</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Marcus Annius Verus Caesar</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Marco Ânio Vero César</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ウェルス</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02pq7v2"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Annius Verus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Marco Annio Vero César</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Annius Verus Caesar</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Marco Annio Vero Cesare</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Марк Анний Вер Цезарь</skos:prefLabel>
+      <skos:definition xml:lang="en">Marcus Annius Verus Caesar (after May 162 – 10 September 169) was a son of Marcus Aurelius and Faustina the Younger. In AD 166 he was made his father's first heir. On 10 September 169, he died of natural causes in Rome.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Marcus_Annius_Verus_Caesar"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:altLabel xml:lang="la">Marcus Annius Verus</skos:altLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q567222"/>
+      <skos:prefLabel xml:lang="sh">Marko Anije Ver Cezar</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Марк Аний Вер Цезар</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Marcus Annius Verus Caesar</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Anni Ver (cèsar)</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Marcus Annius Verus Caesar</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Marcus Annius Verus Caesar</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Marcus Annius Verus Caesar</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Marco Ânio Vero César</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ウェルス</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02pq7v2"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/annius_verus#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/annius_verus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/annius_verus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

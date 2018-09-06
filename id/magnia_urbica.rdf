@@ -1,42 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/magnia_urbica">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Magnia Urbica</skos:prefLabel>
-        <skos:definition xml:lang="en">The wife of the Roman emperor Carinus.</skos:definition>
-        <skos:prefLabel xml:lang="de">Magnia Urbica</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Magnia Urbica</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Magnia Urbica</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Магния Урбика</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Magnia Urbica</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Magnia Urbica</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Magnia Urbica</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Magnia_Urbica"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140795"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q2337379"/>
-        <skos:prefLabel xml:lang="bg">Магния Урбика</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">مانیا اوربیکا</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Magnia Urbica</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Magnia Urbica</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Magnia Urbica</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Маґнія Урбіка</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Magnia Urbica</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Магнија Урбика</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/026djc6"/>
-        <skos:prefLabel xml:lang="da">Magnia Urbica</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Magnia Urbica</skos:prefLabel>
-    </foaf:Person>
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/magnia_urbica">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Magnia Urbica</skos:prefLabel>
+      <skos:definition xml:lang="en">The wife of the Roman emperor Carinus.</skos:definition>
+      <skos:prefLabel xml:lang="de">Magnia Urbica</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Magnia Urbica</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Magnia Urbica</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Магния Урбика</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Magnia Urbica</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Magnia Urbica</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Magnia Urbica</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Magnia_Urbica"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140795"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2337379"/>
+      <skos:prefLabel xml:lang="bg">Магния Урбика</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">مانیا اوربیکا</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Magnia Urbica</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Magnia Urbica</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Magnia Urbica</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Маґнія Урбіка</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Magnia Urbica</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Магнија Урбика</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/026djc6"/>
+      <skos:prefLabel xml:lang="da">Magnia Urbica</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Magnia Urbica</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/magnia_urbica#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/magnia_urbica#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/magnia_urbica"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-19T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

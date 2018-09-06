@@ -1,67 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/hostilian">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Hostilian</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Гостіліан</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">霍斯蒂利安</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Hostilianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Hostilià</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Hostilian</skos:prefLabel>
-        <skos:definition xml:lang="en">Roman emperor in 251 A.D.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hostilian"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/89202565"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/hostilian#roman_emperor"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q46837"/>
-        <skos:prefLabel xml:lang="pl">Hostylian</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Hostiliano</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Hostilien</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Hostiliano</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Hostilian</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Hostilianus római császár</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Ostiliano</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ホスティリアヌス</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Hostilianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Οστιλιανός</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Hostilijan</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Hostilianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Hostilianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Hostiliano</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Hostilianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Гостилиан</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Хостилијан</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Hostilian</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Hostilian</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Хостилијан</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Hostilianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Hostilianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Hostilian</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">هوستیلیان</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Хостилиан</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Hostilijan</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Hostilian</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Hostilian</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Hostilianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Гастыліян</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Hostilianus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/012xmp"/>
-        <skos:prefLabel xml:lang="id">Hostilian</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Hostilian</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Hostilian</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Гостіліан</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">霍斯蒂利安</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Hostilianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Hostilià</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Hostilian</skos:prefLabel>
+      <skos:definition xml:lang="en">Roman emperor in 251 A.D.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hostilian"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/89202565"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/hostilian#roman_emperor"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q46837"/>
+      <skos:prefLabel xml:lang="pl">Hostylian</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Hostiliano</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Hostilien</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Hostiliano</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Hostilian</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Hostilianus római császár</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Ostiliano</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ホスティリアヌス</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Hostilianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Οστιλιανός</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Hostilijan</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Hostilianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Hostilianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Hostiliano</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Hostilianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Гостилиан</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Хостилијан</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Hostilian</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Hostilian</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Хостилијан</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Hostilianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Hostilianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Hostilian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">هوستیلیان</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Хостилиан</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Hostilijan</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Hostilian</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Hostilian</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Hostilianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Гастыліян</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Hostilianus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/012xmp"/>
+      <skos:prefLabel xml:lang="id">Hostilian</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Hostilian</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/hostilian#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/hostilian#roman_emperor">
-        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
    </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hostilian#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/hostilian"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-25T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

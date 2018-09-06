@@ -1,83 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/amasia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Amas(e)ia</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Amas(e)ia in Pontus.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Amasya"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/857018"/>
-        <geo:location rdf:resource="http://nomisma.org/id/amasia#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/pontus"/>
-        <skos:altLabel xml:lang="en">Amaseia</skos:altLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/616971"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x46938"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002337"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q170532"/>
-        <skos:prefLabel xml:lang="pl">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אמסיה</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">아마시아</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Amasia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Amasya ringkond</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アマスィヤ</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="rw">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αμάσεια</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أماصيا</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Амасья</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Ամասիա</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Амасья</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Amasea</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="os">Амасья</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آماسیه</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Амасия</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Amasija</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿馬西亞</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Amasya</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਅਮਾਸਿਆ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">اماسیا</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ამასია</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Amasya</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/04sy85"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/752015"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4207452-6"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/123759926"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Amas(e)ia</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Amas(e)ia in Pontus.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Amasya"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/857018"/>
+      <geo:location rdf:resource="http://nomisma.org/id/amasia#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/pontus"/>
+      <skos:altLabel xml:lang="en">Amaseia</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/616971"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x46938"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002337"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q170532"/>
+      <skos:prefLabel xml:lang="pl">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אמסיה</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">아마시아</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Amasia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Amasya ringkond</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アマスィヤ</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="rw">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αμάσεια</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أماصيا</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Амасья</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Ամասիա</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Амасья</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Amasea</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="os">Амасья</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آماسیه</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Амасия</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Amasija</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿馬西亞</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Amasya</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਅਮਾਸਿਆ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">اماسیا</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ამასია</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Amasya</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/04sy85"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/752015"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4207452-6"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/123759926"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/amasia#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/amasia#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.678674</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.827800</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/pontus#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.678674</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.827800</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/pontus#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/amasia#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/amasia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

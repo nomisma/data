@@ -1,56 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ariarathes_vii">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ariarathes VII</skos:prefLabel>
-        <skos:definition xml:lang="en">Ariarathes VII Philometor ("Mother-loving") ruled the kingdom of Cappadocia from c. 116 to 100 BC. This young son of Ariarathes VI reigned with his mother, Laodice, as regent--a situation that led to instability. In c. 105 BC, Nicomedes III of Bithynia invaded Cappadocia and married Laodice in an attempt to gain the regency over Ariarathes VII. He and Laodice were driven out by Mithradates VI of Pontus, who placed Ariarathes VII on the throne as sole ruler of Cappadocia. However, like his father, Ariarathes VII came to resent Pontic influence. He riased an army against Mithradates VI, but was assassinated when he accepted and invitation to a conference with the Pontic king.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ariarathes_VII_of_Cappadocia"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q359570"/>
-        <skos:prefLabel xml:lang="pt">Ariarate VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Ariarates VII.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ariarates VII Filometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ariarathe VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Арыярат VII, цар кападокійскі</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Ариарат VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ariarates VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Ariarathes VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ariarates VII</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ariarathes VII Filometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Ariarate VII di Cappadocia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ariarathes VII. Philometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ariarathes VII của Cappadocia</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αριαράθης Ζ' της Καππαδοκίας</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Arijarat VII od Kapadokije</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿里阿拉特七世</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אריארתס השביעי</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ariarathes VII of Cappadocia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アリアラテス7世</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Аріарат VII</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0cfl3y"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ariarathes_vii#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/ariarathid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/ariarathes_vii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/cappadocian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0116</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0100</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/ariarathes_vii">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ariarathes VII</skos:prefLabel>
+      <skos:definition xml:lang="en">Ariarathes VII Philometor ("Mother-loving") ruled the kingdom of Cappadocia from c. 116 to 100 BC. This young son of Ariarathes VI reigned with his mother, Laodice, as regent--a situation that led to instability. In c. 105 BC, Nicomedes III of Bithynia invaded Cappadocia and married Laodice in an attempt to gain the regency over Ariarathes VII. He and Laodice were driven out by Mithradates VI of Pontus, who placed Ariarathes VII on the throne as sole ruler of Cappadocia. However, like his father, Ariarathes VII came to resent Pontic influence. He riased an army against Mithradates VI, but was assassinated when he accepted and invitation to a conference with the Pontic king.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ariarathes_VII_of_Cappadocia"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q359570"/>
+      <skos:prefLabel xml:lang="pt">Ariarate VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Ariarates VII.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ariarates VII Filometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ariarathe VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Арыярат VII, цар кападокійскі</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Ариарат VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ariarates VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Ariarathes VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ariarates VII</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ariarathes VII Filometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Ariarate VII di Cappadocia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ariarathes VII. Philometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ariarathes VII của Cappadocia</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αριαράθης Ζ' της Καππαδοκίας</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Arijarat VII od Kapadokije</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿里阿拉特七世</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אריארתס השביעי</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ariarathes VII of Cappadocia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アリアラテス7世</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Аріарат VII</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0cfl3y"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ariarathes_vii#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ariarathid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ariarathes_vii#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/ariarathes_vii#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/cappadocian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0116</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0100</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ariarathes_vii#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ariarathes_vii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

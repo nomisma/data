@@ -1,82 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/nola">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Nola</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Nola in Campania.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Nola"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/432981"/>
-        <geo:location rdf:resource="http://nomisma.org/id/nola#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/campania"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/10401891"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x30948"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7004644"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q72288"/>
-        <skos:prefLabel xml:lang="it">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Нола</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Νώλα</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">נולה</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ノーラ</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Нола</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">놀라</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Нола</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Нола</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Нола</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">诺拉</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">نولا (ایتالیا)</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Nola</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Նոլա</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Nola</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0pmhy"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/3172227"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4117905-5"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/148389667"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Nola</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Nola in Campania.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Nola"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/432981"/>
+      <geo:location rdf:resource="http://nomisma.org/id/nola#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/campania"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/10401891"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x30948"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7004644"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q72288"/>
+      <skos:prefLabel xml:lang="it">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Нола</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Νώλα</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">נולה</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ノーラ</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Нола</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">놀라</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Нола</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Нола</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Нола</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">诺拉</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">نولا (ایتالیا)</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Nola</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Նոլա</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Nola</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0pmhy"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/3172227"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4117905-5"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/148389667"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/nola#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/nola#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.925875</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.528564</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/campania#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.925875</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.528564</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/campania#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/nola#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/nola"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

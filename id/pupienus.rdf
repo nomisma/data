@@ -1,75 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/pupienus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">普皮恩努斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Marc Clodi Pupiè Màxim</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Пупієн</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Пупиен</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Maxime Pupien</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">マルクス・クロディウス・プピエヌス・マクシムス</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Marco Clodio Pupieno Massimo</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Pupieno</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Pupieno</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Pupien</skos:prefLabel>
-        <skos:definition xml:lang="en">Roman emperor in 238 A.D.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pupienus"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/75111555"/>
-        <skos:altLabel xml:lang="la">Marcus Clodius Pupienus Maximus</skos:altLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pupienus#roman_emperor"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1797"/>
-        <skos:prefLabel xml:lang="ar">بابينوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пупіен</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Пупиен</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πουπιένος</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Pupieno</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Pupieno</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پوپینوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Pupieno</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">פופיאנוס ובלבינוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Pupijen</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Pupienus római császár</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პუპიენუსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Пупијан</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Pupijen</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Пупијен и Балбин</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Maxime Pupien</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Pupienus</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Pupienus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118793691"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/025swk3"/>
-        <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/150"/>
-        <skos:prefLabel xml:lang="id">Pupienus</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">普皮恩努斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Marc Clodi Pupiè Màxim</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Пупієн</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Пупиен</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Maxime Pupien</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">マルクス・クロディウス・プピエヌス・マクシムス</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Marco Clodio Pupieno Massimo</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Pupieno</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Pupieno</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Pupien</skos:prefLabel>
+      <skos:definition xml:lang="en">Roman emperor in 238 A.D.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pupienus"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/75111555"/>
+      <skos:altLabel xml:lang="la">Marcus Clodius Pupienus Maximus</skos:altLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/pupienus#roman_emperor"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1797"/>
+      <skos:prefLabel xml:lang="ar">بابينوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пупіен</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Пупиен</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πουπιένος</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Pupieno</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Pupieno</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پوپینوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Pupieno</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">פופיאנוס ובלבינוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Pupijen</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Pupienus római császár</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პუპიენუსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Пупијан</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Pupijen</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Пупијен и Балбин</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Maxime Pupien</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Pupienus</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Pupienus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118793691"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/025swk3"/>
+      <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/150"/>
+      <skos:prefLabel xml:lang="id">Pupienus</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pupienus#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/pupienus#roman_emperor">
-        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
    </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pupienus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/pupienus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-20T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

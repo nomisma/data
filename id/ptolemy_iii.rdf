@@ -1,76 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_iii">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ptolemy III Euergetes</skos:prefLabel>
-        <skos:definition xml:lang="en">Ptolemy III Euergetes (reigned 246–222 BC) was the third king of the Ptolemaic dynasty in Egypt.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_III_Euergetes"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q39602"/>
-        <skos:prefLabel xml:lang="zh">托勒密三世</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ptolemeusz III Euergetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пталамей III Эвергет</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">프톨레마이오스 3세</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ptolémée III</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ptolomeo III</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Ptolemy 3k Euergetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">III. Ptolemaiosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tolomeo III</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Ptolemaios III</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Ptolemaios III Euergetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ptolemaios III.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プトレマイオス3世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πτολεμαίος Γ΄ Ευεργέτης</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ptolemaios III Euergetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ptolemej III Euerget</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ptolemaeus III Euergetes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بطليموس الثالث</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ptolemaios III Euergetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ptolemeu III Evérgeta</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ptolemeo la 3-a</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Птолемей III Эвергет</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Птолемеј III Еуергет</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ptolemeu III Evergetes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ptolemaios III</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ptolemaeus III</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ptolemaios III. Euergetés</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Птолемей III</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პტოლემე III</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">III Ptolemey</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Ptolemej III. Euerget</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ptolemėjas III Euergetas I</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Ptolomeu III</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תלמי השלישי</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ทอเลมีที่ 3</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ptolemaios III Euergetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Птолемей ІІІ Евергет</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Ptolemeus III Euergetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">بطلمیوس سوم</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119132893"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000117426794"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0gj5t"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/232377557"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_iii#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_iii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0246</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0222</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_iii">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ptolemy III Euergetes</skos:prefLabel>
+      <skos:definition xml:lang="en">Ptolemy III Euergetes (reigned 246–222 BC) was the third king of the Ptolemaic dynasty in Egypt.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_III_Euergetes"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39602"/>
+      <skos:prefLabel xml:lang="zh">托勒密三世</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ptolemeusz III Euergetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пталамей III Эвергет</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">프톨레마이오스 3세</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ptolémée III</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ptolomeo III</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Ptolemy 3k Euergetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">III. Ptolemaiosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tolomeo III</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Ptolemaios III</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Ptolemaios III Euergetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ptolemaios III.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プトレマイオス3世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πτολεμαίος Γ΄ Ευεργέτης</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ptolemaios III Euergetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ptolemej III Euerget</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ptolemaeus III Euergetes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بطليموس الثالث</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ptolemaios III Euergetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ptolemeu III Evérgeta</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ptolemeo la 3-a</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Птолемей III Эвергет</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Птолемеј III Еуергет</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ptolemeu III Evergetes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ptolemaios III</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ptolemaeus III</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ptolemaios III. Euergetés</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Птолемей III</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პტოლემე III</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">III Ptolemey</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Ptolemej III. Euerget</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ptolemėjas III Euergetas I</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Ptolomeu III</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תלמי השלישי</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ทอเลมีที่ 3</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ptolemaios III Euergetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Птолемей ІІІ Евергет</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Ptolemeus III Euergetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">بطلمیوس سوم</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119132893"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000117426794"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0gj5t"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/232377557"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_iii#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_iii#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemy_iii#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0246</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0222</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_iii#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_iii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:11:58+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

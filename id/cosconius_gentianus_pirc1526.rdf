@@ -1,27 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/cosconius_gentianus_pirc1526">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Cosconius Gentianus</skos:prefLabel>
-        <skos:definition xml:lang="en">Legatus augusti pro praetore Moesiae inferioris AD 195-198. His name appears on coins of Markianopolis and Nikopolis.
-
-Lit.: PIR ² C 1526.</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/cosconius_gentianus_pirc1526#issuer"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/cosconius_gentianus_pirc1526#issuer">
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-    </org:Membership>
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/cosconius_gentianus_pirc1526">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Cosconius Gentianus</skos:prefLabel>
+      <skos:definition xml:lang="en">Legatus augusti pro praetore Moesiae inferioris AD 195-198. His name appears on coins of Markianopolis and Nikopolis. Lit.: PIR ² C 1526.</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/cosconius_gentianus_pirc1526#issuer"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/cosconius_gentianus_pirc1526#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/cosconius_gentianus_pirc1526#issuer">
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cosconius_gentianus_pirc1526#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/cosconius_gentianus_pirc1526"/>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

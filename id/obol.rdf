@@ -1,55 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/obol">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Obol</skos:prefLabel>
-        <skos:definition xml:lang="en">An ancient denomination with the value of 1 obol</skos:definition>
-        <skos:prefLabel xml:lang="fr">Obole</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Obool</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">オボルス</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Obolus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Обол</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">奧波勒斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Obol</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Obolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Obol</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Óbolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Óbolo</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Obol_(coin)"/>
-        <skos:definition xml:lang="fr">1 obole</skos:definition>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q384102"/>
-        <skos:prefLabel xml:lang="be">Абол</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Обол</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Òbol</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Obolos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Obol</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Obolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אובול</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Obolos</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Obolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Obolus</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Obolas</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Obolos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Обол</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Obolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Obolus</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Οβολός</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Obol</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Obolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Obool</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01vt2g"/>
-    </nmo:Denomination>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Obol</skos:prefLabel>
+      <skos:definition xml:lang="en">An ancient denomination with the value of 1 obol</skos:definition>
+      <skos:prefLabel xml:lang="fr">Obole</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Obool</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">オボルス</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Obolus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Обол</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">奧波勒斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Obol</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Obolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Obol</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Óbolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Óbolo</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Obol_(coin)"/>
+      <skos:definition xml:lang="fr">1 obole</skos:definition>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q384102"/>
+      <skos:prefLabel xml:lang="be">Абол</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Обол</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Òbol</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Obolos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Obol</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Obolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אובול</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Obolos</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Obolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Obolus</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Obolas</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Obolos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Обол</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Obolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Obolus</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Οβολός</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Obol</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Obolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Obool</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01vt2g"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/obol#provenance"/>
+   </nmo:Denomination>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/obol#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/obol"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-18T04:00:04+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-19T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vC7sRD5zbHcQKsCkMd3z6Zo-QH5PtX0Iq07xnKXGTGY/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,53 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/lucius_aelius">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Lucius Aelius</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Луций Элий Цезарь</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Lucio Elio Vero</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Cejoniusz Kommodus</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Lucius Aelius Caesar</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Lucio Elio Cesare</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Lucius Aelius Verus Caesar</skos:prefLabel>
-        <skos:definition xml:lang="en">Lucius Aelius Caesar (January 13, 101 – January 1, 138) became the adopted son and intended successor, of Roman Emperor Hadrian (January 24, 76 AD – July 10, 138
-			AD), but never attained the throne. Aelius was born with the name Lucius Ceionius Commodus, and later called Lucius Aelius Caesar.</skos:definition>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/89594231/"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lucius_Aelius"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:altLabel xml:lang="la">Lucius Aelius Caesar</skos:altLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q455034"/>
-        <skos:prefLabel xml:lang="fr">Lucius Aelius Verus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Lusius Aelius Ferus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Luci Aureli Ver Cèsar</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Lucius Aelius</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Lucius Aelius Caesar</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Lucius Aelius</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Lucius Aelius</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Луций Елий</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Lucije Elije</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Lúcio Élio</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Луцій Елій Цезар</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ルキウス・アエリウス・カエサル</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Lucius Aelius</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/89594231"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/022vg6"/>
-        <skos:prefLabel xml:lang="hu">Lucio Elio Vero</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">魯奇烏斯·凱歐尼烏斯·康茂德</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Луцый Элій Цэзар</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Lucius Aelius</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Lucius Aelius</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Lucius Aelius</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Lucius Aelius</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Луций Элий Цезарь</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Lucio Elio Vero</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Cejoniusz Kommodus</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Lucius Aelius Caesar</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Lucio Elio Cesare</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Lucius Aelius Verus Caesar</skos:prefLabel>
+      <skos:definition xml:lang="en">Lucius Aelius Caesar (January 13, 101 – January 1, 138) became the adopted son and intended successor, of Roman Emperor Hadrian (January 24, 76 AD – July 10, 138 AD), but never attained the throne. Aelius was born with the name Lucius Ceionius Commodus, and later called Lucius Aelius Caesar.</skos:definition>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/89594231/"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lucius_Aelius"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:altLabel xml:lang="la">Lucius Aelius Caesar</skos:altLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q455034"/>
+      <skos:prefLabel xml:lang="fr">Lucius Aelius Verus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Lusius Aelius Ferus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Luci Aureli Ver Cèsar</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Lucius Aelius</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Lucius Aelius Caesar</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Lucius Aelius</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Lucius Aelius</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Луций Елий</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Lucije Elije</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Lúcio Élio</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Луцій Елій Цезар</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ルキウス・アエリウス・カエサル</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Lucius Aelius</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/89594231"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/022vg6"/>
+      <skos:prefLabel xml:lang="hu">Lucio Elio Vero</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">魯奇烏斯·凱歐尼烏斯·康茂德</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Луцый Элій Цэзар</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Lucius Aelius</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Lucius Aelius</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Lucius Aelius</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/lucius_aelius#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lucius_aelius#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/lucius_aelius"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

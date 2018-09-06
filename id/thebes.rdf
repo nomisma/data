@@ -1,90 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/thebes">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Thebes</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Thebes in Boeotia.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Thebes,_Greece"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/541138"/>
-        <geo:location rdf:resource="http://nomisma.org/id/thebes#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/boeotia"/>
-        <skos:altLabel xml:lang="en">Thebai</skos:altLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/252910"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x32444"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7029383"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q5760"/>
-        <skos:prefLabel xml:lang="ru">Фивы</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tebe</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Thiva</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Thebe, Griekeland</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ثيفا</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Тива</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Thebai</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Teba</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Tebes</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Théby</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Thebai</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Theben</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Θήβα</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Tebo</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Tebas</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Teeba</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Tebas</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">تبس</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Theba</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Thèbes</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Tebas, Grecia</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תבאי</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Thiva</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ティーヴァ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">테베</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Thebae</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Tėbai</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Thebe</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Thíva</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Teby</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Tebas</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Teba</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Teba</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Téby</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Теба</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Thebe</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Thebai, Yunanistan</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Фіви</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">底比斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Antička Teba (Grčka)</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Thébai</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">थेबेस (प्राचीन ग्रीक शहर)</skos:prefLabel>
-        <skos:prefLabel xml:lang="my">သီးဗီးမြို့</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Фивы (Греция)</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Theben</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Թեբե</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">თებე</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Tēbas</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Горад Фівы, Грэцыя</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Tebas (Grècia)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">An Téibh</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0hfv0"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4078237-2"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/167954647"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb13553870k"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Thebes</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Thebes in Boeotia.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Thebes,_Greece"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/541138"/>
+      <geo:location rdf:resource="http://nomisma.org/id/thebes#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/boeotia"/>
+      <skos:altLabel xml:lang="en">Thebai</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/252910"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x32444"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7029383"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q5760"/>
+      <skos:prefLabel xml:lang="ru">Фивы</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tebe</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Thiva</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Thebe, Griekeland</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ثيفا</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Тива</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Thebai</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Teba</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Tebes</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Théby</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Thebai</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Theben</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Θήβα</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Tebo</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Tebas</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Teeba</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Tebas</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">تبس</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Theba</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Thèbes</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Tebas, Grecia</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תבאי</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Thiva</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ティーヴァ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">테베</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Thebae</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Tėbai</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Thebe</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Thíva</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Teby</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Tebas</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Teba</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Teba</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Téby</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Теба</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Thebe</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Thebai, Yunanistan</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Фіви</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">底比斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Antička Teba (Grčka)</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Thébai</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">थेबेस (प्राचीन ग्रीक शहर)</skos:prefLabel>
+      <skos:prefLabel xml:lang="my">သီးဗီးမြို့</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Фивы (Греция)</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Theben</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Թեբե</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">თებე</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Tēbas</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Горад Фівы, Грэцыя</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Tebas (Grècia)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">An Téibh</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0hfv0"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4078237-2"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/167954647"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb13553870k"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/thebes#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/thebes#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.319236</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.317355</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/boeotia#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.319236</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.317355</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/boeotia#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/thebes#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/thebes"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

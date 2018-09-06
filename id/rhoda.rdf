@@ -1,63 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/rhoda">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The mint at the ancient site of Rhoda in Hispania Citerior.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Rhoda</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Roses,_Girona"/>
-        <geo:location rdf:resource="http://nomisma.org/id/rhoda#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/10172082"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q11822"/>
-        <skos:prefLabel xml:lang="fr">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ρόσας</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Rosas</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ロザス</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Росас</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Росас</skos:prefLabel>
-        <skos:prefLabel xml:lang="ty">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Розас</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Rosas</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Roses</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">罗塞斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">روساس</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Roses, Girona</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">رسس</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Ռոսաս</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Roses</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0lkkp"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/6534115"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/157216953"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The mint at the ancient site of Rhoda in Hispania Citerior.</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Rhoda</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Roses,_Girona"/>
+      <geo:location rdf:resource="http://nomisma.org/id/rhoda#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/10172082"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q11822"/>
+      <skos:prefLabel xml:lang="fr">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ρόσας</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Rosas</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ロザス</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Росас</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Росас</skos:prefLabel>
+      <skos:prefLabel xml:lang="ty">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Розас</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Rosas</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Roses</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">罗塞斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">روساس</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Roses, Girona</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">رسس</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Ռոսաս</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Roses</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0lkkp"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/6534115"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/157216953"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/rhoda#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/rhoda#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.266667</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.166667</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.266667</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.166667</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/rhoda#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/rhoda"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

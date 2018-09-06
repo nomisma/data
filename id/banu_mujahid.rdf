@@ -1,42 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
-    <rdac:Family rdf:about="http://nomisma.org/id/banu_mujahid">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Banu Mujahid of Denia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بنو مجاهد فى دانيه</skos:prefLabel>
-        <skos:definition xml:lang="en">The Denia (Daniya) taifa was created in 1010, after the disintegration of the Caliphate of Córdoba, by the freed slave Mujahid al-Siqlabi, a former high functionary of the caliphate, who probably had a Slavic origin since Arabs called Slavs as Siqlab/Siqlav</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Taifa_of_D%C3%A9nia"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/muluk_al-tawaif"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1012</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1076</nmo:hasEndDate>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q252323"/>
-        <skos:prefLabel xml:lang="pt">Taifa de Dénia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Dénia</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Дения</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Дения</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Taïfa de Dénia</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Taifa de Denia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Emirat de Dàniyya</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Taifa van Dénia</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Taifa de Denya</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Taifa Denia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Դենիայի թայֆա</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Taifa de Dénia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Taifa Denii</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04lh__g"/>
-    </rdac:Family>
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdac:Family rdf:about="http://nomisma.org/id/banu_mujahid">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Banu Mujahid of Denia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بنو مجاهد فى دانيه</skos:prefLabel>
+      <skos:definition xml:lang="en">The Denia (Daniya) taifa was created in 1010, after the disintegration of the Caliphate of Córdoba, by the freed slave Mujahid al-Siqlabi, a former high functionary of the caliphate, who probably had a Slavic origin since Arabs called Slavs as Siqlab/Siqlav</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Taifa_of_D%C3%A9nia"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/muluk_al-tawaif"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1012</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1076</nmo:hasEndDate>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q252323"/>
+      <skos:prefLabel xml:lang="pt">Taifa de Dénia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Dénia</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Дения</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Дения</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Taïfa de Dénia</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Taifa de Denia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Emirat de Dàniyya</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Taifa van Dénia</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Taifa de Denya</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Taifa Denia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Դենիայի թայֆա</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Taifa de Dénia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Taifa Denii</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/04lh__g"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/banu_mujahid#provenance"/>
+   </rdac:Family>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/banu_mujahid#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/banu_mujahid"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-13T15:08:09+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1poZUEV0n1lmRt0gdtAXJOvMumpJs8eAX0xxI9hm4wIU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+            <dcterms:description xml:lang="en">This ID was generated by processing a spreadsheet through a one-off PHP script, predating the Nomisma spreadsheet import feature.</dcterms:description>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

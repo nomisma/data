@@ -1,56 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/drusilla">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Drusilla</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Drusilla</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Julia Drusilla (fille de Germanicus)</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Iulia Drusilla</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ドルシッラ</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Julia Druzylla</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Drusilla (Schwester des Caligula)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Юлия Друзилла</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Drusila (hermana de Calígula)</skos:prefLabel>
-        <skos:definition xml:lang="en">Julia Drusilla (16 September 16 AD – 10 June 38 AD) was the second daughter of Germanicus and Agrippina the Elder, and sister of the Emperor Caligula.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Julia_Drusilla"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:altLabel xml:lang="la">Iulia Drusilla</skos:altLabel>
-        <skos:exactMatch rdf:resource="http://numismatics.org/ocre/id/ric.1(2).gai.33"/>
-        <rdfs:comment xml:lang="en">nm:numismatic_start_date on the basis of her appearance http://numismatics.org/ocre/id/ric.1(2).gai.33</rdfs:comment>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q241036"/>
-        <skos:prefLabel xml:lang="he">דרוסילה</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Հուլիա Դրուզիլլա</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Drusil·la</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Julia Drusilla</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Юлія Друзілла</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Drusilla</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Xulia Drusila</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Друзила</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Druzila</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Julia Drusilla</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Јулија Друзила (сестра Калигуле)</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Drusila (irmã de Calígula)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">جولیا ڈروسیلا</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Julia Drusilla</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03c7xt"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/308712873"/>
-        <skos:altLabel xml:lang="de">Julia Drusilla</skos:altLabel>
-        <skos:prefLabel xml:lang="cs">Drusilla</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1051170591"/>
-        <skos:prefLabel xml:lang="da">Drusilla</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Drusilla</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Drusilla</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Drusilla</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Drusilla</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Julia Drusilla (fille de Germanicus)</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Iulia Drusilla</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ドルシッラ</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Julia Druzylla</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Drusilla (Schwester des Caligula)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Юлия Друзилла</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Drusila (hermana de Calígula)</skos:prefLabel>
+      <skos:definition xml:lang="en">Julia Drusilla (16 September 16 AD – 10 June 38 AD) was the second daughter of Germanicus and Agrippina the Elder, and sister of the Emperor Caligula.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Julia_Drusilla"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:altLabel xml:lang="la">Iulia Drusilla</skos:altLabel>
+      <skos:exactMatch rdf:resource="http://numismatics.org/ocre/id/ric.1(2).gai.33"/>
+      <rdfs:comment xml:lang="en">nm:numismatic_start_date on the basis of her appearance http://numismatics.org/ocre/id/ric.1(2).gai.33</rdfs:comment>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q241036"/>
+      <skos:prefLabel xml:lang="he">דרוסילה</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Հուլիա Դրուզիլլա</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Drusil·la</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Julia Drusilla</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Юлія Друзілла</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Drusilla</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Xulia Drusila</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Друзила</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Druzila</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Julia Drusilla</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Јулија Друзила (сестра Калигуле)</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Drusila (irmã de Calígula)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">جولیا ڈروسیلا</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Julia Drusilla</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03c7xt"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/308712873"/>
+      <skos:altLabel xml:lang="de">Julia Drusilla</skos:altLabel>
+      <skos:prefLabel xml:lang="cs">Drusilla</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1051170591"/>
+      <skos:prefLabel xml:lang="da">Drusilla</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Drusilla</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Drusilla</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/drusilla#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/drusilla#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/drusilla"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-12T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

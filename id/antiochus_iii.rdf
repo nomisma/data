@@ -1,87 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/antiochus_iii">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Antiochus III the Great</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Antiochos III.</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Антіох III Великий</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Antiochos III. Megás</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Antíoc III</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Antiochos III Đại đế</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">安条克三世</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Antiochos III</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Antiokhos III Suuri</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Antioco III</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Antíoco III Magno</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Antiochus III de Grote</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Antioch III Wielki</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Antiochos III</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Antíoco III el Grande</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Антиох III Великий</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Antiokos III den store</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">안티오코스 3세</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アンティオコス3世</skos:prefLabel>
-        <skos:definition xml:lang="en">Antiochus III the Great (Ancient Greek: Ἀντίoχoς Μέγας; c. 241 – 187 BC, ruled 222 – 187 BC) was a Seleucid Greek king and the 6th ruler of the Seleucid Empire.
-			He ruled over Greater Syria and western Asia towards the end of the 3rd century BCE.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_III_the_Great"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_iii#authority"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140761"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500355368"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q3365"/>
-        <skos:prefLabel xml:lang="nb">Antiokos III den store</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أنطيوخوس الثالث</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Антыёх III Вялікі</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Антиох III</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Antiochus III Mawr</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Antiochos 3. af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αντίοχος Γ' ο Μέγας</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آنتیوخوس سوم</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אנטיוכוס השלישי</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Antioh III. Veliki</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Անտիոքոս III Մեծ</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Antiokhos III yang Agung</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ანტიოქ III დიდი</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Ұлы Антиох ІІІ</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Antiochus III Magnus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">മഹാനായ അന്ത്യോക്കസ് III</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Аугаа Антиох</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Antiohie cel Mare</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Antioh III Veliki</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Antiochos III.</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Антиох III Велики</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">พระเจ้าแอนทิโอคัสมหาราช</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Antioh III. Veliki</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Antíoc III</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">III Antioks</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">III. Antiokhosz szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Antioko III.a Handia</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Антиох III Велики</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/267675043"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118503405"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/033632421"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lj36"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb16682931x"/>
-        <skos:prefLabel xml:lang="tr">III. Antiochus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000383194877"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Antiochus III the Great</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Antiochos III.</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Антіох III Великий</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Antiochos III. Megás</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Antíoc III</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Antiochos III Đại đế</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">安条克三世</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Antiochos III</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Antiokhos III Suuri</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Antioco III</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Antíoco III Magno</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Antiochus III de Grote</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Antioch III Wielki</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Antiochos III</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Antíoco III el Grande</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Антиох III Великий</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Antiokos III den store</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">안티오코스 3세</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アンティオコス3世</skos:prefLabel>
+      <skos:definition xml:lang="en">Antiochus III the Great (Ancient Greek: Ἀντίoχoς Μέγας; c. 241 – 187 BC, ruled 222 – 187 BC) was a Seleucid Greek king and the 6th ruler of the Seleucid Empire. He ruled over Greater Syria and western Asia towards the end of the 3rd century BCE.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_III_the_Great"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_iii#authority"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140761"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500355368"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3365"/>
+      <skos:prefLabel xml:lang="nb">Antiokos III den store</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أنطيوخوس الثالث</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Антыёх III Вялікі</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Антиох III</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Antiochus III Mawr</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Antiochos 3. af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αντίοχος Γ' ο Μέγας</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آنتیوخوس سوم</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אנטיוכוס השלישי</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Antioh III. Veliki</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Անտիոքոս III Մեծ</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Antiokhos III yang Agung</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ანტიოქ III დიდი</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Ұлы Антиох ІІІ</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Antiochus III Magnus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">മഹാനായ അന്ത്യോക്കസ് III</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Аугаа Антиох</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Antiohie cel Mare</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Antioh III Veliki</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Antiochos III.</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Антиох III Велики</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">พระเจ้าแอนทิโอคัสมหาราช</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Antioh III. Veliki</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Antíoc III</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">III Antioks</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">III. Antiokhosz szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Antioko III.a Handia</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Антиох III Велики</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/267675043"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118503405"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/033632421"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lj36"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb16682931x"/>
+      <skos:prefLabel xml:lang="tr">III. Antiochus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000383194877"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_iii#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/antiochus_iii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0222</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0187</nmo:hasEndDate>
-    </org:Membership>
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0222</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0187</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_iii#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_iii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-16T04:00:01+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,76 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/c_marcius_censorinus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">C. Marcius Censorinus</skos:prefLabel>
-        <skos:definition xml:lang="en">Roman moneyer operating under the authority of Augustus.</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/c_marcius_censorinus#issuer"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Marcius_Censorinus_%28consul_8_BC%29"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1223584"/>
-        <skos:prefLabel xml:lang="la">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Gajusz Marcjusz Cenzorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Гай Марций Цензорин</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Gayo Marcio Censorino</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Гай Марцій Цензорін</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Gaius Marcius Censorinus (chấp chính quan năm 8 TCN)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Gai Marci Censorí (cònsol 8 aC)</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q22811764"/>
-        <skos:prefLabel xml:lang="af">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fo">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ht">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="mt">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pi">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Gaius Marcius Censorinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="wa">Gaius Marcius Censorinus</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">C. Marcius Censorinus</skos:prefLabel>
+      <skos:definition xml:lang="en">Roman moneyer operating under the authority of Augustus.</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/c_marcius_censorinus#issuer"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Marcius_Censorinus_%28consul_8_BC%29"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1223584"/>
+      <skos:prefLabel xml:lang="la">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Gajusz Marcjusz Cenzorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Гай Марций Цензорин</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Gayo Marcio Censorino</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Гай Марцій Цензорін</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Gaius Marcius Censorinus (chấp chính quan năm 8 TCN)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Gai Marci Censorí (cònsol 8 aC)</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q22811764"/>
+      <skos:prefLabel xml:lang="af">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fo">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ht">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="mt">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pi">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="wa">Gaius Marcius Censorinus</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/c_marcius_censorinus#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/c_marcius_censorinus#issuer">
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
    </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/c_marcius_censorinus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/c_marcius_censorinus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-09T10:46:00+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

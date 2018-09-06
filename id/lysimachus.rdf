@@ -1,68 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/lysimachus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Lysimachus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Lýsimachos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Лісімах</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Lisímac de Tràcia</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">利西馬科斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Lysimachos</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Lysimachos</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Lisimaco</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">リュシマコス</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Lisímaco de Tracia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Lysimaque</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Lizymach</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Лисимах</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Lysimachus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ليسيماخوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Lisímaco</skos:prefLabel>
-        <skos:definition xml:lang="en">Lysimachus (Greek: Λυσίμαχος, Lysimachos; c. 360 BC – 281 BC) was a Macedonian officer and diadochus (i.e. "successor") of Alexander the Great, who became a
-			basileus ("King") in 306 BC, ruling Thrace, Asia Minor and Macedon.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lysimachus"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/lysimachus#authority"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q32133"/>
-        <skos:prefLabel xml:lang="eu">Lisimako Traziakoa</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">ליסימכוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">리시마코스</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Lizimah</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Lüszimakhosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Λυσίμαχος</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Lizimah</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Lysimachos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Лизимах</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Lysimakhos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Lysimachus</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Лизимах</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Lysimakhos</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Lysimachus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Lizimah</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Лизимах</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Lizimah</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">لوسیماخوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ლისიმაქე</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Lysimakhos</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Lysimaque</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118969293"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/288938378"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01l00c"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12100430n"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/029361435"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Lysimachus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Lýsimachos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Лісімах</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Lisímac de Tràcia</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">利西馬科斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Lysimachos</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Lysimachos</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Lisimaco</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">リュシマコス</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Lisímaco de Tracia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Lysimaque</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Lizymach</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Лисимах</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Lysimachus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ليسيماخوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Lisímaco</skos:prefLabel>
+      <skos:definition xml:lang="en">Lysimachus (Greek: Λυσίμαχος, Lysimachos; c. 360 BC – 281 BC) was a Macedonian officer and diadochus (i.e. "successor") of Alexander the Great, who became a basileus ("King") in 306 BC, ruling Thrace, Asia Minor and Macedon.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lysimachus"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/lysimachus#authority"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q32133"/>
+      <skos:prefLabel xml:lang="eu">Lisimako Traziakoa</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">ליסימכוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">리시마코스</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Lizimah</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Lüszimakhosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Λυσίμαχος</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Lizimah</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Lysimachos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Лизимах</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Lysimakhos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Lysimachus</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Лизимах</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Lysimakhos</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Lysimachus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Lizimah</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Лизимах</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Lizimah</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">لوسیماخوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ლისიმაქე</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Lysimakhos</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Lysimaque</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118969293"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/288938378"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01l00c"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12100430n"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/029361435"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/lysimachus#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/lysimachus#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
    </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lysimachus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/lysimachus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

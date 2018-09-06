@@ -1,54 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/locris">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Locris</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Locris as defined in Head (1911)</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/europe"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Locris"/>
-        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/540917"/>
-        <geo:location rdf:resource="http://nomisma.org/id/locris#this"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q659791"/>
-        <skos:prefLabel xml:lang="nl">Lokris</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Локрида</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Lokris</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Lòcrida</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Lokris</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Λοκρίδα</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Lócrida</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Lokrida</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Lokris</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Locride</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Lokrisz</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Lokris</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Locride</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Locris</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Lokryda</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Lócrida</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Локрида</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Lokrida</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Lokris</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Локрида</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Lokris</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ロクリス</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/018v3_"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Locris</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Locris as defined in Head (1911)</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/europe"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Locris"/>
+      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/540917"/>
+      <geo:location rdf:resource="http://nomisma.org/id/locris#this"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q659791"/>
+      <skos:prefLabel xml:lang="nl">Lokris</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Локрида</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Lokris</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Lòcrida</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Lokris</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Λοκρίδα</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Lócrida</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Lokrida</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Lokris</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Locride</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Lokrisz</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Lokris</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Locride</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Locris</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Lokryda</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Lócrida</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Локрида</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Lokrida</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Lokris</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Локрида</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Lokris</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ロクリス</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/018v3_"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/locris#provenance"/>
+   </nmo:Region>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/locris#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.629276</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.0846786</geo:long>
-        <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.629276</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.0846786</geo:long>
+      <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
    </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/locris#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/locris"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>
