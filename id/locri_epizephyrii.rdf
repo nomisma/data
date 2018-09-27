@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,66 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/locri_epizephyrii">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Locri Epizephyrii</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Locri Epizephyrii in Bruttium.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Locri"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/452369"/>
-      <geo:location rdf:resource="http://nomisma.org/id/locri_epizephyrii#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Locri Epizephyrii</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Locri Epizephyrii in Bruttium.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Locri"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/452369"/>
+        <geo:location rdf:resource="http://nomisma.org/id/locri_epizephyrii#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/bruttium"/>
+        <skos:altLabel xml:lang="en">Lokri Epizephyrii</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2524371"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51778"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7004271"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q54619"/>
+        <skos:prefLabel xml:lang="it">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">لوكري</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Локри</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Locres Epizefiris</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Επιζεφύριοι Λοκροί</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Locres</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">לוקרי</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="ia">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ロクリ</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Локри</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">로크리</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Locros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Локри</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Локрі</skos:prefLabel>
+        <skos:prefLabel xml:lang="uz">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="vo">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">洛克里</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="gv">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="wo">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Locri</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">لوکری (ایتالیا)</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0cw_m"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4111349-4"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/142804812"/>
+        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119797201"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/locri_epizephyrii#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.236420</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.259895</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.236420</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.259895</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/bruttium#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

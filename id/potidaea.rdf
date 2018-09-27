@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,51 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/potidaea">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Potidaea</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Potidaea in Macedonia.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Potidaea"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/491701"/>
-      <geo:location rdf:resource="http://nomisma.org/id/potidaea#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Potidaea</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Potidaea in Macedonia.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Potidaea"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/491701"/>
+        <geo:location rdf:resource="http://nomisma.org/id/potidaea#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/chalcidian_district"/>
+        <skos:altLabel xml:lang="en">Potidaia</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/10341110"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31687"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/6004814"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q999468"/>
+        <skos:prefLabel xml:lang="pt">Potideia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Potidée</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Потидея</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Potidea</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Potidea</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Potidaia</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Потідея</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Potidea</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Potidaea</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Potidea</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Nea Potidea</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ποτίδαια</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Potideja</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Potidaea</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Potidaia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">نيا بوتيديا</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Potidea</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">پوتیدایا</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ポティダイア</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Неа Потидеа</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Potidaia</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Горад Патыдэя</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/06bpb5"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/8411066"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/potidaea#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.193696</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.327812</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.193696</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.327812</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/chalcidian_district#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

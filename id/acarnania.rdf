@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,24 +9,51 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Region rdf:about="http://nomisma.org/id/acarnania">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Acarnania</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Akarnanien</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Акарнанія</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Acarnània</skos:prefLabel>
-      <skos:definition xml:lang="en">The region of Acarnania as defined in Head (1911)</skos:definition>
-      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Acarnania"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/530767"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x46104"/>
-      <geo:location rdf:resource="http://nomisma.org/id/acarnania#this"/>
-   </nmo:Region>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Acarnania</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Akarnanien</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Акарнанія</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Acarnània</skos:prefLabel>
+        <skos:definition xml:lang="en">The region of Acarnania as defined in Head (1911)</skos:definition>
+        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Acarnania"/>
+        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/530767"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x46104"/>
+        <geo:location rdf:resource="http://nomisma.org/id/acarnania#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/greek_europe"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q416070"/>
+        <skos:prefLabel xml:lang="el">Ακαρνανία</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Acarnanie</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Acarnânia</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Acarnania</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Akarnanien</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Acarnania</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Akarnanija</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Akarnanija</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Акарнания</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Acarnania</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Akarnanija</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Акарнания</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Acarnania</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Akarnania</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Akarnania</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">אקארנאניה</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Acarnania</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Akarnania</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">أكارنانيا</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Акарнанија</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Акарнанія</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アカルナニア</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0h3zr"/>
+    </nmo:Region>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/acarnania#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.666667</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.3167</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.666667</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.3167</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_europe#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

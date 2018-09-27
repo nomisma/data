@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/sijistan">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Sijistan</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">سجستان</skos:prefLabel>
+        <skos:definition xml:lang="en">Sīstān (Persian/Baloch/Pashto: سیستان), also known as Scythia, Sijistān (Arabic: سجستان‎), and Sākāstān(Persian/Baloch/Pashto: ساكاستان; literally "land of the Saka or Scythians"), is a historical region in present-day eastern Iran (Sistan and Baluchestan Province), southern Afghanistan (Nimruz, Kandahar, and Zabul Province), and the Nok Kundi region of Balochistan (western Pakistan). At times, the Saka territory encompassed areas as far east as Minnagara on the Indus River, in southwestern Sindh province of present-day Pakistan. Sistan was a part of the region of ancient Ariana.</skos:definition>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/1120985"/>
+        <geo:location rdf:resource="http://nomisma.org/id/sijistan#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+    </nmo:Mint>
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/sijistan#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.95962</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">61.86037</geo:long>
+    </geo:SpatialThing>
+</rdf:RDF>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/arwand">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Arwand</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">اروند</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Arvand</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Arvand,_Iran"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q5833615"/>
+        <skos:prefLabel xml:lang="fa">اروند (مشهد)</skos:prefLabel>
+        <skos:definition xml:lang="en">Arwand (Persian: اروند‎; also known as Arband) is a village in Tus Rural District, in the Central District of Mashhad County, Razavi Khorasan Province, Iran.</skos:definition>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/31495"/>
+        <geo:location rdf:resource="http://nomisma.org/id/arwand#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/arwand#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.3805</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">59.5815</geo:long>
+    </geo:SpatialThing>
+</rdf:RDF>

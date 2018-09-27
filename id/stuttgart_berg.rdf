@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/stuttgart_berg">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Stuttgart-Berg</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the site of Berg, now a part of Stuttgart-Ost, a subdivision of the City of Stuttgart. The destinctive mint mark is a head in the exergue. Lit.: A. Raff, Die Münzstätte Stuttgart-Berg während der Kipperzeit (1621-1623), Der Münzen- und Medaillensammler, Berichte 24 (1984), pp.1923-1943.</skos:definition>
+        <skos:prefLabel xml:lang="de">Stuttgart-Berg</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <geo:location rdf:resource="http://nomisma.org/id/stuttgart_berg#this"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2950699"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/stuttgart_berg#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.793611</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.207778</geo:long>
+    </geo:SpatialThing>
+</rdf:RDF>

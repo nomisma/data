@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/mnesar_athens">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Mnesarchos</skos:prefLabel>
+        <skos:definition xml:lang="en">Third magistrate attested in Athens in 119/118 BC. ΜΝΗΣΑΡ might be Mnesarchos or Mnesarchides (cf. LGPN): See M. Thompson, The New Style Silver Coinage of Athens (1961) nos. 569571, 573-577 / issue 46 (p. 575); C. Habicht, Zu den Münzmagistraten der Silberprägung des Neuen Stils, Chiron 21, 1991, p. 5 (119/118 BC); P. M. Fraser – E. Matthews, A Lexicon of Greek Personal Names II Attica (1994) p. 316 s. v. Mnesarchos, no. 5; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 692 s. v. Mnesar-.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/mnesar_athens#issuer"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-46017"/>
+    </foaf:Person>
+    
+    
+    <org:Membership rdf:about="http://nomisma.org/id/mnesar_athens#issuer">
+        <org:organization rdf:resource="http://nomisma.org/id/athens"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+    </org:Membership>
+</rdf:RDF>

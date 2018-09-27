@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,40 +9,43 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/gaius">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Gaius/Caligula</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Caligula"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/59052351"/>
-      <skos:prefLabel xml:lang="de">Gaius/Caligula</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Gaius/Caligula</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Gaius/Caligula</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Гай/Калигула</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Gaius/Caligula</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Gaio/Caligola</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Γάιος/Καλιγούλας</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Kaligula</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Calígula</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Caligula</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Caligula</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">卡利古拉</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Caligula</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Калігула</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Calígula</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">칼리굴라</skos:prefLabel>
-      <skos:prefLabel xml:lang="no">Caligula</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Calígula</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Caligula</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">カリグラ</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Caius Caesar Caligula római császár</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Гай/Калигула</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/gaius#roman_emperor"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Gaius/Caligula</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Caligula"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/59052351"/>
+        <skos:prefLabel xml:lang="de">Gaius/Caligula</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Gaius/Caligula</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Gaius/Caligula</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Гай/Калигула</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Gaius/Caligula</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gaio/Caligola</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Γάιος/Καλιγούλας</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Kaligula</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Calígula</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Caligula</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Caligula</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">卡利古拉</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Caligula</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Калігула</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Calígula</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">칼리굴라</skos:prefLabel>
+        <skos:prefLabel xml:lang="no">Caligula</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Calígula</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Caligula</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">カリグラ</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Caius Caesar Caligula római császár</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Гай/Калигула</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/gaius#roman_emperor"/>
+        <skos:definition xml:lang="en">Caligula, properly Gaius Julius Caesar Augustus Germanicus was Roman emperor from AD 37–41. Born Gaius Julius Caesar Germanicus, Caligula was a member of the house of rulers conventionally known as the Julio-Claudian dynasty.</skos:definition>
+        <skos:prefLabel xml:lang="da">Gaius/Caligula</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Gaius/Caligula</skos:prefLabel>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/gaius#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
    </org:Membership>
 </rdf:RDF>

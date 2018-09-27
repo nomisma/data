@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/rhoeteium">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Rhoeteium</skos:prefLabel>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/550856"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/troas"/>
+        <skos:altLabel xml:lang="en">Rhoiteion</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:definition xml:lang="en">The mint at the ancient site of Rhoeteium in Troas</skos:definition>
+        <geo:location rdf:resource="http://nomisma.org/id/rhoeteium#this"/>
+    </nmo:Mint>
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/rhoeteium#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.0095377</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.304805950000002</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/troas#this"/>
+    </geo:SpatialThing>
+</rdf:RDF>

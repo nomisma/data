@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,71 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/vibo_valentia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Vibo Valentia</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Vibo Valentia in Bruttium.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Vibo_Valentia"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/452337"/>
-      <geo:location rdf:resource="http://nomisma.org/id/vibo_valentia#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Vibo Valentia</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Vibo Valentia in Bruttium.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Vibo_Valentia"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/452337"/>
+        <geo:location rdf:resource="http://nomisma.org/id/vibo_valentia#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/bruttium"/>
+        <skos:altLabel xml:lang="en">Vibo Valentia</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/9198465"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x103003"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7007737"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q13625"/>
+        <skos:prefLabel xml:lang="it">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">فيبو فالينتيا</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Віба-Валенція</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Вибо Валентия</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">ויבו ולנטיה</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ia">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ヴィボ・ヴァレンツィア</skos:prefLabel>
+        <skos:prefLabel xml:lang="jv">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Вибо-Валентия</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Vibo Valentija</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Вибо-Валентия</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Вибо Валенција</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Вібо-Валентія</skos:prefLabel>
+        <skos:prefLabel xml:lang="uz">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="vo">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">维博瓦伦蒂亚</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">ویبو والنتسیا</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Vibo Valentia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">ویبو والینتسیا</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/05sfb3"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/6540115"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4267384-7"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/156113584"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/vibo_valentia#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.675581</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.097648</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.675581</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.097648</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/bruttium#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

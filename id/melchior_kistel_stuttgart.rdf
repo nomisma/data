@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/melchior_kistel_stuttgart">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/melchior_kistel_stuttgart#modern_period_mint_staff"/>
+        <skos:prefLabel xml:lang="en">Melchior Kistel</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">Mintmaster in Stuttgart, Baden-Wuerttemberg, Germany from 1566 to 1568. Lit.: U. Klein and A. Raff, Die Württembergischen Münzen von 1373 - 1693 (1993), p. 87</skos:definition>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/melchior_kistel_stuttgart#modern_period_mint_staff">
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1566</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1568</nmo:hasEndDate>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
+    </org:Membership>
+</rdf:RDF>

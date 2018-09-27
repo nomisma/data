@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/georg_pfruendt_(1603-1663)">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/georg_pfruendt_(1603-1663)#medalist"/>
+        <skos:prefLabel xml:lang="en">Georg Pfründt</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">Medalist, die cutter, wax modeler, and engineer in Stuttgart, Baden-Wuerttemberg, Germany from 1659 to 1663. Lived 1603 to 1663. Lit.: U. Klein and A. Raff, Die Württembergischen Münzen von 1373 - 1693 (1993), p. 210</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/42730120"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/georg_pfruendt_(1603-1663)#engraver"/>
+        <bio:birth xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/georg_pfruendt_(1603-1663)#birth"/>
+        <bio:death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/georg_pfruendt_(1603-1663)#death"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/georg_pfruendt_(1603-1663)#medalist">
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1659</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1663</nmo:hasEndDate>
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+        <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/georg_pfruendt_(1603-1663)#engraver">
+        <org:role rdf:resource="http://nomisma.org/id/engraver"/>
+    </org:Membership>
+    <bio:Birth xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/georg_pfruendt_(1603-1663)#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1603</dcterms:date>
+    </bio:Birth>
+    <bio:Death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/georg_pfruendt_(1603-1663)#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1663</dcterms:date>
+    </bio:Death>
+</rdf:RDF>

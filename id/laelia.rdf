@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,52 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/laelia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Laelia</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Laelia in Hispania Ulterior.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Albaida_del_Aljarafe"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/256254"/>
-      <geo:location rdf:resource="http://nomisma.org/id/laelia#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Laelia</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Laelia in Hispania Ulterior.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Albaida_del_Aljarafe"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/256254"/>
+        <geo:location rdf:resource="http://nomisma.org/id/laelia#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
+        <skos:altLabel xml:lang="en">Lailia</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2522251"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51268"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1465129"/>
+        <skos:prefLabel xml:lang="pt">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Альбайда-дель-Альхарафе</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="uz">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Альбайда-дель-Альхарафе</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">阿尔瓦伊达德拉尔哈拉费</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Альбайда-дель-Альхарафе</skos:prefLabel>
+        <skos:prefLabel xml:lang="ht">Albaida del Aljarafe</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Ալբայդա դել Ալխարաֆե</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Albaida del Aljarafe</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0df7qn"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/laelia#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.427015</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-6.165904</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.427015</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-6.165904</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

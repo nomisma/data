@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/modius_terventinus_pirm671">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Modius Terventinus</skos:prefLabel>
+        <skos:definition xml:lang="en">Procurator equestris. He was Legatus Augusti pro praetore in Moesia inferior under Alexander Severus, c. AD 225-229 AD. His name apppears on coins in Marcianopolis inferior under Severus Alexander, Iulia Mamaea, and Iulia Maesa. he is also labbeled Hegemon on some coins. As praefectus vehiculorum and together with others he dedicated a statue of Roma to the emperor Caracalla. Lit.: B. E. Thomasson, Laterculi Praesidum I (1984) p. 143 no. 127 (Um(brius?) Tereventinus, coins with portraits of Severus Alexander and Iulia Maesa, c. 222-226 AD); PIR² V 880 (VM[---] TEREVENTINVS = Modius Tereventinus); PIR² M 671 (Modius Terventinus); W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 838 s. v. Terebentios (AD 222-235).</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/modius_terventinus_pirm671#issuer"/>
+        <skos:altLabel xml:lang="en">Um(brius?) Tereventinus</skos:altLabel>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/modius_terventinus_pirm671#issuer">
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+        <org:organization rdf:resource="http://nomisma.org/id/marcianopolis"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0225</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0229</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

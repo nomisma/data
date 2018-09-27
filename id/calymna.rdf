@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,21 +9,59 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/calymna">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Calymna</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint of the city of Calymna, probably on the island of Calymna, off Caria.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kalymnos"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/599684"/>
-      <geo:location rdf:resource="http://nomisma.org/id/calymna#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Calymna</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint of the city of Calymna, probably on the island of Calymna, off Caria.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Kalymnos"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/599684"/>
+        <geo:location rdf:resource="http://nomisma.org/id/calymna#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/islands_off_caria"/>
+        <skos:altLabel xml:lang="en">Kalymna</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/263235"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x35859"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7023834"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q527809"/>
+        <skos:prefLabel xml:lang="it">Calimno</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">كاليمنوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Kàlimnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Kalymnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kalymnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Κάλυμνος</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Kálimnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Kálymnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Kalymnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Kálimnos - Κάλυμνος</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Kalimnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">カリムノス島</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Calymnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Kalymnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Kálymnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Kalimnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Calímnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Kalymnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Калимнос</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Калимнос</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Kalymnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Kalimnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Kalymnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">卡林诺斯岛</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Kalymnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">קלימנוס</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Калімнос</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">کالیمنوس</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/03pc36"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/261506"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4096905-8"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/calymna#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.9783009</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0081067</geo:long>
-      <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.9783009</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.0081067</geo:long>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islands_off_caria#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

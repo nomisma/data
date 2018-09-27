@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
+    <foaf:Person rdf:about="http://nomisma.org/id/ghiyath_al-din_mas'ud_ii">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Ghiyath al-Din Mas'ud II</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">غياث الدين كيخسرو الثالث</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">凱霍斯魯三世</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kai Chosrau III.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Kay Khusraw III</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Кей-Хосров III</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">III. Gıyaseddin Keyhüsrev</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Kaykhusraw III</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Kaykhusraw III</skos:prefLabel>
+        <skos:definition xml:lang="en">Kaykhusraw III (Old Anatolian Turkish: كَیخُسرو, Persian: غياث الدين كيخسرو بن قلج ارسلان‎, Ghiyāth ad-Dīn Kaykhusraw bin Qilij Arslān) was between two and six years old when in 1265 he was named Seljuq Sultan of Rûm.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kaykhusraw_III"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1378714"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02rwrk8"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/ghiyath_al-din_mas'ud_ii#authority"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/ghiyath_al-din_mas'ud_ii#authority">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/rum_seljuqs"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1265</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1284</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

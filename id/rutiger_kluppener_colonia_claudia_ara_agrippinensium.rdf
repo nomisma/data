@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/rutiger_kluppener_colonia_claudia_ara_agrippinensium">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/rutiger_kluppener_colonia_claudia_ara_agrippinensium#modern_period_mint_staff"/>
+        <skos:prefLabel xml:lang="en">Rutiger Kluppener</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">Die cutter in Cologne a city in Germany, in 1481, 1482, 1489, 1491 and  1502, and most likely all the years in between. Kluppener seems to have been employed in all four Mints: Stadt Cologne, Trier, Cologne Archbishopric and Jülich, following a ten year coinage treaty established on 16 March 1481 (and later partly extended). Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Cöln 1306-1547 (1913) pp. 253, 256, 258, 259, 262; Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926) pp. 47-49.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/rutiger_kluppener_colonia_claudia_ara_agrippinensium#engraver"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/rutiger_kluppener_colonia_claudia_ara_agrippinensium#engraver2"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/rutiger_kluppener_colonia_claudia_ara_agrippinensium#engraver3"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/rutiger_kluppener_colonia_claudia_ara_agrippinensium#modern_period_mint_staff">
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</nmo:hasStartDate>
+        <org:organization rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/rutiger_kluppener_colonia_claudia_ara_agrippinensium#engraver">
+        <org:role rdf:resource="http://nomisma.org/id/engraver"/>
+        <org:organization rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</nmo:hasStartDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/rutiger_kluppener_colonia_claudia_ara_agrippinensium#engraver2">
+        <org:role rdf:resource="http://nomisma.org/id/engraver"/>
+        <org:organization rdf:resource="http://nomisma.org/id/treveri"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/rutiger_kluppener_colonia_claudia_ara_agrippinensium#engraver3">
+        <org:role rdf:resource="http://nomisma.org/id/engraver"/>
+        <org:organization rdf:resource="http://nomisma.org/id/juelich"/>
+    </org:Membership>
+</rdf:RDF>

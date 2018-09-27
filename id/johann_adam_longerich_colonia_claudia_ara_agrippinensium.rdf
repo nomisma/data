@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/johann_adam_longerich_colonia_claudia_ara_agrippinensium">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_adam_longerich_colonia_claudia_ara_agrippinensium#modern_period_mint_staff"/>
+        <skos:prefLabel xml:lang="en">Johann Adam Longerich</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">The eldest son of Nikolaus Longerich, Johann Adam was sworn in as Mintmaster for the Cologne Circle, Germany, on 22 October 1700 and held this position until his resignation on 6 November 1705. He was then Mintmaster in Jülich-Berg and Dortmund. Longerich was also the Mint Warden for the Lower Rhine-Westphalian Circle, as noted in the Protocols of 1700, 1705 and 1712, and mintmaster in Düsseldorf, 1707 and 1708. His mintmark was IAL. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926) pp. 47-49, 266, 275; Wolfgang Scheffler, Goldschmiede Rheinland-Westfalens - Aachen - Köln (1973) n. 1680, p. 584; F. W. A. Schlickeysen, Reinhold Pallmann - W. Spemann, Erklaerung der Abkuerzungen auf Muenzen der neueren Zeit, des Mittelalters und des Alterthums (1896) p. 222.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_adam_longerich_colonia_claudia_ara_agrippinensium#modern_period_mint_staff2"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_adam_longerich_colonia_claudia_ara_agrippinensium#modern_period_mint_staff3"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/johann_adam_longerich_colonia_claudia_ara_agrippinensium#modern_period_mint_staff">
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1700</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1705</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/johann_adam_longerich_colonia_claudia_ara_agrippinensium#modern_period_mint_staff2">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <org:organization rdf:resource="http://nomisma.org/id/dortmund"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/johann_adam_longerich_colonia_claudia_ara_agrippinensium#modern_period_mint_staff3">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <org:organization rdf:resource="http://nomisma.org/id/duesseldorf"/>
+    </org:Membership>
+</rdf:RDF>

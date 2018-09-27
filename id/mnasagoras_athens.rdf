@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/mnasagoras_athens">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Mnasagoras</skos:prefLabel>
+        <skos:definition xml:lang="en">First magistrate attested in Athens in a period of 83/82-72/71 BC. Then attested as second magistrate in 71/70 BC [Thompson issue 92]. From Ikarion. Belongs to the same family as his colleague Dionysios, the first magistrate in 71/70 BC (Habicht 1991, p. 14). Maybe identical with the second magistrate of issue 69 (following Caramessini-Oeconomides – Kleiner 1975, p. 17, against LGPN where two different persons were listed): See M. Thompson, The New Style Silver Coinage of Athens (1961) no. 1236 / her issue 92 (p. 575); M. Caramessini-Oeconomides – F. S. Kleiner, RBNum 121, pp. 1975, pp. 16-18 (Mnasagoras and Mentor-issue); C. Habicht, Zu den Münzmagistraten der Silberprägung des Neuen Stils, Chiron 21, 1991, p. 6 (84/83 BC, his issue 81) and ibid. p. 2 note 2 (period of the Mnasagoras and Mentor-issue); ibid. p. 6 and 14 (71/70 BC, his issue 94); Prosopographia Attica 10227; P. M. Fraser – E. Matthews, A Lexicon of Greek Personal Names II Attica (1994) p. 315 s. v. Mnasagoras, no. 6; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 691 s. v. Mnasagoras.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/mnasagoras_athens#issuer"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-45923"/>
+    </foaf:Person>
+    
+    
+    <org:Membership rdf:about="http://nomisma.org/id/mnasagoras_athens#issuer">
+        <org:organization rdf:resource="http://nomisma.org/id/athens"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+    </org:Membership>
+</rdf:RDF>

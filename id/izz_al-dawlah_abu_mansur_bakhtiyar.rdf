@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
+    <foaf:Person rdf:about="http://nomisma.org/id/izz_al-dawlah_abu_mansur_bakhtiyar">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Izz al-Dawlah Abu Mansur Bakhtiyar</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">عز الدولة ابو منصور بختيار</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Izz ad-Dawla Bakhtiyar</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Izz al-Daula</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Izz-ad-Dawla Bakhtiyar</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">'Izz al-Dawla</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">عزالدوله بختیار</skos:prefLabel>
+        <skos:definition xml:lang="en">Bakhtiyar (Persian: بختیار, died 978), better known by his laqab of ʿIzz al-Dawla (Arabic: عز الدولة،, "Glory of the Dynasty"), was the Buyid amir of Iraq (967–978).</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Izz_al-Dawla"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q2745454"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/081mvn"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/izz_al-dawlah_abu_mansur_bakhtiyar#authority"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/izz_al-dawlah_abu_mansur_bakhtiyar#authority">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+  
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0967</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0978</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/buyids"/>
+    </org:Membership>
+</rdf:RDF>

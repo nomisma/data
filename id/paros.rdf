@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,72 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/paros">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Paros</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Paros on Paros in the Cyclades.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Paros"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/599867"/>
-      <geo:location rdf:resource="http://nomisma.org/id/paros#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Paros</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Paros on Paros in the Cyclades.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Paros"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/599867"/>
+        <geo:location rdf:resource="http://nomisma.org/id/paros#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/aegaean_islands"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31508"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011023"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q201272"/>
+        <skos:prefLabel xml:lang="eu">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">פארוס</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Párosz</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Paro</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Paros - Πάρος</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">パロス島</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Πάρος</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">باروس</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Парос</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Páros</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Парос</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Páros</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Парос</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Парос</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">帕罗斯岛</skos:prefLabel>
+        <skos:prefLabel xml:lang="fo">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Востраў Парас</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">პაროსი</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">파로스 섬</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Páros</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Paros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">پاروس</skos:prefLabel>
+        <skos:prefLabel xml:lang="sd">پاروس</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/018x13"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/255720"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4044728-5"/>
+        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119544181"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/paros#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.085790</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.150728</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.085790</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.150728</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/aegaean_islands#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

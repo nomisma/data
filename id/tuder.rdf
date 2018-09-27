@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,71 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/tuder">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Tuder</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Tuder in Umbria.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Todi"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/413354"/>
-      <geo:location rdf:resource="http://nomisma.org/id/tuder#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Tuder</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Tuder in Umbria.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Todi"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/413354"/>
+        <geo:location rdf:resource="http://nomisma.org/id/tuder#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/umbria"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/6536883"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x45722"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7005062"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q20579"/>
+        <skos:prefLabel xml:lang="it">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">تودي</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Τόντι</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">טודי</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">トーディ</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Тоди</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Tuder</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Тоди</skos:prefLabel>
+        <skos:prefLabel xml:lang="sc">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Тоді</skos:prefLabel>
+        <skos:prefLabel xml:lang="uz">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="vo">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Тоди</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">تودی (ایتالیا)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">토디</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">托迪 (意大利城市)</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Տոդի</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Todi</skos:prefLabel>
+        <skos:prefLabel xml:lang="pa">ਟੋਡੀ</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/01v39w"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4119637-5"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/297567226"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/tuder#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.780253</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.408494</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.780253</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.408494</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/umbria#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

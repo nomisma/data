@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,19 +9,44 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/isinda">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Isinda</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Isinda in Pisidia.</skos:definition>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/638872"/>
-      <geo:location rdf:resource="http://nomisma.org/id/isinda#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Isinda</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Isinda in Pisidia.</skos:definition>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/638872"/>
+        <geo:location rdf:resource="http://nomisma.org/id/isinda#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/pisidia"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/446972"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x47113"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Korkuteli"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1004462"/>
+        <skos:prefLabel xml:lang="eo">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Коркутели</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="sw">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">قورقوتلی</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">科爾庫泰利</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">کوکوتیلی</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Korkuteli</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Korkuteli</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0bjbd6"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/306474"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/isinda#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.067500</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.161900</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.067500</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.161900</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/pisidia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

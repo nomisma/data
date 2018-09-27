@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,28 +9,65 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/agrippina_ii">
-      <skos:prefLabel xml:lang="en">Agrippina the Younger</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Agripinila</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Agripina Minor</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">小阿格里皮娜</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Iulia Agrippina minor</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Giulia Agrippina Augusta</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Agrippina den yngre</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Agrypina Młodsza</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Agrippina die Jüngere</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Агриппина Младшая</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">小アグリッピナ</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Agrippine la Jeune</skos:prefLabel>
-      <skos:definition xml:lang="en">Julia Agrippina, most commonly referred to as Agrippina Minor or Agrippina the Younger, and after 50 known as Julia Augusta Agrippina (7 November 15 or 6
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Agrippina the Younger</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Agripinila</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Agripina Minor</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">小阿格里皮娜</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Iulia Agrippina minor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Giulia Agrippina Augusta</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Agrippina den yngre</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Agrypina Młodsza</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Agrippina die Jüngere</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Агриппина Младшая</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">小アグリッピナ</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Agrippine la Jeune</skos:prefLabel>
+        <skos:definition xml:lang="en">Julia Agrippina, most commonly referred to as Agrippina Minor or Agrippina the Younger, and after 50 known as Julia Augusta Agrippina (7 November 15 or 6
 			November 16 – 19/23 March 59) was a Roman Empress. She was a great-granddaughter of Augustus, great-niece and adoptive granddaughter of Tiberius, sister of Caligula, niece and fourth wife
 			of Claudius, and mother of Nero.</skos:definition>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/87873347/"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Agrippina_the_Younger"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:altLabel xml:lang="la">Iulia Agrippina</skos:altLabel>
-   </foaf:Person>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/87873347/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Agrippina_the_Younger"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:altLabel xml:lang="la">Iulia Agrippina</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q154732"/>
+        <skos:prefLabel xml:lang="be">Агрыпіна Малодшая</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Agrippina ar Yaouankañ</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ιουλία Αγριππίνα</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Julia Agrippina</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Agripinila</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">أغريبينا الصغرى</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Agrippina yngri</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Ագրիպինա Կրտսեր</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Genç Agrippina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Agrippina Minor Iulia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Agripina II</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Julia Agrippina</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Агріппіна Молодша</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Agrippina minor</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Agrippina mladší</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Агрипина Млада</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">აგრიპინა უმცროსი</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Kiçik Aqrippina</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Agrippina den yngre</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Агрипина Млађа</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Agrippina den yngre</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Agripīna Jaunākā</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Agripina Jaunesnioji</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">اگریپینا صغری</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/87873347"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11864405X"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000108449740"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0qxd"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/032832966"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500354924"/>
+        <skos:prefLabel xml:lang="eu">Agripina Gaztea</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Agrippina Noorem</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">אגריפינה הצעירה</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Agripina Mlađa</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb123785806"/>
+    </foaf:Person>
 </rdf:RDF>

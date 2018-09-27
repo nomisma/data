@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/johann_grunewalt_zons">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Johann Grunewalt</skos:prefLabel>
+        <skos:definition xml:lang="en">Mintmaster in the Archbishopric Cologne during October 1502 to at least 1505, in the Zons Mint, jointly appointed with van Leyden in the Deutz Mint. There is further reference in 1523 to a Johann Gronewalt in a delegation to Nürnberg, described as the Cologne mintmaster; this is assumed to be the same person. Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Cöln 1306-1547 (1913) pp. 263, 266, 318.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_grunewalt_zons#modern_period_mint_staff"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_grunewalt_zons#modern_period_mint_staff2"/>
+        <skos:altLabel xml:lang="en">Johann Gronewelt</skos:altLabel>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/johann_grunewalt_zons#modern_period_mint_staff">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/zons"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/johann_grunewalt_zons#modern_period_mint_staff2">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1523</nmo:hasStartDate>
+        <org:organization rdf:resource="http://nomisma.org/id/deutz"/>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1523</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

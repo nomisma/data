@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/jacob_kohlhaas_bonn">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Jacob Kohlhaas</skos:prefLabel>
+        <skos:definition xml:lang="en">Mintmaster in Bonn, a city in Germany, from 1739 to about 1776, in which year he is thought to have died, with monogram I K. Kohlaas was the son-in-law of Hittorff's widow. Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Köln 1547-1794 (1925) pp. 350, 353, 415.</skos:definition>
+        <skos:altLabel xml:lang="de">Jakob Kohlhaas</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/jacob_kohlhaas_bonn#modern_period_mint_staff"/>
+        <bio:death rdf:resource="http://nomisma.org/id/jacob_kohlhaas_bonn#death"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/jacob_kohlhaas_bonn#modern_period_mint_staff">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1739</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1776</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/bonn"/>
+    </org:Membership>
+    <bio:Death rdf:about="http://nomisma.org/id/jacob_kohlhaas_bonn#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1776</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+    </bio:Death>
+</rdf:RDF>

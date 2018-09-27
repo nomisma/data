@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,27 +9,56 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/agrippina_i">
-      <skos:prefLabel xml:lang="en">Agrippina the Elder</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Agrippine l'Aînée</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">大阿格里皮娜</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Agripina</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Agripina la Mayor</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Agrippina die Ältere</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Agrypina Starsza</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Agrippina den äldre</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Vipsania Agrippina maior</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">大アグリッピナ</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Agrippina maggiore</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Агриппина Старшая</skos:prefLabel>
-      <skos:definition xml:lang="en">Vipsania Agrippina, most commonly known as Agrippina Major or Agrippina the Elder (14 BC – 17 October 33), was was the wife of the general and statesman
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Agrippina the Elder</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Agrippine l'Aînée</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">大阿格里皮娜</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Agripina</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Agripina la Mayor</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Agrippina die Ältere</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Agrypina Starsza</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Agrippina den äldre</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Vipsania Agrippina maior</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">大アグリッピナ</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Agrippina maggiore</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Агриппина Старшая</skos:prefLabel>
+        <skos:definition xml:lang="en">Vipsania Agrippina, most commonly known as Agrippina Major or Agrippina the Elder (14 BC – 17 October 33), was was the wife of the general and statesman
 			Germanicus. She was granddaughter of Augustus, mother of Caligula, second cousin of Claudius and grandmother of Nero.</skos:definition>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/15560280/"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Agrippina_the_Elder"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:prefLabel xml:lang="la">Vipsania Agrippina</skos:prefLabel>
-   </foaf:Person>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/15560280/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Agrippina_the_Elder"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:prefLabel xml:lang="la">Vipsania Agrippina</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q229413"/>
+        <skos:prefLabel xml:lang="he">אגריפינה</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Агрыпіна Старэйшая</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Agrippina</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Agrippina an Henañ</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Agripina Starija</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">أغريبينا الكبرى</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Yaşlı Agrippina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Agripina I</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Agrippina maior</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Агрипіна Старша</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Агрипина Стара</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Agrippina den eldre</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Агрипина Старија</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Agrippina Maior</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Agripina Vyresnioji</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">اگریپینا کبری</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/15560280"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118501100"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0qwy"/>
+        <skos:prefLabel xml:lang="eu">Agripina Zaharra</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Agrippina Vanem</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αγριππίνα η πρεσβύτερη</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Agrippina starší</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">აგრიპინა უფროსი</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Agripina Starija</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Vipsania Aqrippina</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Agrippina den Ældre</skos:prefLabel>
+    </foaf:Person>
 </rdf:RDF>

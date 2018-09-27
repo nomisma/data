@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/reiner_budels_deutz">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Reiner Budels</skos:prefLabel>
+        <skos:definition xml:lang="en">Appointed Mintmaster in Deutz, Germany, in May 1572 (even though he seemed to have been working in this position somewhat earlier), but on 8 October 1578 Budels was arrested and charged for producing under-weight coins. He lost his position soon after. In 1579 Budels was shown as working in collaboration with the Warden Jost. Reiner Budels was the son of the late Lütterich Mintmaster who died during the Lower Rhine - Westaflen Circle Assay Commission of 1566 in Cologne. Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Köln 1547-1794 (1925) pp. 47, 66.</skos:definition>
+        <skos:altLabel xml:lang="en">Reiner Beutel</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/reiner_budels_deutz#modern_period_mint_staff"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/reiner_budels_deutz#modern_period_mint_staff">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1572</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1578</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/deutz"/>
+    </org:Membership>
+</rdf:RDF>

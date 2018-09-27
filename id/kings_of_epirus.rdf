@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,18 +9,18 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-   <foaf:Person rdf:about="http://nomisma.org/id/kings_of_epirus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Kings of Epirus</skos:prefLabel>
-      <skos:definition xml:lang="en">The kings of Epirus as a minting authority. Perhaps a questionable Nomisma ID?</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/List_of_kings_of_Epirus"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/kings_of_epirus#authority"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/kings_of_epirus#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
-   </org:Membership>
+   <foaf:Organization rdf:about="http://nomisma.org/id/kings_of_epirus">
+        
+        
+        <skos:prefLabel xml:lang="en">Kings of Epirus</skos:prefLabel>
+        <skos:definition xml:lang="en">The kings of Epirus as a minting authority. Perhaps a questionable Nomisma ID?</skos:definition>
+        
+        
+        
+        <dcterms:isReplacedBy rdf:resource="http://nomisma.org/id/epirote_kingdom"/>
+    </foaf:Organization>
+   
 </rdf:RDF>

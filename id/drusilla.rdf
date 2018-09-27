@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,25 +9,48 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/drusilla">
-      <skos:prefLabel xml:lang="en">Drusilla</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Drusilla</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Julia Drusilla (fille de Germanicus)</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Iulia Drusilla</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ドルシッラ</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Julia Druzylla</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Drusilla (Schwester des Caligula)</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Юлия Друзилла</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Drusila (hermana de Calígula)</skos:prefLabel>
-      <skos:definition xml:lang="en">Julia Drusilla (16 September 16 AD – 10 June 38 AD) was the second daughter of Germanicus and Agrippina the Elder, and sister of the Emperor
-			Caligula.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Julia_Drusilla"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:altLabel xml:lang="la">Iulia Drusilla</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://numismatics.org/ocre/id/ric.1(2).gai.33"/>
-      <rdfs:comment xml:lang="en">nm:numismatic_start_date on the basis of her appearance http://numismatics.org/ocre/id/ric.1(2).gai.33</rdfs:comment>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Drusilla</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Drusilla</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Julia Drusilla (fille de Germanicus)</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Iulia Drusilla</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ドルシッラ</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Julia Druzylla</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Drusilla (Schwester des Caligula)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Юлия Друзилла</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Drusila (hermana de Calígula)</skos:prefLabel>
+        <skos:definition xml:lang="en">Julia Drusilla (16 September 16 AD – 10 June 38 AD) was the second daughter of Germanicus and Agrippina the Elder, and sister of the Emperor Caligula.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Julia_Drusilla"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:altLabel xml:lang="la">Iulia Drusilla</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://numismatics.org/ocre/id/ric.1(2).gai.33"/>
+        <rdfs:comment xml:lang="en">nm:numismatic_start_date on the basis of her appearance http://numismatics.org/ocre/id/ric.1(2).gai.33</rdfs:comment>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q241036"/>
+        <skos:prefLabel xml:lang="he">דרוסילה</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Հուլիա Դրուզիլլա</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Drusil·la</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Julia Drusilla</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Юлія Друзілла</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Drusilla</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Xulia Drusila</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Друзила</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Druzila</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Julia Drusilla</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Јулија Друзила (сестра Калигуле)</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Drusila (irmã de Calígula)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">جولیا ڈروسیلا</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Julia Drusilla</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03c7xt"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/308712873"/>
+        <skos:altLabel xml:lang="de">Julia Drusilla</skos:altLabel>
+        <skos:prefLabel xml:lang="cs">Drusilla</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1051170591"/>
+        <skos:prefLabel xml:lang="da">Drusilla</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Drusilla</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Drusilla</skos:prefLabel>
+    </foaf:Person>
 </rdf:RDF>

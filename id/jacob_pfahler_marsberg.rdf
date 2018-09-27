@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/jacob_pfahler_marsberg">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Jacob Pfahler</skos:prefLabel>
+        <skos:definition xml:lang="en">Appointed Mintmaster for Paderborn in May 1612, although he had already been minting there as early as 1609, and before 1612 he was Mintmaster in Marsberg. In 1618 he took up the Directorship of the Detmold Mint. In October 1620 he was removed from his position as Mintmaster at Corvey (Imperial Abbey of Corvey, now within territory of the city of Höxter) and Lippe on account of his age and ill health. In fact he was appointed to the Mint in Höxter in October 1619, and in the same decade he was striking coins for Hameln and Nordheim. His health seemed to have improved and he was reappointed Mintmaster for Corvey in May 1631; Coins with dates 1631 and 1632 were struck by Pfahler in Corvey, after which time nothing was heard of him. Pfahler was born in Saalfeld in 1568. Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Köln 1547-1794 (1925) p. 127.</skos:definition>
+        <skos:altLabel xml:lang="de">Jakob Pfahler</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/jacob_pfahler_marsberg#birth"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/jacob_pfahler_marsberg#modern_period_mint_staff"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/jacob_pfahler_marsberg#modern_period_mint_staff2"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/jacob_pfahler_marsberg#modern_period_mint_staff3"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/jacob_pfahler_marsberg#modern_period_mint_staff4"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/jacob_pfahler_marsberg#modern_period_mint_staff5"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/jacob_pfahler_marsberg#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1568</dcterms:date>
+    </bio:Birth>
+    <org:Membership rdf:about="http://nomisma.org/id/jacob_pfahler_marsberg#modern_period_mint_staff">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1612</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/marsberg"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/jacob_pfahler_marsberg#modern_period_mint_staff2">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1618</nmo:hasStartDate>
+        <org:organization rdf:resource="http://nomisma.org/id/detmold"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/jacob_pfahler_marsberg#modern_period_mint_staff3">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1619</nmo:hasStartDate>
+        <org:organization rdf:resource="http://nomisma.org/id/hoexter"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/jacob_pfahler_marsberg#modern_period_mint_staff4">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1609</nmo:hasStartDate>
+        <org:organization rdf:resource="http://nomisma.org/id/paderborn"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/jacob_pfahler_marsberg#modern_period_mint_staff5">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <org:organization rdf:resource="http://nomisma.org/id/hameln"/>
+    </org:Membership>
+</rdf:RDF>

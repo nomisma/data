@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/severin_von_myle_colonia_claudia_ara_agrippinensium">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/severin_von_myle_colonia_claudia_ara_agrippinensium#modern_period_mint_staff"/>
+        <skos:prefLabel xml:lang="en">Severin von Myle</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">Mint Warden in Cologne (City), Germany, in 1502, he died in office in 1518. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926), pp. 46, 48, 52.</skos:definition>
+        <bio:death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/severin_von_myle_colonia_claudia_ara_agrippinensium#death"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/severin_von_myle_colonia_claudia_ara_agrippinensium#modern_period_mint_staff">
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1518</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+    </org:Membership>
+    <bio:Death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/severin_von_myle_colonia_claudia_ara_agrippinensium#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1518</dcterms:date>
+    </bio:Death>
+</rdf:RDF>

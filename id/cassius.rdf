@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,27 +9,56 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/cassius">
-      <skos:prefLabel xml:lang="en">Gaius Cassius Longinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Gaius Cassius Longinus (Verschwörer)</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Cayo Casio Longino (asesino de César)</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Гай Кассий Лонгин (заговорщик)</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Gajusz Kasjusz Longinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Gaio Cassio Longino</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Caio Cássio Longino</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ガイウス・カッシウス・ロンギヌス</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Gaius Cassius Longinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Gaius Cassius Longinus (tirannendoder)</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Caius Cassius Longinus (tribun de la plèbe)</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">盖乌斯·卡西乌斯·朗基努斯</skos:prefLabel>
-      <skos:definition xml:lang="en">Gaius Cassius Longinus (October 3rd, before 85 BC – October 3rd, 42 BC) was a Roman senator, a leading instigator of the plot to kill Julius Caesar, and the
-			brother in-law of Marcus Junius Brutus.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Cassius_Longinus"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/25397785"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:altLabel xml:lang="la">Gaius Cassius Longinus</skos:altLabel>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Gaius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gaius Cassius Longinus (Verschwörer)</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cayo Casio Longino (asesino de César)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Гай Кассий Лонгин (заговорщик)</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Gajusz Kasjusz Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gaio Cassio Longino</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Caio Cássio Longino</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ガイウス・カッシウス・ロンギヌス</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Gaius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Gaius Cassius Longinus (tirannendoder)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Caius Cassius Longinus (tribun de la plèbe)</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">盖乌斯·卡西乌斯·朗基努斯</skos:prefLabel>
+        <skos:definition xml:lang="en">Gaius Cassius Longinus (October 3rd, before 85 BC - October 3rd, 42 BC) was a Roman senator, a leading instigator of the plot to kill Julius Caesar, and the brother in-law of Marcus Junius Brutus.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Cassius_Longinus"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/25397785"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:altLabel xml:lang="la">Gaius Cassius Longinus</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q207370"/>
+        <skos:prefLabel xml:lang="eu">Kasio</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">גאיוס קסיוס לונגינוס</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">가이우스 카시우스 롱기누스</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Caius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Gaius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Γάιος Κάσσιος Λογγίνος</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Gaj Kasije Longin</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Kajo Kasio Longino</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Gaius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Gaius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Gai Cassi Longí</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Gaius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Гай Кассій Лонгін</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Gaius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Gaius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Gaius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Гай Касий Лонгин</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Gaj Kasije Longin</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Gajus Kasijus Longinas</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">گایوس کاسیوس لونگینوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Gaius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Гај Касије Лонгин</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Gaius Cassius Longinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Gaj Kasij Longin</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Gaio Cassio Longino</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Gaio Cassio Longino</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118746200"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0kb1y"/>
+    </foaf:Person>
 </rdf:RDF>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,21 +9,71 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/aegina_aegina">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Aegina</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Aegina on the island of Aegina.</skos:definition>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/aegina"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aegina"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/579853"/>
-      <geo:location rdf:resource="http://nomisma.org/id/aegina_aegina#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Aegina</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Aegina on the island of Aegina.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/aegina"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Aegina"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/579853"/>
+        <geo:location rdf:resource="http://nomisma.org/id/aegina_aegina#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/aegina"/>
+        <skos:altLabel xml:lang="en">Aigina</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/265502"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x26647"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011088"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q191082"/>
+        <skos:prefLabel xml:lang="eu">Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Égine</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">אגינה</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Éjina</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Exina - Αίγινα</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Aígina</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ägina</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Aegina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アイギナ島</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Aigina</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Egjina</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αίγινα</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Aegina</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">أجانيطس</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Egino</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Ejina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Эгина</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Aegina Adası</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Illa d'Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Aígina</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Егіна</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Aegina</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Aegina</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Éjina</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Егина</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Égina</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Егина</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">埃伊納島</skos:prefLabel>
+        <skos:prefLabel xml:lang="fo">Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Egina</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Востраў Эгіна</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">ائجینا</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0_tn"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4000554-9"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011087"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/aegina_aegina#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.750000</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.433333</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.750000</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.433333</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/aegina#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

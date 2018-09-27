@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/al-mustansir_baghdad">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">al-Mustansir billah</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Al-Mustansir (abbaside)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Al-Mustansir (Abbasside)</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Al-Mustansir (Abbasiden)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">المستنصر بالله</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ムスタンスィル</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Al-Mustansir I</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Абу Джафар аль-Мустансир Биллах</skos:prefLabel>
+        <skos:definition xml:lang="en">Al-Mustansir Billah, was born in Baghdad on 1192. On his father's death in 1226 he has succeeded his father Az-Zahiras the thirty-sixth Abbasid caliph.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Al-Mustansir_(Baghdad)"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/al-mustansir_baghdad#authority"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q293545"/>
+        <skos:prefLabel xml:lang="he">אל-מסתנצר הראשון</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Аль-Мустансір</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Mustansır</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Al-Mustànsir</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Al-Mustanshir</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Al-Mustansir</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">ابوجعفر منصور مستنصر</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">مستنصر باللہ</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Al-Mustànsir</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Al-Mustansir</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">ალ-მუსთანსირი</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Al-Mustansir</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Ալ-Մուստանսիր</skos:prefLabel>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/al-mustansir_baghdad#authority">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1226</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1242</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/abbasids"/>
+    </org:Membership>
+</rdf:RDF>

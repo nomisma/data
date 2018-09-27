@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,16 +9,40 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/c_asinius_gallus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">C. Asinius Gallus</skos:prefLabel>
-      <skos:definition xml:lang="en">Roman moneyer operating under the authority of Augustus.</skos:definition>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/c_asinius_gallus#issuer"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">C. Asinius Gallus</skos:prefLabel>
+        <skos:definition xml:lang="en">Roman moneyer operating under the authority of Augustus.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/c_asinius_gallus#issuer"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Asinius_Gallus_Saloninus"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q450708"/>
+        <skos:prefLabel xml:lang="ru">Гай Азиний Галл</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Gaius Asinius Gallus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Gayo Asinio Galo</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Gai Asini Gal Saloní</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Caius Asinius Gallus Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Гай Азіній Галл</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gaio Asinio Gallo</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Gaius Asinius Gallus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gaius Asinius Gallus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ガイウス・アシニウス・ガッルス</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Gaius Asinius Gallus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Гай Азиний Гал</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Gaj Asinije Gal Salonin</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Gaius Asinius Gallus</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Gaius Asinius Gallus Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Caio Asínio Galo</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/102393893"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/7775078"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/042d37"/>
+        <skos:prefLabel xml:lang="da">C. Asinius Gallus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">C. Asinius Gallus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">C. Asinius Gallus</skos:prefLabel>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/c_asinius_gallus#issuer">
-      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
    </org:Membership>
 </rdf:RDF>

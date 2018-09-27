@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,13 +9,19 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/son_of_vitellius">
-      <skos:prefLabel xml:lang="en">Son of Vitellius</skos:prefLabel>
-      <skos:definition xml:lang="en">The young son of the emperor Vitellius, accorded the title of 'Germanicus' after his father's victory in AD 69 over Otho, and depicted on issues of Vitellius.
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Aulus Vitellius Germanicus</skos:prefLabel>
+        <skos:definition xml:lang="en">The young son of the emperor Vitellius, accorded the title of 'Germanicus' after his father's victory in AD 69 over Otho, and depicted on issues of Vitellius.
 			alongside his young sister.</skos:definition>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-   </foaf:Person>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:altLabel xml:lang="en">Aulus Vitellius Novis</skos:altLabel>
+        <skos:prefLabel xml:lang="da">Aulus Vitellius Germanicus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Aulus Vitellius Germanicus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Aulus Vitellius Germanicus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Aulus Vitellius Germanicus</skos:prefLabel>
+    </foaf:Person>
 </rdf:RDF>

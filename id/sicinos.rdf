@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,50 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/sicinos">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Sicinos</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Sicinos on Sicinos in the Aegean.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sikinos"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/590046"/>
-      <geo:location rdf:resource="http://nomisma.org/id/sicinos#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Sicinos</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Sicinos on Sicinos in the Aegean.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Sikinos"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/590046"/>
+        <geo:location rdf:resource="http://nomisma.org/id/sicinos#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/aegaean_islands"/>
+        <skos:altLabel xml:lang="en">Sikinos</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/253879"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q747935"/>
+        <skos:prefLabel xml:lang="la">Sicinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Síkinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sikinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Σίκινος</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Síkinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sikinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Síkinos - Σίκινος</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sicandro</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">シキノス島</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Sikinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Síkinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Sikinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Сикинос</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Sikinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Сикинос</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Sikinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Сікінос</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Sikinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">錫基諾斯島</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Sikinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Síkinos</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0cthdw"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/253880"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4819557-1"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/248302980"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/sicinos#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.683056</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.116667</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.683056</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.116667</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/aegaean_islands#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

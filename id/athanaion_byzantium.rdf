@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/athanaion_byzantium">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Athanaion</skos:prefLabel>
+        <skos:definition xml:lang="en">Moneyer attested on the coinage of Byzantium in Thrace, 300-220/219 BC. See E. Schönert-Geiß, Die Münzprägung von Byzantion I. Autonome Prägung (Berlin, 1970), p. 133, 136, nos. 1001-2; 1179-1190.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/athanaion_byzantium#issuer"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/631982199"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/athanaion_byzantium#issuer">
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0299</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0218</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/byzantium"/>
+    </org:Membership>
+</rdf:RDF>

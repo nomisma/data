@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <foaf:Person rdf:about="http://nomisma.org/id/antiochus_son_of_seleucus_iv">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Antiochus, Son of Seleucus IV</skos:prefLabel>
+        <skos:definition xml:lang="en">Antiochus, the son of Seleucus IV, was the eighth king of the Seleucid Empire, ruling briefly under the regency of his mother, Laodice IV, in the autumn of 175 BC. When his uncle, Antiochus IV, arrived in Syria in October/November of 175 BC he adopted the boy king and associated him in his own rule. This state of affairs survived only a few years until 170 BC, when Antiochus IV ordered the execution of his nephew.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_son_of_seleucus_iv#authority"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+    </foaf:Person>
+    
+   
+   
+    
+    <org:Membership rdf:about="http://nomisma.org/id/antiochus_son_of_seleucus_iv#authority">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0175</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0170</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

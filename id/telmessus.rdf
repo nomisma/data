@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,19 +9,36 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/telmessus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Telmessus</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Telmessus in Lycia.</skos:definition>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/639137"/>
-      <geo:location rdf:resource="http://nomisma.org/id/telmessus#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Telmessus</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Telmessus in Lycia.</skos:definition>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/639137"/>
+        <geo:location rdf:resource="http://nomisma.org/id/telmessus#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/lycia"/>
+        <skos:altLabel xml:lang="en">Telmessos</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/10112284"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x47094"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002508"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Telmessos"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1145385"/>
+        <skos:prefLabel xml:lang="de">Telmessos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">텔메소스</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Telmessos</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Telmeso</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Telmessos</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Telmesso</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Telmessos</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Τελμησσός</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0g8j75"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/telmessus#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.623779</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.120348</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.623779</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.120348</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/lycia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

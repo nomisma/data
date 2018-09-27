@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/lykos_byzantium">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/lykos_byzantium#issuer"/>
+        <skos:definition xml:lang="en">An individual who issued coins at the ancient city of Byzantium, 3rd cent. BC. See E. Schönert-Geiß, Die Münzprägung von Byzantion I. Autonome Prägung (Berlin, 1970), p. 144, n. 1205.</skos:definition>
+        <skos:prefLabel xml:lang="en">Lykos</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Lycus</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/631982199"/>
+    </foaf:Person>
+    
+    
+    <org:Membership rdf:about="http://nomisma.org/id/lykos_byzantium#issuer">
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0300</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0201</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/byzantium"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+    </org:Membership>
+</rdf:RDF>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,74 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/tralles">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Tralles</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint of the ancient site of Tralles in Lydia.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ayd%C4%B1n"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/599987"/>
-      <geo:location rdf:resource="http://nomisma.org/id/tralles#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Tralles</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint of the ancient site of Tralles in Lydia.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Ayd%C4%B1n"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/599987"/>
+        <geo:location rdf:resource="http://nomisma.org/id/tralles#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/lydia"/>
+        <skos:altLabel xml:lang="en">Tralleis</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/322830"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31217"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002359"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q170457"/>
+        <skos:prefLabel xml:lang="pl">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Горад Айдын</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">아이딘</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Aydin</skos:prefLabel>
+        <skos:prefLabel xml:lang="av">Айдын</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="sw">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アイドゥン</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="rw">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αϊδίνιο</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">أيدين</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Айдын</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Айдин</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Tralles</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Айдън</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">آیدین</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">აიდინი</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Aidinas</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Aydin</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">艾登</skos:prefLabel>
+        <skos:prefLabel xml:lang="ku">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Ајдин</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">آیدین</skos:prefLabel>
+        <skos:prefLabel xml:lang="pa">ਐਦਿਨ</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="fy">Aydın</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Այդին</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/08n84n"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4209664-9"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/239954432"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/tralles#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.8444</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.8458</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.8444</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.8458</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/lydia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

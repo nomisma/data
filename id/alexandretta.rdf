@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,24 +9,29 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/alexandretta">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-      <skos:prefLabel xml:lang="en">Alexandretta</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">İskenderun</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">İskenderun</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">İskenderun</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the city of Alexandretta in Syria.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/İskenderun"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31245"/>
-      <skos:exactMatch rdf:resource="http://geonames.org/311111"/>
-      <geo:location rdf:resource="http://nomisma.org/id/alexandretta#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <skos:prefLabel xml:lang="en">Alexandretta</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">İskenderun</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">İskenderun</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">İskenderun</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the city of Alexandretta in Syria.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/İskenderun"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31245"/>
+        <skos:closeMatch rdf:resource="http://geonames.org/311111"/>
+        <geo:location rdf:resource="http://nomisma.org/id/alexandretta#this"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/658371"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/388292"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002326"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/skenderun"/>
+        
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/alexandretta#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.5817</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.165</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.5817</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.165</geo:long>
    </geo:SpatialThing>
 </rdf:RDF>

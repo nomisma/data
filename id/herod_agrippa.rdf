@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,22 +9,62 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/herod_agrippa">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Herod Agrippa</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Herodes Agrippa I.</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Herodes Agrippa I.</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Herodes I Agripa</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Ірод Агріппа I</skos:prefLabel>
-      <skos:definition xml:lang="en">Agrippa I, also known as Herod Agrippa or simply Herod (10 BC – 44 AD), was a King of the Jews during the 1st century AD. The grandson of Herod the Great and son
-			of Aristobulus IV and Berenice.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Agrippa_I"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/herod_agrippa#authority"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Herod Agrippa</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Herodes Agrippa I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Herodes Agrippa I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Herodes I Agripa</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Ірод Агріппа I</skos:prefLabel>
+        <skos:definition xml:lang="en">Agrippa I, also known as Herod Agrippa or simply Herod (10 BC – 44 AD), was a King of the Jews during the 1st century AD. The grandson of Herod the Great and son of Aristobulus IV and Berenice.</skos:definition>
+        
+        <org:hasMembership rdf:resource="http://nomisma.org/id/herod_agrippa#authority"/>
+        
+        
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q298636"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Herod_Agrippa"/>
+        <skos:prefLabel xml:lang="pl">Herod Agryppa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">אגריפס הראשון</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Agrippa Ier</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Herodes Agripa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Erode Agrippa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Agripa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アグリッパ1世</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Agripa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Herodes Agrippa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">أغريباس الأول</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Agrippa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Herodes Agripa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Ирод Агриппа I</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Herod Agrippa</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Herodes-Agrippa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Herodes Agrippa</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Ирод Агрипа I</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Herodes Agrippa</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ηρώδης Αγρίππας Α΄</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Agripa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Herodes Agrippa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Herodes Agripa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="sw">Herode Agripa</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Herod Agripa I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Herodez Agrippa Iañ</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Herodo Agripa la 1-a</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Agrippa I</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">ہیرودیس اغریپا</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">I. Heródes Agrippa zsidó király</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">黑落德·阿格黎帕一世</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/88671814"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000089598010"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11893337X"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0hx_3"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/16103277X"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb123150680"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/92391"/>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/herod_agrippa#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
    </org:Membership>
 </rdf:RDF>

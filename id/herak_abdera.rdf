@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/herak_abdera">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/herak_abdera#issuer"/>
+        <skos:definition xml:lang="en">An individual who issued coins at the ancient city of Abdera, 492-473/470 BC. See J. May, The Coinage of Abdera (540-345 B.C.) (London, 1966), pp. 44-48.</skos:definition>
+        <skos:prefLabel xml:lang="en">Herak(…)</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Herac</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/457581"/>
+    </foaf:Person>
+    
+    
+    <org:Membership rdf:about="http://nomisma.org/id/herak_abdera#issuer">
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0492</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0470</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/abdera_thrace"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+    </org:Membership>
+</rdf:RDF>

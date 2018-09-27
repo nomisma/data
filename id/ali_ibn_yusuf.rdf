@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
+    <foaf:Person rdf:about="http://nomisma.org/id/ali_ibn_yusuf">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Ali ibn Yusuf</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">على بن يوسف</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Ali ibn Yusuf</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Ali ibn Jusuf</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ali Ben Youssef</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Али ибн Юсуф</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Alí ibn Yúsuf</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Alí ibn Yússuf</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Ali ben Youssf</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ali ibn Yusuf</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ali ibn Yusuf ibn Taschfin</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Ali ibn Jusufas</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Ali ibn Yusuf</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Ali ibn Jusuf</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Ali ben Yusuf</skos:prefLabel>
+        <skos:definition xml:lang="en">Ali ibn Yusuf (Arabic: علي بن يوسف‎) was the 5th Almoravid king he reigned 1106–1143.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ali_ibn_Yusuf"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q552458"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/09px0d"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/ali_ibn_yusuf#authority"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/ali_ibn_yusuf#authority">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/almoravids"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1106</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1142</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

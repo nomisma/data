@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,21 +9,70 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/eleusis">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Eleusis</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint the ancient site of Eleusis in Attica.</skos:definition>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/attica"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Eleusis"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/579920"/>
-      <geo:location rdf:resource="http://nomisma.org/id/eleusis#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Eleusis</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint the ancient site of Eleusis in Attica.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/attica"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Eleusis"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/579920"/>
+        <geo:location rdf:resource="http://nomisma.org/id/eleusis#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/attica"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/7910522"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31535"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011134"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q204905"/>
+        <skos:prefLabel xml:lang="pl">Eleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">엘레프시나</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Éleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Eleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Eléfszina</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Eleusi</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Eleusina</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Eleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">エレウシス</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ελευσίνα</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Elefsina</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Elefsina</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Eleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">إلفسينا</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Elefsina</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Elêusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Elefsina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Элевсин</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Eleusina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Eleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Eleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Елефсін</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Eleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Elevsína</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">الوزیس</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Елевсина</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Eleusina</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Elefsina</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Eleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Елефсина</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">埃莱夫西纳</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Eleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Eleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Eleŭziso</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Eleusis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Eileoisis</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Елевсина</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">ایلیوسیس</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0kvm9"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/262752"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4014423-9"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/127876778"/>
+        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11963649t"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/eleusis#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.033333</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.533333</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.033333</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.533333</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/attica#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

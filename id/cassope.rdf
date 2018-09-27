@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,32 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/cassope">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Cassope</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Cassope in Epirus.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cassope"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/530922"/>
-      <geo:location rdf:resource="http://nomisma.org/id/cassope#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Cassope</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Cassope in Epirus.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Cassope"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/530922"/>
+        <geo:location rdf:resource="http://nomisma.org/id/cassope#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/epirus"/>
+        <skos:altLabel xml:lang="en">Kassope</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/251271"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x49494"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q380844"/>
+        <skos:prefLabel xml:lang="de">Kassope</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αρχαία Κασσώπη</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Kassope</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Casopa</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Cassope</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/025vxnb"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/cassope#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.140534</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.687268</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.140534</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.687268</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/epirus#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

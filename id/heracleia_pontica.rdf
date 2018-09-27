@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,27 +9,53 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/heracleia_pontica">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Heracleia Pontica</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Гераклея Понтійська</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Hérakleia Pontiké</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Herakleia Pontike</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Heraclea Pòntica</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Heracleia Pontica in Bithynia.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Heraclea_Pontica"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/844944"/>
-      <skos:exactMatch rdf:resource="http://geonames.org/747471"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x46959"/>
-      <geo:location rdf:resource="http://nomisma.org/id/heracleia_pontica#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Heracleia Pontica</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Гераклея Понтійська</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Hérakleia Pontiké</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Herakleia Pontike</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Heraclea Pòntica</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Heracleia Pontica in Bithynia.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Heraclea_Pontica"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/844944"/>
+        <skos:closeMatch rdf:resource="http://geonames.org/747471"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x46959"/>
+        <geo:location rdf:resource="http://nomisma.org/id/heracleia_pontica#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/bithynia"/>
+        <skos:altLabel xml:lang="en">Herakleia Pontika</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/747471"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002532"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q302511"/>
+        <skos:prefLabel xml:lang="bg">Хераклея Понтика</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ηράκλεια η Ποντική</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Heraclea Póntica</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Heraklea Pontika</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Herakleia Pontike</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Héraclée du Pont</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Eraclea Pontica</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ヘラクレア・ポンティカ</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Heraclea Pontica</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Heraclea Pontica</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Heraklea Pontika</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Heraklea Pontyjska</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Heracleia Pôntica</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Гераклея Понтийская</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Herakleja Pontska</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Heraclea Pontica</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Heraclea Pontica</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Heraclea Pontica</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Heraclea Pontica</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/013_kf"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/heracleia_pontica#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.284722</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.414722</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.284722</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.414722</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/bithynia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

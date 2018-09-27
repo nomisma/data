@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/quintus_tullius_maximus_pirt386">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Quintus Tullius Maximus</skos:prefLabel>
+        <skos:definition xml:lang="en">Legatus Augusti pro praetore in Thrace post AD 162 n. Chr.
+His name appears with title of Hegemon on coins.
+
+Lit.: E. Schönert-Geiss, Die Münzprägung von Augusta Traiana und Traianopolis (1991) 7; B. E. Thomasson, Laterculi Praesidum (1984) 166 no. 30; ibid., I Addenda (2011) 22:030; PIR² T 386.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/quintus_tullius_maximus_pirt386#issuer"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/quintus_tullius_maximus_pirt386#issuer">
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+    </org:Membership>
+</rdf:RDF>

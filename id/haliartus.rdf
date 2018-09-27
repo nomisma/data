@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,40 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/haliartus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Haliartus</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Haliartus in Boeotia.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aliartos"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/540801"/>
-      <geo:location rdf:resource="http://nomisma.org/id/haliartus#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Haliartus</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Haliartus in Boeotia.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Aliartos"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/540801"/>
+        <geo:location rdf:resource="http://nomisma.org/id/haliartus#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/boeotia"/>
+        <skos:altLabel xml:lang="en">Haliartos</skos:altLabel>
+        
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x49724"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1235010"/>
+        <skos:prefLabel xml:lang="la">Haliartus</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αλίαρτος</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Haliartos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">أليارتوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Aliartos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Aliartos</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Aliartos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Aliartos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Alíartos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Aliártos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Alíartos</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0fsm1v"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/265342"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/234404319"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/haliartus#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.366667</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.1</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.366667</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.1</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/boeotia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

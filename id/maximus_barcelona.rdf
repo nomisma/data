@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/maximus_barcelona">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Maximus of Barcelona</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Massimo (usurpatore)</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Maximus (Spanien)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Максим (узурпатор)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Maxime (usurpateur)</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Maksymus z Hiszpanii</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Máximo de Hispania</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Máximo da Hispânia</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Maximus van Hispania</skos:prefLabel>
+        <skos:definition xml:lang="en">Maximus, the Roman usurper (409 - 411) in Hispania.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/maximus_barcelona#roman_emperor"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Maximus_of_Hispania"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/148403"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q550622"/>
+        <skos:prefLabel xml:lang="tr">İspanyalı Maximus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Màxim Tirà</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Maximus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Максим</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Maksim od Hispanije</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Maximus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ヒスパニアのマキスマス</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/09_r5k"/>
+        <skos:prefLabel xml:lang="da">Maximus (Spanien)</skos:prefLabel>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/maximus_barcelona#roman_emperor">
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0409</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0411</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

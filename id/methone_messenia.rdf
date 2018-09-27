@@ -7,7 +7,7 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
@@ -16,11 +16,11 @@
       <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
       <skos:prefLabel xml:lang="en">Methone</skos:prefLabel>
       <skos:definition xml:lang="en">The mint at the ancient site of Methone in Peloponnesus.</skos:definition>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/570483"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/570483"/>
       <geo:location rdf:resource="http://nomisma.org/id/methone_messenia#this"/>
    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/methone_messenia#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.818010</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.707315</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.818010</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.707315</geo:long>
    </geo:SpatialThing>
 </rdf:RDF>

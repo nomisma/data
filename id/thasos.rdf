@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,68 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/thasos">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Thasos</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Thasos off Thrace.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Thasos"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/501634"/>
-      <geo:location rdf:resource="http://nomisma.org/id/thasos#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Thasos</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Thasos off Thrace.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Thasos"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/501634"/>
+        <geo:location rdf:resource="http://nomisma.org/id/thasos#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/islands_off_thrace"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/9260475"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31399"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011078"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q204096"/>
+        <skos:prefLabel xml:lang="pl">Thasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Thasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Tasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Thászosz</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Taso</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Thasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Thásos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Thasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Thasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">タソス島</skos:prefLabel>
+        <skos:prefLabel xml:lang="ml">താസസ്</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Enez Tasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Θάσος</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Thasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Tasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Thassos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">ثاسوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Thasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Tasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Thasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Тасос</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Taşoz</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Thasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Тасос</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Tassos</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Тасос</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Thasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Thásos</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Thassos</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Тасос</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Thassos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Тасос</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">萨索斯岛</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Thasos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Thassos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">타소스 섬</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Thásos (kunta)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">تھاسوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Tasas</skos:prefLabel>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4119578-4"/>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0l7g4"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/8133898"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/thasos#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.777626</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.703702</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.777626</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.703702</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islands_off_thrace#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

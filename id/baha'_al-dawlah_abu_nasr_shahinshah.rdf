@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
+    <foaf:Person rdf:about="http://nomisma.org/id/baha'_al-dawlah_abu_nasr_shahinshah">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Baha' al-Dawlah Abu Nasr Shahinshah</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">بهاء الدولة ابو نصر شاهنشاه</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Baha' ad-Dawla Firuz</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Bahà-ad-Dawla</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Bahá ad-Daula</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">بهاءالدوله دیلمی</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Baha' al-Dawla</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Baha' al-Dawla</skos:prefLabel>
+        <skos:definition xml:lang="en">Abu Nasr Firuz Kharshadh, better known by his laqab of Baha' al-Dawla (meaning "Splendour of the State") was the Buyid amir of Iraq (988–1012), along with Fars and Kerman (998–1012)</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Baha'_al-Dawla"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q753399"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/080crd"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/baha'_al-dawlah_abu_nasr_shahinshah#authority"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/baha'_al-dawlah_abu_nasr_shahinshah#authority">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+  
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0989</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1012</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/buyids"/>
+    </org:Membership>
+</rdf:RDF>

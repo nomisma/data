@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/johann_gerhard_huels_colonia_claudia_ara_agrippinensium">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_gerhard_huels_colonia_claudia_ara_agrippinensium#modern_period_mint_staff"/>
+        <skos:prefLabel xml:lang="en">Johann Gerhard Hüls</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">Mintmaster from 8 July 1765 to 1797, but he had been adjunct to his father Gerhard Johann Gerhard Hüls since 1753, and Mint Warden from 18 December 1775 to 1797 in Cologne (City), Germany. Hüls was baptised on 6 January 1732 and died 18 August 1815. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926) pp. 47-49, 62, 325, 327; Wolfgang Scheffler, Goldschmiede Rheinland-Westfalens - Aachen - Köln, Walter de Gruyter (1973) n. 1774, p. 626.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/296828462"/>
+        <bio:birth xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/johann_gerhard_huels_colonia_claudia_ara_agrippinensium#birth"/>
+        <bio:death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+                   rdf:resource="http://nomisma.org/id/johann_gerhard_huels_colonia_claudia_ara_agrippinensium#death"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/johann_gerhard_huels_colonia_claudia_ara_agrippinensium#modern_period_mint_staff">
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1765</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1797</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+    </org:Membership>
+    <bio:Birth xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/johann_gerhard_huels_colonia_claudia_ara_agrippinensium#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1732</dcterms:date>
+    </bio:Birth>
+    <bio:Death xmlns:bio="http://purl.org/vocab/bio/0.1/"
+               rdf:about="http://nomisma.org/id/johann_gerhard_huels_colonia_claudia_ara_agrippinensium#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1815</dcterms:date>
+    </bio:Death>
+</rdf:RDF>

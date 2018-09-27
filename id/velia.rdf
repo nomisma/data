@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,60 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/velia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Velia</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Velia in Lucania.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Velia"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/383811"/>
-      <geo:location rdf:resource="http://nomisma.org/id/velia#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Velia</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Velia in Lucania.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Velia"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/383811"/>
+        <geo:location rdf:resource="http://nomisma.org/id/velia#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/lucania"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/10629700"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31782"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7023993"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q272968"/>
+        <skos:prefLabel xml:lang="pl">Velia</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">אליאה</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Élée</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Velia</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Velia</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Elea-Velia</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Elea</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ヴェーリア</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Velia</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ελέα</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Velia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">إيليا</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Elea</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Elea</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Eleia</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Elajo</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Elea</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Элея</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Vèlia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Elea</skos:prefLabel>
+        <skos:prefLabel xml:lang="co">Elea</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Velia</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Velia</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Елея</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">ელეია</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Velia</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Elea</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">韦利亚</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Elaia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">벨리아</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Վելիա</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Velia</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/06_qgr"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3164641"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/velia#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.159444</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.154444</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.159444</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.154444</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/lucania#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

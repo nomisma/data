@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
+    <foaf:Person rdf:about="http://nomisma.org/id/mu'izz_al-dawlah_abu_al-husayn_ahmad">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Mu'izz al-Dawlah Abu al-Husayn Ahmad</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">معز الدولة ابو الحسين أحمد بويه</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">معزالدوله دیلمی</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Muizz ad-Dawla Ahmad</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Mu'izz al-Daula</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Mu'izz al-Dawla</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Muïzz al-Dawla</skos:prefLabel>
+        <skos:definition xml:lang="en">Ahmad ibn Buya (Persian: احمد بن بویه), after 945 better known by his laqab of Mu'izz al-Dawla (Arabic: المعز الدولة الحمداني‎, "Fortifier of the Dynasty"), was the first of the Buyid emirs of Iraq, ruling from 945 until his death.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Mu'izz_al-Dawla"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q2745237"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/084dvb"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/mu'izz_al-dawlah_abu_al-husayn_ahmad#authority"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/mu'izz_al-dawlah_abu_al-husayn_ahmad#authority">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+  
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0945</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0967</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/buyids"/>
+    </org:Membership>
+</rdf:RDF>

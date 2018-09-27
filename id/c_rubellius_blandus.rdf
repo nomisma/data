@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,16 +9,30 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/c_rubellius_blandus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">C. Rubellius Blandus</skos:prefLabel>
-      <skos:definition xml:lang="en">Roman moneyer operating under the authority of Augustus.</skos:definition>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/c_rubellius_blandus#issuer"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">C. Rubellius Blandus</skos:prefLabel>
+        <skos:definition xml:lang="en">Roman moneyer operating under the authority of Augustus.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/c_rubellius_blandus#issuer"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Rubellius_Blandus"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1227324"/>
+        <skos:prefLabel xml:lang="la">Gaius Rubellius Blandus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gaius Rubellius Blandus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Gajusz Rubeliusz Blandus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Гай Рубелий Бланд</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Gaius Rubellius Blandus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Gaius Rubellius Blandus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Gaius Rubellius Blandus</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Гай Рубелій Бланд</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04tmh9"/>
+        <skos:prefLabel xml:lang="hu">Gaius Rubellius Blandus</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">C. Rubellius Blandus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">C. Rubellius Blandus</skos:prefLabel>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/c_rubellius_blandus#issuer">
-      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
    </org:Membership>
 </rdf:RDF>

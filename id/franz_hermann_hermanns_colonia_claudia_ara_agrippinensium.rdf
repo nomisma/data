@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/franz_hermann_hermanns_colonia_claudia_ara_agrippinensium">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/franz_hermann_hermanns_colonia_claudia_ara_agrippinensium#modern_period_mint_staff"/>
+        <skos:prefLabel xml:lang="en">Franz Hermann Hermanns</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">In July 1698 the results of the Assay Commission were signed off by the Goldsmith Hermanns as though he were Mint Warden in Cologne (City), Germany. Around 1699 Hermanns was appointed Mintmaster, then General Warden on 6 October 1702, a position he held until 1713 before he reverted on 14 November 1716 to General Warden. Hermanns was requested to produce 10,000 new Ratszeichen (German coin denomination) according to the old standard. He died in 1719. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926), pp. 259, 275, 279, 286, 294. Lit.: Alfred Noss, Die Münzen der Städte Köln und Neuss: 1474-1794 (1926), pp. 47-49.</skos:definition>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/franz_hermann_hermanns_colonia_claudia_ara_agrippinensium#modern_period_mint_staff">
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1699</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1719</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+    </org:Membership>
+</rdf:RDF>

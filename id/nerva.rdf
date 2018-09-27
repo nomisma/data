@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,26 +9,29 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/nerva">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Nerva</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nerva"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/69725573"/>
-      <skos:prefLabel xml:lang="de">Nerva</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Nerva</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Nerva</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Нерва</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Nerva</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Nerva</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Νέρβας</skos:prefLabel>
-      <skos:altLabel xml:lang="bg">Нерва</skos:altLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/nerva#roman_emperor"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Nerva</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nerva"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/69725573"/>
+        <skos:prefLabel xml:lang="de">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Нерва</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Νέρβας</skos:prefLabel>
+        <skos:altLabel xml:lang="bg">Нерва</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/nerva#roman_emperor"/>
+        <skos:definition xml:lang="en">Nerva was Roman Emperor from 96 to 98. Nerva became Emperor at the age of sixty-five, after a lifetime of imperial service under Nero and the rulers of the Flavian dynasty.</skos:definition>
+        <skos:prefLabel xml:lang="da">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Nerva</skos:prefLabel>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/nerva#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
    </org:Membership>
 </rdf:RDF>

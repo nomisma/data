@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,15 +9,23 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/hemidrachm">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Hemidrachm</skos:prefLabel>
-      <skos:definition xml:lang="en">Greek denomination equivalent to half of a drachma or 3 obols.</skos:definition>
-      <skos:altLabel xml:lang="en">Triobol</skos:altLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:altLabel xml:lang="de">Hemidrachme</skos:altLabel>
-   </nmo:Denomination>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Hemidrachm</skos:prefLabel>
+        <skos:definition xml:lang="en">Greek denomination equivalent to half of a drachma or 3 obols.</skos:definition>
+        <skos:altLabel xml:lang="en">Triobol</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:altLabel xml:lang="de">Hemidrachme</skos:altLabel>
+        <skos:definition xml:lang="fr">1/2 drachme</skos:definition>
+        <skos:prefLabel xml:lang="fr">Hémidrachme</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Hemidracma</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://nomisma.org/id/triobol"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:prefLabel xml:lang="da">Hemidrakme</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Hemidrahmă</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Hemidrahmi</skos:prefLabel>
+    </nmo:Denomination>
 </rdf:RDF>

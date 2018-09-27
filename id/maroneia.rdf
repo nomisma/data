@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,40 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/maroneia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Maroneia</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Maroneia in Thrace.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Maroneia"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/501507"/>
-      <geo:location rdf:resource="http://nomisma.org/id/maroneia#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Maroneia</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Maroneia in Thrace.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Maroneia"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/501507"/>
+        <geo:location rdf:resource="http://nomisma.org/id/maroneia#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/southern_coast_of_thrace"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/735308"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x56792"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q690341"/>
+        <skos:prefLabel xml:lang="de">Maroneia</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Марония</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Μαρώνεια Ροδόπης</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Maronia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">マロネイア</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Maroneia</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Marónia</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Maroneia-Sapon</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Maronia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Марония</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Maroneia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Maronea</skos:prefLabel>
+        <skos:prefLabel xml:lang="am">ማሮኔያ</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Maronea</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0fzqdd"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/maroneia#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.523415</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.303525</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.90636915640242</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.51912954421358</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/southern_coast_of_thrace#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

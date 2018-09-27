@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/kloster_zinna">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Kloster Zinna</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint(s) at the village of Kloster Zinna, now a part of the city of Jüterbog, once site of the Kloster Zinna (Zinna Abbey) from ca 1170 to 1553, National State of Brandenburg, Germany.</skos:definition>
+        <skos:prefLabel xml:lang="de">Kloster Zinna</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Monastère de Zinna</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Циннский монастырь</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ツィンナ修道院</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q895983"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Zinna_Abbey"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2887390"/>
+        <geo:location rdf:resource="http://nomisma.org/id/kloster_zinna#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/kloster_zinna#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52.0225</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.1039</geo:long>
+    </geo:SpatialThing>
+</rdf:RDF>

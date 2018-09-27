@@ -7,12 +7,12 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <un:Uncertainty rdf:about="http://nomisma.org/id/unknown_value">
-      <skos:prefLabel xml:lang="en">Unknown value</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:prefLabel xml:lang="en">Unknown value</skos:prefLabel>
       <skos:definition xml:lang="en">A value that is poorly known. Such as the location of a mint that is not known with confidence.</skos:definition>
       <dcterms:isReplacedBy rdf:resource="http://nomisma.org/id/uncertain_value"/>
    </un:Uncertainty>

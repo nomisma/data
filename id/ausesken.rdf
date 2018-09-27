@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/ausesken">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Ausesken</skos:prefLabel>
+        <skos:definition xml:lang="en">Mint at the ancient site of Ausesken in Hispania</skos:definition>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/252935"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51357"/>
+        <skos:closeMatch rdf:resource="https://en.wikipedia.org/wiki/Vic"/>
+        <geo:location rdf:resource="http://nomisma.org/id/ausesken#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/6452847"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/ausesken#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.92862891937745</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.254858016967932</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
+    </geo:SpatialThing>
+</rdf:RDF>

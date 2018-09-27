@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,16 +9,28 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/cn_piso_cnf">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Cn. PISO Cn.F</skos:prefLabel>
-      <skos:definition xml:lang="en">Roman moneyer operating under the authority of Augustus.</skos:definition>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/cn_piso_cnf#issuer"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Cn. PISO Cn.F</skos:prefLabel>
+        <skos:definition xml:lang="en">Roman moneyer operating under the authority of Augustus.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/cn_piso_cnf#issuer"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gnaeus_Calpurnius_Piso_%28consul_23_BC%29"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q2980800"/>
+        <skos:prefLabel xml:lang="fr">Cnaeus Calpurnius Piso</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Гней Калпурний Пизон (консул 23 пр.н.е.)</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Gnaeus Calpurnius Piso (consul 23 a.C.n.)</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Гней Кальпурній Пізон</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Cneu Calpúrnio Pisão</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Gneu Calpurni Pisó</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gnaeus Calpurnius Piso</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Gnaeus Calpurnius Piso</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Cnaeus Calpurnius Piso</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Cn. PISO Cn.F</skos:prefLabel>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/cn_piso_cnf#issuer">
-      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
    </org:Membership>
 </rdf:RDF>

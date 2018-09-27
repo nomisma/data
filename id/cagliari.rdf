@@ -7,7 +7,7 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
@@ -22,13 +22,13 @@
       <skos:prefLabel xml:lang="ca">Càller</skos:prefLabel>
       <skos:prefLabel xml:lang="zh">卡利亚里</skos:prefLabel>
       <skos:definition xml:lang="en">The mint at the ancient site of Cagliari in Sardinia.</skos:definition>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/471899"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x27899"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cagliari"/>
+      <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/471899"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x27899"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Cagliari"/>
       <geo:location rdf:resource="http://nomisma.org/id/cagliari#this"/>
    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/cagliari#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.214886</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.109522</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.214886</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.109522</geo:long>
    </geo:SpatialThing>
 </rdf:RDF>

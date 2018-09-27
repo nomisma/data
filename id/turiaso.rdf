@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,54 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/turiaso">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Turiaso</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Turiaso in Hispania Citerior.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Tarazona"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/246712"/>
-      <geo:location rdf:resource="http://nomisma.org/id/turiaso#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Turiaso</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Turiaso in Hispania Citerior.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Tarazona"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/246712"/>
+        <geo:location rdf:resource="http://nomisma.org/id/turiaso#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/6452805"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51280"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q639412"/>
+        <skos:prefLabel xml:lang="eu">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Tarazona de Aragón</skos:prefLabel>
+        <skos:prefLabel xml:lang="uz">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Taraçona</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">タラソナ</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">تاراثونا</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Тарасона</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Tarassona</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Тарасона</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Turiasso</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Тарасона</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">塔拉索纳</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Tarazona</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Тарасона</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Tarazona</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/05mg3r"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3108308"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/143797709"/>
+        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12170297t"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/turiaso#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.902823</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.725329</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.902823</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.725329</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

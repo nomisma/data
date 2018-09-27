@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,18 +9,40 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <foaf:Person rdf:about="http://nomisma.org/id/parthamaspates">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Parthamaspates</skos:prefLabel>
-      <skos:definition xml:lang="en">Roman client king of Parthia (AD 116-7) and later of Osroene (AD 118-123), the son of the Parthian emperor Osroes I.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Parthamaspates"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/parthamaspates#authority"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Parthamaspates</skos:prefLabel>
+        <skos:definition xml:lang="en">Roman client king of Parthia (AD 116-7) and later of Osroene (AD 118-123), the son of the Parthian emperor Osroes I.</skos:definition>
+        
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/parthamaspates#authority"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1269411"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Parthamaspates_of_Parthia"/>
+        <skos:prefLabel xml:lang="ja">パルタマスパテス</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Partamaspates</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Parthamaspatès</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Partamaspat od Partije</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Partamaspates</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Partamaspat Partski</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Partamaspades de Pàrtia</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Parthamaspates</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Partamaspate</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Parthamaspates av Parthia</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Partamaspat</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Partamaspates</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Парфамасат</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03ykgb"/>
+        <skos:prefLabel xml:lang="el">Παρθαμασπάτης</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Parthamaspates</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Parthamaspates</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Parthamaspates</skos:prefLabel>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/parthamaspates#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
    </org:Membership>
 </rdf:RDF>

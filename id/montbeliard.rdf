@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/montbeliard">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Montbéliard</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint(s) at the City of Montbéliard (Dep. Doubs) in France. As of 1033 the county of Montbéliard was a part of the Holy Roman Empire. From 1397 to 1796 (practically already 1793), under its German name Mömpelgard, it belonged to the house of Württemberg.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Montbéliard"/>
+        <skos:altLabel xml:lang="de">Mömpelgard</skos:altLabel>
+        <skos:prefLabel xml:lang="fr">Montbéliard</skos:prefLabel>
+        <geo:location rdf:resource="http://nomisma.org/id/montbeliard#this"/>
+        <skos:altLabel xml:lang="de">Moempelgard</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7009347"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x29529"/>
+        <skos:prefLabel xml:lang="de">Montbéliard</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/montbeliard#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.51</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">06.8</geo:long>
+    </geo:SpatialThing>
+</rdf:RDF>

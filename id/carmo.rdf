@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -8,20 +9,56 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/carmo">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Carmo</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Carmo in Spain.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Carmona,_Spain"/>
-      <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/256058"/>
-      <geo:location rdf:resource="http://nomisma.org/id/carmo#this"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Carmo</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Carmo in Spain.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Carmona,_Spain"/>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/256058"/>
+        <geo:location rdf:resource="http://nomisma.org/id/carmo#this"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
+        <skos:altLabel xml:lang="en">Karmo</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/10297283"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x117234"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7007588"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q63092"/>
+        <skos:prefLabel xml:lang="zh">卡尔莫纳</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="uz">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Καρμόνα</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">قرمونة</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Кармона</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Кармона</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Кармона</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Carmona</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Carmona, Sepanyol</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Կարմոնա</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Carmona</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/03g2bk"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/6360979"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/157458705"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/carmo#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.471001</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-5.642257</geo:long>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.471001</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-5.642257</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

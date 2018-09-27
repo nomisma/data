@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/hegema_athens">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Hegemachos</skos:prefLabel>
+        <skos:definition xml:lang="en">Third magistrate attested in Athens in 129/128 BC [issue 36]. Again attested as third magistrate in 122/121 BC [issue 42]. Probably as epehebic athlete victorious in the Theseia of 140 BC (Habicht 1991, p. 21): See M. Thompson, The New Style Silver Coinage of Athens (1961) nos. 416X-417 and nos. 500-502 / issues 36 and 42 (p. 567); C. Habicht, Zu den Münzmagistraten der Silberprägung des Neuen Stils, Chiron 21, 1991, pp. 5 and 21 (129/128 and 123/122 BC); Prosopographia Attica 6281; P. M. Fraser – E. Matthews, A Lexicon of Greek Personal Names II Attica (1994) p. 200 s. v. Hegemachos, no. 4; H. B. Mattingly, NC 157, 1997, p. 258 and W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 526 s. v. Hegema- (122/121 BC, issue 42).</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/hegema_athens#issuer"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-29938"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/hegema_athens#issuer">
+        <org:organization rdf:resource="http://nomisma.org/id/athens"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+    </org:Membership>
+</rdf:RDF>

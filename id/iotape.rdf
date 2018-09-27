@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/iotape">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Iotape</skos:prefLabel>
+        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/648650"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/cilicia"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:definition xml:lang="en">The mint at the ancient site of Iotape in Cilicia</skos:definition>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x47156"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7687997"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Aytap"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1434907"/>
+        <skos:prefLabel xml:lang="de">Iotape</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Иотапе</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Iotape</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Iotape</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Iotapa</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">آیتاپ</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/04cq_wp"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/8069039"/>
+        <geo:location rdf:resource="http://nomisma.org/id/iotape#this"/>
+    </nmo:Mint>
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/iotape#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.319837</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.235969</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/cilicia#this"/>
+    </geo:SpatialThing>
+</rdf:RDF>

@@ -7,7 +7,7 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nm="http://nomisma.org/id/" xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
@@ -16,12 +16,12 @@
       <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
       <skos:prefLabel xml:lang="en">Geto-Dacian</skos:prefLabel>
       <skos:definition xml:lang="en">The unlocated mint of the 'Geto-Dacian' peoples.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Dacia"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Dacia"/>
       <geo:location rdf:resource="http://nomisma.org/id/geto_dacian#this"/>
    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/geto_dacian#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.85</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.49</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.85</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.49</geo:long>
       <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
    </geo:SpatialThing>
 </rdf:RDF>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/georg_friedrich_loos_nuremberg">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/georg_friedrich_loos_nuremberg#engraver"/>
+        <skos:prefLabel xml:lang="en">Georg Friedrich Loos</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">Die cutter in Nürnberg (Nuremberg), Franconia, Germany from ca. 1742 to ca. 1762. Died in 1766. His intitials are LOOS, L or Lf. Lit.: Hans-Jörg Kellner, Die Münzen der Freien Reichsstadt Nürnberg (1957), p. 171.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/86041307"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/georg_friedrich_loos_nuremberg#modern_period_mint_staff"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/georg_friedrich_loos_nuremberg#engraver">
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1742</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1762</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
+        <org:role rdf:resource="http://nomisma.org/id/engraver"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/georg_friedrich_loos_nuremberg#modern_period_mint_staff">
+        <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+    </org:Membership>
+</rdf:RDF>
