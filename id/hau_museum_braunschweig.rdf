@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/hau_museum_braunschweig">
+      <skos:definition xml:lang="de">Das Münzkabinett des Herzog Anton Ulrich-Museums in Braunschweig (Niedersachsen) verfügt über eine numismatische Universalsammlung im Umfang von etwa 30.000 Münzen und Medaillen von der Antike bis heute. Die Sammlung wurde von den Herzögen des Hauses Braunschweig-Wolfenbüttel mit Schwerpunkt auf antiken Münzen sowie Münzen und Medaillen der Welfen gegründet, von besonderer Bedeutung sind die Bestände an nord- und mitteldeutschen Brakteaten. Im 19. und 20. Jahrhundert wurde die Sammlung durch den Erwerb wichtiger Kollektionen erweitert. Paul Jonas Meier erwarb im ersten Viertel des 20. Jahrhunderts eine umfangreiche Sammlung französischer und deutscher Jugendstilplaketten und Medaillen für das Museum. Im Laufe der Jahrhunderte entstand so im Münzkabinett eine universelle Sammlung deutscher, europäischer und außereuropäischer Münzen, darunter rund 2.000 griechische und 2.500 römische Münzen.</skos:definition>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Coin Cabinet, Herzog Anton Ulrich-Museum</skos:prefLabel>
+      <skos:definition xml:lang="en">The Herzog Anton Ulrich-Museum (Braunschweig, State of Lower Saxony, Germany) holds a collection of about 30.000 coins and medals, ranging from antiquity to the modern era. The collection was founded by the dukes of the house Brunswick-Wolfenbüttel with a focus on ancient coins as well as coins and medals of the Guelphs (particularly outstanding is the collection of Northern and Central German bracteates). In the 19th and 20th centuries the collection was expanded by the acquisition of important collections and treasure troves. Paul Jonas Meier bought a substantial collection of French and German Art Nouveau plaques and medals for the museum in the first quarter of the 20th century. Over the centuries, the coin cabinet came about to harbor a universal collection of German, European and non-European coins, among them ca 2.000 Greek and 2.500 Roman coins.</skos:definition>
+      <foaf:homepage rdf:resource="https://www.virtuelles-muenzkabinett.de"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+      <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-026819"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q678082"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Herzog_Anton_Ulrich_Museum"/>
+      <skos:prefLabel xml:lang="de">Münzkabinett, Herzog Anton Ulrich-Museum</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/07_bbc"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/9043-8"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/154278018"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11995609p"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/028040716"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000404311930"/>
+      <foaf:thumbnail rdf:resource="https://www.virtuelles-muenzkabinett.de/special/logos/logo.png"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/hau_museum_braunschweig#provenance"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hau_museum_braunschweig#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/hau_museum_braunschweig"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T04:00:01-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
+</rdf:RDF>
