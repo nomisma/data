@@ -1,72 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Material rdf:about="http://nomisma.org/id/enamel">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Enamel</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Emalia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Эмаль</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">琺瑯</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Emalj</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Email (glazuur)</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">搪瓷</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Émail</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Smalto</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Esmalte</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Esmalte</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Email</skos:prefLabel>
-        <skos:definition xml:lang="en">A material made by fusing powdered glass to a substrate by firing, usually between 750 and 850 °C (1,380 and 1,560 °F).</skos:definition>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10796"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Vitreous_enamel"/>
-        <skos:altLabel xml:lang="en">Vitreous Enamel</skos:altLabel>
-        <skos:altLabel xml:lang="en">Porcelain Enamel</skos:altLabel>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300014910"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q213371"/>
-        <skos:prefLabel xml:lang="ko">법랑</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אמייל</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Esmaut</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Emalja</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Email</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Esmalte</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Email</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Pháp lam</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Emajl</skos:prefLabel>
-        <skos:prefLabel xml:lang="my">ကြွေရည်သုတ်ခြင်း</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">मीनाकारी</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Emajlo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Email</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Esmalt</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Emali</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Емаль</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">smalt</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">میناکاری</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ტიხრული მინანქარი</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Emajl</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Emalis</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Emalje</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Emalje</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Cruan</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Lošč</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">smalt</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مينا مزجج</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">эмаль</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Tűzzománc</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01tp42"/>
-        <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/material/lod/121"/>
-        <skos:prefLabel xml:lang="eu">Esmalte</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Emajl</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4152058-0"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300014915"/>
-    </nmo:Material>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Enamel</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Emalia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Эмаль</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">琺瑯</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Emalj</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Email (glazuur)</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">搪瓷</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Émail</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Smalto</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Esmalte</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Esmalte</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Email</skos:prefLabel>
+      <skos:definition xml:lang="en">A material made by fusing powdered glass to a substrate by firing, usually between 750 and 850 °C (1,380 and 1,560 °F).</skos:definition>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10796"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Vitreous_enamel"/>
+      <skos:altLabel xml:lang="en">Vitreous Enamel</skos:altLabel>
+      <skos:altLabel xml:lang="en">Porcelain Enamel</skos:altLabel>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300014910"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q213371"/>
+      <skos:prefLabel xml:lang="ko">법랑</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אמייל</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Esmaut</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Emalja</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Email</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Esmalte</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Email</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Pháp lam</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Emajl</skos:prefLabel>
+      <skos:prefLabel xml:lang="my">ကြွေရည်သုတ်ခြင်း</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">मीनाकारी</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Emajlo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Email</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Esmalt</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Emali</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Емаль</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">smalt</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">میناکاری</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ტიხრული მინანქარი</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Emajl</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Emalis</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Emalje</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Emalje</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Cruan</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Lošč</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">smalt</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مينا مزجج</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">эмаль</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Tűzzománc</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01tp42"/>
+      <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/material/lod/121"/>
+      <skos:prefLabel xml:lang="eu">Esmalte</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Emajl</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4152058-0"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300014915"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/enamel#provenance"/>
+   </nmo:Material>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/enamel#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/enamel"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-17T04:00:05+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-26T04:00:01-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xZ2XEGsiwx_b_gEjavTjvU7MxBWD7FSg-kdw-VxyoQQ/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

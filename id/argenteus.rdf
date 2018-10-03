@@ -1,44 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/argenteus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Argenteus</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Argenteus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Argenteus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Аргентиус</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Argenteus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Argento</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Argenteo</skos:prefLabel>
-        <skos:definition xml:lang="en">The argenteus was a silver coin produced by the Roman Empire from the time of Diocletian's coinage reform in AD 294 to ca. AD 310. It was of similar weight and
-			fineness as the denarius of the time of Nero. The coin was produced at a theoretical weight of 1/96th of a Roman pound (about 3 grams), as indicated by the Roman numeral XCVI on the coin's
-			reverse.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Argenteus"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q645246"/>
-        <skos:prefLabel xml:lang="hr">Argenteus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Argenteus</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Argentėjas</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Арґентеус</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Argenteus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Argenteus</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Аргентыус</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Argenteo</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Argenteus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02w_nd"/>
-        <skos:prefLabel xml:lang="da">Argenteus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Argenteus</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Argenteus</skos:prefLabel>
-    </nmo:Denomination>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Argenteus</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Argenteus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Argenteus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Аргентиус</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Argenteus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Argento</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Argenteo</skos:prefLabel>
+      <skos:definition xml:lang="en">The argenteus was a silver coin produced by the Roman Empire from the time of Diocletian's coinage reform in AD 294 to ca. AD 310. It was of similar weight and fineness as the denarius of the time of Nero. The coin was produced at a theoretical weight of 1/96th of a Roman pound (about 3 grams), as indicated by the Roman numeral XCVI on the coin's reverse.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Argenteus"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q645246"/>
+      <skos:prefLabel xml:lang="hr">Argenteus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Argenteus</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Argentėjas</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Арґентеус</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Argenteus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Argenteus</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Аргентыус</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Argenteo</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Argenteus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02w_nd"/>
+      <skos:prefLabel xml:lang="da">Argenteus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Argenteus</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Argenteus</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/argenteus#provenance"/>
+   </nmo:Denomination>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/argenteus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/argenteus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

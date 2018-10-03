@@ -1,59 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/ventipo">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ventipo</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Ventipo in Hispania</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Casariche"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/256511"/>
-        <geo:location rdf:resource="http://nomisma.org/id/ventipo#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/2519979"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x117228"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7343916"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1445334"/>
-        <skos:prefLabel xml:lang="pt">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Касариче</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Касаріче</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">卡萨里切</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Casariche</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Касариче</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կասարիչե</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Casariche</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/02z7bs_"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ventipo</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Ventipo in Hispania</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Casariche"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/256511"/>
+      <geo:location rdf:resource="http://nomisma.org/id/ventipo#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/2519979"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x117228"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7343916"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q1445334"/>
+      <skos:prefLabel xml:lang="pt">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Касариче</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Касаріче</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">卡萨里切</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Casariche</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Касариче</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կասարիչե</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Casariche</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/02z7bs_"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ventipo#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/ventipo#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.293890</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-4.759548</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.293890</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-4.759548</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ventipo#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ventipo"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-14T04:00:04+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

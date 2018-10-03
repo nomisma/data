@@ -1,49 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/verulamium">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:prefLabel xml:lang="en">Verulamium</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Verulamium in Britain.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Verulamium"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/79739"/>
-        <geo:location rdf:resource="http://nomisma.org/id/verulamium#this"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/6615330"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x56810"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011881"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q19861"/>
-        <skos:prefLabel xml:lang="ca">Verolamium</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Verulamium</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Verulanium</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Verulamium</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Verulamium</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Verulamium</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Verulamium</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Verulamium</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Verulamium</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Verulamium</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Веруламий</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Verulamijum</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Verulamium</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Verulamium</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Verulamium</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0fr2n"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/246136336"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:prefLabel xml:lang="en">Verulamium</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Verulamium in Britain.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Verulamium"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/79739"/>
+      <geo:location rdf:resource="http://nomisma.org/id/verulamium#this"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/6615330"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x56810"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011881"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q19861"/>
+      <skos:prefLabel xml:lang="ca">Verolamium</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Verulamium</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Verulanium</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Verulamium</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Verulamium</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Verulamium</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Verulamium</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Verulamium</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Verulamium</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Verulamium</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Веруламий</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Verulamijum</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Verulamium</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Verulamium</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Verulamium</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0fr2n"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/246136336"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/verulamium#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/verulamium#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.746303</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.354941</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.746303</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.354941</geo:long>
    </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/verulamium#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/verulamium"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-22T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1qEpZ4KFEHxjIUFT7sOloPuKW6ixd3cJnr0EWHwnkcX4/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

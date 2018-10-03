@@ -1,40 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/triens">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Triens</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Triens</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Triente</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Triens</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Триенс</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Трієнс</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Triens"/>
-        <skos:definition xml:lang="en">An ancient denomination with the value of 4 onkiai</skos:definition>
-        <skos:definition xml:lang="fr">4 onkia</skos:definition>
-        <skos:prefLabel xml:lang="fr">Triens</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Triente</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://nomisma.org/id/4-onkia"/>
-        <skos:exactMatch rdf:resource="http://nomisma.org/id/quadrunx"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1249059"/>
-        <skos:prefLabel xml:lang="la">Triens</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Триенс</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Triens</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Triens</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Triens</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Triens</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02zhz5"/>
-    </nmo:Denomination>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Triens</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Triens</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Triente</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Triens</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Триенс</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Трієнс</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Triens"/>
+      <skos:definition xml:lang="en">An ancient denomination with the value of 4 onkiai</skos:definition>
+      <skos:definition xml:lang="fr">4 onkia</skos:definition>
+      <skos:prefLabel xml:lang="fr">Triens</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Triente</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://nomisma.org/id/4-onkia"/>
+      <skos:exactMatch rdf:resource="http://nomisma.org/id/quadrunx"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1249059"/>
+      <skos:prefLabel xml:lang="la">Triens</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Триенс</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Triens</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Triens</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Triens</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Triens</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02zhz5"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/triens#provenance"/>
+   </nmo:Denomination>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/triens#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/triens"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-19T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vC7sRD5zbHcQKsCkMd3z6Zo-QH5PtX0Iq07xnKXGTGY/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

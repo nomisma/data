@@ -1,25 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:NumismaticTerm rdf:about="http://nomisma.org/id/coin_wear">
-        <skos:definition xml:lang="fr">Usure d'une monnaie. L'avers et le revers sont décrits séparément. D'après "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520) on distingue entre cinq degrés d'usure: U1 - non è peu usé; U2 - légèrement usé; U3 - usé; U4 - fortement usé; U5 - très fortement ou complètement usé (fruste).Pour la plupart des monnaies dont le degré de corrosion est égal ou supérieur à 3 (C3-C5), le degré d'usure est impossible à établir.  Si le degré d'usure est impossible à établir, on les classera U0 (indéterminé). </skos:definition>
-        <skos:definition xml:lang="de">Abnutzung einer Münze verursacht durch Nutzung.  Vorder- und Rückseite werden getrennt eingestuft. Der Grad der Abnutzung wird in fünf Stufen eingeteilt nach "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520): A1 - nicht bis kaum abgenutzt; A2 - leicht abgenutzt; A3 - abgenutzt; A4 - stark abgenutzt; A5 - sehr stark bis ganz abgenutzt (plan). Die Abnutzung stark korrodierter Münzen (K3-K5) kann zumeist nicht mehr bestimmt werden.  Falls der Abnutzungsgrad nicht bestimmt werden kann, so wird dies mit A0 (unbestimmt) vermerkt. </skos:definition>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Coin wear</skos:prefLabel>
-        <skos:definition xml:lang="en">Wear of a coin,  caused by its use. Obverse and reverse are treated separately. The degree of wear is classified into five categories as defined by "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520): W1 - not or barely worn; W2 - slightly worn; W3 worn; W4 - heavily worn; W5 - heavily or totally worn (plain). The wear of stronlgy corroded coins (C3-C5) usually can't be attributed to a specific degree  of wear. There is also an additional category for coins that  cannot be classified: W0 (undetermined). </skos:definition>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300219449"/>
-        <skos:prefLabel xml:lang="de">Abnutzung</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Usure</skos:prefLabel>
-    </nmo:NumismaticTerm>
+      <skos:definition xml:lang="fr">Usure d'une monnaie. L'avers et le revers sont décrits séparément. D'après "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520) on distingue entre cinq degrés d'usure: U1 - non è peu usé; U2 - légèrement usé; U3 - usé; U4 - fortement usé; U5 - très fortement ou complètement usé (fruste).Pour la plupart des monnaies dont le degré de corrosion est égal ou supérieur à 3 (C3-C5), le degré d'usure est impossible à établir. Si le degré d'usure est impossible à établir, on les classera U0 (indéterminé).</skos:definition>
+      <skos:definition xml:lang="de">Abnutzung einer Münze verursacht durch Nutzung. Vorder- und Rückseite werden getrennt eingestuft. Der Grad der Abnutzung wird in fünf Stufen eingeteilt nach "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520): A1 - nicht bis kaum abgenutzt; A2 - leicht abgenutzt; A3 - abgenutzt; A4 - stark abgenutzt; A5 - sehr stark bis ganz abgenutzt (plan). Die Abnutzung stark korrodierter Münzen (K3-K5) kann zumeist nicht mehr bestimmt werden. Falls der Abnutzungsgrad nicht bestimmt werden kann, so wird dies mit A0 (unbestimmt) vermerkt.</skos:definition>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Coin wear</skos:prefLabel>
+      <skos:definition xml:lang="en">Wear of a coin, caused by its use. Obverse and reverse are treated separately. The degree of wear is classified into five categories as defined by "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520): W1 - not or barely worn; W2 - slightly worn; W3 worn; W4 - heavily worn; W5 - heavily or totally worn (plain). The wear of stronlgy corroded coins (C3-C5) usually can't be attributed to a specific degree of wear. There is also an additional category for coins that cannot be classified: W0 (undetermined).</skos:definition>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300219449"/>
+      <skos:prefLabel xml:lang="de">Abnutzung</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Usure</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/coin_wear#provenance"/>
+   </nmo:NumismaticTerm>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/coin_wear#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/coin_wear"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-01T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-27T04:00:01-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,40 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Collection rdf:about="http://nomisma.org/id/uni-passau">
-        <skos:definition xml:lang="en">The Numismatic Collection of the Professorship for Ancient History at the University of Passau contains 377 coins, covering nearly the whole of ancient Numismatic History, from the Archaic Age of Greece to Late Antiquity and the Byzantine Age, with a focus on the coins of the Roman emperors.
-The beginning of the collection is connected with Prof. Dr. H. Wolff, who was holder of the chair for Ancient History from 1980 to 2006. His successor, Prof. Dr. O. Stoll (since 2007), was able to purchase and acquire additional coins, so that the collection reached its contemporary content in 2015.
-
-The Professorship is – due to missing financial aid by the university – not able to purchase additional coins.</skos:definition>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="de">Münzsammlung der Professur für Alte Geschichte an der Universität Passau </skos:prefLabel>
-        <skos:definition xml:lang="de">Die Münzsammlung der Professur für Alte Geschichte an der Universität Passau umfasst 377 Münzen aus allen Bereichen der antiken Münzgeschichte, von der archaischen Zeit Griechenlands bis in die Spätantike und das Zeitalter von Byzanz, allerdings mit einem deutlichen Schwerpunkt im Bereich der Römischen Kaiserzeit.
-Der Beginn der Sammlung ist mit dem ersten Lehrstuhlinhaber, Herrn Prof. Dr. H. Wolff (zwischen 1980 und 2006) zu verbinden, der sporadisch in der Lage war, Käufe zu tätigen. Unter seinem Nachfolger, Prof. Dr. O. Stoll (seit 2007), konnte die Slg. durch Käufe aus Berufungsmitteln und Bleibeverhandlungen den derzeitigen, gleichwohl nach wie vor bescheidenen Stand erreichen.
-Dennoch wird die Sammlung, trotz ihres geringen Umfangs, aktiv in die Lehrveranstaltungen der Professur für Alte Geschichte eingebunden und somit fortlaufend genauer bestimmt und als Praxismöglichkeit zur Wissensvermittlung  verwendet.
-Da es für die Sammlung keinen Etat von Seiten der Universität gibt, ist ein weiteres Anwachsen derzeit nicht zu erwarten.
-</skos:definition>
-        <foaf:homepage rdf:resource="https://numid.phil.uni-passau.de"/>
-        <skos:prefLabel xml:lang="en">Numismatic Collection of the Professorship for Ancient History at the University of Passau</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-        
-        <foaf:thumbnail rdf:resource="http://www.uni-passau.de/fileadmin/system/gfx/global/logo.png"/>
-        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-124423"/>
-    </nmo:Collection>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/uni-passau">
+      <skos:definition xml:lang="en">The Numismatic Collection of the Professorship for Ancient History at the University of Passau contains 377 coins, covering nearly the whole of ancient Numismatic History, from the Archaic Age of Greece to Late Antiquity and the Byzantine Age, with a focus on the coins of the Roman emperors. The beginning of the collection is connected with Prof. Dr. H. Wolff, who was holder of the chair for Ancient History from 1980 to 2006. His successor, Prof. Dr. O. Stoll (since 2007), was able to purchase and acquire additional coins, so that the collection reached its contemporary content in 2015. The Professorship is – due to missing financial aid by the university – not able to purchase additional coins.</skos:definition>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="de">Münzsammlung der Professur für Alte Geschichte an der Universität Passau</skos:prefLabel>
+      <skos:definition xml:lang="de">Die Münzsammlung der Professur für Alte Geschichte an der Universität Passau umfasst 377 Münzen aus allen Bereichen der antiken Münzgeschichte, von der archaischen Zeit Griechenlands bis in die Spätantike und das Zeitalter von Byzanz, allerdings mit einem deutlichen Schwerpunkt im Bereich der Römischen Kaiserzeit. Der Beginn der Sammlung ist mit dem ersten Lehrstuhlinhaber, Herrn Prof. Dr. H. Wolff (zwischen 1980 und 2006) zu verbinden, der sporadisch in der Lage war, Käufe zu tätigen. Unter seinem Nachfolger, Prof. Dr. O. Stoll (seit 2007), konnte die Slg. durch Käufe aus Berufungsmitteln und Bleibeverhandlungen den derzeitigen, gleichwohl nach wie vor bescheidenen Stand erreichen. Dennoch wird die Sammlung, trotz ihres geringen Umfangs, aktiv in die Lehrveranstaltungen der Professur für Alte Geschichte eingebunden und somit fortlaufend genauer bestimmt und als Praxismöglichkeit zur Wissensvermittlung verwendet. Da es für die Sammlung keinen Etat von Seiten der Universität gibt, ist ein weiteres Anwachsen derzeit nicht zu erwarten.</skos:definition>
+      <foaf:homepage rdf:resource="https://numid.phil.uni-passau.de"/>
+      <skos:prefLabel xml:lang="en">Numismatic Collection of the Professorship for Ancient History at the University of Passau</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+      <foaf:thumbnail rdf:resource="http://www.uni-passau.de/fileadmin/system/gfx/global/logo.png"/>
+      <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-124423"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/uni-passau#provenance"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni-passau#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/uni-passau"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-19T04:00:01-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-20T04:00:01-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,32 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Collection rdf:about="http://nomisma.org/id/rub_bochum">
-        <skos:definition xml:lang="de">Die Münzsammlung des Historischen Instituts der Fakultät für Geschichtswissenschaft der Ruhr-Universität Bochum umfasst mehr als 3.400 Objekte, die alle Epochen der antiken Münzgeschichte von der archaischen Zeit Griechenlands bis in die byzantinische Epoche abdecken. Dazu kommt der kleine spätmittelalterliche Münzschatz von Querenburg, der beim Bau der Universität 1966 gefunden wurde.</skos:definition>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="de">Münzsammlung der Ruhr-Universität Bochum</skos:prefLabel>
-        <skos:definition xml:lang="en">The Numismatic Collection of History Institute of the Faculty of History of the Ruhr-University Bochum consists of more than 3,400 objects covering the whole of Antiquity, from the Archaic Age of Greece to the Byzantine period. In addition, it includes a small Late Mediaeval hoard, which was discovered in Querenburg in 1966 in the course of the construction of the University.</skos:definition>
-        <foaf:homepage rdf:resource="http://ikmk.ruhr-uni-bochum.de"/>
-        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-023414"/>
-        <skos:prefLabel xml:lang="en">Coin Collection of Ruhr-Universität Bochum</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <foaf:thumbnail rdf:resource="http://www.ruhr-uni-bochum.de/cd/extern/logo/Logo_RUB_BLAU_cmyk.jpg"/>
-    </nmo:Collection>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/rub_bochum">
+      <skos:definition xml:lang="de">Die Münzsammlung des Historischen Instituts der Fakultät für Geschichtswissenschaft der Ruhr-Universität Bochum umfasst mehr als 3.400 Objekte, die alle Epochen der antiken Münzgeschichte von der archaischen Zeit Griechenlands bis in die byzantinische Epoche abdecken. Dazu kommt der kleine spätmittelalterliche Münzschatz von Querenburg, der beim Bau der Universität 1966 gefunden wurde.</skos:definition>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="de">Münzsammlung der Ruhr-Universität Bochum</skos:prefLabel>
+      <skos:definition xml:lang="en">The Numismatic Collection of History Institute of the Faculty of History of the Ruhr-University Bochum consists of more than 3,400 objects covering the whole of Antiquity, from the Archaic Age of Greece to the Byzantine period. In addition, it includes a small Late Mediaeval hoard, which was discovered in Querenburg in 1966 in the course of the construction of the University.</skos:definition>
+      <foaf:homepage rdf:resource="http://ikmk.ruhr-uni-bochum.de"/>
+      <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-023414"/>
+      <skos:prefLabel xml:lang="en">Coin Collection of Ruhr-Universität Bochum</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <foaf:thumbnail rdf:resource="http://www.ruhr-uni-bochum.de/cd/extern/logo/Logo_RUB_BLAU_cmyk.jpg"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/rub_bochum#provenance"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/rub_bochum#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/rub_bochum"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-10T04:00:01-06:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-23T04:00:02-06:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

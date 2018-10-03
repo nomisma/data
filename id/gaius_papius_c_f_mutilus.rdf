@@ -1,40 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/gaius_papius_c_f_mutilus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Gaius Papius Gaii filius Mutilus</skos:prefLabel>
-        <skos:definition xml:lang="en">C. Papius C.f. Mutilus, from Samnitian family, was a general in the Social War. He issued coins with his name sometimes with the additional title of imperator (90-88 BC). Lit.: N. K. Rutter, Historia Numorum Italy (2001) p. 57; Der Neue Pauly IX (2000) 295 s. v. Papius no. I 4 (K.-L. Elvers).</skos:definition>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1376552"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Papius_Mutilus"/>
-        <skos:prefLabel xml:lang="de">Gaius Papius Mutilus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Гай Папий Мутил</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Gaius Papius Mutilus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Cayo Papio Mutilo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Gai Papi Mutil</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Gaius Papius Mutilus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Гай Папий Мутил</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Caio Pápio Mutilo</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02r2qxb"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/gaius_papius_c_f_mutilus#issuer"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/gaius_papius_c_f_mutilus#issuer">
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0080</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/gaius_papius_c_f_mutilus">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Gaius Papius Gaii filius Mutilus</skos:prefLabel>
+      <skos:definition xml:lang="en">C. Papius C.f. Mutilus, from Samnitian family, was a general in the Social War. He issued coins with his name sometimes with the additional title of imperator (90-88 BC). Lit.: N. K. Rutter, Historia Numorum Italy (2001) p. 57; Der Neue Pauly IX (2000) 295 s. v. Papius no. I 4 (K.-L. Elvers).</skos:definition>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1376552"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Papius_Mutilus"/>
+      <skos:prefLabel xml:lang="de">Gaius Papius Mutilus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Гай Папий Мутил</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Gaius Papius Mutilus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Cayo Papio Mutilo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Gai Papi Mutil</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Gaius Papius Mutilus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Гай Папий Мутил</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Caio Pápio Mutilo</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02r2qxb"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/gaius_papius_c_f_mutilus#issuer"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/gaius_papius_c_f_mutilus#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/gaius_papius_c_f_mutilus#issuer">
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0080</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/gaius_papius_c_f_mutilus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/gaius_papius_c_f_mutilus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-07T04:00:01-06:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

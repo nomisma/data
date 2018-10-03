@@ -1,82 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/baitolo">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Baitolo</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Baitolo in Hispania.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Badalona"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/246220"/>
-        <geo:location rdf:resource="http://nomisma.org/id/baitolo#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/3129028"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51354"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/1061804"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q15468"/>
-        <skos:prefLabel xml:lang="ca">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بادالونا</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Бадалона</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">バダロナ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ბადალონა</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Бадалона</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="qu">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Бадалона</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Бадалона</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Бадалона</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">巴达洛纳</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">บาดาโลนา</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Горад Бадалона</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">바달로나</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">بادالنا</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μπαδαλόνα</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Badalona</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Բադալոնա</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0f_b4"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/6356051"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/122650893"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Baitolo</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Baitolo in Hispania.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Badalona"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/246220"/>
+      <geo:location rdf:resource="http://nomisma.org/id/baitolo#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/3129028"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51354"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/1061804"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q15468"/>
+      <skos:prefLabel xml:lang="ca">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بادالونا</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Бадалона</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">バダロナ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ბადალონა</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Бадалона</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="qu">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Бадалона</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Бадалона</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Бадалона</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">巴达洛纳</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">บาดาโลนา</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Горад Бадалона</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">바달로나</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">بادالنا</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μπαδαλόνα</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Badalona</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Բադալոնա</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0f_b4"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/6356051"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/122650893"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/baitolo#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/baitolo#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.450127</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.247399</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.450127</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.247399</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/baitolo#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/baitolo"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

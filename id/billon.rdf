@@ -1,46 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Material rdf:about="http://nomisma.org/id/billon">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Billon</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Billon</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Biljoengoud</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Vellón (aleación)</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Biglione</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Billon (alliage)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ビロン</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Bilhão (liga)</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Bilon (stop)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Биллон</skos:prefLabel>
-        <skos:definition xml:lang="en">Billon is any copper alloy with only a small amount of precious metal mixed in.</skos:definition>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10364"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300194590"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Billon_(alloy)"/>
-        <skos:prefLabel xml:lang="ar">بيلون</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q911380"/>
-        <skos:prefLabel xml:lang="ro">Bilon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Billó</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Bellón</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Билонни монети</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Bilon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ბილონური მონეტა</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Bilonas</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Billon</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Bellón</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">билон</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">billon</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4466372-9"/>
-    </nmo:Material>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Billon</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Billon</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Biljoengoud</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Vellón (aleación)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Biglione</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Billon (alliage)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ビロン</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Bilhão (liga)</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Bilon (stop)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Биллон</skos:prefLabel>
+      <skos:definition xml:lang="en">Billon is any copper alloy with only a small amount of precious metal mixed in.</skos:definition>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10364"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300194590"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Billon_(alloy)"/>
+      <skos:prefLabel xml:lang="ar">بيلون</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q911380"/>
+      <skos:prefLabel xml:lang="ro">Bilon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Billó</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Bellón</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Билонни монети</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Bilon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ბილონური მონეტა</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Bilonas</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Billon</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Bellón</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">билон</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">billon</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4466372-9"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/billon#provenance"/>
+   </nmo:Material>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/billon#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/billon"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-26T04:00:01-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xZ2XEGsiwx_b_gEjavTjvU7MxBWD7FSg-kdw-VxyoQQ/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

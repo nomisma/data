@@ -1,65 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/upper_germany">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Upper Germany</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Germania Superior</skos:prefLabel>
-        <skos:definition xml:lang="en">The Roman province of Germania Superior.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Germania_Superior"/>
-        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/981525/"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q153553"/>
-        <skos:prefLabel xml:lang="eu">Germania Garaia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Germanie supérieure</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">גרמניה עילית</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Верхняя Германія</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Germania superiore</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Germania superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ゲルマニア・スペリオル</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Thượng Germania</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Gornja Germanija</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Germânia Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Верхняя Германия</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Boppe-Germaanje</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">อัปเปอร์เจอร์เมเนีย</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Germània Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Верхня Германія</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Gornja Germanija</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Horní Germánie</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Горна Германия</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Gornja Germanija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Горња Германија</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Վերին Գերմանիա</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">上日耳曼尼亞</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Germania Superior</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">جرمانيا الكبرى</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/028hlh"/>
-        <skos:exactMatch rdf:resource="http://www.geonames.org/8378507"/>
-        <skos:prefLabel xml:lang="ia">Provincia Germania Superior</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4104622-5"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Upper Germany</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Germania Superior</skos:prefLabel>
+      <skos:definition xml:lang="en">The Roman province of Germania Superior.</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Germania_Superior"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/981525/"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q153553"/>
+      <skos:prefLabel xml:lang="eu">Germania Garaia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Germanie supérieure</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">גרמניה עילית</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Верхняя Германія</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Germania superiore</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Germania superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ゲルマニア・スペリオル</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Thượng Germania</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Gornja Germanija</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Germânia Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Верхняя Германия</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Boppe-Germaanje</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">อัปเปอร์เจอร์เมเนีย</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Germània Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Верхня Германія</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Gornja Germanija</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Horní Germánie</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Горна Германия</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Gornja Germanija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Горња Германија</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Վերին Գերմանիա</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">上日耳曼尼亞</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Germania Superior</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">جرمانيا الكبرى</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/028hlh"/>
+      <skos:exactMatch rdf:resource="http://www.geonames.org/8378507"/>
+      <skos:prefLabel xml:lang="ia">Provincia Germania Superior</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4104622-5"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/upper_germany#provenance"/>
+   </nmo:Region>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/upper_germany#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/upper_germany"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

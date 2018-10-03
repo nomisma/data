@@ -1,59 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/artabasdos">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Artabasdos</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Artabasdo</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Artabasde</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Artabasdos</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿尔塔瓦兹德 (拜占庭)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Артавазд (византийский император)</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Artavasde (imperatore)</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Artabasdos</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Artabasdo</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Artabasdes</skos:prefLabel>
-        <skos:definition xml:lang="en">The Byzantine emperor Artabasdos.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Artabasdos"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/10636634"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q235097"/>
-        <skos:prefLabel xml:lang="ko">아르타바스두스</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Artabaszdosz bizánci császár</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Artabasdo</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Artabasdos</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αρτάβασδος</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Artavazd Ikonoljub</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Artabasdus</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Արտավազդ</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Artabasdos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Artabasdus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Artavasdes de Bizanci</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Артавазд Иконољубец</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Artabasdos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Артабаст</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Artabazd</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Artabasdos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آرتاباسدوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Артавазд</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Artabasdos</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Artabasdo</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Artabasdos</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Artabasdos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">არტაბასდოსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アルタバスドス</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118504479"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01kqcv"/>
-    </foaf:Person>
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/artabasdos">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Artabasdos</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Artabasdo</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Artabasde</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Artabasdos</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿尔塔瓦兹德 (拜占庭)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Артавазд (византийский император)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Artavasde (imperatore)</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Artabasdos</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Artabasdo</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Artabasdes</skos:prefLabel>
+      <skos:definition xml:lang="en">The Byzantine emperor Artabasdos.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Artabasdos"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/10636634"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q235097"/>
+      <skos:prefLabel xml:lang="ko">아르타바스두스</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Artabaszdosz bizánci császár</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Artabasdo</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Artabasdos</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αρτάβασδος</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Artavazd Ikonoljub</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Artabasdus</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Արտավազդ</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Artabasdos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Artabasdus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Artavasdes de Bizanci</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Артавазд Иконољубец</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Artabasdos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Артабаст</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Artabazd</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Artabasdos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آرتاباسدوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Артавазд</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Artabasdos</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Artabasdo</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Artabasdos</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Artabasdos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">არტაბასდოსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アルタバスドス</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118504479"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01kqcv"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/artabasdos#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/artabasdos#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/artabasdos"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-31T04:00:01+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/dmathie"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

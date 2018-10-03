@@ -1,62 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/philip_i_philadelphus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Philip I</skos:prefLabel>
-        <skos:definition xml:lang="en">Philip I Epiphanes Philadelphus ("God Manifest, Brother-loving") was the twenty-second king of the Seleucid Empire, reigning from c. 94/3 to perhaps 76/5 BC. A brother of Seleucus VI, Antiochus XI, and Demetrius III, Philip I ruled jointly with Antiochus XI in Cilicia in 94/3 BC. By 94/3 BC, Antiochus XI was dead and Philip I controlled parts of northern Syria. He was besieged at Beroea by Demetrius III in 88/7 BC, but the siege was lifted when Demetrius was captured by Philip's Parthian allies. Philip I subsequently ruled from Antioch and briefly managed to sieze Damascus from Antiochus XII. The ancient sources are unclear about the fate of Philip I, but he seems to have died by 76/5 BC.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Philip_I_Philadelphus"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q263489"/>
-        <skos:prefLabel xml:lang="hu">I. Philipposz szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Felip I Filadelf</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Filip 1. af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Philipp I. Philadelphos</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Φίλιππος Α΄ Φιλάδελφος</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Filipo I Filadelfo</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Filipo I.a Filadelfo</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">فیلیپ یکم سلوکی</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Filippos I Filadelfos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Philippe Ier Philadelphe</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Filippo I Filadelfo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">필리포스 1세 필라델포스</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Philippus I Philadelphus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Filip I Filadelfos</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Filipe I Filadelfo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Филипп I Филадельф</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Philippos I Philadelphos</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">腓力一世</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Филип I Филаделф</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Filip I Filadelfus</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Філіп I Філадэльф</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Filip I Filadelf</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">فيليب الأول</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Філіпп I Філадельф</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Philip I Philadelphos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Philippus I Philadelphus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/016h14"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/philip_i_philadelphus#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/philip_i_philadelphus#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0094</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0075</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/philip_i_philadelphus">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Philip I</skos:prefLabel>
+      <skos:definition xml:lang="en">Philip I Epiphanes Philadelphus ("God Manifest, Brother-loving") was the twenty-second king of the Seleucid Empire, reigning from c. 94/3 to perhaps 76/5 BC. A brother of Seleucus VI, Antiochus XI, and Demetrius III, Philip I ruled jointly with Antiochus XI in Cilicia in 94/3 BC. By 94/3 BC, Antiochus XI was dead and Philip I controlled parts of northern Syria. He was besieged at Beroea by Demetrius III in 88/7 BC, but the siege was lifted when Demetrius was captured by Philip's Parthian allies. Philip I subsequently ruled from Antioch and briefly managed to sieze Damascus from Antiochus XII. The ancient sources are unclear about the fate of Philip I, but he seems to have died by 76/5 BC.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Philip_I_Philadelphus"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q263489"/>
+      <skos:prefLabel xml:lang="hu">I. Philipposz szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Felip I Filadelf</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Filip 1. af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Philipp I. Philadelphos</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Φίλιππος Α΄ Φιλάδελφος</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Filipo I Filadelfo</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Filipo I.a Filadelfo</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">فیلیپ یکم سلوکی</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Filippos I Filadelfos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Philippe Ier Philadelphe</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Filippo I Filadelfo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">필리포스 1세 필라델포스</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Philippus I Philadelphus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Filip I Filadelfos</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Filipe I Filadelfo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Филипп I Филадельф</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Philippos I Philadelphos</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">腓力一世</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Филип I Филаделф</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Filip I Filadelfus</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Філіп I Філадэльф</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Filip I Filadelf</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">فيليب الأول</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Філіпп I Філадельф</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Philip I Philadelphos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Philippus I Philadelphus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/016h14"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/philip_i_philadelphus#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/philip_i_philadelphus#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/philip_i_philadelphus#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0094</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0075</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/philip_i_philadelphus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/philip_i_philadelphus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

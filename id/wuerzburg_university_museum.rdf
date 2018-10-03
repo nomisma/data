@@ -1,59 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Collection rdf:about="http://nomisma.org/id/wuerzburg_university_museum">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Martin von Wagner Museum der Universität Würzburg</skos:prefLabel>
-        <skos:definition xml:lang="en">The Coin cabinet in the Martin von Wagner Museum (Würzburg University Museum).
- 
-The Julius-Maximilians-University of Würzburg (JMU) holds about 1.200 coins, medals and para-numismatic objects from the 7th BCE to modern times with a focus on Greek and Roman coins. Due to the near complete destruction in World War II the coin cabinet in the Martin von Wagner Museum (MvW) is mainly build by donations after 1945 and by a few selected acquisitions. The most important of those donations is the Coll. H. Wellhöfer – c. 400 classical Greek coins with an emphasis on iconography and aesthetics.</skos:definition>
-        <foaf:homepage rdf:resource="http://www.nomisma.museum.uni-wuerzburg.de"/>
-        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-150318"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1903282"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Martin_von_Wagner_Museum"/>
-        <skos:prefLabel xml:lang="fr">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="wa">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Martin von Wagner Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Музей Мартина фон Вагнера</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1006261-0"/>
-        
-        <foaf:thumbnail rdf:resource="https://static.wixstatic.com/media/5f3d0b_2e56ace83f204bbb8b0e432915d3af31.png/v1/fill/w_137,h_142,al_c,usm_0.66_1.00_0.01/5f3d0b_2e56ace83f204bbb8b0e432915d3af31.png"/>
-    </nmo:Collection>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/wuerzburg_university_museum">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Martin von Wagner Museum der Universität Würzburg</skos:prefLabel>
+      <skos:definition xml:lang="en">The Coin cabinet in the Martin von Wagner Museum (Würzburg University Museum). The Julius-Maximilians-University of Würzburg (JMU) holds about 1.200 coins, medals and para-numismatic objects from the 7th BCE to modern times with a focus on Greek and Roman coins. Due to the near complete destruction in World War II the coin cabinet in the Martin von Wagner Museum (MvW) is mainly build by donations after 1945 and by a few selected acquisitions. The most important of those donations is the Coll. H. Wellhöfer – c. 400 classical Greek coins with an emphasis on iconography and aesthetics.</skos:definition>
+      <foaf:homepage rdf:resource="http://www.nomisma.museum.uni-wuerzburg.de"/>
+      <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-150318"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1903282"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Martin_von_Wagner_Museum"/>
+      <skos:prefLabel xml:lang="fr">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="wa">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Martin von Wagner Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Музей Мартина фон Вагнера</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1006261-0"/>
+      <foaf:thumbnail rdf:resource="https://static.wixstatic.com/media/5f3d0b_2e56ace83f204bbb8b0e432915d3af31.png/v1/fill/w_137,h_142,al_c,usm_0.66_1.00_0.01/5f3d0b_2e56ace83f204bbb8b0e432915d3af31.png"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/wuerzburg_university_museum#provenance"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/wuerzburg_university_museum#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/wuerzburg_university_museum"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-13T04:00:02-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-30T04:00:02-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

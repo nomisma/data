@@ -1,78 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Organization rdf:about="http://nomisma.org/id/visigothic_kingdom">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Visigothic Kingdom</skos:prefLabel>
-        <skos:definition xml:lang="en">The Kingdom of the Visigoths.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/visigothic_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q126936"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Visigothic_Kingdom"/>
-        <skos:prefLabel xml:lang="de">Westgotenreich</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مملكة القوط الغربيين</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Вестготско кралство</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Regno Visigota</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Reino visigodo</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Läänegootide kuningriik</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Bisigodoen Erresuma</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Visigoottien valtakunta</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Royaume wisigoth</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Fisigoatyske Ryk</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Reino Visigodo</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kerajaan Visigoth</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Regno visigoto</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">西ゴート王国</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">서고트 왕국</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Hispania Visigothica</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Визиготско кралство</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Visigotische rijk</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Hiszpania Wizygotów</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Reino Visigótico</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Королевство вестготов</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Vizigotsko Kraljevstvo</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Визиготско краљевство</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ราชอาณาจักรวิซิกอท</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Вестготське королівство</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">西哥特王国</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Vizigotsko kraljestvo</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Reino visigodo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">مملکت مغربی گوتھ</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">הממלכה הוויזיגותית</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Каралеўства вестготаў</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Vương quốc Visigoth</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ვესტგუთების სამეფო</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Βισιγοτθικό Βασίλειο</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Вестготлар кыйраллыгы</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Visigota Rejio</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Vizigotsko Kraljevstvo</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Vestgotų karalystė</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Վեստգոթական թագավորություն</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Vizigót Királyság</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Vizigótské království</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پادشاهی ویزیگوت</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Regne visigot</skos:prefLabel>
-        <skos:prefLabel xml:lang="ba">Весготтар короллеге</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Det vestgotiske rike</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Rouantelezh ar Vizigoted</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Vizigotsko kraljevstvo</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03bx_2q"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4079225-0"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/240809212"/>
-        
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/117104"/>
-    </foaf:Organization>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Organization rdf:about="http://nomisma.org/id/visigothic_kingdom">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Visigothic Kingdom</skos:prefLabel>
+      <skos:definition xml:lang="en">The Kingdom of the Visigoths.</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/visigothic_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q126936"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Visigothic_Kingdom"/>
+      <skos:prefLabel xml:lang="de">Westgotenreich</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مملكة القوط الغربيين</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Вестготско кралство</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Regno Visigota</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Reino visigodo</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Läänegootide kuningriik</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Bisigodoen Erresuma</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Visigoottien valtakunta</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Royaume wisigoth</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Fisigoatyske Ryk</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Reino Visigodo</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kerajaan Visigoth</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Regno visigoto</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">西ゴート王国</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">서고트 왕국</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Hispania Visigothica</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Визиготско кралство</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Visigotische rijk</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Hiszpania Wizygotów</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Reino Visigótico</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Королевство вестготов</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Vizigotsko Kraljevstvo</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Визиготско краљевство</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ราชอาณาจักรวิซิกอท</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Вестготське королівство</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">西哥特王国</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Vizigotsko kraljestvo</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Reino visigodo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">مملکت مغربی گوتھ</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">הממלכה הוויזיגותית</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Каралеўства вестготаў</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Vương quốc Visigoth</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ვესტგუთების სამეფო</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Βισιγοτθικό Βασίλειο</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Вестготлар кыйраллыгы</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Visigota Rejio</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Vizigotsko Kraljevstvo</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Vestgotų karalystė</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Վեստգոթական թագավորություն</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Vizigót Királyság</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Vizigótské království</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پادشاهی ویزیگوت</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Regne visigot</skos:prefLabel>
+      <skos:prefLabel xml:lang="ba">Весготтар короллеге</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Det vestgotiske rike</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Rouantelezh ar Vizigoted</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Vizigotsko kraljevstvo</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03bx_2q"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4079225-0"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/240809212"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/117104"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/visigothic_kingdom#provenance"/>
+   </foaf:Organization>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/visigothic_kingdom#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/visigothic_kingdom"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-21T04:00:01-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-22T04:00:02-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

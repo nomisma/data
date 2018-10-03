@@ -1,31 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Organization rdf:about="http://nomisma.org/id/non_imp_african_ric.10">
-        <skos:scopeNote xml:lang="en">This ID should only be used within the context of RIC 10.</skos:scopeNote>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Non-imperial African coinages</skos:prefLabel>
-        <skos:definition xml:lang="en">A series of non-imperial African coinages listed in RIC 10 that were struck before the Vandal regal series (RIC 3801-3819).</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/non_imp_african_ric.10#authority"/>
-        <skos:prefLabel xml:lang="fr">Monnayages africains non-impériaux</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Monede africane neimperiale</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">İmparatorluk dışı Afrika Sikkeleri</skos:prefLabel>
-    </foaf:Organization>
-    <org:Membership rdf:about="http://nomisma.org/id/non_imp_african_ric.10#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-    </org:Membership>
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Organization rdf:about="http://nomisma.org/id/non_imp_african_ric.10">
+      <skos:scopeNote xml:lang="en">This ID should only be used within the context of RIC 10.</skos:scopeNote>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Non-imperial African coinages</skos:prefLabel>
+      <skos:definition xml:lang="en">A series of non-imperial African coinages listed in RIC 10 that were struck before the Vandal regal series (RIC 3801-3819).</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/non_imp_african_ric.10#authority"/>
+      <skos:prefLabel xml:lang="fr">Monnayages africains non-impériaux</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Monede africane neimperiale</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">İmparatorluk dışı Afrika Sikkeleri</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/non_imp_african_ric.10#provenance"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/non_imp_african_ric.10#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/non_imp_african_ric.10#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/non_imp_african_ric.10"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-22T04:00:03+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,109 +1,145 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/lesbos">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Lesbos</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Lesbos as defined in Head (1911)</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/asia"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lesbos"/>
-        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/550696"/>
-        <geo:location rdf:resource="http://nomisma.org/id/lesbos#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/lesbos"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/258465"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31035"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Lesbos"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q128087"/>
-        <skos:prefLabel xml:lang="pl">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Leszbosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Λέσβος</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">لسبوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Mitileno</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Лесбос</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Midilli</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Лесбос</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Lésvos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Lezbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">לסבוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Востраў Лесбас</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">레스보스 섬</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Lesbo</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">レスボス島</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Lezbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Լեսբոս</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">เลสบอส</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fo">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">لزبوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">लेस्बोस</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Лесбос</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ლესბოსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Lesbas</skos:prefLabel>
-        <skos:prefLabel xml:lang="tg">Лесбос</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">莱斯博斯岛</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Лезбос</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Lesba</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">لزبوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Лезбос</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Lesbos</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/07t6b4"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4035433-7"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/245011146"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120987721"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q128087"/>
-        <skos:prefLabel xml:lang="ie">Lesbos</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Lesbos</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/07t6b4"/>
-        <skos:exactMatch rdf:resource="http://www.geonames.org/258465"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4035433-7"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/245011146"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120987721"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Lesbos</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Lesbos as defined in Head (1911)</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/asia"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lesbos"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/550696"/>
+      <geo:location rdf:resource="http://nomisma.org/id/lesbos#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/lesbos"/>
+      <skos:exactMatch rdf:resource="http://www.geonames.org/258465"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31035"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q128087"/>
+      <skos:prefLabel xml:lang="pl">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Leszbosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Λέσβος</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">لسبوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Mitileno</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Лесбос</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Midilli</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Лесбос</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Lésvos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Lezbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">לסבוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Востраў Лесбас</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">레스보스 섬</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Lesbo</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">レスボス島</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Lezbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Լեսբոս</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">เลสบอส</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fo">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">لزبوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">लेस्बोस</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Лесбос</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ლესბოსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Lesbas</skos:prefLabel>
+      <skos:prefLabel xml:lang="tg">Лесбос</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">莱斯博斯岛</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Лезбос</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Lesba</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">لزبوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Лезбос</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Lesbos</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/07t6b4"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4035433-7"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/245011146"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120987721"/>
+      <skos:prefLabel xml:lang="ie">Lesbos</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Lesbos</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/lesbos#provenance"/>
+   </nmo:Region>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/lesbos#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.166667</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.333333</geo:long>
-        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_asia#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.166667</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.333333</geo:long>
+      <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_asia#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lesbos#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/lesbos"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,65 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/antiochus_ix">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Antiochus IX</skos:prefLabel>
-        <skos:definition xml:lang="en">Antiochus IX Eusebes Philopator ("Pious, Father-loving"), nicknamed Cyzicenus ("the Cyzicene" after Cyzicus, a city in Asia Minor where he had been raised), was the seventeenth king of the Seleucid Empire, ruling between 114/3 and 95 BC. Although he managed to expel his half-brother, the reigning Antiochus VIII, in 114/3 BC, Antiochus IX gradually lost ground over the years that followed until he retained only a handful of cities in Cilicia, Phoenicia, and Coele Syria in 109 BC. When Antiochus VIII was assassinated in 96 BC, Antiochus IX siezed his former territory. In 95 BC, Seleucus VI, an avenging son of Antiochus VIII, invaded Syria and killed him.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_IX_Cyzicenus"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q296446"/>
-        <skos:prefLabel xml:lang="eu">Antioko IX.a Eusebio</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Antioch IX Kyzikenos</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אנטיוכוס התשיעי</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">안티오코스 9세</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Antiochos IX</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Antíoco IX Eusebio</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">IX. Antiokhosz szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Antioco IX</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Antiochos IX.</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αντίοχος Θ΄ Κυζικηνός</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Antiochos IX Cyzicenos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Antioh IX Kiziken</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Antiochus IX Cyzicenus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Antiochos IX</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Antíoco IX de Cízico</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Антиох IX Кизикский</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">IX. Antiokus Kizikonus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Antíoc IX Cyzicenos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Antiokhos IX Kyzikenos</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Antiochus IX Cyzicenus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آنتیوخوس نهم</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Антиох IX Кизикен</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Antiochos 9. af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Антиох IX Кизички</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">安条克九世</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Antiokos IX Cyzicenus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أنطيوخوس التاسع</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Антыёх IX Кізікскі</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Антіох IX Кізікський</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/016jmq"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_ix#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/antiochus_ix#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0116</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0096</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/antiochus_ix">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Antiochus IX</skos:prefLabel>
+      <skos:definition xml:lang="en">Antiochus IX Eusebes Philopator ("Pious, Father-loving"), nicknamed Cyzicenus ("the Cyzicene" after Cyzicus, a city in Asia Minor where he had been raised), was the seventeenth king of the Seleucid Empire, ruling between 114/3 and 95 BC. Although he managed to expel his half-brother, the reigning Antiochus VIII, in 114/3 BC, Antiochus IX gradually lost ground over the years that followed until he retained only a handful of cities in Cilicia, Phoenicia, and Coele Syria in 109 BC. When Antiochus VIII was assassinated in 96 BC, Antiochus IX siezed his former territory. In 95 BC, Seleucus VI, an avenging son of Antiochus VIII, invaded Syria and killed him.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_IX_Cyzicenus"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q296446"/>
+      <skos:prefLabel xml:lang="eu">Antioko IX.a Eusebio</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Antioch IX Kyzikenos</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אנטיוכוס התשיעי</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">안티오코스 9세</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Antiochos IX</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Antíoco IX Eusebio</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">IX. Antiokhosz szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Antioco IX</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Antiochos IX.</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αντίοχος Θ΄ Κυζικηνός</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Antiochos IX Cyzicenos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Antioh IX Kiziken</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Antiochus IX Cyzicenus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Antiochos IX</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Antíoco IX de Cízico</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Антиох IX Кизикский</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">IX. Antiokus Kizikonus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Antíoc IX Cyzicenos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Antiokhos IX Kyzikenos</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Antiochus IX Cyzicenus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آنتیوخوس نهم</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Антиох IX Кизикен</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Antiochos 9. af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Антиох IX Кизички</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">安条克九世</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Antiokos IX Cyzicenus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أنطيوخوس التاسع</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Антыёх IX Кізікскі</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Антіох IX Кізікський</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/016jmq"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_ix#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_ix#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/antiochus_ix#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0116</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0096</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_ix#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_ix"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

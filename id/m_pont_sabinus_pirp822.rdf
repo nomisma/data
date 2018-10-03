@@ -1,31 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/m_pont_sabinus_pirp822">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Marcus Pontius Sabinus</skos:prefLabel>
-        <skos:definition xml:lang="en">Legatus Augusti pro praetore provinciae Thraciae. Appears with title of  hegemon on coins from Philippopolis in Thrace during the reign of Antoninus Pius (AD 138-161) between AD 145 and 153. Consul suffectus in AD 153. Later, in AD 159/160 he was administering Moesia superior. Lit.: B. E. Thomasson, Laterculi Praesidum I (1984) pp. 164-165 no. 23; PIR VI² (1998) no. 822 s. v. Pontius; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 796.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/m_pont_sabinus_pirp822#issuer"/>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/m_pont_sabinus_pirp822#issuer">
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-        <org:organization rdf:resource="http://nomisma.org/id/philippopolis"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0145</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0153</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/m_pont_sabinus_pirp822">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Marcus Pontius Sabinus</skos:prefLabel>
+      <skos:definition xml:lang="en">Legatus Augusti pro praetore provinciae Thraciae. Appears with title of hegemon on coins from Philippopolis in Thrace during the reign of Antoninus Pius (AD 138-161) between AD 145 and 153. Consul suffectus in AD 153. Later, in AD 159/160 he was administering Moesia superior. Lit.: B. E. Thomasson, Laterculi Praesidum I (1984) pp. 164-165 no. 23; PIR VI² (1998) no. 822 s. v. Pontius; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 796.</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/m_pont_sabinus_pirp822#issuer"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/m_pont_sabinus_pirp822#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/m_pont_sabinus_pirp822#issuer">
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+      <org:organization rdf:resource="http://nomisma.org/id/philippopolis"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0145</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0153</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/m_pont_sabinus_pirp822#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/m_pont_sabinus_pirp822"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-20T04:00:01-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

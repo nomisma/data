@@ -1,69 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/demetrius_i_soter">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Demetrius I</skos:prefLabel>
-        <skos:definition xml:lang="en">Demetrius I Soter ("the Savior") was the eleventh king of the Seleucid Empire, ruling from 162 to 150 BC. He was sent to Rome as a hostage for the good behavior of his uncle, Antiochus IV, but escaped back to Syria in 162 BC. After disposing of Antiochus V and the regent Lysias, Demetrius I put down the usurpation of Timarchus in 160 BC and successfully fought against the Maccabean Jewish rebels in southern Coele Syria. He further upset the balance of power in Asia Minor by dethroning Ariarathes V of Cappadocia. His many enemies advanced the claims of Alexander I, a supposed son of Antiochus IV, as rightful Seleucid king in 152 BC. After several years of conflict between the two for control of Syria, Demetrius was killed in battle in 150 BC.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Demetrius_I_Soter"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q296304"/>
-        <skos:prefLabel xml:lang="pl">Demetriusz I Soter</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Demetrio I.a Soter</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Démétrios Ier Sôter</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">데메트리오스 1세</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">דמטריוס הראשון</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Demetrio I Sóter</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">I. Démétriosz szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Demetrio I Sotere</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Demetrios I Soter</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Demetrios I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">ഡിമിത്രിയസ് I</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Demetrios I Soter</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Δημήτριος Α' Σωτήρ</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Demetrije I Soter</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Demetrius I Soter</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Demetrios I</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Demétrio I Sóter</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Деметрий I Сотер</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">I. Demetrius Soter</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Demetri I Sòter</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Demetrios I Soter</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Demetrius I Soter</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Démétrios I. Sótér</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Деметрий I Сотер</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">دیمتریوس یکم</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Demetrios 1. af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">德米特里一世</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Demetrios I av Syria</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Дэметрый I Сатэр</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Деметрій I Сотер</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ديميتريوس الأول</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119272830"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/20487119"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lfj0"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/demetrius_i_soter#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/demetrius_i_soter#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0162</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0150</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/demetrius_i_soter">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Demetrius I</skos:prefLabel>
+      <skos:definition xml:lang="en">Demetrius I Soter ("the Savior") was the eleventh king of the Seleucid Empire, ruling from 162 to 150 BC. He was sent to Rome as a hostage for the good behavior of his uncle, Antiochus IV, but escaped back to Syria in 162 BC. After disposing of Antiochus V and the regent Lysias, Demetrius I put down the usurpation of Timarchus in 160 BC and successfully fought against the Maccabean Jewish rebels in southern Coele Syria. He further upset the balance of power in Asia Minor by dethroning Ariarathes V of Cappadocia. His many enemies advanced the claims of Alexander I, a supposed son of Antiochus IV, as rightful Seleucid king in 152 BC. After several years of conflict between the two for control of Syria, Demetrius was killed in battle in 150 BC.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Demetrius_I_Soter"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q296304"/>
+      <skos:prefLabel xml:lang="pl">Demetriusz I Soter</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Demetrio I.a Soter</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Démétrios Ier Sôter</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">데메트리오스 1세</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">דמטריוס הראשון</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Demetrio I Sóter</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">I. Démétriosz szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Demetrio I Sotere</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Demetrios I Soter</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Demetrios I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">ഡിമിത്രിയസ് I</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Demetrios I Soter</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Δημήτριος Α' Σωτήρ</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Demetrije I Soter</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Demetrius I Soter</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Demetrios I</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Demétrio I Sóter</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Деметрий I Сотер</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">I. Demetrius Soter</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Demetri I Sòter</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Demetrios I Soter</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Demetrius I Soter</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Démétrios I. Sótér</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Деметрий I Сотер</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">دیمتریوس یکم</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Demetrios 1. af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">德米特里一世</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Demetrios I av Syria</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Дэметрый I Сатэр</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Деметрій I Сотер</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ديميتريوس الأول</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119272830"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/20487119"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lfj0"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/demetrius_i_soter#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/demetrius_i_soter#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/demetrius_i_soter#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0162</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0150</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/demetrius_i_soter#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/demetrius_i_soter"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

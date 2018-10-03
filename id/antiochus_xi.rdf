@@ -1,64 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/antiochus_xi">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Antiochus XI</skos:prefLabel>
-        <skos:definition xml:lang="en">Antiochus XI Epiphanes Philadelphus ("God Manifest, Brother-loving") was twentieth king of the Seleucid Empire, reigning in Syria only for part of 94/3 BC. He was the son of Antiochus VIII and Tryphaena and brother of Seleucus VI, Demetrius III, and Philip I. After the death of Seleucus VI (94 BC), Antiochus XI and Philip I jointly proclaimed themselves kings and destroyed Mopsus in revenge. In 94/3 BC, Antiochus XI marched against Antiochus X in Antioch but suffered defeat in battle. He managed to escape capture, but drowned while trying to cross the Orontes River.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_XI_Epiphanes"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q299618"/>
-        <skos:prefLabel xml:lang="pl">Antioch XI Epifanes Filadelfos</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Antioko XI.a Epifanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Antiochos XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Антыёх XI Філадэльф</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אנטיוכוס האחד עשר</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">안티오코스 11세</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Antíoco XI Epífanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">XI. Antiokhosz szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Antioco XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Antiochos XI.</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αντίοχος ΙΑ' Επιφανής</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Antiochos XI Epiphanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Antioh XI Epifan</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Antiochus XI Epiphanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Antíoco XI Epifânio Filadelfo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Антиох XI Филадельф</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Antíoc XI Epífanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Antiokhos XI Epifanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Antiochus XI Epiphanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آنتیوخوس یازدهم</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Антиох XI Епифан</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Antiochos 11. af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Антиох XI Епифан</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">安條克十一世</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Antiokos XI Epifanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أنطيوخوس الحادي عشر</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Antiochos XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Антіох XI Епіфан</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/016h_j"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_xi#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-    
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/antiochus_xi#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0095</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0092</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/antiochus_xi">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Antiochus XI</skos:prefLabel>
+      <skos:definition xml:lang="en">Antiochus XI Epiphanes Philadelphus ("God Manifest, Brother-loving") was twentieth king of the Seleucid Empire, reigning in Syria only for part of 94/3 BC. He was the son of Antiochus VIII and Tryphaena and brother of Seleucus VI, Demetrius III, and Philip I. After the death of Seleucus VI (94 BC), Antiochus XI and Philip I jointly proclaimed themselves kings and destroyed Mopsus in revenge. In 94/3 BC, Antiochus XI marched against Antiochus X in Antioch but suffered defeat in battle. He managed to escape capture, but drowned while trying to cross the Orontes River.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_XI_Epiphanes"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q299618"/>
+      <skos:prefLabel xml:lang="pl">Antioch XI Epifanes Filadelfos</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Antioko XI.a Epifanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Antiochos XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Антыёх XI Філадэльф</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אנטיוכוס האחד עשר</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">안티오코스 11세</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Antíoco XI Epífanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">XI. Antiokhosz szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Antioco XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Antiochos XI.</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αντίοχος ΙΑ' Επιφανής</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Antiochos XI Epiphanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Antioh XI Epifan</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Antiochus XI Epiphanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Antíoco XI Epifânio Filadelfo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Антиох XI Филадельф</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Antíoc XI Epífanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Antiokhos XI Epifanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Antiochus XI Epiphanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آنتیوخوس یازدهم</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Антиох XI Епифан</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Antiochos 11. af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Антиох XI Епифан</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">安條克十一世</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Antiokos XI Epifanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أنطيوخوس الحادي عشر</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Antiochos XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Антіох XI Епіфан</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/016h_j"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_xi#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_xi#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/antiochus_xi#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0095</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0092</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_xi#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_xi"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

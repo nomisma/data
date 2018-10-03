@@ -1,54 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/marcus_claudius_marcellus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Marcellus</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">屋大维娅的马塞卢斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">マルクス・クラウディウス・マルケッルス (アウグストゥスの甥)</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Marcellus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Marco Claudio Marcello (nipote di Augusto)</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Marcus Claudius Marcellus (Neffe des Augustus)</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Marco Claudio Marcelo (dinastía Julio-Claudia)</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Marcus Claudius Marcellus III</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Marek Klaudiusz Marcellus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Marcus Claudius Marcellus (neveu d'Auguste)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Марк Клавдий Марцелл (эдил 23 года до н. э.)</skos:prefLabel>
-        <skos:definition xml:lang="en">Marcus Claudius Marcellus (42 BC – 23 BC) was the eldest son of Augustus's sister Octavia Minor and husband of Augustus' only daughter, Julia the Elder. Until
-			his death he was widely regarded as Augustus' potential successor.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Marcus_Claudius_Marcellus_(Julio-Claudian_dynasty)"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:altLabel xml:lang="la">Marcus Claudius Marcellus</skos:altLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/100460394/"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q315492"/>
-        <skos:prefLabel xml:lang="pt">Marco Cláudio Marcelo</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Martzelo</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מרקוס קלאודיוס מרקלוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Marcus Claudius Marcellus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Marc Claudi Marcel</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Marcus Claudius Marcellus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Marcus Claudius Marcellus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Марк Клавдій Марцелл</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Марк Клавдий Марцел</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Marko Klaudije Marcel</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Marcus Claudius Marcellus</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Marco Claudio Marcello</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Marco Claudio Marcello</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/100460394"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000077825095"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/139159320"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/07v7qb"/>
-        <skos:prefLabel xml:lang="sl">Mark Klavdij Marcel</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Marcellus</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">屋大维娅的马塞卢斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">マルクス・クラウディウス・マルケッルス (アウグストゥスの甥)</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Marcellus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Marco Claudio Marcello (nipote di Augusto)</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Marcus Claudius Marcellus (Neffe des Augustus)</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Marco Claudio Marcelo (dinastía Julio-Claudia)</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Marcus Claudius Marcellus III</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Marek Klaudiusz Marcellus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Marcus Claudius Marcellus (neveu d'Auguste)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Марк Клавдий Марцелл (эдил 23 года до н. э.)</skos:prefLabel>
+      <skos:definition xml:lang="en">Marcus Claudius Marcellus (42 BC – 23 BC) was the eldest son of Augustus's sister Octavia Minor and husband of Augustus' only daughter, Julia the Elder. Until his death he was widely regarded as Augustus' potential successor.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Marcus_Claudius_Marcellus_(Julio-Claudian_dynasty)"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:altLabel xml:lang="la">Marcus Claudius Marcellus</skos:altLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/100460394/"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q315492"/>
+      <skos:prefLabel xml:lang="pt">Marco Cláudio Marcelo</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Martzelo</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מרקוס קלאודיוס מרקלוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Marcus Claudius Marcellus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Marc Claudi Marcel</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Marcus Claudius Marcellus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Marcus Claudius Marcellus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Марк Клавдій Марцелл</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Марк Клавдий Марцел</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Marko Klaudije Marcel</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Marcus Claudius Marcellus</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Marco Claudio Marcello</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Marco Claudio Marcello</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/100460394"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000077825095"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/139159320"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/07v7qb"/>
+      <skos:prefLabel xml:lang="sl">Mark Klavdij Marcel</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/marcus_claudius_marcellus#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/marcus_claudius_marcellus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/marcus_claudius_marcellus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

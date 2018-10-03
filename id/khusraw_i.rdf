@@ -1,91 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/khusraw_i">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Khusraw I</skos:prefLabel>
-        <skos:definition xml:lang="en">Khusraw I (also known as Chosroes I and Kisrā in classical sources; 501–579, most commonly known in Persian as Anushiruwān, was the King of Kings (Shahanshah) of the Sasanian Empire from 531 to 579. He was the successor of his father Kavadh I (488–531). Khosrow I was the twenty-second Sasanian Emperor of Persia, and one of its most celebrated emperors.</skos:definition>
-        <skos:altLabel xml:lang="en">Khosrow I</skos:altLabel>
-        <skos:altLabel xml:lang="en">Chosroes I</skos:altLabel>
-        <skos:altLabel xml:lang="en">Kisrā</skos:altLabel>
-        <skos:altLabel xml:lang="fa">Anushiruwān</skos:altLabel>
-        <bio:birth rdf:resource="http://nomisma.org/id/khusraw_i#birth"/>
-        <bio:death rdf:resource="http://nomisma.org/id/khusraw_i#death"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/persian_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q207381"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Khosrow_I"/>
-        <skos:prefLabel xml:lang="pl">Chosrow I Anoszirwan</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">호스로 1세</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">ח'וסרו הראשון</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Khosro Ier</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Cosroes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">I. Huszrau szászánida király</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Cosroe I</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Chosrau I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Khosrau I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ホスロー1世</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Khosrau I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Hozroje I Anuširvan</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Khusrov I</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Khusro I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">كسرى الأول</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Cosroes I da Pérsia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Kosroes la 1-a</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Husrav I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Хосров I Ануширван</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Խոսրով Ա Սասանյան</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">I. Hüsrev</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Cosroes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Khosrau I</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Husrav I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">انوشیروان</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Хосров I Ануширван</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ხოსრო I</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Hozroje I. Anuširvan</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">I Xosrov Ənuşirəvan</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Χοσρόης Α΄</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Khosro I.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Khosrau I av Persia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Хозроје I Ануширван</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">霍斯劳一世</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Khosrau 1.</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Chosroes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Cosrau Ier</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">خسرو اول</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Chosrovas I</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">खुसरू प्रथम</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Anushirvon</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Хосров</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Хосров I Ануширван</skos:prefLabel>
-        <skos:prefLabel xml:lang="tg">Анӯшервон</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/136505988"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/80838587"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/011j52"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/khusraw_i#authority"/>
-    </foaf:Person>
-    <bio:Birth rdf:about="http://nomisma.org/id/khusraw_i#birth">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0501</dcterms:date>
-    </bio:Birth>
-    <bio:Death rdf:about="http://nomisma.org/id/khusraw_i#death">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0579-01-31</dcterms:date>
-    </bio:Death>
-    <org:Membership rdf:about="http://nomisma.org/id/khusraw_i#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0531</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0579</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/khusraw_i">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Khusraw I</skos:prefLabel>
+      <skos:definition xml:lang="en">Khusraw I (also known as Chosroes I and Kisrā in classical sources; 501–579, most commonly known in Persian as Anushiruwān, was the King of Kings (Shahanshah) of the Sasanian Empire from 531 to 579. He was the successor of his father Kavadh I (488–531). Khosrow I was the twenty-second Sasanian Emperor of Persia, and one of its most celebrated emperors.</skos:definition>
+      <skos:altLabel xml:lang="en">Khosrow I</skos:altLabel>
+      <skos:altLabel xml:lang="en">Chosroes I</skos:altLabel>
+      <skos:altLabel xml:lang="en">Kisrā</skos:altLabel>
+      <skos:altLabel xml:lang="fa">Anushiruwān</skos:altLabel>
+      <bio:birth rdf:resource="http://nomisma.org/id/khusraw_i#birth"/>
+      <bio:death rdf:resource="http://nomisma.org/id/khusraw_i#death"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/persian_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q207381"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Khosrow_I"/>
+      <skos:prefLabel xml:lang="pl">Chosrow I Anoszirwan</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">호스로 1세</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">ח'וסרו הראשון</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Khosro Ier</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Cosroes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">I. Huszrau szászánida király</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Cosroe I</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Chosrau I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Khosrau I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ホスロー1世</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Khosrau I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Hozroje I Anuširvan</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Khusrov I</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Khusro I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">كسرى الأول</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Cosroes I da Pérsia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Kosroes la 1-a</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Husrav I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Хосров I Ануширван</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Խոսրով Ա Սասանյան</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">I. Hüsrev</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Cosroes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Khosrau I</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Husrav I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">انوشیروان</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Хосров I Ануширван</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ხოსრო I</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Hozroje I. Anuširvan</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">I Xosrov Ənuşirəvan</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Χοσρόης Α΄</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Khosro I.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Khosrau I av Persia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Хозроје I Ануширван</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">霍斯劳一世</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Khosrau 1.</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Chosroes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Cosrau Ier</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">خسرو اول</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Chosrovas I</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">खुसरू प्रथम</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Anushirvon</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Хосров</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Хосров I Ануширван</skos:prefLabel>
+      <skos:prefLabel xml:lang="tg">Анӯшервон</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/136505988"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/80838587"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/011j52"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/khusraw_i#authority"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/khusraw_i#provenance"/>
+   </foaf:Person>
+   <bio:Birth rdf:about="http://nomisma.org/id/khusraw_i#birth">
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0501</dcterms:date>
+   </bio:Birth>
+   <bio:Death rdf:about="http://nomisma.org/id/khusraw_i#death">
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0579-01-31</dcterms:date>
+   </bio:Death>
+   <org:Membership rdf:about="http://nomisma.org/id/khusraw_i#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0531</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0579</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/khusraw_i#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/khusraw_i"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-04T04:00:01-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

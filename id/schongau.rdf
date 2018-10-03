@@ -1,61 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/schongau">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Schongau</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) at the City of Schongau, region of Upper Bavaria (German: Oberbayern), National State of Bavaria (German: Freistaat Bayern), Germany.</skos:definition>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q518663"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Schongau,_Bavaria"/>
-        <skos:prefLabel xml:lang="eo">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Шонгау</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Schongium</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ショーンガウ</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">شونگاو، بایرن</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Шонгау</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Шонгау</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Շոնգաու</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Schongau</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">شونغاو</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Шонгау</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Шонгау</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">雄高</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/06k765"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4053192-2"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/6558235"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/237245145"/>
-        <geo:location rdf:resource="http://nomisma.org/id/schongau#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-    </nmo:Mint>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/schongau#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.816666666667</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.9</geo:long>
-    </geo:SpatialThing>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/schongau">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Schongau</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) at the City of Schongau, region of Upper Bavaria (German: Oberbayern), National State of Bavaria (German: Freistaat Bayern), Germany.</skos:definition>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q518663"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Schongau,_Bavaria"/>
+      <skos:prefLabel xml:lang="eo">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Шонгау</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Schongium</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ショーンガウ</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">شونگاو، بایرن</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Шонгау</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Шонгау</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Շոնգաու</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Schongau</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">شونغاو</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Шонгау</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Шонгау</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">雄高</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/06k765"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4053192-2"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/6558235"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/237245145"/>
+      <geo:location rdf:resource="http://nomisma.org/id/schongau#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/schongau#provenance"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/schongau#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.816666666667</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.9</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/schongau#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/schongau"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-30T04:00:01-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

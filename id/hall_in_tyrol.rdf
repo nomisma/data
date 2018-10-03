@@ -1,67 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/hall_in_tyrol">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Hall in Tyrol</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) at the City of Hall in Tirol, Austria.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q302745"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Hall_in_Tirol"/>
-        <skos:prefLabel xml:lang="hu">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Хал ин Тирол</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">هال این تیرول</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Hall en Tyrol</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ハル・イン・チロル</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ჰალ-ინ-ტიროლი</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Халль-ин-Тироль</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">할인티롤</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Salina in Aeni Valle</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Hall</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Халль-ин-Тироль</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Хал у Тиролу</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">蒂羅爾州霍爾</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Hall în Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Галль-ін-Тіроль</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Hall in Tirol</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Halis</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Hall in Tirol</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/09s5yn"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4023019-3"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/2764958"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/134346161"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15023251f"/>
-        <geo:location rdf:resource="http://nomisma.org/id/hall_in_tyrol#this"/>
-    </nmo:Mint>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/hall_in_tyrol#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.283333333333</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.5</geo:long>
-    </geo:SpatialThing>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/hall_in_tyrol">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Hall in Tyrol</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) at the City of Hall in Tirol, Austria.</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q302745"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Hall_in_Tirol"/>
+      <skos:prefLabel xml:lang="hu">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Хал ин Тирол</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">هال این تیرول</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Hall en Tyrol</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ハル・イン・チロル</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ჰალ-ინ-ტიროლი</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Халль-ин-Тироль</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">할인티롤</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Salina in Aeni Valle</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Hall</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Халль-ин-Тироль</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Хал у Тиролу</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">蒂羅爾州霍爾</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Hall în Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Галль-ін-Тіроль</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Hall in Tirol</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Halis</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Hall in Tirol</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/09s5yn"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4023019-3"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/2764958"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/134346161"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15023251f"/>
+      <geo:location rdf:resource="http://nomisma.org/id/hall_in_tyrol#this"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/hall_in_tyrol#provenance"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/hall_in_tyrol#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.283333333333</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.5</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hall_in_tyrol#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/hall_in_tyrol"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-27T04:00:02-06:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

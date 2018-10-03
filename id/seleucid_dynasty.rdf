@@ -1,28 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <rdac:Family rdf:about="http://nomisma.org/id/seleucid_dynasty">
-        <skos:scopeNote xml:lang="en">This concept of a dynastic entity is similar to, but should not be confused with the Seleucid Empire, a political entity.</skos:scopeNote>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Seleucid Dynasty</skos:prefLabel>
-        <skos:definition xml:lang="en">The Seleucid Dynasty was founded in 312 B.C. by one of Alexander the Great's generals, Seleucid I Nicator, after the empire was split between the Diodochi. The Seleucid Dynasty ruled over much of Alexander's eastern domain, from Anatolia to (at it's greatest extent) Bactria. The dynasty finally collapsed to the rising Roman hegemony in the East in 63 B.C.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0312</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0063</nmo:hasEndDate>
-        <rdfs:seeAlso rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-    </rdac:Family>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdac:Family rdf:about="http://nomisma.org/id/seleucid_dynasty">
+      <skos:scopeNote xml:lang="en">This concept of a dynastic entity is similar to, but should not be confused with the Seleucid Empire, a political entity.</skos:scopeNote>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Seleucid Dynasty</skos:prefLabel>
+      <skos:definition xml:lang="en">The Seleucid Dynasty was founded in 312 B.C. by one of Alexander the Great's generals, Seleucid I Nicator, after the empire was split between the Diodochi. The Seleucid Dynasty ruled over much of Alexander's eastern domain, from Anatolia to (at it's greatest extent) Bactria. The dynasty finally collapsed to the rising Roman hegemony in the East in 63 B.C.</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0312</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0063</nmo:hasEndDate>
+      <rdfs:seeAlso rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/seleucid_dynasty#provenance"/>
+   </rdac:Family>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/seleucid_dynasty#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-16T04:00:01-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d//pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

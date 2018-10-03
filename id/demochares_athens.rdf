@@ -1,31 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/demochares_athens">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Demochares</skos:prefLabel>
-        <skos:definition xml:lang="en">First magistrate attested in Athens in 66/65 BC: See M. Thompson, The New Style Silver Coinage of Athens (1961) no. 1248 / her issue 97 (p. 559); C. Habicht, Zu den Münzmagistraten der Silberprägung des Neuen Stils, Chiron 21, 1991, pp. 6 and 15 (66/65 BC, his issue 91); P. M. Fraser – E. Matthews, A Lexicon of Greek Personal Names II Attica (1994) p. 113 s. v. Demochares, no. 12; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 443 s. v. Demochares.</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/demochares_athens#issuer"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-16520"/>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/demochares_athens#issuer">
-        <org:organization rdf:resource="http://nomisma.org/id/athens"/>
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-    </org:Membership>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/demochares_athens">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Demochares</skos:prefLabel>
+      <skos:definition xml:lang="en">First magistrate attested in Athens in 66/65 BC: See M. Thompson, The New Style Silver Coinage of Athens (1961) no. 1248 / her issue 97 (p. 559); C. Habicht, Zu den Münzmagistraten der Silberprägung des Neuen Stils, Chiron 21, 1991, pp. 6 and 15 (66/65 BC, his issue 91); P. M. Fraser – E. Matthews, A Lexicon of Greek Personal Names II Attica (1994) p. 113 s. v. Demochares, no. 12; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 443 s. v. Demochares.</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/demochares_athens#issuer"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-16520"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/demochares_athens#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/demochares_athens#issuer">
+      <org:organization rdf:resource="http://nomisma.org/id/athens"/>
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/demochares_athens#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/demochares_athens"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-22T04:00:01-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1c_E-ACaDkcsD3J9HcKyN2HhkD8lIb1WLznwkr28l3-A/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

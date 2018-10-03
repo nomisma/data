@@ -1,28 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Denomination rdf:about="http://nomisma.org/id/denomination_ab_sco">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Denomination A/B (triple)</skos:prefLabel>
-        <skos:definition xml:lang="en">A modern denomination designation, possibly with the value of a trichalkon</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:source rdf:resource="http://nomisma.org/id/seleucid_coins_online"/>
-        <dcterms:source rdf:resource="http://numismatics.org/digitallibrary/ark:/53695/nnan28180"/>
-        <skos:scopeNote xml:lang="en">This concept should be used only in the context of Seleucid coinage.</skos:scopeNote>
-    </nmo:Denomination>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Denomination rdf:about="http://nomisma.org/id/denomination_ab_sco">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Denomination A/B (triple)</skos:prefLabel>
+      <skos:definition xml:lang="en">A modern denomination designation, possibly with the value of a trichalkon</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:source rdf:resource="http://nomisma.org/id/seleucid_coins_online"/>
+      <dcterms:source rdf:resource="http://numismatics.org/digitallibrary/ark:/53695/nnan28180"/>
+      <skos:scopeNote xml:lang="en">This concept should be used only in the context of Seleucid coinage.</skos:scopeNote>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/denomination_ab_sco#provenance"/>
+   </nmo:Denomination>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/denomination_ab_sco#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/denomination_ab_sco"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-28T15:06:18-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10Qg55GVlrL5uOJQzbWrfWxIcocce1RCeCHvilT7DQTM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

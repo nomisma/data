@@ -1,61 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/britannicus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Britannicus</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Britannicus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ブリタンニクス</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Britannicus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Tibério Cláudio César Britânico</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Brytanik</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Tiberius Claudius Caesar Britannicus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tiberio Claudio Cesare Britannico</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Британник</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Britannicus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Claudio Tiberio Germánico</skos:prefLabel>
-        <skos:definition xml:lang="en">Tiberius Claudius Caesar Britannicus (12 February AD 41 — 11 February AD 55) was the son of the Roman emperor Claudius and his third wife Valeria Messalina. He
-			became the heir-designate of the empire at his birth, until replaced by his step brother Nero. He lived only months into Nero's reign, and was probably murdered just before his 14th
-			birthday.</skos:definition>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/23621133/"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Britannicus"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:altLabel xml:lang="la">Tiberius Claudius Caesar Britannicus</skos:altLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q313115"/>
-        <skos:prefLabel xml:lang="he">בריטניקוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Britannicus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Claudi Tiberi Germànic Britànic</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Britannicus</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Tiberius Claudius Caesar Britannicus</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Britannicus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Britannicus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Британик</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Britanik</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ბრიტანიკუსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بريتانيكوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Британнік</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Britannicus</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Britāniks</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Tiberio Claudio Cesare Britannico</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Tiberio Claudio Cesare Britannico</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Britaniko</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Британик</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/23621133"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0jzrd"/>
-        <skos:prefLabel xml:lang="eu">Britaniko</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">不列塔尼庫斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Брытанік</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Britannicus</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Britannicus</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Britannicus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ブリタンニクス</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Britannicus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Tibério Cláudio César Britânico</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Brytanik</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Tiberius Claudius Caesar Britannicus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tiberio Claudio Cesare Britannico</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Британник</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Britannicus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Claudio Tiberio Germánico</skos:prefLabel>
+      <skos:definition xml:lang="en">Tiberius Claudius Caesar Britannicus (12 February AD 41 — 11 February AD 55) was the son of the Roman emperor Claudius and his third wife Valeria Messalina. He became the heir-designate of the empire at his birth, until replaced by his step brother Nero. He lived only months into Nero's reign, and was probably murdered just before his 14th birthday.</skos:definition>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/23621133/"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Britannicus"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:altLabel xml:lang="la">Tiberius Claudius Caesar Britannicus</skos:altLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q313115"/>
+      <skos:prefLabel xml:lang="he">בריטניקוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Britannicus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Claudi Tiberi Germànic Britànic</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Britannicus</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Tiberius Claudius Caesar Britannicus</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Britannicus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Britannicus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Британик</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Britanik</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ბრიტანიკუსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بريتانيكوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Британнік</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Britannicus</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Britāniks</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Tiberio Claudio Cesare Britannico</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Tiberio Claudio Cesare Britannico</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Britaniko</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Британик</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/23621133"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0jzrd"/>
+      <skos:prefLabel xml:lang="eu">Britaniko</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">不列塔尼庫斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Брытанік</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Britannicus</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/britannicus#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/britannicus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/britannicus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-13T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,70 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/lusitania">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Lusitania</skos:prefLabel>
-        <skos:definition xml:lang="en">Lusitania is a region of Spain</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:prefLabel xml:lang="de">Lusitanien</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Lusitanie</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Лузитания</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Lusitanië</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Λυσιτανία</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Лузитания</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lusitania"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q188650"/>
-        <skos:prefLabel xml:lang="pl">Luzytania</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Лузітанія</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">루시타니아</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">לוסיטניה</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ルシタニア</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Luzitanija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Lusitanien</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Lusitânia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Luzitanio</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Luzitánia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Լուսիտանիա</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ลูซิเทเนีย</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Lusitània</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Лузітанія</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Lusitánie</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ლუზიტანია</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Luzitanija</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Лузитанија</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Luzitanija</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">琉息太尼亞</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Lusitania</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Lusitània</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Lúsitanía</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.geonames.org/8378511"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1084612747"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/981145858162023022505"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Lusitania</skos:prefLabel>
+      <skos:definition xml:lang="en">Lusitania is a region of Spain</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:prefLabel xml:lang="de">Lusitanien</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Lusitanie</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Лузитания</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Lusitanië</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Λυσιτανία</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Лузитания</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lusitania"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q188650"/>
+      <skos:prefLabel xml:lang="pl">Luzytania</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Лузітанія</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">루시타니아</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">לוסיטניה</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ルシタニア</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Luzitanija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Lusitanien</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Lusitânia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Luzitanio</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Luzitánia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Լուսիտանիա</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ลูซิเทเนีย</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Lusitània</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Лузітанія</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Lusitánie</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ლუზიტანია</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Luzitanija</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Лузитанија</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Luzitanija</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">琉息太尼亞</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Lusitania</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Lusitània</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Lúsitanía</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.geonames.org/8378511"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1084612747"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/981145858162023022505"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/lusitania#provenance"/>
+   </nmo:Region>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lusitania#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/lusitania"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

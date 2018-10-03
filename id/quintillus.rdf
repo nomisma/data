@@ -1,77 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/quintillus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Квінтілл</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Marc Aureli Quintil</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">昆提卢斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Quintillo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">クィンティッルス</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Kwintyllus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Квинтилл</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Quintilo</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Quintilo</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Marcus Aurelius Claudius Quintillus római császár</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Quintillus</skos:prefLabel>
-        <skos:definition xml:lang="en">Quintillus (Latin: Marcus Aurelius Claudius Quintillus Augustus; c. 220 – April 270), commonly known as Quintillus, was Roman Emperor for less than a year in 270.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Quintillus"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/quintillus#roman_emperor"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140726"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/89202622"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q185844"/>
-        <skos:prefLabel xml:lang="eu">Kintilo</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קווינטילוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Kaizari Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κουιντίλλος</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Kvintil</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Kvintilo</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Kwintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Квинтил</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Квинтил</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کوئینتیلوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Kvintil</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Marc Aureli Quintil</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Квинтил</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Quintillus</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kuintillus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119117037"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/232346397"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0132jp"/>
-        <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/154"/>
-        <skos:prefLabel xml:lang="ko">퀸틸루스</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Квінціл</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Квінтілл</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Marc Aureli Quintil</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">昆提卢斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Quintillo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">クィンティッルス</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Kwintyllus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Квинтилл</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Quintilo</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Quintilo</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Marcus Aurelius Claudius Quintillus római császár</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Quintillus</skos:prefLabel>
+      <skos:definition xml:lang="en">Quintillus (Latin: Marcus Aurelius Claudius Quintillus Augustus; c. 220 – April 270), commonly known as Quintillus, was Roman Emperor for less than a year in 270.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Quintillus"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/quintillus#roman_emperor"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140726"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/89202622"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q185844"/>
+      <skos:prefLabel xml:lang="eu">Kintilo</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קווינטילוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Kaizari Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κουιντίλλος</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Kvintil</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Kvintilo</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Kwintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Квинтил</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Квинтил</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کوئینتیلوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Kvintil</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Marc Aureli Quintil</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Квинтил</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Quintillus</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kuintillus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119117037"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/232346397"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0132jp"/>
+      <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/154"/>
+      <skos:prefLabel xml:lang="ko">퀸틸루스</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Квінціл</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/quintillus#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/quintillus#roman_emperor">
-        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0270</nmo:hasStartDate>
+      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0270</nmo:hasStartDate>
    </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/quintillus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/quintillus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

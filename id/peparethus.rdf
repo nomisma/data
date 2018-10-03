@@ -1,69 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/peparethus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Peparethus</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint on the island of Peparethus off Thessaly.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Skopelos"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/541024"/>
-        <geo:location rdf:resource="http://nomisma.org/id/peparethus#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/islands_off_thessaly"/>
-        <skos:altLabel xml:lang="en">Peparethos</skos:altLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/10238431"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x49491"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/1009189"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q212027"/>
-        <skos:prefLabel xml:lang="pl">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Skópelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Skópelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Szkopelosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Scopelo</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Skópelos - Σκόπελος</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">スコペロス島</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Σκόπελος</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">سكوبيلوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Скопелос</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Skópelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Скопелос</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Peparethos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fo">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Skópelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Skópelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Скопелос</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">斯科派洛斯島</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Skopelos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Skópelos (kunta)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Skopelos</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/05kx6q"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/253581"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Peparethus</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint on the island of Peparethus off Thessaly.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Skopelos"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/541024"/>
+      <geo:location rdf:resource="http://nomisma.org/id/peparethus#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/islands_off_thessaly"/>
+      <skos:altLabel xml:lang="en">Peparethos</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/10238431"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x49491"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/1009189"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q212027"/>
+      <skos:prefLabel xml:lang="pl">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Skópelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Skópelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Szkopelosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Scopelo</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Skópelos - Σκόπελος</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">スコペロス島</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Σκόπελος</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">سكوبيلوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Скопелос</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Skópelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Скопелос</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Peparethos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fo">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Skópelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Skópelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Скопелос</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">斯科派洛斯島</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Skopelos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Skópelos (kunta)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Skopelos</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/05kx6q"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/253581"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/peparethus#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/peparethus#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.116667</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.716667</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islands_off_thessaly#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.116667</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.716667</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islands_off_thessaly#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/peparethus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/peparethus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

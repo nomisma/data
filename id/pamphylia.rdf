@@ -1,71 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/pamphylia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Pamphylia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Panfília</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Памфилия</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">パンフィリア</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pamphylie</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pamphylien</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Panfilia</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Panfilia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Pamphylië</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Pamfylien</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">潘菲利亚</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Pamfilia</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Pamphylia as defined in Head (1911)</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/639034"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pamphylia"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x111415"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Pamphylia"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q585250"/>
-        <skos:prefLabel xml:lang="ar">بامفيليا</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Памфилия</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Pamfília</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Pamfýlie</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Pamphylia</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Παμφυλία</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Pamfüülia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Panfilia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Pamfylia</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Panfilia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Pamfilija</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Pamphülia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">팜필리아</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Pamphylia</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Pamfilija</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">पॅम्फेलिया</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Pamfilia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Pamfilija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Pamfýlia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Памфилија</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Pamfilya</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Памфілія</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پامفیلیه</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Pamfylia</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Pamfilia</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Памфілія</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Պամփիլիա</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0ljhg"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q585250"/>
-        <skos:prefLabel xml:lang="uz">Pamfiliya</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Pamfilija</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0ljhg"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Pamphylia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Panfília</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Памфилия</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">パンフィリア</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Pamphylie</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Pamphylien</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Panfilia</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Panfilia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Pamphylië</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Pamfylien</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">潘菲利亚</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Pamfilia</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Pamphylia as defined in Head (1911)</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/639034"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pamphylia"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x111415"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q585250"/>
+      <skos:prefLabel xml:lang="ar">بامفيليا</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Памфилия</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Pamfília</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Pamfýlie</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Pamphylia</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Παμφυλία</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Pamfüülia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Panfilia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Pamfylia</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Panfilia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Pamfilija</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Pamphülia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">팜필리아</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Pamphylia</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Pamfilija</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">पॅम्फेलिया</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Pamfilia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Pamfilija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Pamfýlia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Памфилија</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Pamfilya</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Памфілія</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پامفیلیه</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Pamfylia</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Pamfilia</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Памфілія</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Պամփիլիա</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0ljhg"/>
+      <skos:prefLabel xml:lang="uz">Pamfiliya</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Pamfilija</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pamphylia#provenance"/>
+   </nmo:Region>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pamphylia#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/pamphylia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

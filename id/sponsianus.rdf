@@ -1,46 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/sponsianus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Sponsianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Esponsià</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Sponsianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Esponsiano</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Спонсиан</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Sponsianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Sponsiano</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Sponsianus</skos:prefLabel>
-        <skos:definition xml:lang="en">Issuer of coins known only from barbarous aurei that may not be genuine. Inclusion in nomisma is warranted by the presence of the name in RIC
-			4.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sponsianus"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/sponsianus#authority"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q715237"/>
-        <skos:prefLabel xml:lang="br">Sponsianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Спонсиан</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Sponsianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Sponsianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Sponsianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Սպոնսիանոս</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Esponsiano</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Sponsianus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02f4lt"/>
-        <skos:prefLabel xml:lang="da">Sponsianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Sponsianus</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Sponsianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Esponsià</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Sponsianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Esponsiano</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Спонсиан</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Sponsianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Sponsiano</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Sponsianus</skos:prefLabel>
+      <skos:definition xml:lang="en">Issuer of coins known only from barbarous aurei that may not be genuine. Inclusion in nomisma is warranted by the presence of the name in RIC 4.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sponsianus"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/sponsianus#authority"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q715237"/>
+      <skos:prefLabel xml:lang="br">Sponsianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Спонсиан</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Sponsianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Sponsianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Sponsianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Սպոնսիանոս</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Esponsiano</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Sponsianus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02f4lt"/>
+      <skos:prefLabel xml:lang="da">Sponsianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Sponsianus</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/sponsianus#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/sponsianus#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
    </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sponsianus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/sponsianus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-24T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

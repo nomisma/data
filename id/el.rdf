@@ -1,65 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Material rdf:about="http://nomisma.org/id/el">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Electrum</skos:prefLabel>
-        <skos:altLabel xml:lang="la">White gold</skos:altLabel>
-        <skos:definition xml:lang="en">'EL' is the numismatic abbreviation for Electrum, the alloy of gold and silver.</skos:definition>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q239481"/>
-        <skos:prefLabel xml:lang="pl">Elektrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">호박금</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אלקטרום</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">électrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">electro</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Electrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Elektrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">elettro</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Elektron</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Elektron</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">ইলেকট্রাম</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">エレクトロン貨</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Electrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Leictream</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Elektrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">elektrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">إلكتروم</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">electrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">электрум</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Elektrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Electrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">electre</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Elektrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Електрум</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Electrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">elektrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">الکتروم</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Elektrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Elektrumas</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Электрум</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Электрум</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">银金</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">elektrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Gyldisk sølv</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Elektron</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Elektron</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">електрум</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">elektrumo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ელექტრუმი</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Elektrum</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0fks_"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4841049-4"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300010965"/>
-    </nmo:Material>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Electrum</skos:prefLabel>
+      <skos:altLabel xml:lang="la">White gold</skos:altLabel>
+      <skos:definition xml:lang="en">'EL' is the numismatic abbreviation for Electrum, the alloy of gold and silver.</skos:definition>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q239481"/>
+      <skos:prefLabel xml:lang="pl">Elektrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">호박금</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אלקטרום</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">électrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">electro</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Electrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Elektrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">elettro</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Elektron</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Elektron</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">ইলেকট্রাম</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">エレクトロン貨</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Electrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Leictream</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Elektrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">elektrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">إلكتروم</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">electrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">электрум</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Elektrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Electrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">electre</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Elektrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Електрум</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Electrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">elektrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">الکتروم</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Elektrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Elektrumas</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Электрум</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Электрум</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">银金</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">elektrum</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Gyldisk sølv</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Elektron</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Elektron</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">електрум</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">elektrumo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ელექტრუმი</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Elektrum</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0fks_"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4841049-4"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300010965"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/el#provenance"/>
+   </nmo:Material>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/el#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/el"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-26T04:00:01-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xZ2XEGsiwx_b_gEjavTjvU7MxBWD7FSg-kdw-VxyoQQ/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

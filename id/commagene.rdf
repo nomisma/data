@@ -1,74 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/commagene">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Commagene</skos:prefLabel>
-        <skos:definition xml:lang="en">The ancient region of Commagene in eastern Anatolia.</skos:definition>
-        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/658443"/>
-        <skos:prefLabel xml:lang="de">Kommagene</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Commagène</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Commagene</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Коммагена</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Commagene</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Commagene</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κομμαγηνή</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Комагена</skos:prefLabel>
-        <geo:location rdf:resource="http://nomisma.org/id/commagene#this"/>
-        
-        
-        <skos:prefLabel xml:lang="pl">Kommagena</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Komagene</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Kraljevstvo Komagena</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קומגנה</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Comagene</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Kommagéné</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">コンマゲネ</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Kommagene</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Komagena</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مملكة كوماجيني</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Comagena</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կոմմագենե</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Kommagene Krallığı</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Commagena</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Kommagene</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Коммагена</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Kommagene</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کوماژن</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Komagena</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Komagene</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Komagena</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Kommagene</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Камагенскае царства</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Vương quốc Commagene</skos:prefLabel>
-        
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/658443"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/317465"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x45613"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7016738"/>
-        
-        
-        <skos:prefLabel xml:lang="ka">კომაგენეს სამეფო</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="sr">Комагена</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Kommagene</skos:prefLabel>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Commagene</skos:prefLabel>
+      <skos:definition xml:lang="en">The ancient region of Commagene in eastern Anatolia.</skos:definition>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/658443"/>
+      <skos:prefLabel xml:lang="de">Kommagene</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Commagène</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Commagene</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Коммагена</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Commagene</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Commagene</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κομμαγηνή</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Комагена</skos:prefLabel>
+      <geo:location rdf:resource="http://nomisma.org/id/commagene#this"/>
+      <skos:prefLabel xml:lang="pl">Kommagena</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Komagene</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Kraljevstvo Komagena</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קומגנה</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Comagene</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Kommagéné</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">コンマゲネ</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Kommagene</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Komagena</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مملكة كوماجيني</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Comagena</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կոմմագենե</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Kommagene Krallığı</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Commagena</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Kommagene</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Коммагена</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Kommagene</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کوماژن</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Komagena</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Komagene</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Komagena</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Kommagene</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Камагенскае царства</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Vương quốc Commagene</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.geonames.org/317465"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x45613"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7016738"/>
+      <skos:prefLabel xml:lang="ka">კომაგენეს სამეფო</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Комагена</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Kommagene</skos:prefLabel>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/commagene#provenance"/>
+   </nmo:Region>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/commagene#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.25</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.74</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_asia#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.25</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.74</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_asia#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/commagene#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/commagene"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-03T04:00:01-06:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,63 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/tancred">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Tancred (d.1112)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">تانكريد</skos:prefLabel>
-        <skos:definition xml:lang="en">Tancred (1075 – December 5 or December 12, 1112) was a Norman leader of the First Crusade who later became Prince of Galilee and regent of the Principality of Antioch.</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/tancred#authority"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Tancred,_Prince_of_Galilee"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/33481697"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q51720"/>
-        <skos:prefLabel xml:lang="hu">Tankréd galileai fejedelem</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Tancred de Galilea</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Tankred Galilejský</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Tancred</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Tancred af Taranto</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Tankred von Tiberias</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Tancredo</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Tankred</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Tancrède de Hauteville</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">טנקרד, נסיך הגליל</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Տանկրեդ</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tancredi di Galilea</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">タンクレード</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">탕크레드</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">ടാങ് ക്രെഡ്</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Tancred van Galilea</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Tancred de Galilèa</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Tankred</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Tancredo da Galileia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Tancred de Taranto</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Танкред Тарентский</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Tankred Galilejski</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Танкред Тарентський</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">تانکرید، شہزادہ الجلیل</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Tankred od Galileje</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Tancred, prins av Galilea</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Tancred</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Танкред Галилејски</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Танкред Галилейски</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/35252788"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118801309"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/048mk1"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/114473528"/>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/tancred#authority">
-        <org:organization rdf:resource="http://nomisma.org/id/crusader_states"/>
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-    </org:Membership>
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/tancred">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Tancred (d.1112)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">تانكريد</skos:prefLabel>
+      <skos:definition xml:lang="en">Tancred (1075 – December 5 or December 12, 1112) was a Norman leader of the First Crusade who later became Prince of Galilee and regent of the Principality of Antioch.</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/tancred#authority"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Tancred,_Prince_of_Galilee"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/33481697"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q51720"/>
+      <skos:prefLabel xml:lang="hu">Tankréd galileai fejedelem</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Tancred de Galilea</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Tankred Galilejský</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Tancred</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Tancred af Taranto</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Tankred von Tiberias</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Tancredo</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Tankred</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Tancrède de Hauteville</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">טנקרד, נסיך הגליל</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Տանկրեդ</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tancredi di Galilea</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">タンクレード</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">탕크레드</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">ടാങ് ക്രെഡ്</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Tancred van Galilea</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Tancred de Galilèa</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Tankred</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Tancredo da Galileia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Tancred de Taranto</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Танкред Тарентский</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Tankred Galilejski</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Танкред Тарентський</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">تانکرید، شہزادہ الجلیل</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Tankred od Galileje</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Tancred, prins av Galilea</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Tancred</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Танкред Галилејски</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Танкред Галилейски</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/35252788"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118801309"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/048mk1"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/114473528"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/tancred#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/tancred#authority">
+      <org:organization rdf:resource="http://nomisma.org/id/crusader_states"/>
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tancred#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/tancred"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-31T04:00:01+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/11GJuOq7OMGOtmm6PhQf5hC4QIMrvqtoA-uequT4ytqI/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

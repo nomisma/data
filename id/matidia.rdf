@@ -1,41 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/matidia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Matidia</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Matidia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Matidia</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Salonina Matidia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Salonina Matidia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Matidia</skos:prefLabel>
-        <skos:definition xml:lang="en">Salonina Matidia (4 July 68 – 23 December 119) was the daughter of Ulpia Marciana and Gaius Salonius Matidius Patruinus. She was the niece of the Emperor Trajan.
-			Her daughter Vibia Sabina married the Emperor Hadrian. Matidia died in AD 119 and was deified by Hadrian.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Salonina_Matidia"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:altLabel xml:lang="la">Salonina Matidia</skos:altLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q262368"/>
-        <skos:prefLabel xml:lang="fa">سالونینا ماتیدیا</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Салонина Матидия</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="ro">Salonina Matidia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Matídia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Salonina Matídia</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Салоніна Матідія</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/05d27c"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140797"/>
-        <skos:prefLabel xml:lang="da">Matidia</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Matidia</skos:prefLabel>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Matidia</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Matidia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Matidia</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Salonina Matidia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Salonina Matidia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Matidia</skos:prefLabel>
+      <skos:definition xml:lang="en">Salonina Matidia (4 July 68 – 23 December 119) was the daughter of Ulpia Marciana and Gaius Salonius Matidius Patruinus. She was the niece of the Emperor Trajan. Her daughter Vibia Sabina married the Emperor Hadrian. Matidia died in AD 119 and was deified by Hadrian.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Salonina_Matidia"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:altLabel xml:lang="la">Salonina Matidia</skos:altLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q262368"/>
+      <skos:prefLabel xml:lang="fa">سالونینا ماتیدیا</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Салонина Матидия</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Salonina Matidia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Matídia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Salonina Matídia</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Салоніна Матідія</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/05d27c"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140797"/>
+      <skos:prefLabel xml:lang="da">Matidia</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Matidia</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/matidia#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/matidia#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/matidia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T04:00:01+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,60 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Collection rdf:about="http://nomisma.org/id/ashmolean">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ashmolean Museum</skos:prefLabel>
-        <skos:definition xml:lang="en">The Ashmolean is the University of Oxford’s museum of art and archaeology, founded in 1683. The Numismatic collections are kept in the Heberden Coin Room, which houses a systematic and comprehensive collection of some three hundred thousand coins and medals with particular strengths in the fields of Greek, Roman, Celtic, Byzantine, Medieval, Islamic, Indian, and Chinese coinages. It also holds collections of paper money, tokens, jetons, and commemorative and art medals.</skos:definition>
-        <foaf:homepage rdf:resource="http://hcr.ashmus.ox.ac.uk/"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q636400"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ashmolean_Museum"/>
-        <skos:prefLabel xml:lang="la">Museum Ashmoleanum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Amgueddfa'r Ashmolean</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ασμόλειο Μουσείο</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Muzeo Ashmolean</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Museo Ashmolean</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">موزه اشمولین</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מוזיאון אשמוליאן</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">एश्मोलियन संग्रहालय</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アシュモレアン博物館</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Музей Ашмола</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Ашмолеан музей</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿須摩林博物館</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Museum Ashmolean</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Музей Эшмала</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Էշմոլի թանգարան</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Ashmolean Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Ashmolean Müzesi</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Ashmolov muzej</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/32144814252027122452"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/027561070"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11868703t"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000121715847"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lxbb"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1007560-4"/>
-    </nmo:Collection>
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/ashmolean">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ashmolean Museum</skos:prefLabel>
+      <skos:definition xml:lang="en">The Ashmolean is the University of Oxford’s museum of art and archaeology, founded in 1683. The Numismatic collections are kept in the Heberden Coin Room, which houses a systematic and comprehensive collection of some three hundred thousand coins and medals with particular strengths in the fields of Greek, Roman, Celtic, Byzantine, Medieval, Islamic, Indian, and Chinese coinages. It also holds collections of paper money, tokens, jetons, and commemorative and art medals.</skos:definition>
+      <foaf:homepage rdf:resource="http://hcr.ashmus.ox.ac.uk/"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q636400"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ashmolean_Museum"/>
+      <skos:prefLabel xml:lang="la">Museum Ashmoleanum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Amgueddfa'r Ashmolean</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ασμόλειο Μουσείο</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Muzeo Ashmolean</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Museo Ashmolean</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">موزه اشمولین</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מוזיאון אשמוליאן</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">एश्मोलियन संग्रहालय</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アシュモレアン博物館</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Музей Ашмола</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Ашмолеан музей</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿須摩林博物館</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Museum Ashmolean</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Музей Эшмала</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Էշմոլի թանգարան</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Ashmolean Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Ashmolean Müzesi</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Ashmolov muzej</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/32144814252027122452"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/027561070"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11868703t"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000121715847"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lxbb"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1007560-4"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ashmolean#provenance"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ashmolean#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ashmolean"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-26T04:00:03+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-10T04:00:01-06:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

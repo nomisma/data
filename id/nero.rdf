@@ -1,53 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/nero">
-        <skos:definition xml:lang="en">Nero was Roman Emperor from 54 to 68, and the last in the Julio-Claudian dynasty. Nero was adopted by his great-uncle Claudius to become his heir and successor, and like him, became emperor with the consent of the praetorian guard.</skos:definition>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Nero</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nero"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/84036175"/>
-        <skos:prefLabel xml:lang="de">Nero</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Néron</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Nero</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Нерон</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Nero</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Nerone</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Νέρων</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Нерон</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Neró</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Nero</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">尼禄</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Nero</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ネロ</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Nero</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Nerón</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Nero római császár</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Nero</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Nero</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Nero</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">네로</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Neron</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <skos:prefLabel xml:lang="bg">Нерон</skos:prefLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/nero#roman_emperor"/>
-        <skos:prefLabel xml:lang="da">Nero</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Nero</skos:prefLabel>
-    </foaf:Person>
+      <skos:definition xml:lang="en">Nero was Roman Emperor from 54 to 68, and the last in the Julio-Claudian dynasty. Nero was adopted by his great-uncle Claudius to become his heir and successor, and like him, became emperor with the consent of the praetorian guard.</skos:definition>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Nero</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nero"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/84036175"/>
+      <skos:prefLabel xml:lang="de">Nero</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Néron</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Nero</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Нерон</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Nero</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Nerone</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Νέρων</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Нерон</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Neró</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Nero</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">尼禄</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Nero</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ネロ</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Nero</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Nerón</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Nero római császár</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Nero</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Nero</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Nero</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">네로</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Neron</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:prefLabel xml:lang="bg">Нерон</skos:prefLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/nero#roman_emperor"/>
+      <skos:prefLabel xml:lang="da">Nero</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Nero</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/nero#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/nero#roman_emperor">
-        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
    </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/nero#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/nero"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

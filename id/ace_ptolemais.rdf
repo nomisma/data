@@ -1,94 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/ace_ptolemais">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Ptolemais-Ake</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Akkon</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿卡 (以色列)</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Акко (місто)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Acre (Israel)</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Akko</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Ptolemais-Ake in Phoenicia.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Acre,_Israel"/>
-        <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/678010"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x49780"/>
-        <skos:closeMatch rdf:resource="http://geonames.org/295721"/>
-        <geo:location rdf:resource="http://nomisma.org/id/ace_ptolemais#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/phoenicia"/>
-        <skos:altLabel xml:lang="en">Ptolemais-Ake</skos:altLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/295721"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7001354"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q126084"/>
-        <skos:prefLabel xml:lang="pl">Akka</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Acre</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Sant Joan d'Acre</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Άκρα</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">عكا</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Acre (Israel)</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="yi">עכו</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Акко</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Akka</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Ако</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Akra</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Acre</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">아코</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">עכו</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Acre</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Acri</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Acre - עכו</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アッコ</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ako</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Акко</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Acra</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">เอเคอร์</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Acco</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Acre</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Акра</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">عکا</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">عکہ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">აკო</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Akas</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Akre</skos:prefLabel>
-        <skos:prefLabel xml:lang="gv">Acre, Israel</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Ако</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Ako</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Akko</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Akko</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0fgjl"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4068495-7"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/150089621"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120654229"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Ptolemais-Ake</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Akkon</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿卡 (以色列)</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Акко (місто)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Acre (Israel)</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Akko</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Ptolemais-Ake in Phoenicia.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Acre,_Israel"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/678010"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x49780"/>
+      <skos:closeMatch rdf:resource="http://geonames.org/295721"/>
+      <geo:location rdf:resource="http://nomisma.org/id/ace_ptolemais#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/phoenicia"/>
+      <skos:altLabel xml:lang="en">Ptolemais-Ake</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/295721"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7001354"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q126084"/>
+      <skos:prefLabel xml:lang="pl">Akka</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Acre</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Sant Joan d'Acre</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Άκρα</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">عكا</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Acre (Israel)</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="yi">עכו</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Акко</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Akka</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Ако</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Akra</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Acre</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">아코</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">עכו</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Acre</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Acri</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Acre - עכו</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アッコ</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ako</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Акко</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Acra</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">เอเคอร์</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Acco</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Acre</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Акра</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">عکا</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">عکہ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">აკო</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Akas</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Akre</skos:prefLabel>
+      <skos:prefLabel xml:lang="gv">Acre, Israel</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Ако</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Ako</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Akko</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Akko</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0fgjl"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4068495-7"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/150089621"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120654229"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ace_ptolemais#provenance"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/ace_ptolemais#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.921776</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.077005</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/phoenicia#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.921776</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.077005</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/phoenicia#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ace_ptolemais#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ace_ptolemais"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

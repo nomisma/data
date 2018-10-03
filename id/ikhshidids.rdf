@@ -1,53 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
-    <rdac:Family rdf:about="http://nomisma.org/id/ikhshidids">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ikhshidids</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">اخشيدى</skos:prefLabel>
-        <skos:definition xml:lang="en">The Ikhshidid dynasty who were of Central Asian Turkic origin ruled Egypt and Palestine from 935 to 969.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ikhshidid_dynasty"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0935</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0969</nmo:hasEndDate>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q828665"/>
-        <skos:prefLabel xml:lang="pt">Ikhchídidas</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ichszydydzi</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ikhchidides</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">השושלת האיח'שידית</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Ихшиды</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Dinastía ijsida</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Akşitler</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ikhxídida</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Ihsídidák</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ichschididen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">イフシード朝</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Nhà Ikhshid</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آل اخشید</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Ağşidlər dövləti</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ikšididai</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ikschidider</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ιχσιδίδες</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Iḫšididene</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">伊赫昔迪王朝</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">ইখশিদি রাজবংশ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">خاندان اخشید</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Ixshidiylar</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Іхшиди</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/124836445"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/15715212"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/06v853"/>
-    </rdac:Family>
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdac:Family rdf:about="http://nomisma.org/id/ikhshidids">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ikhshidids</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">اخشيدى</skos:prefLabel>
+      <skos:definition xml:lang="en">The Ikhshidid dynasty who were of Central Asian Turkic origin ruled Egypt and Palestine from 935 to 969.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ikhshidid_dynasty"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0935</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0969</nmo:hasEndDate>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q828665"/>
+      <skos:prefLabel xml:lang="pt">Ikhchídidas</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ichszydydzi</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ikhchidides</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">השושלת האיח'שידית</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Ихшиды</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Dinastía ijsida</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Akşitler</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ikhxídida</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Ihsídidák</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ichschididen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">イフシード朝</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Nhà Ikhshid</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آل اخشید</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Ağşidlər dövləti</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ikšididai</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ikschidider</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ιχσιδίδες</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Iḫšididene</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">伊赫昔迪王朝</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">ইখশিদি রাজবংশ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">خاندان اخشید</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Ixshidiylar</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Іхшиди</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/124836445"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/15715212"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/06v853"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ikhshidids#provenance"/>
+   </rdac:Family>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ikhshidids#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ikhshidids"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-13T15:08:09-04:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1poZUEV0n1lmRt0gdtAXJOvMumpJs8eAX0xxI9hm4wIU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+            <dcterms:description xml:lang="en">This ID was generated by processing a spreadsheet through a one-off PHP script, predating the Nomisma spreadsheet import feature.</dcterms:description>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-18T13:56:17-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

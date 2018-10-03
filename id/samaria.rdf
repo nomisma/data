@@ -1,70 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/samaria">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Samařsko</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Samarien</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Самарія</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">撒馬利亞</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">サマリア</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Samaria (region)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">사마리아</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Самария</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Samarie</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Szamária</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Samaria (regio)</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Samaria</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Samaria as defined in Head (1911)</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/asia"/>
-        <skos:relatedMatch rdf:resource="http://pleiades.stoa.org/places/741591"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Samaria"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/syria"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1294629"/>
-        <skos:prefLabel xml:lang="yi">שומרון</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Samario (geografio)</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">سامریه</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="fo">Samária</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Самарија</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Samarya</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Samarija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Samarija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Samarija</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">השומרון</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">السامرة</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">समेरिया</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Самария</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Samaria (region)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">சமாரியா</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Самарыя</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Σαμάρια</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Samaria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">An tSamáir</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Սամարիա</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/070j2"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Samařsko</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Samarien</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Самарія</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">撒馬利亞</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">サマリア</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Samaria (region)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">사마리아</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Самария</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Samarie</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Szamária</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Samaria (regio)</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Samaria</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Samaria as defined in Head (1911)</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/asia"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/741591"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Samaria"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/syria"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1294629"/>
+      <skos:prefLabel xml:lang="yi">שומרון</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Samario (geografio)</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">سامریه</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="fo">Samária</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Самарија</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Samarya</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Samarija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Samarija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Samarija</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">השומרון</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">السامرة</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">समेरिया</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Самария</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Samaria (region)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">சமாரியா</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Самарыя</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Σαμάρια</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Samaria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">An tSamáir</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Սամարիա</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/070j2"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/samaria#provenance"/>
+   </nmo:Region>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/samaria#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/samaria"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

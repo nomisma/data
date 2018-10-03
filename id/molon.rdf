@@ -1,52 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/molon">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Molon</skos:prefLabel>
-        <skos:definition xml:lang="en">Molon was appointed Seleucid strategos (military governor) of Media by Antiochus III in 223 BC, but a year later revolted along with his brother Alexander, the strategos of Persis, and a dynast of Media Atropatene. Molon claimed the title of king and ruled Media, Persis, and Babylonia as a breakaway kingdom from 222 BC to 220 BC. When Antiochus III at last defeated him in 220 BC, Molon and his brother commited suicide.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Molon"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q655430"/>
-        <skos:prefLabel xml:lang="it">Molone</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Moló de Mèdia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Molon</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Molón</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">مولون</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Molon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Молон</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Molon</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">molon</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Molon</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">莫倫</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Молон</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Molon</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Molon</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μόλων</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">モロン (メディア)</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Молон</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/07rlsp"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118845284"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/45099445"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/molon#authority"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/molon#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/atropatene_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0223</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0220</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/molon">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Molon</skos:prefLabel>
+      <skos:definition xml:lang="en">Molon was appointed Seleucid strategos (military governor) of Media by Antiochus III in 223 BC, but a year later revolted along with his brother Alexander, the strategos of Persis, and a dynast of Media Atropatene. Molon claimed the title of king and ruled Media, Persis, and Babylonia as a breakaway kingdom from 222 BC to 220 BC. When Antiochus III at last defeated him in 220 BC, Molon and his brother commited suicide.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Molon"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q655430"/>
+      <skos:prefLabel xml:lang="it">Molone</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Moló de Mèdia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Molon</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Molón</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">مولون</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Molon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Молон</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Molon</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">molon</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Molon</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">莫倫</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Молон</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Molon</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Molon</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μόλων</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">モロン (メディア)</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Молон</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/07rlsp"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118845284"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/45099445"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/molon#authority"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/molon#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/molon#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/atropatene_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0223</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0220</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/molon#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/molon"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-16T04:00:01-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

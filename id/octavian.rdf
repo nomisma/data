@@ -1,34 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/octavian">
-        <skos:scopeNote xml:lang="en">This URI should be used in the context of Roman Republican numismatics. For Roman Imperial numismatics, use http://nomisma.org/id/augustus.</skos:scopeNote>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Octavian</skos:prefLabel>
-        <skos:definition xml:lang="en">Adopted son of Julius Caesar, the future Emperor Augustus. The preferred URI is http://nomisma.org/id/augustus but this URI is available when specificity is necessary.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:exactMatch rdf:resource="http://nomisma.org/id/augustus"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/octavian#issuer"/>
-        
-        
-        <skos:prefLabel xml:lang="da">Octavian</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Octave</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Octavian</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Octavian</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Octavian</skos:prefLabel>
-    </foaf:Person>
+      <skos:scopeNote xml:lang="en">This URI should be used in the context of Roman Republican numismatics. For Roman Imperial numismatics, use http://nomisma.org/id/augustus.</skos:scopeNote>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Octavian</skos:prefLabel>
+      <skos:definition xml:lang="en">Adopted son of Julius Caesar, the future Emperor Augustus. The preferred URI is http://nomisma.org/id/augustus but this URI is available when specificity is necessary.</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="http://nomisma.org/id/augustus"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/octavian#issuer"/>
+      <skos:prefLabel xml:lang="da">Octavian</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Octave</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Octavian</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Octavian</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Octavian</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/octavian#provenance"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/octavian#issuer">
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
    </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/octavian#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/octavian"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-31T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-10T04:00:01-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

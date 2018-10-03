@@ -1,26 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Denomination rdf:about="http://nomisma.org/id/16-drachm">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">An ancient denomination with the value of 16 drachms</skos:definition>
-        <skos:prefLabel xml:lang="en">16 drachm</skos:prefLabel>
-        <skos:definition xml:lang="fr">16 drachmes</skos:definition>
-        <skos:prefLabel xml:lang="fr">16 drachmes</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">16 dracmas</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </nmo:Denomination>
-    
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Denomination rdf:about="http://nomisma.org/id/16-drachm">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">An ancient denomination with the value of 16 drachms</skos:definition>
+      <skos:prefLabel xml:lang="en">16 drachm</skos:prefLabel>
+      <skos:definition xml:lang="fr">16 drachmes</skos:definition>
+      <skos:prefLabel xml:lang="fr">16 drachmes</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">16 dracmas</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/16-drachm#provenance"/>
+   </nmo:Denomination>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/16-drachm#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/16-drachm"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-19T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vC7sRD5zbHcQKsCkMd3z6Zo-QH5PtX0Iq07xnKXGTGY/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

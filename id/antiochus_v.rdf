@@ -1,62 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/antiochus_v">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Antiochus V</skos:prefLabel>
-        <skos:definition xml:lang="en">Antiochus V Eupator ("Nobly-fathered") was the tenth king of the Seleucid Empire who ruled from 164 to 162 BC. Upon the death of Antiochus IV, his nine-year-old son, Antiochus V, was proclaimed king by the regent Lysias. In 164 BC, a struggle over the regency developed after the dying Antiochus IV named Philip, one of his Friends, as the regent for Antiochus V. Although Philip managed to take Antioch, he was killed by Lysias before he could take possession of the boy king. War almost broke out between Rome and Antiochus V in 162 BC, when a Roman legate charged with destroying the Seleucid fleet and its elephant corps was murdered. The situation was defused later tht year by the arrival of Demetrius I, a son of Seleucus IV, who captured Antiochus V and Lysias and ordered their deaths.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_V_Eupator"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q298628"/>
-        <skos:prefLabel xml:lang="eu">Antioko V.a Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Antioch V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">안티오코스 5세</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Antiochos V</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אנטיוכוס החמישי</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Antíoco V Eupátor</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">V. Antiokhosz szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Antioco V</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Antiokhos V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Antiochos V.</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αντίοχος Ε' Ευπάτωρ</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Antiochos V</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Antioh V</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Antiochos V</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Antiochus V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Antíoco V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Антиох V Евпатор</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Antíoc V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Antiokhos V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Antiochus V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Антиох V Евпатор</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آنتیوخوس پنجم</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Antiochos 5. af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">安条克五世</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Antiokos V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أنطيوخوس الخامس</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Антіох V Евпатор</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Antiochos V. Eupatór</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lg15"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_v#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </foaf:Person>
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/antiochus_v#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0163</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0161</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/antiochus_v">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Antiochus V</skos:prefLabel>
+      <skos:definition xml:lang="en">Antiochus V Eupator ("Nobly-fathered") was the tenth king of the Seleucid Empire who ruled from 164 to 162 BC. Upon the death of Antiochus IV, his nine-year-old son, Antiochus V, was proclaimed king by the regent Lysias. In 164 BC, a struggle over the regency developed after the dying Antiochus IV named Philip, one of his Friends, as the regent for Antiochus V. Although Philip managed to take Antioch, he was killed by Lysias before he could take possession of the boy king. War almost broke out between Rome and Antiochus V in 162 BC, when a Roman legate charged with destroying the Seleucid fleet and its elephant corps was murdered. The situation was defused later tht year by the arrival of Demetrius I, a son of Seleucus IV, who captured Antiochus V and Lysias and ordered their deaths.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_V_Eupator"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q298628"/>
+      <skos:prefLabel xml:lang="eu">Antioko V.a Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Antioch V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">안티오코스 5세</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Antiochos V</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אנטיוכוס החמישי</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Antíoco V Eupátor</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">V. Antiokhosz szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Antioco V</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Antiokhos V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Antiochos V.</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αντίοχος Ε' Ευπάτωρ</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Antiochos V</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Antioh V</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Antiochos V</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Antiochus V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Antíoco V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Антиох V Евпатор</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Antíoc V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Antiokhos V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Antiochus V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Антиох V Евпатор</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آنتیوخوس پنجم</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Antiochos 5. af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">安条克五世</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Antiokos V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أنطيوخوس الخامس</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Антіох V Евпатор</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Antiochos V. Eupatór</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lg15"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_v#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_v#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/antiochus_v#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0163</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0161</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_v#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_v"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>
