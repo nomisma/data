@@ -19,12 +19,17 @@
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:prefLabel xml:lang="en">Uncertain Mint 69</skos:prefLabel>
       <skos:definition xml:lang="en">Uncertain Mint 69, perhaps Identical with Uncertain Mint 68</skos:definition>
-      <prov:alternateOf rdf:resource="http://nomisma.org/id/uncertain_68_sco"/>
       <dcterms:source rdf:resource="http://nomisma.org/id/seleucid_coins_online"/>
       <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
       <skos:scopeNote xml:lang="en">This concept should be used only in the context of Seleucid coinage.</skos:scopeNote>
       <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
       <skos:changeNote rdf:resource="http://nomisma.org/id/uncertain_69_sco#provenance"/>
+      <skos:related>
+         <rdf:Description>
+            <rdf:value rdf:resource="http://nomisma.org/id/uncertain_68_sco"/>
+            <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+         </rdf:Description>
+      </skos:related>
    </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uncertain_69_sco#provenance">
       <foaf:topic rdf:resource="http://nomisma.org/id/uncertain_69_sco"/>

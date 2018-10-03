@@ -20,19 +20,18 @@
       <skos:prefLabel xml:lang="en">Uncertain Mint 73</skos:prefLabel>
       <skos:definition xml:lang="en">Uncertain Mint 73, Military Mint associated with Ecbatana</skos:definition>
       <skos:broader rdf:resource="http://nomisma.org/id/media"/>
-      <prov:alternateOf rdf:resource="http://nomisma.org/id/ecbatana"/>
       <dcterms:source rdf:resource="http://nomisma.org/id/seleucid_coins_online"/>
       <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
       <skos:scopeNote xml:lang="en">This concept should be used only in the context of Seleucid coinage.</skos:scopeNote>
-      <geo:location rdf:resource="http://nomisma.org/id/uncertain_73_sco#this"/>
       <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
       <skos:changeNote rdf:resource="http://nomisma.org/id/uncertain_73_sco#provenance"/>
+      <skos:related>
+         <rdf:Description>
+            <rdf:value rdf:resource="http://nomisma.org/id/ecbatana"/>
+            <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+         </rdf:Description>
+      </skos:related>
    </nmo:Mint>
-   <geo:SpatialThing rdf:about="http://nomisma.org/id/uncertain_73_sco#this">
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/media#this"/>
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.8065</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.516247</geo:long>
-   </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uncertain_73_sco#provenance">
       <foaf:topic rdf:resource="http://nomisma.org/id/uncertain_73_sco"/>
       <prov:wasGeneratedBy>

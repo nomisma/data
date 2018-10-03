@@ -19,20 +19,19 @@
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:prefLabel xml:lang="en">Babylon I</skos:prefLabel>
       <skos:definition xml:lang="en">Babylon I, the "Imperial" Workshop</skos:definition>
-      <skos:broader rdf:resource="http://nomisma.org/id/babylonia"/>
-      <prov:alternateOf rdf:resource="http://nomisma.org/id/babylon"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/babylon"/>
       <dcterms:source rdf:resource="http://nomisma.org/id/seleucid_coins_online"/>
       <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
       <skos:scopeNote xml:lang="en">This concept should be used only in the context of Seleucid coinage.</skos:scopeNote>
-      <geo:location rdf:resource="http://nomisma.org/id/babylon_i_sco#this"/>
       <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
       <skos:changeNote rdf:resource="http://nomisma.org/id/babylon_i_sco#provenance"/>
+      <skos:related>
+         <rdf:Description>
+            <rdf:value rdf:resource="http://nomisma.org/id/babylon"/>
+            <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+         </rdf:Description>
+      </skos:related>
    </nmo:Mint>
-   <geo:SpatialThing rdf:about="http://nomisma.org/id/babylon_i_sco#this">
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/babylonia#this"/>
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.522907</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44.42415</geo:long>
-   </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/babylon_i_sco#provenance">
       <foaf:topic rdf:resource="http://nomisma.org/id/babylon_i_sco"/>
       <prov:wasGeneratedBy>
