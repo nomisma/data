@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,50 +16,59 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <org:Role rdf:about="http://nomisma.org/id/medalist">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Medalist</skos:prefLabel>
-      <skos:definition xml:lang="en">An artist creating designs, models or dies for the casting or striking of a medal. Medals developed during the Renaissance, and medalists frequently were working in other arts, too, some were also employed as die-cutters (engravers) in stately mints.</skos:definition>
-      <skos:prefLabel xml:lang="de">Medailleur</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/united_states_numismatics"/>
-      <skos:prefLabel xml:lang="fr">Médailleur</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Medailleur</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Medalist"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300025337"/>
-      <skos:altLabel xml:lang="en">Medallist</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1708232"/>
-      <skos:prefLabel xml:lang="sr">израђивач медаља</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">medailér</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">medaglista</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">medallista</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">художник по медалям</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">éremművész</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">medaljer</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">γλύπτης μεταλλίων</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">mitalitaiteilija</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">медальер</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">medallista</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">ميدالي</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4306105-9"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/medalist#provenance"/>
-   </org:Role>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Medalist</skos:prefLabel>
+        <skos:definition xml:lang="en">An artist creating designs, models or dies for the casting or striking of a medal. Medals developed during the Renaissance, and medalists frequently were working in other arts, too, some were also employed as die-cutters (engravers) in stately mints.</skos:definition>
+        <skos:prefLabel xml:lang="de">Medailleur</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/united_states_numismatics"/>
+        <skos:prefLabel xml:lang="fr">Médailleur</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Medailleur</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Medalist"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300025337"/>
+        <skos:altLabel xml:lang="en">Medallist</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1708232"/>
+        <skos:prefLabel xml:lang="sr">израђивач медаља</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">medailér</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">medaglista</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">medallista</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">художник по медалям</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">éremművész</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">medaljer</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">γλύπτης μεταλλίων</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">mitalitaiteilija</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">медальер</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">medallista</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">ميدالي</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4306105-9"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/medalist#provenance"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/artist"/>
+    </org:Role>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/medalist#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/medalist"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-11T04:00:03+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/medalist"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-11T04:00:03+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-25T09:05:56.099-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
