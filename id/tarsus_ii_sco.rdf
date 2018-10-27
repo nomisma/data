@@ -15,41 +15,31 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <nmo:Mint rdf:about="http://nomisma.org/id/rose_mint_sco">
+    <nmo:Mint rdf:about="http://nomisma.org/id/tarsus_ii_sco">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">"Rose" Mint</skos:prefLabel>
-        <skos:definition xml:lang="en">"Rose" Mint, perhaps Edessa</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Tarsus, Royal Workshop</skos:prefLabel>
+        <skos:definition xml:lang="en">Tarsus, Royal Workshop</skos:definition>
+        <skos:broader rdf:resource="http://nomisma.org/id/tarsus"/>
         <dcterms:source rdf:resource="http://nomisma.org/id/seleucid_coins_online"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:scopeNote xml:lang="en">This concept should be used only in the context of Seleucid coinage.</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/rose_mint_sco#provenance"/>
-        <skos:related>
-					       <rdf:Description>
-						          <rdf:value rdf:resource="http://nomisma.org/id/edessa_mesopotamia"/>
-						          <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
-					       </rdf:Description>
-				    </skos:related>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/tarsus_ii_sco#provenance"/>
     </nmo:Mint>
-   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/rose_mint_sco#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/rose_mint_sco"/>
-        <prov:wasGeneratedBy>
+    
+   
+   
+    
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tarsus_ii_sco#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/tarsus_ii_sco"/>
+				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-16T04:00:01-06:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1qUZ8k6Nd0kaEeGdOqpVDgP3gcBCaLqtls_0HHS18Cus/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T07:51:22.31-05:00</prov:atTime>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T07:52:10.417-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xQ_I_bCcoWppw_BM9DM638ebQ5dhU1zbXrjoSNIHBrg/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
-        </prov:activity>
+        </prov:wasGeneratedBy>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
