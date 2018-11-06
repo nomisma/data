@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Collection rdf:about="http://nomisma.org/id/uni_eichstaett">
+        <skos:definition xml:lang="en">The coin collection of the chair of ancient history at the Catholic University of Eichstaett-Ingolstadt was founded in the mid-eighties. 
+Since its establishment, the collection has been gradually expanded and missing pieces have been acquired, so that there are now 353 coins in total, that cover the range from classical Greece up to late antiquity and byzantine times.
+
+The collection contains mostly roman coins, although there are both Greek and Hellenistic coins, as well as mintages from the periphery of the Roman Empire, like Parthian and Celtic coins. The focus lies on Roman Imperial coinage, which make up the largest part of the collection, and is framed by smaller assemblages from Roman Republican times and late antiquity.
+
+Because of the lack of a proper edition, since 2013, the Eichstaett coin collection became a big part of everyday teaching at the university and contributed to various student- and research-projects, that helped systematise, edit and even exhibit several of these coins.</skos:definition>
+        <skos:prefLabel xml:lang="de">Münzsammlung am Lehrstuhl für Alte Geschichte der Katholischen Universität Eichstätt-Ingolstadt</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="de">Die Münzsammlung am Lehrstuhl für Alte Geschichte der Katholischen Universität Eichstätt-Ingolstadt besteht seit der Mitte der 1980er Jahre und wurde seitdem sukzessive erweitert sowie um fehlende Stücke ergänzt, sodass heute insgesamt 353 Münzen vorliegen, die die Zeit vom klassischen Griechenland bis in die römische und byzantinische Spätantike abdecken.
+
+Der Schwerpunkt liegt auf römischen Münzen, wobei neben griechischen und hellenistischen Münzen auch vereinzelt solche aus den an das Imperium Romanum angrenzenden Räumen, wie parthische und keltische Prägungen, Teil der Sammlung sind. Zeitlich dominieren die Münzen der Römischen Kaiserzeit, die von jeweils kleineren Sammlungen zur Römischen Republik und zur Spätantike eingerahmt werden.
+
+Seit 2013 avancierte die ursprünglich größtenteils nicht systematisierte Eichstätter Münzsammlung zu einer Lehrsammlung und wurde im Rahmen verschiedener Lehr- und Forschungsprojekte aufgearbeitet, ediert und auch mehrfach ausgestellt.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="http://www.ku.de/ggf/geschichte/altegesch/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/uni_eichstaett#provenance"/>
+        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-124527"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:prefLabel xml:lang="en">Coin Collection of the Professorship for Ancient History at the University of Eichstaett-Ingolstadt</skos:prefLabel>
+        <foaf:thumbnail rdf:resource="http://www.ku.de/fileadmin/shared/bilder/logo.png"/>
+    </nmo:Collection>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni_eichstaett#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/uni_eichstaett"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T09:05:21.73-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T09:09:13.623-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T09:10:17.025-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T09:11:11.319-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T09:12:01.22-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
