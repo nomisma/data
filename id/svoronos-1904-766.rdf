@@ -24,8 +24,9 @@
       <dcterms:source rdf:resource="http://nomisma.org/id/svoronos-1904"/>
       <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
       <skos:changeNote rdf:resource="http://nomisma.org/id/svoronos-1904-766#provenance"/>
+      <dcterms:isReplacedBy rdf:resource="http://numismatics.org/pco/id/svoronos-1904.766"/>
    </nmo:TypeSeriesItem>
-   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/svoronos-1904-766#provenance">
+   <dcterms:ProvenanceStatement>
       <foaf:topic rdf:resource="http://nomisma.org/id/svoronos-1904-766"/>
       <prov:wasGeneratedBy>
          <prov:Activity>
@@ -44,5 +45,14 @@
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:activity>
+      <prov:wasInvalidatedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Replace"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-08T11:12:26.671-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+            <dcterms:description xml:lang="en">Deprecated Svoronos IDs and linked to URI in the PCO namespace.</dcterms:description>
+         </prov:Activity>
+      </prov:wasInvalidatedBy>
    </dcterms:ProvenanceStatement>
 </rdf:RDF>
