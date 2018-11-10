@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,34 +16,103 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Daniel Sigmund Dockler</skos:prefLabel>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#engraver"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-      <skos:definition xml:lang="en">Die cutter (and goldsmith) in Nürnberg (Nuremberg), Franconia, Germany from ? to ?. His initials are DSD. Lit.: Hans-Jörg Kellner, Die Münzen der Freien Reichsstadt Nürnberg (1957), p. 171</skos:definition>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/67408716"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#modern_period_mint_staff"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Daniel Sigmund Dockler</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#engraver"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">Son of Daniel Siegmund the Elder (who was still alive in 1688). Die cutter, medalist, (and goldsmith) in Nürnberg (Nuremberg), Franconia, Germany. He was born Sept. 20, 1667, and died March 31st, 1753. Became a Meister Nov. 29th, 1696 as a silver worker. His initials are DSD. Lit.: Hans-Jörg Kellner, Die Münzen der Freien Reichsstadt Nürnberg (1957), p. 171; U. Thieme (ed.), Allgemeines Lexikon der bildenden Künstler von der Antike bis zur Gegenwart 9, Leipzig 1999, 357.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/67408716"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#modern_period_mint_staff"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#provenance"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#medalist"/>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#engraver">
-      <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
-      <org:role rdf:resource="http://nomisma.org/id/engraver"/>
+        <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
+        <org:role rdf:resource="http://nomisma.org/id/engraver"/>
    </org:Membership>
    <org:Membership rdf:about="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#modern_period_mint_staff">
-      <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
-      <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-20T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-20T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-09T06:58:43.163-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-09T06:59:03.168-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-09T07:00:42.408-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-09T07:53:45.529-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-09T07:54:21.728-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-09T07:54:52.765-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-09T07:57:13.297-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1667</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1753</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/daniel_sigmund_dockler_nuremberg#medalist">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+        <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
+    </org:Membership>
 </rdf:RDF>
