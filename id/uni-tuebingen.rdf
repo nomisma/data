@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Collection rdf:about="http://nomisma.org/id/uni-tuebingen">
+        <skos:definition xml:lang="de">Mit über 20.000 Objekten zählt die Münzsammlung des Instituts für Klassische Archäologie der Universität Tübingen zu den bedeutendsten Universitätssammlungen in Deutschland; mit einer Geschichte von über 220 Jahren ist sie auch eine der ältesten. Heute umfasst die Sammlung über 8.000 griechische und 7.000 römische Münzen. Hinzu kommen ca. 2.000 mittelalterliche und neuzeitliche Münzen, rund 3.000 Medaillen sowie eine Vielzahl weiterer numismatischer Objekte. Die Sammlung setzt sich im Wesentlichen aus den drei Sammlungen Tux (1798), von Schäffer
+(1888) und Hommel (1975) zusammen. Die Münzsammlung dokumentiert damit in exemplarischer Weise die Geschichte des privaten Sammelns von Münzen von der späten Barockzeit bis ins 20. Jahrhundert. Die Prunkstücke der Sammlung sind in der Dauerausstellung des Museum der Universität Tübingen MUT Alte Kulturen öffentlich zu besichtigen.</skos:definition>
+        <skos:prefLabel xml:lang="en">Coin Collection of the Institute of Classical Archaeology at the University of Tübingen</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">With over 20,000 objects, the coin collection of the Institute of Classical Archaeology at the University of Tübingen is among the largest university collections of ancient coins in Germany; it is also one of the oldest, its history spanning more than 220 years. Today, the collection contains c. 8,000 Greek, 7,000 Roman, 2,000 Modern coins, and more than 3,000 medals and various other numismatic objects. The collection is made up by three major bequests: Tux (1798), von Schäffer (1888), and Hommel (1975). As such, it mirrors the history of coin collecting from the late Baroque period to the twentieth century. The most prestigious items of the collection are on permanent display at the Museum of the University of Tübingen MUT Alte Kulturen.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="http://www.klassarch.uni-tuebingen.de"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/uni-tuebingen#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-134212"/>
+        <skos:prefLabel xml:lang="de">Münzsammlung des Instituts für Klassische Archäologie der Universität Tübingen</skos:prefLabel>
+        <foaf:thumbnail rdf:resource="https://uni-tuebingen.de/typo3conf/ext/project/Resources/Public/Images/Logo_Universitaet_Tuebingen.svg"/>
+    </nmo:Collection>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni-tuebingen#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/uni-tuebingen"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-14T01:46:48.21-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-14T01:49:22.543-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-14T01:49:36.865-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-14T01:50:27.235-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-14T01:50:47.964-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-14T01:51:12.725-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-14T01:52:03.67-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
