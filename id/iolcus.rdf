@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/iolcus">
+        <skos:prefLabel xml:lang="en">Iolkos</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The mint at the ancient site of Iolkos in Thessaly</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/iolcus#provenance"/>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/540837"/>
+        <geo:location rdf:resource="http://nomisma.org/id/iolcus#this"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q662613"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Iolcus"/>
+        <skos:prefLabel xml:lang="pl">Jolkos</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Йолк</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Iolkos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Iolkos</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ιωλκός</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Yolco</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Iolkos</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Iolko</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Iolcos</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Iolco</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">イオルコス</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">이올코스</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Iolkos</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Iolco</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Иолк</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Iolkos</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Iolcus</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Iolkós</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Iolkos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Jolk</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Jolko</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Iolkos</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Іолк</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">伊奧科斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">יולקוס</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/02hm4w"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/240012400"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7011081"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+    </nmo:Mint>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/iolcus#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/iolcus"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-16T16:25:23.311-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-16T16:30:09.662-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-16T16:43:41.995-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/iolcus#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.366305</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.96886</geo:long>
+    </geo:SpatialThing>
+</rdf:RDF>
