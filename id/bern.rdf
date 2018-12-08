@@ -147,7 +147,7 @@
     </nmo:Mint>
     <geo:SpatialThing rdf:about="http://nomisma.org/id/bern#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.950833</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.950833</geo:long>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.45</geo:long>
     </geo:SpatialThing>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bern#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/bern"/>
@@ -160,5 +160,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-07T12:18:17.761-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
