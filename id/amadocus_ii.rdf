@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,46 +16,66 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/amadocus_ii">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Amadocus II</skos:prefLabel>
-      <skos:definition xml:lang="en">King of Thrace.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amadocus_II"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/amadocus_ii#ruler"/>
-      <skos:prefLabel xml:lang="de">Amadokos II.</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1266803"/>
-      <skos:prefLabel xml:lang="bg">Амадок II</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Αμάδοκος</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Amadok</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Amadocos II de Tràcia</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Amadocos II de Tràcia</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Amadok</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Amadoco II</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Amadocus II</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0bbw5_h"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/amadocus_ii#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Amadocus II of Thrace</skos:prefLabel>
+        <skos:definition xml:lang="en">King of Thrace.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amadocus_II"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/amadocus_ii#ruler"/>
+        <skos:prefLabel xml:lang="de">Amadokos II.</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1266803"/>
+        <skos:prefLabel xml:lang="bg">Амадок II</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αμάδοκος</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Amadok</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Amadocos II de Tràcia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Amadocos II de Tràcia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Amadok</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Amadoco II</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Amadocus II</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0bbw5_h"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/amadocus_ii#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/amadocus_ii#authority"/>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/amadocus_ii#ruler">
-      <org:role rdf:resource="http://nomisma.org/id/ruler"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0359</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0351</nmo:hasEndDate>
+        <org:role rdf:resource="http://nomisma.org/id/ruler"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0359</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0351</nmo:hasEndDate>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/amadocus_ii#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/amadocus_ii"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-29T18:17:56+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/amadocus_ii"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-29T18:17:56+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-10T02:59:35.873-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-10T03:05:15.065-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/amadocus_ii#authority">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+    </org:Membership>
 </rdf:RDF>
