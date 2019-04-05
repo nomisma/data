@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,31 +16,39 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/xanthippos_ii_abydus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Xanthippos (II)</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">ΞΑΝΘΙΠΠΟΣ</skos:prefLabel>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/xanthippos_ii_abydus#issuer"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:definition xml:lang="en">Magistrate attested in Abydos in c. 75-65 BC.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/xanthippos_ii_abydus#provenance"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Xanthippos (II)</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">ΞΑΝΘΙΠΠΟΣ</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/xanthippos_ii_abydus#issuer"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:definition xml:lang="en">Magistrate attested in Abydos in c. 75-65 BC.  For chronology cf. F. de Callataÿ, Abydos sur Aesillas, in: E. Kypraiou (ed.), Χαρακτήρ: Aφιέρωμα στη Mάντω Oικoνoμίδoυ. Athens 1996, p. 83 (c. 75-65 BC).</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/xanthippos_ii_abydus#provenance"/>
    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/xanthippos_ii_abydus#issuer">
-      <org:organization rdf:resource="http://nomisma.org/id/abydus"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0075</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0065</nmo:hasEndDate>
-      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+        <org:organization rdf:resource="http://nomisma.org/id/abydus"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0100</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0065</nmo:hasEndDate>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/xanthippos_ii_abydus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/xanthippos_ii_abydus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-04T04:00:01-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/upeter"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1NvP0UDto5ZJ2CdWhiYfz4Qf9yujae_Z1t0SUjHa8eJk/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/xanthippos_ii_abydus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-04T04:00:01-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/upeter"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1NvP0UDto5ZJ2CdWhiYfz4Qf9yujae_Z1t0SUjHa8eJk/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-27T14:36:00.17-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/upeter"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
