@@ -16,10 +16,14 @@
          xmlns:nm="http://nomisma.org/id/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
     <nmo:Collection rdf:about="http://nomisma.org/id/uni-kiel">
-        <skos:definition xml:lang="de">Die Antikensammlung der Universität Kiel umfasst rund 1.100 antike Münzen der griechischen und römischen Zeit. Die in der Kieler Kunsthalle untergebrachte Sammlung stammt zu größeren Teilen aus Schenkungen des dänischen Königs Christian VIII. Friedrich (1786–1848) sowie aus Erwerbungen des Professors für Klassische Archäologie Peter Wilhelm Forchhammer (1801–1894). Hinzu kommen einige spätere Erwerbungen und Ankäufe.</skos:definition>
-        <skos:prefLabel xml:lang="en">Digitales Münzkabinett der Antikensammlung der Christian-Albrechts-Universität zu Kiel</skos:prefLabel>
+        <skos:definition xml:lang="de">Die Münzsammlung der Universität verteilt sich auf zwei Häuser:
+Die Antikensammlung der Universität Kiel umfasst rund 1.100 antike Münzen der griechischen und römischen Zeit. Die in der Kieler Kunsthalle untergebrachte Sammlung stammt zu größeren Teilen aus Schenkungen des dänischen Königs Christian VIII. Friedrich (1786–1848) sowie aus Erwerbungen des Professors für Klassische Archäologie Peter Wilhelm Forchhammer (1801–1894). Hinzu kommen einige spätere Erwerbungen und Ankäufe.
+Das Institut für Klassische Altertumskunde (Abt. Alte Geschichte) der Christian-Albrechts-Universität zu Kiel hat erst vor wenigen Jahren damit begonnen, eine eigene numismatische Lehrsammlung zusammenzustellen. Derzeit umfaßt sie knapp 80 antike (hauptsächlich römische) Münzen, die vor allem bei münzkundlichen Übungen im Rahmen der althistorischen Lehre eingesetzt werden.</skos:definition>
+        <skos:prefLabel xml:lang="en">Digitales Münzkabinett der Christian-Albrechts-Universität zu Kiel</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The Antikensammlung of the University of Kiel holds a collection of circa 1,100 Greek and Roman coins, housed in the Kunsthalle zu Kiel. The collection for the most part originates from donations of the Danish king Christian VIII Friedrich (1786–1848) as well as acquisitions by Peter Wilhelm Forchhammer (1801–1894), professor of Classical Archaeology in Kiel, later supplemented by further purchases and donations. Roman Imperial coinage constitutes the vast majority of the collection, that was conceived to be used for teaching purposes and today is occasionally incorporated into the seminars of Classical Archaeology in Kiel.</skos:definition>
+        <skos:definition xml:lang="en">The Coin collection of Kiel University is kept by two institutions:
+The Antikensammlung of the University of Kiel holds a collection of circa 1,100 Greek and Roman coins, housed in the Kunsthalle zu Kiel. The collection for the most part originates from donations of the Danish king Christian VIII Friedrich (1786–1848) as well as acquisitions by Peter Wilhelm Forchhammer (1801–1894), professor of Classical Archaeology in Kiel, later supplemented by further purchases and donations. Roman Imperial coinage constitutes the vast majority of the collection, that was conceived to be used for teaching purposes and today is occasionally incorporated into the seminars of Classical Archaeology in Kiel.
+Only a few years ago, the Institute of Classical Studies at Kiel University (Department of Ancient History) started to compile a small numismatic collection. Currently, it comprises nearly 80 ancient (mainly Roman) coins.</skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <foaf:homepage rdf:resource="http://www.antikensammlung-kiel.de/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/uni-kiel#provenance"/>
@@ -28,7 +32,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-        <skos:prefLabel xml:lang="de">Digitales Münzkabinett der Antikensammlung der Christian-Albrechts-Universität zu Kiel</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Digitales Münzkabinett der Christian-Albrechts-Universität zu Kiel</skos:prefLabel>
     </nmo:Collection>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni-kiel#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/uni-kiel"/>
@@ -40,5 +44,13 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-05T04:53:18.75-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
