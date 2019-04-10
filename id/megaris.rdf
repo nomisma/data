@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,35 +16,57 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/megaris">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Megaris</skos:prefLabel>
-      <skos:definition xml:lang="en">The region of Megaris as defined in Head (1911)</skos:definition>
-      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/europe"/>
-      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/570470"/>
-      <skos:broader rdf:resource="http://nomisma.org/id/greek_europe"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/megaris#provenance"/>
-   </nmo:Region>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Megaris</skos:prefLabel>
+        <skos:definition xml:lang="en">The region of Megaris as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
+        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      
+        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/570470"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/greek_europe"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/megaris#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q645572"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Megaris"/>
+        <skos:prefLabel xml:lang="la">Megaris</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Мегарида</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Megaris</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Μεγαρείς</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Мегарида</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Мегарида</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Megaride</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Megaris</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Mégaride</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Megaris</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/08s6h6"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/248117098"/>
+    </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/megaris#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/megaris"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-20T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/megaris"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-20T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:30:28.226-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,35 +16,74 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/picenum">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Picenum</skos:prefLabel>
-      <skos:definition xml:lang="en">The region of Picenum as defined in Head (1911)</skos:definition>
-      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/italy"/>
-      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/413253"/>
-      <skos:broader rdf:resource="http://nomisma.org/id/italy"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/picenum#provenance"/>
-   </nmo:Region>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Picenum</skos:prefLabel>
+        <skos:definition xml:lang="en">The region of Picenum as defined in Head (1911)</skos:definition>
+        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      
+        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/413253"/>
+      
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/picenum#provenance"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/greek_italy"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q510990"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Picenum"/>
+        <skos:prefLabel xml:lang="de">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Пиценум</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Picè</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Πικένον</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Pizeno</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Regio V Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Picenas</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Piceno</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Пицен</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Picenum</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Պիցենում</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">皮塞嫩郡</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ピケヌム</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Піцен, Італія</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">פיקניום</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Piçen</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">پیکینوم</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/06x959"/>
+    </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/picenum#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/picenum"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-20T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/picenum"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-20T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:41:07.247-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
