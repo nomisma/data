@@ -32,7 +32,7 @@
       
         <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/432900"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Latium"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/italy"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1048669"/>
         <skos:prefLabel xml:lang="he">לאטיום</skos:prefLabel>
@@ -54,7 +54,8 @@
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0260sww"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/latium#provenance"/>
-   </nmo:Region>
+        <skos:broader rdf:resource="http://nomisma.org/id/greek_italy"/>
+    </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/latium#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/latium"/>
         <prov:wasGeneratedBy>
@@ -78,6 +79,14 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:22:07.326-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-10T07:42:46.61-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>

@@ -40,7 +40,7 @@
       
         <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/741591"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Samaria"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/syria"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1294629"/>
         <skos:prefLabel xml:lang="yi">שומרון</skos:prefLabel>
@@ -71,7 +71,8 @@
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/070j2"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/samaria#provenance"/>
-   </nmo:Region>
+        <skos:broader rdf:resource="http://nomisma.org/id/greek_syria"/>
+    </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/samaria#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/samaria"/>
         <prov:wasGeneratedBy>
@@ -95,6 +96,14 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:46:13.417-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-10T11:30:21.593-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
