@@ -46,7 +46,7 @@
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/063sx8"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/areus_i_lacedaimon#authority"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/areus_i_lacedaimon#ruler"/>
+        
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/areus_i_lacedaimon#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/areus_i_lacedaimon"/>
@@ -66,11 +66,17 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-02T08:39:13.266-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <org:Membership rdf:about="http://nomisma.org/id/areus_i_lacedaimon#authority">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
     </org:Membership>
-    <org:Membership rdf:about="http://nomisma.org/id/areus_i_lacedaimon#ruler">
-        <org:role rdf:resource="http://nomisma.org/id/ruler"/>
-    </org:Membership>
+    
 </rdf:RDF>
