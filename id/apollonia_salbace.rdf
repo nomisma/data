@@ -28,6 +28,7 @@
         <skos:changeNote rdf:resource="http://nomisma.org/id/apollonia_salbace#provenance"/>
         <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q60789535"/>
         <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Apollonia_Salbaces"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
     </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/apollonia_salbace#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.515110</geo:lat>
@@ -61,6 +62,15 @@
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-10T08:13:36.558-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
