@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,55 +16,63 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/flavius_victor">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Flavius Victor</skos:prefLabel>
-      <skos:definition xml:lang="en">The Roman emperor Flavius Victor.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Flavius_Victor"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/flavius_victor#roman_emperor"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q507675"/>
-      <skos:prefLabel xml:lang="pl">Flawiusz Wiktor</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">פלביוס ויקטור</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Флавий Виктор</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Flavius Victor</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Flavio Víctor</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Flavius Victor</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Flavi Víctor</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Flavius Victor</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Flavio Vittore</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Flavius Victor</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Флавий Виктор</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Flavije Viktor</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Flavius Victor</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Флавій Віктор</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Flávio Vítor</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Flavius Victor</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03l4t8"/>
-      <skos:prefLabel xml:lang="da">Flavius Victor</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Flavius Victor</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/flavius_victor#provenance"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Flavius Victor</skos:prefLabel>
+        <skos:definition xml:lang="en">The Roman emperor Flavius Victor.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Flavius_Victor"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/flavius_victor#pretender"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q507675"/>
+        <skos:prefLabel xml:lang="pl">Flawiusz Wiktor</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">פלביוס ויקטור</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Флавий Виктор</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Flavius Victor</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Flavio Víctor</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Flavius Victor</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Flavi Víctor</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Flavius Victor</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Flavio Vittore</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Flavius Victor</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Флавий Виктор</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Flavije Viktor</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Flavius Victor</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Флавій Віктор</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Flávio Vítor</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Flavius Victor</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03l4t8"/>
+        <skos:prefLabel xml:lang="da">Flavius Victor</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Flavius Victor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/flavius_victor#provenance"/>
    </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/flavius_victor#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0384</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0388</nmo:hasEndDate>
+   <org:Membership rdf:about="http://nomisma.org/id/flavius_victor#pretender">
+        <org:role rdf:resource="http://nomisma.org/id/pretender"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0384</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0388</nmo:hasEndDate>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/flavius_victor#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/flavius_victor"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/flavius_victor"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-11T14:51:37.437-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
