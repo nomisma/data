@@ -15,25 +15,23 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/latmus">
-        <skos:prefLabel xml:lang="en">Latmos</skos:prefLabel>
+    <nmo:Mint rdf:about="http://nomisma.org/id/larbenoi">
+        <skos:prefLabel xml:lang="en">Larbenoi</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The mint at the ancient site of Latmos in Caria</skos:definition>
+        <skos:definition xml:lang="en">Mint at the ancient site of Larbenoi in Phrygia</skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/latmus#provenance"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/599752"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/larbenoi#provenance"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/phrygia"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <geo:location rdf:resource="http://nomisma.org/id/latmus#this"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q65068140"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Latmus_(town)"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/caria"/>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/609312"/>
+        <geo:location rdf:resource="http://nomisma.org/id/larbenoi#this"/>
     </nmo:Mint>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/latmus#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/latmus"/>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/larbenoi#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/larbenoi"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-07T04:16:37.681-05:00</prov:atTime>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-08T04:23:52.08-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
@@ -41,15 +39,15 @@
         <prov:activity>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-08T04:45:00.917-05:00</prov:atTime>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-08T04:36:42.327-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/latmus#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.498076</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.53766</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/caria#this"/>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/larbenoi#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.224614</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.314553</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/phrygia#this"/>
     </geo:SpatialThing>
 </rdf:RDF>
