@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/kasolaba">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:definition xml:lang="en">Mint at an uncertain location in Caria, tentatively identified as Kasolaba by K. Konuk, ‘Kasolaba, a New Mint in Karia?’ in S. Drougou, D. Eugenidou, and Ch Β Κritzas (eds), Κερμάτια Φιλίας : τιμητικός τόμος για τον Ιωάννη Τουράτσογλου 2009, pp. 177-83</skos:definition>
+        <skos:prefLabel xml:lang="en">'Kasolaba'</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/caria"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/kasolaba#provenance"/>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/606314"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q17462681"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Kasolaba"/>
+        <skos:prefLabel xml:lang="es">Casolaba</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Casolaba</skos:prefLabel>
+    </nmo:Mint>
+    
+    
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/kasolaba#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/kasolaba"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-20T04:31:05.762-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13MmkY2rQNuplmGQXOwdVUfaR26jD5mZjBbe5LRfAWQE/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-20T04:32:00.636-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
