@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/aurelius_severus_agathemeros_cyzicus">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Aurelius Severus Agathemeros</skos:prefLabel>
+        <skos:definition xml:lang="en">Aurelius Severus Agathemeros (the younger), Strategos in Cyzicus/Mysia during the reign of Philip the Arab. His name appears on coins in combination with his title of Strategos, e.g. BMC Mysia 57 no. 274; H. Bloesch, Griechische Münzen in Winterthur II (1997) no. 2573. Lit.: H. Halfmann, Hymnoden von Asia in Kyzikos, in: Mysische Studien, AMS 1 (1990) pp. 22-23; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 278 s. v. Agathemeros (AD 244-249); Th. Corsten (ed.), Lexicon of Greek Personal Names V A. Coastal Asia Minor (2010) p. 2 s. v. Agathemeros (no. 17) (AD 244-249).</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/aurelius_severus_agathemeros_cyzicus#issuer"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V5a-10026"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000808003"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000846304"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/10514"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/aurelius_severus_agathemeros_cyzicus#provenance"/>
+    </foaf:Person>
+    <org:Membership rdf:about="http://nomisma.org/id/aurelius_severus_agathemeros_cyzicus#issuer">
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+        <org:organization rdf:resource="http://nomisma.org/id/cyzicus"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0244</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0249</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/aurelius_severus_agathemeros_cyzicus#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/aurelius_severus_agathemeros_cyzicus"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-23T03:53:04.817-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1J6Z5aTDIk5IE0WQfR22zSYwixkkERkmJaloZGf9ujGU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
