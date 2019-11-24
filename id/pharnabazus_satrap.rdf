@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/pharnabazus_satrap">
+        <skos:prefLabel xml:lang="en">Pharnabazus</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Achaemenid Persian Satrap in Asia Minor, c. 413-374 BC.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/pharnabazus_satrap#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:altLabel xml:lang="en">Pharnabzaos</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q458256"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pharnabazus_II"/>
+        <skos:prefLabel xml:lang="pl">Farnabazos II</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Фарнабаз II</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Pharnabaze</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Farnabazo II</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Farnabazos II</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Фарнабаз</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Pharnabazos II.</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ファルナバゾス</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Farnabaz</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Farnabaz II.</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Farnabazos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Pharnabazus</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Farnabazo II</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Farnabazos</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Φαρνάβαζος Β΄</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Фарнабаз II</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">פרנבזוס השני</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Фарнабаз II</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Фарнабаз II</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">파르나바조스</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">法尔纳巴佐斯二世</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Farnabazos II</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/pharnabazus_satrap#authority"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pharnabazus_satrap#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/pharnabazus_satrap"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-23T04:22:29.453-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-23T04:30:45.667-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/pharnabazus_satrap#authority">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/achaemenid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0413</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0374</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

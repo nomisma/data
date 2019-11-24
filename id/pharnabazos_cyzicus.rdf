@@ -16,31 +16,16 @@
          xmlns:nm="http://nomisma.org/id/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
     <foaf:Person rdf:about="http://nomisma.org/id/pharnabazos_cyzicus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        
+        
         <skos:prefLabel xml:lang="en">Pharnabazos</skos:prefLabel>
         <skos:definition xml:lang="en">Persian satrap who also issued coins in Cyzicus (Mysia) in his name. See W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 862 s. v. Pharnabazos.</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pharnabazos_cyzicus#issuer"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000808003"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/pharnabazos_cyzicus#provenance"/>
+        
+        
+        
+        
+        <dcterms:isReplacedBy rdf:resource="http://nomisma.org/id/pharnabazus_satrap"/>
     </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/pharnabazos_cyzicus#issuer">
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-        <org:organization rdf:resource="http://nomisma.org/id/cyzicus"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0398</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0395</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pharnabazos_cyzicus#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/pharnabazos_cyzicus"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-23T03:53:04.817-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1J6Z5aTDIk5IE0WQfR22zSYwixkkERkmJaloZGf9ujGU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+    
+    
 </rdf:RDF>
