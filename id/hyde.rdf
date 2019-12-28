@@ -20,12 +20,14 @@
         <skos:prefLabel xml:lang="en">Hyde</skos:prefLabel>
         <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/648644"/>
         <skos:broader rdf:resource="http://nomisma.org/id/lycaonia"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        
         <skos:definition xml:lang="en">The mint at the ancient site of Hyde in Lycaonia</skos:definition>
         <geo:location rdf:resource="http://nomisma.org/id/hyde#this"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/hyde#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/-1"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Hyde_(Cappadocia)"/>
     </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/hyde#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.440842</geo:lat>
@@ -57,6 +59,14 @@
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-27T12:34:52.562-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

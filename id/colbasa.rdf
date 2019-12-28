@@ -17,7 +17,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/colbasa">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        
         <skos:prefLabel xml:lang="en">Colbasa</skos:prefLabel>
         <skos:definition xml:lang="en">The mint at the ancient site of Colbasa in Pisidia.</skos:definition>
         <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/638929"/>
@@ -27,6 +27,11 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/colbasa#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1107625"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Colbasa"/>
+        <skos:prefLabel xml:lang="de">Colbasa</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Colbasa</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Colbasa</skos:prefLabel>
     </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/colbasa#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.424422</geo:lat>
@@ -61,6 +66,14 @@
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-27T12:04:41.336-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

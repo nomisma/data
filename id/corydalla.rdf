@@ -17,7 +17,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/corydalla">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        
         <skos:prefLabel xml:lang="en">Corydalla</skos:prefLabel>
         <skos:definition xml:lang="en">The mint at the ancient site of Corydalla in Lycia.</skos:definition>
         <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/638937"/>
@@ -27,6 +27,11 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/corydalla#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q6006985"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Corydala"/>
+        <skos:prefLabel xml:lang="tr">Korydalla</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Korydalla</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Coridala</skos:prefLabel>
     </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/corydalla#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.376674</geo:lat>
@@ -61,6 +66,14 @@
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-27T11:34:18.488-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
