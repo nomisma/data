@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,29 +16,37 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/are_priene">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/are_priene#issuer"/>
-      <skos:prefLabel xml:lang="en">Are…</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">ΑΡΕ...</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:definition xml:lang="en">An individual who issued coins at the ancient city of Priene c. AD 193-211. Lit.: K. Regling, Die Münzen von Priene (1927) p. 157; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. -.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/are_priene#provenance"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/are_priene#issuer"/>
+        <skos:prefLabel xml:lang="en">Are…</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">ΑΡΕ...</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:definition xml:lang="en">An individual who issued coins at the ancient city of Priene c. AD 193-211. Lit.: K. Regling, Die Münzen von Priene (1927) p. 157; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 349.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/are_priene#provenance"/>
    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/are_priene#issuer">
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0192</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0211</nmo:hasEndDate>
-      <org:organization rdf:resource="http://nomisma.org/id/priene"/>
-      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0192</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0211</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/priene"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/are_priene#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/are_priene"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-10T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/are_priene"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-10T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-17T00:25:16.731-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
