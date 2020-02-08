@@ -17,7 +17,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/antiochus_xiii">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Antiochus XIII Philadelphus</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Antiochus XIII Asiaticus</skos:prefLabel>
         <skos:definition xml:lang="en">Antiochus XIII Philadelphus ("Brother-loving"), nicknamed Asiaticus ("the Asiatic," referring to his sojourn in Asia Minor during the Armenian occupation of Syria) was the twenty-third and last king of the Seleucid Empire. He ruled a state that was little more than Antioch and its environs first from 69/8 to 67 BC and again briefly in 65/4 BC. Antiochus XIII was installed on the throne by the Roman general L. Licinius Lucullus after the withdrawal of Tigranes II of Armenia from Syria. By 67 BC, however, the king faced a popular revolt and was captured by the Emesan dynast Sampsiceramus. He was replaced as king by Philip II, a son of Philip I, but seems to have returned to power in 65/4 BC. He was deposed by Popmpey, who made Syria a Roman province.</skos:definition>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_XIII_Asiaticus"/>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q313733"/>
@@ -55,12 +55,13 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_xiii#provenance"/>
         <skos:prefLabel xml:lang="et">Antiochos XIII Asiatikos</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_xiii#authority2"/>
     </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/antiochus_xiii#authority">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
         <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0069</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0064</nmo:hasEndDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0067</nmo:hasEndDate>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_xiii#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_xiii"/>
@@ -90,5 +91,27 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-07T09:28:12.306-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-07T09:52:34.066-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/antiochus_xiii#authority2">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0065</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0064</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+    </org:Membership>
 </rdf:RDF>
