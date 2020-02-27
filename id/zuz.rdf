@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Denomination rdf:about="http://nomisma.org/id/zuz">
+        <skos:prefLabel xml:lang="en">Zuz</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">A Zuz (Hebrew-זוז; plural zuzzim Hebrew-זוזים) was an ancient Jewish silver coin struck during the Bar Kochba revolt, as well as a Jewish name for the various types of non-Jewish small silver coinage, used before and after the period of the revolt. The name was used from the Greek era of drachmas, through the Roman era of Denarius, and then as the quarter denomination of Bar Kochba coinage. The Jewish insurrectionists' zuz were overstruck on Roman Imperial denarii or Roman provincial drachmas of Vespasian, Titus, Domitian, Trajan and Hadrian. Four Zuz, denarii or drachmas make a Shekel, a Sela or a Tetradrachm.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/zuz#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q475145"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Zuz_(Jewish_coin)"/>
+        <skos:prefLabel xml:lang="de">Sus</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">זוז</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Зуз</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Zuzu</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+    </nmo:Denomination>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/zuz#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/zuz"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-27T03:03:08.13-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
