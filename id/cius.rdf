@@ -31,7 +31,7 @@
         <skos:prefLabel xml:lang="fr">Cius</skos:prefLabel>
         <skos:prefLabel xml:lang="bs">Kios</skos:prefLabel>
         <skos:prefLabel xml:lang="ca">Cios</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Prusias ad Hypium</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kios</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Κίος</skos:prefLabel>
         <skos:prefLabel xml:lang="es">Cío</skos:prefLabel>
         <skos:prefLabel xml:lang="fi">Kios</skos:prefLabel>
@@ -47,6 +47,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/cius#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:closeMatch rdf:resource="http://nomisma.org/id/prusias_ad_mare"/>
     </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/cius#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.432469</geo:lat>
@@ -90,6 +91,14 @@
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-28T12:33:16.519-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
