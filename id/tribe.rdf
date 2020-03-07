@@ -97,6 +97,8 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4138634-6"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300049946"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/state"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q133311"/>
     </foaf:Organization>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tribe#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/tribe"/>
@@ -114,6 +116,15 @@
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-03T12:31:41.531-06:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T14:16:15.789-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1PA7jLe-ILB8V-hx7uNGBUfRGBwU8DBT_yKjPvIF-5V0/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
