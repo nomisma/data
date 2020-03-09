@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -15,53 +15,70 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <nmo:Mint rdf:about="http://nomisma.org/id/chalcidian_league">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Chalcidian League</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint of the Chalcidian League at the ancient site of Olynthus in Macedon.</skos:definition>
-      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Chalkidian_League"/>
-      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/491678"/>
-      <geo:location rdf:resource="http://nomisma.org/id/chalcidian_league#this"/>
-      <skos:closeMatch rdf:resource="http://sws.geonames.org/734996/"/>
-      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/5004260"/>
-      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q2042616"/>
-      <skos:prefLabel xml:lang="el">Κοινό των Χαλκιδέων</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Халкидский союз</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Chalkidikė</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Халкидски съюз</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Liga Calcídica</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Lliga Calcídica</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Халкидички савез</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Lega calcidica</skos:prefLabel>
-      <skos:closeMatch rdf:resource="https://www.freebase.com/m/053p4r4"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/chalcidian_league#provenance"/>
-   </nmo:Mint>
-   <geo:SpatialThing rdf:about="http://nomisma.org/id/chalcidian_league#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.292595</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.342665</geo:long>
-   </geo:SpatialThing>
+   <foaf:Organization rdf:about="http://nomisma.org/id/chalcidian_league">
+        <skos:scopeNote xml:lang="en">This concept, previously designated as a mint, should not be confused with the mint of Olynthus in Macedon.</skos:scopeNote>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Chalcidian League</skos:prefLabel>
+        <skos:definition xml:lang="en">The Chalcidian League, also referred to as the Olynthians or the Chalcidians in Thrace to distinguish them from the Chalcidians in Euboea, was a federal state that existed on the Chalcidice peninsula, on the shores of the northwest Aegean Sea, from around 430 BCE until it was destroyed by Philip II of Macedon in 348 BCE.</skos:definition>
+      
+      
+      
+      
+      
+        <skos:prefLabel xml:lang="el">Κοινό των Χαλκιδέων</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Халкидский союз</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Chalkidikė</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Халкидски съюз</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Liga Calcídica</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Lliga Calcídica</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Халкидички савез</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Lega calcidica</skos:prefLabel>
+      
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/chalcidian_league#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/chalcidian_league#membership_3c17dca24adb7a0b89e19f65196b5aaf"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q2042616"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Chalcidian_League"/>
+        <skos:prefLabel xml:lang="he">הליגה הכלקידיקית</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">カルキディア同盟</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ligue chalcidienne</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Liga Kalkidiki</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/053p4r4"/>
+    </foaf:Organization>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/chalcidian_league#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/chalcidian_league"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/chalcidian_league"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T08:14:52.848-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/chalcidian_league#membership_3c17dca24adb7a0b89e19f65196b5aaf">
+        <org:role rdf:resource="http://nomisma.org/id/league"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0430</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0348</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>
