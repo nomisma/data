@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://nomisma.org/id/judas_aristobulus_judaea">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Judas Aristobulus</skos:prefLabel>
+        <skos:definition xml:lang="en">Judas (or Judah) Aristobulus I (also known as Aristobulus I) was the first Hasmonean King of Judaea from 104 B.C. until his death in 103 B.C.</skos:definition>
+        <skos:prefLabel xml:lang="pl">Arystobul I</skos:prefLabel>
+        <skos:prefLabel xml:lang="yi">יהודה אריסטובולוס דער ערשטער</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Aristobule Ier</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">אריסטובולוס הראשון</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Аристобул I</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Aristóbulo I</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">I. Aristobulus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Aristòbul I de Judea</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Арістобул I</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Aristobulo I</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Aristobulos I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アリストブロス1世</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αριστόβουλος Α΄</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Aristobul I</skos:prefLabel>
+        <skos:prefLabel xml:lang="wo">Aristobul</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Aristobul I</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Aristobulus I</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Aristobulos I</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Аристобул I</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">阿里斯托布魯斯一世</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Aristóbulo</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Аристобул I</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Արիստամբուլոս I</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Yudas Aristoboulos</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q335124"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04qx__"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118645757"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/72187491"/>
+        <skos:altLabel xml:lang="en">Judah Aristobulus</skos:altLabel>
+        <org:memberOf rdf:resource="http://nomisma.org/id/hasmonean_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/judas_aristobulus_judaea#membership_9527101f974f5aedc4d6296954375b98"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/jewish_numismatics"/>
+        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Aristobulus-I"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/judas_aristobulus_judaea#provenance"/>
+    </foaf:Person>
+   
+   
+   
+    <org:Membership rdf:about="http://nomisma.org/id/judas_aristobulus_judaea#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/judaean_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0104</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0103</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/judas_aristobulus_judaea#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/judas_aristobulus_judaea"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

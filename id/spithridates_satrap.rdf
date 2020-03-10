@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://nomisma.org/id/spithridates_satrap">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Spithridates</skos:prefLabel>
+        <skos:definition xml:lang="en">Spithridates (Greek: Σπιθριδάτης; fl. 365–334 BC) was a Persian satrap of Lydia and Ionia under the high king Darius III Codomannus. He was one of the Persian commanders at the Battle of the Granicus, in 334 BC. In this engagement, while he was aiming a blow from behind at Alexander the Great, his arm was cut off by Cleitus the Black and he subsequently died.</skos:definition>
+        <skos:prefLabel xml:lang="de">Spithridates</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Spithridates</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Spithridatès</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Spitridat</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Espitrídates</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Spitridat</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Espitridates</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Spithridates</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Spitridate</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">斯皮瑞達提斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Spithridates</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Σπιθριδάτης</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Спифридат</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q930886"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0822p1"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/spithridates_satrap#membership_9527101f974f5aedc4d6296954375b98"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/der-neue-pauly/spithridates-e1119530?s.num=0&amp;s.f.s2_parent=s.f.book.der-neue-pauly&amp;s.q=Spithridates"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/spithridates_satrap#provenance"/>
+    </foaf:Person>
+   
+   
+   
+    <org:Membership rdf:about="http://nomisma.org/id/spithridates_satrap#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/lydia_satrapy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0365</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0334</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/spithridates_satrap#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/spithridates_satrap"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

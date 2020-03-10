@@ -63,10 +63,18 @@
         <skos:prefLabel xml:lang="eo">Ptolemeo la 13-a</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39938"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lf2p"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xiii#authority"/>
+        
         <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xiii#provenance"/>
+        <skos:prefLabel xml:lang="af">Ptolemy XIII Theos Philopator</skos:prefLabel>
+        <skos:prefLabel xml:lang="mg">Ptolemaiosy XIII</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">بطلیموس دوازدہم تھیئوس فلاپاٹر</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Պտղոմեոս XIII Թեոս Ֆիլոպատոր</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/4150150325533010090006"/>
+        <skos:altLabel xml:lang="en">Ptolemy XIII</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xiii#membership_9527101f974f5aedc4d6296954375b98"/>
+        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XIII-Theos-Philopator"/>
     </foaf:Person>
    
    
@@ -75,12 +83,7 @@
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xiii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0051</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0047</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xiii#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xiii"/>
 				    <prov:wasGeneratedBy>
@@ -92,5 +95,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xiii#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0051</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0047</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

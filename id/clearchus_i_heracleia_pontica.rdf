@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/clearchus_i_heracleia_pontica">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Clearchus I of Heracleia</skos:prefLabel>
+        <skos:definition xml:lang="en">Clearchus (Greek: Kλέαρχoς, Klearkhos; c. 401 BC – 353 BC; also spelled Cleärchus or Cleärch) was a citizen of Heraclea on the Euxine (Black Sea) who was recalled from exile by the oligarchy of that city to aid them in quelling the growing discontent and demands of the people. According to Justin, Clearchus reached an agreement with Mithridates of Cius to betray the city to him on the condition that Clearchus would hold the city for Mithridates as governor. But, Clearchus then came to the conclusion that he could make himself master of the city without the aid of Mithridates. So he not only broke his agreement with the Mithridates, but also captured him and compelled him to pay a large sum for his release.</skos:definition>
+        <skos:prefLabel xml:lang="pt">Clearco I de Heracleia Pôntica</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Klearchos von Herakleia I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Klearchos I z Heraklei</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Клеарх</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Cléarque d'Héraclée</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Klearh od Herakleje</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Clearc d'Heraclea</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Клеарх</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Clearchus of Heraclea</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Clearchus of Heraclea</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Clearco I di Eraclea</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Клеарх од Хераклеје</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ヘラクレアのクレアルコス</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Klearkhos dari Heraklea</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">קליארכוס מהראקליאה</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q984187"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/07_npf"/>
+        <skos:altLabel xml:lang="en">Clearchus I</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/clearchus_i_heracleia_pontica#membership_9527101f974f5aedc4d6296954375b98"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/clearchus_i_heracleia_pontica#provenance"/>
+    </foaf:Person>
+    
+    
+    
+    <org:Membership rdf:about="http://nomisma.org/id/clearchus_i_heracleia_pontica#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/heracleia_pontica_city"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0365</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0352</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/clearchus_i_heracleia_pontica#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/clearchus_i_heracleia_pontica"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

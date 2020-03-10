@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,28 +16,55 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/cetriporis">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Cetriporis</skos:prefLabel>
-      <skos:definition xml:lang="en">Thracian dynast, who minted coins.</skos:definition>
-      <skos:altLabel xml:lang="de">Ketriporis</skos:altLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/cetriporis#authority"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/cetriporis#provenance"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/cetriporis#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0356</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0350</nmo:hasEndDate>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Cetriporis</skos:prefLabel>
+        <skos:definition xml:lang="en">Thracian dynast, who minted coins.</skos:definition>
+        <skos:altLabel xml:lang="de">Ketriporis</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/cetriporis#provenance"/>
+        <skos:prefLabel xml:lang="pl">Ketriporis</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Κετρίπορις</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Кетрипор</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cetriporis</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Cetriporis</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Ketriporis</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ketriporis</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Cetriporide</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Кетрипор</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Ketriporisz</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Кетріпор</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3555333"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04f5sk8"/>
+        <skos:altLabel xml:lang="en">Cetriporis</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/cetriporis#membership_9527101f974f5aedc4d6296954375b98"/>
+        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/cetriporis-e613470"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cetriporis#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/cetriporis"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-14T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/cetriporis"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-14T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/cetriporis#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/odrysian_thracian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0356</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0347</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

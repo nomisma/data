@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://nomisma.org/id/deiotarus_galatia">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Deiotarus of Galatia</skos:prefLabel>
+        <skos:definition xml:lang="en">Deiotarus of Galatia (surnamed Philoromaios; c. 105 BC – 42 BC, 41 BC or 40 BC) was a Chief Tetrarch of the Tolistobogii in western Galatia, Asia Minor, and a King of Galatia.</skos:definition>
+        <skos:prefLabel xml:lang="ru">Дейотар</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Déiotaros</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Dejotar I Filoromajos</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Дейотар</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Deiotaros</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Deiotaro</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Deyótaro</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Дейотар</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Δηιόταρος</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Deiotaro</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Deiotarus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Deiotarus I</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">דייוטארוס</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1183348"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0508zp"/>
+        <skos:altLabel xml:lang="en">Deiotarus</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/deiotarus_galatia#membership_9527101f974f5aedc4d6296954375b98"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Deiotarus"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/deiotarus_galatia#provenance"/>
+    </foaf:Person>
+   
+   
+   
+    <org:Membership rdf:about="http://nomisma.org/id/deiotarus_galatia#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/galatian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0064</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0040</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/deiotarus_galatia#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/deiotarus_galatia"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

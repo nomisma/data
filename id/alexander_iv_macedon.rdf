@@ -70,16 +70,15 @@
         <skos:prefLabel xml:lang="ur">اسکندر چہارم مقدونی</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q207847"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/01ch64"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/alexander_iv_macedon#authority"/>
+        
         <org:memberOf rdf:resource="http://nomisma.org/id/antigonid_dynasty"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/alexander_iv_macedon#provenance"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/argead_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/alexander_iv_macedon#membership_9527101f974f5aedc4d6296954375b98"/>
+        <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/14122/Alexander-IV"/>
     </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/alexander_iv_macedon#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0323</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0309</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/alexander_iv_macedon#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/alexander_iv_macedon"/>
 				    <prov:wasGeneratedBy>
@@ -91,5 +90,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/alexander_iv_macedon#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0323</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0309</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

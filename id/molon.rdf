@@ -41,18 +41,17 @@
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/07rlsp"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118845284"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/45099445"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/molon#authority"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/molon#provenance"/>
         <skos:prefLabel xml:lang="he">מולון</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Molon</skos:altLabel>
+        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/molon#membership_9527101f974f5aedc4d6296954375b98"/>
+        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/molon-e808510?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;s.q=molon#e808520"/>
     </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/molon#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/atropatene_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0223</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0220</nmo:hasEndDate>
-   </org:Membership>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/molon#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/molon"/>
         <prov:wasGeneratedBy>
@@ -73,5 +72,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/molon#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0223</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0220</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

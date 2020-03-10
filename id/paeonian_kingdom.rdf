@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,58 +16,76 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Organization rdf:about="http://nomisma.org/id/paeonian_kingdom">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Kingdom of Paeonia</skos:prefLabel>
-      <skos:definition xml:lang="en">In antiquity, Paeonia or Paionia was the land and kingdom of the Paeonians. The exact original boundaries of Paeonia, like the early history of its inhabitants, are obscure, but it is known that it was located immediately north of ancient Macedonia (which corresponded roughly to the modern Greek region of Macedonia), and to the south-east of Dardania (which was similar to modern-day Kosovo); in the east were the Thracian mountains, and in the west, the Illyrians.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Paeonia_(kingdom)"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q249561"/>
-      <skos:prefLabel xml:lang="pt">Peônia</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Péonie</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Пеония</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Peonia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Peònia</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Пајонци</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Paionia</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Peonia</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Päonien</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Peonija</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Παιονία</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Пеония</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Paionia</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Pajonija</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Pajonija</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">پایونیا</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Пеонија</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Paionia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">파이오니아</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">პეონია</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Paionien</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Peonija</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Paeonia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">パエオニア</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Paionia</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02mpqh"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/245427012"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/paeonian_kingdom#authority"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/paeonian_kingdom#provenance"/>
-   </foaf:Organization>
-   <org:Membership rdf:about="http://nomisma.org/id/paeonian_kingdom#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0360</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0230</nmo:hasEndDate>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Kingdom of Paeonia</skos:prefLabel>
+        <skos:definition xml:lang="en">In antiquity, Paeonia or Paionia was the land and kingdom of the Paeonians. The exact original boundaries of Paeonia, like the early history of its inhabitants, are obscure, but it is known that it was located immediately north of ancient Macedonia (which corresponded roughly to the modern Greek region of Macedonia), and to the south-east of Dardania (which was similar to modern-day Kosovo); in the east were the Thracian mountains, and in the west, the Illyrians.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Paeonia_(kingdom)"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q249561"/>
+        <skos:prefLabel xml:lang="pt">Peônia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Péonie</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Пеония</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Peonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Peònia</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Пајонци</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Paionia</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Peonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Päonien</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Peonija</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Παιονία</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Пеония</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Paionia</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Pajonija</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Pajonija</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">پایونیا</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Пеонија</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Paionia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">파이오니아</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">პეონია</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Paionien</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Peonija</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Paeonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">パエオニア</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Paionia</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02mpqh"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/245427012"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/paeonian_kingdom#provenance"/>
+        <skos:prefLabel xml:lang="eo">Peonio</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Paionien</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Paionia</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">培奥尼亚</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Peonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Paeonia (kerajaan)</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4738285-5"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/paeonian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+    </foaf:Organization>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/paeonian_kingdom#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/paeonian_kingdom"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:08:19-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IbLGN9SsiR89MmD_4GSs3qHgydj0g8gT174Lgf6xjio/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/paeonian_kingdom"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:08:19-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IbLGN9SsiR89MmD_4GSs3qHgydj0g8gT174Lgf6xjio/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/paeonian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+        <org:role rdf:resource="http://nomisma.org/id/realm"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0360</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0230</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

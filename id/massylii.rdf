@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Organization rdf:about="http://nomisma.org/id/massylii">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Massylii</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Maesulians</skos:altLabel>
+        <skos:definition xml:lang="en">The Massylii or Maesulians were a Berber federation of tribes in eastern Numidia, which was formed by an amalgamation of smaller tribes during the 4th century BC. They were ruled by a king. On their loosely defined western frontier were the powerful Masaesyli. To their east, lay the territory of the rich and powerful Carthaginian Republic. After the Roman victory in the Second Punic War, the independent kingdoms of the Massylii and Masaesyli were combined into a unified Kingdom of Numidia.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Massylii"/>
+        <skos:prefLabel xml:lang="de">Massylier</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Masili</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Масили</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Massyles</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Mesulijanci</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Masilios</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Massils</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Massili</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Массилы</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Massylii</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">マシュリ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">الماسيل</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q603588"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04n3b2v"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/massylii#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/massylii#provenance"/>
+    </foaf:Organization>
+   
+   
+   
+    <org:Membership rdf:about="http://nomisma.org/id/massylii#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+        <org:role rdf:resource="http://nomisma.org/id/tribe"/>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0202</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/massylii#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/massylii"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

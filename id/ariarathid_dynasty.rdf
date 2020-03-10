@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,23 +16,33 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <rdac:Family rdf:about="http://nomisma.org/id/ariarathid_dynasty">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Ariarathid Dynasty</skos:prefLabel>
-      <skos:definition xml:lang="en">The Ariarathid Dynasty was founded by Ariarathes I, the first ruler of the Kingdom of Cappadocia (331 B.C.). It ended with the reign of Ariarathes IX in 95 B.C., when he was succeeded by Ariobarzanes I.</skos:definition>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/ariarathid_dynasty#provenance"/>
-   </rdac:Family>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Ariarathid Dynasty</skos:prefLabel>
+        <skos:definition xml:lang="en">The Ariarathid Dynasty was founded by Ariarathes I, the first ruler of the Kingdom of Cappadocia (331 B.C.). It ended with the reign of Ariarathes IX in 95 B.C., when he was succeeded by Ariobarzanes I.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/ariarathid_dynasty#provenance"/>
+        <rdfs:seeAlso rdf:resource="https://www.livius.org/articles/dynasty/ariarathids/"/>
+    </rdac:Family>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ariarathid_dynasty#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/ariarathid_dynasty"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:06:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1KNnrbtxrc2vtSLKjcp3zNdYcKq6x7okR00H-3CXvNiI/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/ariarathid_dynasty"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:06:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1KNnrbtxrc2vtSLKjcp3zNdYcKq6x7okR00H-3CXvNiI/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:02:59.297-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1m0KfSJ6iL-xit37vqCMuv6aRybRLjRBqnK5w8wA088U/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

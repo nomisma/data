@@ -62,19 +62,16 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11928488X"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/69735484"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0myzn"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/cleopatra_i#authority"/>
+        
         <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/cleopatra_i#provenance"/>
         <skos:prefLabel xml:lang="bn">সিরিয়ার ১ম ক্লিওপেট্রা</skos:prefLabel>
+        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/cleopatra_i#membership_9527101f974f5aedc4d6296954375b98"/>
     </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/cleopatra_i#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0180</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0176</nmo:hasEndDate>
-   </org:Membership>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cleopatra_i#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/cleopatra_i"/>
         <prov:wasGeneratedBy>
@@ -95,5 +92,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/cleopatra_i#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0180</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0176</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

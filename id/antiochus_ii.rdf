@@ -58,20 +58,20 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/128838442"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/57675602"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lj0h"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_ii#authority"/>
+        
         <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_ii#provenance"/>
         <skos:prefLabel xml:lang="tg">Антиохи II Теос</skos:prefLabel>
         <skos:prefLabel xml:lang="lv">Antiohs II Teos</skos:prefLabel>
+        <skos:prefLabel xml:lang="mg">Antiokosy II Teosy</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">اینتی اوکس دؤم</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">II. Antiohos Theos</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_ii#membership_9527101f974f5aedc4d6296954375b98"/>
+        <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/28355/Antiochus-II-Theos"/>
     </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/antiochus_ii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0261</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0246</nmo:hasEndDate>
-   </org:Membership>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_ii#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_ii"/>
         <prov:wasGeneratedBy>
@@ -100,5 +100,20 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/antiochus_ii#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0261</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0246</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

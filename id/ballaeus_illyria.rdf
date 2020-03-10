@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/ballaeus_illyria">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Ballaeus of Illyria</skos:prefLabel>
+        <skos:definition xml:lang="en">Ballaios (Ancient Greek: Βαλλαῖος; Latin: Ballaeus; ruled c. 167 – c. 135 BC or c. 195 – c. 175 BC) was an Illyrian king of the Ardiaei. Ballaios was not mentioned by any ancient writers. Ballaios is considered to have been a powerful and influential king as testified by the abundance of his silver and bronze coinage found along both coasts of the Adriatic.</skos:definition>
+        <skos:prefLabel xml:lang="de">Ballaios</skos:prefLabel>
+        <skos:prefLabel xml:lang="bs">Balajos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Балајос</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Ballai</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Balaj</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Ballajos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Ballaios</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Балай</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Kralj Balaj</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Ballaiosz</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ballaios</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q805135"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/096yfr"/>
+        <skos:altLabel xml:lang="en">Ballaeus</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/ballaeus_illyria#membership_9527101f974f5aedc4d6296954375b98"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/ballaeus_illyria#provenance"/>
+    </foaf:Person>
+    
+    
+    
+    <org:Membership rdf:about="http://nomisma.org/id/ballaeus_illyria#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/illyria_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0167</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0135</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ballaeus_illyria#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/ballaeus_illyria"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

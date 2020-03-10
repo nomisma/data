@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,33 +16,46 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/patraus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Patraus</skos:prefLabel>
-      <skos:definition xml:lang="en">Patraus (340 BC – 315 BC) was an ancient Paeonian king. It has been proposed that Ariston, who notably served as a cavalry general to Alexander the Great, was Patraus' brother.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Patraus"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q14472288"/>
-      <skos:prefLabel xml:lang="mk">Патрај</skos:prefLabel>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/patraus#authority"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/patraus#provenance"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/patraus#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
-      <org:organization rdf:resource="http://nomisma.org/id/paeonian_kingdom"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0340</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0315</nmo:hasEndDate>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Patraus</skos:prefLabel>
+        <skos:definition xml:lang="en">Patraus (340 BC – 315 BC) was an ancient Paeonian king. It has been proposed that Ariston, who notably served as a cavalry general to Alexander the Great, was Patraus' brother.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Patraus"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q14472288"/>
+        <skos:prefLabel xml:lang="mk">Патрај</skos:prefLabel>
+      
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/patraus#provenance"/>
+        <skos:prefLabel xml:lang="es">Patraus</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Patraus</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/patraus#membership_9527101f974f5aedc4d6296954375b98"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/patraus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/patraus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:17:11-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1gXcM0SRWqSZ4RJiDg21i5PI91EVyfMr1ogVgnH9zhIE/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/patraus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:17:11-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1gXcM0SRWqSZ4RJiDg21i5PI91EVyfMr1ogVgnH9zhIE/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/patraus#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/paeonian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0340</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0315</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

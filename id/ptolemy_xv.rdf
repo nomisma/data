@@ -74,10 +74,13 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/131750240"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0jzyl"/>
         <skos:exactMatch rdf:resource="http://isni.org/0000000025551002"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xv#authority"/>
+        
         <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xv#provenance"/>
+        <skos:prefLabel xml:lang="mg">Ptolemaiosy XV</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xv#membership_9527101f974f5aedc4d6296954375b98"/>
+        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XV-Caesar"/>
     </foaf:Person>
    
    
@@ -86,12 +89,7 @@
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xv#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0044</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xv#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xv"/>
 				    <prov:wasGeneratedBy>
@@ -103,5 +101,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xv#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0044</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

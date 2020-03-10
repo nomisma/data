@@ -53,18 +53,17 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118649647"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/47555598"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/015fhk"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_vii#authority"/>
+        
         <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_vii#provenance"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/antiochus_vii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0138</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0129</nmo:hasEndDate>
-   </org:Membership>
+        <skos:prefLabel xml:lang="sr">Антиох VII Сидет</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Antiochus VII of Syria</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_vii#membership_9527101f974f5aedc4d6296954375b98"/>
+        <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/28397/Antiochus-VII-Sidetes"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_vii#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_vii"/>
         <prov:wasGeneratedBy>
@@ -84,5 +83,20 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/antiochus_vii#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0138</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0129</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

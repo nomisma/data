@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://nomisma.org/id/sophytes_bactria">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Sophytes</skos:prefLabel>
+        <skos:definition xml:lang="en">Sophytes, or Sopeites, Saubhuti was the name of a king in Punjab in the northwestern Indian subcontinent during the time of the Alexander's invasion. Sophytes surrendered to Alexander and was allowed to retain his kingdom. Probably another Sophytes, who was satrap in the eastern territories conquered by Alexander the Great, minted his own coins in the Greek style circa 300 BCE. Little is known about him and hypotheses are numerous: Sophytes may have been a Hellenistic satrap who replaced Stasanor in Bactria-Sogdiana, or may have ruled in a neighboring area; he may also have been a Satrap of Arachosia.</skos:definition>
+        <skos:prefLabel xml:lang="be">Сафіт</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Sophytes</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sofite</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q7563158"/>
+        <skos:altLabel xml:lang="en">Saubhuti</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/sophytes_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/der-neue-pauly/sopeithes-e1117010?s.num=0&amp;s.f.s2_parent=s.f.book.der-neue-pauly&amp;s.q=Sophytes"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/sophytes_bactria#provenance"/>
+    </foaf:Person>
+   
+   
+   
+    <org:Membership rdf:about="http://nomisma.org/id/sophytes_bactria#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0316</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0306</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sophytes_bactria#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/sophytes_bactria"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

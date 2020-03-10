@@ -49,20 +49,19 @@
         <skos:prefLabel xml:lang="sv">Antiochos XIII</skos:prefLabel>
         <skos:prefLabel xml:lang="uk">Антіох XIII Азійський</skos:prefLabel>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/016j0c"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_xiii#authority"/>
+        
         <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_xiii#provenance"/>
         <skos:prefLabel xml:lang="et">Antiochos XIII Asiatikos</skos:prefLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_xiii#authority2"/>
+        
+        <skos:prefLabel xml:lang="sr">Антиох XIII Азијатик</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Antiochus XIII of Syria</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_xiii#membership_9527101f974f5aedc4d6296954375b98"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_xiii#membership_4d4d0f9dba1a0827f99cd1522cdd2483"/>
     </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/antiochus_xiii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0069</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0067</nmo:hasEndDate>
-   </org:Membership>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_xiii#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_xiii"/>
         <prov:wasGeneratedBy>
@@ -107,11 +106,36 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:36:24.667-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/antiochus_xiii#authority2">
+    
+    <org:Membership rdf:about="http://nomisma.org/id/antiochus_xiii#membership_9527101f974f5aedc4d6296954375b98">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0069</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0067</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/antiochus_xiii#membership_4d4d0f9dba1a0827f99cd1522cdd2483">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0065</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0064</nmo:hasEndDate>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
     </org:Membership>
 </rdf:RDF>

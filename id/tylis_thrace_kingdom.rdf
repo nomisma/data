@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Organization rdf:about="http://nomisma.org/id/tylis_thrace_kingdom">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Tylis</skos:prefLabel>
+        <skos:definition xml:lang="en">Tylis (Greek: Τύλις) or Tyle was a short-lived Balkan Kingdom mentioned by Polybius that was founded by Celts led by Comontorius in the 3rd century BC. Following their invasion of Thrace and Greece in 279 BC, the Gauls were defeated by the Macedonian king Antigonus II Gonatas in the Battle of Lysimachia in 277 BC, after which they turned inland to Thrace and founded their kingdom at Tylis. It was located near the eastern edge of the Haemus (Balkan) Mountains in what is now eastern Bulgaria.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Tylis"/>
+        <skos:prefLabel xml:lang="bg">Тиле</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Τύλις</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Royaume de Tylis</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Tilis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Tyle</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Tylisin kuningaskunta</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Tylis</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Тилис</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Tylis</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Tylis</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">提里斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Tile</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">טייליס</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">テュリス</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1286814"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/07773b"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/tylis_thrace_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/tylis_thrace_kingdom#provenance"/>
+    </foaf:Organization>
+   
+   
+   
+    <org:Membership rdf:about="http://nomisma.org/id/tylis_thrace_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+        <org:role rdf:resource="http://nomisma.org/id/realm"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tylis_thrace_kingdom#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/tylis_thrace_kingdom"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

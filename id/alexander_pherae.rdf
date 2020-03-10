@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://nomisma.org/id/alexander_pherae">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Alexander of Pherae</skos:prefLabel>
+        <skos:definition xml:lang="en">Alexander (Ancient Greek: Ἀλέξανδρος) was tagus or despot of Pherae in Thessaly, and ruled from 369 to c. 356 BC. Following the assassination of the tyrant Jason of Pherae, in 370 BC, his brother Polydorus ruled for a year, but he was then poisoned by another brother, Alexander. Alexander governed tyrannically and was constantly seeking to control Thessaly and the kingdom of Macedonia. He also engaged in piratical raids on Attica. Alexander was murdered by the brothers of his wife, Thebe, as it was said that she lived in fear of her husband and hated Alexander's cruel and brutal character.</skos:definition>
+        <skos:prefLabel xml:lang="pt">Alexandre de Feras</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Aleksander z Feraj</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Alexandre de Phères</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Александр Ферский</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Alejandro de Feres</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Alexandre de Feres</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Александр Ферський</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Alessandro di Fere</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Alexander von Pherai</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">フェライのアレクサンドロス</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Aleksandar od Fere</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Alexander van Pherae</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">亞歷山大</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ἀλέξανδρος των Φερών</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Alejandro de Feres</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Александар од Фере</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Alexandros dari Ferai</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q465694"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0r77"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/alexander_pherae#membership_9527101f974f5aedc4d6296954375b98"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/14209/Alexander-Of-Pherae"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/alexander_pherae#provenance"/>
+    </foaf:Person>
+   
+   
+   
+    <org:Membership rdf:about="http://nomisma.org/id/alexander_pherae#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/pherae_city"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0369</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0357</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/alexander_pherae#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/alexander_pherae"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

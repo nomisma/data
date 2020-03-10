@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://nomisma.org/id/euthydemus_ii_bactria">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Euthydemus II of Bactria</skos:prefLabel>
+        <skos:definition xml:lang="en">Euthydemus II was Graeco-Bactrian king; the son of Demetrius I of Bactria, he became king in the 180s BCE, either after his father's death or as a sub-king to him.</skos:definition>
+        <skos:prefLabel xml:lang="de">Euthydemos II.</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Eutydemos II</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Euthydemos II</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">에우티데모스 2세</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Euthydème II</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Eutidemo II</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Eutidem II</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Eutidemo II</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Евтидем II</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">歐西德莫斯二世</skos:prefLabel>
+        <skos:prefLabel xml:lang="bn">দ্বিতীয় ইউথুদেমোস</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Euthydemus II</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Євтидем II</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ευθύδημος Β΄ της Βακτρίας</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q878418"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03d3d6"/>
+        <skos:altLabel xml:lang="en">Euthydemus</skos:altLabel>
+        <org:memberOf rdf:resource="http://nomisma.org/id/euthydemid_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/euthydemus_ii_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/euthydemus-e407200?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;s.q=Euthydemus#e407230"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/euthydemus_ii_bactria#provenance"/>
+    </foaf:Person>
+   
+   
+   
+    <org:Membership rdf:about="http://nomisma.org/id/euthydemus_ii_bactria#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0190</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0180</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/euthydemus_ii_bactria#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/euthydemus_ii_bactria"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

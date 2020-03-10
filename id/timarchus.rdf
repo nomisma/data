@@ -33,19 +33,19 @@
         <skos:prefLabel xml:lang="nl">Timarchus</skos:prefLabel>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/087j0p"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118622722"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/timarchus#authority"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/timarchus#provenance"/>
         <skos:prefLabel xml:lang="uk">Тімарх</skos:prefLabel>
         <skos:prefLabel xml:lang="ja">ティマルコス</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/64800417"/>
+        <skos:altLabel xml:lang="en">Timarchus</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/timarchus#membership_9527101f974f5aedc4d6296954375b98"/>
+        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Timarchus-Seleucid-ruler"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/timarchus#membership_4d4d0f9dba1a0827f99cd1522cdd2483"/>
     </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/timarchus#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0163</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0160</nmo:hasEndDate>
-   </org:Membership>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/timarchus#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/timarchus"/>
         <prov:wasGeneratedBy>
@@ -66,5 +66,35 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:36:24.667-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/timarchus#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/atropatene_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0175</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0164</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/timarchus#membership_4d4d0f9dba1a0827f99cd1522cdd2483">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/atropatene_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0164</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0161</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

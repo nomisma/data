@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Organization rdf:about="http://nomisma.org/id/pherae_city">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Pherae</skos:prefLabel>
+        <skos:definition xml:lang="en">Pherae (Greek: Φεραί) was a city and polis (city-state)[1] in southeastern Ancient Thessaly. One of the oldest Thessalian cities, it was located in the southeast corner of Pelasgiotis. According to Strabo, it was near Lake Boebeïs 90 stadia from Pagasae, its harbor on the Gulf of Pagasae (Geography 9.5). The site is in the modern community of Velestino.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pherae"/>
+        <skos:prefLabel xml:lang="pt">Feras</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Feraj</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Феры</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Phères</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Feres</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Feres</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Ferai</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Fere</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Pherai</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">فرای</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Фере</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Fera</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Pherai</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Ferai</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">فيراي</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Ferai</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Φερές</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">フェライ</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Ferai</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">斐賴</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Pherae</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1330631"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/037v9p"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/pherae_city#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/pherae_city#provenance"/>
+    </foaf:Organization>
+    
+    
+    
+    <org:Membership rdf:about="http://nomisma.org/id/pherae_city#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+        <org:role rdf:resource="http://nomisma.org/id/city-state"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pherae_city#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/pherae_city"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

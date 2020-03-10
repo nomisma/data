@@ -51,19 +51,20 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/102379998"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/2857510"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/016jl4"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_viii#authority"/>
+        
         <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_viii#provenance"/>
         <skos:prefLabel xml:lang="gl">Antíoco VIII Grifo</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Antiokhos VIII Grypos</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Antioĥo la 8-a</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Антиох VIII Грип</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Antiochus VIII Epiphanes</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_viii#membership_9527101f974f5aedc4d6296954375b98"/>
+        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/antiochus-e124580?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;s.q=antiochus+Ix#e124680"/>
     </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/antiochus_viii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0121</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0096</nmo:hasEndDate>
-   </org:Membership>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_viii#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_viii"/>
         <prov:wasGeneratedBy>
@@ -108,5 +109,20 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/antiochus_viii#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0121</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0096</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

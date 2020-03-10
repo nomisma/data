@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Organization rdf:about="http://nomisma.org/id/tribe">
+    <org:Role rdf:about="http://nomisma.org/id/tribe">
         <skos:prefLabel xml:lang="en">Tribe</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">The term tribe is used in many different contexts to refer to a category of human social group. Tribes are generally considered to be a political unit formed from an organisation of families (including clans and lineages) based on social or ideological solidarity. Membership of a tribe may be understood simplistically as being an identity based on factors such as kinship ("clan"), ethnicity ("race"), language, dwelling place, political group, religious beliefs, oral tradition and/or cultural practices.</skos:definition>
@@ -32,7 +32,7 @@
         <skos:prefLabel xml:lang="et">hõim</skos:prefLabel>
         <skos:prefLabel xml:lang="bn">উপজাতি</skos:prefLabel>
         <skos:prefLabel xml:lang="el">φυλή</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">stam</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Stam</skos:prefLabel>
         <skos:prefLabel xml:lang="ar">قبيلة</skos:prefLabel>
         <skos:prefLabel xml:lang="nl">stam</skos:prefLabel>
         <skos:prefLabel xml:lang="pt">tribo</skos:prefLabel>
@@ -99,7 +99,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:broader rdf:resource="http://nomisma.org/id/state"/>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q133311"/>
-    </foaf:Organization>
+    </org:Role>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tribe#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/tribe"/>
 				    <prov:wasGeneratedBy>
@@ -125,6 +125,14 @@
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1PA7jLe-ILB8V-hx7uNGBUfRGBwU8DBT_yKjPvIF-5V0/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T11:29:31.579-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

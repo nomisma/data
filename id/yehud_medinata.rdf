@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Organization rdf:about="http://nomisma.org/id/yehud_medinata">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Yehud Medinata</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Yehud</skos:altLabel>
+        <skos:definition xml:lang="en">Yehud Medinata (Aramaic for the State of Judah/Jews), or simply Yehud, was an autonomous state of the Persian Achaemenid Empire, roughly equivalent to the older kingdom of Judah but covering a smaller area, within the satrapy of Eber-Nari. It was later incorporated into the Hellenistic provinces of Alexander the Great and his successors.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Yehud_Medinata"/>
+        <skos:prefLabel xml:lang="fr">Yehoud Medinata</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">يهود مديناتأ</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Επαρχία της Ιουδαίας</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">יהוד מדינתא</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Yehud Medinata</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">イェフドゥ・メディナタ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Иудея под персидским владычеством</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Anexo:Gobernadores de Judea durante la dominación persa</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">یهود مدیناتا</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">یہود مدیناتا</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Jehud (persische Provinz)</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">猶大</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q592272"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/05zmbyw"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/jewish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/persian_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/yehud_medinata#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/yehud_medinata#provenance"/>
+    </foaf:Organization>
+   
+   
+   
+    <org:Membership rdf:about="http://nomisma.org/id/yehud_medinata#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+        <org:role rdf:resource="http://nomisma.org/id/realm"/>
+        <org:organization rdf:resource="http://nomisma.org/id/achaemenid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0539</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0332</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/yehud_medinata#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/yehud_medinata"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

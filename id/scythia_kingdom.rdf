@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Organization rdf:about="http://nomisma.org/id/scythia_kingdom">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Scythia Minor</skos:prefLabel>
+        <skos:definition xml:lang="en">The kingdom of Scythia Minor or Lesser Scythia (Greek: Μικρά Σκυθία, romanized: Mikra Skythia) was in ancient times the region surrounded by the Danube at the north and west and the Black Sea at the east, roughly corresponding to today's Dobruja, with a part in Romania, and a part in Bulgaria.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Scythia_Minor"/>
+        <skos:prefLabel xml:lang="de">Scythia Minor</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Mala Skitija</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Eszitia Txikia</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Малка Скития</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Малая Скифия</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">소스키타이</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Escitia Menor</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Küçük İskitya</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Escítia Menor</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Мала Скіфія</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Scythia Minor</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Sciția Mică</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Επαρχία Σκυθίας</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Cítia Menor</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">მცირე სკვითია</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Малая Скіфія</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Mala Skitija</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">スキュティア・ミノル</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Scythie Mineure</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Skithia Minor</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Scythia Minor</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Minora Skitio</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">סקיתיה מינור</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1196595"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03_7z4"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/14144647636129848286"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/scythia_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/scythia_kingdom#provenance"/>
+    </foaf:Organization>
+   
+   
+    <org:Membership rdf:about="http://nomisma.org/id/scythia_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+        <org:role rdf:resource="http://nomisma.org/id/realm"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0293</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0699</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/scythia_kingdom#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/scythia_kingdom"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

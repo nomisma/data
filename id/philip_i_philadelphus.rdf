@@ -48,18 +48,15 @@
         <skos:prefLabel xml:lang="sv">Philip I Philadelphos</skos:prefLabel>
         <skos:prefLabel xml:lang="nl">Philippus I Philadelphus</skos:prefLabel>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/016h14"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/philip_i_philadelphus#authority"/>
+        
         <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/philip_i_philadelphus#provenance"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/philip_i_philadelphus#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0094</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0075</nmo:hasEndDate>
-   </org:Membership>
+        <skos:altLabel xml:lang="en">Philippus Philadelphus</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/philip_i_philadelphus#membership_9527101f974f5aedc4d6296954375b98"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/philip_i_philadelphus#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/philip_i_philadelphus"/>
         <prov:wasGeneratedBy>
@@ -79,5 +76,20 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/philip_i_philadelphus#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0094</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0075</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

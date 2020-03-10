@@ -51,18 +51,18 @@
         <skos:prefLabel xml:lang="be">Антыёх IX Кізікскі</skos:prefLabel>
         <skos:prefLabel xml:lang="uk">Антіох IX Кізікський</skos:prefLabel>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/016jmq"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_ix#authority"/>
+        
         <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_ix#provenance"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/antiochus_ix#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0114</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0095</nmo:hasEndDate>
-   </org:Membership>
+        <skos:prefLabel xml:lang="ja">アンティオコス9世</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Antiokhos IX Kyzikinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Antioĥo la 9-a</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Antiochus IX Eusebes of Syria</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_ix#membership_9527101f974f5aedc4d6296954375b98"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_ix#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_ix"/>
         <prov:wasGeneratedBy>
@@ -98,5 +98,20 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/antiochus_ix#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0114</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0095</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

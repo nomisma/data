@@ -63,16 +63,17 @@
         <skos:prefLabel xml:lang="ta">கிரேக்க பாக்திரியா பேரரசு</skos:prefLabel>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/03bpyg"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/bactrian_kingdom#authority"/>
+        
         <skos:prefLabel xml:lang="eo">Grek-Baktra Reĝlando</skos:prefLabel>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/bactrian_kingdom#provenance"/>
-   </foaf:Organization>
-   <org:Membership rdf:about="http://nomisma.org/id/bactrian_kingdom#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0256</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0125</nmo:hasEndDate>
-   </org:Membership>
+        <skos:prefLabel xml:lang="sl">Grško-baktrijsko kraljestvo</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Greko-Baktriar Erresuma</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Grek-Baktriya Krallığı</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300069952"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/bactrian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+    </foaf:Organization>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bactrian_kingdom#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
         <prov:wasGeneratedBy>
@@ -101,5 +102,19 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/bactrian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+        <org:role rdf:resource="http://nomisma.org/id/realm"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0256</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0125</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

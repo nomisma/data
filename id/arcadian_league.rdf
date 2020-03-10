@@ -38,10 +38,12 @@
         <skos:prefLabel xml:lang="ja">アルカディア同盟</skos:prefLabel>
         <skos:prefLabel xml:lang="id">Liga Arkadia</skos:prefLabel>
         
-        <org:hasMembership rdf:resource="http://nomisma.org/id/arcadian_league#membership_500e87fe86bfc4af41b5c2155254848a"/>
+        
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1913865"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Arcadian_League"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0br5n7"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1913865"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/arcadian_league#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
     </foaf:Organization>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/arcadian_league#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/arcadian_league"/>
@@ -88,8 +90,18 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/arcadian_league#membership_500e87fe86bfc4af41b5c2155254848a">
+    
+    <org:Membership rdf:about="http://nomisma.org/id/arcadian_league#membership_bd17e2d21cbc5a487c852bea4809dbbe">
         <org:role rdf:resource="http://nomisma.org/id/league"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0370</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0240</nmo:hasEndDate>

@@ -39,7 +39,7 @@
         <skos:prefLabel xml:lang="no">Kleopatra VII av Egypt</skos:prefLabel>
         <skos:altLabel xml:lang="en">Cleopatra VII Philopator</skos:altLabel>
         <skos:definition xml:lang="en">Cleopatra VII Philopator (Ancient Greek: Κλεοπάτρα Φιλοπάτωρ; Late 69 BC – August 12, 30 BC), known to history as Cleopatra, was the last pharaoh of Ancient Egypt.</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/cleopatra_vii#authority"/>
+        
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q635"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cleopatra"/>
         <skos:prefLabel xml:lang="la">Cleopatra VII</skos:prefLabel>
@@ -122,13 +122,17 @@
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cleopatra_VII"/>
         <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="kn">ಕ್ಲಿಯೋಪಾತ್ರ</skos:prefLabel>
+        <skos:prefLabel xml:lang="si">ක්ලියෝපැට්රා</skos:prefLabel>
+        <skos:prefLabel xml:lang="am">ክሌዮፓትራ</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Cleopatra VII</skos:prefLabel>
+        <skos:prefLabel xml:lang="pa">ਕਲੀਓਪੈਟਰਾ</skos:prefLabel>
+        <skos:prefLabel xml:lang="su">Kleopatra</skos:prefLabel>
+        <skos:prefLabel xml:lang="sd">قلوپطرہ</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/cleopatra_vii#membership_9527101f974f5aedc4d6296954375b98"/>
+        <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/121230/Cleopatra"/>
     </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/cleopatra_vii#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0051</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
-    </org:Membership>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cleopatra_vii#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/cleopatra_vii"/>
         <prov:wasGeneratedBy>
@@ -162,5 +166,20 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/cleopatra_vii#membership_9527101f974f5aedc4d6296954375b98">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0051</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>
