@@ -18,7 +18,7 @@
     <foaf:Person rdf:about="http://nomisma.org/id/areus_i_lacedaimon">
         <skos:prefLabel xml:lang="en">Areus I of Sparta</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Areus I was Agiad King of Sparta from 309 to 265 BC, who died in battle near Corinth during the Chremonidean War. He was the grandson of Cleomenes II and was succeeded by his son Acrotatus II.</skos:definition>
+        <skos:definition xml:lang="en">Areus I (Greek: Ἀρεύς Α΄) (died 265 BC) was Agiad King of Sparta from 309 to 265 BC, who died in battle near Corinth during the Chremonidean War. He was the grandson of Cleomenes II and was succeeded by his son Acrotatus II.</skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/areus_i_lacedaimon#provenance"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q521565"/>
@@ -47,6 +47,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/areus_i_lacedaimon#authority"/>
         
+        <org:memberOf rdf:resource="http://nomisma.org/id/agiad_dynasty"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/areus_i_lacedaimon#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/areus_i_lacedaimon"/>
@@ -74,9 +75,20 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-10T13:44:59.603-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <org:Membership rdf:about="http://nomisma.org/id/areus_i_lacedaimon#authority">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0309</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0265</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/lacedaemon_city"/>
     </org:Membership>
     
 </rdf:RDF>
