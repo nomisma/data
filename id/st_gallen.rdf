@@ -20,7 +20,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">St. Gallen</skos:prefLabel>
         <skos:prefLabel xml:lang="de">St. Gallen</skos:prefLabel>
-        <skos:definition xml:lang="en">St. Gallen or traditionally St Gall, in German sometimes Sankt Gallen is a Swiss town and the capital of the canton of St. Gallen. It evolved from the hermitage of Saint Gall, founded in the 7th century.</skos:definition>
+        <skos:definition xml:lang="en">The mint(s) of St. Gallen, a Swiss town and the capital of the canton of St. Gallen. </skos:definition>
         <skos:prefLabel xml:lang="lb">St. Gallen</skos:prefLabel>
         <skos:prefLabel xml:lang="zh">圣加仑</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">St. Gallen</skos:prefLabel>
@@ -95,13 +95,16 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/st_gallen#provenance"/>
+        <skos:altLabel xml:lang="de">Sankt Gallen</skos:altLabel>
     </nmo:Mint>
    
    
    
     <geo:SpatialThing rdf:about="http://nomisma.org/id/st_gallen#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.423333</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.377222</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.42587</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.37446</geo:long>
+        
+        
     </geo:SpatialThing>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/st_gallen#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/st_gallen"/>
@@ -114,5 +117,29 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T10:50:28.681-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T11:04:29.864-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T11:06:21.187-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
