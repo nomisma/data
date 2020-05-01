@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/segestes">
+        <skos:prefLabel xml:lang="en">Segestes</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Segestes was a noble of the Germanic tribe of the Cherusci involved in the events surrounding the Roman attempts to conquer northern Germany during the reign of Roman Emperor Augustus.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/segestes#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1359090"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Segestes"/>
+        <skos:prefLabel xml:lang="et">Segestes</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Segestes</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Segestes</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Сегест</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Segestes</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Segestes</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Segestes</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Segeste</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Segestes</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Segestes</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Segestes</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Segestes</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Сегест</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Segestes</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">סגסטס</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/143176110"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/056wxm"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/166909016"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/segestes#membership_a6e59d19eed23cb88f42853a3827ddda"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/segestes#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/segestes"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-30T12:33:27.588-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/segestes#membership_a6e59d19eed23cb88f42853a3827ddda">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/cherusci"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0009</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0021</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>
