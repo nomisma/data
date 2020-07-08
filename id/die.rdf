@@ -25,6 +25,10 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/die#provenance"/>
         <skos:exactMatch rdf:resource="https://finds.org.uk/datalabs/terminology/object/term/COIN+DIE"/>
+        <skos:prefLabel xml:lang="de">Prägestempel</skos:prefLabel>
+        <skos:definition xml:lang="de">Vorderseiten- oder Rückseitenstempel zum Prägen von Münzen</skos:definition>
+        <skos:prefLabel xml:lang="fr">coin monétaire</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">conio</skos:prefLabel>
     </nmo:ObjectType>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/die#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/die"/>
@@ -41,6 +45,15 @@
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T13:57:47.689-06:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
 					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T14:30:11.915-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1wB7QvwLujFTX7UpKR8mQgYtKUL9z6nRIeyK07zi-EDk/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

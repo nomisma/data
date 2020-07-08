@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:ObjectType rdf:about="http://nomisma.org/id/badge">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Badge</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Amtszeichen</skos:prefLabel>
+        <skos:definition xml:lang="en">A badge is a device or accessory, often containing the insignia of an organization, which is presented or displayed to indicate some feat of service, a special accomplishment, a symbol of authority granted by taking an oath, a sign of legitimate employment or student status, or as a simple means of identification (en.wikipedia.org).</skos:definition>
+        <skos:definition xml:lang="de">Objekt zur Legitimierung des Trägers. Ein Abzeichen, auch Emblem genannt, ist ein Kennzeichen, das in Form von Aufnähern, Anstecknadeln, Schulterklappen, Schilden u. ä. existieren kann. Es dient dazu, jemandem einen Rang, einen Dienstgrad, eine erbrachte Leistung oder die Zugehörigkeit zu einer Gemeinschaft zu zeigen oder auch als Zierde und Schmuck-Gegenstand (de.wikipedia.org)</skos:definition>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/badge#provenance"/>
+    </nmo:ObjectType>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/badge#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/badge"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T14:30:11.915-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1wB7QvwLujFTX7UpKR8mQgYtKUL9z6nRIeyK07zi-EDk/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

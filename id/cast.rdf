@@ -18,12 +18,13 @@
    <nmo:Manufacture rdf:about="http://nomisma.org/id/cast">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Cast</skos:prefLabel>
-        <skos:definition xml:lang="en">Technique of manufacture by pouring into a mould.</skos:definition>
+        <skos:definition xml:lang="en">Technique of manufacture by pouring into a mould</skos:definition>
         <skos:prefLabel xml:lang="fr">Coulé</skos:prefLabel>
         <skos:prefLabel xml:lang="tr">Döküm</skos:prefLabel>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/cast#provenance"/>
         <skos:exactMatch rdf:resource="https://finds.org.uk/datalabs/terminology/manufacture/id/1"/>
+        <skos:prefLabel xml:lang="de">Gegossen</skos:prefLabel>
     </nmo:Manufacture>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cast#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/cast"/>
@@ -50,6 +51,15 @@
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T14:03:01.199-06:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
 					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T14:43:16.735-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/188ERVQK12ms6TqBKnCuT8EvJmJfke3DaU8LcT6qk_Ds/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

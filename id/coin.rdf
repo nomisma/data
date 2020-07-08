@@ -29,7 +29,7 @@
         <skos:prefLabel xml:lang="bg">монета</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6089"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300037222"/>
-        <skos:definition xml:lang="en">A coin is a small, flat, usually, round piece of metal or plastic used primarily as a medium of exchange or legal tender. They are standardized in weight, and produced in large quantities at a mint in order to facilitate trade. They are most often issued by a government.</skos:definition>
+        <skos:definition xml:lang="en">A coin is a small, flat, usually round piece of metal or plastic used primarily as a medium of exchange or legal tender. They are standardized in weight, and produced in large quantities at a mint in order to facilitate trade. They are most often issued by a government.</skos:definition>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q41207"/>
         <skos:prefLabel xml:lang="lb">Mënz</skos:prefLabel>
         <skos:prefLabel xml:lang="zh">硬幣</skos:prefLabel>
@@ -101,6 +101,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/coin#provenance"/>
         <skos:exactMatch rdf:resource="https://finds.org.uk/datalabs/terminology/objects/page/15"/>
+        <skos:definition xml:lang="de">offizielles Zahlungsmittel, zumeist aus Metall, dessen Gegenwert durch die ausgebende Autorität garantiert wird</skos:definition>
     </nmo:ObjectType>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/coin#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/coin"/>
@@ -127,6 +128,15 @@
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T13:53:39.97-06:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
 					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T14:30:11.915-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1wB7QvwLujFTX7UpKR8mQgYtKUL9z6nRIeyK07zi-EDk/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
