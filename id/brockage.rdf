@@ -24,6 +24,7 @@
         <skos:prefLabel xml:lang="de">Incusum</skos:prefLabel>
         <skos:definition xml:lang="en">A misstrike whereby a coin remains in the upper die after striking and acts as the die to strike the next coin, therbey producing a negative image of the design in the lower die.</skos:definition>
         <skos:changeNote rdf:resource="http://nomisma.org/id/brockage#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/productionPeculiarity/1"/>
     </nmo:PeculiarityOfProduction>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/brockage#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/brockage"/>
@@ -36,5 +37,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-14T03:01:02.057-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
