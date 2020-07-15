@@ -22,9 +22,10 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Cut</skos:prefLabel>
         <skos:prefLabel xml:lang="de">geteilt</skos:prefLabel>
-        <skos:definition xml:lang="en">Intentional division of a coin into smaller parts by cutting, other than halved or quartered</skos:definition>
-        <skos:definition xml:lang="de">intentionelle Teilung (andere Teilung als halbiert oder geviertelt)</skos:definition>
+        <skos:definition xml:lang="en">Intentional division of a coin into smaller parts by cutting, other than halved or quartered.</skos:definition>
+        <skos:definition xml:lang="de">Intentionelle Teilung (andere Teilung als halbiert oder geviertelt).</skos:definition>
         <skos:changeNote rdf:resource="http://nomisma.org/id/cut#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/secondaryTreatment/31"/>
     </nmo:SecondaryTreatment>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cut#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/cut"/>
@@ -37,5 +38,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-15T00:33:40.678-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

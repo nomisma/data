@@ -22,9 +22,10 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Defaced</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Relief abgearbeitet</skos:prefLabel>
-        <skos:definition xml:lang="en">Intentional removal of the design or part of the design of a coin (for example following dmanatio memoriae or the resuse of the coin for other purposes)</skos:definition>
+        <skos:definition xml:lang="en">Intentional removal of the design or part of the design of a coin (for example following damnatio memoriae or the resuse of the coin for other purposes).</skos:definition>
         <skos:definition xml:lang="de">Relief/Oberfläche ganz oder partiell abgearbeitet (ein- oder zweiseitig), z. B. bei Damnatio memoriae oder der Weiterverwendung einer Münze als Spielstein o. ä.</skos:definition>
         <skos:changeNote rdf:resource="http://nomisma.org/id/defaced#provenance"/>
+        <skos:exactMatch rdf:resource=" https://ikmk.smb.museum/ndp/secondaryTreatment/23"/>
     </nmo:SecondaryTreatment>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/defaced#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/defaced"/>
@@ -37,5 +38,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-15T03:04:40.196-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

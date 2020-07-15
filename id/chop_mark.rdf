@@ -22,9 +22,10 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Chop mark</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Einhieb</skos:prefLabel>
-        <skos:definition xml:lang="en">A mark of undefined form made normally with a chisel-like tool, for example to test the pruity of the core of a coin. It can also be the result of damage caused when the coin was found</skos:definition>
-        <skos:definition xml:lang="de">Einhieb mit einem Objekt undefinierter Form, meist in Form einer groben Scharte, u. a. zu Prüfzwecken angebracht; auch nachträgliche Verletzungen, z. B. durch Pickelhieb beim Bergen</skos:definition>
+        <skos:definition xml:lang="en">A mark of undefined form made normally with a chisel-like tool, for example to test the pruity of the core of a coin. It can also be the result of damage caused when the coin was found.</skos:definition>
+        <skos:definition xml:lang="de">Einhieb mit einem Objekt undefinierter Form, meist in Form einer groben Scharte, u. a. zu Prüfzwecken angebracht; auch nachträgliche Verletzungen, z. B. durch Pickelhieb beim Bergen.</skos:definition>
         <skos:changeNote rdf:resource="http://nomisma.org/id/chop_mark#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/secondaryTreatment/12"/>
     </nmo:SecondaryTreatment>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/chop_mark#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/chop_mark"/>
@@ -37,5 +38,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-15T00:16:24.289-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

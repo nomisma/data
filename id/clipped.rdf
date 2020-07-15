@@ -22,9 +22,10 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Clipped</skos:prefLabel>
         <skos:prefLabel xml:lang="de">beschnitten</skos:prefLabel>
-        <skos:definition xml:lang="en">Part of the rim of the coin has been removed by clipping (for example to obtain metal to strike further coins)</skos:definition>
+        <skos:definition xml:lang="en">Part of the rim of the coin has been removed by clipping (for example to obtain metal to strike further coins).</skos:definition>
         <skos:definition xml:lang="de">Ein Teil des Randes wurde weggeschnitten.</skos:definition>
         <skos:changeNote rdf:resource="http://nomisma.org/id/clipped#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/secondaryTreatment/13"/>
     </nmo:SecondaryTreatment>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/clipped#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/clipped"/>
@@ -37,5 +38,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-15T00:31:41.633-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

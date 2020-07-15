@@ -21,8 +21,9 @@
         <skos:prefLabel xml:lang="en">Punched</skos:prefLabel>
         <skos:prefLabel xml:lang="de">gepunzt</skos:prefLabel>
         <skos:definition xml:lang="en">Intentinonally marked with a punch.</skos:definition>
-        <skos:definition xml:lang="de">Einhieb mit einer Punze, zeitgenössisch oder später angebracht</skos:definition>
+        <skos:definition xml:lang="de">Einhieb mit einer Punze, zeitgenössisch oder später angebracht.</skos:definition>
         <skos:changeNote rdf:resource="http://nomisma.org/id/punched#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/secondaryTreatment/32"/>
     </nmo:SecondaryTreatment>
     
    
@@ -39,5 +40,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-15T00:25:29.299-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
