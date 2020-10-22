@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,47 +16,62 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/friedrich_wendels_deutz">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Friedrich Wendels</skos:prefLabel>
-      <skos:definition xml:lang="en">Mintmaster in Deutz, Germany, in 1693, and in Bonn from 1698 to 1728. Friedrich Wendels, was listed as a Silversmith in 1693, was enrolled as Unverdienter on 5 August 1657. He died on 26 August 1728. Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Köln 1547-1794 (1925) pp. 338, 427; Wolfgang Scheffler, Goldschmiede Rheinland-Westfalens - Aachen - Köln (1973) n. 1548 pp. 541-542.</skos:definition>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/friedrich_wendels_deutz#modern_period_mint_staff"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/friedrich_wendels_deutz#modern_period_mint_staff2"/>
-      <bio:death rdf:resource="http://nomisma.org/id/friedrich_wendels_deutz#death"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/friedrich_wendels_deutz#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Friedrich Wendels</skos:prefLabel>
+        <skos:definition xml:lang="en">Mintmaster in Deutz, Germany, in 1693, and in Bonn from 1698 to 1728. He also struck coins in the Cologne circle mint for the abbot of Werden and Helmstedt in 1696 and 1698, and for the count of Waldeck in 1695. Friedrich Wendels was listed as a Silversmith in 1693, and was enrolled as Unverdienter on 5 August 1657. He died on 26 August 1728. Lit.: Alfred Noss, Die Münzen der Erzbischöfe von Köln 1547-1794 (1925) pp. 284, 338, 427; Wolfgang Scheffler, Goldschmiede Rheinland-Westfalens - Aachen - Köln (1973) n. 1548 pp. 541-542.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/friedrich_wendels_deutz#modern_period_mint_staff"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/friedrich_wendels_deutz#modern_period_mint_staff2"/>
+        <bio:death rdf:resource="http://nomisma.org/id/friedrich_wendels_deutz#death"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/friedrich_wendels_deutz#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/friedrich_wendels_deutz#membership_6e890d8cc2c995ac69f7de1d535e050c"/>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/friedrich_wendels_deutz#modern_period_mint_staff">
-      <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
-      <org:organization rdf:resource="http://nomisma.org/id/deutz"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1693</nmo:hasStartDate>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <org:organization rdf:resource="http://nomisma.org/id/deutz"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1693</nmo:hasStartDate>
    </org:Membership>
    <org:Membership rdf:about="http://nomisma.org/id/friedrich_wendels_deutz#modern_period_mint_staff2">
-      <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1698</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1728</nmo:hasEndDate>
-      <org:organization rdf:resource="http://nomisma.org/id/bonn"/>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1698</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1728</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/bonn"/>
    </org:Membership>
    <bio:Death rdf:about="http://nomisma.org/id/friedrich_wendels_deutz#death">
-      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1728</dcterms:date>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1728</dcterms:date>
    </bio:Death>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/friedrich_wendels_deutz#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/friedrich_wendels_deutz"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-05T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-02T04:00:03+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/friedrich_wendels_deutz"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-05T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-02T04:00:03+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-22T01:58:50.035-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/friedrich_wendels_deutz#membership_6e890d8cc2c995ac69f7de1d535e050c">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1695</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1698</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
+    </org:Membership>
 </rdf:RDF>
