@@ -20,7 +20,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Brussels</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Brüssel</skos:prefLabel>
-        <skos:definition xml:lang="en">The City of Brussels is the largest municipality and historical centre of the Brussels-Capital Region, and the de jure capital of Belgium.</skos:definition>
+        <skos:definition xml:lang="en">The mint(s) in the city of Brussels, the largest municipality and historical centre of the Brussels-Capital Region, and the de jure capital of Belgium.</skos:definition>
         <skos:prefLabel xml:lang="fr">Bruxelles</skos:prefLabel>
         <skos:prefLabel xml:lang="ru">Брюссель</skos:prefLabel>
         <skos:prefLabel xml:lang="nl">Brussel</skos:prefLabel>
@@ -150,6 +150,8 @@
         <geo:location rdf:resource="http://nomisma.org/id/brussels#this"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/brussels#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
     </nmo:Mint>
     <geo:SpatialThing rdf:about="http://nomisma.org/id/brussels#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.8467</geo:lat>
@@ -166,5 +168,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T03:11:18.115-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
