@@ -27,6 +27,28 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemais_cyrenaica#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <geo:location rdf:resource="http://nomisma.org/id/ptolemais_cyrenaica#this"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q45829"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Ptolemais,_Cyrenaica"/>
+        <skos:prefLabel xml:lang="pt">Ptolemais</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ptolemais</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Ptolemaida</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ptolémaïs</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">პტოლემაისი</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ptolemaida</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Ptolemais</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Tolemaide</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">بتوليمايس</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Πτολεμαΐδα Κυρηναϊκής</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Ptolemaida (Kirenajka)</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Ptolemais</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">プトレマイス</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Ptolemais, Kirenaika</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Ptolemaida (Cirenaica)</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">托勒密</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/080f5_"/>
+        <skos:closeMatch rdf:resource="http://sws.geonames.org/89183"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/159450429"/>
     </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemais_cyrenaica#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/ptolemais_cyrenaica"/>
@@ -57,5 +79,18 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T05:30:24.033-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/ptolemais_cyrenaica#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.708807</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.9507545</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/cyrenaica#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

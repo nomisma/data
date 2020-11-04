@@ -25,6 +25,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:scopeNote xml:lang="en">This concept should be used only in the context of Seleucid coinage.</skos:scopeNote>
         <skos:changeNote rdf:resource="http://nomisma.org/id/tarsus_ii_sco#provenance"/>
+        <geo:location rdf:resource="http://nomisma.org/id/tarsus_ii_sco#this"/>
     </nmo:Mint>
     
    
@@ -41,5 +42,18 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T05:00:06.317-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/tarsus_ii_sco#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.916667</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.9</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/tarsus#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

@@ -166,7 +166,7 @@
         <skos:closeMatch rdf:resource="http://isni.org/000000012114268X"/>
         <skos:closeMatch rdf:resource="https://www.freebase.com/m/05qtj"/>
         <skos:closeMatch rdf:resource="http://sws.geonames.org/2968815/"/>
-        <skos:definition xml:lang="en">Paris is the capital of France</skos:definition>
+        <skos:definition xml:lang="en">The mints in Paris, capital of France.</skos:definition>
         <skos:closeMatch rdf:resource="http://sws.geonames.org/2988507/"/>
         <geo:location rdf:resource="http://nomisma.org/id/paris#this"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
@@ -182,6 +182,10 @@
         <skos:prefLabel xml:lang="sd">پيرس</skos:prefLabel>
         <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7008038"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q1250541"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/130085386"/>
     </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/paris#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.85341</geo:lat>
@@ -205,6 +209,14 @@
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T04:49:03.87-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

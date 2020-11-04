@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,26 +16,41 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/caesareia_mauretania">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Caesareia</skos:prefLabel>
-      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/295279"/>
-      <skos:broader rdf:resource="http://nomisma.org/id/mauretania"/>
-      <skos:altLabel xml:lang="en">Kaisareia</skos:altLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:definition xml:lang="en">The mint at the ancient site of Caesareia in Mauretania</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/caesareia_mauretania#provenance"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Iol Caesareia</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/295279"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/mauretania"/>
+        <skos:altLabel xml:lang="en">Kaisareia</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:definition xml:lang="en">The mint at the ancient site of Caesareia in Mauretania</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/caesareia_mauretania#provenance"/>
+        <skos:closeMatch rdf:resource="http://nomisma.org/id/iol"/>
+        <geo:location rdf:resource="http://nomisma.org/id/caesareia_mauretania#this"/>
+    </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/caesareia_mauretania#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/caesareia_mauretania"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/caesareia_mauretania"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T08:35:51.848-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/caesareia_mauretania#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.607058</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1918495</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/mauretania#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

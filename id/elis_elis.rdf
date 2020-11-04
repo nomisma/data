@@ -68,7 +68,8 @@
         <skos:prefLabel xml:lang="pl">Elida</skos:prefLabel>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/elis_elis#provenance"/>
-   </nmo:Mint>
+        <geo:location rdf:resource="http://nomisma.org/id/elis_elis#this"/>
+    </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/elis_elis#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/elis_elis"/>
         <prov:wasGeneratedBy>
@@ -104,5 +105,18 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T07:58:16.994-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/elis_elis#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.891781</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.375091 </geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/elis#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,42 +16,56 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/kolounioku">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Kolounioku</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Clunia in Hispania.</skos:definition>
-      <skos:altLabel xml:lang="en">Clunia</skos:altLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/252957"/>
-      <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/kolounioku#provenance"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Kolounioku</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Clunia in Hispania.</skos:definition>
+        <skos:altLabel xml:lang="en">Clunia</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/252957"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/kolounioku#provenance"/>
+        <geo:location rdf:resource="http://nomisma.org/id/kolounioku#this"/>
+    </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/kolounioku#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/kolounioku"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-02T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/kolounioku"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-02T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T09:23:16.196-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/kolounioku#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.783929</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-3.365150</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

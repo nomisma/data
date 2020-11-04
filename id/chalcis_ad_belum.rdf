@@ -26,6 +26,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/chalcis_ad_belum#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <geo:location rdf:resource="http://nomisma.org/id/chalcis_ad_belum#this"/>
     </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/chalcis_ad_belum#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/chalcis_ad_belum"/>
@@ -47,5 +48,18 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T08:20:25.694-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/chalcis_ad_belum#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.007956</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.009719</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/chalcidice#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

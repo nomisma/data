@@ -26,6 +26,20 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/opus#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <geo:location rdf:resource="http://nomisma.org/id/opus#this"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q771434"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Opus,_Greece"/>
+        <skos:prefLabel xml:lang="la">Opus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Опунт</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Opus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Opunte</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Oponte</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">オプース</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Οπούς</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Opunt</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Opus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Опус (Греция)</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0406zg"/>
     </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/opus#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/opus"/>
@@ -54,5 +68,18 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T05:39:40.57-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/opus#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.6306405</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.047878 </geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/locri_opuntii#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

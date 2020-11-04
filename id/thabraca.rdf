@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,36 +16,79 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/thabraca">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Thabraca</skos:prefLabel>
-      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/315192"/>
-      <skos:broader rdf:resource="http://nomisma.org/id/numidia"/>
-      <skos:altLabel xml:lang="en">Thabraka</skos:altLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:definition xml:lang="en">The mint at the ancient site of Thabraca in Numidia</skos:definition>
-      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7001015"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/thabraca#provenance"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Thabraca</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/315192"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/numidia"/>
+        <skos:altLabel xml:lang="en">Thabraka</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:definition xml:lang="en">The mint at the ancient site of Thabraca in Numidia</skos:definition>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7001015"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/thabraca#provenance"/>
+        <geo:location rdf:resource="http://nomisma.org/id/thabraca#this"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q986213"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Tabarka"/>
+        <skos:prefLabel xml:lang="pl">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Табарка</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">타바르카</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Табарка</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Tabarca</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">طبرقة</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">塔巴卡</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">タバルカ</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Tabarka</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">طبرقه</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/05lfn_"/>
+        <skos:closeMatch rdf:resource="http://sws.geonames.org/2464871"/>
+        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb126994985"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/137203067"/>
+        <skos:altLabel xml:lang="en">Thaubraka</skos:altLabel>
+    </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/thabraca#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/thabraca"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/thabraca"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T04:55:04.851-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/thabraca#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.9567785</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.7497465</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/numidia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

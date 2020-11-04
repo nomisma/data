@@ -50,6 +50,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/cirta#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <geo:location rdf:resource="http://nomisma.org/id/cirta#this"/>
     </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cirta#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/cirta"/>
@@ -80,5 +81,18 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T09:19:14.306-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/cirta#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.3681146667</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.61330266667 </geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/numidia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>

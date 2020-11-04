@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,25 +16,48 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/zarai">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Zarai</skos:prefLabel>
-      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/334669"/>
-      <skos:broader rdf:resource="http://nomisma.org/id/numidia"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:definition xml:lang="en">The mint at the ancient site of Zarai in Numidia</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/zarai#provenance"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Zarai</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/334669"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/numidia"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:definition xml:lang="en">The mint at the ancient site of Zarai in Numidia</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/zarai#provenance"/>
+        <geo:location rdf:resource="http://nomisma.org/id/zarai#this"/>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/334669"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q147788"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Zaraï"/>
+        <skos:prefLabel xml:lang="de">Zaraï</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">diocesi di Zarai</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Zaraï</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Zaraï</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">زاراي</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Zaraï</skos:prefLabel>
+    </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/zarai#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/zarai"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/zarai"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T04:23:05.758-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/zarai#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.802187</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.677421</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/numidia#this"/>
+    </geo:SpatialThing>
 </rdf:RDF>
