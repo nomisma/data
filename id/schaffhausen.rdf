@@ -20,7 +20,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Schaffhausen</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Schaffhausen</skos:prefLabel>
-        <skos:definition xml:lang="en">Schaffhausen is a town with historic roots, a municipality in northern Switzerland, and the capital of the canton of the same name.</skos:definition>
+        <skos:definition xml:lang="en">The mint(s) in Schaffhausen, the capital of the canton of the same name in Switzerland.</skos:definition>
         <skos:prefLabel xml:lang="nb">Schaffhausen</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Schaffhouse</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Sciaffusa</skos:prefLabel>
@@ -87,6 +87,10 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/schaffhausen#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1045</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1698</nmo:hasEndDate>
     </nmo:Mint>
    
    
@@ -106,5 +110,21 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T11:25:12.077-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-10T02:40:44.624-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
