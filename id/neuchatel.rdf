@@ -20,7 +20,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Neuchâtel</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Neuenburg</skos:prefLabel>
-        <skos:definition xml:lang="en">Neuchâtel is a town, a municipality, and the capital of the Swiss canton of Neuchâtel on Lake Neuchâtel.</skos:definition>
+        <skos:definition xml:lang="en">The mint(s) in Neuchâtel, a town, a municipality, and the capital of the Swiss canton of Neuchâtel on Lake Neuchâtel.</skos:definition>
         <skos:prefLabel xml:lang="lb">Neuchâtel</skos:prefLabel>
         <skos:prefLabel xml:lang="zh">纳沙泰尔</skos:prefLabel>
         <skos:prefLabel xml:lang="eu">Neuchâtel</skos:prefLabel>
@@ -90,6 +90,9 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/neuchatel#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
     </nmo:Mint>
    
    
@@ -109,5 +112,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-13T09:15:15.322-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

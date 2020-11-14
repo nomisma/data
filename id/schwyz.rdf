@@ -20,7 +20,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Schwyz</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Schwyz</skos:prefLabel>
-        <skos:definition xml:lang="en">The town of Schwyz is the capital of the canton of Schwyz in Switzerland.</skos:definition>
+        <skos:definition xml:lang="en">The mint(s) in Schwyz, capital of the canton of Schwyz in Switzerland. The joint minting with Uri and Nidwalden in Bellinzona and afterwards in Altdorf preceeded the issues in Schwyz.</skos:definition>
         <skos:prefLabel xml:lang="zh">施維茨</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">Schwyz</skos:prefLabel>
         <skos:prefLabel xml:lang="eu">Schwyz</skos:prefLabel>
@@ -73,8 +73,10 @@
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/138542936"/>
         <geo:location rdf:resource="http://nomisma.org/id/schwyz#this"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/schwyz#provenance"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1621</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1846</nmo:hasEndDate>
     </nmo:Mint>
    
    
@@ -94,5 +96,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-13T09:55:00.889-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -20,7 +20,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Reichenau</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Reichenau</skos:prefLabel>
-        <skos:definition xml:lang="en">Reichenau is a village in the municipality of Tamins in the Canton of Graubünden, Switzerland, where the two Rhine tributaries Vorderrhein and Hinterrhein meet, forming the Alpine Rhine.</skos:definition>
+        <skos:definition xml:lang="en">The mint in Reichenau, canton of Graubünden, Switzerland. The princes of Schauenstein-Reichenau issued coins there during the first half of the 18th century.</skos:definition>
         <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Reichenau,_Switzerland"/>
         <skos:prefLabel xml:lang="ro">Reichenau GR</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Reichenau</skos:prefLabel>
@@ -33,8 +33,11 @@
         <skos:closeMatch rdf:resource="http://sws.geonames.org/2659081/"/>
         <geo:location rdf:resource="http://nomisma.org/id/reichenau#this"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/reichenau#provenance"/>
+        
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1718</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1748</nmo:hasEndDate>
     </nmo:Mint>
    
    
@@ -54,5 +57,21 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-13T09:21:13.029-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-13T09:34:02.378-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

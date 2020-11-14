@@ -20,7 +20,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Zug</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Zug</skos:prefLabel>
-        <skos:definition xml:lang="en">Zug is the capital of the canton of Zug in Switzerland. The name Zug originates from fishing vocabulary; in the Middle Ages it referred to the right to pull up fishing nets and hence to the right to fish.</skos:definition>
+        <skos:definition xml:lang="en">The mint(s) in Zug, the capital of the canton of Zug in Switzerland. Coinage in Zug begun comparatively late and lasted from 1564 until 1805.</skos:definition>
         <skos:prefLabel xml:lang="zh">楚格</skos:prefLabel>
         <skos:prefLabel xml:lang="eu">Zug</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">Zug</skos:prefLabel>
@@ -85,8 +85,10 @@
         <skos:closeMatch rdf:resource="http://isni.org/0000000405313970"/>
         <geo:location rdf:resource="http://nomisma.org/id/zug#this"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/zug#provenance"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1564</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1805</nmo:hasEndDate>
     </nmo:Mint>
    
    
@@ -106,5 +108,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-13T09:11:09.977-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
