@@ -20,7 +20,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Sarnen</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Sarnen</skos:prefLabel>
-        <skos:definition xml:lang="en">Sarnen is a small historic town, a municipality, and the capital of the canton of Obwalden situated on the northern shores of Lake Sarnen (German: Sarnersee) in Switzerland.</skos:definition>
+        <skos:definition xml:lang="en">The mint in Sarnen, a small historic town, a municipality, and the capital of the canton of Obwalden situated on the northern shores of Lake Sarnen (German: Sarnersee) in Switzerland.</skos:definition>
         <skos:prefLabel xml:lang="zh">薩爾嫩</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">Sarnen</skos:prefLabel>
         <skos:prefLabel xml:lang="eu">Sarnen</skos:prefLabel>
@@ -74,7 +74,7 @@
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/238102887"/>
         <geo:location rdf:resource="http://nomisma.org/id/sarnen#this"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/sarnen#provenance"/>
     </nmo:Mint>
    
@@ -95,5 +95,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T03:55:16.693-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
