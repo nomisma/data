@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:TypeSeries rdf:about="http://nomisma.org/id/ancient_british_coins">
+        <skos:prefLabel xml:lang="en">Ancient British Coins</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Ancient British Coins (ABC) is a typology of Celtic coins from Great Britain, as published in Cottam, E., De Jersey, P., Rudd, C. &amp; Sills, J. 2010. Ancient British Coins. Aylsham: Chris Rudd Ltd. It is published as a digital typology by Oxford University - Department of Archaeology.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/ancient_british_coins#provenance"/>
+        <skos:altLabel xml:lang="en">ABC</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://zenon.dainst.org/Record/001503851"/>
+        <skos:exactMatch rdf:resource="http://www.worldcat.org/oclc/722719647"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/celtic_numismatics"/>
+    </nmo:TypeSeries>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ancient_british_coins#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/ancient_british_coins"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-08T09:11:29.781-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
