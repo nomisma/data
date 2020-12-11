@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Organization rdf:about="http://nomisma.org/id/coriosolites">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Coriosolites</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Curiosolitas</skos:altLabel>
+        <skos:definition xml:lang="en">A group present in Gaul, around the northern coast of Brittany. Also known as Coriosolites, Curiosolitas.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/coriosolites#membership_435b731162505c1375a20274291829e0"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Coriosolites"/>
+        <skos:prefLabel xml:lang="it">Coriosoliti</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Кориосолити</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Kuriosolited</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Curiosolites</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Curiosoliten</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Coriosolites</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Coriosolites</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Coriosolisok</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Coriosolitae</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Koriozolitoj</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">קוריוסוליטים</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Κοριοσολίτες</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">科里奥索利特人</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q645010"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04g2kpt"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/celtic_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/coriosolites#provenance"/>
+        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/138310"/>
+    </foaf:Organization>
+    <org:Membership rdf:about="http://nomisma.org/id/coriosolites#membership_435b731162505c1375a20274291829e0">
+        <org:role rdf:resource="http://nomisma.org/id/tribe"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/coriosolites#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/coriosolites"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-10T10:09:33.38-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1ntf1lLsxLwkNR0rKxPGzG0tvc73Z4Z9-ft21UdRKRmo/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-10T10:25:41.693-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1ntf1lLsxLwkNR0rKxPGzG0tvc73Z4Z9-ft21UdRKRmo/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

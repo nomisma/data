@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Organization rdf:about="http://nomisma.org/id/bellovaci">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Bellovaci</skos:prefLabel>
+        <skos:definition xml:lang="en">A group present in Belgic Gaul, around Beauvais in Picardy.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/bellovaci#membership_435b731162505c1375a20274291829e0"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Bellovaci"/>
+        <skos:prefLabel xml:lang="hu">Bellovacusok</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Беловаки</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">bel·lòvacs</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Bellovaci</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bellovaker</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Belóvacos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Bellovakit</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Bellovaques</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Bellovaci</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">벨로바키족</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Bellovaci</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Белловаки</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">בלובאקים</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Bellovaci</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Белловакилер</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Белловаки</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Bellovaci</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">贝洛瓦克人</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q581581"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/030m0h"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/celtic_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/bellovaci#provenance"/>
+        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/108803"/>
+    </foaf:Organization>
+    <org:Membership rdf:about="http://nomisma.org/id/bellovaci#membership_435b731162505c1375a20274291829e0">
+        <org:role rdf:resource="http://nomisma.org/id/tribe"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bellovaci#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/bellovaci"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-10T10:09:33.38-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1ntf1lLsxLwkNR0rKxPGzG0tvc73Z4Z9-ft21UdRKRmo/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-10T10:25:41.693-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1ntf1lLsxLwkNR0rKxPGzG0tvc73Z4Z9-ft21UdRKRmo/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
