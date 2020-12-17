@@ -26,8 +26,9 @@
         <dcterms:source rdf:resource="http://nomisma.org/id/ancient_british_coins"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/celtic_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/agr_abc#provenance"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/agr_abc#membership_31234d8029585c6a408dbebbc04633c0"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/agr_abc#membership_3fe738c5f6948a9fd4da9404e97c2fdc"/>
+        
+        
+        <org:hasMembership rdf:resource="http://nomisma.org/id/agr_abc#membership_e560a9dc3d6d6518862a5de4c2ca5f84"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/agr_abc#membership_dd5280a19c86132cc71c1dbdaa29cd10">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
@@ -62,12 +63,27 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T08:49:35.397-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T08:52:03.85-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/agr_abc#membership_31234d8029585c6a408dbebbc04633c0">
+    
+    
+    <org:Membership rdf:about="http://nomisma.org/id/agr_abc#membership_e560a9dc3d6d6518862a5de4c2ca5f84">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
         <org:organization rdf:resource="http://nomisma.org/id/catuvellauni"/>
-    </org:Membership>
-    <org:Membership rdf:about="http://nomisma.org/id/agr_abc#membership_3fe738c5f6948a9fd4da9404e97c2fdc">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
     </org:Membership>
 </rdf:RDF>

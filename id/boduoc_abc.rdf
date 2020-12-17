@@ -27,8 +27,8 @@
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/001304039"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/celtic_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/boduoc_abc#provenance"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/boduoc_abc#membership_31234d8029585c6a408dbebbc04633c0"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/boduoc_abc#membership_3fe738c5f6948a9fd4da9404e97c2fdc"/>
+        
+        
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/boduoc_abc#membership_dd5280a19c86132cc71c1dbdaa29cd10">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
@@ -63,11 +63,15 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T08:54:01.614-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/boduoc_abc#membership_31234d8029585c6a408dbebbc04633c0">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-    </org:Membership>
-    <org:Membership rdf:about="http://nomisma.org/id/boduoc_abc#membership_3fe738c5f6948a9fd4da9404e97c2fdc">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-    </org:Membership>
+    
+    
 </rdf:RDF>
