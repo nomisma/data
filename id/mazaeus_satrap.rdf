@@ -45,6 +45,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/persian_numismatics"/>
         <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Mazaeus"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/mazaeus_satrap#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/mazaeus_satrap#membership_5524c7422d66da4848f311194b17df72"/>
     </foaf:Person>
     <org:Membership rdf:about="http://nomisma.org/id/mazaeus_satrap#membership_9527101f974f5aedc4d6296954375b98">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
@@ -63,5 +64,17 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-07T10:17:22.744-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/mazaeus_satrap#membership_5524c7422d66da4848f311194b17df72">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/alexandrine_empire"/>
+    </org:Membership>
 </rdf:RDF>

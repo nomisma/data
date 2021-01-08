@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/arsames_satrap">
+        <skos:prefLabel xml:lang="en">Arsames, satrap of Cilicia</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Arsames (Greek: Ἀρσάμης) was an Achaemenid Persian satrap of Cilicia in 334/3 BC. He succeeded Mazaeus in this position. He took part in the Battle of Granicus and was able to survive that battle and flee to the capital of Cilicia, Tarsus. There he decided to burn Tarsus to the ground so as not to fall in the hands of Alexander but was prevented from doing so by the speedy arrival of Parmenion. Arsames fled to Darius who was at this time in Syria. He was slain at the battle of Issus in 333 BC.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/arsames_satrap#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/arsames_satrap#membership_517ab3e8937af8b97e0e1b81b792c12d"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q704182"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Arsames_(satrap_of_Cilicia)"/>
+        <skos:prefLabel xml:lang="fr">Arsamès</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">阿薩米斯 (波斯將軍)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アルサメス (将軍)</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Arsames</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Arsame</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">آرشام</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Arsames</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Арсам</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Arsames</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/09gcrqs"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/arsames_satrap#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/arsames_satrap"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-07T10:52:25.887-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/arsames_satrap#membership_517ab3e8937af8b97e0e1b81b792c12d">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/achaemenid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0334</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0333</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>
