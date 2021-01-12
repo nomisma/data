@@ -28,7 +28,7 @@
         <skos:changeNote rdf:resource="http://nomisma.org/id/marbach#provenance"/>
         <geo:location rdf:resource="http://nomisma.org/id/marbach#this"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        
     </nmo:Mint>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/marbach#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/marbach"/>
@@ -40,6 +40,14 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-11T08:31:53.097-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <geo:SpatialThing rdf:about="http://nomisma.org/id/marbach#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.940556</geo:lat>
