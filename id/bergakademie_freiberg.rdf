@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Collection rdf:about="http://nomisma.org/id/bergakademie_freiberg">
+        <skos:definition xml:lang="de">Die numismatische Sammlung ist Teil des Wissenschaftlichen Altbestands der Universitätsbibliothek und umfasst rund 16.200 Münzen und Medaillen. Neben neuzeitlichen Prägungen gibt es auch einen mittelalterlichen Bestand sowie griechische und römische Stücke.
+Die Sammlung geht zurück auf Abraham Gottlob Werner (1749-1817), der bis zu seinem Tode mehr als 6.600 Münzen zusammen trug. Als zweiter Kernbestand kam im 19. Jahrhundert eine Sammlung von Bergbaugeprägen hinzu. Im Jahre 1995 folgten dann die Medaillen zum Berg- und Hüttenmännischen Tag.</skos:definition>
+        <skos:prefLabel xml:lang="en">Freiberg University of Mining and Technology</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The numismatic collection represents a part of the scientific historical holdings of the University library and includes some 16,200 coins and medals. Subjects covered are besides the modern period, the Middle ages and Antiquity.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="https://tu-freiberg.de/universitaet/einrichtungen/sammlungen-tubaf/kunst-und-kulturgut/kunstbesitz/sammlung-muenzen-und-med"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/bergakademie_freiberg#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <foaf:thumbnail rdf:resource="https://tu-freiberg.de/sites/default/themes/tubaf2/images/logo_min.svgz"/>
+        <skos:altLabel xml:lang="de">Technische Universität Bergakademie Freiberg</skos:altLabel>
+        <skos:exactMatch rdf:resource="&#x9;http://ld.zdb-services.de/resource/organisations/DE-105"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/besitzer/58"/>
+    </nmo:Collection>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bergakademie_freiberg#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/bergakademie_freiberg"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T02:42:52.877-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
