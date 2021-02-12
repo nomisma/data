@@ -23,7 +23,7 @@
         <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Aegium"/>
         <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/570049"/>
         <geo:location rdf:resource="http://nomisma.org/id/aegium#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/achaia"/>
+        
         <skos:altLabel xml:lang="en">Aigion</skos:altLabel>
         <skos:closeMatch rdf:resource="http://sws.geonames.org/265500/"/>
         <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x31131"/>
@@ -31,12 +31,16 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/aegium#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/achaea"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q60790078"/>
+        <skos:prefLabel xml:lang="ru">Эгион</skos:prefLabel>
     </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/aegium#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.252707</geo:lat>
         <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.081952</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/achaia#this"/>
-   </geo:SpatialThing>
+        
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/achaea#this"/>
+    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/aegium#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/aegium"/>
         <prov:wasGeneratedBy>
@@ -74,6 +78,14 @@
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T09:32:28.488-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
