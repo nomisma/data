@@ -26,10 +26,15 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/mostene#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1949516"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Mostene"/>
+        <skos:prefLabel xml:lang="de">Mostene</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Mostene</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Mostene</skos:prefLabel>
     </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/mostene#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.20</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.70</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.51598335255635</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.53683594463205</geo:long>
         <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/lydia#this"/>
    </geo:SpatialThing>
@@ -61,6 +66,22 @@
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-05T06:43:25.42-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-05T12:19:14.113-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

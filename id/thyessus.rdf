@@ -26,6 +26,8 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/thyessus#provenance"/>
         <geo:location rdf:resource="http://nomisma.org/id/thyessus#this"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q24915893"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Hermocapelia"/>
     </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/thyessus#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/thyessus"/>
@@ -46,10 +48,18 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-05T13:18:33.727-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <geo:SpatialThing rdf:about="http://nomisma.org/id/thyessus#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.921548</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.614993</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.98354685541869</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.59876549722083</geo:long>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/lydia#this"/>
         <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
     </geo:SpatialThing>
