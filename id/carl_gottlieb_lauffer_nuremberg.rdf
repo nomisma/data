@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,30 +16,54 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#modern_period_mint_staff"/>
-      <skos:prefLabel xml:lang="en">Carl Gottlieb Lauffer</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-      <skos:definition xml:lang="en">Mintmaster in Nürnberg (Nuremberg), Franconia, Germany from 1746 to 1755. His initials are CGL. Lit.: Hans-Jörg Kellner, Die Münzen der Freien Reichsstadt Nürnberg (1957), p. 171</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#modern_period_mint_staff"/>
+        <skos:prefLabel xml:lang="en">Carl Gottlieb Lauffer</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">Mintmaster in Nürnberg (Nuremberg), Franconia, Germany from 1746 to 1755. His initials are CGL. Mintmaster in Königsberg (modern Kaliningrad) from 1763 to 1764. Lit.: Hans-Jörg Kellner, Die Münzen der Freien Reichsstadt Nürnberg (1957), p. 171; M. H. Grieb (ed.), Nürnberger Künstlerlexikon (2007) p. 892.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#provenance"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#death"/>
+        <skos:exactMatch rdf:resource="https://mmlo.de/12067"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/5326"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1175575283"/>
+        <skos:exactMatch rdf:resource="https://viaf.org/viaf/4425154801904956310004/"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#membership_a8c447d3f9ec4cc9c15d5eace3f77466"/>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#modern_period_mint_staff">
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1746</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1755</nmo:hasEndDate>
-      <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
-      <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1746</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1755</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-20T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-20T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-11T02:18:25.663-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1728</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1779</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/carl_gottlieb_lauffer_nuremberg#membership_a8c447d3f9ec4cc9c15d5eace3f77466">
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+    </org:Membership>
 </rdf:RDF>
