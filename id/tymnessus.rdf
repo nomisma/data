@@ -28,6 +28,9 @@
         <skos:broader rdf:resource="http://nomisma.org/id/lycia"/>
         <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q65059233"/>
         <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Tymnessus"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/lycia"/>
+        <geo:location rdf:resource="http://nomisma.org/id/tymnessus#this"/>
     </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tymnessus#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/tymnessus"/>
@@ -56,5 +59,17 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-13T06:07:49.241-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/tymnessus#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.308278</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.4566631</geo:long>
+    </geo:SpatialThing>
 </rdf:RDF>
