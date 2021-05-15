@@ -69,6 +69,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/seal#provenance"/>
         <skos:definition xml:lang="de">Gerät zum Anbringen von Siegeln: mithilfe eines Siegelstempels oder, sphragistisch (siegelkundlich) korrekt, eines Typars, wird ein Siegel zur Beglaubigung von Urkunden oder Sicherstellung (Verschluss) der Unversehrtheit von Gegenständen oder Behältnissen (Briefumschlag, Tür) in eine weiche, erhärtende Masse gedrückt (Siegelklumpen aus Siegellack, Wachs, früher Ton etc.) (vgl. de.wikipedia.org/wiki/Siegel)</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300028877"/>
     </nmo:ObjectType>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/seal#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/seal"/>
@@ -96,6 +97,14 @@
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1wB7QvwLujFTX7UpKR8mQgYtKUL9z6nRIeyK07zi-EDk/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-14T12:48:29.041-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
