@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/eunus_sicily">
+        <skos:prefLabel xml:lang="en">Eunus of Sicily</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Eunus (died 132 BC) was a Roman slave from Apamea in Syria who became the leader of the slave uprising in the First Servile War (135 BC–132 BC) in the Roman province of Sicily. </skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/eunus_sicily#provenance"/>
+        <skos:altLabel xml:lang="en">Antiochus</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <bio:death rdf:resource="http://nomisma.org/id/eunus_sicily#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/eunus_sicily#membership_e4c268dc7b2478d2ee1fdf993bae6521"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q736357"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Eunus"/>
+        <skos:prefLabel xml:lang="de">Eunus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Евн</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Евн</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Eunus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Eun</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Euno</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Yevn</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Eunus</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Eunus</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Euno</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Eunus</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Eunus</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Eunus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">يونس السوري</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">攸努斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">エウヌス</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">یونس</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Евн</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Eunus</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0c7_c6"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/eunus_sicily#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/eunus_sicily"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-09T10:44:55.76-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <bio:Death rdf:about="http://nomisma.org/id/eunus_sicily#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0132</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/eunus_sicily#membership_e4c268dc7b2478d2ee1fdf993bae6521">
+        <org:role rdf:resource="http://nomisma.org/id/pretender"/>
+    </org:Membership>
+</rdf:RDF>
