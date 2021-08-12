@@ -59,6 +59,7 @@
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/62348650"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118974033"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0b3chs"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/tiridates_i_armenia#membership_de7243dc220a585ef16b858c86351bc3"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tiridates_i_armenia#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/tiridates_i_armenia"/>
@@ -70,11 +71,33 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-11T06:15:56.633-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-11T07:44:17.5-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <org:Membership rdf:about="http://nomisma.org/id/tiridates_i_armenia#membership_7d76a35f91fde33ead826b7fbd40d013">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
         <org:organization rdf:resource="http://nomisma.org/id/armenian_kingdom"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0052</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0060</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/tiridates_i_armenia#membership_de7243dc220a585ef16b858c86351bc3">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0066</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0077</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/armenian_kingdom"/>
     </org:Membership>
 </rdf:RDF>
