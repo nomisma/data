@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,31 +16,13 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Organization rdf:about="http://nomisma.org/id/campani">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">'Campani'</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at an uncertain location used by the Campanian mercenaries of Dionysius I in Sicily.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/campani#provenance"/>
-   </foaf:Organization>
-   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/campani#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/campani"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-19T20:38:12+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+      
+      
+        <skos:prefLabel xml:lang="en">'Campani'</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at an uncertain location used by the Campanian mercenaries of Dionysius I in Sicily.</skos:definition>
+      
+      
+        <dcterms:isReplacedBy rdf:resource="http://nomisma.org/id/campani_at_tauromenium"/>
+    </foaf:Organization>
+   
 </rdf:RDF>
