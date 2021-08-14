@@ -18,7 +18,7 @@
     <foaf:Organization rdf:about="http://nomisma.org/id/macedonia_roman_province">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Macedonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Macedonia (Roman province)</skos:prefLabel>
         <skos:definition xml:lang="en">The Roman province of Macedonia (Latin: Provincia Macedoniae, Greek: Ἐπαρχία Μακεδονίας) was officially established in 146 BC, after the Roman general Quintus Caecilius Metellus defeated Andriscus of Macedon, the last self-styled King of the ancient kingdom of Macedonia in 148 BC, and after the four client republics (the "tetrarchy") established by Rome in the region were dissolved. The province incorporated the former kingdom of Macedonia with the addition of Epirus, Thessaly, and parts of Illyria, Paeonia and Thrace. This created a much larger administrative area, to which the name of 'Macedonia' was still applied.</skos:definition>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Macedonia_(Roman_province)"/>
         <skos:prefLabel xml:lang="eu">Mazedonia</skos:prefLabel>
@@ -74,6 +74,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/macedonia_roman_province#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/macedonia_roman_province#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
     </foaf:Organization>
    
    
@@ -92,5 +93,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-13T04:21:25.912-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
