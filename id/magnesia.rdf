@@ -17,7 +17,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/magnesia">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">The Magnetes</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Magnesia in Thessaly</skos:prefLabel>
         <skos:broader rdf:resource="http://nomisma.org/id/thessaly"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:definition xml:lang="en">The mint at the ancient site of The Magnetes in Thessaly</skos:definition>
@@ -25,6 +25,8 @@
         <skos:changeNote rdf:resource="http://nomisma.org/id/magnesia#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
         <geo:location rdf:resource="http://nomisma.org/id/magnesia#this"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q60790367"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Ancient_Magnesia"/>
     </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/magnesia#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/magnesia"/>
@@ -51,6 +53,14 @@
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T09:44:24.316-06:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-19T10:29:21.805-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>

@@ -15,36 +15,48 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <foaf:Person rdf:about="http://nomisma.org/id/magnetes">
+   <foaf:Organization rdf:about="http://nomisma.org/id/magnetes">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Magnetes</skos:prefLabel>
         <skos:definition xml:lang="en">The Magnetes, a people in Thessaly. Head (1911) assigns their coins to the mint of Demetrias in Thessaly.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Magnesia_(regional_unit)"/>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/540923"/>
+        
+        
         <org:hasMembership rdf:resource="http://nomisma.org/id/magnetes#authority"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x49490"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Magnetes"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3387769"/>
-        <skos:prefLabel xml:lang="el">Μάγνητες</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Magnètes</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Magnećani</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02j21g"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1884468"/>
-        <skos:prefLabel xml:lang="de">Magnisia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Magnisia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Unitat perifèrica de Magnèsia</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Magneesia piirkonnaüksus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Magnisía</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Jednostka regionalna Magnezja</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Մագնեսիա</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Unidad periférica de Magnesia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">مقنیسیا</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Магнезия</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://sws.geonames.org/258013/"/>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/magnetes#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-    </foaf:Person>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q3387769"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Magnetes"/>
+        <skos:prefLabel xml:lang="el">Μάγνητες</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Magnètes</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Magnećani</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Магнезийци</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">מגנטים</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Magnetes</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Магнеты</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">馬格聶提斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Magnetes</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02j21g"/>
+    </foaf:Organization>
    <org:Membership rdf:about="http://nomisma.org/id/magnetes#authority">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
    </org:Membership>
@@ -83,6 +95,14 @@
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-19T10:27:16.32-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
