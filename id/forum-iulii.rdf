@@ -22,15 +22,16 @@
         <skos:prefLabel xml:lang="fr">Forum Iulii</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Forum Iulii</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The mint at the ancient site of Forum Iulii (Fréjus, France).</skos:definition>
+        <skos:definition xml:lang="en">The mint at the ancient site of Forum Iulii (Fréjus, France). Not to be confused with another Roman town of the same name in northeastern Italy (modern Cividale del Friuli).</skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/forum-iulii#provenance"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/187386"/>
+        
         <skos:closeMatch rdf:resource="https://gazetteer.dainst.org/place/2080844"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
         <geo:location rdf:resource="http://nomisma.org/id/forum-iulii#this"/>
         
         <skos:broader rdf:resource="http://nomisma.org/id/gallia"/>
+        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/157836"/>
     </nmo:Mint>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/forum-iulii#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/forum-iulii"/>
@@ -58,10 +59,18 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-13T08:06:05.935-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <geo:SpatialThing rdf:about="http://nomisma.org/id/forum-iulii#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.091866</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.4333385</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.433</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.737</geo:long>
         
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/gallia#this"/>
     </geo:SpatialThing>
