@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:TypeSeries rdf:about="http://nomisma.org/id/oscar">
+        <skos:definition xml:lang="it">Online Swiss Coin Archive (OSCAR) è un progetto del Museo nazionale svizzero in collaborazione con Münzkabinett Winterthur, Bernisches Historisches Museum, l'Inventario dei ritrovamenti monetali svizzeri, il Museo storico di Basilea, il Musée cantonal d'archéologie et d'histoire de Lausanne e il Musée d'art et d’histoire di Ginevra. L'obiettivo è quello di fornire una tipologia interattiva online delle monete prodotte sul territorio svizzero dal Medioevo ai giorni nostri. Basato sul software Numishare, sviluppato da Ethan Gruber, OSCAR abbraccia il concetto di 5-star linked open data.</skos:definition>
+        <skos:definition xml:lang="fr">Online Swiss Coin Archive (OSCAR) est un projet du Musée national suisse en collaboration avec le Münzkabinett Winterthur, le Musée d’Histoire de Berne, l'Inventaire des trouvailles monétaires suisses, le Musée historique de Bâle, le Musée cantonal d'archéologie et d'histoire de Lausanne et le Musée d'art et d'histoire de Genève. Il vise à donner une typologie interactive en ligne des monnaies du territoire suisse, du Moyen Âge à l'époque moderne. Basé sur le logiciel Numishare, développé par Ethan Gruber, OSCAR adopte le concept de 5-star linked open data.</skos:definition>
+        <skos:definition xml:lang="de">Das Online Swiss Coin Archive (OSCAR) ist ein Projekt des Schweizerischen Nationalmuseums in Zusammenarbeit mit dem Münzkabinett Winterthur, dem Bernischen Historischen Museum, dem Inventar der Fundmünzen der Schweiz, dem Historischen Museum Basel, dem Musée cantonal d'archéologie et d'histoire de Lausanne und dem Musée d’art et d’histoire Genf. Ziel ist es, eine interaktive Online-Typologie von Münzen aus dem Gebiet der Schweiz vom Mittelalter bis zur Gegenwart zu erstellen. Basierend auf der Software Numishare, entwickelt von Ethan Gruber, wendet OSCAR das Konzept von 5-star linked open data an. </skos:definition>
+        <skos:prefLabel xml:lang="en">OSCAR</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">OSCAR</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">OSCAR</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">OSCAR</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Online Swiss Coin Archive (OSCAR) is a project of the Swiss National Museum in collaboration with Münzkabinett Winterthur, Bernisches Historisches Museum, Swiss Inventory of Coin Finds, Basel Historical Museum, Musée cantonal d'archéologie et d'histoire de Lausanne and the Museum of Art and History Geneva. It aims to give an interactive online typology of coins from the territory of Switzerland from medieval to modern times. Based on the software Numishare, developed by Ethan Gruber, OSCAR embraces the concept of 5-star linked open data.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/oscar#provenance"/>
+        <skos:exactMatch rdf:resource="https://oscar.nationalmuseum.ch"/>
+        <skos:altLabel xml:lang="en">Online Swiss Coin Archive</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+    </nmo:TypeSeries>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/oscar#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/oscar"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-05T05:11:37.854-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
