@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <wordnet:Deity rdf:about="http://nomisma.org/id/genius">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Genius</skos:prefLabel>
+        <skos:definition xml:lang="en">In Roman religion, the genius is the individual instance of a general divine nature that is present in every individual person, place, or thing.</skos:definition>
+        <skos:prefLabel xml:lang="lb">Genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Jeinu</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Geniusz</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">génie</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">genio</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Genio</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ゲニウス</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Γκένιους</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">génio</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Гений</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Geniu</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Геній</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Гений</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">جنیوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Genijus</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">гениј</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Гениј</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">გენიუსი</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Геній</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Genij</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">genio</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">革尼烏斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">جنيوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Genius (mytologie)</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Genius</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Genius (mitologi)</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q654361"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lp28"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/genius#provenance"/>
+    </wordnet:Deity>
+    
+    
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/genius#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/genius"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
