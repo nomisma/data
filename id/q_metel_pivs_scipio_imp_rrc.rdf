@@ -26,6 +26,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/q_metel_pivs_scipio_imp_rrc#provenance"/>
         <skos:exactMatch rdf:resource="http://nomisma.org/id/q_caeclius_q_f_metellus_pius_scipio_syria"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/q_metel_pivs_scipio_imp_rrc#membership_c93b7029c8b5db191d810cce5316e12a"/>
     </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/q_metel_pivs_scipio_imp_rrc#rrc_moneyer">
         <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
@@ -57,5 +58,20 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T14:46:53.695Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/q_metel_pivs_scipio_imp_rrc#membership_c93b7029c8b5db191d810cce5316e12a">
+        <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0047</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0046</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>
