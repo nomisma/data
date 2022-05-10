@@ -99,7 +99,10 @@
         <skos:exactMatch rdf:resource="http://www.idref.fr/028715829"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/mark_antony#provenance"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/mark_antony#membership_c93b7029c8b5db191d810cce5316e12a"/>
+        
+        
+        <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/mark_antony#membership_4baa3e41cb521a9b5f5209645a4ab798"/>
     </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mark_antony#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/mark_antony"/>
@@ -126,8 +129,31 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T14:34:14.229Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:11:54.895Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/mark_antony#membership_c93b7029c8b5db191d810cce5316e12a">
+    
+    
+    <org:Membership rdf:about="http://nomisma.org/id/mark_antony#membership_4baa3e41cb521a9b5f5209645a4ab798">
+        <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
         <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0043</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0031</nmo:hasEndDate>
     </org:Membership>
 </rdf:RDF>
