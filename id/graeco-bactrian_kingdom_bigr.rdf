@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Region rdf:about="http://nomisma.org/id/graeco-bactrian_kingdom_bigr">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Graeco-Bactrian kingdom</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">royaume gréco-bactrien</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gräko-Baktrisches Königreich</skos:prefLabel>
+        <skos:definition xml:lang="en">The Graeco-Bactrian kingdom is a modern term applied to the area ruled by the kings from Diodotos I in the mid third century BCE to Heliocles I in the second half of the second century BCE. The geographical extent of the kingdom is uncertain and varied over time. It is shown here at what is considered to be its largest size.</skos:definition>
+        <skos:definition xml:lang="de">Das Gräko-Baktrische Königreich ist ein moderner Begriff, der das Gebiet bezeichnet, welches von den Herrschern Diodotos I. (Mitte des 3. Jh. v. Chr.) bis zu Heliokles I. (zweite Hälfte des 2. Jh. v. Chr.) regiert wurde. Die genaue geographische Ausdehnung ist unsicher und ist im Laufe der Zeit größeren Veränderungen unterworfen. Es wird hier in seiner vermuteten größten Ausdehnung gezeigt.</skos:definition>
+        <skos:scopeNote xml:lang="en">This region should only be used in the context of Graeco-Bactrian and Indo-Greek coinage.</skos:scopeNote>
+        <dcterms:source rdf:resource="http://nomisma.org/id/bigr"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <geo:location rdf:resource="http://nomisma.org/id/graeco-bactrian_kingdom_bigr#this"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/graeco-bactrian_kingdom_bigr#provenance"/>
+    </nmo:Region>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/graeco-bactrian_kingdom_bigr#this">
+        <osgeo:asGeoJSON>{"type":"Polygon","coordinates":[[[73.10302734375,34.34343606848294],[72.7734375,41.31082388091818],[65.63232421875,41.50857729743935],[57.72216796875,38.324420427006544],[60.99609375,31.63467554954133],[65.6982421875,31.456782472114313],[73.10302734375,34.34343606848294]]]}</osgeo:asGeoJSON>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/graeco-bactrian_kingdom_bigr#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/graeco-bactrian_kingdom_bigr"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T16:26:03.589Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1eEnbWH6WWaOBceFOor5w-ujQWmoCahmwBgDeRL8kZYg/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

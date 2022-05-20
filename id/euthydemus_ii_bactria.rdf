@@ -19,7 +19,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Euthydemus II of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Euthydemus II was Graeco-Bactrian king; the son of Demetrius I of Bactria, he became king in the 180s BCE, either after his father's death or as a sub-king to him.</skos:definition>
+        <skos:definition xml:lang="en">Euthydemus II was a Graeco-Bactrian king.</skos:definition>
         <skos:prefLabel xml:lang="de">Euthydemos II.</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">Eutydemos II</skos:prefLabel>
         <skos:prefLabel xml:lang="vi">Euthydemos II</skos:prefLabel>
@@ -38,20 +38,19 @@
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/03d3d6"/>
         <skos:altLabel xml:lang="en">Euthydemus</skos:altLabel>
         <org:memberOf rdf:resource="http://nomisma.org/id/euthydemid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/euthydemus_ii_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/euthydemus-e407200?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;s.q=Euthydemus#e407230"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/euthydemus_ii_bactria#provenance"/>
+        <skos:prefLabel xml:lang="ru">Евтидем II</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">エウテュデモス2世</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">اوتیدم دوم</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/euthydemus_ii_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/euthydemus_ii_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0190</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0180</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/euthydemus_ii_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/euthydemus_ii_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -63,5 +62,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/euthydemus_ii_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0190</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0180</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

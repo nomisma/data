@@ -19,7 +19,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Demetrius I of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Demetrius I, also called Dharmamita, was a Greco-Bactrian/Indo-Greek (Yona in Pali language, "Yavana" in Sanskrit) king (reigned c. 200–180 BC), who ruled areas from Bactria to ancient northwestern India. He was the son of the Greco-Bactrian ruler Euthydemus I and succeeded him around 200 BC, after which he conquered extensive areas in what is now Afghanistan and Pakistan.</skos:definition>
+        <skos:definition xml:lang="en">Demetrius I was a Graeco-Bactrian king ruling in the early second century BCE. He was the son and successor of Euthydemus I and is considered to have expanded his kingdom to the south through conquests in India</skos:definition>
         <skos:prefLabel xml:lang="pl">Demetriusz I Baktryjski</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Démétrios Ier de Bactriane</skos:prefLabel>
         <skos:prefLabel xml:lang="ko">데메트리오스 1세</skos:prefLabel>
@@ -48,20 +48,19 @@
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/016c74"/>
         <skos:altLabel xml:lang="en">Demetrius I</skos:altLabel>
         <org:memberOf rdf:resource="http://nomisma.org/id/euthydemid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/demetrius_i_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Demetrius-king-of-Bactria"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/demetrius_i_bactria#provenance"/>
+        <skos:prefLabel xml:lang="eo">Demetrio la 1-a (Baktrio)</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Деметриј I од Бактрија</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">باختر کا ڈیمیٹریس اول</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/demetrius_i_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/demetrius_i_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0200</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0180</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/demetrius_i_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/demetrius_i_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -73,5 +72,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/demetrius_i_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0205</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0180</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

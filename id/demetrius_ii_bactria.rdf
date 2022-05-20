@@ -19,7 +19,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Demetrius II of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Demetrius II was a Greco-Bactrian/Indo-Greek king who may have ruled from 175 - 170 B.C. or 175 - 140 B.C.</skos:definition>
+        <skos:definition xml:lang="en">Demetrius II was a Graeco-Bactrian king who ruled in the mid second century BCE</skos:definition>
         <skos:prefLabel xml:lang="de">Demetrios II.</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">Demetriusz II Baktryjski</skos:prefLabel>
         <skos:prefLabel xml:lang="vi">Demetrios II của Ấn Độ</skos:prefLabel>
@@ -36,19 +36,17 @@
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/04zksv"/>
         <skos:altLabel xml:lang="en">Demetrius II</skos:altLabel>
         <org:memberOf rdf:resource="http://nomisma.org/id/euthydemid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/demetrius_ii_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/demetrius_ii_bactria#provenance"/>
+        <skos:prefLabel xml:lang="ru">Деметрий II (индо-греческий царь)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Démétrios II d'Inde</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/demetrius_ii_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/demetrius_ii_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0175</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0170</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/demetrius_ii_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/demetrius_ii_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -60,5 +58,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/demetrius_ii_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0170</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0140</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

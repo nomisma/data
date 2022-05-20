@@ -19,7 +19,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Eucratides I of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Eucratides I (ruled 171–145 BC), sometimes called Eucratides the Great, was one of the most important Greco-Bactrian kings, descendants of dignitaries of Alexander the Great. He uprooted the Euthydemid dynasty of Greco-Bactrian kings and replaced it with his own lineage. He fought against the Indo-Greek kings, the easternmost Hellenistic rulers in northwestern India, temporarily holding territory as far as the Indus, until he was finally defeated and pushed back to Bactria.</skos:definition>
+        <skos:definition xml:lang="en">Eucratides I was a Graeco-Bactrian king who ruled in the early to mid second century BCE. The beginning of his reign is thought to have coincided with that of Mithridates I of Parthia.</skos:definition>
         <skos:prefLabel xml:lang="pl">Eukratydes I</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Eucratide Ier</skos:prefLabel>
         <skos:prefLabel xml:lang="ru">Эвкратид I</skos:prefLabel>
@@ -45,20 +45,19 @@
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/10644668"/>
         <skos:altLabel xml:lang="en">Eucratides the Great</skos:altLabel>
         <org:memberOf rdf:resource="http://nomisma.org/id/eucratid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/eucratides_i_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Eucratides"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/eucratides_i_bactria#provenance"/>
+        <skos:prefLabel xml:lang="sq">Eucratides I</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">اوكراتید الأول</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/eucratides_i_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/eucratides_i_bactria#membership_94c997a9b32abfa6c5f2e3cd0f42d0de"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/eucratides_i_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0171</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0150</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/eucratides_i_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/eucratides_i_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -70,5 +69,35 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:09:05.706Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/eucratides_i_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0171</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0135</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/eucratides_i_bactria#membership_94c997a9b32abfa6c5f2e3cd0f42d0de">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/indo-greek_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0171</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0135</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

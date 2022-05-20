@@ -19,7 +19,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Euthydemus I of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Euthydemus I was a Greco-Bactrian king in about 230 or 223 BC according to Polybius; he is thought to have originally been a satrap of Sogdiana who overturned the dynasty of Diodotus of Bactria and became a Greco-Bactrian king. Strabo, on the other hand, correlates his accession with internal Seleucid wars in 223–221 BC. His kingdom seems to have been substantial, including probably Sogdiana to the north, and Margiana and Ariana to the south or east of Bactria.</skos:definition>
+        <skos:definition xml:lang="en">Euthydemus I was a Graeco-Bactrian king who ruled after Antiochus Nicator in the late third century BCE. He was succeded by his son Demetrius I.</skos:definition>
         <skos:prefLabel xml:lang="pl">Eutydemos I</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Euthydème Ier</skos:prefLabel>
         <skos:prefLabel xml:lang="ko">에우티데모스 1세</skos:prefLabel>
@@ -47,20 +47,17 @@
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/5739386"/>
         <skos:altLabel xml:lang="en">Euthydemus</skos:altLabel>
         <org:memberOf rdf:resource="http://nomisma.org/id/euthydemid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/euthydemus_i_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Euthydemus-king-of-Bactria"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/euthydemus_i_bactria#provenance"/>
+        <skos:prefLabel xml:lang="sv">Euthydemos I</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/euthydemus_i_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/euthydemus_i_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0230</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0187</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/euthydemus_i_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/euthydemus_i_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -72,5 +69,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/euthydemus_i_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0230</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0190</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

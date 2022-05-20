@@ -19,22 +19,19 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Laodice of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Laodice appears on Bactrian coinage in conjunction with Heliocles, and therefore she may be the mother of Eucratides I. However, the son of Eucratides, Heliocles, may also have married a princess by the name Laodice, possibly the grand-daughter of Antiochus III of Syria.</skos:definition>
+        <skos:definition xml:lang="en">Laodice was a Graeco-Bactrian ruler who is known only from coinage featuring an uncertain Heliocles. She was a contemporary of Eucratides I.</skos:definition>
         <skos:altLabel xml:lang="en">Laodice</skos:altLabel>
         <org:memberOf rdf:resource="http://nomisma.org/id/eucratid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/laodice_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/laodice_bactria#provenance"/>
+        <skos:prefLabel xml:lang="de">Laodike</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/laodice_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/laodice_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0170</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0140</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/laodice_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/laodice_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -46,5 +43,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/laodice_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0170</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0140</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

@@ -19,7 +19,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Strato I of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Strato I was an Indo-Greek king who was the son of the Indo-Greek queen Agathokleia, who presumably acted as his regent during his early years after Strato's father, another Indo-Greek king, was killed.</skos:definition>
+        <skos:definition xml:lang="en">Strato I was an Indo-Greek king, ruling at the same time as Agathocleia and Heliocles II.</skos:definition>
         <skos:prefLabel xml:lang="de">Straton I.</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Στράτων Α΄ ο Επιφανής</skos:prefLabel>
         <skos:prefLabel xml:lang="vi">Strato I</skos:prefLabel>
@@ -34,19 +34,16 @@
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/04s7db"/>
         <skos:altLabel xml:lang="en">Strato I</skos:altLabel>
         <org:memberOf rdf:resource="http://nomisma.org/id/euthydemid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/strato_i_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/strato_i_bactria#provenance"/>
+        <skos:prefLabel xml:lang="ru">Стратон I</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/strato_i_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/strato_i_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0125</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0110</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/strato_i_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/strato_i_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -58,5 +55,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/strato_i_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/indo-greek_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0105</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0080</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

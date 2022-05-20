@@ -18,7 +18,7 @@
    <foaf:Person rdf:about="http://nomisma.org/id/diodotus_ii">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Diodotus II of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Diodotus II (c. 252 BC – c. 223 BC) succeeded his father Diodotus I in 239 BC. An alliance with the Parthians allowed Diodotus II to successfully defend his kingdom against Seleucus II in c. 239 BC, but in c. 223 BC he was killed by Euthydemus (I), a usurping governor of Sogdiana.</skos:definition>
+        <skos:definition xml:lang="en">Diodotus II was a Graeco-Bactrian king who succeeded his father and ruled in the mid third century BCE.</skos:definition>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Diodotus_II"/>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q363368"/>
         <skos:prefLabel xml:lang="pl">Diodotos II</skos:prefLabel>
@@ -46,8 +46,9 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/diodotus_ii#provenance"/>
         <skos:altLabel xml:lang="en">Diodotus II</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/diodotus_ii#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Diodotus-II"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/diodotus_ii#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/diodotus_ii#provenance">
@@ -78,11 +79,21 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/diodotus_ii#membership_9527101f974f5aedc4d6296954375b98">
+    
+    <org:Membership rdf:about="http://nomisma.org/id/diodotus_ii#membership_ba2a13ae23a01d6486dcff3abd98c53f">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
         <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0239</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0223</nmo:hasEndDate>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0260</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0220</nmo:hasEndDate>
     </org:Membership>
 </rdf:RDF>

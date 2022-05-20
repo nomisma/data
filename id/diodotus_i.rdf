@@ -18,7 +18,7 @@
    <foaf:Person rdf:about="http://nomisma.org/id/diodotus_i">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Diodotus I of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Diodotus I (285-239 BC) was a Seleucid satrap of Bactria who rebelled after the death of Antiochus II. In c. 255 or 246 BC he proclaimed himself an independent king in Bactria. Much of his reign was spent opposing the invading Parthians under their king, Arsaces I.</skos:definition>
+        <skos:definition xml:lang="en">Diodotus I (285-239 BC) was a Seleucid satrap of Bactria who rebelled after the death of Antiochus II. In c. 255 or 246 BC he proclaimed himself an independent king in Bactria.</skos:definition>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Diodotus_I"/>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q335032"/>
         <skos:prefLabel xml:lang="pl">Diodotos I</skos:prefLabel>
@@ -51,8 +51,9 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/diodotus_i#provenance"/>
         <skos:altLabel xml:lang="en">Diodotus of Bactria</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/diodotus_i#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Diodotus-I"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/diodotus_i#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/diodotus_i#provenance">
@@ -92,11 +93,21 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/diodotus_i#membership_9527101f974f5aedc4d6296954375b98">
+    
+    <org:Membership rdf:about="http://nomisma.org/id/diodotus_i#membership_ba2a13ae23a01d6486dcff3abd98c53f">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
         <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0255</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0239</nmo:hasEndDate>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0260</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0220</nmo:hasEndDate>
     </org:Membership>
 </rdf:RDF>

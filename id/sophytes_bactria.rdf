@@ -25,20 +25,17 @@
         <skos:prefLabel xml:lang="it">Sofite</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q7563158"/>
         <skos:altLabel xml:lang="en">Saubhuti</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/sophytes_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/der-neue-pauly/sopeithes-e1117010?s.num=0&amp;s.f.s2_parent=s.f.book.der-neue-pauly&amp;s.q=Sophytes"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/sophytes_bactria#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03dv1j"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/sophytes_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/sophytes_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0316</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0306</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sophytes_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/sophytes_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -50,5 +47,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/sophytes_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0316</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0306</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

@@ -19,7 +19,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Plato of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Plato was a Greco-Bactrian king who reigned for a short time in southern Bactria or the Paropamisade during the mid 2nd century B.C., perhaps about 145-140 B.C.</skos:definition>
+        <skos:definition xml:lang="en">Plato was a Graeco-Bactrian king who ruled for a short period in the mid second century BCE.</skos:definition>
         <skos:prefLabel xml:lang="de">Platon</skos:prefLabel>
         <skos:prefLabel xml:lang="vi">Plato của Bactria</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Platon de Bactriane</skos:prefLabel>
@@ -35,19 +35,16 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1387029"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/05zmdl"/>
         <skos:altLabel xml:lang="en">Plato</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/plato_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/plato_bactria#provenance"/>
+        <skos:prefLabel xml:lang="ru">Платон (греко-бактрийский царь)</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/plato_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/plato_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0145</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0140</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/plato_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/plato_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -59,5 +56,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/plato_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0150</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0130</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

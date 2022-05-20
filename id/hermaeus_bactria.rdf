@@ -19,7 +19,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Hermaeus of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Hermaeus Soter or Hermaios Soter was a Western Indo-Greek king of the Eucratid Dynasty, who ruled the territory of Paropamisade in the Hindu-Kush region, with his capital in Alexandria of the Caucasus, ca. 90-70 B.C.</skos:definition>
+        <skos:definition xml:lang="en">Hermaeus Soter or Hermaios Soter was an Indo-Greek king.</skos:definition>
         <skos:prefLabel xml:lang="el">Ερμαίος της Βακτρίας</skos:prefLabel>
         <skos:prefLabel xml:lang="nl">Hermaeus Soter</skos:prefLabel>
         <skos:prefLabel xml:lang="vi">Hermaeos (Vua)</skos:prefLabel>
@@ -34,20 +34,18 @@
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/03d3kb"/>
         <skos:altLabel xml:lang="en">Hermaeus</skos:altLabel>
         <org:memberOf rdf:resource="http://nomisma.org/id/eucratid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/hermaeus_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/hermaeus-e509920?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;s.q=Hermaeus#e509930"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/hermaeus_bactria#provenance"/>
+        <skos:prefLabel xml:lang="fr">Hermaios</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Hermaeus</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/hermaeus_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/hermaeus_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0090</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0070</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hermaeus_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/hermaeus_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -59,5 +57,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/hermaeus_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/indo-greek_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0105</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0090</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

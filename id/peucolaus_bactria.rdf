@@ -19,7 +19,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:prefLabel xml:lang="en">Peucolaus, Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Peucolaus Soter Dikaios was an Indo-Greek king who ruled in the area of Gandhara c. 90 B.C.. His reign was probably short and insignificant, since he left only a few coins, but the relations of the latter Indo-Greek kings remain largely obscure.</skos:definition>
+        <skos:definition xml:lang="en">Peucolaus Soter Dikaios was an Indo-Greek king.</skos:definition>
         <skos:prefLabel xml:lang="de">Peukolaos</skos:prefLabel>
         <skos:prefLabel xml:lang="vi">Peukolaos</skos:prefLabel>
         <skos:prefLabel xml:lang="ca">Peucolau</skos:prefLabel>
@@ -32,19 +32,17 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q724327"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/04y39z"/>
         <skos:altLabel xml:lang="en">Peucolaus</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/peucolaus_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/peucolaus_bactria#provenance"/>
+        <skos:prefLabel xml:lang="el">Πευκόλαος</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Певколай Дикайос Сотер</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/peucolaus_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/peucolaus_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0090</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0090</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/peucolaus_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/peucolaus_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -56,5 +54,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/peucolaus_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/indo-greek_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0075</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0074</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

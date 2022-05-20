@@ -25,19 +25,20 @@
         <skos:prefLabel xml:lang="es">Strato III</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q27998943"/>
         <skos:altLabel xml:lang="en">Strato III</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/strato_iii_bactria#membership_9527101f974f5aedc4d6296954375b98"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/strato_iii_bactria#provenance"/>
+        <skos:prefLabel xml:lang="ca">Estrató III</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Straton III.</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Στράτων Γ΄ Φιλοπάτωρ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Стратон III</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q19999387"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/strato_iii_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
     </foaf:Person>
    
    
    
-    <org:Membership rdf:about="http://nomisma.org/id/strato_iii_bactria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0025</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0010</nmo:hasEndDate>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/strato_iii_bactria#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/strato_iii_bactria"/>
 				    <prov:wasGeneratedBy>
@@ -49,5 +50,20 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/strato_iii_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/indo-greek_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0025</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0010</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>
