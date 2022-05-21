@@ -15,22 +15,27 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Organization rdf:about="http://nomisma.org/id/indo-greek_kingdom">
+    <foaf:Group rdf:about="http://nomisma.org/id/indo-greek_kingdom">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Indo-Greek Kingdom</skos:prefLabel>
-        <skos:definition xml:lang="en">The Indo-Greek Kingdom or Graeco-Indian Kingdom was a Hellenistic kingdom spanning modern-day Afghanistan, into the classical circumscriptions of the Punjab of the Indian subcontinent (northern Pakistan and northwestern India), during the last two centuries BC and was ruled by more than thirty kings, often conflicting with one another. The kingdom was founded when the Graeco-Bactrian king Demetrius invaded the subcontinent early in the 2nd century BC. The Greeks in the Indian Subcontinent were eventually divided from the Graeco-Bactrians centered in Bactria (now the border between Afghanistan and Uzbekistan), and the Indo-Greeks in the present-day north-western Indian Subcontinent. The most famous Indo-Greek ruler was Menander (Milinda). He had his capital at Sakala in the Punjab (present-day Sialkot). The kingdom drew to a close ca. AD 10 after the joint reigns of Strato II and Strato III and the rise of the Kushan Empire in India.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/indian_numismatics"/>
+        <skos:prefLabel xml:lang="en">Indo-Greek Kingdoms</skos:prefLabel>
+        <skos:definition xml:lang="en">The Indo-Greek kingdoms were a series of kingdoms spanning modern-day Afghanistan, into the classical regions of the Punjab of the Indian subcontinent (northern Pakistan and northwestern India), during the last two centuries BCE and were ruled by more than thirty kings, often ruling contemporaneously. The state of the evidence does not currently allow modern scholarship to state securely which ruler succeeded which and where exactly their respective dominions are to be localised. The period of the kingdoms drew to a close ca. 10 CE after the joint reigns of Strato II and Strato III and the rise of the Kushan Empire in India.</skos:definition>
+        
+        
         <org:hasMembership rdf:resource="http://nomisma.org/id/indo-greek_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/indo-greek_kingdom#provenance"/>
-    </foaf:Organization>
+        
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/indo-greek_numismatics"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q215643"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Indo-Greek_Kingdom"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03bpht"/>
+    </foaf:Group>
    
    
     
     <org:Membership rdf:about="http://nomisma.org/id/indo-greek_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
         <org:role rdf:resource="http://nomisma.org/id/realm"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0180</nmo:hasStartDate>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0199</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0010</nmo:hasEndDate>
     </org:Membership>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/indo-greek_kingdom#provenance">
@@ -44,5 +49,21 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-20T13:15:24.175Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-20T13:56:26.86Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -24,6 +24,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/indo-greek_numismatics#provenance"/>
         <skos:broader rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/indian_numismatics"/>
     </nmo:FieldOfNumismatics>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/indo-greek_numismatics#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/indo-greek_numismatics"/>
@@ -35,5 +36,13 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-20T13:15:44.525Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
