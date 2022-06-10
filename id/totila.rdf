@@ -87,14 +87,23 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-09T05:29:38.078Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <bio:Death rdf:about="http://nomisma.org/id/totila#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0552</dcterms:date>
     </bio:Death>
     <org:Membership rdf:about="http://nomisma.org/id/totila#membership_50bda1226af855238928fff17118c180">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0541</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0552</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/ostrogothic_kingdom"/>
     </org:Membership>
 </rdf:RDF>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,28 +16,37 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/muzzi_beg_giacomo">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Muzzi Beg, Giacomo</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">موزى بيك</skos:prefLabel>
-      <skos:definition xml:lang="en">Giacomo Muzzi, an Italian, was the first post master general in Khedieval Egypt.</skos:definition>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/muzzi_beg_giacomo#authority"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/muzzi_beg_giacomo#provenance"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Muzzi Beg, Giacomo</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">موزى بيك</skos:prefLabel>
+        <skos:definition xml:lang="en">Giacomo Muzzi, an Italian, was the first post master general in Khedieval Egypt.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/muzzi_beg_giacomo#authority"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/muzzi_beg_giacomo#provenance"/>
    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/muzzi_beg_giacomo#authority">
-      <org:organization rdf:resource="http://nomisma.org/id/italian_republic"/>
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
-   </org:Membership>
+      
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/kingdom_of_italy"/>
+    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/muzzi_beg_giacomo#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/muzzi_beg_giacomo"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-31T04:00:01+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/11GJuOq7OMGOtmm6PhQf5hC4QIMrvqtoA-uequT4ytqI/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/muzzi_beg_giacomo"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-31T04:00:01+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/11GJuOq7OMGOtmm6PhQf5hC4QIMrvqtoA-uequT4ytqI/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-09T06:45:28.511Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
