@@ -86,6 +86,8 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/maria_theresa#provenance"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1159"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
     </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/maria_theresa#authority">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
@@ -112,6 +114,14 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-15T00:40:18.782-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T21:07:17.586Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Organization rdf:about="http://nomisma.org/id/lower_saxon_circle">
+        <skos:prefLabel xml:lang="en">Lower Saxon circle</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Lower Saxon circle was one of the Imperial circles within the Holy Roman. It was created by a dividing the Saxon Imperial circle into two in 1512.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/lower_saxon_circle#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q616195"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lower_Saxon_Circle"/>
+        <skos:prefLabel xml:lang="it">Provincia della Bassa Sassonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Den Nedersaksiske Kreds</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Niedersächsischer Reichskreis</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Circunscripción de Baja Sajonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Alam-Saksi ringkond</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Cercle de Basse-Saxe</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Alsó-szászországi körzet</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Nedersaksische Kreits</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Нижнесаксонский округ</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">สหราชรัฐแซ็กซอนใต้</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Den nedersaksiske rikskrets</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Nedersaxiska kretsen</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Círculo Inferior da Saxônia</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Долносаксонски округ</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Долносаксонски имперски окръг</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">니더작센 관구</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Dolnosaský kraj</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ニーダーザクセン帝国クライス</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">下萨克森行政圈</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/089_3j"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4042231-8"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/234582258"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/lower_saxon_circle#membership_b33c7474b9d543afea50db0c3ebc3dc8"/>
+    </foaf:Organization>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lower_saxon_circle#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/lower_saxon_circle"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-11T03:56:35.221Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/lower_saxon_circle#membership_b33c7474b9d543afea50db0c3ebc3dc8">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1806</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

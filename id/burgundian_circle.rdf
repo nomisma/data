@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Organization rdf:about="http://nomisma.org/id/burgundian_circle">
+        <skos:prefLabel xml:lang="en">Burgundian circle</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Burgundian circle was one of the Imperial circles within the Holy Roman empire. It was created as a later addition in 1512.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/burgundian_circle#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q155187"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Burgundian_Circle"/>
+        <skos:prefLabel xml:lang="de">Burgundischer Reichskreis</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Бургундски имперски окръг</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Circunscripción de Borgoña</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Cercle de Bourgogne</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Burgundiai körzet</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Provincia Borgognona</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Burgundesche Krees</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Burgundijos imperinė apygarda</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Bourgondische Kreits</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Бургундский округ</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">กลุ่มบูร์กอญ</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Den burgundiske rikskrets</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Círculo da Borgonha</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Burgundiska kretsen</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Burgundia ringkond</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Cercle de Borgonya</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Бургундски округ</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">勃艮第行政圈</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ブルグント・クライス</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Burgundský kraj</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Κύκλος της Βουργουνδίας</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/087fth"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/241883801"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4746767-8"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/burgundian_circle#membership_1baaedd07cbc87f41f4a2de291ce4fb9"/>
+    </foaf:Organization>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/burgundian_circle#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/burgundian_circle"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T12:16:40.808Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/burgundian_circle#membership_1baaedd07cbc87f41f4a2de291ce4fb9">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1806</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>
