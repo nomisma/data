@@ -20,7 +20,7 @@
     <foaf:Organization rdf:about="http://nomisma.org/id/lower_saxon_circle">
         <skos:prefLabel xml:lang="en">Lower Saxon circle</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The Lower Saxon circle was one of the Imperial circles within the Holy Roman. It was created by a dividing the Saxon Imperial circle into two in 1512.</skos:definition>
+        <skos:definition xml:lang="en">The Lower Saxon circle was one of the Imperial circles within the Holy Roman. It was created by dividing the Saxon Imperial circle into two in 1512.</skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/lower_saxon_circle#provenance"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q616195"/>
@@ -48,6 +48,9 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4042231-8"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/234582258"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/lower_saxon_circle#membership_b33c7474b9d543afea50db0c3ebc3dc8"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
     </foaf:Organization>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lower_saxon_circle#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/lower_saxon_circle"/>
@@ -59,6 +62,22 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-11T04:02:11.438Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-11T04:05:16.582Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <org:Membership rdf:about="http://nomisma.org/id/lower_saxon_circle#membership_b33c7474b9d543afea50db0c3ebc3dc8">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>

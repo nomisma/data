@@ -53,6 +53,9 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4118515-8"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/08c1_4"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/swabian_circle#membership_2498f1865452655edf18ae7c0b29f487"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
     </foaf:Organization>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/swabian_circle#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/swabian_circle"/>
@@ -64,6 +67,14 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-11T04:07:39.357Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <org:Membership rdf:about="http://nomisma.org/id/swabian_circle#membership_2498f1865452655edf18ae7c0b29f487">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
