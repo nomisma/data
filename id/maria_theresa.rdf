@@ -16,10 +16,11 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/maria_theresa">
+        <skos:definition xml:lang="de">Maria Theresia von Österreich (13. Mai 1717 in Wien - 29. November 1780 Wien) war eine Fürstin des Hauses Habsburg. Sie regierte von 1740 bis zu ihrem Tod als Erzherzogin von Österreich und Königin unter anderem von Ungarn (mit Kroatien) und Böhmen.</skos:definition>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Maria Theresa</skos:prefLabel>
         <skos:prefLabel xml:lang="ar">مارى تريزا</skos:prefLabel>
-        <skos:definition xml:lang="en">Maria Theresa Walburga Amalia Christina (reigned 1740-1780) was the only Queen regnant of the Habsburg dominions and the last of the House of Habsburg. She was the sovereign of Austria, Hungary, Croatia, Bohemia, Mantua, Milan, Lodomeria and Galicia, the Austrian Netherlands and Parma. By marriage, she was Duchess of Lorraine, Grand Duchess of Tuscany and Holy Roman Empress.</skos:definition>
+        <skos:definition xml:lang="en">Maria Theresa Walburga Amalia Christina (13 May 1717 in Vienna - 29 November 1780 in Vienna), reigned from 1740 to 1780. She was the only Queen regnant of the Habsburg dominions and the last of the House of Habsburg. She was the sovereign of Austria, Hungary, Croatia, Bohemia, Mantua, Milan, Lodomeria and Galicia, the Austrian Netherlands and Parma. By marriage, she was Duchess of Lorraine, Grand Duchess of Tuscany and Holy Roman Empress.</skos:definition>
         <org:hasMembership rdf:resource="http://nomisma.org/id/maria_theresa#authority"/>
         <org:memberOf rdf:resource="http://nomisma.org/id/habsburgs"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Maria_Theresa"/>
@@ -88,6 +89,8 @@
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1159"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/maria_theresa#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/maria_theresa#death"/>
     </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/maria_theresa#authority">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
@@ -126,5 +129,19 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-19T07:00:50.511Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/maria_theresa#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1717</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/maria_theresa#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1780</dcterms:date>
+    </bio:Death>
 </rdf:RDF>
