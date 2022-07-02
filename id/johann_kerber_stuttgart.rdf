@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,29 +16,38 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/johann_kerber_stuttgart">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/johann_kerber_stuttgart#modern_period_mint_staff"/>
-      <skos:prefLabel xml:lang="en">Johann Kerber</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-      <skos:definition xml:lang="en">Mintmaster in Stuttgart, Baden-Wuerttemberg, Germany from ? to ca. 1620. Lit.: U. Klein and A. Raff, Die Württembergischen Münzen von 1373 - 1693 (1993), p. 126</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/johann_kerber_stuttgart#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_kerber_stuttgart#modern_period_mint_staff"/>
+        <skos:prefLabel xml:lang="en">Johann Kerber</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">Mintmaster in Stuttgart, Baden-Wuerttemberg, Germany from ? to ca. 1620. Lit.: U. Klein and A. Raff, Die Württembergischen Münzen von 1373 - 1693 (1993), p. 126</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/johann_kerber_stuttgart#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/13473"/>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/johann_kerber_stuttgart#modern_period_mint_staff">
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1620</nmo:hasEndDate>
-      <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
-      <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1620</nmo:hasEndDate>
+        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+        <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/johann_kerber_stuttgart#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/johann_kerber_stuttgart"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/johann_kerber_stuttgart"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-02T03:36:12.334Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
