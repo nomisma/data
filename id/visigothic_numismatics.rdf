@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -16,21 +16,32 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:FieldOfNumismatics rdf:about="http://nomisma.org/id/visigothic_numismatics">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Visigothic Numismatics</skos:prefLabel>
-      <skos:definition xml:lang="en">The study of the Coinage of the Visigoths from the 5th to early 8th century AD.</skos:definition>
-      <skos:broader rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/visigothic_numismatics#provenance"/>
-   </nmo:FieldOfNumismatics>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Visigothic Numismatics</skos:prefLabel>
+        <skos:definition xml:lang="en">The study of the Coinage of the Visigoths from the 5th to early 8th century AD.</skos:definition>
+        <skos:broader rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/visigothic_numismatics#provenance"/>
+        <skos:related rdf:resource="http://n2t.net/ark:/99152/p08m57hvg52"/>
+        <skos:related rdf:resource="http://n2t.net/ark:/99152/p08m57h6x3k"/>
+        <skos:related rdf:resource="http://vocab.getty.edu/aat/300019494"/>
+    </nmo:FieldOfNumismatics>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/visigothic_numismatics#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/visigothic_numismatics"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-21T04:00:01-05:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/visigothic_numismatics"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-21T04:00:01-05:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-13T15:49:09.035Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

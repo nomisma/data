@@ -25,6 +25,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/medieval_scandinavian_numismatics#provenance"/>
         <skos:broader rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <skos:related rdf:resource="http://vocab.getty.edu/aat/300020936"/>
     </nmo:FieldOfNumismatics>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/medieval_scandinavian_numismatics#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/medieval_scandinavian_numismatics"/>
@@ -36,5 +37,13 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-13T16:25:13.376Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
