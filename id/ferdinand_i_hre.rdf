@@ -96,6 +96,7 @@
         <org:memberOf rdf:resource="http://nomisma.org/id/habsburgs"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/ferdinand_i_hre#membership_1b22b1bd599add1e014d589fcc706d80"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/605"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/ferdinand_i_hre#membership_bc8b4642a12c7dc1a38d49882428dce8"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ferdinand_i_hre#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/ferdinand_i_hre"/>
@@ -107,6 +108,14 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T03:57:10.26Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <bio:Birth rdf:about="http://nomisma.org/id/ferdinand_i_hre#birth">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</dcterms:date>
@@ -118,6 +127,12 @@
         <org:role rdf:resource="http://nomisma.org/id/emperor"/>
         <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1564</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/ferdinand_i_hre#membership_bc8b4642a12c7dc1a38d49882428dce8">
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/kingdom_of_bohemia"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1526</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1564</nmo:hasEndDate>
     </org:Membership>
 </rdf:RDF>

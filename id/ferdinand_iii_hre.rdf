@@ -96,6 +96,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/ferdinand_iii_hre#membership_c4c36b5e84cec2a04831d2b2fdd0ec69"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ferdinand_iii_hre#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/ferdinand_iii_hre"/>
@@ -107,6 +108,14 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T03:55:30.86Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <org:Membership rdf:about="http://nomisma.org/id/ferdinand_iii_hre#membership_c6895dd59112c61b5475d183ff1ffe3a">
         <org:role rdf:resource="http://nomisma.org/id/emperor"/>
@@ -120,4 +129,10 @@
     <bio:Death rdf:about="http://nomisma.org/id/ferdinand_iii_hre#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1657</dcterms:date>
     </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/ferdinand_iii_hre#membership_c4c36b5e84cec2a04831d2b2fdd0ec69">
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/kingdom_of_bohemia"/>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1657</nmo:hasEndDate>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1627</nmo:hasStartDate>
+    </org:Membership>
 </rdf:RDF>

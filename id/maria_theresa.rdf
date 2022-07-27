@@ -91,6 +91,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
         <bio:birth rdf:resource="http://nomisma.org/id/maria_theresa#birth"/>
         <bio:death rdf:resource="http://nomisma.org/id/maria_theresa#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/maria_theresa#membership_ee6c22814ac6f5a12cf75fa8b32d798d"/>
     </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/maria_theresa#authority">
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
@@ -137,6 +138,14 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T03:54:33.428Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <bio:Birth rdf:about="http://nomisma.org/id/maria_theresa#birth">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1717</dcterms:date>
@@ -144,4 +153,10 @@
     <bio:Death rdf:about="http://nomisma.org/id/maria_theresa#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1780</dcterms:date>
     </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/maria_theresa#membership_ee6c22814ac6f5a12cf75fa8b32d798d">
+        <org:role rdf:resource="http://nomisma.org/id/queen"/>
+        <org:organization rdf:resource="http://nomisma.org/id/kingdom_of_bohemia"/>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1780</nmo:hasEndDate>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1743</nmo:hasStartDate>
+    </org:Membership>
 </rdf:RDF>

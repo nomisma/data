@@ -93,6 +93,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1180"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/maximilian_ii_hre#membership_4f545c9ec8b4dcc1da01b86c8244d944"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/maximilian_ii_hre#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/maximilian_ii_hre"/>
@@ -104,6 +105,14 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T03:59:22.758Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <bio:Birth rdf:about="http://nomisma.org/id/maximilian_ii_hre#birth">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1527</dcterms:date>
@@ -116,5 +125,11 @@
         <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1564</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1576</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/maximilian_ii_hre#membership_4f545c9ec8b4dcc1da01b86c8244d944">
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1562</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1576</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/kingdom_of_bohemia"/>
     </org:Membership>
 </rdf:RDF>
