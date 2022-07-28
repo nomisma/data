@@ -1,54 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/phintias_agrigentum">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Phintias of Akragas</skos:prefLabel>
-        <skos:definition xml:lang="en">Phintias was an ancient Greek tyrant of the Sicilian town of Acragas (c. 288 - 279 BC). He appears to have established his power over that city during the period of confusion which followed the death of Agathocles (289 BC), about the same time that Hicetas obtained the chief command at Syracuse.</skos:definition>
-        <skos:prefLabel xml:lang="it">Finzia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Fínties d'Agrigent</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Finzia</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Finzia</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Φιντίας του Αγκριτζέντο</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3745776"/>
-        <skos:altLabel xml:lang="en">Phintias</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/phintias_agrigentum#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/phintias_agrigentum#provenance"/>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/phintias_agrigentum#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/agrigentum_city"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0288</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0279</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/phintias_agrigentum#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/phintias_agrigentum"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/phintias_agrigentum">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Phintias of Akragas</skos:prefLabel>
+      <skos:definition xml:lang="en">Phintias was an ancient Greek tyrant of the Sicilian town of Acragas (c. 288 - 279 BC). He appears to have established his power over that city during the period of confusion which followed the death of Agathocles (289 BC), about the same time that Hicetas obtained the chief command at Syracuse.</skos:definition>
+      <skos:prefLabel xml:lang="it">Finzia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Fínties d'Agrigent</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Finzia</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Finzia</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Φιντίας του Αγκριτζέντο</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3745776"/>
+      <skos:altLabel xml:lang="en">Phintias</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/phintias_agrigentum#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/phintias_agrigentum#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/12363"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/phintias_agrigentum#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/agrigentum_city"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0288</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0279</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/phintias_agrigentum#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/phintias_agrigentum"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

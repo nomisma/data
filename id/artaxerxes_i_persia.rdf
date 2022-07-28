@@ -1,100 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/artaxerxes_i_persia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Artaxerxes I of Persia</skos:prefLabel>
-        <skos:definition xml:lang="en">Artaxerxes I (Old Persian: 𐎠𐎼𐎫𐎧𐏁𐏂 Artaxšaça,"whose rule (xšaça &lt; *xšaϑram) is through arta ("truth"); Hebrew: אַרְתַּחְשַׁשְׂתָּא, Modern: ʾArtaḥšásta, Tiberian: ʾArtaḥšasetāʾ; Ancient Greek: Ἀρταξέρξης, romanized: Artaxérxēs) was the sixth King of Kings of the Achaemenid Empire, from 465-424 BC. He was the third son of Xerxes I.</skos:definition>
-        <skos:prefLabel xml:lang="pl">Artakserkses I</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Артаксеркс I Лангіман</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">ארתחששתא הראשון</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Artaxerxès Ier</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Artajerjes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Artaxerxes 1k Pẹ́rsíà</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">I. Artakhsaszjá perzsa király</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Artaserse I di Persia</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Artaxerxes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Artaxerxes I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Artahsasta I dari Persia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アルタクセルクセス1世</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Artaxerxes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Artakserks I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Artaxerxes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Artaxerxes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Artaxerxes I da Pérsia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Artaĥŝaŝt</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Артаксеркс I</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Արտաքսերքսես I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Artaxerxes I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Artaxerxes I de Pèrsia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Artakserkses I</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Артаксеркс I</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Artaxerxes I, brenin Persia</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Artaxerxés I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Артаксеркс I</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">اردشیر یکم</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">არტაქსერქსე I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">اردشیراول</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Artakserkso I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Артаксеркс I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Артаксеркс I</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿爾塔薛西斯一世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αρταξέρξης Α΄ της Περσίας</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Artaxerxes I av Persia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Artaxerxes I av Persia</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Artaxerxes I ng Persia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أرتحششتا الأول</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Artaxerxes I.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Artakserks</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">I. Artaserhas</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">아르타크세르크세스 1세</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Artakserks I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Artakserksesy I</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q189689"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/30953676"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/102382026"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0hyvg"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000067019487"/>
-        <skos:altLabel xml:lang="en">Artaxerxes I</skos:altLabel>
-        <org:memberOf rdf:resource="http://nomisma.org/id/achaemenid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/artaxerxes_i_persia#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/36741/Artaxerxes-I"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/artaxerxes_i_persia#provenance"/>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/artaxerxes_i_persia#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/achaemenid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0465</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0424</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/artaxerxes_i_persia#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/artaxerxes_i_persia"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/artaxerxes_i_persia">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Artaxerxes I of Persia</skos:prefLabel>
+      <skos:definition xml:lang="en">Artaxerxes I (Old Persian: 𐎠𐎼𐎫𐎧𐏁𐏂 Artaxšaça,"whose rule (xšaça &lt; *xšaϑram) is through arta ("truth"); Hebrew: אַרְתַּחְשַׁשְׂתָּא, Modern: ʾArtaḥšásta, Tiberian: ʾArtaḥšasetāʾ; Ancient Greek: Ἀρταξέρξης, romanized: Artaxérxēs) was the sixth King of Kings of the Achaemenid Empire, from 465-424 BC. He was the third son of Xerxes I.</skos:definition>
+      <skos:prefLabel xml:lang="pl">Artakserkses I</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Артаксеркс I Лангіман</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">ארתחששתא הראשון</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Artaxerxès Ier</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Artajerjes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Artaxerxes 1k Pẹ́rsíà</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">I. Artakhsaszjá perzsa király</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Artaserse I di Persia</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Artaxerxes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Artaxerxes I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Artahsasta I dari Persia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アルタクセルクセス1世</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Artaxerxes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Artakserks I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Artaxerxes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Artaxerxes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Artaxerxes I da Pérsia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Artaĥŝaŝt</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Артаксеркс I</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Արտաքսերքսես I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Artaxerxes I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Artaxerxes I de Pèrsia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Artakserkses I</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Артаксеркс I</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Artaxerxes I, brenin Persia</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Artaxerxés I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Артаксеркс I</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">اردشیر یکم</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">არტაქსერქსე I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">اردشیراول</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Artakserkso I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Артаксеркс I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Артаксеркс I</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿爾塔薛西斯一世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αρταξέρξης Α΄ της Περσίας</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Artaxerxes I av Persia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Artaxerxes I av Persia</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Artaxerxes I ng Persia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أرتحششتا الأول</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Artaxerxes I.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Artakserks</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">I. Artaserhas</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">아르타크세르크세스 1세</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Artakserks I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Artakserksesy I</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q189689"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/30953676"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/102382026"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0hyvg"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000067019487"/>
+      <skos:altLabel xml:lang="en">Artaxerxes I</skos:altLabel>
+      <org:memberOf rdf:resource="http://nomisma.org/id/achaemenid_dynasty"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/artaxerxes_i_persia#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/36741/Artaxerxes-I"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/artaxerxes_i_persia#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/11455"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/artaxerxes_i_persia#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/achaemenid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0465</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0424</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/artaxerxes_i_persia#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/artaxerxes_i_persia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

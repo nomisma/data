@@ -1,83 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/artavasdes_i_media_atropotene">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Artavasdes I of Media Atropatene</skos:prefLabel>
-        <skos:definition xml:lang="en">Artavasdes I of Media Atropatene (before or about 59 BC -about 20 BC) was a Prince who served as a King of Media Atropatene.</skos:definition>
-        <skos:prefLabel xml:lang="fr">Artavazde Ier d'Atropatène</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Artavazd I od Medije Atropatene</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Artavasdes I da Média Atropatene</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Artavasdes I de Mèdia Atropatene</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Artavasdes II.</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Artavasde I di Media Atropatene</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Artawazdes I z Medii Atropatene</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Artavasdes I de Mèdia Atropatene</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Артавазд I (правитель Атропатены)</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Artavasdes I of Media Atropatene</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">I Artavazd</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">ארטוואסדס הראשון</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アルタヴァスデス1世</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Artavasdes I dari Media Atropatene</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αρταβάσδης Α΄ της Μηδίας Ατροπατηνής</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Մար Արտավազդ</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q706206"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/09k4fb0"/>
-        <skos:altLabel xml:lang="en">Artavasdes</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/artavasdes_i_media_atropotene#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/artavasdes_i_media_atropotene#provenance"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/artavasdes_i_media_atropotene#membership_4d4d0f9dba1a0827f99cd1522cdd2483"/>
-    </foaf:Person>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/artavasdes_i_media_atropotene#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/atropatene_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0056</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/artavasdes_i_media_atropotene#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/artavasdes_i_media_atropotene"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:36:24.667-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/artavasdes_i_media_atropotene#membership_4d4d0f9dba1a0827f99cd1522cdd2483">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/armenia_minor_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0020</nmo:hasEndDate>
-    </org:Membership>
+   <foaf:Person rdf:about="http://nomisma.org/id/artavasdes_i_media_atropotene">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Artavasdes I of Media Atropatene</skos:prefLabel>
+      <skos:definition xml:lang="en">Artavasdes I of Media Atropatene (before or about 59 BC -about 20 BC) was a Prince who served as a King of Media Atropatene.</skos:definition>
+      <skos:prefLabel xml:lang="fr">Artavazde Ier d'Atropatène</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Artavazd I od Medije Atropatene</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Artavasdes I da Média Atropatene</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Artavasdes I de Mèdia Atropatene</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Artavasdes II.</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Artavasde I di Media Atropatene</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Artawazdes I z Medii Atropatene</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Artavasdes I de Mèdia Atropatene</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Артавазд I (правитель Атропатены)</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Artavasdes I of Media Atropatene</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">I Artavazd</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">ארטוואסדס הראשון</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アルタヴァスデス1世</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Artavasdes I dari Media Atropatene</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αρταβάσδης Α΄ της Μηδίας Ατροπατηνής</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Մար Արտավազդ</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q706206"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/09k4fb0"/>
+      <skos:altLabel xml:lang="en">Artavasdes</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/artavasdes_i_media_atropotene#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/artavasdes_i_media_atropotene#provenance"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/artavasdes_i_media_atropotene#membership_4d4d0f9dba1a0827f99cd1522cdd2483"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/artavasdes_i_media_atropotene#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/atropatene_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0056</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/artavasdes_i_media_atropotene#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/artavasdes_i_media_atropotene"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:36:24.667-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/artavasdes_i_media_atropotene#membership_4d4d0f9dba1a0827f99cd1522cdd2483">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/armenia_minor_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0020</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

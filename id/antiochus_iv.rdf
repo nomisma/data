@@ -1,128 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/antiochus_iv">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Antiochus IV Epiphanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Антіох IV</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Antiochos IV.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Antíoc IV Epífanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Antiochos IV. Epifanés</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">安条克四世</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Antiochos IV Epiphanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Антиох IV Эпифан</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Antíoco IV Epífanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">IV. Antiokhosz szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Antiokhos IV Epifanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">안티오코스 4세</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Antiochus IV Epiphanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アンティオコス4世エピファネス</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Antioco IV</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Antioch IV Epifanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Antiokos IV Epifanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Antíoco IV Epifânio</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Antiochos IV</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Antiochos IV</skos:prefLabel>
-        <skos:definition xml:lang="en">Antiochus IV Epiphanes (play /ænˈtaɪ.əkəs ɛˈpɪfəniːz/; Ancient Greek: Ἀντίοχος Ἐπιφανής, 'God Manifest'; c. 215 BC – 164 BC) ruled the Seleucid Empire from 175 BC until his death in 164 BC. He was a son of King Antiochus III the Great. His original name was Mithridates; he assumed the name Antiochus after he ascended the throne.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_IV_Epiphanes"/>
-        
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3356"/>
-        <skos:prefLabel xml:lang="nb">Antiokos IV Epifanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أنطيوخوس الرابع</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Антиох IV Епифан</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Antiochos 4. af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αντίοχος Δ' Επιφανής</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Antioĥo la 4-a Epifano</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Antioko IV.a Epifanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آنتیوخوس چهارم</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אנטיוכוס הרביעי</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Antioh IV. Epifan</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Antiokhos IV Epiphanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ანტიოქე IV ეპიფანე</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Antiochus IV Epiphanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">അന്ത്യോക്കസ് IV എപ്പിഫനസ്</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Антиох IV Эпифанес</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Antioh IV Epifan</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Antioko Epifane</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Antiochus IV Epiphanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Antiochus IV Epiphanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">IV. Antiokhos Epiphanēs</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/146076137"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118503413"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/050580914"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0m_45"/>
-        <skos:prefLabel xml:lang="sr">Антиох IV Епифан</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Антыёх IV Эпіфан</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/1146153248105261567"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_iv#provenance"/>
-        <skos:prefLabel xml:lang="tg">Антиохи IV</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000108137616"/>
-        <skos:prefLabel xml:lang="am">አንጥያኮስ አፊፋኖስ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">آنتیوخوس چہارم</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Antiokosy IV Epifanesy</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Antiochus IV of Syria</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_iv#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/28380/Antiochus-IV-Epiphanes"/>
-    </foaf:Person>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Antiochus IV Epiphanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Антіох IV</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Antiochos IV.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Antíoc IV Epífanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Antiochos IV. Epifanés</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">安条克四世</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Antiochos IV Epiphanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Антиох IV Эпифан</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Antíoco IV Epífanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">IV. Antiokhosz szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Antiokhos IV Epifanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">안티오코스 4세</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Antiochus IV Epiphanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アンティオコス4世エピファネス</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Antioco IV</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Antioch IV Epifanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Antiokos IV Epifanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Antíoco IV Epifânio</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Antiochos IV</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Antiochos IV</skos:prefLabel>
+      <skos:definition xml:lang="en">Antiochus IV Epiphanes (play /ænˈtaɪ.əkəs ɛˈpɪfəniːz/; Ancient Greek: Ἀντίοχος Ἐπιφανής, 'God Manifest'; c. 215 BC – 164 BC) ruled the Seleucid Empire from 175 BC until his death in 164 BC. He was a son of King Antiochus III the Great. His original name was Mithridates; he assumed the name Antiochus after he ascended the throne.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_IV_Epiphanes"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3356"/>
+      <skos:prefLabel xml:lang="nb">Antiokos IV Epifanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أنطيوخوس الرابع</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Антиох IV Епифан</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Antiochos 4. af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αντίοχος Δ' Επιφανής</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Antioĥo la 4-a Epifano</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Antioko IV.a Epifanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آنتیوخوس چهارم</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אנטיוכוס הרביעי</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Antioh IV. Epifan</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Antiokhos IV Epiphanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ანტიოქე IV ეპიფანე</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Antiochus IV Epiphanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">അന്ത്യോക്കസ് IV എപ്പിഫനസ്</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Антиох IV Эпифанес</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Antioh IV Epifan</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Antioko Epifane</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Antiochus IV Epiphanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Antiochus IV Epiphanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">IV. Antiokhos Epiphanēs</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/146076137"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118503413"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/050580914"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0m_45"/>
+      <skos:prefLabel xml:lang="sr">Антиох IV Епифан</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Антыёх IV Эпіфан</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/1146153248105261567"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_iv#provenance"/>
+      <skos:prefLabel xml:lang="tg">Антиохи IV</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000108137616"/>
+      <skos:prefLabel xml:lang="am">አንጥያኮስ አፊፋኖስ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">آنتیوخوس چہارم</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Antiokosy IV Epifanesy</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Antiochus IV of Syria</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_iv#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/28380/Antiochus-IV-Epiphanes"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/327"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_iv#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_iv"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-16T04:00:01-06:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-23T08:37:56.06-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Uqel_NSiw9HP_znRaYcD7PbEYYyrMs1nM-TyOFFg984/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/antiochus_iv#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0175</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0164</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_iv"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-16T04:00:01-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-23T08:37:56.06-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Uqel_NSiw9HP_znRaYcD7PbEYYyrMs1nM-TyOFFg984/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/antiochus_iv#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0175</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0164</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

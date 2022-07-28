@@ -1,127 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/appenzell">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Appenzell</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint of Appenzell, the capital of the canton of Appenzell Innerrhoden in Switzerland. This canton issued coins in its mint from 1737 to 1743. </skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Appenzell_(village)"/>
-        <skos:prefLabel xml:lang="pl">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אפנצל</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">아펜첼</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アッペンツェル</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Аппенцелль</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Аппенцелль</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Abbatis cella</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Апенцел</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">اپانزل</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Apencelis</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Апенцел</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿彭策爾</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Аппенцелль</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أبنزل</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Apencelle</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">اپینسیل</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Аппенцелль</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Appenzell (town)</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Appenzell</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Άπεντσελ</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q209270"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/01vbx3"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/2661740/"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4002485-4"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/156337782"/>
-        <skos:closeMatch rdf:resource="http://isni.org/0000000121815338"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb131770822"/>
-        <skos:closeMatch rdf:resource="http://www.idref.fr/035253746"/>
-        <geo:location rdf:resource="http://nomisma.org/id/appenzell#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/appenzell#provenance"/>
-        <skos:prefLabel xml:lang="th">อัพเพินท์เซลล์</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Ապենցել</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Appenzell (ciutat)</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Apencelo</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/2661740"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-    </nmo:Mint>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/appenzell#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.333333</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.416667</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/appenzell#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/appenzell"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:16.481-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T08:15:04.705-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T08:33:40.429-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/appenzell">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Appenzell</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint of Appenzell, the capital of the canton of Appenzell Innerrhoden in Switzerland. This canton issued coins in its mint from 1737 to 1743. </skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Appenzell_(village)"/>
+      <skos:prefLabel xml:lang="pl">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אפנצל</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">아펜첼</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アッペンツェル</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Аппенцелль</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Аппенцелль</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Abbatis cella</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Апенцел</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">اپانزل</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Apencelis</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Апенцел</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿彭策爾</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Аппенцелль</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أبنزل</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Apencelle</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">اپینسیل</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Аппенцелль</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Appenzell (town)</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Appenzell</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Άπεντσελ</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q209270"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/01vbx3"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/2661740/"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4002485-4"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/156337782"/>
+      <skos:closeMatch rdf:resource="http://isni.org/0000000121815338"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb131770822"/>
+      <skos:closeMatch rdf:resource="http://www.idref.fr/035253746"/>
+      <geo:location rdf:resource="http://nomisma.org/id/appenzell#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/appenzell#provenance"/>
+      <skos:prefLabel xml:lang="th">อัพเพินท์เซลล์</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Ապենցել</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Appenzell (ciutat)</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Apencelo</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/2661740"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/appenzell#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.333333</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.416667</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/appenzell#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/appenzell"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:16.481-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T08:15:04.705-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T08:33:40.429-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

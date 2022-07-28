@@ -1,172 +1,171 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/pompey">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Pompey</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Cneo Pompeyo Magno</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Pompejusz</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Гней Помпей Великий</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Gnaeus Pompeius Magnus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Pompeius</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Pompejus</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">格奈乌斯·庞培</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pompée</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Gneo Pompeo Magno</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">グナエウス・ポンペイウス</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Pompeu</skos:prefLabel>
-        <skos:definition xml:lang="en">Gnaeus Pompeius Magnus (29 September 106 BC – 28 September 48 BC), usually known in English as Pompey or Pompey the Great, was a military and political leader of the late Roman Republic.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pompey"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/6224297/"/>
-        <skos:altLabel xml:lang="la">Gnaeus Pompeius Magnus</skos:altLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q125414"/>
-        <skos:prefLabel xml:lang="bo">ཕང་ཕེ་</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Ponpeio</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Pompej</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Pompey</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Cnaeus Pompeius Magnus</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Pompeius</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Gnaeus Pompeius Magnus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Pompei</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πομπήιος</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Pompeio Magne</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Gnaeus Pompeius Magnus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بومبيوس الكبير</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Pompeius</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Pompeo</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Gnaeus Pompeius Magnus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Pompeius</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Гней Помпей Великий</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Qney Pompey</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Pompej Veliki</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Gneu Pompeyo Magno</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Pompejus</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Гней Пампей Вялікі</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">גנאיוס פומפיוס מגנוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">그나이우스 폼페이우스 마그누스</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Cneo Pompeio Magno</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Pompeius</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Pompey</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Pompej</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Gnaeus Pompeius Magnus</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Помпей</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Գնեոս Պոմպեոս</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Pompejus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Cneus Pompeius Magnus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Gneu Pompeu Magne</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Gnaeus Pompeius Magnus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Gnaeus Pompeius Magnus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Pompej Veliki</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Pompeius</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پومپه</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Помпей Велики</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">გნეუს პომპეუს მაგნუსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">پامپے</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Gnėjus Pompėjus Didysis</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">പോംപി</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Гнеј Помпеј Велики</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Gnejs Pompejs</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Pompey</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Pompeius</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">পম্পে</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Помпей Гней</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Pompeius</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/6224297"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118595636"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000066304243"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/027318001"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/05z3r"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500355380"/>
-        <skos:prefLabel xml:lang="af">Pompeius</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11938643b"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/pompey#provenance"/>
-        
-        
-        <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pompey#membership_4baa3e41cb521a9b5f5209645a4ab798"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pompey#membership_d9140b71c06402bd5e4208099f75fae1"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Pompey</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Cneo Pompeyo Magno</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Pompejusz</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Гней Помпей Великий</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Gnaeus Pompeius Magnus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Pompeius</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Pompejus</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">格奈乌斯·庞培</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Pompée</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Gneo Pompeo Magno</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">グナエウス・ポンペイウス</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Pompeu</skos:prefLabel>
+      <skos:definition xml:lang="en">Gnaeus Pompeius Magnus (29 September 106 BC – 28 September 48 BC), usually known in English as Pompey or Pompey the Great, was a military and political leader of the late Roman Republic.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pompey"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/6224297/"/>
+      <skos:altLabel xml:lang="la">Gnaeus Pompeius Magnus</skos:altLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q125414"/>
+      <skos:prefLabel xml:lang="bo">ཕང་ཕེ་</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Ponpeio</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Pompej</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Pompey</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Cnaeus Pompeius Magnus</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Pompeius</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Gnaeus Pompeius Magnus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Pompei</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πομπήιος</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Pompeio Magne</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Gnaeus Pompeius Magnus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بومبيوس الكبير</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Pompeius</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Pompeo</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Gnaeus Pompeius Magnus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Pompeius</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Гней Помпей Великий</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Qney Pompey</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Pompej Veliki</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Gneu Pompeyo Magno</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Pompejus</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Гней Пампей Вялікі</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">גנאיוס פומפיוס מגנוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">그나이우스 폼페이우스 마그누스</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Cneo Pompeio Magno</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Pompeius</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Pompey</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Pompej</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Gnaeus Pompeius Magnus</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Помпей</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Գնեոս Պոմպեոս</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Pompejus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Cneus Pompeius Magnus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Gneu Pompeu Magne</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Gnaeus Pompeius Magnus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Gnaeus Pompeius Magnus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Pompej Veliki</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Pompeius</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پومپه</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Помпей Велики</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">გნეუს პომპეუს მაგნუსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">پامپے</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Gnėjus Pompėjus Didysis</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">പോംപി</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Гнеј Помпеј Велики</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Gnejs Pompejs</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Pompey</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Pompeius</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">পম্পে</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Помпей Гней</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Pompeius</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/6224297"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118595636"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000066304243"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/027318001"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/05z3r"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500355380"/>
+      <skos:prefLabel xml:lang="af">Pompeius</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11938643b"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pompey#provenance"/>
+      <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/pompey#membership_4baa3e41cb521a9b5f5209645a4ab798"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/pompey#membership_d9140b71c06402bd5e4208099f75fae1"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2511"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pompey#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/pompey"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T14:46:53.695Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T14:34:14.229Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:11:54.895Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:17:47.053Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    
-    
-    <org:Membership rdf:about="http://nomisma.org/id/pompey#membership_4baa3e41cb521a9b5f5209645a4ab798">
-        <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
-        <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0071</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0071</nmo:hasEndDate>
-    </org:Membership>
-    <org:Membership rdf:about="http://nomisma.org/id/pompey#membership_d9140b71c06402bd5e4208099f75fae1">
-        <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
-        <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0049</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0049</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/pompey"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T14:46:53.695Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T14:34:14.229Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:11:54.895Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:17:47.053Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/pompey#membership_4baa3e41cb521a9b5f5209645a4ab798">
+      <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
+      <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0071</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0071</nmo:hasEndDate>
+   </org:Membership>
+   <org:Membership rdf:about="http://nomisma.org/id/pompey#membership_d9140b71c06402bd5e4208099f75fae1">
+      <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
+      <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0049</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0049</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

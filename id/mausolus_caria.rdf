@@ -1,92 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/mausolus_caria">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Mausolus of Caria</skos:prefLabel>
-        <skos:definition xml:lang="en">Mausolus (Greek: Μαύσωλος or Μαύσσωλλος; Carian: 𐊪𐊠𐊲𐊸𐊫𐊦 Mauśoλ “very dear”) was a ruler of Caria (377–353 BC), nominally a satrap of the Achaemenid Empire. He enjoyed the status of king or dynast by virtue of the powerful position created by his father Hecatomnus</skos:definition>
-        <skos:prefLabel xml:lang="pl">Mauzolos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Mausole</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מאוזולוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Mausolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Mausolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Mausolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Maussolos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">マウソロス</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μαύσωλος</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Mausolus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Mauzol</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Maussollos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Mausollos</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Mausolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Мавсол</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Mausolos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Mausol</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Мавсол</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Mausolus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Mausólos</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Мавзол</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">ماسول</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">მავსოლე</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Mauzol</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Mausolos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Маузол</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">马乌索卢斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Mausollos</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Мавзол</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Mausollos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Mavzol</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">마우솔로스</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Mausolos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Մավսոլ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">موسولوس</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q296857"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0knkh"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118641018"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000010589390"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb14979323c"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/72187427"/>
-        <skos:altLabel xml:lang="en">Mausollus</skos:altLabel>
-        <org:memberOf rdf:resource="http://nomisma.org/id/hecatomnid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/mausolus_caria#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Mausolus"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/mausolus_caria#provenance"/>
-    </foaf:Person>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/mausolus_caria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/caria_satrapy"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0377</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0353</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mausolus_caria#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/mausolus_caria"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Person rdf:about="http://nomisma.org/id/mausolus_caria">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Mausolus of Caria</skos:prefLabel>
+      <skos:definition xml:lang="en">Mausolus (Greek: Μαύσωλος or Μαύσσωλλος; Carian: 𐊪𐊠𐊲𐊸𐊫𐊦 Mauśoλ “very dear”) was a ruler of Caria (377–353 BC), nominally a satrap of the Achaemenid Empire. He enjoyed the status of king or dynast by virtue of the powerful position created by his father Hecatomnus</skos:definition>
+      <skos:prefLabel xml:lang="pl">Mauzolos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Mausole</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מאוזולוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Mausolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Mausolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Mausolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Maussolos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">マウソロス</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μαύσωλος</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Mausolus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Mauzol</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Maussollos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Mausollos</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Mausolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Мавсол</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Mausolos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Mausol</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Мавсол</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Mausolus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Mausólos</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Мавзол</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">ماسول</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">მავსოლე</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Mauzol</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Mausolos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Маузол</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">马乌索卢斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Mausollos</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Мавзол</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Mausollos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Mavzol</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">마우솔로스</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Mausolos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Մավսոլ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">موسولوس</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q296857"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0knkh"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118641018"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000010589390"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb14979323c"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/72187427"/>
+      <skos:altLabel xml:lang="en">Mausollus</skos:altLabel>
+      <org:memberOf rdf:resource="http://nomisma.org/id/hecatomnid_dynasty"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/mausolus_caria#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Mausolus"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/mausolus_caria#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/mausolus_caria#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/caria_satrapy"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0377</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0353</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mausolus_caria#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/mausolus_caria"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

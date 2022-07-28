@@ -1,146 +1,147 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/umbria">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Umbria</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Umbria as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/413360"/>
-      
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/umbria#provenance"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_italy"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1280"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Umbria"/>
-        <skos:prefLabel xml:lang="it">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Умбрия</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ombrie</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Umbrien</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Umbría</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أومبريا</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Умбрыя</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Умбрия</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Umbrija</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Úmbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Umbrie</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Умбрия</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ούμπρια</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Umbrio</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Umbría</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">اومبریا</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Umbrje</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Umbría - Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אומבריה</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Umbrija</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Umbra</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Úmbría</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ウンブリア州</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">უმბრია</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Умбрия</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">움브리아주</skos:prefLabel>
-        <skos:prefLabel xml:lang="kw">Umbri</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Umbrien</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Umbrija</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Umbrija</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">अंब्रिया</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Umbrië</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Ómbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="os">Умбри</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Úmbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="se">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Umbrija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Umbrija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Умбрија</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Umbrien</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">แคว้นอุมเบรีย</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Умбрія</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">امبریا</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">翁布里亚</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਊਂਬਰੀਆ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Умбри</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Umbrië</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Ումբրիա</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Umbria</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Умбрија</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ኡምብሪያ</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Umbrië</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Umbriya</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4061581-9"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0dlw0"/>
-        <skos:exactMatch rdf:resource="http://sws.geonames.org/3165048/"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000123374150"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7003125"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119515026"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/239891104"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Umbria</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Umbria as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/413360"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/umbria#provenance"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_italy"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1280"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Umbria"/>
+      <skos:prefLabel xml:lang="it">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Умбрия</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ombrie</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Umbrien</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Umbría</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أومبريا</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Умбрыя</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Умбрия</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Umbrija</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Úmbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Umbrie</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Умбрия</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ούμπρια</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Umbrio</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Umbría</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">اومبریا</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Umbrje</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Umbría - Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אומבריה</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Umbrija</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Umbra</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Úmbría</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ウンブリア州</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">უმბრია</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Умбрия</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">움브리아주</skos:prefLabel>
+      <skos:prefLabel xml:lang="kw">Umbri</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Umbrien</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Umbrija</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Umbrija</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">अंब्रिया</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Umbrië</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Ómbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="os">Умбри</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Úmbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="se">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Umbrija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Umbrija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Умбрија</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Umbrien</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">แคว้นอุมเบรีย</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Умбрія</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">امبریا</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">翁布里亚</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਊਂਬਰੀਆ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Умбри</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Umbrië</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Ումբրիա</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Umbria</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Умбрија</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ኡምብሪያ</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Umbrië</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Umbriya</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4061581-9"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0dlw0"/>
+      <skos:exactMatch rdf:resource="http://sws.geonames.org/3165048/"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000123374150"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7003125"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119515026"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/239891104"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/477"/>
+   </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/umbria#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/umbria"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-20T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:54:28.944-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/umbria"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-20T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:54:28.944-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

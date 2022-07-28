@@ -1,76 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Collection rdf:about="http://nomisma.org/id/nationalmuseet_danmark">
-        <skos:prefLabel xml:lang="en">National Museum of Denmark</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Nationalmuseet i København</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The National Museum of Denmark (Nationalmuseet) in Copenhagen is Denmark’s largest museum of cultural history, comprising the histories of Danish and foreign cultures, alike.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <foaf:homepage rdf:resource="https://natmus.dk/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/nationalmuseet_danmark#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q648166"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/National_Museum_of_Denmark"/>
-        <skos:prefLabel xml:lang="fr">musée national du Danemark</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Датский национальный музей</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">국립박물관</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Museo Nacional de Dinamarca</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Danimarka Millî Müzesi</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Museu Nacional de Dinamarca</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Dán Nemzeti Múzeum</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Museo nazionale danese</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Dänisches Nationalmuseum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">デンマーク国立博物館</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Nationalmuseet i København</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Nationalmuseet</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Nationalmuseet i Köpenhamn</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Nationalmuseet</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Museum Nasional Denmark</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">國立丹麥博物館</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Національний музей Данії</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Դանիայի ազգային թանգարան</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Дацкі нацыянальны музей</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Nacimuzeo</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Tanskan kansallismuseo</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Taani Rahvusmuuseum</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">המוזיאון הלאומי של דנמרק</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04t1n8"/>
-        <skos:exactMatch rdf:resource="http://sws.geonames.org/6949468"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1008218-9"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/169025484"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb118829698"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/026616629"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000122546512"/>
-        <foaf:thumbnail rdf:resource="https://upload.wikimedia.org/wikipedia/commons/4/45/Nationalmuseet_logo.svg"/>
-    </nmo:Collection>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/nationalmuseet_danmark#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/nationalmuseet_danmark"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-01T09:52:59.311-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/nationalmuseet_danmark">
+      <skos:prefLabel xml:lang="en">National Museum of Denmark</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Nationalmuseet i København</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The National Museum of Denmark (Nationalmuseet) in Copenhagen is Denmark’s largest museum of cultural history, comprising the histories of Danish and foreign cultures, alike.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <foaf:homepage rdf:resource="https://natmus.dk/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/nationalmuseet_danmark#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q648166"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/National_Museum_of_Denmark"/>
+      <skos:prefLabel xml:lang="fr">musée national du Danemark</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Датский национальный музей</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">국립박물관</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Museo Nacional de Dinamarca</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Danimarka Millî Müzesi</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Museu Nacional de Dinamarca</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Dán Nemzeti Múzeum</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Museo nazionale danese</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Dänisches Nationalmuseum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">デンマーク国立博物館</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Nationalmuseet i København</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Nationalmuseet</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Nationalmuseet i Köpenhamn</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Nationalmuseet</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Museum Nasional Denmark</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">國立丹麥博物館</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Національний музей Данії</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Դանիայի ազգային թանգարան</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Дацкі нацыянальны музей</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Nacimuzeo</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Tanskan kansallismuseo</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Taani Rahvusmuuseum</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">המוזיאון הלאומי של דנמרק</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/04t1n8"/>
+      <skos:exactMatch rdf:resource="http://sws.geonames.org/6949468"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1008218-9"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/169025484"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb118829698"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/026616629"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000122546512"/>
+      <foaf:thumbnail rdf:resource="https://upload.wikimedia.org/wikipedia/commons/4/45/Nationalmuseet_logo.svg"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/nationalmuseet_danmark#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/nationalmuseet_danmark"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-01T09:52:59.311-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

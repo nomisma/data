@@ -1,63 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Region rdf:about="http://nomisma.org/id/philistia">
-        <skos:prefLabel xml:lang="en">Philistia</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Philistia (Hebrew: פלשת, Pleshet) was a geo-political region occupied by the Philistines. Its northern boundary was the Yarkon River with the Mediterranean Sea on the west, the Kingdom of Judah to the east and the Wadi El-Arish to the south.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/philistia#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/660988416"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q7185566"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Philistia"/>
-        <skos:prefLabel xml:lang="pt">Filístia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Filistia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Filistia</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Филистия</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Filistea</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Filistea</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pentapolis</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Philistie</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">フィリスティア</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Pentàpolis filistea</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Filistia</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0k3kqzz"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020643"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_syria"/>
-    </nmo:Region>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/philistia#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/philistia"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-25T15:39:17.269-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-25T15:42:26.876-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Region rdf:about="http://nomisma.org/id/philistia">
+      <skos:prefLabel xml:lang="en">Philistia</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">Philistia (Hebrew: פלשת, Pleshet) was a geo-political region occupied by the Philistines. Its northern boundary was the Yarkon River with the Mediterranean Sea on the west, the Kingdom of Judah to the east and the Wadi El-Arish to the south.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/philistia#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/660988416"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q7185566"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Philistia"/>
+      <skos:prefLabel xml:lang="pt">Filístia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Filistia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Filistia</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Филистия</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Filistea</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Filistea</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Pentapolis</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Philistie</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">フィリスティア</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Pentàpolis filistea</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Filistia</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0k3kqzz"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020643"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_syria"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/585"/>
+   </nmo:Region>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/philistia#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/philistia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-25T15:39:17.269-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-25T15:42:26.876-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,71 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Organization rdf:about="http://nomisma.org/id/amathus_city">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Amathus</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Amathous</skos:altLabel>
-        <skos:definition xml:lang="en">Amathus or was an ancient city and one of the ancient royal cities of Cyprus until about 300 B.C.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amathus"/>
-        <skos:prefLabel xml:lang="pl">Amathus</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αμαθούντα</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Аматунда</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Аматус</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Amathonte</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Amathus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Amathus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Amathus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Amatunte</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Amathus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Amatunte</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">اماتھیس</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Amathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Amathusz</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Аматус</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Amathous</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アマトゥス</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Amathus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Amatunta</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Amathus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Amatunte</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2343313"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0s6b"/>
-        <skos:exactMatch rdf:resource="http://www.geonames.org/146822"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/amathus_city#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/amathus_city#provenance"/>
-    </foaf:Organization>
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/amathus_city#membership_bd17e2d21cbc5a487c852bea4809dbbe">
-        <org:role rdf:resource="http://nomisma.org/id/city-state"/>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/amathus_city#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/amathus_city"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Organization rdf:about="http://nomisma.org/id/amathus_city">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Amathus</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Amathous</skos:altLabel>
+      <skos:definition xml:lang="en">Amathus or was an ancient city and one of the ancient royal cities of Cyprus until about 300 B.C.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amathus"/>
+      <skos:prefLabel xml:lang="pl">Amathus</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αμαθούντα</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Аматунда</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Аматус</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Amathonte</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Amathus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Amathus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Amathus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Amatunte</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Amathus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Amatunte</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">اماتھیس</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Amathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Amathusz</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Аматус</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Amathous</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アマトゥス</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Amathus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Amatunta</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Amathus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Amatunte</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2343313"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0s6b"/>
+      <skos:exactMatch rdf:resource="http://www.geonames.org/146822"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/amathus_city#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/amathus_city#provenance"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/amathus_city#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+      <org:role rdf:resource="http://nomisma.org/id/city-state"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/amathus_city#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/amathus_city"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

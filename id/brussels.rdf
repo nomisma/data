@@ -1,193 +1,196 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/brussels">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Brussels</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Brüssel</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) in the city of Brussels, the largest municipality and historical centre of the Brussels-Capital Region, and the de jure capital of Belgium.</skos:definition>
-        <skos:prefLabel xml:lang="fr">Bruxelles</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Брюссель</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Brussel·les</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Bruxelles</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Bruselas</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Bryssel</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Brüsszel</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Брусель</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Brusel</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">브뤼셀 시</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Bruselo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ブリュッセル＝ヴィル</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Bruxellae</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Bruselas</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بروكسل</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Brüssel</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Брюксел</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Brusel</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Brisel</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Бруссель</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Dinas Brwsel</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Βρυξέλλες</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Brüssel</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Brusela</skos:prefLabel>
-        <skos:prefLabel xml:lang="fo">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">A' Bhruiseal</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Bruxelas</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Grad Bruxelles</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Brussél</skos:prefLabel>
-        <skos:prefLabel xml:lang="kl">Bruxelles</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Bréissel</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Briuselis</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Brisele</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">ബ്രസൽസ് നഗരം</skos:prefLabel>
-        <skos:prefLabel xml:lang="na">Brussels</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Brussèlas</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Bruksela</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Bruxelas</skos:prefLabel>
-        <skos:prefLabel xml:lang="qu">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Bruxelles</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Grad Bruxelles</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Brusel</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Брисел</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Bryssel</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Брюссель</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Bryussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Thành phố Bruxelles</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="wa">Brussele</skos:prefLabel>
-        <skos:prefLabel xml:lang="yi">בריסל</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">布鲁塞尔市</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">பிரெஸ்சல்ஸ் மாநகரம்</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">شهر بروکسل</skos:prefLabel>
-        <skos:prefLabel xml:lang="ln">Bruxelles</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Bruxelles</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Բրյուսել</skos:prefLabel>
-        <skos:prefLabel xml:lang="mt">Brussell</skos:prefLabel>
-        <skos:prefLabel xml:lang="os">Брюссель</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Бруссел</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">นครบรัสเซลส์</skos:prefLabel>
-        <skos:prefLabel xml:lang="wo">Burusel</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">בריסל</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Brüksel</skos:prefLabel>
-        <skos:prefLabel xml:lang="so">Boroksel</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Брюссель</skos:prefLabel>
-        <skos:prefLabel xml:lang="tw">Brussels</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ბრიუსელი</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Bruxelles</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Lungsod ng Bruselas</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Bruselj</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Брисел</skos:prefLabel>
-        <skos:prefLabel xml:lang="ba">Брюссель</skos:prefLabel>
-        <skos:prefLabel xml:lang="ne">ब्रसेल्स</skos:prefLabel>
-        <skos:prefLabel xml:lang="av">Брюссель</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Брюссель</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Bruxel</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="te">బ్రసెల్స్</skos:prefLabel>
-        <skos:prefLabel xml:lang="ee">Brussels</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ብሩክሴል ከተማ</skos:prefLabel>
-        <skos:prefLabel xml:lang="bm">Brussels</skos:prefLabel>
-        <skos:prefLabel xml:lang="ht">Briksèl</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Bruxelles</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Bruksel</skos:prefLabel>
-        <skos:prefLabel xml:lang="kv">Брюссель</skos:prefLabel>
-        <skos:prefLabel xml:lang="kw">Brusselas</skos:prefLabel>
-        <skos:prefLabel xml:lang="mi">Paruhi</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">ब्रसेल्स</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="my">ဘရပ်ဆဲလ်မြို့</skos:prefLabel>
-        <skos:prefLabel xml:lang="ny">Brussels</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Brüssel</skos:prefLabel>
-        <skos:prefLabel xml:lang="se">Bryssel</skos:prefLabel>
-        <skos:prefLabel xml:lang="sn">Brussels</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Brukseli</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Brussels</skos:prefLabel>
-        <skos:prefLabel xml:lang="tg">Брюссел</skos:prefLabel>
-        <skos:prefLabel xml:lang="ug">Bryussél</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">برسلز شہر</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Брюссель</skos:prefLabel>
-        <skos:prefLabel xml:lang="kn">ಬ್ರಸ್ಸೆಲ್ಸ್</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">ব্রাসেলস</skos:prefLabel>
-        <skos:prefLabel xml:lang="gu">બ્રસેલ્સ</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">ब्रसेल्स</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">බෲසෙල්ස්</skos:prefLabel>
-        <skos:prefLabel xml:lang="tk">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="ff">Brussels</skos:prefLabel>
-        <skos:prefLabel xml:lang="ay">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Brussel</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Брүсил</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q239"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/2800866/"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4008460-7"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119334020"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/150675140"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7007868"/>
-        <skos:closeMatch rdf:resource="http://www.idref.fr/026362619"/>
-        <skos:closeMatch rdf:resource="http://isni.org/0000000118339721"/>
-        <geo:location rdf:resource="http://nomisma.org/id/brussels#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/brussels#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <skos:prefLabel xml:lang="ga">An Bhruiséil</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Bruxelles</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/2800866"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0177z"/>
-    </nmo:Mint>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/brussels#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.8467</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3547</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/brussels#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/brussels"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:32.017-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T03:11:18.115-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/brussels">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Brussels</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Brüssel</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) in the city of Brussels, the largest municipality and historical centre of the Brussels-Capital Region, and the de jure capital of Belgium.</skos:definition>
+      <skos:prefLabel xml:lang="fr">Bruxelles</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Брюссель</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Brussel·les</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Bruxelles</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Bruselas</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Bryssel</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Brüsszel</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Брусель</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Brusel</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">브뤼셀 시</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Bruselo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ブリュッセル＝ヴィル</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Bruxellae</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Bruselas</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بروكسل</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Brüssel</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Брюксел</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Brusel</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Brisel</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Бруссель</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Dinas Brwsel</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Βρυξέλλες</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Brüssel</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Brusela</skos:prefLabel>
+      <skos:prefLabel xml:lang="fo">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">A' Bhruiseal</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Bruxelas</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Grad Bruxelles</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Brussél</skos:prefLabel>
+      <skos:prefLabel xml:lang="kl">Bruxelles</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Bréissel</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Briuselis</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Brisele</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">ബ്രസൽസ് നഗരം</skos:prefLabel>
+      <skos:prefLabel xml:lang="na">Brussels</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Brussèlas</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Bruksela</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Bruxelas</skos:prefLabel>
+      <skos:prefLabel xml:lang="qu">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Bruxelles</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Grad Bruxelles</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Brusel</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Брисел</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Bryssel</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Брюссель</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Bryussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Thành phố Bruxelles</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="wa">Brussele</skos:prefLabel>
+      <skos:prefLabel xml:lang="yi">בריסל</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">布鲁塞尔市</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">பிரெஸ்சல்ஸ் மாநகரம்</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">شهر بروکسل</skos:prefLabel>
+      <skos:prefLabel xml:lang="ln">Bruxelles</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Bruxelles</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Բրյուսել</skos:prefLabel>
+      <skos:prefLabel xml:lang="mt">Brussell</skos:prefLabel>
+      <skos:prefLabel xml:lang="os">Брюссель</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Бруссел</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">นครบรัสเซลส์</skos:prefLabel>
+      <skos:prefLabel xml:lang="wo">Burusel</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">בריסל</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Brüksel</skos:prefLabel>
+      <skos:prefLabel xml:lang="so">Boroksel</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Брюссель</skos:prefLabel>
+      <skos:prefLabel xml:lang="tw">Brussels</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ბრიუსელი</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Bruxelles</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Lungsod ng Bruselas</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Bruselj</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Брисел</skos:prefLabel>
+      <skos:prefLabel xml:lang="ba">Брюссель</skos:prefLabel>
+      <skos:prefLabel xml:lang="ne">ब्रसेल्स</skos:prefLabel>
+      <skos:prefLabel xml:lang="av">Брюссель</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Брюссель</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Bruxel</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="te">బ్రసెల్స్</skos:prefLabel>
+      <skos:prefLabel xml:lang="ee">Brussels</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ብሩክሴል ከተማ</skos:prefLabel>
+      <skos:prefLabel xml:lang="bm">Brussels</skos:prefLabel>
+      <skos:prefLabel xml:lang="ht">Briksèl</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Bruxelles</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Bruksel</skos:prefLabel>
+      <skos:prefLabel xml:lang="kv">Брюссель</skos:prefLabel>
+      <skos:prefLabel xml:lang="kw">Brusselas</skos:prefLabel>
+      <skos:prefLabel xml:lang="mi">Paruhi</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">ब्रसेल्स</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="my">ဘရပ်ဆဲလ်မြို့</skos:prefLabel>
+      <skos:prefLabel xml:lang="ny">Brussels</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Brüssel</skos:prefLabel>
+      <skos:prefLabel xml:lang="se">Bryssel</skos:prefLabel>
+      <skos:prefLabel xml:lang="sn">Brussels</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Brukseli</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Brussels</skos:prefLabel>
+      <skos:prefLabel xml:lang="tg">Брюссел</skos:prefLabel>
+      <skos:prefLabel xml:lang="ug">Bryussél</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">برسلز شہر</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Брюссель</skos:prefLabel>
+      <skos:prefLabel xml:lang="kn">ಬ್ರಸ್ಸೆಲ್ಸ್</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">ব্রাসেলস</skos:prefLabel>
+      <skos:prefLabel xml:lang="gu">બ્રસેલ્સ</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">ब्रसेल्स</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">බෲසෙල්ස්</skos:prefLabel>
+      <skos:prefLabel xml:lang="tk">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="ff">Brussels</skos:prefLabel>
+      <skos:prefLabel xml:lang="ay">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Brussel</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Брүсил</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q239"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/2800866/"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4008460-7"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119334020"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/150675140"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7007868"/>
+      <skos:closeMatch rdf:resource="http://www.idref.fr/026362619"/>
+      <skos:closeMatch rdf:resource="http://isni.org/0000000118339721"/>
+      <geo:location rdf:resource="http://nomisma.org/id/brussels#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/brussels#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <skos:prefLabel xml:lang="ga">An Bhruiséil</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Bruxelles</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/2800866"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0177z"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/46"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/brussels#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.8467</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3547</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/brussels#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/brussels"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:32.017-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T03:11:18.115-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

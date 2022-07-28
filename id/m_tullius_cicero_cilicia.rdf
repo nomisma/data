@@ -1,154 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/m_tullius_cicero_cilicia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">M. Tullius Cicero, governor of Cilicia</skos:prefLabel>
-        <skos:definition xml:lang="en">M. Tullius Cicero, governor of Cilicia, 51-50 BC</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/m_tullius_cicero_cilicia#membership_c3d8cf55498e946c0a8941780226d6ae"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <skos:exactMatch rdf:resource="https://romanrepublic.ac.uk/person/2072"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/m_tullius_cicero_cilicia#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1541"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cicero"/>
-        <skos:prefLabel xml:lang="it">Marco Tullio Cicerone</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Cicerón</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">شيشرون</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Siseron Mark Tulli</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Марк Тулій Цыцэрон</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Цицерон</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">সিসারো</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Ciceron</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ciceró</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Marcu Tulliu Cicerone</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="cu">Кїкєрѡнъ</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μάρκος Τύλλιος Κικέρων</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Cicerono</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Cicerón</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Zizeron</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">سیسرون</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Cicéron</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Cicearó</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מרקוס טוליוס קיקרו</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Ciceron</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կիկերոն</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Ciceron</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Cíceró</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">マルクス・トゥッリウス・キケロ</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ციცერონი</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">마르쿠스 툴리우스 키케로</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Цицерон</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Markas Tulijus Ciceronas</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Cicerons</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Цицерон</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">സിസറോ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="my">ဆစ်ဆရို</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Ciceron</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Cyceron</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Cícero</skos:prefLabel>
-        <skos:prefLabel xml:lang="qu">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Марк Туллий Цицерон</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ciceron</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Mark Tulij Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Ciceroni</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Марко Тулије Цицерон</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">กิแกโร</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Цицерон</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Kísẹ́rò</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">西塞罗</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Цицерон</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Marcus Tullius Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="km">ស៊ីសេរ៉ូ</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">Cicero</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">सिसरो</skos:prefLabel>
-        <skos:prefLabel xml:lang="ti">ኪኬሮ</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">सिसेरो</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਸਿਸਰੋ</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Sitseron Mark Tulliy</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">சிசெரோ</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Markus Tullius Sisero</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Марк Туллий Цицерон</skos:prefLabel>
-        <skos:prefLabel xml:lang="te">సిసెరో</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Марк Туллий Цицерон</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">سائیسیرو</skos:prefLabel>
-        <skos:prefLabel xml:lang="ba">Цицерон</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/78769600"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000139322910"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118520814"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01tf5"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500242756"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11885977m"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/02665234X"/>
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/m_tullius_cicero_cilicia#membership_c3d8cf55498e946c0a8941780226d6ae">
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0051</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0050</nmo:hasEndDate>
-        <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
-        <org:role rdf:resource="http://nomisma.org/id/roman_provincial_governor"/>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/m_tullius_cicero_cilicia#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/m_tullius_cicero_cilicia"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-22T05:28:57.376-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Q5gzweiLbj5nWG8s3ijvKgFTZO3_6VTZsdGYNG_Qca4/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-22T06:04:42.439-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/m_tullius_cicero_cilicia">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">M. Tullius Cicero, governor of Cilicia</skos:prefLabel>
+      <skos:definition xml:lang="en">M. Tullius Cicero, governor of Cilicia, 51-50 BC</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/m_tullius_cicero_cilicia#membership_c3d8cf55498e946c0a8941780226d6ae"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:exactMatch rdf:resource="https://romanrepublic.ac.uk/person/2072"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/m_tullius_cicero_cilicia#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1541"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cicero"/>
+      <skos:prefLabel xml:lang="it">Marco Tullio Cicerone</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Cicerón</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">شيشرون</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Siseron Mark Tulli</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Марк Тулій Цыцэрон</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Цицерон</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">সিসারো</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Ciceron</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ciceró</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Marcu Tulliu Cicerone</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="cu">Кїкєрѡнъ</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μάρκος Τύλλιος Κικέρων</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Cicerono</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Cicerón</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Zizeron</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">سیسرون</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Cicéron</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Cicearó</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מרקוס טוליוס קיקרו</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Ciceron</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կիկերոն</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Ciceron</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Cíceró</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">マルクス・トゥッリウス・キケロ</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ციცერონი</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">마르쿠스 툴리우스 키케로</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Цицерон</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Markas Tulijus Ciceronas</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Cicerons</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Цицерон</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">സിസറോ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="my">ဆစ်ဆရို</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Ciceron</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Cyceron</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Cícero</skos:prefLabel>
+      <skos:prefLabel xml:lang="qu">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Марк Туллий Цицерон</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ciceron</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Mark Tulij Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Ciceroni</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Марко Тулије Цицерон</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">กิแกโร</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Цицерон</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Kísẹ́rò</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">西塞罗</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Цицерон</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Marcus Tullius Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="km">ស៊ីសេរ៉ូ</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">Cicero</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">सिसरो</skos:prefLabel>
+      <skos:prefLabel xml:lang="ti">ኪኬሮ</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">सिसेरो</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਸਿਸਰੋ</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Sitseron Mark Tulliy</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">சிசெரோ</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Markus Tullius Sisero</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Марк Туллий Цицерон</skos:prefLabel>
+      <skos:prefLabel xml:lang="te">సిసెరో</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Марк Туллий Цицерон</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">سائیسیرو</skos:prefLabel>
+      <skos:prefLabel xml:lang="ba">Цицерон</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/78769600"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000139322910"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118520814"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01tf5"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500242756"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11885977m"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/02665234X"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3009"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/m_tullius_cicero_cilicia#membership_c3d8cf55498e946c0a8941780226d6ae">
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0051</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0050</nmo:hasEndDate>
+      <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
+      <org:role rdf:resource="http://nomisma.org/id/roman_provincial_governor"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/m_tullius_cicero_cilicia#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/m_tullius_cicero_cilicia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-22T05:28:57.376-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Q5gzweiLbj5nWG8s3ijvKgFTZO3_6VTZsdGYNG_Qca4/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-22T06:04:42.439-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

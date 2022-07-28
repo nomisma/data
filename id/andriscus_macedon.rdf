@@ -1,76 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/andriscus_macedon">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Andriscus of Macedon</skos:prefLabel>
-        <skos:definition xml:lang="en">Andriscus, also often referenced as Pseudo-Philip, was the last King of Macedon (r. 149–148 BC). A pretender, who claimed to be the son of Perseus of Macedon, he was a fuller from Adramyttium in Aeolis in western Anatolia. His reign lasted just one year and was toppled by the Roman Republic during the Fourth Macedonian War.</skos:definition>
-        <skos:prefLabel xml:lang="pt">Andrisco</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Andriskos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Андриск</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Andriskos</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Andrisco</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Андриск</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Andriscos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Andriskos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Андріск</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Andrisco</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Andriskos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アンドリスコス</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Андриск</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Andrisk</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أندريسكوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">安德里斯库斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Andriskos</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ανδρίσκος</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Andriskos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">안드리스쿠스</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Andriscus</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Andriskos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Андриск</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q362068"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0sxl"/>
-        <skos:altLabel xml:lang="en">Pseudo-Philip</skos:altLabel>
-        <org:memberOf rdf:resource="http://nomisma.org/id/antigonid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/andriscus_macedon#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/24047/Andriscus"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/andriscus_macedon#provenance"/>
-    </foaf:Person>
-    
-    
-    
-    <org:Membership rdf:about="http://nomisma.org/id/andriscus_macedon#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0149</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0148</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/andriscus_macedon#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/andriscus_macedon"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/andriscus_macedon">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Andriscus of Macedon</skos:prefLabel>
+      <skos:definition xml:lang="en">Andriscus, also often referenced as Pseudo-Philip, was the last King of Macedon (r. 149–148 BC). A pretender, who claimed to be the son of Perseus of Macedon, he was a fuller from Adramyttium in Aeolis in western Anatolia. His reign lasted just one year and was toppled by the Roman Republic during the Fourth Macedonian War.</skos:definition>
+      <skos:prefLabel xml:lang="pt">Andrisco</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Andriskos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Андриск</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Andriskos</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Andrisco</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Андриск</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Andriscos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Andriskos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Андріск</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Andrisco</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Andriskos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アンドリスコス</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Андриск</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Andrisk</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أندريسكوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">安德里斯库斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Andriskos</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ανδρίσκος</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Andriskos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">안드리스쿠스</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Andriscus</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Andriskos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Андриск</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q362068"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0sxl"/>
+      <skos:altLabel xml:lang="en">Pseudo-Philip</skos:altLabel>
+      <org:memberOf rdf:resource="http://nomisma.org/id/antigonid_dynasty"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/andriscus_macedon#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/24047/Andriscus"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/andriscus_macedon#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/andriscus_macedon#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0149</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0148</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/andriscus_macedon#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/andriscus_macedon"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

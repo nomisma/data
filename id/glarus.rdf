@@ -1,129 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <nmo:Mint rdf:about="http://nomisma.org/id/glarus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Glarus</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint of Glarus, the capital of the canton of Glarus in Switzerland.</skos:definition>
-        <skos:prefLabel xml:lang="zh">格拉魯斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Glaris</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Гларус</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Glaris Centre</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">글라루스</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Glaris</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Glarona</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">グラールス</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Glarona</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Glaruso</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Гларус</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Гларус</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Гларус</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Glarona</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Гларус</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">گلرو</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">გლარუსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Гларус</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Гларус</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">غلروس</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Гларус</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">گلاروس</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Canton Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">גלרוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Գլարուս</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Гларус</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Glarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">กลารุส</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">கிளாரஸ்</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q63912"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/023yp_"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4021139-3"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15307139c"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/152492599"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/6458747/"/>
-        <geo:location rdf:resource="http://nomisma.org/id/glarus#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/glarus#provenance"/>
-        <skos:prefLabel xml:lang="ps">ګلاروس</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Γκλάρους</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/150686640"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/6458747"/>
-    </nmo:Mint>
-   
-   
-   
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/glarus#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.04230</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.06559</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/glarus#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/glarus"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:45.994-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T11:08:07.347-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+   <nmo:Mint rdf:about="http://nomisma.org/id/glarus">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Glarus</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint of Glarus, the capital of the canton of Glarus in Switzerland.</skos:definition>
+      <skos:prefLabel xml:lang="zh">格拉魯斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Glaris</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Гларус</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Glaris Centre</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">글라루스</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Glaris</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Glarona</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">グラールス</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Glarona</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Glaruso</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Гларус</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Гларус</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Гларус</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Glarona</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Гларус</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">گلرو</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">გლარუსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Гларус</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Гларус</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">غلروس</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Гларус</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">گلاروس</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Canton Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">גלרוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Գլարուս</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Гларус</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Glarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">กลารุส</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">கிளாரஸ்</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q63912"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/023yp_"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4021139-3"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15307139c"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/152492599"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/6458747/"/>
+      <geo:location rdf:resource="http://nomisma.org/id/glarus#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/glarus#provenance"/>
+      <skos:prefLabel xml:lang="ps">ګلاروس</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Γκλάρους</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/150686640"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/6458747"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/2929"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/glarus#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.04230</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.06559</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/glarus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/glarus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:45.994-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T11:08:07.347-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

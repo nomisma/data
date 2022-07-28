@@ -1,72 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/amyntas_ii_macedon">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Amyntas II of Macedon</skos:prefLabel>
-        <skos:definition xml:lang="en">Amyntas II or Amyntas the Little, was the king of Macedonia for a short time, circa 393 BC.</skos:definition>
-        <skos:prefLabel xml:lang="pt">Amintas II da Macedónia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Amintas II.a Mazedoniakoa</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Amyntas II de Macédoine</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Аминта II</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Amintas II</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Amyntas II</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Амінта II</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Aminta II di Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Amyntas II.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アミュンタス2世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αμύντας B΄ της Μακεδονίας</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Аминта II</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Aminta II</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أمينتاس الثاني المقدوني</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Amyntas II van Macedonië</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Amyntas II</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Amyntas II Macedoński</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Amintesi II</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Amintas II dari Makedonia</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q374667"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0410tzd"/>
-        <skos:altLabel xml:lang="en">Same person? See Britannica</skos:altLabel>
-        <org:memberOf rdf:resource="http://nomisma.org/id/argead_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/amyntas_ii_macedon#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/22085/Amyntas-III-or-II"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/amyntas_ii_macedon#provenance"/>
-    </foaf:Person>
-    
-    
-    
-    <org:Membership rdf:about="http://nomisma.org/id/amyntas_ii_macedon#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0393</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0392</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/amyntas_ii_macedon#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/amyntas_ii_macedon"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/amyntas_ii_macedon">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Amyntas II of Macedon</skos:prefLabel>
+      <skos:definition xml:lang="en">Amyntas II or Amyntas the Little, was the king of Macedonia for a short time, circa 393 BC.</skos:definition>
+      <skos:prefLabel xml:lang="pt">Amintas II da Macedónia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Amintas II.a Mazedoniakoa</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Amyntas II de Macédoine</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Аминта II</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Amintas II</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Amyntas II</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Амінта II</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Aminta II di Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Amyntas II.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アミュンタス2世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αμύντας B΄ της Μακεδονίας</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Аминта II</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Aminta II</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أمينتاس الثاني المقدوني</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Amyntas II van Macedonië</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Amyntas II</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Amyntas II Macedoński</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Amintesi II</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Amintas II dari Makedonia</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q374667"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0410tzd"/>
+      <skos:altLabel xml:lang="en">Same person? See Britannica</skos:altLabel>
+      <org:memberOf rdf:resource="http://nomisma.org/id/argead_dynasty"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/amyntas_ii_macedon#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/22085/Amyntas-III-or-II"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/amyntas_ii_macedon#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/11643"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/amyntas_ii_macedon#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0393</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0392</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/amyntas_ii_macedon#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/amyntas_ii_macedon"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

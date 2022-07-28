@@ -1,114 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xiii">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Ptolemy XIII Theos Philopator</skos:prefLabel>
-        <skos:definition xml:lang="en">Ptolemy XIII Theos Philopator ("Ptolemy, God Beloved of his Father"; 62 BC/61 BC – prob. January 13, 47 BC, reigned from 51 BC) was one of the last members of the Ptolemaic dynasty (305–30 BC) of Egypt. He was the son of Ptolemy XII and the brother of and co-ruler with Cleopatra VII. Cleopatra's exit from Egypt caused a civil war to break out between the pharaohs. Ptolemy later ruled jointly with his other sister, Arsinoe IV.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_XIII_Theos_Philopator"/>
-        <skos:prefLabel xml:lang="zh">托勒密十三世</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ptolemeusz XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Ptolomeo XIII.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ptolémée XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">프톨레마이오스 13세</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ptolomeo XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Ptolemy 13k</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">XIII. Ptolemaiosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tolomeo XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Ptolemaios XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Ptolemaios XIII Theos Philopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ptolemaios XIII.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プトレマイオス13世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πτολεμαίος ΙΓ΄</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ptolemaios XIII Theos Philopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ptolemej XIII Teos Filopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ptolemaios XIII Filopator Filadelfos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ptolemaeus XIII Theos Philopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بطليموس الثالث عشر</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ptolemeu XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Птолемей XIII Теос Филопатор</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">XIII. Ptolemaios</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ptolemeu XIII Filopàtor</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ptolemaios XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Птолемей XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ptolemaeus XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Ptolemi XIII Theos Philopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Птолемей XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ptolemėjas XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Ptolemaios 13. af Ægypten</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">بطلمیوس سیزدهم</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ptolemaios XIII av Egypt</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תלמי השלושה עשר</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ptolomeo XIII.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პტოლემე XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Птолемеј XIII Теос Филопатор</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">ටොලමි XIII තියොස් ෆිලොපේටර්</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ปโตเลมีที่ 13</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пталамей XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ptolemeo la 13-a</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39938"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lf2p"/>
-        
-        <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xiii#provenance"/>
-        <skos:prefLabel xml:lang="af">Ptolemy XIII Theos Philopator</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Ptolemaiosy XIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">بطلیموس دوازدہم تھیئوس فلاپاٹر</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Պտղոմեոս XIII Թեոս Ֆիլոպատոր</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/4150150325533010090006"/>
-        <skos:altLabel xml:lang="en">Ptolemy XIII</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xiii#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XIII-Theos-Philopator"/>
-    </foaf:Person>
-   
-   
-   
-   
-   
-   
-   
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xiii#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xiii"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:42.501-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xiii#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0051</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0047</nmo:hasEndDate>
-    </org:Membership>
+   <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xiii">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Ptolemy XIII Theos Philopator</skos:prefLabel>
+      <skos:definition xml:lang="en">Ptolemy XIII Theos Philopator ("Ptolemy, God Beloved of his Father"; 62 BC/61 BC – prob. January 13, 47 BC, reigned from 51 BC) was one of the last members of the Ptolemaic dynasty (305–30 BC) of Egypt. He was the son of Ptolemy XII and the brother of and co-ruler with Cleopatra VII. Cleopatra's exit from Egypt caused a civil war to break out between the pharaohs. Ptolemy later ruled jointly with his other sister, Arsinoe IV.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_XIII_Theos_Philopator"/>
+      <skos:prefLabel xml:lang="zh">托勒密十三世</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ptolemeusz XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Ptolomeo XIII.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ptolémée XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">프톨레마이오스 13세</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ptolomeo XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Ptolemy 13k</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">XIII. Ptolemaiosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tolomeo XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Ptolemaios XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Ptolemaios XIII Theos Philopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ptolemaios XIII.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プトレマイオス13世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πτολεμαίος ΙΓ΄</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ptolemaios XIII Theos Philopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ptolemej XIII Teos Filopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ptolemaios XIII Filopator Filadelfos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ptolemaeus XIII Theos Philopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بطليموس الثالث عشر</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ptolemeu XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Птолемей XIII Теос Филопатор</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">XIII. Ptolemaios</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ptolemeu XIII Filopàtor</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ptolemaios XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Птолемей XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ptolemaeus XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Ptolemi XIII Theos Philopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Птолемей XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ptolemėjas XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Ptolemaios 13. af Ægypten</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">بطلمیوس سیزدهم</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ptolemaios XIII av Egypt</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תלמי השלושה עשר</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ptolomeo XIII.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პტოლემე XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Птолемеј XIII Теос Филопатор</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">ටොලමි XIII තියොස් ෆිලොපේටර්</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ปโตเลมีที่ 13</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пталамей XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ptolemeo la 13-a</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39938"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lf2p"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xiii#provenance"/>
+      <skos:prefLabel xml:lang="af">Ptolemy XIII Theos Philopator</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Ptolemaiosy XIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">بطلیموس دوازدہم تھیئوس فلاپاٹر</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Պտղոմեոս XIII Թեոս Ֆիլոպատոր</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/4150150325533010090006"/>
+      <skos:altLabel xml:lang="en">Ptolemy XIII</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xiii#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XIII-Theos-Philopator"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xiii#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xiii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:42.501-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xiii#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0051</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0047</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

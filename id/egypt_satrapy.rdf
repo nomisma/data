@@ -1,66 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Organization rdf:about="http://nomisma.org/id/egypt_satrapy">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Satrapy of Egypt</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Twenty-seventh Dynasty of Egypt</skos:altLabel>
-        <skos:definition xml:lang="en">The Twenty-seventh Dynasty of Egypt (notated Dynasty XXVII, alternatively 27th Dynasty or Dynasty 27), also known as the First Egyptian Satrapy was effectively a province (satrapy) of the Achaemenid Persian Empire between 525 BC and 404 BC. It was founded by Cambyses II, the King of Persia, after his conquest of Egypt and subsequent crowning as Pharaoh of Egypt, and was disestablished upon the rebellion and crowning of Amyrtaeus as Pharaoh. A second period of Achaemenid rule in Egypt occurred under the Thirty-first Dynasty of Egypt (343-332 BC).</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/persian_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/egypt_satrapy#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/egypt_satrapy#provenance"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/egypt_satrapy#membership_5cc6c8d602db09909f094fb0cb945c12"/>
-    </foaf:Organization>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/egypt_satrapy#membership_bd17e2d21cbc5a487c852bea4809dbbe">
-        <org:role rdf:resource="http://nomisma.org/id/province"/>
-        <org:organization rdf:resource="http://nomisma.org/id/achaemenid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0525</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0404</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/egypt_satrapy#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/egypt_satrapy"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:06:02.898-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/egypt_satrapy#membership_5cc6c8d602db09909f094fb0cb945c12">
-        <org:role rdf:resource="http://nomisma.org/id/province"/>
-        <org:organization rdf:resource="http://nomisma.org/id/achaemenid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0343</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0332</nmo:hasEndDate>
-    </org:Membership>
+   <foaf:Organization rdf:about="http://nomisma.org/id/egypt_satrapy">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Satrapy of Egypt</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Twenty-seventh Dynasty of Egypt</skos:altLabel>
+      <skos:definition xml:lang="en">The Twenty-seventh Dynasty of Egypt (notated Dynasty XXVII, alternatively 27th Dynasty or Dynasty 27), also known as the First Egyptian Satrapy was effectively a province (satrapy) of the Achaemenid Persian Empire between 525 BC and 404 BC. It was founded by Cambyses II, the King of Persia, after his conquest of Egypt and subsequent crowning as Pharaoh of Egypt, and was disestablished upon the rebellion and crowning of Amyrtaeus as Pharaoh. A second period of Achaemenid rule in Egypt occurred under the Thirty-first Dynasty of Egypt (343-332 BC).</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/persian_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/egypt_satrapy#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/egypt_satrapy#provenance"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/egypt_satrapy#membership_5cc6c8d602db09909f094fb0cb945c12"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/egypt_satrapy#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+      <org:role rdf:resource="http://nomisma.org/id/province"/>
+      <org:organization rdf:resource="http://nomisma.org/id/achaemenid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0525</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0404</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/egypt_satrapy#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/egypt_satrapy"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:06:02.898-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/egypt_satrapy#membership_5cc6c8d602db09909f094fb0cb945c12">
+      <org:role rdf:resource="http://nomisma.org/id/province"/>
+      <org:organization rdf:resource="http://nomisma.org/id/achaemenid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0343</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0332</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

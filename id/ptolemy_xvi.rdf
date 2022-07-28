@@ -1,115 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xvi">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Ptolemy XVI Philadelphus</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Ptolemy XVI</skos:altLabel>
-        <skos:definition xml:lang="en">Ptolemy Philadelphus ("Ptolemy the brother-loving", August/September 36 BC – 29 BC) was a Ptolemaic prince and was the youngest and fourth child of Greek Ptolemaic Queen Cleopatra VII of Egypt, and her third with Roman Triumvir Mark Antony.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_Philadelphus_(son_of_Cleopatra)"/>
-        <skos:prefLabel xml:lang="pt">Ptolemeu Filadelfo</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ptolemeusz Filadelfos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Птолемей Филадельф</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ptolémée Philadelphe</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Ptolemy Philadelphus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Ptolemeu Philadelphus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ptolemeu Filadelf</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Ptolemaiosz Philadelphosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ptolemaios Filadelfos</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tolomeo Filadelfo</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ptolemaeus Philadelphus</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ptolemaios Philadelphos</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πτολεμαίος Φιλάδελφος</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Птолемей Филаделф</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ptolemej Filadelf</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Ptolemaios Philadelphus</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">托勒密·费拉德尔甫斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">بطلمیوس فیلادلفوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ptolemy Philadelphus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ptolemy Philadelphus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ptolemaios Filadelfos</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תלמי פילדלפוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Ptolomeo Filadelfo</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Ptolemej Filadelf</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ptolemaios Filadelfos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Птолемей Філадельф</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プトレマイオス・ピラデルポス</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пталамей Філадэльф</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ptolemeo Filadelfo</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ปโตเลมี ฟิลาเดลฟัส</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Ptolemy Philadelphus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q350246"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0k07v"/>
-        
-        <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xvi#provenance"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xvi#membership_9527101f974f5aedc4d6296954375b98"/>
-    </foaf:Person>
-   
-   
-   
-   
-   
-   
-   
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xvi#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xvi"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:49.022-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-10T03:57:40.757-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-10T14:02:17.246-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xvi#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0034</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
-    </org:Membership>
+   <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xvi">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Ptolemy XVI Philadelphus</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Ptolemy XVI</skos:altLabel>
+      <skos:definition xml:lang="en">Ptolemy Philadelphus ("Ptolemy the brother-loving", August/September 36 BC – 29 BC) was a Ptolemaic prince and was the youngest and fourth child of Greek Ptolemaic Queen Cleopatra VII of Egypt, and her third with Roman Triumvir Mark Antony.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_Philadelphus_(son_of_Cleopatra)"/>
+      <skos:prefLabel xml:lang="pt">Ptolemeu Filadelfo</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ptolemeusz Filadelfos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Птолемей Филадельф</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ptolémée Philadelphe</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Ptolemy Philadelphus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Ptolemeu Philadelphus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ptolemeu Filadelf</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Ptolemaiosz Philadelphosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ptolemaios Filadelfos</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tolomeo Filadelfo</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ptolemaeus Philadelphus</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ptolemaios Philadelphos</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πτολεμαίος Φιλάδελφος</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Птолемей Филаделф</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ptolemej Filadelf</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Ptolemaios Philadelphus</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">托勒密·费拉德尔甫斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">بطلمیوس فیلادلفوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ptolemy Philadelphus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ptolemy Philadelphus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ptolemaios Filadelfos</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תלמי פילדלפוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Ptolomeo Filadelfo</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Ptolemej Filadelf</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ptolemaios Filadelfos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Птолемей Філадельф</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プトレマイオス・ピラデルポス</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пталамей Філадэльф</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ptolemeo Filadelfo</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ปโตเลมี ฟิลาเดลฟัส</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Ptolemy Philadelphus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q350246"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0k07v"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xvi#provenance"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xvi#membership_9527101f974f5aedc4d6296954375b98"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xvi#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xvi"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:49.022-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-10T03:57:40.757-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-10T14:02:17.246-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xvi#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0034</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

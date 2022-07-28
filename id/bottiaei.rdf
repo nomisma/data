@@ -1,59 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Organization rdf:about="http://nomisma.org/id/bottiaei">
-        <skos:prefLabel xml:lang="en">Bottiaei</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Bottiaeans or Bottiaei (Ancient Greek: Βοττιαῖοι) were an ancient people of uncertain origin, living in Central Macedonia. Sometime, during the Archaic period, they were expelled by Macedonians from Bottiaea to Bottike. During the Classical era, they played an active role in the military history of ancient Chalcidice, but after the Macedonian conquest under Philip II nothing remained except the names of these two regions and the adjective Bottiaean, which was limited to sole geographical meaning. During the late 5th and early 4th century, they issued coinages in two locations, probably at Kalindoia and Spartolos.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/bottiaei#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q4949012"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Bottiaeans"/>
-        <skos:prefLabel xml:lang="ru">Боттиеи</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Βοττιαίοι</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">bottieis</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Bottieis</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/080plpw"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/bottiaei#membership_1de693ecdef9fa3030a49796b255b704"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:altLabel xml:lang="en">Bottiaeans</skos:altLabel>
-    </foaf:Organization>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bottiaei#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/bottiaei"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-26T04:30:43.617-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-29T03:35:56.425-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/bottiaei#membership_1de693ecdef9fa3030a49796b255b704">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-    </org:Membership>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Organization rdf:about="http://nomisma.org/id/bottiaei">
+      <skos:prefLabel xml:lang="en">Bottiaei</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">Bottiaeans or Bottiaei (Ancient Greek: Βοττιαῖοι) were an ancient people of uncertain origin, living in Central Macedonia. Sometime, during the Archaic period, they were expelled by Macedonians from Bottiaea to Bottike. During the Classical era, they played an active role in the military history of ancient Chalcidice, but after the Macedonian conquest under Philip II nothing remained except the names of these two regions and the adjective Bottiaean, which was limited to sole geographical meaning. During the late 5th and early 4th century, they issued coinages in two locations, probably at Kalindoia and Spartolos.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/bottiaei#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q4949012"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Bottiaeans"/>
+      <skos:prefLabel xml:lang="ru">Боттиеи</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Βοττιαίοι</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">bottieis</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Bottieis</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/080plpw"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/bottiaei#membership_1de693ecdef9fa3030a49796b255b704"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:altLabel xml:lang="en">Bottiaeans</skos:altLabel>
+   </foaf:Organization>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bottiaei#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/bottiaei"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-26T04:30:43.617-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-29T03:35:56.425-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/bottiaei#membership_1de693ecdef9fa3030a49796b255b704">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+   </org:Membership>
 </rdf:RDF>

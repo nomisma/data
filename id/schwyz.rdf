@@ -1,122 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <nmo:Mint rdf:about="http://nomisma.org/id/schwyz">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Schwyz</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) in Schwyz, capital of the canton of Schwyz in Switzerland. The joint minting with Uri and Nidwalden in Bellinzona and afterwards in Altdorf preceeded the issues in Schwyz.</skos:definition>
-        <skos:prefLabel xml:lang="zh">施維茨</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">슈비츠</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Svitto</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">シュヴィーツ</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ŝvico</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Швиц</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Швиц</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Suitius</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Швиц</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">شوئیز</skos:prefLabel>
-        <skos:prefLabel xml:lang="ln">Shvits</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Sviz</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Швиц</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Швіц</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Швиц</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">شويز</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">شویتس</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Швиц</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Σβυτς</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q68155"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/01qthw"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/7287129/"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4118544-4"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/138542936"/>
-        <geo:location rdf:resource="http://nomisma.org/id/schwyz#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/schwyz#provenance"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1621</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1846</nmo:hasEndDate>
-        <skos:prefLabel xml:lang="lb">Schwyz</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Շվից (քաղաք)</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Schwyz</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/7287129"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-    </nmo:Mint>
-   
-   
-   
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/schwyz#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.020546</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.658332</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/schwyz#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/schwyz"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:18:05.347-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-13T09:55:00.889-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+   <nmo:Mint rdf:about="http://nomisma.org/id/schwyz">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Schwyz</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) in Schwyz, capital of the canton of Schwyz in Switzerland. The joint minting with Uri and Nidwalden in Bellinzona and afterwards in Altdorf preceeded the issues in Schwyz.</skos:definition>
+      <skos:prefLabel xml:lang="zh">施維茨</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">슈비츠</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Svitto</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">シュヴィーツ</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ŝvico</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Швиц</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Швиц</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Suitius</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Швиц</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">شوئیز</skos:prefLabel>
+      <skos:prefLabel xml:lang="ln">Shvits</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Sviz</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Швиц</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Швіц</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Швиц</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">شويز</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">شویتس</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Швиц</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Σβυτς</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q68155"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/01qthw"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/7287129/"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4118544-4"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/138542936"/>
+      <geo:location rdf:resource="http://nomisma.org/id/schwyz#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/schwyz#provenance"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1621</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1846</nmo:hasEndDate>
+      <skos:prefLabel xml:lang="lb">Schwyz</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Շվից (քաղաք)</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Schwyz</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/7287129"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/schwyz#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.020546</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.658332</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/schwyz#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/schwyz"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:18:05.347-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-13T09:55:00.889-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

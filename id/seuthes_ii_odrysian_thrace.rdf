@@ -1,65 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/seuthes_ii_odrysian_thrace">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Seuthes II of Thrace</skos:prefLabel>
-        <skos:definition xml:lang="en">Seuthes II (Ancient Greek: Σεύθης) was a king of the Odrysian kingdom of Thrace from about 405 to 391 BC.</skos:definition>
-        <skos:prefLabel xml:lang="pl">Seutes II</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Севт II</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Seut II</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Seutes II</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Σεύθης Β'</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Seutes II</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Seute II</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Seut II</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Сеут II</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Севт II</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Seuthes II</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">סאותס השני, מלך אודירסה</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Севт II</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q653464"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02qjt0p"/>
-        <skos:altLabel xml:lang="en">Seuthes III</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/seuthes_ii_odrysian_thrace#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="https://referenceworks.brillonline.com/entries/der-neue-pauly/seuthes-e1110860?s.num=0&amp;s.f.s2_parent=s.f.book.der-neue-pauly&amp;s.q=Seuthes#e1110880"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/seuthes_ii_odrysian_thrace#provenance"/>
-    </foaf:Person>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/seuthes_ii_odrysian_thrace#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/odrysian_thracian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0410</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0386</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/seuthes_ii_odrysian_thrace#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/seuthes_ii_odrysian_thrace"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Person rdf:about="http://nomisma.org/id/seuthes_ii_odrysian_thrace">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Seuthes II of Thrace</skos:prefLabel>
+      <skos:definition xml:lang="en">Seuthes II (Ancient Greek: Σεύθης) was a king of the Odrysian kingdom of Thrace from about 405 to 391 BC.</skos:definition>
+      <skos:prefLabel xml:lang="pl">Seutes II</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Севт II</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Seut II</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Seutes II</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Σεύθης Β'</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Seutes II</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Seute II</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Seut II</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Сеут II</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Севт II</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Seuthes II</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">סאותס השני, מלך אודירסה</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Севт II</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q653464"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02qjt0p"/>
+      <skos:altLabel xml:lang="en">Seuthes III</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/seuthes_ii_odrysian_thrace#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="https://referenceworks.brillonline.com/entries/der-neue-pauly/seuthes-e1110860?s.num=0&amp;s.f.s2_parent=s.f.book.der-neue-pauly&amp;s.q=Seuthes#e1110880"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/seuthes_ii_odrysian_thrace#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/seuthes_ii_odrysian_thrace#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/odrysian_thracian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0410</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0386</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/seuthes_ii_odrysian_thrace#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/seuthes_ii_odrysian_thrace"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

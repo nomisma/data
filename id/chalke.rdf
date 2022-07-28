@@ -1,86 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/chalke">
-        <skos:prefLabel xml:lang="en">Chalke</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The mint on the island of Chalke off Caria</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/chalke#provenance"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/589742"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/islands_off_caria"/>
-        <geo:location rdf:resource="http://nomisma.org/id/chalke#this"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q917162"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Halki_(Greece)"/>
-        <skos:prefLabel xml:lang="pl">Chalki</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Халки</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Chalki</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Jalki</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Khalki</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Chálki</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Calchi</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Halki</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Chalce</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Chálki</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Chalki</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Khálki</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Chalki</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Χάλκη Δωδεκανήσου</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">خالكي</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Chalki</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Halki</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Chalki</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">哈爾基島</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Khalki</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ハルキ島</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Халки</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Chalki</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Խալկի</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Insula Halki</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Halki</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Herke</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0773m_"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4136573-2"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/260143"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/311771522"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </nmo:Mint>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/chalke#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/chalke"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-09T05:29:45.301-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-26T09:49:08.143-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/chalke#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.228735</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.574826</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islands_off_caria#this"/>
-    </geo:SpatialThing>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/chalke">
+      <skos:prefLabel xml:lang="en">Chalke</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The mint on the island of Chalke off Caria</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/chalke#provenance"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/589742"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/islands_off_caria"/>
+      <geo:location rdf:resource="http://nomisma.org/id/chalke#this"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q917162"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Halki_(Greece)"/>
+      <skos:prefLabel xml:lang="pl">Chalki</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Халки</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Chalki</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Jalki</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Khalki</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Chálki</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Calchi</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Halki</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Chalce</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Chálki</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Chalki</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Khálki</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Chalki</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Χάλκη Δωδεκανήσου</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">خالكي</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Chalki</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Halki</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Chalki</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">哈爾基島</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Khalki</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ハルキ島</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Халки</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Chalki</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Խալկի</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Insula Halki</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Halki</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Herke</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0773m_"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4136573-2"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/260143"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/311771522"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+   </nmo:Mint>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/chalke#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/chalke"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-09T05:29:45.301-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-26T09:49:08.143-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/chalke#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.228735</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.574826</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islands_off_caria#this"/>
+   </geo:SpatialThing>
 </rdf:RDF>

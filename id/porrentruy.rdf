@@ -1,134 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <nmo:Mint rdf:about="http://nomisma.org/id/porrentruy">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pruntrut</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) in Porrentruy, a Swiss municipality and former seat of the Prince-Bishopric of Basel.</skos:definition>
-        <skos:prefLabel xml:lang="zh">波朗特呂</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Порентру</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Brundusia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پورانترویی</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بورينتري</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="kg">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="wa">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="wo">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="zu">Porrentruy</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Поррантрюи</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">פורנטרוי</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ポラントルイ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">포랑트뤼</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Поррантрюї</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ปอร็องทรุย</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Porrentruy</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q68256"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/04k6g3"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4103223-8"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/246486575"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/7286819/"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11957283n"/>
-        <geo:location rdf:resource="http://nomisma.org/id/porrentruy#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/porrentruy#provenance"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/7286819"/>
-    </nmo:Mint>
-   
-   
-   
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/porrentruy#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.416667</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.083333</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/porrentruy#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/porrentruy"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:59.874-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-13T09:19:15.601-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+   <nmo:Mint rdf:about="http://nomisma.org/id/porrentruy">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Pruntrut</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) in Porrentruy, a Swiss municipality and former seat of the Prince-Bishopric of Basel.</skos:definition>
+      <skos:prefLabel xml:lang="zh">波朗特呂</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Порентру</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Brundusia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پورانترویی</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بورينتري</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="kg">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="wa">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="wo">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="zu">Porrentruy</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Поррантрюи</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">פורנטרוי</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ポラントルイ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">포랑트뤼</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Поррантрюї</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ปอร็องทรุย</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Porrentruy</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q68256"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/04k6g3"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4103223-8"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/246486575"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/7286819/"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11957283n"/>
+      <geo:location rdf:resource="http://nomisma.org/id/porrentruy#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/porrentruy#provenance"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/7286819"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/porrentruy#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.416667</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.083333</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/porrentruy#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/porrentruy"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:59.874-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-13T09:19:15.601-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

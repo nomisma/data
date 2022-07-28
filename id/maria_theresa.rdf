@@ -1,162 +1,164 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/maria_theresa">
-        <skos:definition xml:lang="de">Maria Theresia von Österreich (13. Mai 1717 in Wien - 29. November 1780 Wien) war eine Fürstin des Hauses Habsburg. Sie regierte von 1740 bis zu ihrem Tod als Erzherzogin von Österreich und Königin unter anderem von Ungarn (mit Kroatien) und Böhmen.</skos:definition>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Maria Theresa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مارى تريزا</skos:prefLabel>
-        <skos:definition xml:lang="en">Maria Theresa Walburga Amalia Christina (13 May 1717 in Vienna - 29 November 1780 in Vienna), reigned from 1740 to 1780. She was the only Queen regnant of the Habsburg dominions and the last of the House of Habsburg. She was the sovereign of Austria, Hungary, Croatia, Bohemia, Mantua, Milan, Lodomeria and Galicia, the Austrian Netherlands and Parma. By marriage, she was Duchess of Lorraine, Grand Duchess of Tuscany and Holy Roman Empress.</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/maria_theresa#authority"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/habsburgs"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Maria_Theresa"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/59876481"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q131706"/>
-        <skos:prefLabel xml:lang="lb">Maria Theresia vun Éisträich</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Maria Teresa Habsburżanka</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Maria Teresa I.a Austriakoa</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Marija Terezija, kraljica Ugarske</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">María Teresa I de Austria</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Mária Terézia magyar királynő</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Maria Theresia</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Maria Theresia</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μαρία Θηρεσία</skos:prefLabel>
-        <skos:prefLabel xml:lang="my">မာရီယာ ထရီဇာ ဘုရင်မ</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Maria Theresia van Oostenrijk</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Maria Teresia av Österrike</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Maria Teresa da Áustria</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">María Teresa af Austurríki</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Maria Tereza de Aŭstrio</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Мария Терезия</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Maria Theresia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Maria Teresia</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Марія Терезія</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Maria Teresia av Austerrike</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Marija Terezija Austrijska</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Maria Theresia af Østrig</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">마리아 테레지아</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Marie-Thérèse d'Autriche</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מריה תרזה</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Марыя Тэрэзія</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Marija Terēzija</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Maria Teresa d'Austria</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">María Tareixa I de Austria</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Maria Theresia dari Austria</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Maria Theresia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">マリア・テレジア</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Maria Theresia của Áo</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Marija Terezija</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">मारिया टेरेसा</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Mária Terézia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Maria Terezia a Austriei</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">จักรพรรดินีมาเรีย เทเรซา</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Maria Teresa I d'Àustria</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Maria Theresia Austriaca</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Marija Terezija</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Marie Terezie</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">ماریا ترزا، اتریش</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Мария Тереза</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Marija Terezė</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Марија Терезија</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">玛丽亚·特蕾西亚</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Maria Theresa ng Austria</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Maria Teresia av Østerrike</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">മറിയ തെരേസ</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Maria Theresa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">მარია ტერეზია</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Մարիա Թերեզա</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000121353356"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118577867"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/027364690"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0czh6"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/111930"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/maria_theresa#provenance"/>
-        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1159"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
-        <bio:birth rdf:resource="http://nomisma.org/id/maria_theresa#birth"/>
-        <bio:death rdf:resource="http://nomisma.org/id/maria_theresa#death"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/maria_theresa#membership_ee6c22814ac6f5a12cf75fa8b32d798d"/>
-    </foaf:Person>
+      <skos:definition xml:lang="de">Maria Theresia von Österreich (13. Mai 1717 in Wien - 29. November 1780 Wien) war eine Fürstin des Hauses Habsburg. Sie regierte von 1740 bis zu ihrem Tod als Erzherzogin von Österreich und Königin unter anderem von Ungarn (mit Kroatien) und Böhmen.</skos:definition>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Maria Theresa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مارى تريزا</skos:prefLabel>
+      <skos:definition xml:lang="en">Maria Theresa Walburga Amalia Christina (13 May 1717 in Vienna - 29 November 1780 in Vienna), reigned from 1740 to 1780. She was the only Queen regnant of the Habsburg dominions and the last of the House of Habsburg. She was the sovereign of Austria, Hungary, Croatia, Bohemia, Mantua, Milan, Lodomeria and Galicia, the Austrian Netherlands and Parma. By marriage, she was Duchess of Lorraine, Grand Duchess of Tuscany and Holy Roman Empress.</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/maria_theresa#authority"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/habsburgs"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Maria_Theresa"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/59876481"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q131706"/>
+      <skos:prefLabel xml:lang="lb">Maria Theresia vun Éisträich</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Maria Teresa Habsburżanka</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Maria Teresa I.a Austriakoa</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Marija Terezija, kraljica Ugarske</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">María Teresa I de Austria</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Mária Terézia magyar királynő</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Maria Theresia</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Maria Theresia</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μαρία Θηρεσία</skos:prefLabel>
+      <skos:prefLabel xml:lang="my">မာရီယာ ထရီဇာ ဘုရင်မ</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Maria Theresia van Oostenrijk</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Maria Teresia av Österrike</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Maria Teresa da Áustria</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">María Teresa af Austurríki</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Maria Tereza de Aŭstrio</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Мария Терезия</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Maria Theresia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Maria Teresia</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Марія Терезія</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Maria Teresia av Austerrike</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Marija Terezija Austrijska</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Maria Theresia af Østrig</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">마리아 테레지아</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Marie-Thérèse d'Autriche</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מריה תרזה</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Марыя Тэрэзія</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Marija Terēzija</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Maria Teresa d'Austria</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">María Tareixa I de Austria</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Maria Theresia dari Austria</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Maria Theresia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">マリア・テレジア</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Maria Theresia của Áo</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Marija Terezija</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">मारिया टेरेसा</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Mária Terézia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Maria Terezia a Austriei</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">จักรพรรดินีมาเรีย เทเรซา</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Maria Teresa I d'Àustria</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Maria Theresia Austriaca</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Marija Terezija</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Marie Terezie</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">ماریا ترزا، اتریش</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Мария Тереза</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Marija Terezė</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Марија Терезија</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">玛丽亚·特蕾西亚</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Maria Theresa ng Austria</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Maria Teresia av Østerrike</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">മറിയ തെരേസ</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Maria Theresa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">მარია ტერეზია</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Մարիա Թերեզա</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000121353356"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118577867"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/027364690"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0czh6"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/111930"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/maria_theresa#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1159"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
+      <bio:birth rdf:resource="http://nomisma.org/id/maria_theresa#birth"/>
+      <bio:death rdf:resource="http://nomisma.org/id/maria_theresa#death"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/maria_theresa#membership_ee6c22814ac6f5a12cf75fa8b32d798d"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/maria_theresa#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/maria_theresa#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/maria_theresa"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-31T04:00:01+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/11GJuOq7OMGOtmm6PhQf5hC4QIMrvqtoA-uequT4ytqI/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-13T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-15T00:40:18.782-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T21:07:17.586Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-19T07:00:50.511Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T03:54:33.428Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <bio:Birth rdf:about="http://nomisma.org/id/maria_theresa#birth">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1717</dcterms:date>
-    </bio:Birth>
-    <bio:Death rdf:about="http://nomisma.org/id/maria_theresa#death">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1780</dcterms:date>
-    </bio:Death>
-    <org:Membership rdf:about="http://nomisma.org/id/maria_theresa#membership_ee6c22814ac6f5a12cf75fa8b32d798d">
-        <org:role rdf:resource="http://nomisma.org/id/queen"/>
-        <org:organization rdf:resource="http://nomisma.org/id/kingdom_of_bohemia"/>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1780</nmo:hasEndDate>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1743</nmo:hasStartDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/maria_theresa"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-31T04:00:01+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/11GJuOq7OMGOtmm6PhQf5hC4QIMrvqtoA-uequT4ytqI/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-13T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-15T00:40:18.782-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T21:07:17.586Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-19T07:00:50.511Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T03:54:33.428Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <bio:Birth rdf:about="http://nomisma.org/id/maria_theresa#birth">
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1717</dcterms:date>
+   </bio:Birth>
+   <bio:Death rdf:about="http://nomisma.org/id/maria_theresa#death">
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1780</dcterms:date>
+   </bio:Death>
+   <org:Membership rdf:about="http://nomisma.org/id/maria_theresa#membership_ee6c22814ac6f5a12cf75fa8b32d798d">
+      <org:role rdf:resource="http://nomisma.org/id/queen"/>
+      <org:organization rdf:resource="http://nomisma.org/id/kingdom_of_bohemia"/>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1780</nmo:hasEndDate>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1743</nmo:hasStartDate>
+   </org:Membership>
 </rdf:RDF>

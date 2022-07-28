@@ -1,81 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/domitius_alexander">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Domitius Alexander</skos:prefLabel>
-        <skos:definition xml:lang="en">The Roman emperor Domitius Alexander.</skos:definition>
-        <skos:prefLabel xml:lang="de">Domitius Alexander</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Домиций Александр</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Domitius Alexander</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Domitius Alexander</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Lucio Domizio Alessandro</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Lucjusz Domicjusz Aleksander</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Domicio Alejandro</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Domício Alexandre</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Domitius_Alexander"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/domitius_alexander#pretender"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140671"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q366394"/>
-        <skos:prefLabel xml:lang="he">לוקיוס דומיטיוס אלכסנדרוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Domitius Alexander</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Domici Alexandre</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Domitius Alexander</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Домиций Александър</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Domicije Aleksandar</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Domicije Aleksandar</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Домиције Александар</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Доміцій Александр</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Lucius Domitius Alexander</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02p03z"/>
-        <skos:prefLabel xml:lang="id">Domitius Aleksander</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Domitius Alexander</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/domitius_alexander#provenance"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Domitius Alexander</skos:prefLabel>
+      <skos:definition xml:lang="en">The Roman emperor Domitius Alexander.</skos:definition>
+      <skos:prefLabel xml:lang="de">Domitius Alexander</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Домиций Александр</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Domitius Alexander</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Domitius Alexander</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Lucio Domizio Alessandro</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Lucjusz Domicjusz Aleksander</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Domicio Alejandro</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Domício Alexandre</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Domitius_Alexander"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/domitius_alexander#pretender"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140671"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q366394"/>
+      <skos:prefLabel xml:lang="he">לוקיוס דומיטיוס אלכסנדרוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Domitius Alexander</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Domici Alexandre</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Domitius Alexander</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Домиций Александър</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Domicije Aleksandar</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Domicije Aleksandar</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Домиције Александар</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Доміцій Александр</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Lucius Domitius Alexander</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02p03z"/>
+      <skos:prefLabel xml:lang="id">Domitius Aleksander</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Domitius Alexander</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/domitius_alexander#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/526"/>
    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/domitius_alexander#pretender">
-        <org:role rdf:resource="http://nomisma.org/id/pretender"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0308</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0311</nmo:hasEndDate>
+      <org:role rdf:resource="http://nomisma.org/id/pretender"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0308</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0311</nmo:hasEndDate>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/domitius_alexander#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/domitius_alexander"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-11T14:49:49.093-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/domitius_alexander"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-11T14:49:49.093-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

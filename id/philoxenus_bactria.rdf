@@ -1,74 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/philoxenus_bactria">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Philoxenus of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Philoxenus Anicetus was an Indo-Greek king. Bopearachchi dates Philoxenus to c. 100–95 B.C.</skos:definition>
-        <skos:prefLabel xml:lang="de">Philoxenos</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Philoxenos(Vua)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Filoxè Anicet</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Filosseno d'India</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Philoxenus Anicetus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Philoxenus Anicetus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">ফিলোক্সেনোস আনিকেতোস</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Філоксен I</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Φιλόξενος ο Ανίκητος</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Филоксен</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q926097"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03d5vh"/>
-        <skos:altLabel xml:lang="en">Philoxenus</skos:altLabel>
-        
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/philoxenus-e922570?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;s.q=philoxenus#e922630"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/philoxenus_bactria#provenance"/>
-        <skos:prefLabel xml:lang="fr">Philoxénos Anicétos</skos:prefLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/philoxenus_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
-    </foaf:Person>
-   
-   
-   
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/philoxenus_bactria#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/philoxenus_bactria"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/philoxenus_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/indo-greek_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0125</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0110</nmo:hasEndDate>
-    </org:Membership>
+   <foaf:Person rdf:about="http://nomisma.org/id/philoxenus_bactria">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Philoxenus of Bactria</skos:prefLabel>
+      <skos:definition xml:lang="en">Philoxenus Anicetus was an Indo-Greek king. Bopearachchi dates Philoxenus to c. 100–95 B.C.</skos:definition>
+      <skos:prefLabel xml:lang="de">Philoxenos</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Philoxenos(Vua)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Filoxè Anicet</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Filosseno d'India</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Philoxenus Anicetus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Philoxenus Anicetus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">ফিলোক্সেনোস আনিকেতোস</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Філоксен I</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Φιλόξενος ο Ανίκητος</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Филоксен</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q926097"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03d5vh"/>
+      <skos:altLabel xml:lang="en">Philoxenus</skos:altLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/philoxenus-e922570?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;s.q=philoxenus#e922630"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/philoxenus_bactria#provenance"/>
+      <skos:prefLabel xml:lang="fr">Philoxénos Anicétos</skos:prefLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/philoxenus_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1306"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/philoxenus_bactria#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/philoxenus_bactria"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/philoxenus_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/indo-greek_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0125</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0110</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

@@ -1,136 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/phoenicia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Phoenicia</skos:prefLabel>
-        <skos:definition xml:lang="en">The subregion of Phoenicia in Syria as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/991410"/>
-      
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Phoenicia"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q41642"/>
-        <skos:prefLabel xml:lang="zh">腓尼基</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Финикия</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Bangsa Fenisia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Fenizia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Fenicja</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Fenicija</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Fenicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">போனீசியா</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Phoenicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Wafinisia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Fenikasit</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Φοίνικες</skos:prefLabel>
-        <skos:prefLabel xml:lang="mt">Feniċi</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">An Fhéiníc</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">فينيقيون</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Fenicien</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Fenícia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Fenicio</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Föníka</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Феникија</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Fenike</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Феникија</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Foinikialaiset</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Фінікія</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">පීනිෂියාව</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Fønikia</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Finikiya</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Phoenicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Fønikerne</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Финикия</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Фінікія</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">페니키아</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">פיניקים</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Phénicie</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Feniķija</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Fenici</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Fenicios</skos:prefLabel>
-        <skos:prefLabel xml:lang="ps">فینیکیان</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Phönizier</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Bangsa Fenisia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">フェニキア</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Phoenicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Fenikija</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">फ़ोनीशिया</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Feničania</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Fenîke</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Финик</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Փյունիկիա</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Foenysjers</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Fenicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ฟินิเชีย</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Fenícia</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Phoenices</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Ffenicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">فنیقی‌ها</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Финикия</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ფინიკია</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">فونیقی</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Finikija</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Финикия</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Fenicië</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Fönícia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Fenicija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Fenicija</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Fénicie</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Foiniikia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਫੋਨੀਸ਼ੀਆ</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Fenisia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Fønikia</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ፊንቄ</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Fenisië</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">ഫിനീഷ്യൻ സംസ്കാരം</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">ফিনিশিয়া</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0617q"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000403681147"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/phoenicia#provenance"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_syria"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Phoenicia</skos:prefLabel>
+      <skos:definition xml:lang="en">The subregion of Phoenicia in Syria as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/991410"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Phoenicia"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q41642"/>
+      <skos:prefLabel xml:lang="zh">腓尼基</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Финикия</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Bangsa Fenisia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Fenizia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Fenicja</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Fenicija</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Fenicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">போனீசியா</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Phoenicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Wafinisia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Fenikasit</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Φοίνικες</skos:prefLabel>
+      <skos:prefLabel xml:lang="mt">Feniċi</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">An Fhéiníc</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">فينيقيون</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Fenicien</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Fenícia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Fenicio</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Föníka</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Феникија</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Fenike</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Феникија</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Foinikialaiset</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Фінікія</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">පීනිෂියාව</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Fønikia</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Finikiya</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Phoenicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Fønikerne</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Финикия</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Фінікія</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">페니키아</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">פיניקים</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Phénicie</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Feniķija</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Fenici</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Fenicios</skos:prefLabel>
+      <skos:prefLabel xml:lang="ps">فینیکیان</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Phönizier</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Bangsa Fenisia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">フェニキア</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Phoenicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Fenikija</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">फ़ोनीशिया</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Feničania</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Fenîke</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Финик</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Փյունիկիա</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Foenysjers</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Fenicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ฟินิเชีย</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Fenícia</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Phoenices</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Ffenicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">فنیقی‌ها</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Финикия</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ფინიკია</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">فونیقی</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Finikija</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Финикия</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Fenicië</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Fönícia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Fenicija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Fenicija</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Fénicie</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Foiniikia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਫੋਨੀਸ਼ੀਆ</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Fenisia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Fønikia</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ፊንቄ</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Fenisië</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">ഫിനീഷ്യൻ സംസ്കാരം</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">ফিনিশিয়া</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0617q"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000403681147"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/phoenicia#provenance"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_syria"/>
+   </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/phoenicia#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/phoenicia"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T14:54:53.146-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/phoenicia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T14:54:53.146-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

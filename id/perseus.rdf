@@ -1,110 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/perseus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Perseus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Perseo di Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Perseusz Antygonida</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Perseus av Makedonien</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">珀尔修斯 (马其顿)</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Perseus (Makedonien)</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Perseo de Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Perseus van Macedonië</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Persée de Macédoine</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ペルセウス (マケドニア王)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Персей Македонский</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Perseu da Macedónia</skos:prefLabel>
-        <skos:definition xml:lang="en">Perseus (c. 212 – 166 BC) was the last king of the Antigonid dynasty in Macedon.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Perseus_of_Macedon"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/54944464/"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q207363"/>
-        <skos:prefLabel xml:lang="eu">Perseo</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">פרסאוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">페르세우스</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Персей Македонскі</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Perzej Makedonski</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Perszeusz makedón király</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Perseus dari Macedon</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Περσέας της Μακεδονίας</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Perseus của Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Perzej od Makedonije</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بيرسيوس المقدوني</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Персеј</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Perseu de Macedònia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Perseus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Персей Македонський</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Perses</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Perseus Makedonský</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Персей</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პერსევსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Perzej Makedonski</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Персеј Македонски</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Perseus av Makedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Perseus dari Makedonia</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118790463"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/54944464"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0m9bl"/>
-        <skos:prefLabel xml:lang="fa">پرسئوس مقدونی</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Perseus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/11693672X"/>
-        <skos:prefLabel xml:lang="da">Perseus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Perseus</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/perseus#provenance"/>
-        <skos:prefLabel xml:lang="sl">Perzej Makedonski</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Perseo de Makedonio</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000448876167"/>
-        <skos:altLabel xml:lang="en">Perseus</skos:altLabel>
-        <org:memberOf rdf:resource="http://nomisma.org/id/antigonid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/perseus#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Perseus-king-of-Macedonia"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Perseus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Perseo di Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Perseusz Antygonida</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Perseus av Makedonien</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">珀尔修斯 (马其顿)</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Perseus (Makedonien)</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Perseo de Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Perseus van Macedonië</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Persée de Macédoine</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ペルセウス (マケドニア王)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Персей Македонский</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Perseu da Macedónia</skos:prefLabel>
+      <skos:definition xml:lang="en">Perseus (c. 212 – 166 BC) was the last king of the Antigonid dynasty in Macedon.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Perseus_of_Macedon"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/54944464/"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q207363"/>
+      <skos:prefLabel xml:lang="eu">Perseo</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">פרסאוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">페르세우스</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Персей Македонскі</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Perzej Makedonski</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Perszeusz makedón király</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Perseus dari Macedon</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Περσέας της Μακεδονίας</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Perseus của Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Perzej od Makedonije</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بيرسيوس المقدوني</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Персеј</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Perseu de Macedònia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Perseus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Персей Македонський</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Perses</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Perseus Makedonský</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Персей</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პერსევსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Perzej Makedonski</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Персеј Македонски</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Perseus av Makedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Perseus dari Makedonia</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118790463"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/54944464"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0m9bl"/>
+      <skos:prefLabel xml:lang="fa">پرسئوس مقدونی</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Perseus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/11693672X"/>
+      <skos:prefLabel xml:lang="da">Perseus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Perseus</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/perseus#provenance"/>
+      <skos:prefLabel xml:lang="sl">Perzej Makedonski</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Perseo de Makedonio</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000448876167"/>
+      <skos:altLabel xml:lang="en">Perseus</skos:altLabel>
+      <org:memberOf rdf:resource="http://nomisma.org/id/antigonid_dynasty"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/perseus#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Perseus-king-of-Macedonia"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1265"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/perseus#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/perseus"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/perseus#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0179</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0166</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/perseus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/perseus#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0179</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0166</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

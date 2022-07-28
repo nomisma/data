@@ -1,105 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <wordnet:Deity rdf:about="http://nomisma.org/id/cupid">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Cupid</skos:prefLabel>
-        <skos:definition xml:lang="en">In Roman mythology, Cupid is the god of desire, erotic love, attraction and affection.</skos:definition>
-        <skos:prefLabel xml:lang="zh">邱比特</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Kupidyn</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Kupid</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Cupido</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Amor</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Kupidon</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Amor</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Cupido</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">كيوبيد</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Cupido</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Kupido</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Купидон</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Amor</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Амур</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Kupid</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Cupido</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Cupidon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">큐피드</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Cupido</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kupido</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Amor</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">クピードー</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">क्यूपिड</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">คิวปิด</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Cupido</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Amor</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Amor</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کوپیدو</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Купидон</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Kupidonas</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">क्यूपिड</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਕਿਊਪਿਡ</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">কিউপিড</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Kupido</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Kupido</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Kúpídó</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">კუპიდონი</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Cupidon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Амур</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Cupido</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">குபிட்</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Cupid</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Амур</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Ciwpid</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Купидон</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κιούπιντ</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Cupid</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Amor</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Amur (mifologiya)</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Kupidons</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Amur</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אמור</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Էրոս</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Amor</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Cúipid</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Kupidon</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Cupid</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q5011"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01rpf"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11850262X"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/311314174"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/029532825"/>
-        <skos:related rdf:resource="http://nomisma.org/id/eros"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/cupid#provenance"/>
-    </wordnet:Deity>
-    
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cupid#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/cupid"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <wordnet:Deity rdf:about="http://nomisma.org/id/cupid">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Cupid</skos:prefLabel>
+      <skos:definition xml:lang="en">In Roman mythology, Cupid is the god of desire, erotic love, attraction and affection.</skos:definition>
+      <skos:prefLabel xml:lang="zh">邱比特</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Kupidyn</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Kupid</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Cupido</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Amor</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Kupidon</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Amor</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Cupido</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">كيوبيد</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Cupido</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Kupido</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Купидон</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Amor</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Амур</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Kupid</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Cupido</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Cupidon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">큐피드</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Cupido</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kupido</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Amor</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">クピードー</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">क्यूपिड</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">คิวปิด</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Cupido</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Amor</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Amor</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کوپیدو</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Купидон</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Kupidonas</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">क्यूपिड</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਕਿਊਪਿਡ</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">কিউপিড</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Kupido</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Kupido</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Kúpídó</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">კუპიდონი</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Cupidon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Амур</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Cupido</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">குபிட்</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Cupid</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Амур</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Ciwpid</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Купидон</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κιούπιντ</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Cupid</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Amor</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Amur (mifologiya)</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Kupidons</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Amur</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אמור</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Էրոս</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Amor</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Cúipid</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Kupidon</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Cupid</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q5011"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01rpf"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11850262X"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/311314174"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/029532825"/>
+      <skos:related rdf:resource="http://nomisma.org/id/eros"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/cupid#provenance"/>
+   </wordnet:Deity>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cupid#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/cupid"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

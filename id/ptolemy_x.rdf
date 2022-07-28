@@ -1,104 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_x">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Ptolemy X Alexander I</skos:prefLabel>
-        <skos:definition xml:lang="en">Ptolemy X Alexander I was King of Egypt from 110 BC to 109 BC and 107 BC till his death in 88 BC, in co-regency with his mother Cleopatra III until 101 BC, and then possibly with his niece-wife Berenice III.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_X_Alexander_I"/>
-        <skos:prefLabel xml:lang="nb">Ptolemaios X av Egypt</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ptolémée X</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tolomeo X</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πτολεμαίος Ι΄ Αλέξανδρος</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ptolemaios X.</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ptolomeo X</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بطليموس العاشر</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Птолемей X</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ptolemeu X Alexandre I</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Ptolemaios X</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ptolemaios X</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Ptolemaios X Alexandros I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プトレマイオス10世</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">프톨레마이오스 10세</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ptolemaeus X</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ptolemėjas X Aleksandras I</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ptolemaeus X Alexander I</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ptolemeusz X Aleksander I</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ptolemeu X Alexandre I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Птолемей X</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ptolemej X Aleksandar I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Птолемеј X Александар I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ptolemaios X</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Ptolemy 10k Alexander 1k</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">托勒密十世</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תלמי העשירי</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Птолемей X Александр</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">X. Ptolemaiosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ptolemaios X Alexandros I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პტოლემე X</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">ටොලමි X ඇලෙක්සැන්ඩර් I</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ปโตเลมีที่ 10</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ptolemeo la 10-a Aleksandro la 1-a</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3345"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/046d0h"/>
-        
-        <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_x#provenance"/>
-        <skos:prefLabel xml:lang="sl">Ptolemaj X. Aleksander</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Ptolemaiosy X</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Ptolemy X Alexander I</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_x#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-X-Alexander-I"/>
-    </foaf:Person>
-   
-   
-   
-   
-   
-   
-   
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_x#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_x"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:35.645-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_x#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0110</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0088</nmo:hasEndDate>
-    </org:Membership>
+   <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_x">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Ptolemy X Alexander I</skos:prefLabel>
+      <skos:definition xml:lang="en">Ptolemy X Alexander I was King of Egypt from 110 BC to 109 BC and 107 BC till his death in 88 BC, in co-regency with his mother Cleopatra III until 101 BC, and then possibly with his niece-wife Berenice III.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_X_Alexander_I"/>
+      <skos:prefLabel xml:lang="nb">Ptolemaios X av Egypt</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ptolémée X</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tolomeo X</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πτολεμαίος Ι΄ Αλέξανδρος</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ptolemaios X.</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ptolomeo X</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بطليموس العاشر</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Птолемей X</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ptolemeu X Alexandre I</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Ptolemaios X</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ptolemaios X</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Ptolemaios X Alexandros I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プトレマイオス10世</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">프톨레마이오스 10세</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ptolemaeus X</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ptolemėjas X Aleksandras I</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ptolemaeus X Alexander I</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ptolemeusz X Aleksander I</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ptolemeu X Alexandre I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Птолемей X</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ptolemej X Aleksandar I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Птолемеј X Александар I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ptolemaios X</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Ptolemy 10k Alexander 1k</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">托勒密十世</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תלמי העשירי</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Птолемей X Александр</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">X. Ptolemaiosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ptolemaios X Alexandros I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პტოლემე X</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">ටොලමි X ඇලෙක්සැන්ඩර් I</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ปโตเลมีที่ 10</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ptolemeo la 10-a Aleksandro la 1-a</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3345"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/046d0h"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_x#provenance"/>
+      <skos:prefLabel xml:lang="sl">Ptolemaj X. Aleksander</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Ptolemaiosy X</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Ptolemy X Alexander I</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_x#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-X-Alexander-I"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1330"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_x#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_x"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:35.645-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemy_x#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0110</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0088</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

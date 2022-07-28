@@ -1,136 +1,139 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/emerita">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:prefLabel xml:lang="en">Emerita</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Emerita in Hispania Ulterior.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/M%C3%A9rida,_Spain"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/256155"/>
-        <skos:prefLabel xml:lang="de">Emerita</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Emerita</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Emerita</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Эмерита</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Emerita</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Emerita</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Emerita</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Емерита</skos:prefLabel>
-        <geo:location rdf:resource="http://nomisma.org/id/emerita#this"/>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q14323"/>
-        <skos:prefLabel xml:lang="es">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Merido</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">梅里達</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Mérida, Tây Ban Nha</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Mèrida</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ሜሪዳ፣ እስፓንያ</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مريدا</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Merida</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Mérida, Spanyol</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Mérida, España</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Mérida i Spania</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Mérida, Ekstremadura</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Merida</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Merida</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">เมรีดา</skos:prefLabel>
-        <skos:prefLabel xml:lang="tg">Иёлоти Мерида</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Горад Мерыда, Іспанія</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Mérida, Sepanyol</skos:prefLabel>
-        <skos:prefLabel xml:lang="bi">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">مریدا</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">メリダ</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מרידה</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">მერიდა</skos:prefLabel>
-        <skos:prefLabel xml:lang="qu">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Мерида</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Emerita Augusta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">메리다</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Мерида</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Меріда</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">मेरिदा</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Mérida, Španija</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Մերիդա</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Mérida</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0hyq_"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/2513917/"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4038714-8"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/152444620"/>
-        <skos:prefLabel xml:lang="ur">میریدا، ہسپانیہ</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Mérida</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">মেরিদা</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Mérida</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11954481s"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/emerita#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:prefLabel xml:lang="en">Emerita</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Emerita in Hispania Ulterior.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/M%C3%A9rida,_Spain"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/256155"/>
+      <skos:prefLabel xml:lang="de">Emerita</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Emerita</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Emerita</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Эмерита</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Emerita</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Emerita</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Emerita</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Емерита</skos:prefLabel>
+      <geo:location rdf:resource="http://nomisma.org/id/emerita#this"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q14323"/>
+      <skos:prefLabel xml:lang="es">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Merido</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">梅里達</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Mérida, Tây Ban Nha</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Mèrida</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ሜሪዳ፣ እስፓንያ</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مريدا</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Merida</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Mérida, Spanyol</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Mérida, España</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Mérida i Spania</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Mérida, Ekstremadura</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Merida</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Merida</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">เมรีดา</skos:prefLabel>
+      <skos:prefLabel xml:lang="tg">Иёлоти Мерида</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Горад Мерыда, Іспанія</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Mérida, Sepanyol</skos:prefLabel>
+      <skos:prefLabel xml:lang="bi">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">مریدا</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">メリダ</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מרידה</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">მერიდა</skos:prefLabel>
+      <skos:prefLabel xml:lang="qu">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Мерида</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Emerita Augusta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">메리다</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Мерида</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Меріда</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">मेरिदा</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Mérida, Španija</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Մերիդա</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Mérida</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0hyq_"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/2513917/"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4038714-8"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/152444620"/>
+      <skos:prefLabel xml:lang="ur">میریدا، ہسپانیہ</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Mérida</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">মেরিদা</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Mérida</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11954481s"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/emerita#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/832"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/emerita#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.916159</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-6.345670</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.916159</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-6.345670</geo:long>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/emerita#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/emerita"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/emerita"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

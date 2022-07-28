@@ -1,157 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/siqilliyah">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <prov:alternateOf rdf:resource="http://nomisma.org/id/palermo"/>
-        <skos:prefLabel xml:lang="en">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">صقلية</skos:prefLabel>
-        <skos:altLabel xml:lang="ar">بالارم</skos:altLabel>
-
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Palermo"/>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q2656"/>
-        <skos:prefLabel xml:lang="it">Siqilliyah</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="fr">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="ay">Siqilliyah</skos:prefLabel>
-        
-        
-        <skos:prefLabel xml:lang="br">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Siqilliyah</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="eo">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Siqilliyah</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="fi">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Siqilliyah</skos:prefLabel>
-        
-        
-        <skos:prefLabel xml:lang="hr">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Siqilliyah</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="ia">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Siqilliyah</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="jv">Siqilliyah</skos:prefLabel>
-        
-        
-        <skos:prefLabel xml:lang="ku">Siqilliyah</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="lb">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Siqilliyah</skos:prefLabel>
-        
-        
-        
-        <skos:prefLabel xml:lang="nl">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Siqilliyah</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="pl">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="qu">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Siqilliyah</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="sc">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Siqilliyah</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="sv">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Siqilliyah</skos:prefLabel>
-        
-        
-        <skos:prefLabel xml:lang="tr">Siqilliyah</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="vi">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Siqilliyah</skos:prefLabel>
-        
-        
-        <skos:prefLabel xml:lang="az">Siqilliyah</skos:prefLabel>
-        
-        
-        <skos:prefLabel xml:lang="ms">Siqilliyah</skos:prefLabel>
-        
-        
-        <skos:prefLabel xml:lang="nb">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="tw">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Siqilliyah</skos:prefLabel>
-        <skos:prefLabel xml:lang="sg">Siqilliyah</skos:prefLabel>
-        
-     
-        <skos:definition xml:lang="en">The stated mint "Madinat Siqilliyah" is located in medieval Palermo, a city on the island of Sicily, Italy. For other instances of the Palermo mint, see the IDs "Madinat Siqilliyah", "Balarm" and "Palermo".</skos:definition>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <prov:alternateOf rdf:resource="http://nomisma.org/id/palermo"/>
+      <skos:prefLabel xml:lang="en">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">صقلية</skos:prefLabel>
+      <skos:altLabel xml:lang="ar">بالارم</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Palermo"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q2656"/>
+      <skos:prefLabel xml:lang="it">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="ay">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="qu">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="tw">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Siqilliyah</skos:prefLabel>
+      <skos:prefLabel xml:lang="sg">Siqilliyah</skos:prefLabel>
+      <skos:definition xml:lang="en">The stated mint "Madinat Siqilliyah" is located in medieval Palermo, a city on the island of Sicily, Italy. For other instances of the Palermo mint, see the IDs "Madinat Siqilliyah", "Balarm" and "Palermo".</skos:definition>
       <skos:prefLabel xml:lang="cr">Siqilliyah</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/09pxc"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4044402-8"/>
-              <skos:closeMatch rdf:resource="http://sws.geonames.org/2523920/"/>
-        <geo:location rdf:resource="http://nomisma.org/id/siqilliyah#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/siqilliyah#provenance"/>
-        <skos:closeMatch rdf:resource="http://nomisma.org/id/palermo"/>
-        <skos:closeMatch rdf:resource="http://nomisma.org/id/madinat_siqilliyah"/>
-        <skos:closeMatch rdf:resource="http://nomisma.org/id/balarm"/>
-    </nmo:Mint>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/09pxc"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4044402-8"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/2523920/"/>
+      <geo:location rdf:resource="http://nomisma.org/id/siqilliyah#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/siqilliyah#provenance"/>
+      <skos:closeMatch rdf:resource="http://nomisma.org/id/palermo"/>
+      <skos:closeMatch rdf:resource="http://nomisma.org/id/madinat_siqilliyah"/>
+      <skos:closeMatch rdf:resource="http://nomisma.org/id/balarm"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/siqilliyah#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.13205</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.33561</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.13205</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.33561</geo:long>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/siqilliyah#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/siqilliyah"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-28T17:58:06+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1coVOCMmTGlmh89lBLwT-_TX2qYeRHc6VLZVbCVfqyNk/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-07T15:40:45.551-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-11T14:56:56.385Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/siqilliyah"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-28T17:58:06+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1coVOCMmTGlmh89lBLwT-_TX2qYeRHc6VLZVbCVfqyNk/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-07T15:40:45.551-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-11T14:56:56.385Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

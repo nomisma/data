@@ -1,42 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Collection rdf:about="http://nomisma.org/id/egypt_centre_swansea">
-        <skos:prefLabel xml:lang="en">The Egypt Centre, Swansea University</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The Egypt Centre is a museum of roughly 6,000 objects, which is situated on the Singleton Campus of Swansea University. The museum houses objects from Egypt and the ancient world, including Greece, Rome, Cyprus, Mesopotamia, and Nubia. The majority of the objects originate from the collection of the pharmaceutical magnate Sir Henry Wellcome (1853–1936), which was dispursed by the Wellcome trustees in 1971.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <foaf:homepage rdf:resource="https://www.egypt.swan.ac.uk/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/egypt_centre_swansea#provenance"/>
-        <foaf:thumbnail rdf:resource="https://epale.ec.europa.eu/sites/default/files/swansea_uni_egypt_centre.png"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </nmo:Collection>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/egypt_centre_swansea#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/egypt_centre_swansea"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-26T15:22:30.472Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/egypt_centre_swansea">
+      <skos:prefLabel xml:lang="en">The Egypt Centre, Swansea University</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The Egypt Centre is a museum of roughly 6,000 objects, which is situated on the Singleton Campus of Swansea University. The museum houses objects from Egypt and the ancient world, including Greece, Rome, Cyprus, Mesopotamia, and Nubia. The majority of the objects originate from the collection of the pharmaceutical magnate Sir Henry Wellcome (1853–1936), which was dispursed by the Wellcome trustees in 1971.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <foaf:homepage rdf:resource="https://www.egypt.swan.ac.uk/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/egypt_centre_swansea#provenance"/>
+      <foaf:thumbnail rdf:resource="https://epale.ec.europa.eu/sites/default/files/swansea_uni_egypt_centre.png"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/egypt_centre_swansea#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/egypt_centre_swansea"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-26T15:22:30.472Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

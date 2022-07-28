@@ -1,121 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/albinvs_brvti_f_rrc">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">D. Iunius Brutus Albinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">D. Iunius Brutus Albinus</skos:prefLabel>
-        <skos:definition xml:lang="en">Roman Republican Moneyer, c. 48 BC. Died 43 BC.</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/177590"/>
-        
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q294846"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Decimus_Junius_Brutus_Albinus"/>
-        <skos:prefLabel xml:lang="pl">Decymus Juniusz Brutus</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Dezimo Bruto</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">데키무스 유니우스 브루투스 알비누스</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Decimus Junius Brutus Albinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Décimo Junio Bruto Albino</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Decimus Iunius Brutus Albinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Decimo Giunio Bruto Albino</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Decimus Iunius Brutus Albinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">デキムス・ユニウス・ブルトゥス・アルビヌス</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Decim Junije Brut Albin</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Decimus Junius Brutus Albinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">دسيموس جونيوس بروتوس ألبينوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Decimus Junius Brutus Albinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Décimo Júnio Bruto Albino</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Децим Юний Брут Альбин</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Decimus Junius Brutus Albinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Decimus Brutus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Dècim Juni Brut Albí</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Decimus Junius Brutus Albinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Децім Юній Брут Альбін</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Decimus Junius Brutus Albinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Децим Брут</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">დეციმუს იუნიუს ალბინუს ბრუტუსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Decimus Junius Brutus Albinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Децим Јуније Брут</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">布鲁图·阿尔比努斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Decimus Junius Brutus Albinus</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">דקימוס יוניוס ברוטוס אלבינוס</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/102383375"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/12693394"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/020y_d"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/albinvs_brvti_f_rrc#provenance"/>
-        
-        
-        <org:hasMembership rdf:resource="http://nomisma.org/id/albinvs_brvti_f_rrc#membership_4baa3e41cb521a9b5f5209645a4ab798"/>
-    </foaf:Person>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">D. Iunius Brutus Albinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">D. Iunius Brutus Albinus</skos:prefLabel>
+      <skos:definition xml:lang="en">Roman Republican Moneyer, c. 48 BC. Died 43 BC.</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/177590"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q294846"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Decimus_Junius_Brutus_Albinus"/>
+      <skos:prefLabel xml:lang="pl">Decymus Juniusz Brutus</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Dezimo Bruto</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">데키무스 유니우스 브루투스 알비누스</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Decimus Junius Brutus Albinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Décimo Junio Bruto Albino</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Decimus Iunius Brutus Albinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Decimo Giunio Bruto Albino</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Decimus Iunius Brutus Albinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">デキムス・ユニウス・ブルトゥス・アルビヌス</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Decim Junije Brut Albin</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Decimus Junius Brutus Albinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">دسيموس جونيوس بروتوس ألبينوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Decimus Junius Brutus Albinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Décimo Júnio Bruto Albino</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Децим Юний Брут Альбин</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Decimus Junius Brutus Albinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Decimus Brutus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Dècim Juni Brut Albí</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Decimus Junius Brutus Albinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Децім Юній Брут Альбін</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Decimus Junius Brutus Albinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Децим Брут</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">დეციმუს იუნიუს ალბინუს ბრუტუსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Decimus Junius Brutus Albinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Децим Јуније Брут</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">布鲁图·阿尔比努斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Decimus Junius Brutus Albinus</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">דקימוס יוניוס ברוטוס אלבינוס</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/102383375"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/12693394"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/020y_d"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/albinvs_brvti_f_rrc#provenance"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/albinvs_brvti_f_rrc#membership_4baa3e41cb521a9b5f5209645a4ab798"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/6631"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/albinvs_brvti_f_rrc#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/albinvs_brvti_f_rrc"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-18T08:56:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VAcXfPy7GhWg7BZ9kMVIW1spX1f8afklCCSjM5frPgk/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-                <dcterms:description xml:lang="en">This ID was generated by processing a spreadsheet through a one-off PHP script, predating the Nomisma spreadsheet import feature.</dcterms:description>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-21T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T14:46:53.695Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T14:34:14.229Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:11:54.895Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    
-    
-    <org:Membership rdf:about="http://nomisma.org/id/albinvs_brvti_f_rrc#membership_4baa3e41cb521a9b5f5209645a4ab798">
-        <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
-        <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0048</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0048</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/albinvs_brvti_f_rrc"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-18T08:56:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VAcXfPy7GhWg7BZ9kMVIW1spX1f8afklCCSjM5frPgk/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+            <dcterms:description xml:lang="en">This ID was generated by processing a spreadsheet through a one-off PHP script, predating the Nomisma spreadsheet import feature.</dcterms:description>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-21T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T14:46:53.695Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T14:34:14.229Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:11:54.895Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/albinvs_brvti_f_rrc#membership_4baa3e41cb521a9b5f5209645a4ab798">
+      <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
+      <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0048</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0048</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

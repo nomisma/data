@@ -1,87 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/ura">
-        <skos:prefLabel xml:lang="en">Ura</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The mint at the ancient site of Ura (later Seleuceia ad Calycadnum?) in Cilicia in ancient Asia Minor. </skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ura#provenance"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/cilicia"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/300354625"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/648771"/>
-        <geo:location rdf:resource="http://nomisma.org/id/ura#this"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q2499883"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Ura,_Anatolia"/>
-        <skos:prefLabel xml:lang="de">Ura</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ura</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Ura</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ura</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ura</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Ura</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Ura</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-    </nmo:Mint>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ura#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/ura"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-08T09:11:38.556-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-08T09:15:39.719-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-10T07:45:32.237-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-13T05:28:14.474-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-27T12:46:56.132-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/ura#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.379274</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.9214625</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/cilicia#this"/>
-    </geo:SpatialThing>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/ura">
+      <skos:prefLabel xml:lang="en">Ura</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The mint at the ancient site of Ura (later Seleuceia ad Calycadnum?) in Cilicia in ancient Asia Minor. </skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ura#provenance"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/cilicia"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/300354625"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/648771"/>
+      <geo:location rdf:resource="http://nomisma.org/id/ura#this"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q2499883"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Ura,_Anatolia"/>
+      <skos:prefLabel xml:lang="de">Ura</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ura</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Ura</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ura</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ura</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Ura</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Ura</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+   </nmo:Mint>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ura#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ura"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-08T09:11:38.556-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-08T09:15:39.719-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-10T07:45:32.237-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-13T05:28:14.474-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-27T12:46:56.132-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/ura#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.379274</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33.9214625</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/cilicia#this"/>
+   </geo:SpatialThing>
 </rdf:RDF>

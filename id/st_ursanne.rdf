@@ -1,90 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <nmo:Mint rdf:about="http://nomisma.org/id/st_ursanne">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Saint-Ursanne</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">St. Ursanne</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint of the prince-bishopric of Basel in Saint-Ursanne, an old town and a former municipality of the district of Porrentruy in the canton of Jura, Switzerland. </skos:definition>
-        <skos:prefLabel xml:lang="pt">Saint-Ursanne</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Saint-Ursanne</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Saint-Ursanne</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Saint-Ursanne</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Saint-Ursanne</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Fanum Sancti Ursicini</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Saint-Ursanne</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Saint-Ursanne</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Saint-Ursanne</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q661799"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4516754-0"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0293hs"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/2658858/"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/154819336"/>
-        <geo:location rdf:resource="http://nomisma.org/id/st_ursanne#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/st_ursanne#provenance"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q661799"/>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/2658858"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-    </nmo:Mint>
-   
-   
-   
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/st_ursanne#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.36499</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.15381</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/st_ursanne#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/st_ursanne"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:18:12.091-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T10:23:06.687-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T10:25:02.938-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+   <nmo:Mint rdf:about="http://nomisma.org/id/st_ursanne">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Saint-Ursanne</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">St. Ursanne</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint of the prince-bishopric of Basel in Saint-Ursanne, an old town and a former municipality of the district of Porrentruy in the canton of Jura, Switzerland. </skos:definition>
+      <skos:prefLabel xml:lang="pt">Saint-Ursanne</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Saint-Ursanne</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Saint-Ursanne</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Saint-Ursanne</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Saint-Ursanne</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Fanum Sancti Ursicini</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Saint-Ursanne</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Saint-Ursanne</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Saint-Ursanne</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q661799"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4516754-0"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0293hs"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/2658858/"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/154819336"/>
+      <geo:location rdf:resource="http://nomisma.org/id/st_ursanne#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/st_ursanne#provenance"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q661799"/>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/2658858"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/st_ursanne#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.36499</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.15381</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/st_ursanne#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/st_ursanne"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:18:12.091-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T10:23:06.687-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T10:25:02.938-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

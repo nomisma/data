@@ -1,107 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xiv">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Ptolemy XIV</skos:prefLabel>
-        <skos:definition xml:lang="en">Ptolemy XIV (who lived 60 BC/59 BC–44 BC and reigned 47 BC–44 BC), was a son of Ptolemy XII of Egypt and one of the last members of the Ptolemaic dynasty of Egypt. Following the death of his older brother Ptolemy XIII of Egypt on January 13, 47 BC, he was proclaimed Pharaoh and co-ruler by their older sister and remaining Pharaoh, Cleopatra VII of Egypt.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_XIV_of_Egypt"/>
-        <skos:prefLabel xml:lang="zh">托勒密十四世</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Ptolomeo XIV.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ptolemeusz XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ptolémée XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ptolomeo XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">XIV. Ptolemaiosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tolomeo XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Ptolemaios XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Ptolemaios XIV dari Mesir</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ptolemaios XIV.</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ptolemaios XIV của Ai Cập</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πτολεμαίος ΙΔ΄</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ptolemej XIV od Egipta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ptolemaios XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ptolemaeus XIV Theos Philopator II</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بطليموس الرابع عشر</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ptolemeu XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Птолемей XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ptolemeu XIV Filopàtor</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ptolemaios XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ptolemaios XIV. Theos Filopatór II.</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Птолемей XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ptolemėjas XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Ptolomeu XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">بطلمیوس چهاردهم</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ptolemaios XIV av Egypt</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Птолемей XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תלמי הארבעה עשר</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პტოლემე XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プトレマイオス14世</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">ඊජිප්තුවේ XIVවන ටොලමි</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пталамей XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Ptolemy XIV na h-Èipheit</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ptolemeo la 14-a</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">بطلیموس چہاردہم</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ปโตเลมีที่ 14</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q40017"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01sk_c"/>
-        
-        <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xiv#provenance"/>
-        <skos:prefLabel xml:lang="mg">Ptolemaiosy XIV</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Птолемеј XIV Египатски</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Ptolemy XIV</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xiv#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XIV-Theos-Philopator-II"/>
-    </foaf:Person>
-   
-   
-   
-   
-   
-   
-   
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xiv#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xiv"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:44.234-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xiv#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0047</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0044</nmo:hasEndDate>
-    </org:Membership>
+   <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xiv">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Ptolemy XIV</skos:prefLabel>
+      <skos:definition xml:lang="en">Ptolemy XIV (who lived 60 BC/59 BC–44 BC and reigned 47 BC–44 BC), was a son of Ptolemy XII of Egypt and one of the last members of the Ptolemaic dynasty of Egypt. Following the death of his older brother Ptolemy XIII of Egypt on January 13, 47 BC, he was proclaimed Pharaoh and co-ruler by their older sister and remaining Pharaoh, Cleopatra VII of Egypt.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_XIV_of_Egypt"/>
+      <skos:prefLabel xml:lang="zh">托勒密十四世</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Ptolomeo XIV.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ptolemeusz XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ptolémée XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ptolomeo XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">XIV. Ptolemaiosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tolomeo XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Ptolemaios XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Ptolemaios XIV dari Mesir</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ptolemaios XIV.</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ptolemaios XIV của Ai Cập</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πτολεμαίος ΙΔ΄</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ptolemej XIV od Egipta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ptolemaios XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ptolemaeus XIV Theos Philopator II</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بطليموس الرابع عشر</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ptolemeu XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Птолемей XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ptolemeu XIV Filopàtor</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ptolemaios XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ptolemaios XIV. Theos Filopatór II.</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Птолемей XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ptolemėjas XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Ptolomeu XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">بطلمیوس چهاردهم</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ptolemaios XIV av Egypt</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Птолемей XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תלמי הארבעה עשר</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პტოლემე XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プトレマイオス14世</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">ඊජිප්තුවේ XIVවන ටොලමි</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пталамей XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Ptolemy XIV na h-Èipheit</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ptolemeo la 14-a</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">بطلیموس چہاردہم</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ปโตเลมีที่ 14</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q40017"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01sk_c"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xiv#provenance"/>
+      <skos:prefLabel xml:lang="mg">Ptolemaiosy XIV</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Птолемеј XIV Египатски</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Ptolemy XIV</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xiv#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XIV-Theos-Philopator-II"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xiv#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xiv"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:44.234-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xiv#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0047</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0044</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

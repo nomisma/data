@@ -1,50 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <nmo:Mint rdf:about="http://nomisma.org/id/antioch_persian_gulf_sco">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">"Antioch on the Persian Gulf"</skos:prefLabel>
-        <skos:definition xml:lang="en">"Antioch on the Persian Gulf" is the name given by Otto Mørkholm to an uncertain eastern mint. He identified this mint as the Seleucid refoundation of Alexandria on the Erythrean Sea (the later Charax Spasinou), but it is unclear that this attribution is correct. The attribution was retained in parentheses in Seleucid Coins, Part 2. The coins of this mint seem to have exclusively Susian provenances.</skos:definition>
-        <skos:related>
-					       <rdf:Description>
-						          <rdf:value rdf:resource="http://nomisma.org/id/charax_spasinou"/>
-						          <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
-					       </rdf:Description>
-				    </skos:related>
-        <dcterms:source rdf:resource="http://nomisma.org/id/seleucid_coins_online"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:scopeNote xml:lang="en">This concept should be used only in the context of Seleucid coinage. For other applications of Antioch/Alexandria/Spasinou Charax, use the nm:charax_spasinou URI.</skos:scopeNote>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/antioch_persian_gulf_sco#provenance"/>
-    </nmo:Mint>
-    
-   
-   
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antioch_persian_gulf_sco#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/antioch_persian_gulf_sco"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T07:52:01.689-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xQ_I_bCcoWppw_BM9DM638ebQ5dhU1zbXrjoSNIHBrg/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <nmo:Mint rdf:about="http://nomisma.org/id/antioch_persian_gulf_sco">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">"Antioch on the Persian Gulf"</skos:prefLabel>
+      <skos:definition xml:lang="en">"Antioch on the Persian Gulf" is the name given by Otto Mørkholm to an uncertain eastern mint. He identified this mint as the Seleucid refoundation of Alexandria on the Erythrean Sea (the later Charax Spasinou), but it is unclear that this attribution is correct. The attribution was retained in parentheses in Seleucid Coins, Part 2. The coins of this mint seem to have exclusively Susian provenances.</skos:definition>
+      <skos:related>
+         <rdf:Description>
+            <rdf:value rdf:resource="http://nomisma.org/id/charax_spasinou"/>
+            <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+         </rdf:Description>
+      </skos:related>
+      <dcterms:source rdf:resource="http://nomisma.org/id/seleucid_coins_online"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:scopeNote xml:lang="en">This concept should be used only in the context of Seleucid coinage. For other applications of Antioch/Alexandria/Spasinou Charax, use the nm:charax_spasinou URI.</skos:scopeNote>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/antioch_persian_gulf_sco#provenance"/>
+   </nmo:Mint>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antioch_persian_gulf_sco#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/antioch_persian_gulf_sco"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T07:52:01.689-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xQ_I_bCcoWppw_BM9DM638ebQ5dhU1zbXrjoSNIHBrg/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

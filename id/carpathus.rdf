@@ -1,103 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/carpathus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Carpathus</skos:prefLabel>
-        <skos:definition xml:lang="en">The subregion of Carpathus in Islands off Caria as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
-        <skos:broader rdf:resource="http://nomisma.org/id/islands_off_caria"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/carpathus#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q204757"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Karpathos"/>
-        <skos:prefLabel xml:lang="pl">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קרפאתוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Kárpatos</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Scarpanto</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">カルパトス島</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κάρπαθος</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">كارباثوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Cárpatos</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Карпатос</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Kerpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">คาร์พาทอส</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Kàrpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Kárpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Карпатос</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Carpathus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Kárpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Karpatos</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Kárpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Karpatos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Карпатос</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">喀帕苏斯岛</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Kárpathose saar</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Karpathos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Kárpáthosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کارپاتوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Karpatos</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Karpatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Карпатос</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/028qbk"/>
-        <skos:exactMatch rdf:resource="http://sws.geonames.org/260893/"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4029762-7"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/133656224"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12241855b"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Carpathus</skos:prefLabel>
+      <skos:definition xml:lang="en">The subregion of Carpathus in Islands off Caria as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
+      <skos:broader rdf:resource="http://nomisma.org/id/islands_off_caria"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/carpathus#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q204757"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Karpathos"/>
+      <skos:prefLabel xml:lang="pl">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קרפאתוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Kárpatos</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Scarpanto</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">カルパトス島</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κάρπαθος</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">كارباثوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Cárpatos</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Карпатос</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Kerpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">คาร์พาทอส</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Kàrpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Kárpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Карпатос</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Carpathus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Kárpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Karpatos</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Kárpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Karpatos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Карпатос</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">喀帕苏斯岛</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Kárpathose saar</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Karpathos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Kárpáthosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کارپاتوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Karpatos</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Karpatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Карпатос</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/028qbk"/>
+      <skos:exactMatch rdf:resource="http://sws.geonames.org/260893/"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4029762-7"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/133656224"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12241855b"/>
+   </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/carpathus#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/carpathus"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-25T04:00:03+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-10T08:30:37.879-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/carpathus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-25T04:00:03+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-10T08:30:37.879-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

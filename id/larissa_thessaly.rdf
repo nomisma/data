@@ -1,138 +1,141 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/larissa_thessaly">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Larissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Larissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Larissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">拉里萨</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Лариса</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Larissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ラリサ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">라리사</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Làrissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Лариса</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Larissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Lárisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Lárisza</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">لاريسا</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Λάρισα</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Larissa in Thessaly.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Larissa"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/540905"/>
-        <geo:location rdf:resource="http://nomisma.org/id/larissa_thessaly#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/thessaly"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/10282349/"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x49673"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7010894"/>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q178405"/>
-        <skos:prefLabel xml:lang="jv">Larissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">לאריסה</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Ларыса</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Larissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Lárisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Larissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Lariso</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Larissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Larissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Lárisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Lárisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">لاریسا</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Лариса</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Лариса</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Lárissa</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Larisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Лариса</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Larissa, Thessalien</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Лариса (гӀала)</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Larisa (grad)</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Lárisa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">لاریسا</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Լարիսա</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Лариса</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ლარისა (ქალაქი)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Лариса шаары</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/04pgb"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/258576/"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15551419h"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/larissa_thessaly#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Larissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Larissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Larissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">拉里萨</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Лариса</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Larissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ラリサ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">라리사</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Làrissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Лариса</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Larissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Lárisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Lárisza</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">لاريسا</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Λάρισα</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Larissa in Thessaly.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Larissa"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/540905"/>
+      <geo:location rdf:resource="http://nomisma.org/id/larissa_thessaly#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/thessaly"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/10282349/"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x49673"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7010894"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q178405"/>
+      <skos:prefLabel xml:lang="jv">Larissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">לאריסה</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Ларыса</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Larissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Lárisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Larissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Lariso</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Larissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Larissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Lárisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Lárisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">لاریسا</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Лариса</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Лариса</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Lárissa</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Larisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Лариса</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Larissa, Thessalien</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Лариса (гӀала)</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Larisa (grad)</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Lárisa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">لاریسا</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Լարիսա</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Лариса</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ლარისა (ქალაქი)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Лариса шаары</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/04pgb"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/258576/"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15551419h"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/larissa_thessaly#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/479"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/larissa_thessaly#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.641667</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.416667</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/thessaly#this"/>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.641667</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.416667</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/thessaly#this"/>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/larissa_thessaly#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/larissa_thessaly"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/larissa_thessaly"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

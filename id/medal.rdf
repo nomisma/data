@@ -1,61 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:ObjectType rdf:about="http://nomisma.org/id/medal">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Medal</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ميداليات</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Medaille</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Médaille</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/united_states_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/medal#provenance"/>
-        <skos:definition xml:lang="en">A medal is a small portable artistic object, a thin disc, normally of metal, carrying a design, usually on both sides. They typically have a commemorative purpose of some kind, and many are given as awards.</skos:definition>
-        <skos:definition xml:lang="de">Münzähnliches Objekt, in der Regel ohne definierten Geld-, Waren- oder Dienstleistungsgegenwert, das zumeist zur Erinnerung an ein bestimmtes Ereignis, einen Ort, einen Gegenstand oder eine Person ausgegeben wurde</skos:definition>
-        <skos:prefLabel xml:lang="it">medaglia</skos:prefLabel>
-    </nmo:ObjectType>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Medal</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ميداليات</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Medaille</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Médaille</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/united_states_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/medal#provenance"/>
+      <skos:definition xml:lang="en">A medal is a small portable artistic object, a thin disc, normally of metal, carrying a design, usually on both sides. They typically have a commemorative purpose of some kind, and many are given as awards.</skos:definition>
+      <skos:definition xml:lang="de">Münzähnliches Objekt, in der Regel ohne definierten Geld-, Waren- oder Dienstleistungsgegenwert, das zumeist zur Erinnerung an ein bestimmtes Ereignis, einen Ort, einen Gegenstand oder eine Person ausgegeben wurde</skos:definition>
+      <skos:prefLabel xml:lang="it">medaglia</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/sachbegriff/3"/>
+   </nmo:ObjectType>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/medal#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/medal"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-11T04:00:03+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T14:30:11.915-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1wB7QvwLujFTX7UpKR8mQgYtKUL9z6nRIeyK07zi-EDk/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/medal"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-11T04:00:03+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T14:30:11.915-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1wB7QvwLujFTX7UpKR8mQgYtKUL9z6nRIeyK07zi-EDk/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

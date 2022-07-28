@@ -1,111 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <nmo:Mint rdf:about="http://nomisma.org/id/orcha">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Orcha</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Uruk</skos:altLabel>
-        <skos:definition xml:lang="en">Uruk (Hellenized Orcha) was an ancient city of Sumer (and later of Babylonia), situated east of the present bed of the Euphrates river, on the dried-up, ancient channel of the Euphrates, some 30 km east of modern Samawah, Al-Muthannā, Iraq.</skos:definition>
-        <skos:broader rdf:resource="http://nomisma.org/id/babylonia"/>
-        <geo:location rdf:resource="http://nomisma.org/id/orcha#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Uruk"/>
-        <skos:prefLabel xml:lang="pl">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ουρούκ</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ኦሬክ</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">الوركاء</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Урук</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Урук</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Урук</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">우루크</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">ארך</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Урук</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ウルク</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Ուրուկ</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Урук</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Orchoe</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Урук</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">اوروک</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ურუქი</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Urukas</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">烏魯克</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Урук</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Urûk</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Uruk</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Urūka</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">উরুক</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Úrúk</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Uruk</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q168518"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4062188-1"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0lpm3"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/90377/"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/1147310007137851187"/>
-        <skos:closeMatch rdf:resource="http://www.idref.fr/027244296"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11932913s"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/912986"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/orcha#provenance"/>
-    </nmo:Mint>
-    
-   
-   
-    
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/orcha#this">
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/babylonia#this"/>
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.318603</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.61715</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/orcha#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/orcha"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T07:52:08.285-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xQ_I_bCcoWppw_BM9DM638ebQ5dhU1zbXrjoSNIHBrg/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <nmo:Mint rdf:about="http://nomisma.org/id/orcha">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Orcha</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Uruk</skos:altLabel>
+      <skos:definition xml:lang="en">Uruk (Hellenized Orcha) was an ancient city of Sumer (and later of Babylonia), situated east of the present bed of the Euphrates river, on the dried-up, ancient channel of the Euphrates, some 30 km east of modern Samawah, Al-Muthannā, Iraq.</skos:definition>
+      <skos:broader rdf:resource="http://nomisma.org/id/babylonia"/>
+      <geo:location rdf:resource="http://nomisma.org/id/orcha#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Uruk"/>
+      <skos:prefLabel xml:lang="pl">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ουρούκ</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ኦሬክ</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">الوركاء</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Урук</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Урук</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Урук</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">우루크</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">ארך</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Урук</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ウルク</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Ուրուկ</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Урук</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Orchoe</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Урук</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">اوروک</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ურუქი</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Urukas</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">烏魯克</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Урук</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Urûk</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Uruk</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Urūka</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">উরুক</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Úrúk</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Uruk</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q168518"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4062188-1"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0lpm3"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/90377/"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/1147310007137851187"/>
+      <skos:closeMatch rdf:resource="http://www.idref.fr/027244296"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11932913s"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/912986"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/orcha#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/1244"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/orcha#this">
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/babylonia#this"/>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.318603</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.61715</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/orcha#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/orcha"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T07:52:08.285-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xQ_I_bCcoWppw_BM9DM638ebQ5dhU1zbXrjoSNIHBrg/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

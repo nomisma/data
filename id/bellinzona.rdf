@@ -1,136 +1,139 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/bellinzona">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Bellinzona</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint of Bellinzona, a city of the canton of Ticino, Switzerland. The mint was established in 1503 for the joint coinage of Uri, Schwyz and Unterwalden. Bellinzona ceased to issue coins after the mint of Uri, Schwyz and Unterwalden has been moved to Altdorf in the Canton of Uri in 1548.</skos:definition>
-        <skos:prefLabel xml:lang="zh">貝林佐納</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Belinkona</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Belinzono</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Беллинцона</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Белинцона</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Беллінцона</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">בלינצונה</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Белінцона</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">벨린초나</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Bellinzone</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ベッリンツォーナ</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Bilitio</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Белиндзона</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">بلانزونا</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Belincona</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">เบลลินโซนา</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Беллинцона</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ბელინცონა</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بيلينزونا</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Bellincona</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Беллинцона шаары</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">بیلنزونا</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Беллинцона</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μπελλιντσόνα</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Bellinzona</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">बेलिंज़ोआ</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Белинцона</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q64044"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/033v4v"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/2661567/"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4005432-9"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/128990305"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11974533m"/>
-        <geo:location rdf:resource="http://nomisma.org/id/bellinzona#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/bellinzona#provenance"/>
-        <skos:prefLabel xml:lang="tt">Беллинцона</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Բելինցոնա</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Bellinzona</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/2661567"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-    </nmo:Mint>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/bellinzona#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.195555</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.023809</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bellinzona#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/bellinzona"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:21.293-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T09:42:56.094-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T10:50:34.632-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/bellinzona">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Bellinzona</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint of Bellinzona, a city of the canton of Ticino, Switzerland. The mint was established in 1503 for the joint coinage of Uri, Schwyz and Unterwalden. Bellinzona ceased to issue coins after the mint of Uri, Schwyz and Unterwalden has been moved to Altdorf in the Canton of Uri in 1548.</skos:definition>
+      <skos:prefLabel xml:lang="zh">貝林佐納</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Belinkona</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Belinzono</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Беллинцона</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Белинцона</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Беллінцона</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">בלינצונה</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Белінцона</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">벨린초나</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Bellinzone</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ベッリンツォーナ</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Bilitio</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Белиндзона</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">بلانزونا</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Belincona</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">เบลลินโซนา</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Беллинцона</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ბელინცონა</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بيلينزونا</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Bellincona</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Беллинцона шаары</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">بیلنزونا</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Беллинцона</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μπελλιντσόνα</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Bellinzona</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">बेलिंज़ोआ</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Белинцона</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q64044"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/033v4v"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/2661567/"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4005432-9"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/128990305"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11974533m"/>
+      <geo:location rdf:resource="http://nomisma.org/id/bellinzona#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/bellinzona#provenance"/>
+      <skos:prefLabel xml:lang="tt">Беллинцона</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Բելինցոնա</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Bellinzona</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/2661567"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/811"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/bellinzona#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.195555</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.023809</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bellinzona#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/bellinzona"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:21.293-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T09:42:56.094-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T10:50:34.632-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,70 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Organization rdf:about="http://nomisma.org/id/chalcis_kingdom">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Kingdom of Chalcis</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Chalcis</skos:altLabel>
-        <skos:definition xml:lang="en">Chalcis was a small ancient Iturean majority kingdom situated in the Beqaa Valley, named for and originally based from the city of the same name. The ancient city of Chalcis (a.k.a. Chalcis sub Libanum, Chalcis of Coele-Syria was located midway between Berytus and Damascus. It was founded by Ptolemaeus, son of Menneus, an Ituraean dynast in about 85 B.C. as Seleucid influence diminished, but it became a Roman client-state ca. 60 B.C. under Pompey. It was absorbed into the Roman province of Syria in A.D. 92.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kingdom_of_Chalcis"/>
-        <skos:prefLabel xml:lang="nl">Chalkis</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Regatul Chalcis</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Royaume de Chalcis</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مملكة خالكيس</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2111229"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/chalcis_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/chalcis_kingdom#provenance"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/chalcis_kingdom#membership_5cc6c8d602db09909f094fb0cb945c12"/>
-    </foaf:Organization>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/chalcis_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
-        <org:role rdf:resource="http://nomisma.org/id/realm"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0085</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0060</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/chalcis_kingdom#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/chalcis_kingdom"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:06:02.898-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/chalcis_kingdom#membership_5cc6c8d602db09909f094fb0cb945c12">
-        <org:role rdf:resource="http://nomisma.org/id/realm"/>
-        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0060</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0092</nmo:hasEndDate>
-    </org:Membership>
+   <foaf:Organization rdf:about="http://nomisma.org/id/chalcis_kingdom">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Kingdom of Chalcis</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Chalcis</skos:altLabel>
+      <skos:definition xml:lang="en">Chalcis was a small ancient Iturean majority kingdom situated in the Beqaa Valley, named for and originally based from the city of the same name. The ancient city of Chalcis (a.k.a. Chalcis sub Libanum, Chalcis of Coele-Syria was located midway between Berytus and Damascus. It was founded by Ptolemaeus, son of Menneus, an Ituraean dynast in about 85 B.C. as Seleucid influence diminished, but it became a Roman client-state ca. 60 B.C. under Pompey. It was absorbed into the Roman province of Syria in A.D. 92.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kingdom_of_Chalcis"/>
+      <skos:prefLabel xml:lang="nl">Chalkis</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Regatul Chalcis</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Royaume de Chalcis</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مملكة خالكيس</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2111229"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/chalcis_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/chalcis_kingdom#provenance"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/chalcis_kingdom#membership_5cc6c8d602db09909f094fb0cb945c12"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/chalcis_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+      <org:role rdf:resource="http://nomisma.org/id/realm"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0085</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0060</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/chalcis_kingdom#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/chalcis_kingdom"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:06:02.898-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/chalcis_kingdom#membership_5cc6c8d602db09909f094fb0cb945c12">
+      <org:role rdf:resource="http://nomisma.org/id/realm"/>
+      <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0060</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0092</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

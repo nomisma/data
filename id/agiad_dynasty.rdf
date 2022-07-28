@@ -1,67 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <rdac:Family rdf:about="http://nomisma.org/id/agiad_dynasty">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Agiad Dynasty</skos:prefLabel>
-        <skos:definition xml:lang="en">The Agiad Dynasty was a line of kings of Lacedaemon (Sparta), named after its second king, Agis I.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/agiad_dynasty#provenance"/>
-        <skos:prefLabel xml:lang="el">Δυναστεία Αγιαδών</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Агиди</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Agiaden</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">agíades</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Agiaden</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Agiadi</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Agiovci</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Агіади</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Agiadit</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Agiadzi</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Agiovci</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Agiad</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">亚基亚德世系</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Agíadas</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Agiades</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ágida</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Агиады</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Agijadi</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">השושלת האגידית</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q393652"/>
-    </rdac:Family>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Agiad Dynasty</skos:prefLabel>
+      <skos:definition xml:lang="en">The Agiad Dynasty was a line of kings of Lacedaemon (Sparta), named after its second king, Agis I.</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/agiad_dynasty#provenance"/>
+      <skos:prefLabel xml:lang="el">Δυναστεία Αγιαδών</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Агиди</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Agiaden</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">agíades</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Agiaden</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Agiadi</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Agiovci</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Агіади</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Agiadit</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Agiadzi</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Agiovci</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Agiad</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">亚基亚德世系</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Agíadas</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Agiades</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ágida</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Агиады</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Agijadi</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">השושלת האגידית</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q393652"/>
+   </rdac:Family>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/agiad_dynasty#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/agiad_dynasty"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:06:52-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1KNnrbtxrc2vtSLKjcp3zNdYcKq6x7okR00H-3CXvNiI/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:02:59.297-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1m0KfSJ6iL-xit37vqCMuv6aRybRLjRBqnK5w8wA088U/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/agiad_dynasty"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:06:52-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1KNnrbtxrc2vtSLKjcp3zNdYcKq6x7okR00H-3CXvNiI/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:02:59.297-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1m0KfSJ6iL-xit37vqCMuv6aRybRLjRBqnK5w8wA088U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

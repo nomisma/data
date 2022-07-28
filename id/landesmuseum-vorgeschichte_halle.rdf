@@ -1,42 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Collection rdf:about="http://nomisma.org/id/landesmuseum-vorgeschichte_halle">
-        <skos:definition xml:lang="de">Das Landesmuseum für Vorgeschichte in Halle gehört zum Landesamt für Denkmalpflege und Archäologie in Sachsen-Anhalt und zählt zu den bedeutendsten archäologischen Museen in Mitteleuropa. Die archäologische Sammlung ist eine der ältesten, umfangreichsten und bedeutendsten in Deutschland. Das Fundmaterial setzt sich zusammen aus Hinterlassenschaften des vor- und frühgeschichtlichen Menschen aller Art und aus allen Zeiten: Werkzeug, Schmuck, Waffen, Nahrungsreste, Baumaterialien bis hin zu Skelettresten. Dazu kommen zahlreiche naturwissenschaftliche Proben, Vergleichsmaterial und Nachbildungen. Zum umfangreichen Sammlungsbestand von mehr als 15 Millionen Funden gehören zahlreiche Stücke weltweiten Ranges, wie beispielsweise die im Jahr 2013 in das UNESCO-Dokumentenerbe "Memory of the World" aufgenommene Himmelsscheibe von Nebra. Zudem umfasst die Sammlung einen umfangreichen, stetig wachsenden Münzbestand mit derzeit etwa 25.000 Exemplaren. Bei den meisten Münzen handelt es sich um Funde von archäologischen Grabungen und Prospektionen in Sachsen-Anhalt. Der inhaltliche Schwerpunkt liegt dadurch auf Prägungen der Mitteldeutschen Länder vom Mittelalter bis hin zur Neuzeit. Aber auch mehrere Hundert römische sowie einige keltische Münzen befinden sich im Bestand.</skos:definition>
-        <skos:prefLabel xml:lang="en">State Museum of Prehistory Halle</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Landesmuseum für Vorgeschichte Halle</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The State Museum of Prehistory in Halle is a part of the archaeological conservation service in Saxony-Anhalt and numbers amongst the most eminent archaeological museums in central Europe. The archaeological collection is one of the oldest, most extensive and most important collections in Germany. The finds are composed of legacies of pre-historic and early-historical people of all kinds and from all times: tools, jewelry, weapons, leftovers of food, building materials and skeletal remains. There are also numerous scientific samples, comparative material and replicas. The extensive collection of more than 15 million finds includes numerous pieces of worldwide renown, such as the Nebra Sky Disc, which was included in the UNESCO documentary heritage "Memory of the World" in 2013. In addition, the collection includes an extensive, steadily growing collection of coins with currently about 25.000 pieces. Most of the coins are finds from archaeological excavations and prospecting in Saxony-Anhalt. The focus is therefore on coins of the Central German States from the Middle Ages to modern times. Furthermore several hundred Roman and some Celtic coins are in stock.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <foaf:homepage rdf:resource="https://www.landesmuseum-vorgeschichte.de/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/landesmuseum-vorgeschichte_halle#provenance"/>
-        <foaf:thumbnail rdf:resource="https://www.lda-lsa.de/fileadmin/img/reiter.jpg"/>
-        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-805310"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-    </nmo:Collection>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/landesmuseum-vorgeschichte_halle#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/landesmuseum-vorgeschichte_halle"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:10:18.842-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/landesmuseum-vorgeschichte_halle">
+      <skos:definition xml:lang="de">Das Landesmuseum für Vorgeschichte in Halle gehört zum Landesamt für Denkmalpflege und Archäologie in Sachsen-Anhalt und zählt zu den bedeutendsten archäologischen Museen in Mitteleuropa. Die archäologische Sammlung ist eine der ältesten, umfangreichsten und bedeutendsten in Deutschland. Das Fundmaterial setzt sich zusammen aus Hinterlassenschaften des vor- und frühgeschichtlichen Menschen aller Art und aus allen Zeiten: Werkzeug, Schmuck, Waffen, Nahrungsreste, Baumaterialien bis hin zu Skelettresten. Dazu kommen zahlreiche naturwissenschaftliche Proben, Vergleichsmaterial und Nachbildungen. Zum umfangreichen Sammlungsbestand von mehr als 15 Millionen Funden gehören zahlreiche Stücke weltweiten Ranges, wie beispielsweise die im Jahr 2013 in das UNESCO-Dokumentenerbe "Memory of the World" aufgenommene Himmelsscheibe von Nebra. Zudem umfasst die Sammlung einen umfangreichen, stetig wachsenden Münzbestand mit derzeit etwa 25.000 Exemplaren. Bei den meisten Münzen handelt es sich um Funde von archäologischen Grabungen und Prospektionen in Sachsen-Anhalt. Der inhaltliche Schwerpunkt liegt dadurch auf Prägungen der Mitteldeutschen Länder vom Mittelalter bis hin zur Neuzeit. Aber auch mehrere Hundert römische sowie einige keltische Münzen befinden sich im Bestand.</skos:definition>
+      <skos:prefLabel xml:lang="en">State Museum of Prehistory Halle</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Landesmuseum für Vorgeschichte Halle</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The State Museum of Prehistory in Halle is a part of the archaeological conservation service in Saxony-Anhalt and numbers amongst the most eminent archaeological museums in central Europe. The archaeological collection is one of the oldest, most extensive and most important collections in Germany. The finds are composed of legacies of pre-historic and early-historical people of all kinds and from all times: tools, jewelry, weapons, leftovers of food, building materials and skeletal remains. There are also numerous scientific samples, comparative material and replicas. The extensive collection of more than 15 million finds includes numerous pieces of worldwide renown, such as the Nebra Sky Disc, which was included in the UNESCO documentary heritage "Memory of the World" in 2013. In addition, the collection includes an extensive, steadily growing collection of coins with currently about 25.000 pieces. Most of the coins are finds from archaeological excavations and prospecting in Saxony-Anhalt. The focus is therefore on coins of the Central German States from the Middle Ages to modern times. Furthermore several hundred Roman and some Celtic coins are in stock.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <foaf:homepage rdf:resource="https://www.landesmuseum-vorgeschichte.de/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/landesmuseum-vorgeschichte_halle#provenance"/>
+      <foaf:thumbnail rdf:resource="https://www.lda-lsa.de/fileadmin/img/reiter.jpg"/>
+      <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-805310"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/landesmuseum-vorgeschichte_halle#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/landesmuseum-vorgeschichte_halle"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:10:18.842-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

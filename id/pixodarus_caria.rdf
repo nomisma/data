@@ -1,73 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/pixodarus_caria">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Pixodarus of Caria</skos:prefLabel>
-        <skos:definition xml:lang="en">Pixodarus or Pixodaros (in Lycian 𐊓𐊆𐊜𐊁𐊅𐊀𐊕𐊀 Pixedara; in Greek Πιξώδαρoς; ruled 340–335 BC), was a ruler of Caria, nominally the Achaemenid Empire Satrap, who enjoyed the status of king or dynast by virtue of the powerful position his predecessors of the House of Hecatomnus (the Hecatomnids)</skos:definition>
-        <skos:prefLabel xml:lang="pt">Pixodaro</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pixodaros</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pixodaros</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Пиксодар</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Piksodar od Karije</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Pixodaro</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Piksodar</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Pixòdar</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Piksodaros</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پیکسوداروس</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Пиксодар</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Pissodaro</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Piksodar</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Pixodarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">פיקסודרוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">披克索达洛司</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πιξώδαρος</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Pixodarus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Піксодар</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ピクソダロス</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q930824"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/08f7l3"/>
-        <skos:altLabel xml:lang="en">Pixodarus</skos:altLabel>
-        <org:memberOf rdf:resource="http://nomisma.org/id/hecatomnid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pixodarus_caria#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Pixodarus"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/pixodarus_caria#provenance"/>
-    </foaf:Person>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/pixodarus_caria#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/caria_satrapy"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0340</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0335</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pixodarus_caria#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/pixodarus_caria"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Person rdf:about="http://nomisma.org/id/pixodarus_caria">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Pixodarus of Caria</skos:prefLabel>
+      <skos:definition xml:lang="en">Pixodarus or Pixodaros (in Lycian 𐊓𐊆𐊜𐊁𐊅𐊀𐊕𐊀 Pixedara; in Greek Πιξώδαρoς; ruled 340–335 BC), was a ruler of Caria, nominally the Achaemenid Empire Satrap, who enjoyed the status of king or dynast by virtue of the powerful position his predecessors of the House of Hecatomnus (the Hecatomnids)</skos:definition>
+      <skos:prefLabel xml:lang="pt">Pixodaro</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Pixodaros</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Pixodaros</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Пиксодар</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Piksodar od Karije</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Pixodaro</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Piksodar</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Pixòdar</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Piksodaros</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پیکسوداروس</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Пиксодар</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Pissodaro</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Piksodar</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Pixodarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">פיקסודרוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">披克索达洛司</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πιξώδαρος</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Pixodarus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Піксодар</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ピクソダロス</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q930824"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/08f7l3"/>
+      <skos:altLabel xml:lang="en">Pixodarus</skos:altLabel>
+      <org:memberOf rdf:resource="http://nomisma.org/id/hecatomnid_dynasty"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/pixodarus_caria#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Pixodarus"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pixodarus_caria#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1316"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/pixodarus_caria#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/caria_satrapy"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0340</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0335</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pixodarus_caria#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/pixodarus_caria"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

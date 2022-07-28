@@ -1,144 +1,144 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <nmo:Mint rdf:about="http://nomisma.org/id/schaffhausen">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Schaffhausen</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) in Schaffhausen, the capital of the canton of the same name in Switzerland.</skos:definition>
-        <skos:prefLabel xml:lang="nb">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Schaffhouse</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Sciaffusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Шафхаузен</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ŝafhaŭzo</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">شفوزان</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">シャフハウゼン</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Шаффхаузен</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">샤프하우젠</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Scafusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Šafhauzenas</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Szafuza</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Schaffusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Шаффхаузен</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Шафхаузен</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Шаффгаузен</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">沙夫豪森</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ชัฟเฮาเซิน</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Šafhauzene</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Шаффхаузен</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">شافهاوزن</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Σαφχάουζεν</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">شافہاوزن</skos:prefLabel>
-        <skos:prefLabel xml:lang="gn">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">שפהאוזן</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Schaffhausen</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Շաֆֆհաուզեն</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Шафхаузен</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q9009"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/017jqc"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4051993-4"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/7287070/"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/136659461"/>
-        <skos:closeMatch rdf:resource="http://isni.org/0000000109440916"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12071302n"/>
-        <geo:location rdf:resource="http://nomisma.org/id/schaffhausen#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/schaffhausen#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1045</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1698</nmo:hasEndDate>
-        <skos:prefLabel xml:lang="tt">Шаффһаузен</skos:prefLabel>
-        <skos:prefLabel xml:lang="ps">شاف هاوزن</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/7287070"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/152454816"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7007462"/>
-    </nmo:Mint>
-   
-   
-   
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/schaffhausen#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.69653</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.63386</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/schaffhausen#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/schaffhausen"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:18:03.83-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T11:25:12.077-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-10T02:40:44.624-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+   <nmo:Mint rdf:about="http://nomisma.org/id/schaffhausen">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Schaffhausen</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) in Schaffhausen, the capital of the canton of the same name in Switzerland.</skos:definition>
+      <skos:prefLabel xml:lang="nb">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Schaffhouse</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Sciaffusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Шафхаузен</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ŝafhaŭzo</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">شفوزان</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">シャフハウゼン</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Шаффхаузен</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">샤프하우젠</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Scafusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Šafhauzenas</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Szafuza</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Schaffusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Шаффхаузен</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Шафхаузен</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Шаффгаузен</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">沙夫豪森</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ชัฟเฮาเซิน</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Šafhauzene</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Шаффхаузен</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">شافهاوزن</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Σαφχάουζεν</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">شافہاوزن</skos:prefLabel>
+      <skos:prefLabel xml:lang="gn">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">שפהאוזן</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Schaffhausen</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Շաֆֆհաուզեն</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Шафхаузен</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q9009"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/017jqc"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4051993-4"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/7287070/"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/136659461"/>
+      <skos:closeMatch rdf:resource="http://isni.org/0000000109440916"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12071302n"/>
+      <geo:location rdf:resource="http://nomisma.org/id/schaffhausen#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/schaffhausen#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1045</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1698</nmo:hasEndDate>
+      <skos:prefLabel xml:lang="tt">Шаффһаузен</skos:prefLabel>
+      <skos:prefLabel xml:lang="ps">شاف هاوزن</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/7287070"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/152454816"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7007462"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/1454"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/schaffhausen#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.69653</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.63386</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/schaffhausen#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/schaffhausen"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:18:03.83-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T11:25:12.077-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-10T02:40:44.624-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

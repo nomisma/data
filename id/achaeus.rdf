@@ -1,99 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/achaeus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Achaeus</skos:prefLabel>
-        <skos:definition xml:lang="en">Achaeus was a Seleucid general under Seleucus III and Antiochus III. He reclaimed much of western Asia Minor for Antiochus III in 223 BC before proclaiming himself king in 220 BC. He was besieged in Sardes before he was captured and executed by Antiochus III in late 214 BC.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Achaeus_(general)"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q535413"/>
-        <skos:prefLabel xml:lang="pl">Achajos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Ахей</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Ахей, цар Малой Азіі</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Achaios II</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Aqueo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Aqueu</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Acheo</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Achaios der Jüngere</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Ахей</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ahej</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Achaios</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿凱夫斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αχαιός (στρατηγός)</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Achaeus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/06xxd6"/>
-        
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/achaeus#provenance"/>
-        <skos:prefLabel xml:lang="vi">Achaeos</skos:prefLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/achaeus#membership_9527101f974f5aedc4d6296954375b98"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/achaeus#membership_4d4d0f9dba1a0827f99cd1522cdd2483"/>
-    </foaf:Person>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Achaeus</skos:prefLabel>
+      <skos:definition xml:lang="en">Achaeus was a Seleucid general under Seleucus III and Antiochus III. He reclaimed much of western Asia Minor for Antiochus III in 223 BC before proclaiming himself king in 220 BC. He was besieged in Sardes before he was captured and executed by Antiochus III in late 214 BC.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Achaeus_(general)"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q535413"/>
+      <skos:prefLabel xml:lang="pl">Achajos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Ахей</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Ахей, цар Малой Азіі</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Achaios II</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Aqueo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Aqueu</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Acheo</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Achaios der Jüngere</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Ахей</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ahej</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Achaios</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿凱夫斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αχαιός (στρατηγός)</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Achaeus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/06xxd6"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/achaeus#provenance"/>
+      <skos:prefLabel xml:lang="vi">Achaeos</skos:prefLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/achaeus#membership_9527101f974f5aedc4d6296954375b98"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/achaeus#membership_4d4d0f9dba1a0827f99cd1522cdd2483"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/6857"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/achaeus#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/achaeus"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-16T04:00:01-06:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-23T08:37:52.383-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Uqel_NSiw9HP_znRaYcD7PbEYYyrMs1nM-TyOFFg984/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:36:24.667-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/achaeus#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0223</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0213</nmo:hasEndDate>
-    </org:Membership>
-    <org:Membership rdf:about="http://nomisma.org/id/achaeus#membership_4d4d0f9dba1a0827f99cd1522cdd2483">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/sardis_city"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0214</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0213</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/achaeus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-16T04:00:01-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-23T08:37:52.383-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Uqel_NSiw9HP_znRaYcD7PbEYYyrMs1nM-TyOFFg984/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:36:24.667-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/achaeus#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0223</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0213</nmo:hasEndDate>
+   </org:Membership>
+   <org:Membership rdf:about="http://nomisma.org/id/achaeus#membership_4d4d0f9dba1a0827f99cd1522cdd2483">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/sardis_city"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0214</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0213</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

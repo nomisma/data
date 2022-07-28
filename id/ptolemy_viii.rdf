@@ -1,111 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_viii">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ptolemy VIII Physcon</skos:prefLabel>
-        <skos:definition xml:lang="en">Ptolemy VIII Euergetes II ("Ptolemy the Benefactor"; c. 182 BC – June 26, 116 BC), nicknamed Physcon ("the Fat"), was a king of the Ptolemaic dynasty in Egypt, ruling from 169 to 164 B.C. with siblings Ptolemy VI and Cleopatra II and a second time from 144 to 132/1 and again from 126 to 116.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_VIII_Physcon"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3350"/>
-        <skos:prefLabel xml:lang="nb">Ptolemaios VIII av Egypt</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ptolémée VIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ptolemaios VIII.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بطليموس الثامن</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пталамей VIII Эвергет</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Птолемей VIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ptolemeu VIII Evergetes II</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ptolemaios VIII. Euergetés II.</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πτολεμαίος Η' Φύσκων</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ptolomeo VIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Ptolemaios VIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ptolemaios VIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">VIII. Ptolemaiosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Ptolemaios VIII Physkon</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tolomeo VIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プトレマイオス8世</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ptolemaeus VIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ptolemėjas VIII Euergetas II</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ptolemaeus VIII Euergetes II</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ptolemeusz VIII Euergetes II Fyskon</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ptolemeu VIII Evérgeta II</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Птолемей VIII Эвергет</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ptolemej VIII Fiskon</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Птолемеј VIII Фискон</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ptolemaios VIII Euergetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ptolemaios VIII Physcon</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Ptolemy 8k Physcon</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">托勒密八世</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תלמי השמיני</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Птолемей VIII Фіскон</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პტოლემე VIII</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Ptolemej VIII. Euerget</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">프톨레마이오스 8세</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ปโตเลมีที่ 8</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ptolemeo la 8-a</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Ptolemaj VIII. Everget</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/155419788"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118946811"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/021qp0"/>
-      
-        <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <bio:birth rdf:resource="http://nomisma.org/id/ptolemy_viii#birth"/>
-        <bio:death rdf:resource="http://nomisma.org/id/ptolemy_viii#death"/>
-      
-      
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_viii#provenance"/>
-        <skos:prefLabel xml:lang="mg">Ptolemaiosy VIII</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Ptolemy VIII</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_viii#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-VIII-Euergetes-II"/>
-    </foaf:Person>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ptolemy VIII Physcon</skos:prefLabel>
+      <skos:definition xml:lang="en">Ptolemy VIII Euergetes II ("Ptolemy the Benefactor"; c. 182 BC – June 26, 116 BC), nicknamed Physcon ("the Fat"), was a king of the Ptolemaic dynasty in Egypt, ruling from 169 to 164 B.C. with siblings Ptolemy VI and Cleopatra II and a second time from 144 to 132/1 and again from 126 to 116.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_VIII_Physcon"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3350"/>
+      <skos:prefLabel xml:lang="nb">Ptolemaios VIII av Egypt</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ptolémée VIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ptolemaios VIII.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بطليموس الثامن</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пталамей VIII Эвергет</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Птолемей VIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ptolemeu VIII Evergetes II</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ptolemaios VIII. Euergetés II.</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πτολεμαίος Η' Φύσκων</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ptolomeo VIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Ptolemaios VIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ptolemaios VIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">VIII. Ptolemaiosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Ptolemaios VIII Physkon</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tolomeo VIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プトレマイオス8世</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ptolemaeus VIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ptolemėjas VIII Euergetas II</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ptolemaeus VIII Euergetes II</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ptolemeusz VIII Euergetes II Fyskon</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ptolemeu VIII Evérgeta II</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Птолемей VIII Эвергет</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ptolemej VIII Fiskon</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Птолемеј VIII Фискон</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ptolemaios VIII Euergetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ptolemaios VIII Physcon</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Ptolemy 8k Physcon</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">托勒密八世</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תלמי השמיני</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Птолемей VIII Фіскон</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პტოლემე VIII</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Ptolemej VIII. Euerget</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">프톨레마이오스 8세</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ปโตเลมีที่ 8</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ptolemeo la 8-a</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Ptolemaj VIII. Everget</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/155419788"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118946811"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/021qp0"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <bio:birth rdf:resource="http://nomisma.org/id/ptolemy_viii#birth"/>
+      <bio:death rdf:resource="http://nomisma.org/id/ptolemy_viii#death"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_viii#provenance"/>
+      <skos:prefLabel xml:lang="mg">Ptolemaiosy VIII</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Ptolemy VIII</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_viii#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-VIII-Euergetes-II"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4527"/>
+   </foaf:Person>
    <bio:Birth rdf:about="http://nomisma.org/id/ptolemy_viii#birth">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0182</dcterms:date>
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0182</dcterms:date>
    </bio:Birth>
    <bio:Death rdf:about="http://nomisma.org/id/ptolemy_viii#death">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0116</dcterms:date>
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0116</dcterms:date>
    </bio:Death>
-   
-   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_viii#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_viii"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-13T04:00:01-05:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_viii#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0169</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0164</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_viii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-13T04:00:01-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemy_viii#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0169</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0164</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

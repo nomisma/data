@@ -1,109 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Organization rdf:about="http://nomisma.org/id/pergamum_city">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Pergamum</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Pergamon</skos:altLabel>
-        <skos:definition xml:lang="en">Pergamon (Ancient Greek: τὸ Πέργαμον), or Pergamum, sometimes referred to by the modern Greek form Pergamos (Modern Greek: ἡ Πέργαμος), was a rich and powerful ancient Greek city in Mysia.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pergamon"/>
-        <skos:prefLabel xml:lang="zh">帕加马</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Pergamo</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Pérgamo</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πέργαμος</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Péargamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بيرغامون</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Pérgamo</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Pergamo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Пергам</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Pergam</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Пергам</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Pergam</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">페르가몬</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пергам</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pergame</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">פרגמון</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Pergamo</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Pérgamo</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Pergamum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ペルガモン</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Pergam</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Պերգամոն</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Pèrgam</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Pergamum</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پرگامون</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Пергам</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პერგამონი</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Pergamas</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Pergama</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Pergamon</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Пергам</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Pergam</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">پیرگامون</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Pergamo</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q18986"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4075982-9"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/05tcm"/>
-        <skos:exactMatch rdf:resource="http://www.geonames.org/321426"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119797639"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/130057287"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pergamum_city#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/pergamum_city#provenance"/>
-    </foaf:Organization>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/pergamum_city#membership_bd17e2d21cbc5a487c852bea4809dbbe">
-        <org:role rdf:resource="http://nomisma.org/id/city-state"/>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pergamum_city#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/pergamum_city"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Organization rdf:about="http://nomisma.org/id/pergamum_city">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Pergamum</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Pergamon</skos:altLabel>
+      <skos:definition xml:lang="en">Pergamon (Ancient Greek: τὸ Πέργαμον), or Pergamum, sometimes referred to by the modern Greek form Pergamos (Modern Greek: ἡ Πέργαμος), was a rich and powerful ancient Greek city in Mysia.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pergamon"/>
+      <skos:prefLabel xml:lang="zh">帕加马</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Pergamo</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Pérgamo</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πέργαμος</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Péargamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بيرغامون</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Pérgamo</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Pergamo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Пергам</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Pergam</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Пергам</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Pergam</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">페르가몬</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пергам</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Pergame</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">פרגמון</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Pergamo</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Pérgamo</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Pergamum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ペルガモン</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Pergam</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Պերգամոն</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Pèrgam</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Pergamum</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پرگامون</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Пергам</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პერგამონი</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Pergamas</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Pergama</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Pergamon</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Пергам</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Pergam</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">پیرگامون</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Pergamo</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q18986"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4075982-9"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/05tcm"/>
+      <skos:exactMatch rdf:resource="http://www.geonames.org/321426"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119797639"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/130057287"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/pergamum_city#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pergamum_city#provenance"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/pergamum_city#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+      <org:role rdf:resource="http://nomisma.org/id/city-state"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pergamum_city#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/pergamum_city"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

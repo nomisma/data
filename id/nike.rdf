@@ -1,126 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <wordnet:Deity rdf:about="http://nomisma.org/id/nike">
-        <skos:prefLabel xml:lang="en">Nike</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">In ancient Greek civilization, Nike was a goddess who personified victory. Her Roman equivalent was Victoria.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/nike#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q165023"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nike_(mythology)"/>
-        <skos:prefLabel xml:lang="lb">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Nika</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Niké</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Niké</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">নিকে</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Νίκη</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Nikè</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Ника</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Ніке</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Nika</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Nika</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">니케</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">ניקה</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Niké</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Ніка</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ニーケー</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Nika</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Նիկե</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ไนกี</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Nice</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Nice</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Níké</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">नाइकी</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">نیکه</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Нике</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ნიკე</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Nikė</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Ника</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">尼刻</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Ника</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਨਾਇਕੀ</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Nīke</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Niko</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">نيكه</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Nicé</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Nike</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Ника</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Нике (божица)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Nike (mitologi)</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0klvs"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118786245"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/37712409"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/60915"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="vi">Nike (thần thoại)</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q165023"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/029779510"/>
-        <skos:related rdf:resource="http://nomisma.org/id/victory"/>
-        <skos:exactMatch rdf:resource="https://resource.manto.unh.edu/8189884"/>
-    </wordnet:Deity>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/nike#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/nike"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-18T09:23:06.346-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-18T10:26:10.037-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <wordnet:Deity rdf:about="http://nomisma.org/id/nike">
+      <skos:prefLabel xml:lang="en">Nike</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">In ancient Greek civilization, Nike was a goddess who personified victory. Her Roman equivalent was Victoria.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/nike#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q165023"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nike_(mythology)"/>
+      <skos:prefLabel xml:lang="lb">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Nika</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Niké</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Niké</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">নিকে</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Νίκη</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Nikè</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Ника</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Ніке</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Nika</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Nika</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">니케</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">ניקה</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Niké</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Ніка</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ニーケー</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Nika</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Նիկե</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ไนกี</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Nice</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Nice</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Níké</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">नाइकी</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">نیکه</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Нике</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ნიკე</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Nikė</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Ника</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">尼刻</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Ника</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਨਾਇਕੀ</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Nīke</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Niko</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">نيكه</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Nicé</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Nike</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Ника</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Нике (божица)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Nike (mitologi)</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0klvs"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118786245"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/37712409"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/60915"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="vi">Nike (thần thoại)</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q165023"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/029779510"/>
+      <skos:related rdf:resource="http://nomisma.org/id/victory"/>
+      <skos:exactMatch rdf:resource="https://resource.manto.unh.edu/8189884"/>
+   </wordnet:Deity>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/nike#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/nike"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-18T09:23:06.346-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-18T10:26:10.037-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

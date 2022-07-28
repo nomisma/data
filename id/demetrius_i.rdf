@@ -1,110 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/demetrius_i">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Demetrius I Poliorcetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Demetri Poliorcetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Demetrios I của Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">德米特里一世 (马其顿)</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Démétrios I. Poliorkétés</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Деметрій I Поліоркет</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Demetrios I. Poliorketes</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Démétrios Ier Poliorcète</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Demetriusz I Poliorketes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">데메트리오스 1세 (마케도니아)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">デメトリオス1世 (マケドニア王)</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Demétrio I da Macedónia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Demetrios I</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Demetrio I de Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Деметрий I Полиоркет</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Demetrios Poliorketes</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Demetrio I Poliorcete</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">I. Démétriosz makedón király</skos:prefLabel>
-        <skos:definition xml:lang="en">Demetrius I (Greek: Δημήτριος, 337 BC – 283 BC), called Poliorcetes (Greek: Πολιορκητής - "The Besieger"), son of Antigonus I Monophthalmus and Stratonice, was a king of Macedon (294–288 BC). He belonged to the Antigonid dynasty.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Demetrius_I_of_Macedon"/>
-      
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q59734"/>
-        <skos:prefLabel xml:lang="he">דמטריוס פוליורקטס</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Demetrije I Poliorket</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Demetrios Poliorketes</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Δημήτριος ο Πολιορκητής</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Demetrije I od Makedonije</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ديميتريوس الأول المقدوني</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Demetrios Poliorketes</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Démétrios Poliorkétes</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Деметрије Полиоркет</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Деметриј I Опсадникот</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Demetrius I Poliorcetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Demetrius Poliorcetes</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Деметрий I Полиоркет</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Demetrije I. Poliorket</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Demetrios Poliorketes</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Demetrios I Poliorketes</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">I. Demetrios Poliorketes</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/42629081"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118524623"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000063185998"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/031331718"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lfg8"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12256716k"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/demetrius_i#provenance"/>
-        <skos:prefLabel xml:lang="eo">Demetrio la 1-a Poliorketes</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Demetri Poliorket</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Demetrios Poliorketes</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Demetrios I dari Makedonia</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Demetrius Poliorcetes</skos:altLabel>
-        <org:memberOf rdf:resource="http://nomisma.org/id/antigonid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/demetrius_i#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Demetrius-I-Poliorcetes"/>
-    </foaf:Person>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Demetrius I Poliorcetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Demetri Poliorcetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Demetrios I của Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">德米特里一世 (马其顿)</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Démétrios I. Poliorkétés</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Деметрій I Поліоркет</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Demetrios I. Poliorketes</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Démétrios Ier Poliorcète</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Demetriusz I Poliorketes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">데메트리오스 1세 (마케도니아)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">デメトリオス1世 (マケドニア王)</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Demétrio I da Macedónia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Demetrios I</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Demetrio I de Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Деметрий I Полиоркет</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Demetrios Poliorketes</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Demetrio I Poliorcete</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">I. Démétriosz makedón király</skos:prefLabel>
+      <skos:definition xml:lang="en">Demetrius I (Greek: Δημήτριος, 337 BC – 283 BC), called Poliorcetes (Greek: Πολιορκητής - "The Besieger"), son of Antigonus I Monophthalmus and Stratonice, was a king of Macedon (294–288 BC). He belonged to the Antigonid dynasty.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Demetrius_I_of_Macedon"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q59734"/>
+      <skos:prefLabel xml:lang="he">דמטריוס פוליורקטס</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Demetrije I Poliorket</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Demetrios Poliorketes</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Δημήτριος ο Πολιορκητής</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Demetrije I od Makedonije</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ديميتريوس الأول المقدوني</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Demetrios Poliorketes</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Démétrios Poliorkétes</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Деметрије Полиоркет</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Деметриј I Опсадникот</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Demetrius I Poliorcetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Demetrius Poliorcetes</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Деметрий I Полиоркет</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Demetrije I. Poliorket</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Demetrios Poliorketes</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Demetrios I Poliorketes</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">I. Demetrios Poliorketes</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/42629081"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118524623"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000063185998"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/031331718"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lfg8"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12256716k"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/demetrius_i#provenance"/>
+      <skos:prefLabel xml:lang="eo">Demetrio la 1-a Poliorketes</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Demetri Poliorket</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Demetrios Poliorketes</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Demetrios I dari Makedonia</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Demetrius Poliorcetes</skos:altLabel>
+      <org:memberOf rdf:resource="http://nomisma.org/id/antigonid_dynasty"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/demetrius_i#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Demetrius-I-Poliorcetes"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4218"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/demetrius_i#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/demetrius_i"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/demetrius_i#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0306</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0283</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/demetrius_i"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/demetrius_i#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0306</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0283</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

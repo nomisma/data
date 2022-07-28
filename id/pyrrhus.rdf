@@ -1,136 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/pyrrhus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Pyrrhus</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Pyrhhus of Epirus</skos:altLabel>
-        <skos:definition xml:lang="en">Pyrrhus was a Greek general and statesman of the Hellenistic period. He was king of the Greek tribe of Molossians, of the royal Aeacid house (from c. 297 BC), and later he became king of Epirus (r. 306–302, 297–272 BC). He was one of the strongest opponents of early Rome.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pyrrhus_of_Epirus"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q172353"/>
-        <skos:prefLabel xml:lang="eu">Pirro Epirokoa</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Pyrrus</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пір, цар эпірскі</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Pir</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">פירוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">피로스</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Pirro de Epiro</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">I. Pürrhosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Pirrs</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Pirro</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Pyrrhos</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pyrrhos I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Pyrrhos dari Epiros</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ピュロス</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Pirro i Epirit</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Pyrros của Ipiros</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πύρρος της Ηπείρου</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Pir Epirski</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Pyrrho de Epiro</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Pyrrhus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بيروس الإبيري</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Pyrrhus van Epirus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Pirro</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Pirho</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Pyrrhos Epirský</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Пирр</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Epiruslu Pirus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Pyrrhus din Epirus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Pirros</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Пир Епирски</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Pyrrhos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Пірр Епірський</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Pyrrhus Epirotes</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Pyrrhus, brenin Epiros</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Pyrrhos</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Пир</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პიროსი ეპიროსელი</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Pir</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Pirr</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Pyras Epyrietis</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pyrrhus Ier</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Пир</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">皮洛士</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Pyrrhos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پورس اپیروس</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Pyrrhus an'i Epirosy</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Пирр</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Պյուռոս</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Pyrrhus</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118743058"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/53033223"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01c2wz"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/034244379"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500354262"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb125019690"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000373852266"/>
-      
-        <org:memberOf rdf:resource="http://nomisma.org/id/aeacid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/pyrrhus#provenance"/>
-        <skos:prefLabel xml:lang="da">King of Epirus Pyrrhus</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Pirro</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Pyrrhos</skos:prefLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pyrrhus#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Pyrrhus"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pyrrhus#membership_4d4d0f9dba1a0827f99cd1522cdd2483"/>
-    </foaf:Person>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Pyrrhus</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Pyrhhus of Epirus</skos:altLabel>
+      <skos:definition xml:lang="en">Pyrrhus was a Greek general and statesman of the Hellenistic period. He was king of the Greek tribe of Molossians, of the royal Aeacid house (from c. 297 BC), and later he became king of Epirus (r. 306–302, 297–272 BC). He was one of the strongest opponents of early Rome.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pyrrhus_of_Epirus"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q172353"/>
+      <skos:prefLabel xml:lang="eu">Pirro Epirokoa</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Pyrrus</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пір, цар эпірскі</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Pir</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">פירוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">피로스</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Pirro de Epiro</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">I. Pürrhosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Pirrs</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Pirro</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Pyrrhos</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Pyrrhos I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Pyrrhos dari Epiros</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ピュロス</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Pirro i Epirit</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Pyrros của Ipiros</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πύρρος της Ηπείρου</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Pir Epirski</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Pyrrho de Epiro</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Pyrrhus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بيروس الإبيري</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Pyrrhus van Epirus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Pirro</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Pirho</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Pyrrhos Epirský</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Пирр</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Epiruslu Pirus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Pyrrhus din Epirus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Pirros</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Пир Епирски</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Pyrrhos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Пірр Епірський</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Pyrrhus Epirotes</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Pyrrhus, brenin Epiros</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Pyrrhos</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Пир</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პიროსი ეპიროსელი</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Pir</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Pirr</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Pyras Epyrietis</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Pyrrhus Ier</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Пир</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">皮洛士</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Pyrrhos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پورس اپیروس</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Pyrrhus an'i Epirosy</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Пирр</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Պյուռոս</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Pyrrhus</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118743058"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/53033223"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01c2wz"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/034244379"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500354262"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb125019690"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000373852266"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/aeacid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pyrrhus#provenance"/>
+      <skos:prefLabel xml:lang="da">King of Epirus Pyrrhus</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Pirro</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Pyrrhos</skos:prefLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/pyrrhus#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Pyrrhus"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/pyrrhus#membership_4d4d0f9dba1a0827f99cd1522cdd2483"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4220"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pyrrhus#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/pyrrhus"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:17:11-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1gXcM0SRWqSZ4RJiDg21i5PI91EVyfMr1ogVgnH9zhIE/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:36:24.667-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/pyrrhus#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/epirote_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0306</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0302</nmo:hasEndDate>
-    </org:Membership>
-    <org:Membership rdf:about="http://nomisma.org/id/pyrrhus#membership_4d4d0f9dba1a0827f99cd1522cdd2483">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/epirote_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0297</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0272</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/pyrrhus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:17:11-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1gXcM0SRWqSZ4RJiDg21i5PI91EVyfMr1ogVgnH9zhIE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:36:24.667-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/pyrrhus#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/epirote_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0306</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0302</nmo:hasEndDate>
+   </org:Membership>
+   <org:Membership rdf:about="http://nomisma.org/id/pyrrhus#membership_4d4d0f9dba1a0827f99cd1522cdd2483">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/epirote_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0297</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0272</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

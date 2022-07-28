@@ -1,82 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/pacatianus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Pacatianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pacatianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Pacatià</skos:prefLabel>
-        <skos:definition xml:lang="en">Usurper during 248-249, during the reign of Philip I.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pacatianus"/>
-        <skos:prefLabel xml:lang="la">Tiberius Claudius Marinus Pacatianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Пакациан</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Pacatianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Pacaziano</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Pacatianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Pacatiano</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pacatianus</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pacatianus#pretender"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q263444"/>
-        <skos:prefLabel xml:lang="hu">Tiberius Claudius Marinus Pacatianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Пакациан</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Tiberius Claudius Pacatianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پاکاتیانوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Pacatianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Pakacijan</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პაკატიანუსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Pacatianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Pakacijan</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Пакацијан</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Pacatianus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Пакаціан</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Pacaciano</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Pakatiano</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02f4l1"/>
-        <skos:prefLabel xml:lang="da">Pacatianus</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/pacatianus#provenance"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Pacatianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Pacatianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Pacatià</skos:prefLabel>
+      <skos:definition xml:lang="en">Usurper during 248-249, during the reign of Philip I.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pacatianus"/>
+      <skos:prefLabel xml:lang="la">Tiberius Claudius Marinus Pacatianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Пакациан</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Pacatianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Pacaziano</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Pacatianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Pacatiano</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Pacatianus</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/pacatianus#pretender"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q263444"/>
+      <skos:prefLabel xml:lang="hu">Tiberius Claudius Marinus Pacatianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Пакациан</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Tiberius Claudius Pacatianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پاکاتیانوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Pacatianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Pakacijan</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პაკატიანუსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Pacatianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Pakacijan</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Пакацијан</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Pacatianus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Пакаціан</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Pacaciano</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Pakatiano</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02f4l1"/>
+      <skos:prefLabel xml:lang="da">Pacatianus</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pacatianus#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1254"/>
    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/pacatianus#pretender">
-        <org:role rdf:resource="http://nomisma.org/id/pretender"/>
+      <org:role rdf:resource="http://nomisma.org/id/pretender"/>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pacatianus#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/pacatianus"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-24T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-10T12:33:39.646-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/pacatianus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-24T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-10T12:33:39.646-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

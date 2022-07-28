@@ -1,52 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/pammenes_athens">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Pammenes</skos:prefLabel>
-        <skos:definition xml:lang="en">Second magistrate attested in Athens in 66/65 BC [Thompson issue 97]. Again attested as second magistrate in 62/61 BC [Thompson issue 101]. From Marathon from a famous and influential family. Probably Archon of 83/82 BC and grandfather of Pammenes, who was Gymnasiarch and priest of Apollo in Delos, Agoranommos in 27 BC, and then priest of Augustus and Roma in Athens (Habicht 1991, p. 15): See M. Thompson, The New Style Silver Coinage of Athens (1961) no. 1248 and nos. 1255-1258 / her issues 97 and 101 (p. 578); C. Habicht, Zu den Münzmagistraten der Silberprägung des Neuen Stils, Chiron 21, 1991, pp. 6 and 15-16 (66/65 and 62/61 BC, his issues 99 and 103); Prosopographia Attica 11520; P. M. Fraser – E. Matthews, A Lexicon of Greek Personal Names II Attica (1994) p. 356 s. v. Pammenes, no. 6; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 742 s. v. Pammenes.</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pammenes_athens#issuer"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-51252"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/pammenes_athens#provenance"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Pammenes</skos:prefLabel>
+      <skos:definition xml:lang="en">Second magistrate attested in Athens in 66/65 BC [Thompson issue 97]. Again attested as second magistrate in 62/61 BC [Thompson issue 101]. From Marathon from a famous and influential family. Probably Archon of 83/82 BC and grandfather of Pammenes, who was Gymnasiarch and priest of Apollo in Delos, Agoranommos in 27 BC, and then priest of Augustus and Roma in Athens (Habicht 1991, p. 15): See M. Thompson, The New Style Silver Coinage of Athens (1961) no. 1248 and nos. 1255-1258 / her issues 97 and 101 (p. 578); C. Habicht, Zu den Münzmagistraten der Silberprägung des Neuen Stils, Chiron 21, 1991, pp. 6 and 15-16 (66/65 and 62/61 BC, his issues 99 and 103); Prosopographia Attica 11520; P. M. Fraser – E. Matthews, A Lexicon of Greek Personal Names II Attica (1994) p. 356 s. v. Pammenes, no. 6; W. Leschhorn, Lexikon der Aufschriften auf griechischen Münzen II (2009) p. 742 s. v. Pammenes.</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/pammenes_athens#issuer"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-51252"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pammenes_athens#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/9373"/>
    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/pammenes_athens#issuer">
-        <org:organization rdf:resource="http://nomisma.org/id/athens"/>
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+      <org:organization rdf:resource="http://nomisma.org/id/athens"/>
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pammenes_athens#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/pammenes_athens"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-22T04:00:01-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1c_E-ACaDkcsD3J9HcKyN2HhkD8lIb1WLznwkr28l3-A/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-11T01:09:22.564-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/pammenes_athens"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-22T04:00:01-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1c_E-ACaDkcsD3J9HcKyN2HhkD8lIb1WLznwkr28l3-A/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-11T01:09:22.564-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

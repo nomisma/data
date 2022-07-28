@@ -1,112 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/alexander_i_balas">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Alexander I Balas</skos:prefLabel>
-        <skos:definition xml:lang="en">Alexander I Theopator Euergetes ("Divinely-fathered Benefactor"), nicknamed Balas ("Lord"), was the twelfth king of the Seleucid Empire, ruling from 152 to 145 BC. Alexander I was a supposed son of Antiochus IV supported by Attalus II of Pergamum and Ptolemy VI of Egypt as a rival claimant to the Seleucid throne against Demetrius I. In 152 BC, Alexander I arrived at Ptolemais (Ake) and established his base there. He controled Apamea by 152/1 BC and in 150 BC defeated and killed Demetrius I. Shortly thereafter, Alexander I married Cleopatra Thea, the daughter of Ptolemy VI in order to seal an alliance with her father. Things began to fall apart in 148 and 147 BC, when Susa and Media were lost to Parthian and local kings and Demetrius II arrived in Syria to avenge his father, Demetrius I. Unfortunately, Alexander I had alienated his father-in-law by plotting against him, and therefore Ptolemy VI supported Demetrius II. Alexander I was forced to flee to Cilicia, where he raised an army to wage war against Demetrius II and Ptolemy VI. When he returned to Syria in 145 BC he was defeated in battle by Ptolemy VI. Alexander I escaped and attempted to find safety among the Arabs, but was assassinated instead.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Alexander_Balas"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q297657"/>
-        <skos:prefLabel xml:lang="pl">Aleksander I Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Alexandro Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Alexandre Ier Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אלכסנדר באלאס</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Аляксандр I Валас</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Alejandro Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">I. Alexandrosz szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Alessandro I Bala</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Alexander I. Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Alexandros Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Alexandros Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αλέξανδρος Α' Βάλας</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Aleksandar Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Alexander Epifanes</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Alexander Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Alexandre Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="su">Alexandros Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Александр I Балас</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Alexandre I Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Aleksanteri Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Alexander Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">الکساندر بالاس</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Александър I Балас</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Alexander 1. Balas af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">亞歷山大一世</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Aleksander I Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">الكسندر بالاس</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">İskender Balas</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Александр I Балас</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/120527839"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/54981036"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0r6v"/>
-        
-        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/alexander_i_balas#provenance"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000078629985"/>
-        <skos:prefLabel xml:lang="sr">Александар Балас</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Alexander Balas</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/alexander_i_balas#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/14162/Alexander-Balas"/>
-    </foaf:Person>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Alexander I Balas</skos:prefLabel>
+      <skos:definition xml:lang="en">Alexander I Theopator Euergetes ("Divinely-fathered Benefactor"), nicknamed Balas ("Lord"), was the twelfth king of the Seleucid Empire, ruling from 152 to 145 BC. Alexander I was a supposed son of Antiochus IV supported by Attalus II of Pergamum and Ptolemy VI of Egypt as a rival claimant to the Seleucid throne against Demetrius I. In 152 BC, Alexander I arrived at Ptolemais (Ake) and established his base there. He controled Apamea by 152/1 BC and in 150 BC defeated and killed Demetrius I. Shortly thereafter, Alexander I married Cleopatra Thea, the daughter of Ptolemy VI in order to seal an alliance with her father. Things began to fall apart in 148 and 147 BC, when Susa and Media were lost to Parthian and local kings and Demetrius II arrived in Syria to avenge his father, Demetrius I. Unfortunately, Alexander I had alienated his father-in-law by plotting against him, and therefore Ptolemy VI supported Demetrius II. Alexander I was forced to flee to Cilicia, where he raised an army to wage war against Demetrius II and Ptolemy VI. When he returned to Syria in 145 BC he was defeated in battle by Ptolemy VI. Alexander I escaped and attempted to find safety among the Arabs, but was assassinated instead.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Alexander_Balas"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q297657"/>
+      <skos:prefLabel xml:lang="pl">Aleksander I Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Alexandro Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Alexandre Ier Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אלכסנדר באלאס</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Аляксандр I Валас</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Alejandro Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">I. Alexandrosz szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Alessandro I Bala</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Alexander I. Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Alexandros Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Alexandros Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αλέξανδρος Α' Βάλας</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Aleksandar Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Alexander Epifanes</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Alexander Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Alexandre Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="su">Alexandros Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Александр I Балас</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Alexandre I Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Aleksanteri Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Alexander Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">الکساندر بالاس</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Александър I Балас</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Alexander 1. Balas af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">亞歷山大一世</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Aleksander I Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">الكسندر بالاس</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">İskender Balas</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Александр I Балас</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/120527839"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/54981036"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0r6v"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/alexander_i_balas#provenance"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000078629985"/>
+      <skos:prefLabel xml:lang="sr">Александар Балас</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Alexander Balas</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/alexander_i_balas#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/14162/Alexander-Balas"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/281"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/alexander_i_balas#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/alexander_i_balas"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-23T08:37:53.035-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Uqel_NSiw9HP_znRaYcD7PbEYYyrMs1nM-TyOFFg984/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-29T11:11:14.864-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/alexander_i_balas#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0152</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0145</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/alexander_i_balas"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-23T08:37:53.035-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Uqel_NSiw9HP_znRaYcD7PbEYYyrMs1nM-TyOFFg984/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-29T11:11:14.864-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/alexander_i_balas#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0152</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0145</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

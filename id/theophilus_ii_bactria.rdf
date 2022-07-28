@@ -1,65 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/theophilus_ii_bactria">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Theophilus II of Bactria</skos:prefLabel>
-        <skos:definition xml:lang="en">Theophilos was a minor Indo-Greek king who ruled for a short time in the Paropamisadae around 90 B.C.</skos:definition>
-        <skos:prefLabel xml:lang="de">Theophilos</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Theophilos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Teòfil Dikaios</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Teofilo d'India</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Teòfil Dikaios</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">特奧菲盧斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Theophilos</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">থেওফিলোস দিকাইওস</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Теофіл I</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Θεόφιλος της Ινδίας</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1387461"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04xljv"/>
-        <skos:altLabel xml:lang="en">Theophilus</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/theophilus_ii_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/der-neue-pauly/theophilos-e1209590?s.num=0&amp;s.f.s2_parent=s.f.book.der-neue-pauly&amp;s.q=theophilos+#e1209640"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/theophilus_ii_bactria#provenance"/>
-    </foaf:Person>
-    
-   
-   
-   
-    
-    
-    <org:Membership rdf:about="http://nomisma.org/id/theophilus_ii_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/indo-greek_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0092</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0090</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/theophilus_ii_bactria#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/theophilus_ii_bactria"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Person rdf:about="http://nomisma.org/id/theophilus_ii_bactria">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Theophilus II of Bactria</skos:prefLabel>
+      <skos:definition xml:lang="en">Theophilos was a minor Indo-Greek king who ruled for a short time in the Paropamisadae around 90 B.C.</skos:definition>
+      <skos:prefLabel xml:lang="de">Theophilos</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Theophilos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Teòfil Dikaios</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Teofilo d'India</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Teòfil Dikaios</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">特奧菲盧斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Theophilos</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">থেওফিলোস দিকাইওস</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Теофіл I</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Θεόφιλος της Ινδίας</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1387461"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/04xljv"/>
+      <skos:altLabel xml:lang="en">Theophilus</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/theophilus_ii_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/der-neue-pauly/theophilos-e1209590?s.num=0&amp;s.f.s2_parent=s.f.book.der-neue-pauly&amp;s.q=theophilos+#e1209640"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/theophilus_ii_bactria#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/theophilus_ii_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/indo-greek_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0092</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0090</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/theophilus_ii_bactria#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/theophilus_ii_bactria"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

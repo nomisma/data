@@ -1,93 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Organization rdf:about="http://nomisma.org/id/armenian_kingdom">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Kingdom of Armenia</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Kingdom of Greater Armenia</skos:altLabel>
-        <skos:definition xml:lang="en">The Kingdom of Armenia, also the Kingdom of Greater Armenia, was a monarchy in the Ancient Near East which existed from 321 BC to 428 AD. Its history is divided into successive reigns by three royal dynasties: Orontid (321 BC–200 BC), Artaxiad (189 BC–12 AD) and Arsacid (52–428).</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kingdom_of_Armenia_(antiquity)"/>
-        <skos:prefLabel xml:lang="eu">Armeniako Erresuma</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">아르메니아 왕국</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Вялікая Арменія</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">royaume d'Arménie</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Reino de Armenia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Armenia Magna</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Regno d'Armenia</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Reino de Armenia</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kerajaan Armenia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アルメニア王国</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Vương quốc Armenia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Kraljevstvo Armenija</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مملكة أرمينيا</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Koninkrijk Armenië</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Reino da Armênia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Reĝlando Armenio</skos:prefLabel>
-        <skos:prefLabel xml:lang="su">Karajaan Arménia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Великая Армения</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Մեծ Հայք</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Ermeni Krallığı</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Armenian kuningaskunta</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Велика Вірменія</skos:prefLabel>
-        <skos:prefLabel xml:lang="os">Стыр Сомих</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Велика Армения</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">დიდი სომხეთი</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Armensko Kraljevstvo</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Böyük Ermənistan</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Armėnijos karalystė</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Oldtidens kongedømme Armenia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Јерменско краљевство</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">亞美尼亞王國</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">ارمنستان بزرگ</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">ממלכת ארמניה העתיקה</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Großarmenien</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Βασίλειο της Αρμενίας</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">مملکت آرمینیا</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Regatul Armeniei</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Ерменско Кралство</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">ஆர்மீனியா இராச்சியம்</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Regne d'Armènia</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Arménské království</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Armensko kraljestvo</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q208404"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03y2_s"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/armenian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/armenian_kingdom#provenance"/>
-    </foaf:Organization>
-   
-    
-    
-    <org:Membership rdf:about="http://nomisma.org/id/armenian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
-        <org:role rdf:resource="http://nomisma.org/id/realm"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0321</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0428</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/armenian_kingdom#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/armenian_kingdom"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Organization rdf:about="http://nomisma.org/id/armenian_kingdom">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Kingdom of Armenia</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Kingdom of Greater Armenia</skos:altLabel>
+      <skos:definition xml:lang="en">The Kingdom of Armenia, also the Kingdom of Greater Armenia, was a monarchy in the Ancient Near East which existed from 321 BC to 428 AD. Its history is divided into successive reigns by three royal dynasties: Orontid (321 BC–200 BC), Artaxiad (189 BC–12 AD) and Arsacid (52–428).</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kingdom_of_Armenia_(antiquity)"/>
+      <skos:prefLabel xml:lang="eu">Armeniako Erresuma</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">아르메니아 왕국</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Вялікая Арменія</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">royaume d'Arménie</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Reino de Armenia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Armenia Magna</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Regno d'Armenia</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Reino de Armenia</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kerajaan Armenia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アルメニア王国</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Vương quốc Armenia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Kraljevstvo Armenija</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مملكة أرمينيا</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Koninkrijk Armenië</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Reino da Armênia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Reĝlando Armenio</skos:prefLabel>
+      <skos:prefLabel xml:lang="su">Karajaan Arménia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Великая Армения</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Մեծ Հայք</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Ermeni Krallığı</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Armenian kuningaskunta</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Велика Вірменія</skos:prefLabel>
+      <skos:prefLabel xml:lang="os">Стыр Сомих</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Велика Армения</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">დიდი სომხეთი</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Armensko Kraljevstvo</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Böyük Ermənistan</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Armėnijos karalystė</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Oldtidens kongedømme Armenia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Јерменско краљевство</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">亞美尼亞王國</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">ارمنستان بزرگ</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">ממלכת ארמניה העתיקה</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Großarmenien</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Βασίλειο της Αρμενίας</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">مملکت آرمینیا</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Regatul Armeniei</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Ерменско Кралство</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">ஆர்மீனியா இராச்சியம்</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Regne d'Armènia</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Arménské království</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Armensko kraljestvo</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q208404"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03y2_s"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/armenian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/armenian_kingdom#provenance"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/armenian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+      <org:role rdf:resource="http://nomisma.org/id/realm"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0321</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0428</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/armenian_kingdom#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/armenian_kingdom"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

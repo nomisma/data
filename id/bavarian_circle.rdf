@@ -1,89 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Organization rdf:about="http://nomisma.org/id/bavarian_circle">
-        <skos:prefLabel xml:lang="en">Bavarian circle</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The Bavarian circle was one of the Imperial circles within the Holy Roman empire created in 1500. It was originally called simply the second circle, with a geographical term being added later.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/bavarian_circle#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q708812"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Bavarian_Circle"/>
-        <skos:prefLabel xml:lang="et">Baieri ringkond</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Bayerischer Reichskreis</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Баварски имперски окръг</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Cercle de Bavière</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Баварский округ</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Círculo de Baviera</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">สหราชรัฐบาวาเรีย</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Bajor körzet</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Circolo Bavarese</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Beierse Kreits</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Bayerske Rigskreds</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Círculo da Baviera</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Баварская акруга</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Баварски округ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">바이에른 관구</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Bavorský kraj</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">バイエルン・クライス</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">巴伐利亚行政圈</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Bản mẫu:Vòng tròn Bayern</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Баварський округ</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/084c3m"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4478215-9"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/244725242"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/bavarian_circle#membership_dfefbaa06071664edeea97704d9288a0"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-    </foaf:Organization>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bavarian_circle#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/bavarian_circle"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T11:47:24.168Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T11:51:09.886Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-11T04:06:58.279Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/bavarian_circle#membership_dfefbaa06071664edeea97704d9288a0">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1500</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1806</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Organization rdf:about="http://nomisma.org/id/bavarian_circle">
+      <skos:prefLabel xml:lang="en">Bavarian circle</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The Bavarian circle was one of the Imperial circles within the Holy Roman empire created in 1500. It was originally called simply the second circle, with a geographical term being added later.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/bavarian_circle#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q708812"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Bavarian_Circle"/>
+      <skos:prefLabel xml:lang="et">Baieri ringkond</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Bayerischer Reichskreis</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Баварски имперски окръг</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Cercle de Bavière</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Баварский округ</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Círculo de Baviera</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">สหราชรัฐบาวาเรีย</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Bajor körzet</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Circolo Bavarese</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Beierse Kreits</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Bayerske Rigskreds</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Círculo da Baviera</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Баварская акруга</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Баварски округ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">바이에른 관구</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Bavorský kraj</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">バイエルン・クライス</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">巴伐利亚行政圈</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Bản mẫu:Vòng tròn Bayern</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Баварський округ</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/084c3m"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4478215-9"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/244725242"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/bavarian_circle#membership_dfefbaa06071664edeea97704d9288a0"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+   </foaf:Organization>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bavarian_circle#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/bavarian_circle"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T11:47:24.168Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T11:51:09.886Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-11T04:06:58.279Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/bavarian_circle#membership_dfefbaa06071664edeea97704d9288a0">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1500</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1806</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

@@ -1,87 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ardashir_iii_mithra_persis">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Ardashir III of Persis</skos:prefLabel>
-        <skos:definition xml:lang="en">Ardashir III ruler of Persis under Parthia in the late 1st to early 2nd century AD</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ardashir_iii_mithra_persis#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ardashir_iii_mithra_persis#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q313629"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ardashir_III"/>
-        <skos:prefLabel xml:lang="pt">Artaxes III</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">아르다시르 3세</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Арташир III</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ardachîr III</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ardacher III</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">III. Ardeşir</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ardaixir III</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Ardashir III</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ardaschir III.</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ardašír III.</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Ардашир III</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">اردشیر سوم</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ardašir III</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">اردشیر سوم</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Ardašir III.</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ardaširas III</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ardashir III</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أردشير الثالث</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ardashir III</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Ардашир III</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿尔达希尔三世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αρδασίρ Γ’ της Περσίας</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ardasjir III av Persia</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Ardashir III</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ardashir III</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Арташир III</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アルダシール3世</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Ardašír III.</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/011kqc"/>
-    </foaf:Person>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/ardashir_iii_mithra_persis#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/persis_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0050</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0150</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ardashir_iii_mithra_persis#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/ardashir_iii_mithra_persis"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-31T10:52:30.91-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+   <foaf:Person rdf:about="http://nomisma.org/id/ardashir_iii_mithra_persis">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Ardashir III of Persis</skos:prefLabel>
+      <skos:definition xml:lang="en">Ardashir III ruler of Persis under Parthia in the late 1st to early 2nd century AD</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ardashir_iii_mithra_persis#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ardashir_iii_mithra_persis#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q313629"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ardashir_III"/>
+      <skos:prefLabel xml:lang="pt">Artaxes III</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">아르다시르 3세</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Арташир III</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ardachîr III</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ardacher III</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">III. Ardeşir</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ardaixir III</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Ardashir III</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ardaschir III.</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ardašír III.</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Ардашир III</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">اردشیر سوم</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ardašir III</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">اردشیر سوم</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Ardašir III.</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ardaširas III</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ardashir III</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أردشير الثالث</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ardashir III</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Ардашир III</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿尔达希尔三世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αρδασίρ Γ’ της Περσίας</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ardasjir III av Persia</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Ardashir III</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ardashir III</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Арташир III</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アルダシール3世</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Ardašír III.</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/011kqc"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/ardashir_iii_mithra_persis#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/persis_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0050</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0150</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ardashir_iii_mithra_persis#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ardashir_iii_mithra_persis"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-31T10:52:30.91-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

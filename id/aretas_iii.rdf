@@ -1,92 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/aretas_iii">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Aretas III of Nabataea</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Aretas III</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Arétas III</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Aretas III.</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Aretas III</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Aretas III</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Aretas III</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Areta III</skos:prefLabel>
-        <skos:definition xml:lang="en">Aretas III was King of Nabataea from 87-62 BC.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aretas_III"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q558770"/>
-        <skos:prefLabel xml:lang="ca">Aretes III Filohel·len</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Aretas III</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Areta III</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Aretas III</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Aretas III</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿雷塔斯三世</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アレタス3世</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02y_g5p"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/aretas_iii#provenance"/>
-        <skos:prefLabel xml:lang="ru">Арета III</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Арета III</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Aretas III</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">حارثة الثالث</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1178358283"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/3155103988976202210"/>
-        <skos:altLabel xml:lang="en">Aretas III</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/aretas_iii#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/33536/Aretas-III"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Aretas III of Nabataea</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Aretas III</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Arétas III</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Aretas III.</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Aretas III</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Aretas III</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Aretas III</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Areta III</skos:prefLabel>
+      <skos:definition xml:lang="en">Aretas III was King of Nabataea from 87-62 BC.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aretas_III"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q558770"/>
+      <skos:prefLabel xml:lang="ca">Aretes III Filohel·len</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Aretas III</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Areta III</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Aretas III</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Aretas III</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿雷塔斯三世</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アレタス3世</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02y_g5p"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/aretas_iii#provenance"/>
+      <skos:prefLabel xml:lang="ru">Арета III</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Арета III</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Aretas III</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">حارثة الثالث</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1178358283"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/3155103988976202210"/>
+      <skos:altLabel xml:lang="en">Aretas III</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/aretas_iii#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/EBchecked/topic/33536/Aretas-III"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4979"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/aretas_iii#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/aretas_iii"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-13T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-08T15:36:42.736-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/aretas_iii#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/nabataean_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0087</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0062</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/aretas_iii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-13T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-08T15:36:42.736-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/aretas_iii#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/nabataean_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0087</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0062</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

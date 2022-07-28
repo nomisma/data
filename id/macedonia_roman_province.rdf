@@ -1,105 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Organization rdf:about="http://nomisma.org/id/macedonia_roman_province">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Macedonia (Roman province)</skos:prefLabel>
-        <skos:definition xml:lang="en">The Roman province of Macedonia (Latin: Provincia Macedoniae, Greek: Ἐπαρχία Μακεδονίας) was officially established in 146 BC, after the Roman general Quintus Caecilius Metellus defeated Andriscus of Macedon, the last self-styled King of the ancient kingdom of Macedonia in 148 BC, and after the four client republics (the "tetrarchy") established by Rome in the region were dissolved. The province incorporated the former kingdom of Macedonia with the addition of Epirus, Thessaly, and parts of Illyria, Paeonia and Thrace. This created a much larger administrative area, to which the name of 'Macedonia' was still applied.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Macedonia_(Roman_province)"/>
-        <skos:prefLabel xml:lang="eu">Mazedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Macédoine</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Makedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">マケドニア属州</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μακεδονία</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Makedonija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Macedonië</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Macedônia romana</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Makedónía</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Makedonio</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Македония</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Makedonya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Македонија</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Macedònia</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Македонія</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Makedonija</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Provinsen Makedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Makedonie</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Македония</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">مقدونیه</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Makedonija</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Македонија</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Makedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">მაკედონია</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Makedonija</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">马其顿行省</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Rimska provincija Makedonija</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">마케도니아 속주</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">मॅसिडोनिया</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Macedonië</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מקדוניה (פרובינקיה רומית)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مقدونيا (مستعمرة رومانية)</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Maķedonijas province</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Makedoonia (Rooma provints)</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Macedonia (provincia romana)</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Makedonia (faritany rômana)</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q207497"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/07hdlz"/>
-        <skos:exactMatch rdf:resource="http://www.geonames.org/8378517"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/macedonia_roman_province#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/macedonia_roman_province#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-    </foaf:Organization>
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/macedonia_roman_province#membership_bd17e2d21cbc5a487c852bea4809dbbe">
-        <org:role rdf:resource="http://nomisma.org/id/province"/>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/macedonia_roman_province#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/macedonia_roman_province"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-13T04:21:25.912-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+   <foaf:Organization rdf:about="http://nomisma.org/id/macedonia_roman_province">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Macedonia (Roman province)</skos:prefLabel>
+      <skos:definition xml:lang="en">The Roman province of Macedonia (Latin: Provincia Macedoniae, Greek: Ἐπαρχία Μακεδονίας) was officially established in 146 BC, after the Roman general Quintus Caecilius Metellus defeated Andriscus of Macedon, the last self-styled King of the ancient kingdom of Macedonia in 148 BC, and after the four client republics (the "tetrarchy") established by Rome in the region were dissolved. The province incorporated the former kingdom of Macedonia with the addition of Epirus, Thessaly, and parts of Illyria, Paeonia and Thrace. This created a much larger administrative area, to which the name of 'Macedonia' was still applied.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Macedonia_(Roman_province)"/>
+      <skos:prefLabel xml:lang="eu">Mazedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Macédoine</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Makedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">マケドニア属州</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μακεδονία</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Makedonija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Macedonië</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Macedônia romana</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Makedónía</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Makedonio</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Македония</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Makedonya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Македонија</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Macedònia</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Македонія</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Makedonija</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Provinsen Makedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Makedonie</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Македония</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">مقدونیه</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Makedonija</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Македонија</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Makedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">მაკედონია</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Makedonija</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">马其顿行省</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Rimska provincija Makedonija</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">마케도니아 속주</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">मॅसिडोनिया</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Macedonië</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מקדוניה (פרובינקיה רומית)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مقدونيا (مستعمرة رومانية)</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Maķedonijas province</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Makedoonia (Rooma provints)</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Macedonia (provincia romana)</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Makedonia (faritany rômana)</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q207497"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/07hdlz"/>
+      <skos:exactMatch rdf:resource="http://www.geonames.org/8378517"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/macedonia_roman_province#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/macedonia_roman_province#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/macedonia_roman_province#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+      <org:role rdf:resource="http://nomisma.org/id/province"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/macedonia_roman_province#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/macedonia_roman_province"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-13T04:21:25.912-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

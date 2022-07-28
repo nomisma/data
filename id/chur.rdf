@@ -1,142 +1,145 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/chur">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Chur</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) of Chur or Coire, the capital and largest town of the Swiss canton of Grisons. Coins were issued for the carolingian Empire, the bishopric of Chur (958-1767) and the municipality of Chur (1529-1767) as well as for the Gotteshausbund (1556-1570).</skos:definition>
-        <skos:prefLabel xml:lang="zh">庫爾</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Ciura</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Coira</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Coira</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κουρ</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">خور</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Coira</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Koiro</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Кур</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Хур</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Кур</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Cuira</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Coire</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">쿠어</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Кур</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Coira</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">クール</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Cuira</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">คูร์</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Coira</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Curia Raetorum</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Кур</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">شور، سوئیس</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">კური</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Kūras</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Kūra</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">כור</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Кур</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Кур</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">کؤر</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Chur</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q69007"/>
-        <skos:closeMatch rdf:resource="http://www.idref.fr/027428575"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/016vjp"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/7285515/"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4010189-7"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/154757544"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12369126b"/>
-        <geo:location rdf:resource="http://nomisma.org/id/chur#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/chur#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
-        <skos:prefLabel xml:lang="lb">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Кур (шәһәр)</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Kur</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Քուր (Շվեյցարիա)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ln">Kwar</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Chur</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Chur</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/7285515"/>
-    </nmo:Mint>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/chur#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.84702</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.53728</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/chur#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/chur"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:35.436-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-10T04:34:10.992-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T11:22:25.584-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/chur">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Chur</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) of Chur or Coire, the capital and largest town of the Swiss canton of Grisons. Coins were issued for the carolingian Empire, the bishopric of Chur (958-1767) and the municipality of Chur (1529-1767) as well as for the Gotteshausbund (1556-1570).</skos:definition>
+      <skos:prefLabel xml:lang="zh">庫爾</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Ciura</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Coira</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Coira</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κουρ</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">خور</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Coira</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Koiro</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Кур</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Хур</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Кур</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Cuira</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Coire</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">쿠어</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Кур</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Coira</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">クール</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Cuira</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">คูร์</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Coira</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Curia Raetorum</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Кур</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">شور، سوئیس</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">კური</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Kūras</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Kūra</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">כור</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Кур</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Кур</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">کؤر</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Chur</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q69007"/>
+      <skos:closeMatch rdf:resource="http://www.idref.fr/027428575"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/016vjp"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/7285515/"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4010189-7"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/154757544"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12369126b"/>
+      <geo:location rdf:resource="http://nomisma.org/id/chur#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/chur#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+      <skos:prefLabel xml:lang="lb">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Кур (шәһәр)</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Kur</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Քուր (Շվեյցարիա)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ln">Kwar</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Chur</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Chur</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/7285515"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/813"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/chur#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.84702</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.53728</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/chur#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/chur"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:35.436-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-10T04:34:10.992-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T11:22:25.584-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,159 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/mark_antony">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Mark Antony</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Marco António</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Marco Antonio</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">マルクス・アントニウス</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Marek Antoniusz</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Marc Antoine</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Марк Антоний</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">马克·安东尼</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Marco Antonio</skos:prefLabel>
-        <skos:definition xml:lang="en">Marcus Antonius, commonly known in English as Mark Antony (January 14, 83 BC – August 1, 30 BC), a Roman politician and general. He was an important supporter of Julius Caesar. After Caesar's assassination, Antony formed an official political alliance with Octavian and Lepidus (the Second Triumvirate).</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Mark_Antony"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/88759462"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <skos:altLabel xml:lang="la">Marcus Antonius</skos:altLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q51673"/>
-        <skos:prefLabel xml:lang="id">Markus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ماركوس أنطونيوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Mark Antoni</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Марк Антоній</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Марк Антоний</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Marko Antonije</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Marc Antoni</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μάρκος Αντώνιος</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Marko Antonio</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Marko Antonio</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">مارکوس آنتونیوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Markus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Marco Antonio</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מרקוס אנטוניוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">मार्कस आंतोनियस</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Marko Antonije</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Մարկոս Անտոնիոս</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Mark Antony</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">მარკუს ანტონიუსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">마르쿠스 안토니우스</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Markas Antonijus</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Marks Antonijs</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Марк Антони</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Marc Antoniu</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Marko Antonije</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Mark Antonij</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Марко Антоније</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">มาร์ค แอนโทนี</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Марк Антоній</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Mark Antony</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">മാർക്ക് ആന്റണി</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Antoniy Mark</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">mark antoni</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Марк Антоний</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Марк Антоний</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">مارک انتھونی</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Marcus Antonius</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Антоний Марк</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Марко Антониј</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118503529"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000116835537"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/050d_"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500354061"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120495433"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/028715829"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/mark_antony#provenance"/>
-        
-        
-        <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/mark_antony#membership_4baa3e41cb521a9b5f5209645a4ab798"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Mark Antony</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Marco António</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Marco Antonio</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">マルクス・アントニウス</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Marek Antoniusz</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Marc Antoine</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Марк Антоний</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">马克·安东尼</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Marco Antonio</skos:prefLabel>
+      <skos:definition xml:lang="en">Marcus Antonius, commonly known in English as Mark Antony (January 14, 83 BC – August 1, 30 BC), a Roman politician and general. He was an important supporter of Julius Caesar. After Caesar's assassination, Antony formed an official political alliance with Octavian and Lepidus (the Second Triumvirate).</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Mark_Antony"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/88759462"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:altLabel xml:lang="la">Marcus Antonius</skos:altLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q51673"/>
+      <skos:prefLabel xml:lang="id">Markus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ماركوس أنطونيوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Mark Antoni</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Марк Антоній</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Марк Антоний</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Marko Antonije</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Marc Antoni</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μάρκος Αντώνιος</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Marko Antonio</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Marko Antonio</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">مارکوس آنتونیوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Markus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Marco Antonio</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מרקוס אנטוניוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">मार्कस आंतोनियस</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Marko Antonije</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Մարկոս Անտոնիոս</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Mark Antony</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">მარკუს ანტონიუსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">마르쿠스 안토니우스</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Markas Antonijus</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Marks Antonijs</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Марк Антони</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Marc Antoniu</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Marko Antonije</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Mark Antonij</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Марко Антоније</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">มาร์ค แอนโทนี</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Марк Антоній</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Mark Antony</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">മാർക്ക് ആന്റണി</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Antoniy Mark</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">mark antoni</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Марк Антоний</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Марк Антоний</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">مارک انتھونی</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Marcus Antonius</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Антоний Марк</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Марко Антониј</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118503529"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000116835537"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/050d_"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500354061"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120495433"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/028715829"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/mark_antony#provenance"/>
+      <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/mark_antony#membership_4baa3e41cb521a9b5f5209645a4ab798"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1144"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mark_antony#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/mark_antony"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-26T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T14:46:53.695Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T14:34:14.229Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:11:54.895Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    
-    
-    <org:Membership rdf:about="http://nomisma.org/id/mark_antony#membership_4baa3e41cb521a9b5f5209645a4ab798">
-        <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
-        <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0043</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0031</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/mark_antony"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-26T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T14:46:53.695Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T14:34:14.229Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:11:54.895Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/mark_antony#membership_4baa3e41cb521a9b5f5209645a4ab798">
+      <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
+      <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0043</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0031</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

@@ -1,82 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Organization rdf:about="http://nomisma.org/id/edoni">
-        <skos:scopeNote xml:lang="en">This concept was previously designated as a mint corresponding to the place of Berge (Bisaltia) in Macedonia. Berge should be used as a mint for the Edoni.</skos:scopeNote>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Edoni</skos:prefLabel>
-        <skos:definition xml:lang="en">The Edoni (also Edones, Edonians, Edonides) were a Thracian people who dwelt mostly between the Nestus and the Strymon rivers in southern Thrace, but also once dwelt west of the Strymon at least as far as the Axios. They inhabited the region of Mygdonia before the Macedonians drove them out.[2] After that, they settled in the region of Edonis which was named after them.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/edoni#provenance"/>
-        <skos:altLabel xml:lang="en">Edones</skos:altLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q987699"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Edoni"/>
-        <skos:prefLabel xml:lang="el">Ηδωνοί</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Эдоны</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Edons</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Edoner</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Edoni</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Edonok</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Edonai</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Едони</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Edonowie</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Edoni</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Edones</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Edoni</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Edoni</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/05gyd8"/>
-    </foaf:Organization>
+      <skos:scopeNote xml:lang="en">This concept was previously designated as a mint corresponding to the place of Berge (Bisaltia) in Macedonia. Berge should be used as a mint for the Edoni.</skos:scopeNote>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Edoni</skos:prefLabel>
+      <skos:definition xml:lang="en">The Edoni (also Edones, Edonians, Edonides) were a Thracian people who dwelt mostly between the Nestus and the Strymon rivers in southern Thrace, but also once dwelt west of the Strymon at least as far as the Axios. They inhabited the region of Mygdonia before the Macedonians drove them out.[2] After that, they settled in the region of Edonis which was named after them.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/edoni#provenance"/>
+      <skos:altLabel xml:lang="en">Edones</skos:altLabel>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q987699"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Edoni"/>
+      <skos:prefLabel xml:lang="el">Ηδωνοί</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Эдоны</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Edons</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Edoner</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Edoni</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Edonok</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Edonai</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Едони</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Edonowie</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Edoni</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Edones</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Edoni</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Edoni</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/05gyd8"/>
+   </foaf:Organization>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/edoni#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/edoni"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-10T10:14:48.867-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-27T17:27:33.104-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/edoni"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-10T10:14:48.867-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-27T17:27:33.104-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

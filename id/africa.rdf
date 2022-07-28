@@ -1,114 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/africa">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Africa</skos:prefLabel>
-        <skos:definition xml:lang="en">The modern continent of Africa</skos:definition>
-      
-      
-        
-        <skos:prefLabel xml:lang="de">Afrika</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Afrique</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Africa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Африка</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Afrika</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Africa</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αφρική</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Африка</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Africa_%28Roman_province%29"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q181238"/>
-        <skos:prefLabel xml:lang="eu">Afrika Prokontsularra</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Africa Proconsularis</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אפריקה</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">África</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Africa</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Afrika ya Kiroma</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アフリカ属州</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Africa</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Afrika</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مقاطعة أفريكا</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Africa</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">África Proconsular</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Africa proconsularis</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Afríka</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Africa</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Afrika</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Afrika</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">แอฟริกา</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Африка</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Àfrica</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Africa</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Африка</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Africa</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">අප්‍රිකා පළාත</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Affrica</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Afrika</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Afrika</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">აფრიკა</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Afrika</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Afrika</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Africa</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Африка</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">阿非利加</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Africa</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Афрыка</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02d53g"/>
-        <skos:exactMatch rdf:resource="http://sws.geonames.org/8354636/"/>
-        <skos:prefLabel xml:lang="oc">Província d'Africa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Provincia Africa</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15314373k"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/africa#provenance"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Africa</skos:prefLabel>
+      <skos:definition xml:lang="en">The modern continent of Africa</skos:definition>
+      <skos:prefLabel xml:lang="de">Afrika</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Afrique</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Africa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Африка</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Afrika</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Africa</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αφρική</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Африка</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Africa_%28Roman_province%29"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q181238"/>
+      <skos:prefLabel xml:lang="eu">Afrika Prokontsularra</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Africa Proconsularis</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אפריקה</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">África</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Africa</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Afrika ya Kiroma</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アフリカ属州</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Africa</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Afrika</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مقاطعة أفريكا</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Africa</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">África Proconsular</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Africa proconsularis</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Afríka</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Africa</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Afrika</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Afrika</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">แอฟริกา</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Африка</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Àfrica</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Africa</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Африка</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Africa</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">අප්‍රිකා පළාත</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Affrica</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Afrika</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Afrika</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">აფრიკა</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Afrika</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Afrika</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Africa</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Африка</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">阿非利加</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Africa</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Афрыка</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02d53g"/>
+      <skos:exactMatch rdf:resource="http://sws.geonames.org/8354636/"/>
+      <skos:prefLabel xml:lang="oc">Província d'Africa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Provincia Africa</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15314373k"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/africa#provenance"/>
    </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/africa#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/africa"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:35:19.013-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:50:23.724-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/africa"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:35:19.013-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:50:23.724-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

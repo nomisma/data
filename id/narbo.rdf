@@ -1,154 +1,157 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/narbo">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:prefLabel xml:lang="en">Narbo</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Narbo in Gallia Narbonensis.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Narbonne"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/246347"/>
-        <skos:prefLabel xml:lang="de">Narbo</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Narbo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Narbo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Нарбонна</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Narbo</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Narbona</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Νάρβων</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Нарбон</skos:prefLabel>
-        <geo:location rdf:resource="http://nomisma.org/id/narbo#this"/>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q6555"/>
-        <skos:prefLabel xml:lang="an">Narbona</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Горад Нарбона</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Narbona</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Narbona</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Narbona</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Narbona</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">نربون</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Narbona - Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">נרבון</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ナルボンヌ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">나르본</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Narbo</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Narbonas</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Narbona</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Narbona</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Нарбонн</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">纳博讷</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أربونة</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Нарбонн</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Нарбон</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ናርቦን፣ ፈረንሳይ</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Narbonna</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0py78"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/2990919/"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4117775-7"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/237745112"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7008368"/>
-        <skos:prefLabel xml:lang="ia">Narbona</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Нарбонна</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Նարբոն</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="bm">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="fo">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="kg">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="kl">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="wa">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="wo">Narbonne</skos:prefLabel>
-        <skos:prefLabel xml:lang="zu">Narbonne</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/163668245"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15246798z"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/narbo#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:prefLabel xml:lang="en">Narbo</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Narbo in Gallia Narbonensis.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Narbonne"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/246347"/>
+      <skos:prefLabel xml:lang="de">Narbo</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Narbo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Narbo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Нарбонна</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Narbo</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Narbona</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Νάρβων</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Нарбон</skos:prefLabel>
+      <geo:location rdf:resource="http://nomisma.org/id/narbo#this"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q6555"/>
+      <skos:prefLabel xml:lang="an">Narbona</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Горад Нарбона</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Narbona</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Narbona</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Narbona</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Narbona</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">نربون</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Narbona - Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">נרבון</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ナルボンヌ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">나르본</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Narbo</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Narbonas</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Narbona</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Narbona</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Нарбонн</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">纳博讷</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أربونة</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Нарбонн</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Нарбон</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ናርቦን፣ ፈረንሳይ</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Narbonna</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0py78"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/2990919/"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4117775-7"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/237745112"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7008368"/>
+      <skos:prefLabel xml:lang="ia">Narbona</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Нарбонна</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Նարբոն</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="bm">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="fo">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="kg">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="kl">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="wa">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="wo">Narbonne</skos:prefLabel>
+      <skos:prefLabel xml:lang="zu">Narbonne</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/163668245"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15246798z"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/narbo#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/372"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/narbo#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.1836</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0042</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.1836</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0042</geo:long>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/narbo#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/narbo"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/narbo"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

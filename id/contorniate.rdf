@@ -1,66 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:ObjectType rdf:about="http://nomisma.org/id/contorniate">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Contorniate</skos:prefLabel>
-        <skos:definition xml:lang="en">A group of Late Roman bronze medallions characterised by a raised rim.</skos:definition>
-        <skos:broader rdf:resource="http://nomisma.org/id/roman_medallion"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x45977"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Contorniate"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1783247"/>
-        <skos:prefLabel xml:lang="lt">Kontorniatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Kontorniat</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Contorniato</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Contorniato</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Contorniato</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Kontorniat</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Kontorniat</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Contorniat</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Contorniate</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/contorniate#provenance"/>
-        <skos:definition xml:lang="de">Spätrömisches Medaillon aus Buntmetall, zumeist mit stark aufgedrehtem Rand</skos:definition>
-    </nmo:ObjectType>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Contorniate</skos:prefLabel>
+      <skos:definition xml:lang="en">A group of Late Roman bronze medallions characterised by a raised rim.</skos:definition>
+      <skos:broader rdf:resource="http://nomisma.org/id/roman_medallion"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x45977"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Contorniate"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1783247"/>
+      <skos:prefLabel xml:lang="lt">Kontorniatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Kontorniat</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Contorniato</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Contorniato</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Contorniato</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Kontorniat</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Kontorniat</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Contorniat</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Contorniate</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/contorniate#provenance"/>
+      <skos:definition xml:lang="de">Spätrömisches Medaillon aus Buntmetall, zumeist mit stark aufgedrehtem Rand</skos:definition>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/sachbegriff/10"/>
+   </nmo:ObjectType>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/contorniate#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/contorniate"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-21T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-01T04:00:04+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T14:30:11.915-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1wB7QvwLujFTX7UpKR8mQgYtKUL9z6nRIeyK07zi-EDk/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/contorniate"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-21T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-01T04:00:04+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T14:30:11.915-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1wB7QvwLujFTX7UpKR8mQgYtKUL9z6nRIeyK07zi-EDk/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

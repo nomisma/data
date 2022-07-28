@@ -1,102 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/tarquinii">
-        <skos:prefLabel xml:lang="en">Tarquinii</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The mint at the ancient site of Tarquinii in Etruria.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/tarquinii#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/413332"/>
-        <geo:location rdf:resource="http://nomisma.org/id/tarquinii#this"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q179999"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Tarquinia"/>
-        <skos:prefLabel xml:lang="it">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Таркуйнія</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Тарквиния</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Tarquínia</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">טרקוויניה</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">タルクイーニア</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Таркуйния</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Tarquinii</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">ടാർക്വിനി</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Тарквиния</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Тарквинија</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Таркуїнія</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">塔尔奎尼亚</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">타르퀴니아</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Տարկվինիա</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">تارکوینیا</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Tarkvinija</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Tarkviniya</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ταρκίνια</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ტარკვინია</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Tarquinia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">टेरक्विनिआ</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Tarkvinija</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">تاركوينيا</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Таркуйния</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Таркуйни</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Tarquinia</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/05bqp2"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/6536909"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/316731980"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7024305"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/etruria"/>
-    </nmo:Mint>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tarquinii#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/tarquinii"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-02T09:41:34.859-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/tarquinii#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.2545322</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.7581734667</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/etruria#this"/>
-    </geo:SpatialThing>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/tarquinii">
+      <skos:prefLabel xml:lang="en">Tarquinii</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The mint at the ancient site of Tarquinii in Etruria.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/tarquinii#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/413332"/>
+      <geo:location rdf:resource="http://nomisma.org/id/tarquinii#this"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q179999"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Tarquinia"/>
+      <skos:prefLabel xml:lang="it">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Таркуйнія</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Тарквиния</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Tarquínia</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">טרקוויניה</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">タルクイーニア</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Таркуйния</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Tarquinii</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">ടാർക്വിനി</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Тарквиния</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Тарквинија</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Таркуїнія</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">塔尔奎尼亚</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">타르퀴니아</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Տարկվինիա</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">تارکوینیا</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Tarkvinija</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Tarkviniya</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ταρκίνια</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ტარკვინია</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Tarquinia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">टेरक्विनिआ</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Tarkvinija</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">تاركوينيا</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Таркуйния</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Таркуйни</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Tarquinia</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/05bqp2"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/6536909"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/316731980"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7024305"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/etruria"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/1575"/>
+   </nmo:Mint>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tarquinii#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/tarquinii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-02T09:41:34.859-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/tarquinii#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.2545322</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.7581734667</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/etruria#this"/>
+   </geo:SpatialThing>
 </rdf:RDF>

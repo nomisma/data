@@ -1,91 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <org:Role rdf:about="http://nomisma.org/id/archduke">
-        <skos:prefLabel xml:lang="en">Archduke</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The individual holding the title of archduke during the Middle Ages or the Modern period.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/archduke#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q154615"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Archduke"/>
-        <skos:prefLabel xml:lang="pl">Arcyksiążę</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Nadvojvoda</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Эрцгерцаг</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">archiduc</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">오스트리아 대공</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">archiduque de Austria</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">főherceg</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Arquiduque</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Ertshertsog</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Erzherzog</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">オーストリア大公</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">đại công tước Áo</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Nadvojvoda</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">aartshertog</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أرشيدوق</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">ärkehertig</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">arquiduque</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Erkihertogi</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">arkiduko</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Arcivojvoda</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">эрцгерцог</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Arşidük</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">อาร์ชดยุก</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Arhiduce</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Arxiduc</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Arkkiherttua</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Ерцгерцог</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Archidux</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">erkehertug</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">arcivévoda</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Ерцхерцог</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آرشیدوک</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Nadvojvoda</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Ærkehertug</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Надвојвода</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">erkehertug</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">arciduca</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ერცჰერცოგი</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">奥地利大公</skos:prefLabel>
-        <skos:prefLabel xml:lang="ba">Эрцгерцог</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Archduke</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Adipati Agung</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Archddug</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Ershersoq</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αρχιδούκας</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02v2zy"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4277183-3"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300258604"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-    </org:Role>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/archduke#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/archduke"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T04:36:53.792Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <org:Role rdf:about="http://nomisma.org/id/archduke">
+      <skos:prefLabel xml:lang="en">Archduke</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The individual holding the title of archduke during the Middle Ages or the Modern period.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/archduke#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q154615"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Archduke"/>
+      <skos:prefLabel xml:lang="pl">Arcyksiążę</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Nadvojvoda</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Эрцгерцаг</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">archiduc</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">오스트리아 대공</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">archiduque de Austria</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">főherceg</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Arquiduque</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Ertshertsog</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Erzherzog</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">オーストリア大公</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">đại công tước Áo</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Nadvojvoda</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">aartshertog</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أرشيدوق</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">ärkehertig</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">arquiduque</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Erkihertogi</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">arkiduko</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Arcivojvoda</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">эрцгерцог</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Arşidük</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">อาร์ชดยุก</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Arhiduce</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Arxiduc</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Arkkiherttua</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Ерцгерцог</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Archidux</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">erkehertug</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">arcivévoda</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Ерцхерцог</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آرشیدوک</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Nadvojvoda</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Ærkehertug</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Надвојвода</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">erkehertug</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">arciduca</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ერცჰერცოგი</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">奥地利大公</skos:prefLabel>
+      <skos:prefLabel xml:lang="ba">Эрцгерцог</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Archduke</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Adipati Agung</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Archddug</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Ershersoq</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αρχιδούκας</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02v2zy"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4277183-3"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300258604"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+   </org:Role>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/archduke#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/archduke"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T04:36:53.792Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,100 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Manufacture rdf:about="http://nomisma.org/id/engraved">
-        <skos:prefLabel xml:lang="en">Engraved</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">A process by which marks (images or writing) are made on a hard surface by incising with a sharp tool. It may be the manufacture method that produces objects such as coin dies or seals; or it may be a secondary treatment applied to a pre-existing numismatic object.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/engraved#provenance"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300053829"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q139106"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Engraving"/>
-        <skos:prefLabel xml:lang="pl">grawerstwo</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Irarlan</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">гравіроўка</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תחריט</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">gravīra</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Gravado</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">gravüür</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">gravir</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">エングレービング</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">χαρακτική</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">نقش</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">stick</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">gravurado</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">гравировка</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">gravür</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">gravat</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">kaivertaminen</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">කැටයම් කැපීම</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">حکاکی</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Qravüra</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">stik</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Гравюра</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">бакропис</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Çapa qewartinê</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">гравірування</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Graviranje</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Graviranje</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">인그레이빙</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">gravering</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">鐫刻</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Гравюра</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Gravura</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">gravură</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">grabado</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">gravure</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Stich</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">бакропис</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Gravírovanie</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">gravírování</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">graveertechniek</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">engraverezh</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">gravura</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">incisione</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Graviūra</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">argraffu</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Gravírozás</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Gravura</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">გრავიურა</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">փորագրում</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">एनग्रेविंग</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">gravura</skos:prefLabel>
-    </nmo:Manufacture>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/engraved#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/engraved"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-17T14:48:08.296-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T15:15:33.645Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Manufacture rdf:about="http://nomisma.org/id/engraved">
+      <skos:prefLabel xml:lang="en">Engraved</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">A process by which marks (images or writing) are made on a hard surface by incising with a sharp tool. It may be the manufacture method that produces objects such as coin dies or seals; or it may be a secondary treatment applied to a pre-existing numismatic object.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/engraved#provenance"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300053829"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q139106"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Engraving"/>
+      <skos:prefLabel xml:lang="pl">grawerstwo</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Irarlan</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">гравіроўка</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תחריט</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">gravīra</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Gravado</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">gravüür</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">gravir</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">エングレービング</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">χαρακτική</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">نقش</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">stick</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">gravurado</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">гравировка</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">gravür</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">gravat</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">kaivertaminen</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">කැටයම් කැපීම</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">حکاکی</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Qravüra</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">stik</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Гравюра</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">бакропис</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Çapa qewartinê</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">гравірування</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Graviranje</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Graviranje</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">인그레이빙</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">gravering</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">鐫刻</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Гравюра</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Gravura</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">gravură</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">grabado</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">gravure</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Stich</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">бакропис</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Gravírovanie</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">gravírování</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">graveertechniek</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">engraverezh</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">gravura</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">incisione</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Graviūra</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">argraffu</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Gravírozás</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Gravura</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">გრავიურა</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">փորագրում</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">एनग्रेविंग</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">gravura</skos:prefLabel>
+   </nmo:Manufacture>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/engraved#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/engraved"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-17T14:48:08.296-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T15:15:33.645Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

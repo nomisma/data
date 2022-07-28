@@ -1,61 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/antalya">
-        <skos:prefLabel xml:lang="en">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αττάλεια</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Adalia</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The medieval and modern mint(s) of Antalya in Turkey. For earlier mints at the same place, see Attaleia (Pamphylia).</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/antalya#provenance"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q6487"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <geo:location rdf:resource="http://nomisma.org/id/antalya#this"/>
-        <skos:closeMatch rdf:resource="http://nomisma.org/id/attaleia"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002378"/>
-        <skos:closeMatch rdf:resource="https://www.geonames.org/323777"/>
-    </nmo:Mint>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antalya#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/antalya"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-07T08:28:09.304-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-07T08:47:31.573-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/antalya#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.90812</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.69556</geo:long>
-    </geo:SpatialThing>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/antalya">
+      <skos:prefLabel xml:lang="en">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αττάλεια</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Adalia</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The medieval and modern mint(s) of Antalya in Turkey. For earlier mints at the same place, see Attaleia (Pamphylia).</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/antalya#provenance"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q6487"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <geo:location rdf:resource="http://nomisma.org/id/antalya#this"/>
+      <skos:closeMatch rdf:resource="http://nomisma.org/id/attaleia"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002378"/>
+      <skos:closeMatch rdf:resource="https://www.geonames.org/323777"/>
+   </nmo:Mint>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antalya#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/antalya"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-07T08:28:09.304-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-07T08:47:31.573-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/antalya#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.90812</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.69556</geo:long>
+   </geo:SpatialThing>
 </rdf:RDF>

@@ -1,172 +1,173 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/crete">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Crete</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Crete as defined in Head (1911)</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Crete"/>
-        
-        <geo:location rdf:resource="http://nomisma.org/id/crete#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_europe"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q34374"/>
-        <skos:prefLabel xml:lang="lb">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">克里特</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="qu">Kriti</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">கிரீட்</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Crete</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Kréta</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Kreeta</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κρήτη</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ቀርጤስ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">كريت</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Krít</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Kreto</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Крит</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Крит</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Girit</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Крит</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Kreeta</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Крит</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Krit</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Крит</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">크레타</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">כרתים</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Crète</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Востраў Крыт</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Krēta</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Illa de Creta - Κρήτη</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">クレタ島</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Kríti</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">क्रीत</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Kréta</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Крит</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կրետե</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Крит</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ครีต</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="fo">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Krity</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="os">Крит</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Kréta</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">क्रीट</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Крит</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کرت</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">کریٹ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">კრეტა</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Kriti</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Kreta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Krit</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Krit</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Creta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">ക്രീറ്റ്</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Крит</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">ক্রিট</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Krete</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">An Chréit</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01xyy"/>
-        <skos:exactMatch rdf:resource="http://sws.geonames.org/6697802/"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4073791-3"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/237254468"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/crete#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/589748"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Crete</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Crete as defined in Head (1911)</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Crete"/>
+      <geo:location rdf:resource="http://nomisma.org/id/crete#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_europe"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q34374"/>
+      <skos:prefLabel xml:lang="lb">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">克里特</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="qu">Kriti</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">கிரீட்</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Crete</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Kréta</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Kreeta</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κρήτη</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ቀርጤስ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">كريت</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Krít</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Kreto</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Крит</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Крит</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Girit</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Крит</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Kreeta</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Крит</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Krit</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Крит</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">크레타</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">כרתים</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Crète</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Востраў Крыт</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Krēta</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Illa de Creta - Κρήτη</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">クレタ島</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Kríti</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">क्रीत</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Kréta</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Крит</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կրետե</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Крит</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ครีต</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="fo">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Krity</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="os">Крит</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Kréta</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">क्रीट</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Крит</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کرت</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">کریٹ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">კრეტა</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Kriti</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Kreta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Krit</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Krit</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Creta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">ക്രീറ്റ്</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Крит</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">ক্রিট</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Krete</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">An Chréit</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01xyy"/>
+      <skos:exactMatch rdf:resource="http://sws.geonames.org/6697802/"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4073791-3"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/237254468"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/crete#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/589748"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/212"/>
+   </nmo:Region>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/crete#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.21</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.91</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_europe#this"/>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.21</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.91</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_europe#this"/>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/crete#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/crete"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:57:03.617-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-09T04:57:46.887-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/crete"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:57:03.617-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-09T04:57:46.887-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

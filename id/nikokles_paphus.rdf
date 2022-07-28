@@ -1,75 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/nikokles_paphus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="el">ΝΙΚΟΚΛΕΟΥΣ</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Nikokles of Paphos</skos:prefLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/nikokles_paphus#issuer"/>
-        <skos:definition xml:lang="en">Nikokles (Greek: Νικοκλῆς; d. 306 BC) was a king of Paphos on the island of Cyprus. As king, he changed the capital of Paphos, from the old one to the new one. In 321 BC, he allied himself with Ptolemy I to fight against Perdiccas and Antigonus. He is first attested on the Alexander coinage of Paphos, c. 325-317 BC. See M. J. Price, Coinage in the Name of Alexander the Great and Philip Arrhidaeus (London/Zurich, 1994), no. 3118. There are also issues in his name on coinage  also signed by the people of Paphos.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/nikokles_paphus#provenance"/>
-        <skos:altLabel xml:lang="en">Nicocles of Paphus</skos:altLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q715068"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nicocles_of_Paphos"/>
-        <skos:prefLabel xml:lang="pt">Nícocles</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Nikokles</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Nicoclès</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Никокл</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Nicocles de Pafos</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Nicocle</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Nicocles</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Нікокл</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Nicocles</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/026b1bm"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="el">ΝΙΚΟΚΛΕΟΥΣ</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Nikokles of Paphos</skos:prefLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/nikokles_paphus#issuer"/>
+      <skos:definition xml:lang="en">Nikokles (Greek: Νικοκλῆς; d. 306 BC) was a king of Paphos on the island of Cyprus. As king, he changed the capital of Paphos, from the old one to the new one. In 321 BC, he allied himself with Ptolemy I to fight against Perdiccas and Antigonus. He is first attested on the Alexander coinage of Paphos, c. 325-317 BC. See M. J. Price, Coinage in the Name of Alexander the Great and Philip Arrhidaeus (London/Zurich, 1994), no. 3118. There are also issues in his name on coinage  also signed by the people of Paphos.</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/nikokles_paphus#provenance"/>
+      <skos:altLabel xml:lang="en">Nicocles of Paphus</skos:altLabel>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q715068"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nicocles_of_Paphos"/>
+      <skos:prefLabel xml:lang="pt">Nícocles</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Nikokles</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Nicoclès</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Никокл</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Nicocles de Pafos</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Nicocle</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Nicocles</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Нікокл</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Nicocles</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/026b1bm"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/7680"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/nikokles_paphus#issuer">
-        <org:organization rdf:resource="http://nomisma.org/id/paphus"/>
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0325</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0317</nmo:hasEndDate>
+      <org:organization rdf:resource="http://nomisma.org/id/paphus"/>
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0325</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0317</nmo:hasEndDate>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/nikokles_paphus#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/nikokles_paphus"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-22T04:00:02+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1qEpZ4KFEHxjIUFT7sOloPuKW6ixd3cJnr0EWHwnkcX4/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-10T08:42:06.323-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-27T09:13:53.133-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/nikokles_paphus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-22T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1qEpZ4KFEHxjIUFT7sOloPuKW6ixd3cJnr0EWHwnkcX4/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-10T08:42:06.323-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-27T09:13:53.133-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

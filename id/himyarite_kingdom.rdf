@@ -1,89 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Organization rdf:about="http://nomisma.org/id/himyarite_kingdom">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Himyarite Kingdom</skos:prefLabel>
-        <skos:definition xml:lang="en">The Ḥimyarite Kingdom (fl. 110 BCE–520s CE), historically referred to as the Homerite Kingdom by the Greeks and the Romans, was a kingdom in ancient Yemen. Established in 110 BCE, it took as its capital the ancient city of Zafar, to be followed at the beginning of the 4th century by what is the modern-day city of Sana'a.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Himyarite_Kingdom"/>
-        <skos:prefLabel xml:lang="de">Himjar</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مملكة حمير</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Himyar dövləti</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Химярит</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">himiarites</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Χιμιαρίτες</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Himjaro</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Himyar</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">حمیر</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Himyar</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Himyar</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">חמיר</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Kraljevina Himjar</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Himyar</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Himjaras</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Himyar</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Химьяр</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Himjarsko Kraljevstvo</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Himyariter</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Himyar Krallığı</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Хим'яр</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ჰიმიარიტების სამეფო</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Himyar</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Himyar</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">হিমিয়ার রাজ্য</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Химјар</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Хім'ярыцкае царства</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ヒムヤル王国</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Himʼyariylar podsholigi</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Himjariterne</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Հիմյարի թագավորություն</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">希木葉爾</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Regatul himiarit</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kerajaan Himyar</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Himjaryci</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Химјарско краљевство</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Himyar</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Vương quốc Himyar</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q289577"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/035cjd"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300386615"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/himyarite_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/himyarite_kingdom#provenance"/>
-    </foaf:Organization>
-   
-   
-    
-    <org:Membership rdf:about="http://nomisma.org/id/himyarite_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
-        <org:role rdf:resource="http://nomisma.org/id/realm"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0110</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0525</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/himyarite_kingdom#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/himyarite_kingdom"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Organization rdf:about="http://nomisma.org/id/himyarite_kingdom">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Himyarite Kingdom</skos:prefLabel>
+      <skos:definition xml:lang="en">The Ḥimyarite Kingdom (fl. 110 BCE–520s CE), historically referred to as the Homerite Kingdom by the Greeks and the Romans, was a kingdom in ancient Yemen. Established in 110 BCE, it took as its capital the ancient city of Zafar, to be followed at the beginning of the 4th century by what is the modern-day city of Sana'a.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Himyarite_Kingdom"/>
+      <skos:prefLabel xml:lang="de">Himjar</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مملكة حمير</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Himyar dövləti</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Химярит</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">himiarites</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Χιμιαρίτες</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Himjaro</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Himyar</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">حمیر</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Himyar</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Himyar</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">חמיר</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Kraljevina Himjar</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Himyar</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Himjaras</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Himyar</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Химьяр</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Himjarsko Kraljevstvo</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Himyariter</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Himyar Krallığı</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Хим'яр</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ჰიმიარიტების სამეფო</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Himyar</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Himyar</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">হিমিয়ার রাজ্য</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Химјар</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Хім'ярыцкае царства</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ヒムヤル王国</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Himʼyariylar podsholigi</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Himjariterne</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Հիմյարի թագավորություն</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">希木葉爾</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Regatul himiarit</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kerajaan Himyar</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Himjaryci</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Химјарско краљевство</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Himyar</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Vương quốc Himyar</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q289577"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/035cjd"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300386615"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/himyarite_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/himyarite_kingdom#provenance"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/himyarite_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+      <org:role rdf:resource="http://nomisma.org/id/realm"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0110</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0525</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/himyarite_kingdom#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/himyarite_kingdom"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

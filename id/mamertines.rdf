@@ -1,66 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Organization rdf:about="http://nomisma.org/id/mamertines">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Mamertines</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Mamertini</skos:altLabel>
-        <skos:definition xml:lang="en">The Mamertines (Latin: Mamertini, "sons of Mars", Greek: Μαμερτῖνοι) were mercenaries of Italian origin who had been hired from their home in Campania by Agathocles (361 – 289 BC), Tyrant of Syracuse and self-proclaimed King of Sicily.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Mamertines"/>
-        <skos:prefLabel xml:lang="eo">Mamertinoj</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Mamertyni</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Mamertin</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">мамертинцы</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Mamertinos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">mamertins</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Мамертинці</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Mamertini</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Mamertiaid</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Mamertiner</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">マメルティニ</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μαμερτίνοι</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Mamertinci</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Mamertinci</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Mamertiner</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Mamertijnen</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Мамертинци</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Мамертинци</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Mamertinos</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Mamertini</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Mamertino</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1164281"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04nc77"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/mamertines#provenance"/>
-    </foaf:Organization>
-   
-   
-   
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mamertines#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/mamertines"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Organization rdf:about="http://nomisma.org/id/mamertines">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Mamertines</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Mamertini</skos:altLabel>
+      <skos:definition xml:lang="en">The Mamertines (Latin: Mamertini, "sons of Mars", Greek: Μαμερτῖνοι) were mercenaries of Italian origin who had been hired from their home in Campania by Agathocles (361 – 289 BC), Tyrant of Syracuse and self-proclaimed King of Sicily.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Mamertines"/>
+      <skos:prefLabel xml:lang="eo">Mamertinoj</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Mamertyni</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Mamertin</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">мамертинцы</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Mamertinos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">mamertins</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Мамертинці</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Mamertini</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Mamertiaid</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Mamertiner</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">マメルティニ</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μαμερτίνοι</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Mamertinci</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Mamertinci</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Mamertiner</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Mamertijnen</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Мамертинци</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Мамертинци</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Mamertinos</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Mamertini</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Mamertino</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1164281"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/04nc77"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/mamertines#provenance"/>
+   </foaf:Organization>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mamertines#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/mamertines"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,80 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Collection rdf:about="http://nomisma.org/id/uni_cologne_i">
-        <skos:definition xml:lang="en">The collection currently holds c. 1,150 coins, mainly of the Roman Imperial period (Republic 72, Principate 517, Late Antiquity 104), plus a number of Provincial issues of the Roman period (93), and some Celtic, Germanic, and other Greek coins. In 2008, 22 Late Roman coins and 285 Byzantine ones of the Krengel collection were purchased.</skos:definition>
-        <skos:prefLabel xml:lang="en">The Digital Coin Cabinet of the University of Cologne, Department of History, Ancient History, and Department of Classics, Byzantine Studies</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Das Digitale Münzkabinett des Historischen Instituts, Abt. Alte Geschichte, und des Instituts für Altertumskunde, Abt. Byzantinistik</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="de">Die Münzlehrsammlung umfasst derzeit ca. 1150 Münzen. Der Schwerpunkt liegt auf der römischen Reichsprägung (Republik: 72 Münzen, Prinzipat: 517, Spätantike: 104), ferner auf den Provinzialprägungen der römischen Kaiserzeit (93) und den byzantinischen Münzen (285). Hinzu kommt eine kleine Anzahl von keltischen, germanischen und griechischen Münzen sowie solche aus den griechischen Randgebieten. 2008 konnten 22 spätantike und 285 byzantinische Münzen der Sammlung Krengel erworben werden.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <foaf:homepage rdf:resource="https://numid.uni-koeln.de/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/uni_cologne_i#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-149328"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/parthian_numismatics"/>
-        <foaf:thumbnail rdf:resource="https://numid.uni-koeln.de/special/logos/logo.png"/>
-    </nmo:Collection>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni_cologne_i#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/uni_cologne_i"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-21T09:28:31.837Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-21T09:46:04.466Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-21T09:54:28.612Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-13T06:06:29.179Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T10:17:12.963Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/uni_cologne_i">
+      <skos:definition xml:lang="en">The collection currently holds c. 1,150 coins, mainly of the Roman Imperial period (Republic 72, Principate 517, Late Antiquity 104), plus a number of Provincial issues of the Roman period (93), and some Celtic, Germanic, and other Greek coins. In 2008, 22 Late Roman coins and 285 Byzantine ones of the Krengel collection were purchased.</skos:definition>
+      <skos:prefLabel xml:lang="en">The Digital Coin Cabinet of the University of Cologne, Department of History, Ancient History, and Department of Classics, Byzantine Studies</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Das Digitale Münzkabinett des Historischen Instituts, Abt. Alte Geschichte, und des Instituts für Altertumskunde, Abt. Byzantinistik</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="de">Die Münzlehrsammlung umfasst derzeit ca. 1150 Münzen. Der Schwerpunkt liegt auf der römischen Reichsprägung (Republik: 72 Münzen, Prinzipat: 517, Spätantike: 104), ferner auf den Provinzialprägungen der römischen Kaiserzeit (93) und den byzantinischen Münzen (285). Hinzu kommt eine kleine Anzahl von keltischen, germanischen und griechischen Münzen sowie solche aus den griechischen Randgebieten. 2008 konnten 22 spätantike und 285 byzantinische Münzen der Sammlung Krengel erworben werden.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <foaf:homepage rdf:resource="https://numid.uni-koeln.de/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/uni_cologne_i#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-149328"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/parthian_numismatics"/>
+      <foaf:thumbnail rdf:resource="https://numid.uni-koeln.de/special/logos/logo.png"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni_cologne_i#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/uni_cologne_i"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-21T09:28:31.837Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-21T09:46:04.466Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-21T09:54:28.612Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-13T06:06:29.179Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T10:17:12.963Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

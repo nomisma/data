@@ -1,63 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <rdac:Family rdf:about="http://nomisma.org/id/aeacid_dynasty">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Aeacid Dynasty</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Aeacidae</skos:altLabel>
-        <skos:definition xml:lang="en">With mythological roots tying it to the Greek descendants of Aeacus, including Peleus and Achilles, the dynasty coalesced into a historic line of Molossian kings of Epirus beginning with Admetus (490 B.C.) and ending with Deidamia (died 233 B.C.), daughter of Pyrrhus II.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aeacidae"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q403361"/>
-        <skos:prefLabel xml:lang="de">Aiakides</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Еакиди</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ajakidzi</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Eacidi</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Aeacidae</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Aecides</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0284w39"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118847163"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/35253732"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/aeacid_dynasty#provenance"/>
-        <skos:prefLabel xml:lang="id">Aiakídai</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Еакіди</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Пирриды</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Дынастыя Пірыдаў</skos:prefLabel>
-    </rdac:Family>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Aeacid Dynasty</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Aeacidae</skos:altLabel>
+      <skos:definition xml:lang="en">With mythological roots tying it to the Greek descendants of Aeacus, including Peleus and Achilles, the dynasty coalesced into a historic line of Molossian kings of Epirus beginning with Admetus (490 B.C.) and ending with Deidamia (died 233 B.C.), daughter of Pyrrhus II.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aeacidae"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q403361"/>
+      <skos:prefLabel xml:lang="de">Aiakides</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Еакиди</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ajakidzi</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Eacidi</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Aeacidae</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Aecides</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0284w39"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118847163"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/35253732"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/aeacid_dynasty#provenance"/>
+      <skos:prefLabel xml:lang="id">Aiakídai</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Еакіди</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Пирриды</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Дынастыя Пірыдаў</skos:prefLabel>
+   </rdac:Family>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/aeacid_dynasty#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/aeacid_dynasty"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:06:52-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1KNnrbtxrc2vtSLKjcp3zNdYcKq6x7okR00H-3CXvNiI/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:02:59.297-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1m0KfSJ6iL-xit37vqCMuv6aRybRLjRBqnK5w8wA088U/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/aeacid_dynasty"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:06:52-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1KNnrbtxrc2vtSLKjcp3zNdYcKq6x7okR00H-3CXvNiI/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:02:59.297-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1m0KfSJ6iL-xit37vqCMuv6aRybRLjRBqnK5w8wA088U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

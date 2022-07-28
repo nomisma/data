@@ -1,81 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/georg_hautsch_(1659-1745)">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#engraver"/>
-        <skos:prefLabel xml:lang="en">Georg Hautsch</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <skos:definition xml:lang="en">Medalist and die cutter in Nürnberg (Nuremberg), Franconia, Germany from 1683 to 1715. His initials are H or GH. Lit.: Hans-Jörg Kellner, Die Münzen der Freien Reichsstadt Nürnberg (1957), p. 171.</skos:definition>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/55217840"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#modern_period_mint_staff"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#medalist"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#provenance"/>
-        <bio:birth rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#birth"/>
-        <bio:death rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#death"/>
-        <skos:exactMatch rdf:resource="https://mmlo.de/10201"/>
-        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3326"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#engraver"/>
+      <skos:prefLabel xml:lang="en">Georg Hautsch</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+      <skos:definition xml:lang="en">Medalist and die cutter in Nürnberg (Nuremberg), Franconia, Germany from 1683 to 1715. His initials are H or GH. Lit.: Hans-Jörg Kellner, Die Münzen der Freien Reichsstadt Nürnberg (1957), p. 171.</skos:definition>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/55217840"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#modern_period_mint_staff"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#medalist"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#provenance"/>
+      <bio:birth rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#birth"/>
+      <bio:death rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)#death"/>
+      <skos:exactMatch rdf:resource="https://mmlo.de/10201"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3326"/>
+   </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/georg_hautsch_(1659-1745)#engraver">
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1683</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1715</nmo:hasEndDate>
-        <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
-        <org:role rdf:resource="http://nomisma.org/id/engraver"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1683</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1715</nmo:hasEndDate>
+      <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
+      <org:role rdf:resource="http://nomisma.org/id/engraver"/>
    </org:Membership>
    <org:Membership rdf:about="http://nomisma.org/id/georg_hautsch_(1659-1745)#modern_period_mint_staff">
-        <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
-        <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
+      <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
+      <org:role rdf:resource="http://nomisma.org/id/modern_period_mint_staff"/>
    </org:Membership>
    <org:Membership rdf:about="http://nomisma.org/id/georg_hautsch_(1659-1745)#medalist">
-        <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
-        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+      <org:organization rdf:resource="http://nomisma.org/id/nuremberg"/>
+      <org:role rdf:resource="http://nomisma.org/id/medalist"/>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/georg_hautsch_(1659-1745)#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-20T04:00:02+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-21T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-18T00:56:20.21-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <bio:Birth rdf:about="http://nomisma.org/id/georg_hautsch_(1659-1745)#birth">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1660</dcterms:date>
-    </bio:Birth>
-    <bio:Death rdf:about="http://nomisma.org/id/georg_hautsch_(1659-1745)#death">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1715</dcterms:date>
-    </bio:Death>
+      <foaf:topic rdf:resource="http://nomisma.org/id/georg_hautsch_(1659-1745)"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-20T04:00:02+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-21T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-18T00:56:20.21-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <bio:Birth rdf:about="http://nomisma.org/id/georg_hautsch_(1659-1745)#birth">
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1660</dcterms:date>
+   </bio:Birth>
+   <bio:Death rdf:about="http://nomisma.org/id/georg_hautsch_(1659-1745)#death">
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1715</dcterms:date>
+   </bio:Death>
 </rdf:RDF>

@@ -1,106 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/parthamaspates">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Parthamaspates</skos:prefLabel>
-        <skos:definition xml:lang="en">Roman client king of Parthia (AD 116-7) and later of Osroene (AD 118-123), the son of the Parthian emperor Osroes I.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1269411"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Parthamaspates_of_Parthia"/>
-        <skos:prefLabel xml:lang="ja">パルタマスパテス</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Partamaspates</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Parthamaspatès</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Partamaspat od Partije</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Partamaspates</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Partamaspat Partski</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Partamaspades de Pàrtia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Parthamaspates</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Partamaspate</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Parthamaspates av Parthia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Partamaspat</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Partamaspates</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Парфамасат</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03ykgb"/>
-        <skos:prefLabel xml:lang="el">Παρθαμασπάτης</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Parthamaspates</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Parthamaspates</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Parthamaspates</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/parthamaspates#provenance"/>
-        <skos:prefLabel xml:lang="uk">Парфамасат</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پارتاماسپاتس</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">帕爾塔馬斯帕提斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Parthamaspates của Parthia</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Parthamaspates</skos:altLabel>
-        <org:memberOf rdf:resource="http://nomisma.org/id/arsacid_dynasty_parthia"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/parthamaspates#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/search?s.q=Parthamaspates+&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;search-go=Search"/>
-        <rdfs:seeAlso rdf:resource="http://parthia.com/parthamaspates.htm"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/parthamaspates#membership_4d4d0f9dba1a0827f99cd1522cdd2483"/>
-    </foaf:Person>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Parthamaspates</skos:prefLabel>
+      <skos:definition xml:lang="en">Roman client king of Parthia (AD 116-7) and later of Osroene (AD 118-123), the son of the Parthian emperor Osroes I.</skos:definition>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1269411"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Parthamaspates_of_Parthia"/>
+      <skos:prefLabel xml:lang="ja">パルタマスパテス</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Partamaspates</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Parthamaspatès</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Partamaspat od Partije</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Partamaspates</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Partamaspat Partski</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Partamaspades de Pàrtia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Parthamaspates</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Partamaspate</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Parthamaspates av Parthia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Partamaspat</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Partamaspates</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Парфамасат</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03ykgb"/>
+      <skos:prefLabel xml:lang="el">Παρθαμασπάτης</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Parthamaspates</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Parthamaspates</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Parthamaspates</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/parthamaspates#provenance"/>
+      <skos:prefLabel xml:lang="uk">Парфамасат</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پارتاماسپاتس</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">帕爾塔馬斯帕提斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Parthamaspates của Parthia</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Parthamaspates</skos:altLabel>
+      <org:memberOf rdf:resource="http://nomisma.org/id/arsacid_dynasty_parthia"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/parthamaspates#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/search?s.q=Parthamaspates+&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;search-go=Search"/>
+      <rdfs:seeAlso rdf:resource="http://parthia.com/parthamaspates.htm"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/parthamaspates#membership_4d4d0f9dba1a0827f99cd1522cdd2483"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4294"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/parthamaspates#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/parthamaspates"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:36:24.667-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/parthamaspates#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/parthian_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0116</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0117</nmo:hasEndDate>
-    </org:Membership>
-    <org:Membership rdf:about="http://nomisma.org/id/parthamaspates#membership_4d4d0f9dba1a0827f99cd1522cdd2483">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/osroene_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0118</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0123</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/parthamaspates"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:36:24.667-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/parthamaspates#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/parthian_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0116</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0117</nmo:hasEndDate>
+   </org:Membership>
+   <org:Membership rdf:about="http://nomisma.org/id/parthamaspates#membership_4d4d0f9dba1a0827f99cd1522cdd2483">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/osroene_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0118</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0123</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

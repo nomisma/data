@@ -1,73 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Organization rdf:about="http://nomisma.org/id/qatabanian_kingdom">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Kingdom of Qataban</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Qatabanian Kingdom</skos:altLabel>
-        <skos:definition xml:lang="en">Qataban or Katabania was an ancient Yemeni kingdom. Its heartland was located in the Baihan valley. Like some other Southern Arabian kingdoms it gained great wealth from the trade of frankincense and myrrh, incenses which were burned at altars. The capital of Qataban was named Timna and was located on the trade route which passed through the other kingdoms of Hadramaut, Sheba and Ma'in. The chief deity of the Qatabanians was 'Amm, or "Uncle" and the people called themselves the "children of Amm".</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Qataban"/>
-        <skos:prefLabel xml:lang="de">Qataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مملكة قتبان</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Qataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Qataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">دولت قتبان</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Qataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Qataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Kataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Qataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Katabanas</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Qataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Катабан</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Kataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Qataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Qataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Катабан</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Qataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Катабан</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Kataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Kataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Qataban</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Катабан</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q748595"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02vw_26"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/qatabanian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/qatabanian_kingdom#provenance"/>
-    </foaf:Organization>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/qatabanian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
-        <org:role rdf:resource="http://nomisma.org/id/realm"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0175</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0000</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/qatabanian_kingdom#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/qatabanian_kingdom"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Organization rdf:about="http://nomisma.org/id/qatabanian_kingdom">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Kingdom of Qataban</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Qatabanian Kingdom</skos:altLabel>
+      <skos:definition xml:lang="en">Qataban or Katabania was an ancient Yemeni kingdom. Its heartland was located in the Baihan valley. Like some other Southern Arabian kingdoms it gained great wealth from the trade of frankincense and myrrh, incenses which were burned at altars. The capital of Qataban was named Timna and was located on the trade route which passed through the other kingdoms of Hadramaut, Sheba and Ma'in. The chief deity of the Qatabanians was 'Amm, or "Uncle" and the people called themselves the "children of Amm".</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Qataban"/>
+      <skos:prefLabel xml:lang="de">Qataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مملكة قتبان</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Qataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Qataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">دولت قتبان</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Qataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Qataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Kataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Qataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Katabanas</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Qataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Катабан</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Kataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Qataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Qataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Катабан</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Qataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Катабан</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Kataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Kataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Qataban</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Катабан</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q748595"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02vw_26"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/qatabanian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/qatabanian_kingdom#provenance"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/qatabanian_kingdom#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+      <org:role rdf:resource="http://nomisma.org/id/realm"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0175</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0000</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/qatabanian_kingdom#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/qatabanian_kingdom"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

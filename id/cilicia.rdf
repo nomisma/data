@@ -1,113 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/cilicia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Cilicia</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Cilicia as defined in Head (1911)</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/991403"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x111374"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cilicia"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q620864"/>
-        <skos:prefLabel xml:lang="eu">Zilizia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Cylicja</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">킬리키아</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Cilicie</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Кілікія</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קיליקיה</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Cilicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Kilikia</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Cilicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Cilicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Kiliikia</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kilikia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Kilikien</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">キリキア</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Kilikia</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κιλικία</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Kilikija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Kilikien</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">قيليقية</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Cilicië</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Cilícia</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Kilikio</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Kilíkia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Киликия</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Килики</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Cilicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Cilícia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Kilikia</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Кілікія</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Cilicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Cilicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Kilikija</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Kilikia</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Kilíkie</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کیلیکیه</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Киликия</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Cilicija</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Kilikiya</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Kilikija</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Cilicia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Киликија</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">奇里乞亚</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Kîlîkya</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ኪልቅያ</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Kilikiya</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Kilikia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">قلیقیہ</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կիլիկիա</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Kilikya</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0k0gz"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/cilicia#provenance"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Cilicia</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Cilicia as defined in Head (1911)</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/991403"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x111374"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cilicia"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q620864"/>
+      <skos:prefLabel xml:lang="eu">Zilizia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Cylicja</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">킬리키아</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Cilicie</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Кілікія</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קיליקיה</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Cilicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Kilikia</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Cilicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Cilicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Kiliikia</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kilikia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Kilikien</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">キリキア</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Kilikia</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κιλικία</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Kilikija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Kilikien</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">قيليقية</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Cilicië</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Cilícia</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Kilikio</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Kilíkia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Киликия</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Килики</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Cilicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Cilícia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Kilikia</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Кілікія</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Cilicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Cilicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Kilikija</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Kilikia</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Kilíkie</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کیلیکیه</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Киликия</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Cilicija</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Kilikiya</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Kilikija</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Cilicia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Киликија</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">奇里乞亚</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Kîlîkya</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ኪልቅያ</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Kilikiya</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Kilikia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">قلیقیہ</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կիլիկիա</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Kilikya</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0k0gz"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/cilicia#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/391"/>
    </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cilicia#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/cilicia"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:54:14.958-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/cilicia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:54:14.958-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

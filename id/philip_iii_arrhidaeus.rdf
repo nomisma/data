@@ -1,123 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/philip_iii_arrhidaeus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Philip III Arrhidaeus</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">腓力三世 (马其顿)</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Philippos III của Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Philipp III. Arrhidaios</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Filip III Arrideu</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Filip III. Arrhidaios</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Філіпп III Македонський</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Filip III av Makedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ピリッポス3世</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Philippus III van Macedonië</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Filipe III da Macedónia</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Filippo III Arrideo</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Philippe III de Macédoine</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Filip III av Makedonien</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Filipo III de Macedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Filip Arrhidaeus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Филипп III Арридей</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Filippos III</skos:prefLabel>
-        <skos:definition xml:lang="en">Philip III Arrhidaeus (Ancient Greek: Φίλιππος Γ' ὁ Ἀρριδαῖος; ca. 359 BC – December 25, 317 BC) was the king of Macedonia from after June 11, 323 BC until his death. He was a son of King Philip II of Macedonia by Philinna of Larissa, allegedly a Thessalian dancer, and a half-brother of Alexander the Great. Named Arrhidaeus at birth, he assumed the name Philip when he ascended to the throne.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Philip_III_of_Macedon"/>
-        
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/188145542444496640170"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q295530"/>
-        <skos:prefLabel xml:lang="yo">Filip 3k ilẹ̀ Makẹdóníà</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Φίλιππος Γ΄ της Μακεδονίας</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Filip III od Makedonije</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">فيليبوس الثالث المقدوني</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Филип III Аридеј</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">فیلیپ سوم مقدونی</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Филип III Аридей</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Filipas Aridajas</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Filip 3. af Makedonien</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Филип III Аридеј</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Filip III av Makedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ფილიპე III არიდაიოსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">III. Philipposz makedón király</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">III Filip</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/5731985"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11902716X"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/015v_y"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/philip_iii_arrhidaeus#provenance"/>
-        <skos:prefLabel xml:lang="be">Філіп III Арыдэй</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Filipo la 3-a</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">פיליפוס השלישי, מלך מוקדון</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Filipo III.a Mazedoniakoa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">필리포스 3세</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">พระเจ้าพีลิปโปสที่ 3 แห่งมาเกโดนีอา</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Filipus III dari Makedonia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Filip al III-lea al Macedoniei</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Փիլիպոս III Մակեդոնացի</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">فلپ سوم مقدونی</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Philippe III. vu  Makedonien</skos:prefLabel>
-        <skos:prefLabel xml:lang="ps">د مقدونيا دريم فيليپ نومی پاچا</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Filipi III i Maqedonisë</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000022193449"/>
-        <skos:altLabel xml:lang="en">Philip III</skos:altLabel>
-        <org:memberOf rdf:resource="http://nomisma.org/id/argead_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/philip_iii_arrhidaeus#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Philip-III-Arrhidaeus"/>
-    </foaf:Person>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Philip III Arrhidaeus</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">腓力三世 (马其顿)</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Philippos III của Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Philipp III. Arrhidaios</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Filip III Arrideu</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Filip III. Arrhidaios</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Філіпп III Македонський</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Filip III av Makedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ピリッポス3世</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Philippus III van Macedonië</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Filipe III da Macedónia</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Filippo III Arrideo</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Philippe III de Macédoine</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Filip III av Makedonien</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Filipo III de Macedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Filip Arrhidaeus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Филипп III Арридей</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Filippos III</skos:prefLabel>
+      <skos:definition xml:lang="en">Philip III Arrhidaeus (Ancient Greek: Φίλιππος Γ' ὁ Ἀρριδαῖος; ca. 359 BC – December 25, 317 BC) was the king of Macedonia from after June 11, 323 BC until his death. He was a son of King Philip II of Macedonia by Philinna of Larissa, allegedly a Thessalian dancer, and a half-brother of Alexander the Great. Named Arrhidaeus at birth, he assumed the name Philip when he ascended to the throne.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Philip_III_of_Macedon"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/188145542444496640170"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q295530"/>
+      <skos:prefLabel xml:lang="yo">Filip 3k ilẹ̀ Makẹdóníà</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Φίλιππος Γ΄ της Μακεδονίας</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Filip III od Makedonije</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">فيليبوس الثالث المقدوني</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Филип III Аридеј</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">فیلیپ سوم مقدونی</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Филип III Аридей</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Filipas Aridajas</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Filip 3. af Makedonien</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Филип III Аридеј</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Filip III av Makedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ფილიპე III არიდაიოსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">III. Philipposz makedón király</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">III Filip</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/5731985"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11902716X"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/015v_y"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/philip_iii_arrhidaeus#provenance"/>
+      <skos:prefLabel xml:lang="be">Філіп III Арыдэй</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Filipo la 3-a</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">פיליפוס השלישי, מלך מוקדון</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Filipo III.a Mazedoniakoa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">필리포스 3세</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">พระเจ้าพีลิปโปสที่ 3 แห่งมาเกโดนีอา</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Filipus III dari Makedonia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Filip al III-lea al Macedoniei</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Փիլիպոս III Մակեդոնացի</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">فلپ سوم مقدونی</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Philippe III. vu  Makedonien</skos:prefLabel>
+      <skos:prefLabel xml:lang="ps">د مقدونيا دريم فيليپ نومی پاچا</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Filipi III i Maqedonisë</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000022193449"/>
+      <skos:altLabel xml:lang="en">Philip III</skos:altLabel>
+      <org:memberOf rdf:resource="http://nomisma.org/id/argead_dynasty"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/philip_iii_arrhidaeus#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Philip-III-Arrhidaeus"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4225"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/philip_iii_arrhidaeus#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/philip_iii_arrhidaeus"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-25T03:12:07+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-14T03:19:38.709-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/philip_iii_arrhidaeus#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0323</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0317</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/philip_iii_arrhidaeus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-25T03:12:07+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-14T03:19:38.709-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/philip_iii_arrhidaeus#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/macedonian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0323</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0317</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

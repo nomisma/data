@@ -1,93 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Collection rdf:about="http://nomisma.org/id/museum_august_kestner">
-        <skos:definition xml:lang="en">With around 100,000 pieces, the museum's coin collection is the largest of its kind in northern Germany. The collection covers 2600 years of monetary history, starting with the oldest coins from ancient Greece. It also includes coins from the Roman Republic and Imperial Era as well as lead seals and coins from the Byzantine Empire. The bracteates and coins from the area of today's Lower Saxony are to be emphasized on medieval coins. Special features are also the collections of ancient Greek coins from Olympia and German coins from the 19th century.</skos:definition>
-        <skos:prefLabel xml:lang="en">Museum August Kestner</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="de">Die Münzsammlung des Museums ist mit rund 100.000 Stücken die größte ihrer Art in Norddeutschland.
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/museum_august_kestner">
+      <skos:definition xml:lang="en">With around 100,000 pieces, the museum's coin collection is the largest of its kind in northern Germany. The collection covers 2600 years of monetary history, starting with the oldest coins from ancient Greece. It also includes coins from the Roman Republic and Imperial Era as well as lead seals and coins from the Byzantine Empire. The bracteates and coins from the area of today's Lower Saxony are to be emphasized on medieval coins. Special features are also the collections of ancient Greek coins from Olympia and German coins from the 19th century.</skos:definition>
+      <skos:prefLabel xml:lang="en">Museum August Kestner</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="de">Die Münzsammlung des Museums ist mit rund 100.000 Stücken die größte ihrer Art in Norddeutschland.
 Die Sammlung vermittelt 2600 Jahre Geldgeschichte beginnend mit den ältesten Prägungen aus dem antiken Griechenland. Weiterhin gehören Münzen der Römischen Republik und Kaiserzeit sowie Bleisiegel und Münzen des Byzantinischen Reiches dazu. An mittelalterlichen Münzen sind die Brakteaten und Prägungen aus dem Gebiet des heutigen Niedersachsen hervorzuheben. Besonderheiten sind außerdem die Sammlungen antiker griechischer Münzen aus Olympia sowie deutscher Münzen des 19. Jahrhunderts.
 Die Präsentation der Münzen wird zurzeit umgestaltet. Sie finden einen großen Teil unserer Münzen in den zeitlich und kunsthistorisch entsprechenden Ausstellungsbereichen.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <foaf:homepage rdf:resource="https://www.hannover.de/var/storage/images/media/01-data-neu/bilder/landeshauptstadt-hannover/kultur-freizeit/museum-august-kestner/logos/museum-august-kestner-logo2/1080175-6-ger-DE/Museum-August-Kestner-Logo_alias_300xVariabel.jpg"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/museum_august_kestner#provenance"/>
-        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-163819"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/besitzer/87"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q457671"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Museum_August_Kestner"/>
-        <skos:prefLabel xml:lang="de">Museum August Kestner</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">musée August Kestner</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Музей Августа Кестнера</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Kestner-Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Museum August Kestner</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">August Kestner Múzeum</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Museum August Kestner</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Museum August Kestner</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/2015517-7"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/159997344"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0465kqf"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000121892675"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500307944"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12131845n"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/029765110"/>
-        
-        <foaf:thumbnail rdf:resource="https://www.hannover.de/extension/hannover/design/hannover/images/touch-icon.png"/>
-    </nmo:Collection>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/museum_august_kestner#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/museum_august_kestner"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-02T00:34:37.544-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-02T01:06:16.567-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-02T03:34:47.661-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-02T04:14:10.475-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <foaf:homepage rdf:resource="https://www.hannover.de/var/storage/images/media/01-data-neu/bilder/landeshauptstadt-hannover/kultur-freizeit/museum-august-kestner/logos/museum-august-kestner-logo2/1080175-6-ger-DE/Museum-August-Kestner-Logo_alias_300xVariabel.jpg"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/museum_august_kestner#provenance"/>
+      <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-163819"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/besitzer/87"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q457671"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Museum_August_Kestner"/>
+      <skos:prefLabel xml:lang="de">Museum August Kestner</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">musée August Kestner</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Музей Августа Кестнера</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Kestner-Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Museum August Kestner</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">August Kestner Múzeum</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Museum August Kestner</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Museum August Kestner</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/2015517-7"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/159997344"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0465kqf"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000121892675"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500307944"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12131845n"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/029765110"/>
+      <foaf:thumbnail rdf:resource="https://www.hannover.de/extension/hannover/design/hannover/images/touch-icon.png"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/museum_august_kestner#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/museum_august_kestner"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-02T00:34:37.544-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-02T01:06:16.567-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-02T03:34:47.661-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-02T04:14:10.475-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

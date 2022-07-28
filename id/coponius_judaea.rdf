@@ -1,62 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/coponius_judaea">
-        <skos:prefLabel xml:lang="en">Coponius</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Coponius was the first governor (Prefect) of Judaea province, from 6–9 AD.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/coponius_judaea#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q153037"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Coponius"/>
-        <skos:prefLabel xml:lang="la">Coponius</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Copônio</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Coponius</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Koponiusz</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Копоний</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κωπώνιος</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קופוניוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Coponio</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Coponius</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Coponius</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Coponius</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Coponius</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Копоний</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Копоній</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02rgkcn"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/coponius_judaea#authority"/>
-    </foaf:Person>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/coponius_judaea#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/coponius_judaea"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-27T02:32:04.753-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/coponius_judaea#authority">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0006</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0009</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/coponius_judaea">
+      <skos:prefLabel xml:lang="en">Coponius</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">Coponius was the first governor (Prefect) of Judaea province, from 6–9 AD.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/coponius_judaea#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q153037"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Coponius"/>
+      <skos:prefLabel xml:lang="la">Coponius</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Copônio</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Coponius</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Koponiusz</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Копоний</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κωπώνιος</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קופוניוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Coponio</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Coponius</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Coponius</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Coponius</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Coponius</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Копоний</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Копоній</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02rgkcn"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/coponius_judaea#authority"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/5094"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/coponius_judaea#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/coponius_judaea"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-27T02:32:04.753-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/coponius_judaea#authority">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0006</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0009</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

@@ -1,131 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/m_licinius_crassus">
-        <skos:prefLabel xml:lang="en">Marcus Licinius Crassus</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Marcus Licinius Crassus (c. 112 BC – 6 May 53 BC) was a Roman general and politician who played a key role in the transformation of the Roman Republic into the Roman Empire. He was triumvir with Caesar and Pompey, and died in 53 BC during his failed invasion of Parthia at Carrhae.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/m_licinius_crassus#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q175121"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Marcus_Licinius_Crassus"/>
-        <skos:prefLabel xml:lang="eu">Marko Lizinio Kraso</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Marek Licyniusz Krassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מרקוס ליקיניוס קראסוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">마르쿠스 리키니우스 크라수스</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Марк Ліцыній Крас</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Marco Licinio Craso</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Marco Licinio Crasso</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Marco Licinio Craso</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">マルクス・リキニウス・クラッスス</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Marko Licinije Kras</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Marcus Licinius Crassus Dives</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Marco Licínio Crasso</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Krasso</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Марк Лициний Красс</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Маркус Лициниус Крассус</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կրասոս</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Markus Krassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Marc Licini Cras Dives I</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Марк Ліциній Красс</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Mark Licinij Kras</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Марк Лициний Крас</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کراسوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">კრასუსი</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Mark Lisini Krass</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Marko Licinije Kras</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Markas Licinijus Krasas</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">മാർക്കസ് ലിചീനിയസ് ക്രാസ്സുസ്</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">克拉苏</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Марко Лициније Крас</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ماركوس ليسينيوس كراسوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Marcus Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Marko Kras wikipedia</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μάρκος Λικίνιος Κράσσος</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Марк Лициний Красс</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Marcus Licinius Crassus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Krass Mark Litsiniy</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Marks Licinijs Krass</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/13101109"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118670476"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0cntx"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/033562229"/>
-        <skos:exactMatch rdf:resource="http://isni.org/000000011932453X"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12441809h"/>
-        <bio:birth rdf:resource="http://nomisma.org/id/m_licinius_crassus#birth"/>
-        <bio:death rdf:resource="http://nomisma.org/id/m_licinius_crassus#death"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/m_licinius_crassus#issuer"/>
-    </foaf:Person>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/m_licinius_crassus#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/m_licinius_crassus"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T08:02:11.91-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T08:05:10.164-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T08:10:24.314-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <bio:Birth rdf:about="http://nomisma.org/id/m_licinius_crassus#birth">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0112</dcterms:date>
-    </bio:Birth>
-    <bio:Death rdf:about="http://nomisma.org/id/m_licinius_crassus#death">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0053-05-06</dcterms:date>
-    </bio:Death>
-    <org:Membership rdf:about="http://nomisma.org/id/m_licinius_crassus#issuer">
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0055</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0053</nmo:hasEndDate>
-        <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
-    </org:Membership>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/m_licinius_crassus">
+      <skos:prefLabel xml:lang="en">Marcus Licinius Crassus</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">Marcus Licinius Crassus (c. 112 BC – 6 May 53 BC) was a Roman general and politician who played a key role in the transformation of the Roman Republic into the Roman Empire. He was triumvir with Caesar and Pompey, and died in 53 BC during his failed invasion of Parthia at Carrhae.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/m_licinius_crassus#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q175121"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Marcus_Licinius_Crassus"/>
+      <skos:prefLabel xml:lang="eu">Marko Lizinio Kraso</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Marek Licyniusz Krassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מרקוס ליקיניוס קראסוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">마르쿠스 리키니우스 크라수스</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Марк Ліцыній Крас</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Marco Licinio Craso</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Marco Licinio Crasso</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Marco Licinio Craso</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">マルクス・リキニウス・クラッスス</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Marko Licinije Kras</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Marcus Licinius Crassus Dives</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Marco Licínio Crasso</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Krasso</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Марк Лициний Красс</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Маркус Лициниус Крассус</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կրասոս</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Markus Krassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Marc Licini Cras Dives I</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Марк Ліциній Красс</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Mark Licinij Kras</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Марк Лициний Крас</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کراسوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">კრასუსი</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Mark Lisini Krass</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Marko Licinije Kras</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Markas Licinijus Krasas</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">മാർക്കസ് ലിചീനിയസ് ക്രാസ്സുസ്</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">克拉苏</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Марко Лициније Крас</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ماركوس ليسينيوس كراسوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Marcus Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Marko Kras wikipedia</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μάρκος Λικίνιος Κράσσος</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Марк Лициний Красс</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Marcus Licinius Crassus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Krass Mark Litsiniy</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Marks Licinijs Krass</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/13101109"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118670476"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0cntx"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/033562229"/>
+      <skos:exactMatch rdf:resource="http://isni.org/000000011932453X"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12441809h"/>
+      <bio:birth rdf:resource="http://nomisma.org/id/m_licinius_crassus#birth"/>
+      <bio:death rdf:resource="http://nomisma.org/id/m_licinius_crassus#death"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/m_licinius_crassus#issuer"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/9574"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/m_licinius_crassus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/m_licinius_crassus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T08:02:11.91-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T08:05:10.164-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T08:10:24.314-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <bio:Birth rdf:about="http://nomisma.org/id/m_licinius_crassus#birth">
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0112</dcterms:date>
+   </bio:Birth>
+   <bio:Death rdf:about="http://nomisma.org/id/m_licinius_crassus#death">
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0053-05-06</dcterms:date>
+   </bio:Death>
+   <org:Membership rdf:about="http://nomisma.org/id/m_licinius_crassus#issuer">
+      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0055</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0053</nmo:hasEndDate>
+      <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
+   </org:Membership>
 </rdf:RDF>

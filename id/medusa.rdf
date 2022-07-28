@@ -1,137 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <wordnet:Deity rdf:about="http://nomisma.org/id/medusa">
-        <skos:prefLabel xml:lang="en">Medusa</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">In Greek mythology, Medusa also called Gorgo, was one of the three monstrous Gorgons, generally described as winged human females with living venomous snakes in place of hair.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/medusa#provenance"/>
-        <skos:altLabel xml:lang="en">Gorgo</skos:altLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q160730"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Medusa"/>
-        <skos:prefLabel xml:lang="eu">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Meduza</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Meduza</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">மெடூசா</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Medousa</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μέδουσα</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ميدوسا</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Meduzo</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Medúsa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Горгона Медуза</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Медуза</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Медуза</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Meduzo</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Qorqona Meduza</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Meduza</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מדוזה</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">메두사</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Méduse</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">メドゥーサ</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Meduza</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Medúza</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Մեդուսա Գորգոնա</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">เมดูซา</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Meduza</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">مدوسا</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Медуза</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Medūza</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">美杜莎</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">медуза</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">মেডুসা</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Гаргона Медуза</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">მედუზა</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Meadúsa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">മെഡൂസ</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">මෙඩූසා</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Medūza</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Медуза Горгона</skos:prefLabel>
-        <skos:prefLabel xml:lang="ba">Медуза горгона</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Горгона Медуза</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Madusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Medusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਮੈਡੂਸਾ</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Medusza</skos:prefLabel>
-        <skos:prefLabel xml:lang="lo">ເມດູສາ</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/022v4j"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118943936"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/46364452"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59294"/>
-        <skos:prefLabel xml:lang="my">မက်ဒူဆာ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Medusa</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q160730"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/02768704X"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:exactMatch rdf:resource="https://resource.manto.unh.edu/8189767"/>
-    </wordnet:Deity>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/medusa#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/medusa"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-17T10:51:50.194-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-18T10:26:10.037-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <wordnet:Deity rdf:about="http://nomisma.org/id/medusa">
+      <skos:prefLabel xml:lang="en">Medusa</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">In Greek mythology, Medusa also called Gorgo, was one of the three monstrous Gorgons, generally described as winged human females with living venomous snakes in place of hair.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/medusa#provenance"/>
+      <skos:altLabel xml:lang="en">Gorgo</skos:altLabel>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q160730"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Medusa"/>
+      <skos:prefLabel xml:lang="eu">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Meduza</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Meduza</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">மெடூசா</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Medousa</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μέδουσα</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ميدوسا</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Meduzo</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Medúsa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Горгона Медуза</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Медуза</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Медуза</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Meduzo</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Qorqona Meduza</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Meduza</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מדוזה</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">메두사</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Méduse</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">メドゥーサ</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Meduza</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Medúza</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Մեդուսա Գորգոնա</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">เมดูซา</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Meduza</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">مدوسا</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Медуза</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Medūza</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">美杜莎</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">медуза</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">মেডুসা</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Гаргона Медуза</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">მედუზა</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Meadúsa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">മെഡൂസ</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">මෙඩූසා</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Medūza</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Медуза Горгона</skos:prefLabel>
+      <skos:prefLabel xml:lang="ba">Медуза горгона</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Горгона Медуза</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Madusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Medusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਮੈਡੂਸਾ</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Medusza</skos:prefLabel>
+      <skos:prefLabel xml:lang="lo">ເມດູສາ</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/022v4j"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118943936"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/46364452"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59294"/>
+      <skos:prefLabel xml:lang="my">မက်ဒူဆာ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Medusa</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q160730"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/02768704X"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="https://resource.manto.unh.edu/8189767"/>
+   </wordnet:Deity>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/medusa#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/medusa"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-17T10:51:50.194-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-18T10:26:10.037-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,80 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/hieron_i_syracuse">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Hieron I of Syracuse</skos:prefLabel>
-        <skos:definition xml:lang="en">Hieron I (Greek: Ἱέρων Α΄; usually Latinized Hiero) was the son of Deinomenes, the brother of Gelon and tyrant of Syracuse in Sicily from 478 to 467 BC. In succeeding Gelon, he conspired against a third brother, Polyzelos.</skos:definition>
-        <skos:prefLabel xml:lang="pt">Hierão I</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Hieron I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Гиерон I</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Hiéron Ier</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">היירון הראשון</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Hierón I</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Hieró I</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Гієрон I</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Gerone I</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Hieron I Syracusanus</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Hieron I. von Syrakus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Hieroni</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Хиерон I</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ιέρων Α' των Συρακουσών</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Hijeron I od Sirakuze</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Hiëro I van Syracuse</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Hieron I av Syrakusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Hieron I</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Hieron I ng Siracusa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ヒエロン1世</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Хијерон I</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Hieron I</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Hierón I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Hieron I.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Hierón I.</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Hierón I</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q335634"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0kgwn"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118704664"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/5725505"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000022192024"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/deinomenid_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/hieron_i_syracuse#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/hieron_i_syracuse#provenance"/>
-    </foaf:Person>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/hieron_i_syracuse#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/syracuse_city"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0478</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0476</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hieron_i_syracuse#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/hieron_i_syracuse"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Person rdf:about="http://nomisma.org/id/hieron_i_syracuse">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Hieron I of Syracuse</skos:prefLabel>
+      <skos:definition xml:lang="en">Hieron I (Greek: Ἱέρων Α΄; usually Latinized Hiero) was the son of Deinomenes, the brother of Gelon and tyrant of Syracuse in Sicily from 478 to 467 BC. In succeeding Gelon, he conspired against a third brother, Polyzelos.</skos:definition>
+      <skos:prefLabel xml:lang="pt">Hierão I</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Hieron I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Гиерон I</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Hiéron Ier</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">היירון הראשון</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Hierón I</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Hieró I</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Гієрон I</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Gerone I</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Hieron I Syracusanus</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Hieron I. von Syrakus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Hieroni</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Хиерон I</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ιέρων Α' των Συρακουσών</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Hijeron I od Sirakuze</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Hiëro I van Syracuse</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Hieron I av Syrakusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Hieron I</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Hieron I ng Siracusa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ヒエロン1世</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Хијерон I</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Hieron I</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Hierón I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Hieron I.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Hierón I.</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Hierón I</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q335634"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0kgwn"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118704664"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/5725505"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000022192024"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/deinomenid_dynasty"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/hieron_i_syracuse#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/hieron_i_syracuse#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/hieron_i_syracuse#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/syracuse_city"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0478</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0476</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hieron_i_syracuse#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/hieron_i_syracuse"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

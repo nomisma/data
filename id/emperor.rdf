@@ -1,143 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <org:Role rdf:about="http://nomisma.org/id/emperor">
-        <skos:definition xml:lang="de">Die Person, welche das Amt eines Kaisers während des Mittelalters oder der Neuzeit innehat.</skos:definition>
-        <skos:prefLabel xml:lang="en">Emperor</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Kaiser</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The individual holding the title of emperor during the Middle Ages or the Modern period.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/emperor#provenance"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/ruler"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q39018"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Emperor"/>
-        <skos:prefLabel xml:lang="jv">Kaisar</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Enperadore</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">cesarz</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Ceusair</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Imperator</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">keiser</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">emperador</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">császár</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Kaizari</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">keiser</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">সম্রাট</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Impalaer</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">αυτοκράτορας</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Imperator</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">kejsare</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">keizer</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">إمبراطور</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">imperador</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Keisari</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">imperiestro</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">император</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">İmparator</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">keisari/keisarinna</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">імператор</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">keisar</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">imperator</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Car</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Emperador</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Emperador</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Император</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Kejser</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Імператар</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">황제</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קיסר</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">empereur</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Imperators</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">imperatore</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Keizer</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Emperador</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kaisar</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">皇帝</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">hoàng đế</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Car</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">cisár</skos:prefLabel>
-        <skos:prefLabel xml:lang="tg">Император</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Împerator</skos:prefLabel>
-        <skos:prefLabel xml:lang="kn">ಚಕ್ರವರ್ತಿ</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">keizer</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Împărat</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">จักรพรรดิ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">emperador</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Imperator</skos:prefLabel>
-        <skos:prefLabel xml:lang="fo">Keisari</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">cesar</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">císař</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Император</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">امپراتور</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">იმპერატორი</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">شہنشاہ</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Imperatorius</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">keiser/keiserinne</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">կայսր</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Kaiser</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Imperator</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">цар</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">цар</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">സാമ്രാട്ട്</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">импиратыр</skos:prefLabel>
-        <skos:prefLabel xml:lang="ps">امپراتور</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">सम्राट</skos:prefLabel>
-        <skos:prefLabel xml:lang="sd">شهنشاھ</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">皇帝</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">emperador</skos:prefLabel>
-        <skos:prefLabel xml:lang="gu">સમ્રાટ</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">ymerawdwr</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Хуанди</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">impire</skos:prefLabel>
-        <skos:prefLabel xml:lang="se">geaissir</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Perandori</skos:prefLabel>
-        <skos:prefLabel xml:lang="my">မင်းဧကရာဇ်</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Keeser</skos:prefLabel>
-        <skos:prefLabel xml:lang="wa">Impreur</skos:prefLabel>
-        <skos:prefLabel xml:lang="kw">emperour</skos:prefLabel>
-        <skos:prefLabel xml:lang="gn">Mburuvihára</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02rbq"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300025480"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4114123-4"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11954086d"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
-    </org:Role>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/emperor#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/emperor"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-08T16:47:39.14Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-09T06:49:44.713Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <org:Role rdf:about="http://nomisma.org/id/emperor">
+      <skos:definition xml:lang="de">Die Person, welche das Amt eines Kaisers während des Mittelalters oder der Neuzeit innehat.</skos:definition>
+      <skos:prefLabel xml:lang="en">Emperor</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Kaiser</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The individual holding the title of emperor during the Middle Ages or the Modern period.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/emperor#provenance"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/ruler"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q39018"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Emperor"/>
+      <skos:prefLabel xml:lang="jv">Kaisar</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Enperadore</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">cesarz</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Ceusair</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Imperator</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">keiser</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">emperador</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">császár</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Kaizari</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">keiser</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">সম্রাট</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Impalaer</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">αυτοκράτορας</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Imperator</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">kejsare</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">keizer</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">إمبراطور</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">imperador</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Keisari</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">imperiestro</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">император</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">İmparator</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">keisari/keisarinna</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">імператор</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">keisar</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">imperator</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Car</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Emperador</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Emperador</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Император</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Kejser</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Імператар</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">황제</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קיסר</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">empereur</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Imperators</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">imperatore</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Keizer</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Emperador</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kaisar</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">皇帝</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">hoàng đế</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Car</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">cisár</skos:prefLabel>
+      <skos:prefLabel xml:lang="tg">Император</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Împerator</skos:prefLabel>
+      <skos:prefLabel xml:lang="kn">ಚಕ್ರವರ್ತಿ</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">keizer</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Împărat</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">จักรพรรดิ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">emperador</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Imperator</skos:prefLabel>
+      <skos:prefLabel xml:lang="fo">Keisari</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">cesar</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">císař</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Император</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">امپراتور</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">იმპერატორი</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">شہنشاہ</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Imperatorius</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">keiser/keiserinne</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">կայսր</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Kaiser</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Imperator</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">цар</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">цар</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">സാമ്രാട്ട്</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">импиратыр</skos:prefLabel>
+      <skos:prefLabel xml:lang="ps">امپراتور</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">सम्राट</skos:prefLabel>
+      <skos:prefLabel xml:lang="sd">شهنشاھ</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">皇帝</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">emperador</skos:prefLabel>
+      <skos:prefLabel xml:lang="gu">સમ્રાટ</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">ymerawdwr</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Хуанди</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">impire</skos:prefLabel>
+      <skos:prefLabel xml:lang="se">geaissir</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Perandori</skos:prefLabel>
+      <skos:prefLabel xml:lang="my">မင်းဧကရာဇ်</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Keeser</skos:prefLabel>
+      <skos:prefLabel xml:lang="wa">Impreur</skos:prefLabel>
+      <skos:prefLabel xml:lang="kw">emperour</skos:prefLabel>
+      <skos:prefLabel xml:lang="gn">Mburuvihára</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02rbq"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300025480"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4114123-4"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11954086d"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
+   </org:Role>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/emperor#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/emperor"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-08T16:47:39.14Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-09T06:49:44.713Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

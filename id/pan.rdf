@@ -1,115 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <wordnet:Deity rdf:about="http://nomisma.org/id/pan">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Pan</skos:prefLabel>
-        <skos:definition xml:lang="en">In ancient Greek religion and mythology, Pan is the god of the wild, shepherds and flocks, nature of mountain wilds, rustic music and impromptus, and companion of the nymphs.</skos:definition>
-        <skos:prefLabel xml:lang="pl">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Pán</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Paan</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Pani</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Παν</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بان</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Pã</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Pajno</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Пан</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Пан</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Пан</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">판</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">פאן</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Pāns</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">パーン</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">แพน</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Пан</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پان</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პანი</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Panas</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Пан</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">潘</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пан</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Pan</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Պան</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Пан</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Пан</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਪੈਨ ਦੇਵਤਾ</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q132582"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0kjxd"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118789406"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/8183772"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/027397459"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/pan#provenance"/>
-        <skos:exactMatch rdf:resource="https://resource.manto.unh.edu/8189107"/>
-    </wordnet:Deity>
-    
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pan#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/pan"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-18T10:26:10.037-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <wordnet:Deity rdf:about="http://nomisma.org/id/pan">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Pan</skos:prefLabel>
+      <skos:definition xml:lang="en">In ancient Greek religion and mythology, Pan is the god of the wild, shepherds and flocks, nature of mountain wilds, rustic music and impromptus, and companion of the nymphs.</skos:definition>
+      <skos:prefLabel xml:lang="pl">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Pán</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Paan</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Pani</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Παν</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بان</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Pã</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Pajno</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Пан</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Пан</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Пан</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">판</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">פאן</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Pāns</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">パーン</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">แพน</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Пан</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پان</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პანი</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Panas</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Пан</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">潘</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пан</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Pan</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Պան</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Пан</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Пан</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਪੈਨ ਦੇਵਤਾ</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q132582"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0kjxd"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118789406"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/8183772"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/027397459"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pan#provenance"/>
+      <skos:exactMatch rdf:resource="https://resource.manto.unh.edu/8189107"/>
+   </wordnet:Deity>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pan#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/pan"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-18T10:26:10.037-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

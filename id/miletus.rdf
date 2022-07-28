@@ -1,135 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/miletus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Miletus</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Miletus in Ionia.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Miletus"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/599799"/>
-        <geo:location rdf:resource="http://nomisma.org/id/miletus#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/ionia"/>
-        <skos:altLabel xml:lang="en">Miletos</skos:altLabel>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/10182607/"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x26652"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002386"/>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q169460"/>
-        <skos:prefLabel xml:lang="pl">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Mileto</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Mileto</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Milétosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Miletos</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μίλητος</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Miléatas</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Miletos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Milete</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Mileto</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Mileto</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Míletos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Милет</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Милет</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Miletos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Мілет</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਮਾਇਲੇੱਟਸ</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Miletus</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">밀레토스</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Мілет</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מילטוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Milēta</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Mileto</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Mileto</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Miletos</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ミレトス</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Miletus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Milét</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Miletus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Milét</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">ملط</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Милет</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">მილეტი</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Miletas</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Милет</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ميليتوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">米利都</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">মিলেটাস</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Milet</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Միլետ</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4039299-5"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/238987137"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0jb__"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/322215/"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/miletus#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Miletus</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Miletus in Ionia.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Miletus"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/599799"/>
+      <geo:location rdf:resource="http://nomisma.org/id/miletus#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/ionia"/>
+      <skos:altLabel xml:lang="en">Miletos</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/10182607/"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x26652"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002386"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q169460"/>
+      <skos:prefLabel xml:lang="pl">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Mileto</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Mileto</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Milétosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Miletos</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μίλητος</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Miléatas</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Miletos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Milete</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Mileto</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Mileto</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Míletos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Милет</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Милет</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Miletos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Мілет</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਮਾਇਲੇੱਟਸ</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Miletus</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">밀레토스</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Мілет</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מילטוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Milēta</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Mileto</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Mileto</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Miletos</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ミレトス</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Miletus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Milét</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Miletus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Milét</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">ملط</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Милет</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">მილეტი</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Miletas</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Милет</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ميليتوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">米利都</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">মিলেটাস</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Milet</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Միլետ</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4039299-5"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/238987137"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0jb__"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/322215/"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/miletus#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/936"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/miletus#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.530233</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.278369</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/ionia#this"/>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.530233</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.278369</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/ionia#this"/>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/miletus#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/miletus"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/miletus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,106 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/antiocheia_persis">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Antioch in Persis</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Nahavand</skos:altLabel>
-        <skos:definition xml:lang="en">Now known as Nahavand in modern Iran, the city was founded by Darius I the Great, in Media along with the two other Achaemenid cities of Apamea and Xerxes. (Strabo xi. p. 524 ; Xerxes "Laodikeia") Pliny (vi. 29) describes it as being in the extreme limits of Media, and (re-)founded by Xerxes I. It is also known as Laodicea in Media, Laodicea in Persis, Antiochia of Chosroes, and Antiochia in Media.</skos:definition>
-        <geo:location rdf:resource="http://nomisma.org/id/antiocheia_persis#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Nahavand"/>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q720045"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/065js_"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/122915/"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/145557354"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb140008614"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7017472"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/persis"/>
-	       <skos:changeNote rdf:resource="http://nomisma.org/id/antiocheia_persis#provenance"/>
-        <skos:altLabel xml:lang="en">Antioch in Media</skos:altLabel>
-        <skos:prefLabel xml:lang="ru">Нехавенд</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Nahavand</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Nihavend</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Nahavand</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Nihawand</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Nahavand</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Nehāwand</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ニハーヴァンド</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">نهاوند</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αντιόχεια</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Нахованд</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Nahavənd</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Nahavand</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">نهاوند</skos:prefLabel>
-        <skos:prefLabel xml:lang="tg">Наҳованд</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Nahavand</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">納哈萬德</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Nahavand</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Nahavand</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">नहावंद</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Nahawand</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">نہاوند</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Nahavand</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">나하반드</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Nahavand</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">נהוואנד</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Нехавенд</skos:prefLabel>
-    </nmo:Mint>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/antiocheia_persis#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.188611</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.376944</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/persis#this"/>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiocheia_persis#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/antiocheia_persis"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-04T14:45:40.094-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1qUZ8k6Nd0kaEeGdOqpVDgP3gcBCaLqtls_0HHS18Cus/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-04T14:48:08.445-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-04T14:56:11.555-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T07:51:20.289-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xQ_I_bCcoWppw_BM9DM638ebQ5dhU1zbXrjoSNIHBrg/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/antiocheia_persis">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Antioch in Persis</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Nahavand</skos:altLabel>
+      <skos:definition xml:lang="en">Now known as Nahavand in modern Iran, the city was founded by Darius I the Great, in Media along with the two other Achaemenid cities of Apamea and Xerxes. (Strabo xi. p. 524 ; Xerxes "Laodikeia") Pliny (vi. 29) describes it as being in the extreme limits of Media, and (re-)founded by Xerxes I. It is also known as Laodicea in Media, Laodicea in Persis, Antiochia of Chosroes, and Antiochia in Media.</skos:definition>
+      <geo:location rdf:resource="http://nomisma.org/id/antiocheia_persis#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Nahavand"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q720045"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/065js_"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/122915/"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/145557354"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb140008614"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7017472"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/persis"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/antiocheia_persis#provenance"/>
+      <skos:altLabel xml:lang="en">Antioch in Media</skos:altLabel>
+      <skos:prefLabel xml:lang="ru">Нехавенд</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Nahavand</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Nihavend</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Nahavand</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Nihawand</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Nahavand</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Nehāwand</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ニハーヴァンド</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">نهاوند</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αντιόχεια</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Нахованд</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Nahavənd</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Nahavand</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">نهاوند</skos:prefLabel>
+      <skos:prefLabel xml:lang="tg">Наҳованд</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Nahavand</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">納哈萬德</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Nahavand</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Nahavand</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">नहावंद</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Nahawand</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">نہاوند</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Nahavand</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">나하반드</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Nahavand</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">נהוואנד</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Нехавенд</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/590"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/antiocheia_persis#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.188611</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.376944</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/persis#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiocheia_persis#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/antiocheia_persis"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-04T14:45:40.094-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1qUZ8k6Nd0kaEeGdOqpVDgP3gcBCaLqtls_0HHS18Cus/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-04T14:48:08.445-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-04T14:56:11.555-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-26T07:51:20.289-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xQ_I_bCcoWppw_BM9DM638ebQ5dhU1zbXrjoSNIHBrg/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,134 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/cyrenaica">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Cyrenaica</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Italy in Cyrenaica as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/373777"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_africa"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x116145"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7000643"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cyrenaica"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q165198"/>
-        <skos:prefLabel xml:lang="jv">Cyrenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Cyrenajka</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Zirenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Kirenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Cirenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Cirenaïca</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Cyrenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Cyrenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Cyrenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κυρηναϊκή</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Cyrenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Cyrenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">برقة</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Cirenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Cyrenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Киренаика</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Sirenayka</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Kyrenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Киренаїка</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Cirenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Kirenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Cyrenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Кірэнаіка</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">키레나이카</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Cyrénaïque</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קירנאיקה</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Cirenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Cirenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Kyrenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Cyrenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">キレナイカ</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Cyrenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Kirenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Cirenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Cirenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Cyrenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Cyrenaica</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Cirenajka</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Kyrenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Киренайка</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">კირენაიკა</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">برقہ</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Kirenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">برقه</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Киренајка</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">昔兰尼加</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Kyrenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կիրենաիկա</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Syrenaika</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Kürenaika</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0k0fh"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4010816-8"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/cyrenaica#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Cyrenaica</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Italy in Cyrenaica as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/373777"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_africa"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x116145"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7000643"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cyrenaica"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q165198"/>
+      <skos:prefLabel xml:lang="jv">Cyrenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Cyrenajka</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Zirenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Kirenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Cirenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Cirenaïca</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Cyrenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Cyrenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Cyrenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κυρηναϊκή</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Cyrenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Cyrenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">برقة</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Cirenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Cyrenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Киренаика</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Sirenayka</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Kyrenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Киренаїка</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Cirenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Kirenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Cyrenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Кірэнаіка</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">키레나이카</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Cyrénaïque</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קירנאיקה</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Cirenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Cirenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Kyrenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Cyrenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">キレナイカ</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Cyrenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Kirenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Cirenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Cirenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Cyrenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Cyrenaica</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Cirenajka</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Kyrenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Киренайка</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">კირენაიკა</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">برقہ</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Kirenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">برقه</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Киренајка</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">昔兰尼加</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Kyrenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կիրենաիկա</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Syrenaika</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Kürenaika</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0k0fh"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4010816-8"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/cyrenaica#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/295"/>
+   </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cyrenaica#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/cyrenaica"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:58:01.691-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:59:29.626-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/cyrenaica"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:58:01.691-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T07:59:29.626-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,82 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/pharnaces_ii_bosporus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Pharnaces II of Pontus</skos:prefLabel>
-        <skos:definition xml:lang="en">Pharnaces II of Pontus, also known as Pharnaces II was the king of the Bosporan Kingdom until his death. He was a monarch of Persian and Greek Macedonian ancestry. He was the youngest child born to King Mithridates VI of Pontus from his first wife, his sister Queen Laodice.</skos:definition>
-        <skos:prefLabel xml:lang="pt">Farnaces II do Ponto</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Farnakes II</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Farnazes II.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Фарнак II</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">파르나케스 2세</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pharnace II</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Farnaces II del Ponto</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">II. Farnekes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Farnaces II</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Farnakes II</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">II. Pharnakész pontoszi király</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Фарнак II</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Farnace II del Ponto</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Farnaces II do Ponto</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pharnakes II.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ファルナケス2世</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Фарнак II</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Pharnaces II của Pontos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Farnak II od Ponta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Farnakes II av Pontos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Pharnaces II van Pontus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Farnak II</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Φαρνάκης Β΄ του Πόντου</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ფარნაკე II</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Фарнак II од Понта</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Փառնակ II Պոնտացի</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">فرنانکیس از پونتوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Фарнак II</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Farnakes II dari Pontos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Farnakéš II. Pontský</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q313052"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02m68w"/>
-        <skos:altLabel xml:lang="en">Pharnaces II</skos:altLabel>
-        <org:memberOf rdf:resource="http://nomisma.org/id/mithradatic_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/pharnaces_ii_bosporus#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Pharnaces-II"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/pharnaces_ii_bosporus#provenance"/>
-    </foaf:Person>
-    
-    
-    <org:Membership rdf:about="http://nomisma.org/id/pharnaces_ii_bosporus#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bosporan_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0063</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0047</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pharnaces_ii_bosporus#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/pharnaces_ii_bosporus"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/pharnaces_ii_bosporus">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Pharnaces II of Pontus</skos:prefLabel>
+      <skos:definition xml:lang="en">Pharnaces II of Pontus, also known as Pharnaces II was the king of the Bosporan Kingdom until his death. He was a monarch of Persian and Greek Macedonian ancestry. He was the youngest child born to King Mithridates VI of Pontus from his first wife, his sister Queen Laodice.</skos:definition>
+      <skos:prefLabel xml:lang="pt">Farnaces II do Ponto</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Farnakes II</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Farnazes II.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Фарнак II</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">파르나케스 2세</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Pharnace II</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Farnaces II del Ponto</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">II. Farnekes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Farnaces II</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Farnakes II</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">II. Pharnakész pontoszi király</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Фарнак II</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Farnace II del Ponto</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Farnaces II do Ponto</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Pharnakes II.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ファルナケス2世</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Фарнак II</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Pharnaces II của Pontos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Farnak II od Ponta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Farnakes II av Pontos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Pharnaces II van Pontus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Farnak II</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Φαρνάκης Β΄ του Πόντου</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ფარნაკე II</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Фарнак II од Понта</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Փառնակ II Պոնտացի</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">فرنانکیس از پونتوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Фарнак II</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Farnakes II dari Pontos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Farnakéš II. Pontský</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q313052"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02m68w"/>
+      <skos:altLabel xml:lang="en">Pharnaces II</skos:altLabel>
+      <org:memberOf rdf:resource="http://nomisma.org/id/mithradatic_dynasty"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/pharnaces_ii_bosporus#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Pharnaces-II"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pharnaces_ii_bosporus#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1278"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/pharnaces_ii_bosporus#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/bosporan_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0063</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0047</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pharnaces_ii_bosporus#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/pharnaces_ii_bosporus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

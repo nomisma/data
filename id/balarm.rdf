@@ -1,156 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/balarm">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <prov:alternateOf rdf:resource="http://nomisma.org/id/palermo"/>
-        <skos:prefLabel xml:lang="en">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بالارم</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Palermo"/>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q2656"/>
-        <skos:prefLabel xml:lang="it">Balarm</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="fr">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Palermo</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="ay">Balarm</skos:prefLabel>
-        
-        
-        <skos:prefLabel xml:lang="br">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Balarm</skos:prefLabel>
-       <skos:prefLabel xml:lang="ca">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Βαλαρμ</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Balarm</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="fi">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Balarm</skos:prefLabel>
-        
-        
-        <skos:prefLabel xml:lang="hr">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Balarm</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="ia">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Balarm</skos:prefLabel>
-        
-        
-        
-        <skos:prefLabel xml:lang="kk">Паларм</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Balarm</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="lb">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Паларм</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Паларм</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="nl">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="os">Палермо</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="qu">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Паларм</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Паларм</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Balarm</skos:prefLabel>
-        
-        
-        <skos:prefLabel xml:lang="tr">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Паларм</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Balarm</skos:prefLabel>
-        
-        
-        
-        
-        
-        <skos:prefLabel xml:lang="ms">Balarm</skos:prefLabel>
-        
-        <skos:prefLabel xml:lang="ce">Паларм</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="tw">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="sg">Balarm</skos:prefLabel>
-        <skos:prefLabel xml:lang="tg">Паларм</skos:prefLabel>
-        <skos:prefLabel xml:lang="cr">Balarm</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/09pxc"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4044402-8"/>
-      
-        <skos:definition xml:lang="en">The stated mint "Balarm", located in medieval Palermo, a city on the island of Sicily, Italy. For other instances of the Palermo mint, see the IDs "Siqilliyah", "Madinat Siqilliyah" and "Palermo".</skos:definition>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/2523920/"/>
-        <geo:location rdf:resource="http://nomisma.org/id/balarm#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/balarm#provenance"/>
-        <skos:closeMatch rdf:resource="http://nomisma.org/id/siqilliyah"/>
-        <skos:closeMatch rdf:resource="http://nomisma.org/id/madinat_siqilliyah"/>
-        <skos:closeMatch rdf:resource="http://nomisma.org/id/palermo"/>
-
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <prov:alternateOf rdf:resource="http://nomisma.org/id/palermo"/>
+      <skos:prefLabel xml:lang="en">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بالارم</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Palermo"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q2656"/>
+      <skos:prefLabel xml:lang="it">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Palermo</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="ay">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Βαλαρμ</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Паларм</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Паларм</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Паларм</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="os">Палермо</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="qu">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Паларм</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Паларм</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Паларм</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Паларм</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="tw">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="sg">Balarm</skos:prefLabel>
+      <skos:prefLabel xml:lang="tg">Паларм</skos:prefLabel>
+      <skos:prefLabel xml:lang="cr">Balarm</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/09pxc"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4044402-8"/>
+      <skos:definition xml:lang="en">The stated mint "Balarm", located in medieval Palermo, a city on the island of Sicily, Italy. For other instances of the Palermo mint, see the IDs "Siqilliyah", "Madinat Siqilliyah" and "Palermo".</skos:definition>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/2523920/"/>
+      <geo:location rdf:resource="http://nomisma.org/id/balarm#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/balarm#provenance"/>
+      <skos:closeMatch rdf:resource="http://nomisma.org/id/siqilliyah"/>
+      <skos:closeMatch rdf:resource="http://nomisma.org/id/madinat_siqilliyah"/>
+      <skos:closeMatch rdf:resource="http://nomisma.org/id/palermo"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/balarm#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.13205</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.33561</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.13205</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.33561</geo:long>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/balarm#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/balarm"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-28T17:58:06+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1coVOCMmTGlmh89lBLwT-_TX2qYeRHc6VLZVbCVfqyNk/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-07T10:58:13.15-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-11T14:39:11.852Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/balarm"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-28T17:58:06+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1coVOCMmTGlmh89lBLwT-_TX2qYeRHc6VLZVbCVfqyNk/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-07T10:58:13.15-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-11T14:39:11.852Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,111 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:ObjectType rdf:about="http://nomisma.org/id/seal">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Seal</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Sinete</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Sigillo (oggetto)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Удостоверяющая печать</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Sello (cuño)</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Sceau</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Pieczęć</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">印章</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Lakzegel</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">印章</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ختم</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Seal (emblem)</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Siegel</skos:prefLabel>
-        <skos:definition xml:lang="en">A seal is a device for making an impression in wax, clay, paper, or some other medium.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Seal_(emblem)"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q162919"/>
-        <skos:prefLabel xml:lang="gd">Seula</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">חותם</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">도장</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Sagèth</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">zīmogs</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Σφραγίδα</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Pečat</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Sigill</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Sigelo</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">pečať</skos:prefLabel>
-        <skos:prefLabel xml:lang="yi">זיגל</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">segl</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">sigiliu</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">segell</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Sinetti</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Pečat</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">sigill</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">pečeť</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Печат</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Pečat</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Antspaudas</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Segl</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">печат</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Гербова печатка</skos:prefLabel>
-        <skos:prefLabel xml:lang="ln">Kasɛ́</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">সীল</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">пячатка</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">печат</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Innsigli</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Мөр</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4054876-4"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/09hqy"/>
-        <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/122"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/seal#provenance"/>
-        <skos:definition xml:lang="de">Gerät zum Anbringen von Siegeln: mithilfe eines Siegelstempels oder, sphragistisch (siegelkundlich) korrekt, eines Typars, wird ein Siegel zur Beglaubigung von Urkunden oder Sicherstellung (Verschluss) der Unversehrtheit von Gegenständen oder Behältnissen (Briefumschlag, Tür) in eine weiche, erhärtende Masse gedrückt (Siegelklumpen aus Siegellack, Wachs, früher Ton etc.) (vgl. de.wikipedia.org/wiki/Siegel)</skos:definition>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300028877"/>
-    </nmo:ObjectType>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Seal</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Sinete</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Sigillo (oggetto)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Удостоверяющая печать</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Sello (cuño)</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Sceau</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Pieczęć</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">印章</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Lakzegel</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">印章</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ختم</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Seal (emblem)</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Siegel</skos:prefLabel>
+      <skos:definition xml:lang="en">A seal is a device for making an impression in wax, clay, paper, or some other medium.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Seal_(emblem)"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q162919"/>
+      <skos:prefLabel xml:lang="gd">Seula</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">חותם</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">도장</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Sagèth</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">zīmogs</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Σφραγίδα</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Pečat</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Sigill</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Sigelo</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">pečať</skos:prefLabel>
+      <skos:prefLabel xml:lang="yi">זיגל</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">segl</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">sigiliu</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">segell</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Sinetti</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Pečat</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">sigill</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">pečeť</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Печат</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Pečat</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Antspaudas</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Segl</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">печат</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Гербова печатка</skos:prefLabel>
+      <skos:prefLabel xml:lang="ln">Kasɛ́</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">সীল</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">пячатка</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">печат</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Innsigli</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Мөр</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4054876-4"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/09hqy"/>
+      <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/122"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/seal#provenance"/>
+      <skos:definition xml:lang="de">Gerät zum Anbringen von Siegeln: mithilfe eines Siegelstempels oder, sphragistisch (siegelkundlich) korrekt, eines Typars, wird ein Siegel zur Beglaubigung von Urkunden oder Sicherstellung (Verschluss) der Unversehrtheit von Gegenständen oder Behältnissen (Briefumschlag, Tür) in eine weiche, erhärtende Masse gedrückt (Siegelklumpen aus Siegellack, Wachs, früher Ton etc.) (vgl. de.wikipedia.org/wiki/Siegel)</skos:definition>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300028877"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/sachbegriff/24"/>
+   </nmo:ObjectType>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/seal#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/seal"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T14:30:11.915-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1wB7QvwLujFTX7UpKR8mQgYtKUL9z6nRIeyK07zi-EDk/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-14T12:48:29.041-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/seal"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T14:30:11.915-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1wB7QvwLujFTX7UpKR8mQgYtKUL9z6nRIeyK07zi-EDk/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-14T12:48:29.041-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,204 +1,204 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <nmo:Mint rdf:about="http://nomisma.org/id/geneva">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Geneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Genf</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) in Geneva, the capital of the Republic and Canton of Geneva. Starting in Merowingian and Carolingian times, Geneva was the mint for the Prince-Bishopric of Geneva, the County of Geneva, the Republic and the Canton of Geneva. The duchy of Savoy issued coins in their mint at Cornavin, then just outside of Geneva, now in the centre of the city.</skos:definition>
-        <skos:prefLabel xml:lang="fr">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Ginevra</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ginebra</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Chinevra</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">جنيف</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Cenevrə</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Жэнева</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">জেনেভা</skos:prefLabel>
-        <skos:prefLabel xml:lang="bo">ཀྲེ་ནེ་ཝ།</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Geneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Ženeva</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ginebra</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Ginevra</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ženeva</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Genefa</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Γενεύη</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ĝenevo</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Genf</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Geneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">ژنو</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Geneve</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Genêve</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">An Ghinéiv</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Geneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Xenebra</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">ז'נבה</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">जिनेवा</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Ženeva</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Genf</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Ժնև</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Jenewa</skos:prefLabel>
-        <skos:prefLabel xml:lang="io">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Genf</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ジュネーヴ</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Jenéwa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ჟენევა</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="kn">ಜಿನಿವಾ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">제네바</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Cenevre</skos:prefLabel>
-        <skos:prefLabel xml:lang="kv">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Genava</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Genf</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ženeva</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Ženēva</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">ജനീവ</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Женев</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">जिनिव्हा</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Geneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="my">ဂျနီဗာမြို့</skos:prefLabel>
-        <skos:prefLabel xml:lang="na">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Genèva</skos:prefLabel>
-        <skos:prefLabel xml:lang="os">Женевæ</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Genewa</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Genebra</skos:prefLabel>
-        <skos:prefLabel xml:lang="qu">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Genevra</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Geneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="sa">जिनीवा</skos:prefLabel>
-        <skos:prefLabel xml:lang="sc">Ginevra</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ženeva</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Ženeva</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Ženeva</skos:prefLabel>
-        <skos:prefLabel xml:lang="so">Jineefa</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Gjeneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Geneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">ஜெனீவா</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">เจนีวา</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Geneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Cenevre</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Җәнәү</skos:prefLabel>
-        <skos:prefLabel xml:lang="ug">Jenwe</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">جنیوا</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Genève</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Geneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">日內瓦</skos:prefLabel>
-        <skos:prefLabel xml:lang="tg">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਜਿਨੇਵਾ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="or">ଜେନେଭା</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ዠኔቭ</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Jeneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="av">Женева</skos:prefLabel>
-        <skos:prefLabel xml:lang="yi">גענף</skos:prefLabel>
-        <skos:prefLabel xml:lang="wa">Djineve</skos:prefLabel>
-        <skos:prefLabel xml:lang="xh">EGeneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="ne">जेनेभा</skos:prefLabel>
-        <skos:prefLabel xml:lang="gn">Ginebra</skos:prefLabel>
-        <skos:prefLabel xml:lang="ln">Shnɛ́f</skos:prefLabel>
-        <skos:prefLabel xml:lang="gu">જિનેવા</skos:prefLabel>
-        <skos:prefLabel xml:lang="te">జెనీవా</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">ජිනීවා</skos:prefLabel>
-        <skos:prefLabel xml:lang="tk">Ženewa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ak">Geneva</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q71"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/03902"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4020137-5"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/130893302"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/7285902/"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11864210r"/>
-        <skos:closeMatch rdf:resource="http://www.idref.fr/026384302"/>
-        <skos:closeMatch rdf:resource="http://isni.org/0000000121581391"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7007279"/>
-        <geo:location rdf:resource="http://nomisma.org/id/geneva#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/geneva#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
-        <skos:prefLabel xml:lang="li">Genf</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Geneva</skos:prefLabel>
-        <skos:prefLabel xml:lang="sd">جنيوا</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/7285902"/>
-    </nmo:Mint>
-   
-   
-   
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/geneva#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.2</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.15</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/geneva#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/geneva"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:44.193-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-10T11:16:22.263-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T03:57:56.919-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T08:04:31.616-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+   <nmo:Mint rdf:about="http://nomisma.org/id/geneva">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Geneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Genf</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) in Geneva, the capital of the Republic and Canton of Geneva. Starting in Merowingian and Carolingian times, Geneva was the mint for the Prince-Bishopric of Geneva, the County of Geneva, the Republic and the Canton of Geneva. The duchy of Savoy issued coins in their mint at Cornavin, then just outside of Geneva, now in the centre of the city.</skos:definition>
+      <skos:prefLabel xml:lang="fr">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Ginevra</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ginebra</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Chinevra</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">جنيف</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Cenevrə</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Жэнева</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">জেনেভা</skos:prefLabel>
+      <skos:prefLabel xml:lang="bo">ཀྲེ་ནེ་ཝ།</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Geneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Ženeva</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ginebra</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Ginevra</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ženeva</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Genefa</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Γενεύη</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ĝenevo</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Genf</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Geneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">ژنو</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Geneve</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Genêve</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">An Ghinéiv</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Geneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Xenebra</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">ז'נבה</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">जिनेवा</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Ženeva</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Genf</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Ժնև</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Jenewa</skos:prefLabel>
+      <skos:prefLabel xml:lang="io">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Genf</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ジュネーヴ</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Jenéwa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ჟენევა</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="kn">ಜಿನಿವಾ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">제네바</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Cenevre</skos:prefLabel>
+      <skos:prefLabel xml:lang="kv">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Genava</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Genf</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ženeva</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Ženēva</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">ജനീവ</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Женев</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">जिनिव्हा</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Geneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="my">ဂျနီဗာမြို့</skos:prefLabel>
+      <skos:prefLabel xml:lang="na">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Genèva</skos:prefLabel>
+      <skos:prefLabel xml:lang="os">Женевæ</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Genewa</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Genebra</skos:prefLabel>
+      <skos:prefLabel xml:lang="qu">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Genevra</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Geneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="sa">जिनीवा</skos:prefLabel>
+      <skos:prefLabel xml:lang="sc">Ginevra</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ženeva</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Ženeva</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Ženeva</skos:prefLabel>
+      <skos:prefLabel xml:lang="so">Jineefa</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Gjeneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Geneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">ஜெனீவா</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">เจนีวา</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Geneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Cenevre</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Җәнәү</skos:prefLabel>
+      <skos:prefLabel xml:lang="ug">Jenwe</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">جنیوا</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Genève</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Geneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">日內瓦</skos:prefLabel>
+      <skos:prefLabel xml:lang="tg">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਜਿਨੇਵਾ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="or">ଜେନେଭା</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ዠኔቭ</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Jeneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="av">Женева</skos:prefLabel>
+      <skos:prefLabel xml:lang="yi">גענף</skos:prefLabel>
+      <skos:prefLabel xml:lang="wa">Djineve</skos:prefLabel>
+      <skos:prefLabel xml:lang="xh">EGeneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="ne">जेनेभा</skos:prefLabel>
+      <skos:prefLabel xml:lang="gn">Ginebra</skos:prefLabel>
+      <skos:prefLabel xml:lang="ln">Shnɛ́f</skos:prefLabel>
+      <skos:prefLabel xml:lang="gu">જિનેવા</skos:prefLabel>
+      <skos:prefLabel xml:lang="te">జెనీవా</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">ජිනීවා</skos:prefLabel>
+      <skos:prefLabel xml:lang="tk">Ženewa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ak">Geneva</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q71"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/03902"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4020137-5"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/130893302"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/7285902/"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11864210r"/>
+      <skos:closeMatch rdf:resource="http://www.idref.fr/026384302"/>
+      <skos:closeMatch rdf:resource="http://isni.org/0000000121581391"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7007279"/>
+      <geo:location rdf:resource="http://nomisma.org/id/geneva#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/geneva#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
+      <skos:prefLabel xml:lang="li">Genf</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Geneva</skos:prefLabel>
+      <skos:prefLabel xml:lang="sd">جنيوا</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/7285902"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/815"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/geneva#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.2</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.15</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/geneva#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/geneva"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:17:44.193-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-10T11:16:22.263-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T03:57:56.919-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T08:04:31.616-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

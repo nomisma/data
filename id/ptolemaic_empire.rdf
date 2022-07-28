@@ -1,101 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Organization rdf:about="http://nomisma.org/id/ptolemaic_empire">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ptolemaic Empire</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Ptolemaic Kingdom</skos:altLabel>
-        <skos:definition xml:lang="en">The Ptolemaic Empire was a Hellenistic kingdom based in Egypt. It was ruled by the Ptolemaic dynasty, which started with Ptolemy I Soter's accession after the death of Alexander the Great in 323 BC and which ended with the death of Cleopatra VII and the Roman conquest in 30 BC.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemaic_Kingdom"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2320005"/>
-        <skos:prefLabel xml:lang="he">מצרים התלמיית</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ราชอาณาจักรทอเลมี</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ptolemejsko Kraljevstvo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">المملكة البطلمية</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">托勒密王國</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Эллинистический Египет</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Елинистически Египет</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Macedonisch Egypte en Ptolemeïsche rijk</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Egito ptolemaico</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ptolemeiske kongedømme</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Ptolemaic Krallığı</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Елліністичний Єгипет</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ptolemaiovský Egypt</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Egipt ptolemejski</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Эліністычны Егіпет</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პტოლემეების სამეფო</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">royaume ptolémaïque</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Ptolemeïese Ryk</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ai Cập thuộc Hy Lạp</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Ptolemejski Egipat</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kerajaan Ptolemaik</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Historio de Ptolemea Egiptio</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">període hel·lenístic d'Egipte</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Período helenístico de Egipto</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Птолемејско краљевство</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Ptolomeotar Erresuma</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Egitto tolemaico</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Պտղոմեոսյան Եգիպտոս</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Βασίλειο των Πτολεμαίων</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">प्टॉलेमिक साम्राज्य</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Ptolemejsko kraljestvo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プトレマイオス王国</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Período helenístico de Exipto</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">தாலமைக் பேரரசு</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02vkl1t"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemaic_empire#provenance"/>
-        <skos:prefLabel xml:lang="ur">سلطنت بطلیموس</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">프톨레마이오스 왕국</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Regnum Ptolemaicum</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">टॉलेमिक साम्राज्य</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پادشاهی بطلمیوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="so">Boqortooyada Ptolemaic</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020432"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7594678"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemaic_empire#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
-    </foaf:Organization>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ptolemaic Empire</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Ptolemaic Kingdom</skos:altLabel>
+      <skos:definition xml:lang="en">The Ptolemaic Empire was a Hellenistic kingdom based in Egypt. It was ruled by the Ptolemaic dynasty, which started with Ptolemy I Soter's accession after the death of Alexander the Great in 323 BC and which ended with the death of Cleopatra VII and the Roman conquest in 30 BC.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemaic_Kingdom"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2320005"/>
+      <skos:prefLabel xml:lang="he">מצרים התלמיית</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ราชอาณาจักรทอเลมี</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ptolemejsko Kraljevstvo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">المملكة البطلمية</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">托勒密王國</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Эллинистический Египет</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Елинистически Египет</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Macedonisch Egypte en Ptolemeïsche rijk</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Egito ptolemaico</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ptolemeiske kongedømme</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Ptolemaic Krallığı</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Елліністичний Єгипет</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ptolemaiovský Egypt</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Egipt ptolemejski</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Эліністычны Егіпет</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პტოლემეების სამეფო</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">royaume ptolémaïque</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Ptolemeïese Ryk</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ai Cập thuộc Hy Lạp</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Ptolemejski Egipat</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kerajaan Ptolemaik</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Historio de Ptolemea Egiptio</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">període hel·lenístic d'Egipte</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Período helenístico de Egipto</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Птолемејско краљевство</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Ptolomeotar Erresuma</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Egitto tolemaico</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Պտղոմեոսյան Եգիպտոս</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Βασίλειο των Πτολεμαίων</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">प्टॉलेमिक साम्राज्य</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Ptolemejsko kraljestvo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プトレマイオス王国</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Período helenístico de Exipto</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">தாலமைக் பேரரசு</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02vkl1t"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemaic_empire#provenance"/>
+      <skos:prefLabel xml:lang="ur">سلطنت بطلیموس</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">프톨레마이오스 왕국</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Regnum Ptolemaicum</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">टॉलेमिक साम्राज्य</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پادشاهی بطلمیوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="so">Boqortooyada Ptolemaic</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020432"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7594678"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemaic_empire#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+   </foaf:Organization>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemaic_empire#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:08:19-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IbLGN9SsiR89MmD_4GSs3qHgydj0g8gT174Lgf6xjio/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemaic_empire#membership_bd17e2d21cbc5a487c852bea4809dbbe">
-        <org:role rdf:resource="http://nomisma.org/id/empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0305</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:08:19-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IbLGN9SsiR89MmD_4GSs3qHgydj0g8gT174Lgf6xjio/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemaic_empire#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+      <org:role rdf:resource="http://nomisma.org/id/empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0305</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

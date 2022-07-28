@@ -1,124 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/mesembria">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Mesembria</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Mesembria in Thrace.</skos:definition>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Nesebar"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/216882"/>
-        <geo:location rdf:resource="http://nomisma.org/id/mesembria#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/eastern_coast_of_thrace"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/10237837/"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51229"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7017002"/>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q193241"/>
-        <skos:prefLabel xml:lang="pl">Nesebyr</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Nessebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">נסבר</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Nesebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Neszebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Nesebăr</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Nessebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ネセバル</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Nesebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ነሰብር</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Nesebăr</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Nesebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Nessebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Nesebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Несебыр</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Nesebăr</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Несебар</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Nessebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="os">Несебыр</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Nesebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Несебър</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ნესებირი</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Nеsebăr</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Neseberas</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Nessebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Nesebâr</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Nesebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">نسبار</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Несебыр</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Νεσέμπαρ</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">内塞伯爾</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Несебр</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Несебар</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Nesebar</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Mesembria</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Горад Нясебыр</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">네세버르</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">نيسيبار</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Nesebar</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/020b6w"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/728825/"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4102456-4"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/240833919"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb121769558"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/mesembria#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Mesembria</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Mesembria in Thrace.</skos:definition>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Nesebar"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/216882"/>
+      <geo:location rdf:resource="http://nomisma.org/id/mesembria#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/eastern_coast_of_thrace"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/10237837/"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x51229"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7017002"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q193241"/>
+      <skos:prefLabel xml:lang="pl">Nesebyr</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Nessebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">נסבר</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Nesebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Neszebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Nesebăr</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Nessebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ネセバル</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Nesebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ነሰብር</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Nesebăr</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Nesebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Nessebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Nesebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Несебыр</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Nesebăr</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Несебар</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Nessebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="os">Несебыр</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Nesebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Несебър</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ნესებირი</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Nеsebăr</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Neseberas</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Nessebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Nesebâr</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Nesebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">نسبار</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Несебыр</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Νεσέμπαρ</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">内塞伯爾</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Несебр</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Несебар</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Nesebar</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Mesembria</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Горад Нясебыр</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">네세버르</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">نيسيبار</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Nesebar</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/020b6w"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/728825/"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4102456-4"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/240833919"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb121769558"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/mesembria#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/1466"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/mesembria#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.660417</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.718100</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/eastern_coast_of_thrace#this"/>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.660417</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.718100</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/eastern_coast_of_thrace#this"/>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mesembria#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/mesembria"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/mesembria"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

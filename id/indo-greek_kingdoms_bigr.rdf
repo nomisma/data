@@ -1,49 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Region rdf:about="http://nomisma.org/id/indo-greek_kingdoms_bigr">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Indo-Greek kingdoms</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">royaume indo-grecque</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Indo-Griechische Königreiche</skos:prefLabel>
-        <skos:definition xml:lang="en">The Indo-Greek kingdoms is a modern term applied to the area ruled by the kings from Apollodotos I in the mid second century BCE to Strato II and Strato III in the first century CE. The geographical extent of the various kingdoms is uncertain and varied over time and they were rarely a single political unit. It is shown here at what is considered to be its largest size.</skos:definition>
-        <skos:definition xml:lang="de">Indo-Griechischen Königreiche ist ein moderner Begriff, der das Gebiet bezeichnet, welches von den Herrschern Apollodotos I. (Mitte des 2. Jh. v. Chr.) bis zu Strato II. und Strato III. (erste Hälfte 1. Jh. n. Chr.) regiert wurde. Die genaue geographische Ausdehnung dieser unterschiedlichen Königreiche ist unsicher und ist im Laufe der Zeit größeren Veränderungen unterworfen, zudem dürfte es sich nur selten um ein zusammenhängendes politisches Gebilde gehandelt haben. Es wird hier in seiner vermuteten größten Ausdehnung gezeigt.</skos:definition>
-        <skos:scopeNote xml:lang="en">This region should only be used in the context of Graeco-Bactrian and Indo-Greek coinage.</skos:scopeNote>
-        <dcterms:source rdf:resource="http://nomisma.org/id/bigr"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/indo-greek_numismatics"/>
-        <geo:location rdf:resource="http://nomisma.org/id/indo-greek_kingdoms_bigr#this"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/indo-greek_kingdoms_bigr#provenance"/>
-    </nmo:Region>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/indo-greek_kingdoms_bigr#this">
-        <osgeo:asGeoJSON>{"type":"Polygon","coordinates":[[[68.543701171875,35.53222622770337],[67.093505859375,27.926474039865017],[67.60986328125,24.17682515045749],[68.8238525390625,24.34209190699893],[69.1973876953125,24.12168855843423],[68.9886474609375,23.79037129915711],[68.7249755859375,23.830576244074525],[68.477783203125,23.599228183239397],[68.60412597656249,23.2060096376488],[69.697265625,22.771116581083135],[70.653076171875,23.19086257687362],[70.433349609375,22.76605146912692],[69.873046875,22.451648819126202],[68.92822265625,22.268764039073968],[70.609130859375,20.78693059257028],[70.9222412109375,20.730428476781324],[72.0703125,21.21257979063059],[72.39990234375,22.380555501421533],[77.89306640625,27.761329874505233],[78.1787109375,31.484893386890164],[76.48681640625,33.137551192346145],[74.59716796875,36.11125252076156],[68.543701171875,35.53222622770337]]]}</osgeo:asGeoJSON>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/indo-greek_kingdoms_bigr#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/indo-greek_kingdoms_bigr"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T16:26:03.589Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1eEnbWH6WWaOBceFOor5w-ujQWmoCahmwBgDeRL8kZYg/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Region rdf:about="http://nomisma.org/id/indo-greek_kingdoms_bigr">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Indo-Greek kingdoms</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">royaume indo-grecque</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Indo-Griechische Königreiche</skos:prefLabel>
+      <skos:definition xml:lang="en">The Indo-Greek kingdoms is a modern term applied to the area ruled by the kings from Apollodotos I in the mid second century BCE to Strato II and Strato III in the first century CE. The geographical extent of the various kingdoms is uncertain and varied over time and they were rarely a single political unit. It is shown here at what is considered to be its largest size.</skos:definition>
+      <skos:definition xml:lang="de">Indo-Griechischen Königreiche ist ein moderner Begriff, der das Gebiet bezeichnet, welches von den Herrschern Apollodotos I. (Mitte des 2. Jh. v. Chr.) bis zu Strato II. und Strato III. (erste Hälfte 1. Jh. n. Chr.) regiert wurde. Die genaue geographische Ausdehnung dieser unterschiedlichen Königreiche ist unsicher und ist im Laufe der Zeit größeren Veränderungen unterworfen, zudem dürfte es sich nur selten um ein zusammenhängendes politisches Gebilde gehandelt haben. Es wird hier in seiner vermuteten größten Ausdehnung gezeigt.</skos:definition>
+      <skos:scopeNote xml:lang="en">This region should only be used in the context of Graeco-Bactrian and Indo-Greek coinage.</skos:scopeNote>
+      <dcterms:source rdf:resource="http://nomisma.org/id/bigr"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/indo-greek_numismatics"/>
+      <geo:location rdf:resource="http://nomisma.org/id/indo-greek_kingdoms_bigr#this"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/indo-greek_kingdoms_bigr#provenance"/>
+   </nmo:Region>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/indo-greek_kingdoms_bigr#this">
+      <osgeo:asGeoJSON>{"type":"Polygon","coordinates":[[[68.543701171875,35.53222622770337],[67.093505859375,27.926474039865017],[67.60986328125,24.17682515045749],[68.8238525390625,24.34209190699893],[69.1973876953125,24.12168855843423],[68.9886474609375,23.79037129915711],[68.7249755859375,23.830576244074525],[68.477783203125,23.599228183239397],[68.60412597656249,23.2060096376488],[69.697265625,22.771116581083135],[70.653076171875,23.19086257687362],[70.433349609375,22.76605146912692],[69.873046875,22.451648819126202],[68.92822265625,22.268764039073968],[70.609130859375,20.78693059257028],[70.9222412109375,20.730428476781324],[72.0703125,21.21257979063059],[72.39990234375,22.380555501421533],[77.89306640625,27.761329874505233],[78.1787109375,31.484893386890164],[76.48681640625,33.137551192346145],[74.59716796875,36.11125252076156],[68.543701171875,35.53222622770337]]]}</osgeo:asGeoJSON>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/indo-greek_kingdoms_bigr#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/indo-greek_kingdoms_bigr"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T16:26:03.589Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1eEnbWH6WWaOBceFOor5w-ujQWmoCahmwBgDeRL8kZYg/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

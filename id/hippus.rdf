@@ -1,106 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/hippus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Hippos (Sussita)</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Hippos in the Decapolis.</skos:definition>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/678185"/>
-        <geo:location rdf:resource="http://nomisma.org/id/hippus#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/decapolis"/>
-        <skos:altLabel xml:lang="en">Hippos</skos:altLabel>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/4005133"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/hippus#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <skos:altLabel xml:lang="en">Sussita</skos:altLabel>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1620075"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Hippos"/>
-        <skos:prefLabel xml:lang="el">Αντιόχεια (της Δεκάπολης)</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Hippos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Susita</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Hippos</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Hippos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Sussita</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Hippos</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">סוסיתא (אתר ארכאולוגי)</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Hippos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Hippos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Гиппос</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Гіппос</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Hippos (Palestiina)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">ہیپوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Հիպպոս</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">قلعة الحصن سوسيتا (هيبوس)</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Hipo (sítio arqueológico)</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/02wcfh"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Hippos (Sussita)</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Hippos in the Decapolis.</skos:definition>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/678185"/>
+      <geo:location rdf:resource="http://nomisma.org/id/hippus#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/decapolis"/>
+      <skos:altLabel xml:lang="en">Hippos</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/4005133"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/hippus#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:altLabel xml:lang="en">Sussita</skos:altLabel>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q1620075"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Hippos"/>
+      <skos:prefLabel xml:lang="el">Αντιόχεια (της Δεκάπολης)</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Hippos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Susita</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Hippos</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Hippos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Sussita</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Hippos</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">סוסיתא (אתר ארכאולוגי)</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Hippos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Hippos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Гиппос</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Гіппос</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Hippos (Palestiina)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">ہیپوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Հիպպոս</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">قلعة الحصن سوسيتا (هيبوس)</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Hipo (sítio arqueológico)</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/02wcfh"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/1370"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/hippus#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.778841</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.659411</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/decapolis#this"/>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.778841</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.659411</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/decapolis#this"/>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hippus#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/hippus"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-12T06:57:07.001-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/hippus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-12T06:57:07.001-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

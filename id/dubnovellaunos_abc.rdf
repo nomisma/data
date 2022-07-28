@@ -1,81 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/dubnovellaunos_abc">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Dubnovellaunos</skos:prefLabel>
-        <skos:definition xml:lang="en">ABC 2010, 174: Cantiaci and Trinovantes. Mays 1992, 75: 'There are several variations in spelling...Dubnovellaunos was on the of the British chieftains mentioned (as 'Dumnobellau[nus]') with Tincommius in Augustus...'. Found in Kent and North Thames region.</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/dubnovellaunos_abc#membership_dd5280a19c86132cc71c1dbdaa29cd10"/>
-        <dcterms:source rdf:resource="http://nomisma.org/id/ancient_british_coins"/>
-        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/001304039"/>
-        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG106883"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/celtic_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/dubnovellaunos_abc#provenance"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/dubnovellaunos_abc#membership_31234d8029585c6a408dbebbc04633c0"/>
-        
-    </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/dubnovellaunos_abc#membership_dd5280a19c86132cc71c1dbdaa29cd10">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/cantii"/>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/dubnovellaunos_abc#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/dubnovellaunos_abc"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-15T11:38:03.386-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1mPiUIdUCkRdx8fhdSuslyIxyz1dYiLsS1CetyOEkxn0/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-15T11:42:35.05-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1mPiUIdUCkRdx8fhdSuslyIxyz1dYiLsS1CetyOEkxn0/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-15T11:44:28.612-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1mPiUIdUCkRdx8fhdSuslyIxyz1dYiLsS1CetyOEkxn0/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T08:56:12.537-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/dubnovellaunos_abc#membership_31234d8029585c6a408dbebbc04633c0">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/trinovantes"/>
-    </org:Membership>
-    
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/dubnovellaunos_abc">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Dubnovellaunos</skos:prefLabel>
+      <skos:definition xml:lang="en">ABC 2010, 174: Cantiaci and Trinovantes. Mays 1992, 75: 'There are several variations in spelling...Dubnovellaunos was on the of the British chieftains mentioned (as 'Dumnobellau[nus]') with Tincommius in Augustus...'. Found in Kent and North Thames region.</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/dubnovellaunos_abc#membership_dd5280a19c86132cc71c1dbdaa29cd10"/>
+      <dcterms:source rdf:resource="http://nomisma.org/id/ancient_british_coins"/>
+      <dcterms:source rdf:resource="https://zenon.dainst.org/Record/001304039"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG106883"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/celtic_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/dubnovellaunos_abc#provenance"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/dubnovellaunos_abc#membership_31234d8029585c6a408dbebbc04633c0"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/dubnovellaunos_abc#membership_dd5280a19c86132cc71c1dbdaa29cd10">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/cantii"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/dubnovellaunos_abc#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/dubnovellaunos_abc"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-15T11:38:03.386-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1mPiUIdUCkRdx8fhdSuslyIxyz1dYiLsS1CetyOEkxn0/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-15T11:42:35.05-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1mPiUIdUCkRdx8fhdSuslyIxyz1dYiLsS1CetyOEkxn0/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-15T11:44:28.612-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1mPiUIdUCkRdx8fhdSuslyIxyz1dYiLsS1CetyOEkxn0/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T08:56:12.537-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/dubnovellaunos_abc#membership_31234d8029585c6a408dbebbc04633c0">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/trinovantes"/>
+   </org:Membership>
 </rdf:RDF>

@@ -1,120 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xv">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Ptolemy XV Caesarion</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Caesarion</skos:altLabel>
-        <skos:definition xml:lang="en">Ptolemy XV Philopator Philometor Caesar (June 23, 47 BC – August 23, 30 BC), better known by the nicknames Caesarion and Ptolemy Caesar, was the last Pharaoh of Egypt, reigning with his mother Cleopatra VII from 2 September 44 BC until her death by 12 August 30 BC and as sole ruler until his own death was ordered by Octavian, the later Roman emperor Augustus.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Caesarion"/>
-        <skos:prefLabel xml:lang="zh">恺撒里昂</skos:prefLabel>
-        <skos:prefLabel xml:lang="jv">Caesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ptolemeusz XV Cezarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Zesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ptolémée XV</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קיסריון</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Cezarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">카이사리온</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Cesarión</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Caesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">XV. Ptolemaiosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tolomeo XV</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Caesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Caesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ptolemaios XV.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">カエサリオン</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Caesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πτολεμαίος ΙΕ΄ Καισαρίων</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Cezarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Caesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بطليموس الخامس عشر (قيصرون)</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ptolemaeus XV Caesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ptolemeu XV</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Caesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Птолемей XV Цезарион</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Caesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Ptolemeu al XV-lea</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Птоломеј XV Цезарион</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Cesarió</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ptolemaios XV</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Птолемей XV Цезаріон</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ptolemaios XV. Kaisarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Цезарион</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Cezarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Tolomeo XV Caesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Cæsarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">سزاریون</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Cæsarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პტოლემე XV</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կեսարիոն</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Цезарион</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">سیزاریئن</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">සිසේරියන්</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ปโตเลมีที่ 15 ซีซาเรียน</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пталамей XV Цэзарыён</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Ptolemeus XV Caesarion</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Cezariono</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39589"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/67910474"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/131750240"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0jzyl"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000025551002"/>
-        
-        <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xv#provenance"/>
-        <skos:prefLabel xml:lang="mg">Ptolemaiosy XV</skos:prefLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xv#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XV-Caesar"/>
-    </foaf:Person>
-   
-   
-   
-   
-   
-   
-   
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xv#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xv"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:47.085-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xv#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0044</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
-    </org:Membership>
+   <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xv">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Ptolemy XV Caesarion</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Caesarion</skos:altLabel>
+      <skos:definition xml:lang="en">Ptolemy XV Philopator Philometor Caesar (June 23, 47 BC – August 23, 30 BC), better known by the nicknames Caesarion and Ptolemy Caesar, was the last Pharaoh of Egypt, reigning with his mother Cleopatra VII from 2 September 44 BC until her death by 12 August 30 BC and as sole ruler until his own death was ordered by Octavian, the later Roman emperor Augustus.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Caesarion"/>
+      <skos:prefLabel xml:lang="zh">恺撒里昂</skos:prefLabel>
+      <skos:prefLabel xml:lang="jv">Caesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ptolemeusz XV Cezarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Zesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ptolémée XV</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קיסריון</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Cezarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">카이사리온</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Cesarión</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Caesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">XV. Ptolemaiosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tolomeo XV</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Caesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Caesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ptolemaios XV.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">カエサリオン</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Caesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πτολεμαίος ΙΕ΄ Καισαρίων</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Cezarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Caesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بطليموس الخامس عشر (قيصرون)</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ptolemaeus XV Caesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ptolemeu XV</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Caesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Птолемей XV Цезарион</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Caesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Ptolemeu al XV-lea</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Птоломеј XV Цезарион</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Cesarió</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ptolemaios XV</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Птолемей XV Цезаріон</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ptolemaios XV. Kaisarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Цезарион</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Cezarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Tolomeo XV Caesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Cæsarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">سزاریون</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Cæsarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პტოლემე XV</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կեսարիոն</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Цезарион</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">سیزاریئن</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">සිසේරියන්</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ปโตเลมีที่ 15 ซีซาเรียน</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пталамей XV Цэзарыён</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Ptolemeus XV Caesarion</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Cezariono</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39589"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/67910474"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/131750240"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0jzyl"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000025551002"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xv#provenance"/>
+      <skos:prefLabel xml:lang="mg">Ptolemaiosy XV</skos:prefLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xv#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XV-Caesar"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/9815"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xv#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xv"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:47.085-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xv#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0044</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0030</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

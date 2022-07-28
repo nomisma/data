@@ -1,73 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/matalia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Matalia (?)</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/589925"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/crete"/>
-        <skos:altLabel xml:lang="en">Matalon</skos:altLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:definition xml:lang="en">The mint at the ancient site of Matalia (?) in Crete</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/matalia#provenance"/>
-        <geo:location rdf:resource="http://nomisma.org/id/matalia#this"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q955501"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Matala,_Crete"/>
-        <skos:prefLabel xml:lang="de">Matala</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Matala</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Matala</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μάταλα Ηρακλείου</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Mátala</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Matala</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Matala</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Matala</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Matala</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Matala</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Матала</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Matala</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Mátala</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Matala</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/01htyp"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/257598"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Matalia (?)</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/589925"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/crete"/>
+      <skos:altLabel xml:lang="en">Matalon</skos:altLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:definition xml:lang="en">The mint at the ancient site of Matalia (?) in Crete</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/matalia#provenance"/>
+      <geo:location rdf:resource="http://nomisma.org/id/matalia#this"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q955501"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Matala,_Crete"/>
+      <skos:prefLabel xml:lang="de">Matala</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Matala</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Matala</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μάταλα Ηρακλείου</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Mátala</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Matala</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Matala</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Matala</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Matala</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Matala</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Матала</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Matala</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Mátala</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Matala</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/01htyp"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/257598"/>
+   </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/matalia#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/matalia"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T05:54:59.435-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/matalia#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.9935</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.751</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/crete#this"/>
-    </geo:SpatialThing>
+      <foaf:topic rdf:resource="http://nomisma.org/id/matalia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T05:54:59.435-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/matalia#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34.9935</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.751</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/crete#this"/>
+   </geo:SpatialThing>
 </rdf:RDF>

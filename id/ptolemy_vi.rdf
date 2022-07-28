@@ -1,104 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_vi">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ptolemy VI Philometor</skos:prefLabel>
-        <skos:definition xml:lang="en">Ptolemy VI Philometor was a king of Egypt from the Ptolemaic period. He reigned from 180 to 145 BC.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_VI_Philometor"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39952"/>
-        <skos:prefLabel xml:lang="zh">托勒密六世</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ptolemeusz VI Filometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תלמי השישי</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пталамей VI Філаметар</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ptolémée VI</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ptolomeo VI</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Ptolemy 6k Philometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">VI. Ptolemaiosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tolomeo VI</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Ptolemaios VI</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Ptolemaios VI Philometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ptolemaios VI.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プトレマイオス6世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πτολεμαίος Στ΄ Φιλομήτωρ</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ptolemaios VI Philometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ptolemej VI Filometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ptolemaeus VI Philometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بطليموس السادس</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ptolemaios VI Filometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ptolemeu VI Filometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Птолемей VI Филометор</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Птолемеј VI Филометор</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ptolemeu VI Filomètor</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ptolemaios VI</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ptolemaeus VI</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ptolemaios VI. Filométor</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">بطلمیوس ششم</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Птолемей VI</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">VI Ptolemey</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ptolemėjas VI Filomėtoras</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Ptolemej VI. Filometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ptolemaios VI Filometor</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Птолемей VI Філометор</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პტოლემე VI</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">ටොලමි VI ෆිලොමේටර්</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">프톨레마이오스 6세</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ปโตเลมีที่ 6</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ptolemeo la 6-a</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Ptolemaj VI. Filometor</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/67258070"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118596934"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0my_3"/>
-      
-        <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_vi#provenance"/>
-        <skos:prefLabel xml:lang="mg">Ptolemaiosy VI</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Ptolemy VI</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_vi#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-VI-Philometor"/>
-    </foaf:Person>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Ptolemy VI Philometor</skos:prefLabel>
+      <skos:definition xml:lang="en">Ptolemy VI Philometor was a king of Egypt from the Ptolemaic period. He reigned from 180 to 145 BC.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_VI_Philometor"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39952"/>
+      <skos:prefLabel xml:lang="zh">托勒密六世</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ptolemeusz VI Filometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תלמי השישי</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пталамей VI Філаметар</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ptolémée VI</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ptolomeo VI</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Ptolemy 6k Philometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">VI. Ptolemaiosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tolomeo VI</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Ptolemaios VI</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Ptolemaios VI Philometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ptolemaios VI.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プトレマイオス6世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πτολεμαίος Στ΄ Φιλομήτωρ</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ptolemaios VI Philometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ptolemej VI Filometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ptolemaeus VI Philometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بطليموس السادس</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ptolemaios VI Filometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ptolemeu VI Filometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Птолемей VI Филометор</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Птолемеј VI Филометор</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ptolemeu VI Filomètor</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ptolemaios VI</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ptolemaeus VI</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ptolemaios VI. Filométor</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">بطلمیوس ششم</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Птолемей VI</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">VI Ptolemey</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ptolemėjas VI Filomėtoras</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Ptolemej VI. Filometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ptolemaios VI Filometor</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Птолемей VI Філометор</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პტოლემე VI</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">ටොලමි VI ෆිලොමේටර්</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">프톨레마이오스 6세</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ปโตเลมีที่ 6</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ptolemeo la 6-a</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Ptolemaj VI. Filometor</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/67258070"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118596934"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0my_3"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_vi#provenance"/>
+      <skos:prefLabel xml:lang="mg">Ptolemaiosy VI</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Ptolemy VI</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_vi#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-VI-Philometor"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4342"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_vi#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_vi"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:11:58-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_vi#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0180</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0145</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_vi"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:11:58-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemy_vi#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0180</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0145</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

@@ -1,120 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/antiochus_v">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Antiochus V Eupator</skos:prefLabel>
-        <skos:definition xml:lang="en">Antiochus V Eupator ("Nobly-fathered") was the tenth king of the Seleucid Empire who ruled from 164 to 162 BC. Upon the death of Antiochus IV, his nine-year-old son, Antiochus V, was proclaimed king by the regent Lysias. In 164 BC, a struggle over the regency developed after the dying Antiochus IV named Philip, one of his Friends, as the regent for Antiochus V. Although Philip managed to take Antioch, he was killed by Lysias before he could take possession of the boy king. War almost broke out between Rome and Antiochus V in 162 BC, when a Roman legate charged with destroying the Seleucid fleet and its elephant corps was murdered. The situation was defused later tht year by the arrival of Demetrius I, a son of Seleucus IV, who captured Antiochus V and Lysias and ordered their deaths.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_V_Eupator"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q298628"/>
-        <skos:prefLabel xml:lang="eu">Antioko V.a Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Antioch V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">안티오코스 5세</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Antiochos V</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אנטיוכוס החמישי</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Antíoco V Eupátor</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">V. Antiokhosz szeleukida uralkodó</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Antioco V</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Antiokhos V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Antiochos V.</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αντίοχος Ε' Ευπάτωρ</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Antiochos V</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Antioh V</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Antiochos V</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Antiochus V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Antíoco V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Антиох V Евпатор</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Antíoc V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Antiokhos V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Antiochus V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Антиох V Евпатор</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آنتیوخوس پنجم</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Antiochos 5. af Seleukideriget</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">安条克五世</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Antiokos V Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أنطيوخوس الخامس</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Антіох V Евпатор</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Antiochos V. Eupatór</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lg15"/>
-        
-        <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_v#provenance"/>
-        <skos:prefLabel xml:lang="ja">アンティオコス5世エウパトル</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Antioĥio la 5-a</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">آنتیوخوس پنجم</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">V. Antiokhos Eupator</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Антиох V Еупатор</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Antiochus V of Syria</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_v#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/antiochus-e124580?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;s.q=antiochus+Ix#e124650"/>
-    </foaf:Person>
-   
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Antiochus V Eupator</skos:prefLabel>
+      <skos:definition xml:lang="en">Antiochus V Eupator ("Nobly-fathered") was the tenth king of the Seleucid Empire who ruled from 164 to 162 BC. Upon the death of Antiochus IV, his nine-year-old son, Antiochus V, was proclaimed king by the regent Lysias. In 164 BC, a struggle over the regency developed after the dying Antiochus IV named Philip, one of his Friends, as the regent for Antiochus V. Although Philip managed to take Antioch, he was killed by Lysias before he could take possession of the boy king. War almost broke out between Rome and Antiochus V in 162 BC, when a Roman legate charged with destroying the Seleucid fleet and its elephant corps was murdered. The situation was defused later tht year by the arrival of Demetrius I, a son of Seleucus IV, who captured Antiochus V and Lysias and ordered their deaths.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antiochus_V_Eupator"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q298628"/>
+      <skos:prefLabel xml:lang="eu">Antioko V.a Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Antioch V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">안티오코스 5세</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Antiochos V</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אנטיוכוס החמישי</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Antíoco V Eupátor</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">V. Antiokhosz szeleukida uralkodó</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Antioco V</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Antiokhos V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Antiochos V.</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αντίοχος Ε' Ευπάτωρ</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Antiochos V</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Antioh V</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Antiochos V</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Antiochus V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Antíoco V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Антиох V Евпатор</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Antíoc V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Antiokhos V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Antiochus V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Антиох V Евпатор</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آنتیوخوس پنجم</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Antiochos 5. af Seleukideriget</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">安条克五世</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Antiokos V Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أنطيوخوس الخامس</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Антіох V Евпатор</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Antiochos V. Eupatór</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lg15"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/seleucid_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/antiochus_v#provenance"/>
+      <skos:prefLabel xml:lang="ja">アンティオコス5世エウパトル</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Antioĥio la 5-a</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">آنتیوخوس پنجم</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">V. Antiokhos Eupator</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Антиох V Еупатор</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Antiochus V of Syria</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/antiochus_v#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/antiochus-e124580?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;s.q=antiochus+Ix#e124650"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/329"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/antiochus_v#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_v"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-23T08:37:56.545-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Uqel_NSiw9HP_znRaYcD7PbEYYyrMs1nM-TyOFFg984/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-29T11:07:26.073-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-07T08:51:05.261-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/antiochus_v#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0164</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0162</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/antiochus_v"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-11T14:21:24-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vi_FA60ybtzebLrqzb78ZS5YGk0elvCRp4EsVgoVIEs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-23T08:37:56.545-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Uqel_NSiw9HP_znRaYcD7PbEYYyrMs1nM-TyOFFg984/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-29T11:07:26.073-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-07T08:51:05.261-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/antiochus_v#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/seleucid_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0164</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0162</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

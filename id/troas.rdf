@@ -1,92 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/troas">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Troas</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Troas as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/550944"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/troas#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q2454671"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Troad"/>
-        <skos:prefLabel xml:lang="el">Τρωάδα</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Troade</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">트로아스</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Tròade</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Troas</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Troade</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Troade</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">トローアス</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Tróade</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Троада</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Troas</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Trôade</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Троада</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Troas</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Biga Yarımadası</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Troas</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Troada</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Troda</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Troada</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Troada</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Troas</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Troado</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Троада (Мала Азия)</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Troas</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Troad</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Траада</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">טרואדה</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">特洛阿德</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Троада</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Troas</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Troász</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01y6wn"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Troas</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Troas as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/550944"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/troas#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q2454671"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Troad"/>
+      <skos:prefLabel xml:lang="el">Τρωάδα</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Troade</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">트로아스</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Tròade</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Troas</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Troade</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Troade</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">トローアス</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Tróade</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Троада</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Troas</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Trôade</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Троада</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Troas</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Biga Yarımadası</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Troas</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Troada</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Troda</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Troada</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Troada</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Troas</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Troado</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Троада (Мала Азия)</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Troas</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Troad</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Траада</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">טרואדה</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">特洛阿德</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Троада</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Troas</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Troász</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01y6wn"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/411"/>
+   </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/troas#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/troas"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-20T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:52:57.065-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/troas"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-20T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:52:57.065-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,168 +1,166 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <nmo:Mint rdf:about="http://nomisma.org/id/st_gallen">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">St. Gallen</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) of St. Gallen, a Swiss town and the capital of the canton of St. Gallen. </skos:definition>
-        <skos:prefLabel xml:lang="lb">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">圣加仑</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Sankt Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">San Galo</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="na">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Sankt Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">سانت غالن</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Sankt Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Sankt Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">São Galo</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Sankt-Galo</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Санкт-Галлен</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Санкт Гален</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Sankt Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Санкт-Галлен</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Son Gagl</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Санкт-Галлен</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Sankt Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Saint-Gall</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">장크트갈렌</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Sanktgallene</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">San Gallo</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">San Galo</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ザンクト・ガレン</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Sankt Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Sanctogallum</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">سن‌گلان</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Санкт Гален</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">სანქტ-გალენი</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Sankt Galenas</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Санкт-Гален</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Sankt Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Σανκτ Γκάλεν</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Санкт-Галлен</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">سانکت گالن</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Sant Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Sankt Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ซังคท์กัลเลิน</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Sankt Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="qu">Sankt Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">סנט גאלן</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Санкт-Галлен</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">St. Gallen</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Սանկտ Գալլեն</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q25607"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0245n9"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4051594-1"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/7287240/"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/127834916"/>
-        <skos:closeMatch rdf:resource="http://isni.org/000000012321910X"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11950003x"/>
-        <geo:location rdf:resource="http://nomisma.org/id/st_gallen#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/st_gallen#provenance"/>
-        <skos:altLabel xml:lang="de">Sankt Gallen</skos:altLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <skos:prefLabel xml:lang="tt">Санкт-Галлен</skos:prefLabel>
-        <skos:prefLabel xml:lang="ps">سنګالن</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/7287240"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7003755"/>
-    </nmo:Mint>
-   
-   
-   
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/st_gallen#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.42587</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.37446</geo:long>
-        
-        
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/st_gallen#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/st_gallen"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:18:11.141-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T10:50:28.681-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T11:04:29.864-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T11:06:21.187-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T11:25:50.008-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+   <nmo:Mint rdf:about="http://nomisma.org/id/st_gallen">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">St. Gallen</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) of St. Gallen, a Swiss town and the capital of the canton of St. Gallen. </skos:definition>
+      <skos:prefLabel xml:lang="lb">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">圣加仑</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Sankt Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">San Galo</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="na">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Sankt Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">سانت غالن</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Sankt Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Sankt Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">São Galo</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Sankt-Galo</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Санкт-Галлен</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Санкт Гален</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Sankt Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Санкт-Галлен</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Son Gagl</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Санкт-Галлен</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Sankt Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Saint-Gall</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">장크트갈렌</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Sanktgallene</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">San Gallo</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">San Galo</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ザンクト・ガレン</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Sankt Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Sanctogallum</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">سن‌گلان</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Санкт Гален</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">სანქტ-გალენი</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Sankt Galenas</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Санкт-Гален</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Sankt Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Σανκτ Γκάλεν</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Санкт-Галлен</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">سانکت گالن</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Sant Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Sankt Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ซังคท์กัลเลิน</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Sankt Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="qu">Sankt Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">סנט גאלן</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Санкт-Галлен</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">St. Gallen</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Սանկտ Գալլեն</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q25607"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0245n9"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4051594-1"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/7287240/"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/127834916"/>
+      <skos:closeMatch rdf:resource="http://isni.org/000000012321910X"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11950003x"/>
+      <geo:location rdf:resource="http://nomisma.org/id/st_gallen#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/st_gallen#provenance"/>
+      <skos:altLabel xml:lang="de">Sankt Gallen</skos:altLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <skos:prefLabel xml:lang="tt">Санкт-Галлен</skos:prefLabel>
+      <skos:prefLabel xml:lang="ps">سنګالن</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/7287240"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7003755"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/820"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/st_gallen#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.42587</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.37446</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/st_gallen#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/st_gallen"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:18:11.141-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T10:50:28.681-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T11:04:29.864-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T11:06:21.187-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T11:25:50.008-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

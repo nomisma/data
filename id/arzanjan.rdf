@@ -1,66 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/arzanjan">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Arzanjan</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ارزانجان</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Erzincan</skos:altLabel>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Arsanjan"/>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q2627738"/>
-        <skos:prefLabel xml:lang="fa">ارسنجان</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Эрсенджан</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Arsencan</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Ərsəncan</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Arsenjan</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Arsanjan</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">ارسنجان</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Arsanjan</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/06w5ncd"/>
-      
-        <skos:definition xml:lang="en">Arzanajn or Erzincan (Armenian Երզնկա Yerznka) is a city in northeastern Turkey. It is the capital of Erzincan Province in northeastern Anatolia.</skos:definition>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/315373/"/>
-        <geo:location rdf:resource="http://nomisma.org/id/arzanjan#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/arzanjan#provenance"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Arzanjan</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ارزانجان</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Erzincan</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Arsanjan"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q2627738"/>
+      <skos:prefLabel xml:lang="fa">ارسنجان</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Эрсенджан</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Arsencan</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Ərsəncan</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Arsenjan</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Arsanjan</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">ارسنجان</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Arsanjan</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/06w5ncd"/>
+      <skos:definition xml:lang="en">Arzanajn or Erzincan (Armenian Երզնկա Yerznka) is a city in northeastern Turkey. It is the capital of Erzincan Province in northeastern Anatolia.</skos:definition>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/315373/"/>
+      <geo:location rdf:resource="http://nomisma.org/id/arzanjan#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/arzanjan#provenance"/>
    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/arzanjan#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.73919</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.49015</geo:long>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.73919</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.49015</geo:long>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/arzanjan#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/arzanjan"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-28T17:58:06+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1coVOCMmTGlmh89lBLwT-_TX2qYeRHc6VLZVbCVfqyNk/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-07T10:57:40.396-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/arzanjan"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-28T17:58:06+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1coVOCMmTGlmh89lBLwT-_TX2qYeRHc6VLZVbCVfqyNk/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-07T10:57:40.396-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

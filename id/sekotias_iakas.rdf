@@ -1,105 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/sekotias_iakas">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Sekotias Lakas</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/246639"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
-        <skos:altLabel xml:lang="en">Segontia</skos:altLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:definition xml:lang="en">The mint at the ancient site of Sekotias Lakas in Hispania</skos:definition>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x117196"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/sekotias_iakas#provenance"/>
-        <geo:location rdf:resource="http://nomisma.org/id/sekotias_iakas#this"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q47475"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Sigüenza"/>
-        <skos:prefLabel xml:lang="es">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Sigvenco</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">シグエンサ</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Сигуэнса</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Segontia</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Siguensa</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Сигуэнса</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Сігуенса</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">西贡萨</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Սիգուենսա</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Сігуэнса</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Sigüenza</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">سیئونزا</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Сигуэнса</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Сигуэнса</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/025_svr"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/6358024"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4118647-3"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/140707941"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb133307804"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Sekotias Lakas</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/246639"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
+      <skos:altLabel xml:lang="en">Segontia</skos:altLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:definition xml:lang="en">The mint at the ancient site of Sekotias Lakas in Hispania</skos:definition>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x117196"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/sekotias_iakas#provenance"/>
+      <geo:location rdf:resource="http://nomisma.org/id/sekotias_iakas#this"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q47475"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Sigüenza"/>
+      <skos:prefLabel xml:lang="es">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Sigvenco</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">シグエンサ</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Сигуэнса</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Segontia</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Siguensa</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Сигуэнса</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Сігуенса</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">西贡萨</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Սիգուենսա</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Сігуэнса</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Sigüenza</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">سیئونزا</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Сигуэнса</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Сигуэнса</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/025_svr"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/6358024"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4118647-3"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/140707941"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb133307804"/>
+   </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sekotias_iakas#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/sekotias_iakas"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T05:21:48.644-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/sekotias_iakas#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.069585</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.642246</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
-    </geo:SpatialThing>
+      <foaf:topic rdf:resource="http://nomisma.org/id/sekotias_iakas"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T05:21:48.644-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/sekotias_iakas#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.069585</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.642246</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
+   </geo:SpatialThing>
 </rdf:RDF>

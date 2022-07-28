@@ -1,109 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xi">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Ptolemy XI Alexander II</skos:prefLabel>
-        <skos:definition xml:lang="en">Ptolemy XI Alexander II was a member of the Ptolemaic dynasty who ruled Egypt for a few days in 80 BC.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_XI_Alexander_II"/>
-        <skos:prefLabel xml:lang="zh">托勒密十一世</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ptolemeusz XI Aleksander II</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Ptolomeo XI.a</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">프톨레마이오스 11세</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ptolémée XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ptolomeo XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Ptolemy 11k Alexander 2k</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">XI. Ptolemaiosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tolomeo XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Ptolemaios XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Ptolemaios XI Alexandros II</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ptolemaios XI.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プトレマイオス11世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πτολεμαίος ΙΑ΄ Αλέξανδρος Β΄</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ptolemej XI Aleksandar II</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بطليموس الحادي عشر</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ptolemaeus XI Alexander II</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ptolemaios XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ptolemeu XI Alexandre II</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Птолемей XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Птолемеј XI Александар II</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ptolemeu XI Alexandre II</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ptolemaios XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ptolemaeus XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ptolemaios XI. Alexandros II.</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Птолемей XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ptolemėjas XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ptolemaios XI Aleksander</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Птолемей XI Александр</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תלמי האחד עשר</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ptolemaios XI Alexandros II</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პტოლემე XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">ටොලමි XI ඇලෙක්සැන්ඩර් II</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ปโตเลมีที่ 11</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ptolemeo la 11-a Aleksandro la 2-a</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Ptolemy XI Alexander II</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39996"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02whgr"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/5687150325540010090006"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500372662"/>
-        
-        <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xi#provenance"/>
-        <skos:prefLabel xml:lang="mg">Ptolemaiosy XI</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Պտղոմեոս XI Ալեքսանդրոս II</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Ptolemy XI Alexander II</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xi#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XI-Alexander-II"/>
-    </foaf:Person>
-   
-   
-   
-   
-   
-   
-   
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xi#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xi"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:37.497-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xi#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0080</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0080</nmo:hasEndDate>
-    </org:Membership>
+   <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xi">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Ptolemy XI Alexander II</skos:prefLabel>
+      <skos:definition xml:lang="en">Ptolemy XI Alexander II was a member of the Ptolemaic dynasty who ruled Egypt for a few days in 80 BC.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_XI_Alexander_II"/>
+      <skos:prefLabel xml:lang="zh">托勒密十一世</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ptolemeusz XI Aleksander II</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Ptolomeo XI.a</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">프톨레마이오스 11세</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ptolémée XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ptolomeo XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Ptolemy 11k Alexander 2k</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">XI. Ptolemaiosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tolomeo XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Ptolemaios XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Ptolemaios XI Alexandros II</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ptolemaios XI.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プトレマイオス11世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πτολεμαίος ΙΑ΄ Αλέξανδρος Β΄</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ptolemej XI Aleksandar II</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بطليموس الحادي عشر</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ptolemaeus XI Alexander II</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ptolemaios XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ptolemeu XI Alexandre II</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Птолемей XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Птолемеј XI Александар II</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ptolemeu XI Alexandre II</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ptolemaios XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ptolemaeus XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ptolemaios XI. Alexandros II.</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Птолемей XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ptolemėjas XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ptolemaios XI Aleksander</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Птолемей XI Александр</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תלמי האחד עשר</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ptolemaios XI Alexandros II</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პტოლემე XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">ටොලමි XI ඇලෙක්සැන්ඩර් II</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ปโตเลมีที่ 11</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ptolemeo la 11-a Aleksandro la 2-a</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Ptolemy XI Alexander II</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39996"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02whgr"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/5687150325540010090006"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500372662"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xi#provenance"/>
+      <skos:prefLabel xml:lang="mg">Ptolemaiosy XI</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Պտղոմեոս XI Ալեքսանդրոս II</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Ptolemy XI Alexander II</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xi#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XI-Alexander-II"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4154"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xi#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xi"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:37.497-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xi#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0080</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0080</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

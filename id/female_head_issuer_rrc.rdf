@@ -1,50 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/female_head_issuer_rrc">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Female Head (Republican Moneyer)</skos:prefLabel>
-        <skos:definition xml:lang="en">Symbol of Roman Republican issuing authority, c. 206-200 BCE</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/female_head_issuer_rrc#membership_4baa3e41cb521a9b5f5209645a4ab798"/>
-        <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/female_head_issuer_rrc#provenance"/>
-    </foaf:Person>
-   
-   
-   
-    
-    
-    <org:Membership rdf:about="http://nomisma.org/id/female_head_issuer_rrc#membership_4baa3e41cb521a9b5f5209645a4ab798">
-        <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
-        <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0206</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0200</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/female_head_issuer_rrc#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/female_head_issuer_rrc"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:11:54.895Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Person rdf:about="http://nomisma.org/id/female_head_issuer_rrc">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Female Head (Republican Moneyer)</skos:prefLabel>
+      <skos:definition xml:lang="en">Symbol of Roman Republican issuing authority, c. 206-200 BCE</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/female_head_issuer_rrc#membership_4baa3e41cb521a9b5f5209645a4ab798"/>
+      <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/female_head_issuer_rrc#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/female_head_issuer_rrc#membership_4baa3e41cb521a9b5f5209645a4ab798">
+      <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
+      <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0206</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0200</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/female_head_issuer_rrc#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/female_head_issuer_rrc"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:11:54.895Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

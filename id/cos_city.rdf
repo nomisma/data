@@ -1,113 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Organization rdf:about="http://nomisma.org/id/cos_city">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Cos</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Kos</skos:altLabel>
-        <skos:definition xml:lang="en">Kos or Cos (Greek: Κως [kos]) is a city on the Greek island of the same name, part of the Dodecanese island chain in the southeastern Aegean Sea.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kos"/>
-        <skos:prefLabel xml:lang="pl">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קוס</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Cos</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Cos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Kosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Coo</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Cos</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Pulau Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">コス島</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κως</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">كوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Cós</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Кос</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">İstanköy</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Кос</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Cos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Kós</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Кос</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Кос</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">科斯岛</skos:prefLabel>
-        <skos:prefLabel xml:lang="fo">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">코스섬</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Кос</skos:prefLabel>
-        <skos:prefLabel xml:lang="li">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">کوس</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">कोस</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">คอส</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">காஸ்</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">कोस</skos:prefLabel>
-        <skos:prefLabel xml:lang="te">కాస్</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">কস</skos:prefLabel>
-        <skos:prefLabel xml:lang="si">කොස්</skos:prefLabel>
-        <skos:prefLabel xml:lang="gu">કોસ</skos:prefLabel>
-        <skos:prefLabel xml:lang="kn">ಕೋಸ್</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Kosas</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Kosa</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Kos</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կոս (կղզի)</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q187027"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01kv_0"/>
-        <skos:exactMatch rdf:resource="http://www.geonames.org/8133957"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4032541-6"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/cos_city#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/cos_city#provenance"/>
-    </foaf:Organization>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/cos_city#membership_bd17e2d21cbc5a487c852bea4809dbbe">
-        <org:role rdf:resource="http://nomisma.org/id/city-state"/>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cos_city#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/cos_city"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Organization rdf:about="http://nomisma.org/id/cos_city">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Cos</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Kos</skos:altLabel>
+      <skos:definition xml:lang="en">Kos or Cos (Greek: Κως [kos]) is a city on the Greek island of the same name, part of the Dodecanese island chain in the southeastern Aegean Sea.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kos"/>
+      <skos:prefLabel xml:lang="pl">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קוס</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Cos</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Cos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Kosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Coo</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Cos</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Pulau Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">コス島</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κως</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">كوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Cós</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Кос</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">İstanköy</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Кос</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Cos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Kós</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Кос</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Кос</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">科斯岛</skos:prefLabel>
+      <skos:prefLabel xml:lang="fo">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">코스섬</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Кос</skos:prefLabel>
+      <skos:prefLabel xml:lang="li">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">کوس</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">कोस</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">คอส</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">காஸ்</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">कोस</skos:prefLabel>
+      <skos:prefLabel xml:lang="te">కాస్</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">কস</skos:prefLabel>
+      <skos:prefLabel xml:lang="si">කොස්</skos:prefLabel>
+      <skos:prefLabel xml:lang="gu">કોસ</skos:prefLabel>
+      <skos:prefLabel xml:lang="kn">ಕೋಸ್</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Kosas</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Kosa</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Kos</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կոս (կղզի)</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q187027"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01kv_0"/>
+      <skos:exactMatch rdf:resource="http://www.geonames.org/8133957"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4032541-6"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/cos_city#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/cos_city#provenance"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/cos_city#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+      <org:role rdf:resource="http://nomisma.org/id/city-state"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cos_city#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/cos_city"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

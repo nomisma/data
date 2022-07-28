@@ -1,93 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/mysia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Mysia</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Mysia as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/550759"/>
-        <skos:prefLabel xml:lang="de">Mysien</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Mysie</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Mysia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Мизия</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Mysia</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Misia</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Μυσία</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Мизия в Азия</skos:prefLabel>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Mysia"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q622319"/>
-        <skos:prefLabel xml:lang="eu">Misia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Myzja</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">미시아</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Misia</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Müüsia</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Mysia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ミュシア</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Mizija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Mysien</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ميسيا</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Mísia</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Misya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Mísia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Mysia</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Mizija</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Mysija</skos:prefLabel>
-        <skos:prefLabel xml:lang="am">ሚስያ</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Mysia</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">密细亚</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Mysia</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Мізія</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Мизија</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lnlk"/>
-        <skos:prefLabel xml:lang="he">מיסיה</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Mysien</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/mysia#provenance"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Mysia</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Mysia as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/550759"/>
+      <skos:prefLabel xml:lang="de">Mysien</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Mysie</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Mysia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Мизия</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Mysia</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Misia</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Μυσία</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Мизия в Азия</skos:prefLabel>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Mysia"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q622319"/>
+      <skos:prefLabel xml:lang="eu">Misia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Myzja</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">미시아</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Misia</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Müüsia</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Mysia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ミュシア</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Mizija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Mysien</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ميسيا</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Mísia</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Misya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Mísia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Mysia</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Mizija</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Mysija</skos:prefLabel>
+      <skos:prefLabel xml:lang="am">ሚስያ</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Mysia</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">密细亚</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Mysia</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Мізія</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Мизија</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0lnlk"/>
+      <skos:prefLabel xml:lang="he">מיסיה</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Mysien</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/mysia#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/398"/>
    </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mysia#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/mysia"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:32:44.685-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/mysia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:32:44.685-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,75 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/quinarius_aureus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Quinarius aureus</skos:prefLabel>
-        <skos:definition xml:lang="en">Roman-period gold coin.</skos:definition>
-        <nmo:hasMaterial rdf:resource="http://nomisma.org/id/av"/>
-        <skos:note>The term 'quinarius aureus' is not anciently attested.</skos:note>
-        <skos:prefLabel xml:lang="pl">Quinarius aureus</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Quinario Áureo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Quinarius aureus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Quinarius aureus</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Quinario Áureo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Квинарий Ауреус</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Quinarius aureus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Quinarius aureus</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Квінарій Ауреус</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Quinarius Aureus</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Quinario Aureo</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Quinar Aureus</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Quinarius aureus</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Quinarius aureus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Quinarius aureus</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Quinarius aureus</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2123159"/>
-        <skos:prefLabel xml:lang="da">guld quinar</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/quinarius_aureus#provenance"/>
-        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/1251"/>
-    </nmo:Denomination>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Quinarius aureus</skos:prefLabel>
+      <skos:definition xml:lang="en">Roman-period gold coin.</skos:definition>
+      <nmo:hasMaterial rdf:resource="http://nomisma.org/id/av"/>
+      <skos:note>The term 'quinarius aureus' is not anciently attested.</skos:note>
+      <skos:prefLabel xml:lang="pl">Quinarius aureus</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Quinario Áureo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Quinarius aureus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Quinarius aureus</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Quinario Áureo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Квинарий Ауреус</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Quinarius aureus</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Quinarius aureus</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Квінарій Ауреус</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Quinarius Aureus</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Quinario Aureo</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Quinar Aureus</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Quinarius aureus</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Quinarius aureus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Quinarius aureus</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Quinarius aureus</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2123159"/>
+      <skos:prefLabel xml:lang="da">guld quinar</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/quinarius_aureus#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/1251"/>
+   </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/quinarius_aureus#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/quinarius_aureus"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-16T08:04:50.518-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/quinarius_aureus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-16T08:04:50.518-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

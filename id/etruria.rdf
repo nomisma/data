@@ -1,130 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/etruria">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Etruria</skos:prefLabel>
-        <skos:definition xml:lang="en">The region of Etruria as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
-        <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
-      
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Etruria"/>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/413122"/>
-        <geo:location rdf:resource="http://nomisma.org/id/etruria#this"/>
-      
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:exactMatch rdf:resource="http://sws.geonames.org/6695373/"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x46026"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7024113"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q206730"/>
-        <skos:prefLabel xml:lang="pl">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">에트루리아</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Étrurie</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אטרוריה</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Этрурыя</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Etrúria</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Etrurien</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">エトルリア</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Τυρρηνία</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">إتروريا</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Etrurië</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Etrúría</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Этрурия</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Etrúria</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="co">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Етрурія</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Етрурия</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">اتروریا</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ეტრურია</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Etrurien</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Етрурија</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">伊特鲁里亚</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Etruriya</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Etrúria</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Etruria</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Etrúria</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Etrürya</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0jm1d"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/etruria#provenance"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/greek_italy"/>
-    </nmo:Region>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Etruria</skos:prefLabel>
+      <skos:definition xml:lang="en">The region of Etruria as defined in B.V. Head, Historia Numorum (2nd ed., Oxford, 1911).</skos:definition>
+      <dcterms:source rdf:resource="http://nomisma.org/id/head_1911"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Etruria"/>
+      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/413122"/>
+      <geo:location rdf:resource="http://nomisma.org/id/etruria#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:exactMatch rdf:resource="http://sws.geonames.org/6695373/"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x46026"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7024113"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q206730"/>
+      <skos:prefLabel xml:lang="pl">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">에트루리아</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Étrurie</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אטרוריה</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Этрурыя</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Etrúria</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Etrurien</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">エトルリア</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Τυρρηνία</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">إتروريا</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Etrurië</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Etrúría</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Этрурия</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Etrúria</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="co">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Етрурія</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Етрурия</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">اتروریا</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ეტრურია</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Etrurien</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Етрурија</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">伊特鲁里亚</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Etruriya</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Etrúria</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Etruria</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Etrúria</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Etrürya</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0jm1d"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/etruria#provenance"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/greek_italy"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/484"/>
+   </nmo:Region>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/etruria#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.8759641</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.6125488</geo:long>
-        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
-      
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_italy#this"/>
-    </geo:SpatialThing>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.8759641</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.6125488</geo:long>
+      <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_italy#this"/>
+   </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/etruria#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/etruria"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T08:12:17.365-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:57:35.388-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/etruria"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T08:12:17.365-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T09:57:35.388-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

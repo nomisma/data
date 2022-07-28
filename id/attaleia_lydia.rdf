@@ -1,159 +1,161 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/attaleia_lydia">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        
-        <skos:prefLabel xml:lang="en">Attaleia</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint at the ancient site of Attaleia in Lydia.</skos:definition>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/550472"/>
-        <geo:location rdf:resource="http://nomisma.org/id/attaleia_lydia#this"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/lydia"/>
-        <skos:altLabel xml:lang="en">Attaleia</skos:altLabel>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/299458/"/>
-        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x47019"/>
-        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002378"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Antalya"/>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q6487"/>
-        <skos:prefLabel xml:lang="ab">Анҭалиа</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أنطاليا</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Горад Анталья</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Анталия</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Antalija</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αττάλεια</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آنتالیا</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אנטליה</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Adalia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アンタルヤ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ანთალია</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Анталия</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">안탈리아</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Attalea</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Antalija</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Antalja</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Анталија</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">अंताल्या</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="os">Анталья</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Antália</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Анталья</skos:prefLabel>
-        <skos:prefLabel xml:lang="rw">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Анталија</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="sw">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Анталья</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="wo">Atali</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">安塔利亚</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Анталья</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">انطالیہ</skos:prefLabel>
-        <skos:prefLabel xml:lang="av">Анталия</skos:prefLabel>
-        <skos:prefLabel xml:lang="tw">Antalya</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Antaliya</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Անթալիա</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Анталья</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/01_hhp"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/323777/"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4079795-8"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/137253070"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/attaleia_lydia#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Attaleia</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint at the ancient site of Attaleia in Lydia.</skos:definition>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/550472"/>
+      <geo:location rdf:resource="http://nomisma.org/id/attaleia_lydia#this"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/lydia"/>
+      <skos:altLabel xml:lang="en">Attaleia</skos:altLabel>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/299458/"/>
+      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x47019"/>
+      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002378"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Antalya"/>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q6487"/>
+      <skos:prefLabel xml:lang="ab">Анҭалиа</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أنطاليا</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Горад Анталья</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Анталия</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Antalija</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αττάλεια</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آنتالیا</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אנטליה</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Adalia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アンタルヤ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ანთალია</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Анталия</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">안탈리아</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Attalea</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Antalija</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Antalja</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Анталија</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">अंताल्या</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="os">Анталья</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Antália</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Анталья</skos:prefLabel>
+      <skos:prefLabel xml:lang="rw">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Анталија</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="sw">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Анталья</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="wo">Atali</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">安塔利亚</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Анталья</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">انطالیہ</skos:prefLabel>
+      <skos:prefLabel xml:lang="av">Анталия</skos:prefLabel>
+      <skos:prefLabel xml:lang="tw">Antalya</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Antaliya</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Անթալիա</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Анталья</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/01_hhp"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/323777/"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4079795-8"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/137253070"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/attaleia_lydia#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/1723"/>
+   </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/attaleia_lydia#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.25</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.75</geo:long>
-        <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/lydia#this"/>
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.25</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.75</geo:long>
+      <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/lydia#this"/>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/attaleia_lydia#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/attaleia_lydia"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-26T10:30:47.432-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/attaleia_lydia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-26T10:30:47.432-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,85 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/hyria_apulia">
-        <skos:prefLabel xml:lang="en">Hyria, Orra</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The mint at the ancient site of Hyria (Orra or Oria) in southern Apulia.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/hyria_apulia#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/apulia"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/442616"/>
-        <geo:location rdf:resource="http://nomisma.org/id/hyria_apulia#this"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q51871"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Oria,_Apulia"/>
-        <skos:prefLabel xml:lang="it">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">أوريا</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Орыя, Італія</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Ория</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">オーリア</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Uria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Oria, Apulia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Ория</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Oria, Italija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Орія</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">奥里亚</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Օրիա</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">اوریا</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אוריה</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Oria</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Ория</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/09q34_"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/6540026"/>
-        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb121155561"/>
-    </nmo:Mint>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hyria_apulia#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/hyria_apulia"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T06:53:46.758-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/hyria_apulia#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.882097</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.830385</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/apulia#this"/>
-    </geo:SpatialThing>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/hyria_apulia">
+      <skos:prefLabel xml:lang="en">Hyria, Orra</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The mint at the ancient site of Hyria (Orra or Oria) in southern Apulia.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/hyria_apulia#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/apulia"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/442616"/>
+      <geo:location rdf:resource="http://nomisma.org/id/hyria_apulia#this"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q51871"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Oria,_Apulia"/>
+      <skos:prefLabel xml:lang="it">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">أوريا</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Орыя, Італія</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Ория</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">オーリア</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Uria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Oria, Apulia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Ория</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Oria, Italija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Орія</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">奥里亚</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Օրիա</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">اوریا</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אוריה</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Oria</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Ория</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/09q34_"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/6540026"/>
+      <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb121155561"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/2419"/>
+   </nmo:Mint>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hyria_apulia#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/hyria_apulia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T06:53:46.758-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/hyria_apulia#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.882097</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.830385</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/apulia#this"/>
+   </geo:SpatialThing>
 </rdf:RDF>

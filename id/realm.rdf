@@ -1,90 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <org:Role rdf:about="http://nomisma.org/id/realm">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Realm</skos:prefLabel>
-        <skos:broader rdf:resource="http://nomisma.org/id/state"/>
-        <skos:definition xml:lang="en">A realm is a community or territory over which a sovereign rules. The term is commonly used to describe a kingdom or other monarchical or dynastic state. A realm may also be a subdivision within an empire, if it has its own monarch, e.g. the German Empire.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Realm"/>
-        <skos:prefLabel xml:lang="wa">Rweyåme</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">royaume</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Königreich</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">レルム</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">království</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">vương quốc</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Kraljevina</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Kraljevina</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Kráľovstvo</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ราชอาณาจักร</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">reino</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">reialme</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">владение</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Koninkryk</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">koninkrijk</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">królestwo</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Kraljevina</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">rouantelezh</skos:prefLabel>
-        <skos:prefLabel xml:lang="gn">Tavetã</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">каралеўства</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">краљевство</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">regat</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">regno</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">reĝlando</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">кралство</skos:prefLabel>
-        <skos:prefLabel xml:lang="ht">Wayòm</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">regne</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">krallık</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مملكة</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">왕국</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">βασίλειο</skos:prefLabel>
-        <skos:prefLabel xml:lang="tg">моликият</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">àkóso</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">kongerige</skos:prefLabel>
-        <skos:prefLabel xml:lang="ba">биләмә</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">erresuma</skos:prefLabel>
-        <skos:prefLabel xml:lang="so">Boqortooyo</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">ranah</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">rike</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">valdījums</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">teyrnas</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">királyság</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">səltənət</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">flaitheas</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">reino</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">قلمرو</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1250464"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4164383-5"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0dw8k8"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/realm#provenance"/>
-    </org:Role>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/realm#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/realm"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T14:16:15.789-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1PA7jLe-ILB8V-hx7uNGBUfRGBwU8DBT_yKjPvIF-5V0/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <org:Role rdf:about="http://nomisma.org/id/realm">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Realm</skos:prefLabel>
+      <skos:broader rdf:resource="http://nomisma.org/id/state"/>
+      <skos:definition xml:lang="en">A realm is a community or territory over which a sovereign rules. The term is commonly used to describe a kingdom or other monarchical or dynastic state. A realm may also be a subdivision within an empire, if it has its own monarch, e.g. the German Empire.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Realm"/>
+      <skos:prefLabel xml:lang="wa">Rweyåme</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">royaume</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Königreich</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">レルム</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">království</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">vương quốc</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Kraljevina</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Kraljevina</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Kráľovstvo</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ราชอาณาจักร</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">reino</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">reialme</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">владение</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Koninkryk</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">koninkrijk</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">królestwo</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Kraljevina</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">rouantelezh</skos:prefLabel>
+      <skos:prefLabel xml:lang="gn">Tavetã</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">каралеўства</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">краљевство</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">regat</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">regno</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">reĝlando</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">кралство</skos:prefLabel>
+      <skos:prefLabel xml:lang="ht">Wayòm</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">regne</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">krallık</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مملكة</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">왕국</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">βασίλειο</skos:prefLabel>
+      <skos:prefLabel xml:lang="tg">моликият</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">àkóso</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">kongerige</skos:prefLabel>
+      <skos:prefLabel xml:lang="ba">биләмә</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">erresuma</skos:prefLabel>
+      <skos:prefLabel xml:lang="so">Boqortooyo</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">ranah</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">rike</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">valdījums</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">teyrnas</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">királyság</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">səltənət</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">flaitheas</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">reino</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">قلمرو</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1250464"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4164383-5"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0dw8k8"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/realm#provenance"/>
+   </org:Role>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/realm#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/realm"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T14:16:15.789-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1PA7jLe-ILB8V-hx7uNGBUfRGBwU8DBT_yKjPvIF-5V0/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

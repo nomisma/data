@@ -1,77 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Collection rdf:about="http://nomisma.org/id/uni_rostock">
-        <skos:definition xml:lang="de">Das akademische Münzkabinett der Universität Rostock wurde 1794 auf Betreiben des bedeutenden Orientalisten Oluf Gerhard Tychsen (1734–1815) und Herzog Friedrich Franz II. von Mecklenburg-Schwerin gegründet. Durch den Nachlass Tychsens und zahlreiche Ankäufe konnte der Bibliothekar Baron Erhard von Nettelbladt (1792–1863) die Münzsammlung von 6.500 auf 27.000 Nummern erweitern. Bestandsbereinigungen und Kriegsverluste führten dazu, dass das Münzkabinett 1944 offiziell aufgelöst und der Bestand der antiken, byzantinischen und orientalischen, teilweise auch der neuzeitlichen Münzen der Archäologischen Sammlung der Universität Rostock zugeordnet wurde.
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Collection rdf:about="http://nomisma.org/id/uni_rostock">
+      <skos:definition xml:lang="de">Das akademische Münzkabinett der Universität Rostock wurde 1794 auf Betreiben des bedeutenden Orientalisten Oluf Gerhard Tychsen (1734–1815) und Herzog Friedrich Franz II. von Mecklenburg-Schwerin gegründet. Durch den Nachlass Tychsens und zahlreiche Ankäufe konnte der Bibliothekar Baron Erhard von Nettelbladt (1792–1863) die Münzsammlung von 6.500 auf 27.000 Nummern erweitern. Bestandsbereinigungen und Kriegsverluste führten dazu, dass das Münzkabinett 1944 offiziell aufgelöst und der Bestand der antiken, byzantinischen und orientalischen, teilweise auch der neuzeitlichen Münzen der Archäologischen Sammlung der Universität Rostock zugeordnet wurde.
 Die Archäologische Sammlung der Universität Rostock ist am Heinrich-Schliemann-Institut für Alter-tumswissenschaften situiert. Es handelt sich um eine typische universitäre Studiensammlung, die insbesondere für den akademischen Unterricht genutzt wird, jedoch auch einmal in der Woche öffentlich zugänglich ist. Die Sammlung umfasst nebst den Münzen vor allem Kleinfunde der ägypti-schen, griechischen und römischen Antike sowie Abgüsse von griechischen und römischen Skulptu-ren. 2008 konnten die Bestände der Antikensammlung Greifswald als Dauerleihgabe in die Rostocker Sammlung integriert werden.
 Die Münzsammlung umfasst zum gegenwärtigen Zeitpunkt rund 4.000 antike und byzantinische, 800 orientalische und 4.500 neuzeitliche Münzen. Dazu kommt eine kleine, aber besonders wichtige Sammlung von Fischleimabdrücken islamischer Münzen aus der Zeit Tychsens. Ein kleiner Teil der Münzsammlung ist in die Dauerausstellung der Archäologischen Sammlung des Heinrich-Schliemann-Instituts integriert. Die magazinierten Bestände werden vor allem auch zu Studienzwecken genutzt. Sie bieten die Möglichkeit, die Arbeitsmethoden der Numismatik im universitären Unterricht direkt am Objekt anzuwenden und einzuüben. Darüber hinaus werden die Münzen auch für Workshops der AG Schule &amp; Museum verwendet.
 Wissenschaftlich aufgearbeitet ist bisher nur der Bestand der römischen und byzantinischen Münzen. Diese wurden von Silke Burmeister 1999 vorgelegt. In einem ersten Arbeitsschritt werden seit 2019 rund 900 griechische und römische Münzen in NUMiD eingepflegt.</skos:definition>
-        <skos:prefLabel xml:lang="en">The Academic Coin Cabinet of the Archaeological Collection of Rostock University</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Das Akademische Münzkabinett in der Archäologischen Sammlung des Heinrich-Schliemann-Instituts für Altertumswissenschaften der Universität Rostock</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The Academic Coin Cabinet of the University of Rostock was founded in the year 1794, at the instigation of the outstanding orientalist Oluf Gerhard Tychsen (1734–1815) and the Grand Duke of Mecklenburg-Schwerin, Friedrich Franz II. Thanks to the legacy built by Tychsen, complemented with numerous later acquisitions, Baron Erhard von Nettelbladt (1792–1663), responsible for the Cabinet as the librarian of the University, was able to enlarge the collection from 6’500 to no less than 27’000 entries. Several inventory settlements and many losses caused by World War II resulted in the dissolution of the Coin Cabinet in 1944. Consequently, the section containing the Ancient, Byzantine and Oriental coins, as well as a number of modern coins, were assigned to the corpus of the Archaeological Collection of Rostock University.
+      <skos:prefLabel xml:lang="en">The Academic Coin Cabinet of the Archaeological Collection of Rostock University</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Das Akademische Münzkabinett in der Archäologischen Sammlung des Heinrich-Schliemann-Instituts für Altertumswissenschaften der Universität Rostock</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The Academic Coin Cabinet of the University of Rostock was founded in the year 1794, at the instigation of the outstanding orientalist Oluf Gerhard Tychsen (1734–1815) and the Grand Duke of Mecklenburg-Schwerin, Friedrich Franz II. Thanks to the legacy built by Tychsen, complemented with numerous later acquisitions, Baron Erhard von Nettelbladt (1792–1663), responsible for the Cabinet as the librarian of the University, was able to enlarge the collection from 6’500 to no less than 27’000 entries. Several inventory settlements and many losses caused by World War II resulted in the dissolution of the Coin Cabinet in 1944. Consequently, the section containing the Ancient, Byzantine and Oriental coins, as well as a number of modern coins, were assigned to the corpus of the Archaeological Collection of Rostock University.
 The Archaeological Collection of Rostock University has its seat at the Heinrich-Schliemann-Institute for Ancient Studies. It can be described as a typical academic research and study collection, mostly used for academic teaching. Moreover, there are permanent exhibition rooms, opened to the public once per week. Apart from the coins, the collection contains archaeological objects of the Egyptian, Greek and Roman periods, as well as a number of plaster casts of Greek and Roman sculptures. In 2008 the collection was significantly increased, as the inventory of the Collection of Antiquities of Greifswald University was added, which by that time was given over as a permanent loan.
 To date, the collection of coins consists of c. 4’000 Ancient and Byzantine, c. 800 Oriental and c. 4’500 modern coins and medals. In addition, there is a small but rather important collection of fish glue casts taken in the time of Tychsen from a number of Islamic coins. A small part of the coin collection is integrated into the permanent collection open to the public. The coins kept in the deposit are mainly used for academic teaching. They offer the opportunity to learn and practice the methods of numismatics by using original objects. Furthermore, the coins are regularly used in the context of workshops held by the working group ‘School &amp; Museum’.
 Up to date, only the Roman and Byzantine coins have been investigated scientifically. These coins were published by Silke Burmeister in 1999. Since 2019 we are adding, to begin with, the data of c. 900 Greek and Roman coins to the NUMiD database. More will follow.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <foaf:homepage rdf:resource="https://numid.uni-rostock.de"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/uni_rostock#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-        <foaf:thumbnail rdf:resource="https://www.uni-rostock.de/typo3temp/assets/_processed_/1/e/csm_rostock_logo_0afd2db082.png"/>
-        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-136629"/>
-    </nmo:Collection>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni_rostock#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/uni_rostock"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-09T02:02:17.394-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-09T02:09:40.312-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-16T21:49:41.374-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-19T04:48:30.047-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <foaf:homepage rdf:resource="https://numid.uni-rostock.de"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/uni_rostock#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+      <foaf:thumbnail rdf:resource="https://www.uni-rostock.de/typo3temp/assets/_processed_/1/e/csm_rostock_logo_0afd2db082.png"/>
+      <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-136629"/>
+   </nmo:Collection>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni_rostock#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/uni_rostock"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-09T02:02:17.394-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-09T02:09:40.312-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-16T21:49:41.374-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-19T04:48:30.047-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,58 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Mint rdf:about="http://nomisma.org/id/norba">
-        <skos:prefLabel xml:lang="en">Norba</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The mint at the ancient site of Norba in Latium.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/norba#provenance"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/latium"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/422987"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q2026618"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Norba"/>
-        <skos:prefLabel xml:lang="de">Norba</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Norba</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Норба</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Norba</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Norba</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Norba</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Norba</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ノルバ</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0726kp"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/3172204"/>
-        <geo:location rdf:resource="http://nomisma.org/id/norba#this"/>
-    </nmo:Mint>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/norba#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/norba"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-29T17:10:39.191-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/norba#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.5922476</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.9623334</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/latium#this"/>
-    </geo:SpatialThing>
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <nmo:Mint rdf:about="http://nomisma.org/id/norba">
+      <skos:prefLabel xml:lang="en">Norba</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The mint at the ancient site of Norba in Latium.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/norba#provenance"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/latium"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/422987"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q2026618"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Norba"/>
+      <skos:prefLabel xml:lang="de">Norba</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Norba</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Норба</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Norba</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Norba</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Norba</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Norba</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ノルバ</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0726kp"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/3172204"/>
+      <geo:location rdf:resource="http://nomisma.org/id/norba#this"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/2887"/>
+   </nmo:Mint>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/norba#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/norba"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-29T17:10:39.191-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/norba#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.5922476</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.9623334</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/latium#this"/>
+   </geo:SpatialThing>
 </rdf:RDF>

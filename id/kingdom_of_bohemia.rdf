@@ -1,112 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Organization rdf:about="http://nomisma.org/id/kingdom_of_bohemia">
-        <skos:prefLabel xml:lang="en">Kingdom of Bohemia</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The Kingdom of Bohemia was established in 1198. It became a part of the Habsburg empire in 1526 and was dissolved in 1918.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/kingdom_of_bohemia#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q42585"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kingdom_of_Bohemia"/>
-        <skos:prefLabel xml:lang="zh">波希米亞王國</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Królestwo Czech</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Bohemiako Erresuma</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">보헤미아 왕국</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Каралеўства Багемія</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">royaume de Bohême</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Reino de Bohemia</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Reiaume de Boèmia</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Regno di Boemia</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Reino de Bohemia</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Tšehhi kuningriik</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Kerajaan Bohemia</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Βασίλειο της Βοημίας</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Koninkrijk Bohemen</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مملكة بوهيميا</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Kungariket Böhmen</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Reino da Boémia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">České kráľovstvo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Королевство Богемия</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Bohemya Krallığı</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Regatul Boemiei</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ราชอาณาจักรโบฮีเมีย</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Королівство Богемія</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">České království</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ბოჰემიის სამეფო</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Bohemiya krallığı</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Čekijos karalystė</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Reino de Bohemia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پادشاهی بوهم</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Reialme de Bohèmia</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Kongeriket Böhmen</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Краљевина Бохемија</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Cseh Királyság</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Kraljevina Češka</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Königreich Böhmen</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Reĝlando Bohemio</skos:prefLabel>
-        <skos:prefLabel xml:lang="ps">بوهمیایي واکمني</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Բոհեմիայի թագավորություն</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Ríocht na Boihéime</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Кралство Чешка</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Kraljevina Bohemija</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">ממלכת בוהמיה</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Kraljevina Češka</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Бохемско кралство</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Böömin kuningaskunta</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ボヘミア王国 (神聖ローマ帝国)</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Vương quốc Bohemia</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Kongeriget Böhmen</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Rìoghachd Bohemia</skos:prefLabel>
-        <skos:prefLabel xml:lang="tt">Боһемия кыйраллыгы</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Brenhiniaeth Bohemia</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Bohēmijas karaliste</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">बोहेमिया का साम्राज्य</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Regnum Bohemiae</skos:prefLabel>
-        <skos:prefLabel xml:lang="te">కింగ్డమ్ అఫ్ బొహేమియా</skos:prefLabel>
-        <skos:prefLabel xml:lang="ba">Богемия короллеге</skos:prefLabel>
-        <skos:prefLabel xml:lang="os">Богемийы къаролад</skos:prefLabel>
-        <skos:prefLabel xml:lang="su">Karajaan Bohémia</skos:prefLabel>
-        <skos:prefLabel xml:lang="gv">Reeriaght Bohemia</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0410vqb"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4007467-5"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-    </foaf:Organization>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/kingdom_of_bohemia#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/kingdom_of_bohemia"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T03:50:04.419Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T04:10:17.292Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Organization rdf:about="http://nomisma.org/id/kingdom_of_bohemia">
+      <skos:prefLabel xml:lang="en">Kingdom of Bohemia</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">The Kingdom of Bohemia was established in 1198. It became a part of the Habsburg empire in 1526 and was dissolved in 1918.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/kingdom_of_bohemia#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q42585"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kingdom_of_Bohemia"/>
+      <skos:prefLabel xml:lang="zh">波希米亞王國</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Królestwo Czech</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Bohemiako Erresuma</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">보헤미아 왕국</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Каралеўства Багемія</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">royaume de Bohême</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Reino de Bohemia</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Reiaume de Boèmia</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Regno di Boemia</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Reino de Bohemia</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Tšehhi kuningriik</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Kerajaan Bohemia</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Βασίλειο της Βοημίας</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Koninkrijk Bohemen</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مملكة بوهيميا</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Kungariket Böhmen</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Reino da Boémia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">České kráľovstvo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Королевство Богемия</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Bohemya Krallığı</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Regatul Boemiei</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ราชอาณาจักรโบฮีเมีย</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Королівство Богемія</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">České království</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ბოჰემიის სამეფო</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Bohemiya krallığı</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Čekijos karalystė</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Reino de Bohemia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پادشاهی بوهم</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Reialme de Bohèmia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Kongeriket Böhmen</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Краљевина Бохемија</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Cseh Királyság</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Kraljevina Češka</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Königreich Böhmen</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Reĝlando Bohemio</skos:prefLabel>
+      <skos:prefLabel xml:lang="ps">بوهمیایي واکمني</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Բոհեմիայի թագավորություն</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Ríocht na Boihéime</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Кралство Чешка</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Kraljevina Bohemija</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">ממלכת בוהמיה</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Kraljevina Češka</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Бохемско кралство</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Böömin kuningaskunta</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ボヘミア王国 (神聖ローマ帝国)</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Vương quốc Bohemia</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Kongeriget Böhmen</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Rìoghachd Bohemia</skos:prefLabel>
+      <skos:prefLabel xml:lang="tt">Боһемия кыйраллыгы</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Brenhiniaeth Bohemia</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Bohēmijas karaliste</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">बोहेमिया का साम्राज्य</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Regnum Bohemiae</skos:prefLabel>
+      <skos:prefLabel xml:lang="te">కింగ్డమ్ అఫ్ బొహేమియా</skos:prefLabel>
+      <skos:prefLabel xml:lang="ba">Богемия короллеге</skos:prefLabel>
+      <skos:prefLabel xml:lang="os">Богемийы къаролад</skos:prefLabel>
+      <skos:prefLabel xml:lang="su">Karajaan Bohémia</skos:prefLabel>
+      <skos:prefLabel xml:lang="gv">Reeriaght Bohemia</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0410vqb"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4007467-5"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+   </foaf:Organization>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/kingdom_of_bohemia#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/kingdom_of_bohemia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T03:50:04.419Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T04:10:17.292Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,133 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <nmo:Mint rdf:about="http://nomisma.org/id/zug">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Zug</skos:prefLabel>
-        <skos:definition xml:lang="en">The mint(s) in Zug, the capital of the canton of Zug in Switzerland. Coinage in Zug begun comparatively late and lasted from 1564 until 1805.</skos:definition>
-        <skos:prefLabel xml:lang="zh">楚格</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="gd">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="vo">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Zugo</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Цуг</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Цуг</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Цуг</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="rm">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Цуг</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Zoug</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Горад Цуг</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">추크</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Zugo</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">ツーク</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Tugium</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Цуг</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">زوگ</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Cugas</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="ce">Цуг</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">زوغ</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">צוג</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Τσουγκ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">تسوگ</skos:prefLabel>
-        <skos:prefLabel xml:lang="cv">Цуг</skos:prefLabel>
-        <skos:prefLabel xml:lang="ie">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Цуг</skos:prefLabel>
-        <skos:prefLabel xml:lang="ga">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Cūga</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Zug</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ซูค</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Zug</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q68144"/>
-        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4068063-0"/>
-        <skos:closeMatch rdf:resource="https://www.freebase.com/m/0g1rd"/>
-        <skos:closeMatch rdf:resource="http://sws.geonames.org/7287644/"/>
-        <skos:closeMatch rdf:resource="http://isni.org/0000000405313970"/>
-        <geo:location rdf:resource="http://nomisma.org/id/zug#this"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/zug#provenance"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1564</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1805</nmo:hasEndDate>
-        <skos:prefLabel xml:lang="hy">Ցուգ (քաղաք)</skos:prefLabel>
-        <skos:closeMatch rdf:resource="http://www.geonames.org/7287644"/>
-        <skos:closeMatch rdf:resource="http://viaf.org/viaf/124305015"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-    </nmo:Mint>
-   
-   
-   
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/zug#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.169167</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.516389</geo:long>
-    </geo:SpatialThing>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/zug#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/zug"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:18:18.91-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-13T09:11:09.977-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+   <nmo:Mint rdf:about="http://nomisma.org/id/zug">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Zug</skos:prefLabel>
+      <skos:definition xml:lang="en">The mint(s) in Zug, the capital of the canton of Zug in Switzerland. Coinage in Zug begun comparatively late and lasted from 1564 until 1805.</skos:definition>
+      <skos:prefLabel xml:lang="zh">楚格</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="gd">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="vo">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Zugo</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Цуг</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Цуг</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Цуг</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="rm">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Цуг</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Zoug</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Горад Цуг</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">추크</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Zugo</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">ツーク</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Tugium</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Цуг</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">زوگ</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Cugas</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="ce">Цуг</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">زوغ</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">צוג</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Τσουγκ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">تسوگ</skos:prefLabel>
+      <skos:prefLabel xml:lang="cv">Цуг</skos:prefLabel>
+      <skos:prefLabel xml:lang="ie">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Цуг</skos:prefLabel>
+      <skos:prefLabel xml:lang="ga">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Cūga</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Zug</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ซูค</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Zug</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q68144"/>
+      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4068063-0"/>
+      <skos:closeMatch rdf:resource="https://www.freebase.com/m/0g1rd"/>
+      <skos:closeMatch rdf:resource="http://sws.geonames.org/7287644/"/>
+      <skos:closeMatch rdf:resource="http://isni.org/0000000405313970"/>
+      <geo:location rdf:resource="http://nomisma.org/id/zug#this"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/zug#provenance"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1564</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1805</nmo:hasEndDate>
+      <skos:prefLabel xml:lang="hy">Ցուգ (քաղաք)</skos:prefLabel>
+      <skos:closeMatch rdf:resource="http://www.geonames.org/7287644"/>
+      <skos:closeMatch rdf:resource="http://viaf.org/viaf/124305015"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+   </nmo:Mint>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/zug#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.169167</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.516389</geo:long>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/zug#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/zug"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-05T15:18:18.91-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-13T09:11:09.977-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-19T14:26:46.87-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/10GxHkUcy51yPUSxNMckwjn-mYwxY12UsTOkK7D3_v8k/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

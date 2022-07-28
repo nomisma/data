@@ -1,118 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Organization rdf:about="http://nomisma.org/id/aetolian_league">
-        <skos:scopeNote xml:lang="en">This concept, previously designated as a mint, should not be confused with the mint of Thermum in Aetolia.</skos:scopeNote>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Aetolian League</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Lliga Etòlia</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Aitolischer Bund</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Етолійський союз</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">埃托利亚同盟</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Aitólský spolek</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Aitolian liitto</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ligue étolienne</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Aitoliska förbundet</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Aetolische Bond</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Liga Etolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Związek Etolski</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Liga Etólia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アエトリア同盟</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Lega etolica</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Этолийский союз</skos:prefLabel>
-        <skos:definition xml:lang="en">The Aetolian League was a confederation of tribal communities and cities in ancient Greece centered in Aetolia in central Greece.</skos:definition>
-      
-      
-      
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/aetolian_league#provenance"/>
-        <skos:altLabel xml:lang="en">Aitolian League</skos:altLabel>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q245273"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aetolian_League"/>
-        <skos:prefLabel xml:lang="eu">Etoliar Liga</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Эталійскі саюз</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">הליגה האיטולית</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Liga etolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Liga Aitolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αιτωλική Συμπολιτεία</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Etolski savez</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Aitólsky spolok</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Этолийн холбоо</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Liga Etoliană</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Foedus Aetolicum</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Cynghrair Aetolia</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Етолийски съюз</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Етолски савез</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">아이톨리아 동맹</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Этолия Одағы</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Aitól Szövetség</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Etolska zveza</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">الاتحاد الأيتوليي</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Aitoolia liit</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ეტოლიის კავშირი</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02z6r8"/>
-        
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q245273"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/aetolian_league#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
-    </foaf:Organization>
+      <skos:scopeNote xml:lang="en">This concept, previously designated as a mint, should not be confused with the mint of Thermum in Aetolia.</skos:scopeNote>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Aetolian League</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Lliga Etòlia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Aitolischer Bund</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Етолійський союз</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">埃托利亚同盟</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Aitólský spolek</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Aitolian liitto</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ligue étolienne</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Aitoliska förbundet</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Aetolische Bond</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Liga Etolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Związek Etolski</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Liga Etólia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アエトリア同盟</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Lega etolica</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Этолийский союз</skos:prefLabel>
+      <skos:definition xml:lang="en">The Aetolian League was a confederation of tribal communities and cities in ancient Greece centered in Aetolia in central Greece.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/aetolian_league#provenance"/>
+      <skos:altLabel xml:lang="en">Aitolian League</skos:altLabel>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q245273"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aetolian_League"/>
+      <skos:prefLabel xml:lang="eu">Etoliar Liga</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Эталійскі саюз</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">הליגה האיטולית</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Liga etolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Liga Aitolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αιτωλική Συμπολιτεία</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Etolski savez</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Aitólsky spolok</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Этолийн холбоо</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Liga Etoliană</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Foedus Aetolicum</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Cynghrair Aetolia</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Етолийски съюз</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Етолски савез</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">아이톨리아 동맹</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Этолия Одағы</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Aitól Szövetség</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Etolska zveza</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">الاتحاد الأيتوليي</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Aitoolia liit</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ეტოლიის კავშირი</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02z6r8"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q245273"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/aetolian_league#membership_bd17e2d21cbc5a487c852bea4809dbbe"/>
+   </foaf:Organization>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/aetolian_league#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/aetolian_league"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T09:14:38.904-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    
-    <org:Membership rdf:about="http://nomisma.org/id/aetolian_league#membership_bd17e2d21cbc5a487c852bea4809dbbe">
-        <org:role rdf:resource="http://nomisma.org/id/league"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0367</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0188</nmo:hasEndDate>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/aetolian_league"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T09:14:38.904-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:04:26.745-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1xxK_8t8E3J1YTpV-Ahh9x8SnDo-ga4FVDItWYXTP-MU/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/aetolian_league#membership_bd17e2d21cbc5a487c852bea4809dbbe">
+      <org:role rdf:resource="http://nomisma.org/id/league"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0367</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0188</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

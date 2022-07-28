@@ -1,69 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/maues_saka">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Maues</skos:prefLabel>
-        <skos:definition xml:lang="en">Maues was the first Indo-Scythian king, ruling from 98/85 to 60/57 B.C. He invaded India and established Saka hegemony by conquering Indo-Greek territories. Maues issued joint coins mentioning a queen Machene ("ΜΑΧΗΝΗ"). Machene may have been a daughter of one of the Indo-Greek houses. An Indo-Greek king, Artemidoros, also issued coins where he describes himself as "Son of Maues".</skos:definition>
-        <skos:prefLabel xml:lang="pt">Maues</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Maues</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Maues</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Maues</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Maues</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Maues</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Maues</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Maues</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Maues</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Moga indoszkíta király</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Мауес</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">মাউয়েস</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">マウエス</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Маую</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">मेउस</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">موگه (شاه)</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">茂斯</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1911068"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04xg10"/>
-        <skos:altLabel xml:lang="en">Maues</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/maues_saka#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Maues"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/maues_saka#provenance"/>
-    </foaf:Person>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/maues_saka#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0085</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0060</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/maues_saka#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/maues_saka"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Person rdf:about="http://nomisma.org/id/maues_saka">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Maues</skos:prefLabel>
+      <skos:definition xml:lang="en">Maues was the first Indo-Scythian king, ruling from 98/85 to 60/57 B.C. He invaded India and established Saka hegemony by conquering Indo-Greek territories. Maues issued joint coins mentioning a queen Machene ("ΜΑΧΗΝΗ"). Machene may have been a daughter of one of the Indo-Greek houses. An Indo-Greek king, Artemidoros, also issued coins where he describes himself as "Son of Maues".</skos:definition>
+      <skos:prefLabel xml:lang="pt">Maues</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Maues</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Maues</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Maues</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Maues</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Maues</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Maues</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Maues</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Maues</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Moga indoszkíta király</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Мауес</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">মাউয়েস</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">マウエス</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Маую</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">मेउस</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">موگه (شاه)</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">茂斯</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1911068"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/04xg10"/>
+      <skos:altLabel xml:lang="en">Maues</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/maues_saka#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Maues"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/maues_saka#provenance"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/maues_saka#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/bactrian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0085</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0060</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/maues_saka#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/maues_saka"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

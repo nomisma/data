@@ -1,77 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/artaxias_iii">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Artaxias III of Armenia</skos:prefLabel>
-        <skos:definition xml:lang="en">Artaxias III, also known as Zeno-Artaxias, Artaxes or Artashes was a prince of the Bosporan, Pontus, Cilicia, Cappadocia and Roman Client King of Armenia.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Artaxias_III"/>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1280736"/>
-        <skos:prefLabel xml:lang="pt">Artaxias III</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Artakses III</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Artaxias III Zénon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Арташес III</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Artaksija III</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Զենոն-Արտաշես</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Artaxes III d'Armènia</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Artaxias III d'Armenia</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Artaxias III</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Artaxias III</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">آرتاشز سوم</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/06jcr5"/>
-        <skos:prefLabel xml:lang="ka">არტაშეს III</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Artaxias III</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Artakses III</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">III. Artaxias</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/artaxias_iii#provenance"/>
-        <org:memberOf rdf:resource="http://nomisma.org/id/artaxiad_dynasty"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/artaxias_iii#membership_50a4e9fe9d04ddd04d5aecb60f13c2d0"/>
-        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/artaxias-e202070"/>
-    </foaf:Person>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Artaxias III of Armenia</skos:prefLabel>
+      <skos:definition xml:lang="en">Artaxias III, also known as Zeno-Artaxias, Artaxes or Artashes was a prince of the Bosporan, Pontus, Cilicia, Cappadocia and Roman Client King of Armenia.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Artaxias_III"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1280736"/>
+      <skos:prefLabel xml:lang="pt">Artaxias III</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Artakses III</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Artaxias III Zénon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Арташес III</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Artaksija III</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Զենոն-Արտաշես</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Artaxes III d'Armènia</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Artaxias III d'Armenia</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Artaxias III</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Artaxias III</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">آرتاشز سوم</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/06jcr5"/>
+      <skos:prefLabel xml:lang="ka">არტაშეს III</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Artaxias III</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Artakses III</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">III. Artaxias</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/artaxias_iii#provenance"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/artaxiad_dynasty"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/artaxias_iii#membership_50a4e9fe9d04ddd04d5aecb60f13c2d0"/>
+      <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/artaxias-e202070"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/349"/>
+   </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/artaxias_iii#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/artaxias_iii"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-10T13:42:58.694-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/artaxias_iii#membership_50a4e9fe9d04ddd04d5aecb60f13c2d0">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0018</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0034</nmo:hasEndDate>
-        <org:organization rdf:resource="http://nomisma.org/id/armenian_kingdom"/>
-    </org:Membership>
+      <foaf:topic rdf:resource="http://nomisma.org/id/artaxias_iii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-10T13:42:58.694-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/artaxias_iii#membership_50a4e9fe9d04ddd04d5aecb60f13c2d0">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0018</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0034</nmo:hasEndDate>
+      <org:organization rdf:resource="http://nomisma.org/id/armenian_kingdom"/>
+   </org:Membership>
 </rdf:RDF>

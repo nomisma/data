@@ -1,132 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:NumismaticTerm rdf:about="http://nomisma.org/id/mint">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Generic term for a place of manufacture of a coin or for the issuing city.</skos:definition>
-        <skos:prefLabel xml:lang="en">Mint</skos:prefLabel>
-        <skos:altLabel xml:lang="fr">Monnaie</skos:altLabel>
-        <skos:altLabel xml:lang="de">Münzprägeanstalt</skos:altLabel>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/mint#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q464780"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Mint_(facility)"/>
-        <skos:prefLabel xml:lang="pl">mennica</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Atelier</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">манетны двор</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מטבעה</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">ceca</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">pénzverde</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">zecca</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Münzstätte</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">munthuis</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">myntort</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">دار السك</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">टकसाल</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">casa da moeda</skos:prefLabel>
-        <skos:prefLabel xml:lang="is">Myntslátta</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">mincovňa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">монетный двор</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Monetărie</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">seca</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">rahapaja</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Монетний двір</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">mincovna</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">ضراب‌خانه</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ზარაფხანა</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Zərbxana</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Kalykla</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Darphane</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Ceca</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">造幣局</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">ٹکسال</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Монетен двор</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">ковница новца</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">monfarejo</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Zarbxona</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">kovnica novca</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">조폐국</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">造币厂</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Kovnica novca</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">myntverk</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਟਕਸਾਲ</skos:prefLabel>
-        <skos:prefLabel xml:lang="mr">टांकसाळ</skos:prefLabel>
-        <skos:prefLabel xml:lang="kn">ಟಂಕಸಾಲೆ</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">դրամահատարան</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Casa de moeda</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">தங்க சாலை</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">കമ്മട്ടം</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Νομισματοκοπείο</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Txanpon etxe</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Percetakan uang logam</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/022rbf"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4134100-4"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300006031"/>
-    </nmo:NumismaticTerm>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">Generic term for a place of manufacture of a coin or for the issuing city.</skos:definition>
+      <skos:prefLabel xml:lang="en">Mint</skos:prefLabel>
+      <skos:altLabel xml:lang="fr">Monnaie</skos:altLabel>
+      <skos:altLabel xml:lang="de">Münzprägeanstalt</skos:altLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/mint#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q464780"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Mint_(facility)"/>
+      <skos:prefLabel xml:lang="pl">mennica</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Atelier</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">манетны двор</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מטבעה</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">ceca</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">pénzverde</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">zecca</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Münzstätte</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">munthuis</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">myntort</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">دار السك</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">टकसाल</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">casa da moeda</skos:prefLabel>
+      <skos:prefLabel xml:lang="is">Myntslátta</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">mincovňa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">монетный двор</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Monetărie</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">seca</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">rahapaja</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Монетний двір</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">mincovna</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">ضراب‌خانه</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ზარაფხანა</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Zərbxana</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Kalykla</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Darphane</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Ceca</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">造幣局</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">ٹکسال</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Монетен двор</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">ковница новца</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">monfarejo</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Zarbxona</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">kovnica novca</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">조폐국</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">造币厂</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Kovnica novca</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">myntverk</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਟਕਸਾਲ</skos:prefLabel>
+      <skos:prefLabel xml:lang="mr">टांकसाळ</skos:prefLabel>
+      <skos:prefLabel xml:lang="kn">ಟಂಕಸಾಲೆ</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">դրամահատարան</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Casa de moeda</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">தங்க சாலை</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">കമ്മട്ടം</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Νομισματοκοπείο</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Txanpon etxe</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Percetakan uang logam</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/022rbf"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4134100-4"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300006031"/>
+   </nmo:NumismaticTerm>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mint#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/mint"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-19T20:38:12+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-22T04:57:22.143-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-22T04:58:47.777-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-22T05:48:41.115-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-22T05:53:55.111-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/mint"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-19T20:38:12+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-22T04:57:22.143-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-22T04:58:47.777-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-22T05:48:41.115-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-22T05:53:55.111-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

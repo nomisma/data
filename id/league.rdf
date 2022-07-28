@@ -1,129 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <org:Role rdf:about="http://nomisma.org/id/league">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">League</skos:prefLabel>
-        <skos:definition xml:lang="en">Term used to describe a political federation of civic entities in whose name coinage is struck.</skos:definition>
-        <skos:prefLabel xml:lang="de">Städtebund</skos:prefLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/league#provenance"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/authority"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/state"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Confederation"/>
-        <skos:prefLabel xml:lang="eu">Konfederazio</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Konfederacja</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Konfederacija</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">confederación</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Konfederasie</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">konföderáció</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Konfederasi</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Konföderatsioon</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Konfederata</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">كنفدرالية</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">confederatie</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">konfederation</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">confederação</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">konfederacio</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">конфедерация</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Konfederasyon</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">конфедерација</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">valtioliitto</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Конфедерація</skos:prefLabel>
-        <skos:prefLabel xml:lang="nn">konføderasjon</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Konfederacija</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">konfederasiya</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Konføderation</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">confédération</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קונפדרציה</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">국가 연합</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">confederazione di Stati</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Confederación</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Konfederasi</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">国家連合</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Konfederacija</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">परिसंघ</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">สมาพันธรัฐ</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Confederație</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">confederació</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Conffederasiwn</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">konfederacija</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">konfederace</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Конфедерация</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کنفدراسیون</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">კონფედერაცია</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Konfederacija</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Канфедэрацыя</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">конфедерација</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">邦联制</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">konføderasjon</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">bang liên</skos:prefLabel>
-        <skos:prefLabel xml:lang="tk">Konfederasiýa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ps">کانفدراسيون</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Համադաշնություն</skos:prefLabel>
-        <skos:prefLabel xml:lang="pa">ਮਹਾਂਸੰਘ</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">συνομοσπονδία</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Конфедерация</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">confederacion</skos:prefLabel>
-        <skos:prefLabel xml:lang="ku">Konfederasyon</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">confederation</skos:prefLabel>
-        <skos:prefLabel xml:lang="ba">конфедерация</skos:prefLabel>
-        <skos:prefLabel xml:lang="ky">Конфедерация</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">konfederācija</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Konfederácia</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q170156"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01h2vd"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4182626-7"/>
-    </org:Role>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">League</skos:prefLabel>
+      <skos:definition xml:lang="en">Term used to describe a political federation of civic entities in whose name coinage is struck.</skos:definition>
+      <skos:prefLabel xml:lang="de">Städtebund</skos:prefLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/league#provenance"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/authority"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/state"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Confederation"/>
+      <skos:prefLabel xml:lang="eu">Konfederazio</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Konfederacja</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Konfederacija</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">confederación</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Konfederasie</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">konföderáció</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Konfederasi</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Konföderatsioon</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Konfederata</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">كنفدرالية</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">confederatie</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">konfederation</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">confederação</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">konfederacio</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">конфедерация</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Konfederasyon</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">конфедерација</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">valtioliitto</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Конфедерація</skos:prefLabel>
+      <skos:prefLabel xml:lang="nn">konføderasjon</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Konfederacija</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">konfederasiya</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Konføderation</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">confédération</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קונפדרציה</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">국가 연합</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">confederazione di Stati</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Confederación</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Konfederasi</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">国家連合</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Konfederacija</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">परिसंघ</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">สมาพันธรัฐ</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Confederație</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">confederació</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Conffederasiwn</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">konfederacija</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">konfederace</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Конфедерация</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کنفدراسیون</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">კონფედერაცია</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Konfederacija</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Канфедэрацыя</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">конфедерација</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">邦联制</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">konføderasjon</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">bang liên</skos:prefLabel>
+      <skos:prefLabel xml:lang="tk">Konfederasiýa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ps">کانفدراسيون</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Համադաշնություն</skos:prefLabel>
+      <skos:prefLabel xml:lang="pa">ਮਹਾਂਸੰਘ</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">συνομοσπονδία</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Конфедерация</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">confederacion</skos:prefLabel>
+      <skos:prefLabel xml:lang="ku">Konfederasyon</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">confederation</skos:prefLabel>
+      <skos:prefLabel xml:lang="ba">конфедерация</skos:prefLabel>
+      <skos:prefLabel xml:lang="ky">Конфедерация</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">konfederācija</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Konfederácia</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q170156"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01h2vd"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4182626-7"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/muenzstand/57"/>
+   </org:Role>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/league#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/league"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-20T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-06T04:00:03+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-25T09:07:07.602-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T14:16:15.789-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1PA7jLe-ILB8V-hx7uNGBUfRGBwU8DBT_yKjPvIF-5V0/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/league"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-20T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-06T04:00:03+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-25T09:07:07.602-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T14:16:15.789-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1PA7jLe-ILB8V-hx7uNGBUfRGBwU8DBT_yKjPvIF-5V0/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

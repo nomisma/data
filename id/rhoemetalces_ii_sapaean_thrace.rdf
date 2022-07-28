@@ -1,60 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Rhoemetalces II of Thrace</skos:prefLabel>
-        <skos:definition xml:lang="en">Rhoemetalces II was a Client Ruler in association with his mother Antonia Tryphaena of the Odrysian kingdom of Thrace under the Romans from 18 to 38. On coinage his royal title is in Greek: ΒΑΣΙΛΕΥΣ ΡΟΙΜΗΤΑΛΚΑΣ or of King Rhoemetalces.</skos:definition>
-        <skos:prefLabel xml:lang="fr">Rhémétalcès II</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Remetalkes II</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Реметалк II</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ροιμητάλκης Β΄</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Remetalces II</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Rhoemetalces II</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">רומטלקס השני, מלך אודירסה</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Реметалк II</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Реметалк II (царь Фракии)</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3429926"/>
-        <skos:altLabel xml:lang="en">Rhoemetalces II</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace#membership_9527101f974f5aedc4d6296954375b98"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/rhoemetalces-e1022820?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;s.q=Rhoemetalces+#e1022840"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace#provenance"/>
-    </foaf:Person>
-   
-   
-   
-    <org:Membership rdf:about="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/sapaean_thracian_kingdom"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0019</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0038</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+   <foaf:Person rdf:about="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Rhoemetalces II of Thrace</skos:prefLabel>
+      <skos:definition xml:lang="en">Rhoemetalces II was a Client Ruler in association with his mother Antonia Tryphaena of the Odrysian kingdom of Thrace under the Romans from 18 to 38. On coinage his royal title is in Greek: ΒΑΣΙΛΕΥΣ ΡΟΙΜΗΤΑΛΚΑΣ or of King Rhoemetalces.</skos:definition>
+      <skos:prefLabel xml:lang="fr">Rhémétalcès II</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Remetalkes II</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Реметалк II</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ροιμητάλκης Β΄</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Remetalces II</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Rhoemetalces II</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">רומטלקס השני, מלך אודירסה</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Реметалк II</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Реметалк II (царь Фракии)</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3429926"/>
+      <skos:altLabel xml:lang="en">Rhoemetalces II</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace#membership_9527101f974f5aedc4d6296954375b98"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <rdfs:seeAlso rdf:resource="http://referenceworks.brillonline.com/entries/brill-s-new-pauly/rhoemetalces-e1022820?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-pauly&amp;s.q=Rhoemetalces+#e1022840"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace#provenance"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4199"/>
+   </foaf:Person>
+   <org:Membership rdf:about="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/sapaean_thracian_kingdom"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0019</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0038</nmo:hasEndDate>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/rhoemetalces_ii_sapaean_thrace"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

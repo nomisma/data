@@ -1,97 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <wordnet:Deity rdf:about="http://nomisma.org/id/euterpe">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Euterpe</skos:prefLabel>
-        <skos:definition xml:lang="en">Euterpe was one of the Muses in Greek mythology, presiding over music.</skos:definition>
-        <skos:prefLabel xml:lang="cs">Euterpé</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ευτέρπη</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Эвтерпа</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Euterpé</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Eŭterpo</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Euterpė</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Evterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">欧忒耳佩</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">يوتيربي</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Евтерпа</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">Yevterpa</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="lb">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">אוטרפה</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Эўтэрпа</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Եվտերպե</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Euterpa</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Euterpé</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">ائوترپه</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">エウテルペー</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Еутерпа</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Евтерпа</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Evterpa</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">에우테르페</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Euterpa</skos:prefLabel>
-        <skos:prefLabel xml:lang="bn">এউতের্পে</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Euterpa</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">ევტერპე</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Euterpe</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Евтерпа</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q104012"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/124538401"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0jcvq"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/26984484"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/078604397"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb13184833j"/>
-        <skos:exactMatch rdf:resource="https://resource.manto.unh.edu/8188385"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/euterpe#provenance"/>
-    </wordnet:Deity>
-    
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/euterpe#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/euterpe"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-18T10:26:10.037-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <wordnet:Deity rdf:about="http://nomisma.org/id/euterpe">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Euterpe</skos:prefLabel>
+      <skos:definition xml:lang="en">Euterpe was one of the Muses in Greek mythology, presiding over music.</skos:definition>
+      <skos:prefLabel xml:lang="cs">Euterpé</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Ευτέρπη</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Эвтерпа</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Euterpé</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Eŭterpo</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Euterpė</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Evterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">欧忒耳佩</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">يوتيربي</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Евтерпа</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">Yevterpa</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="lb">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">אוטרפה</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Эўтэрпа</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Եվտերպե</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Euterpa</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Euterpé</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">ائوترپه</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">エウテルペー</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Еутерпа</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Евтерпа</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Evterpa</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">에우테르페</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Euterpa</skos:prefLabel>
+      <skos:prefLabel xml:lang="bn">এউতের্পে</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Euterpa</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">ევტერპე</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Euterpe</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Евтерпа</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q104012"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/124538401"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0jcvq"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/26984484"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/078604397"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb13184833j"/>
+      <skos:exactMatch rdf:resource="https://resource.manto.unh.edu/8188385"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/euterpe#provenance"/>
+   </wordnet:Deity>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/euterpe#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/euterpe"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-18T10:26:10.037-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

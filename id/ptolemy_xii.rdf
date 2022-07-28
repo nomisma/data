@@ -1,112 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xii">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Ptolemy XII Auletes</skos:prefLabel>
-        <skos:definition xml:lang="en">Ptolemy Neos Dionysos Theos Philopator Theos Philadelphos was a pharaoh of the Ptolemaic dynasty of Ancient Egypt. He was commonly known as "Auletes" ("the Flutist"), referring to the king's love of playing the flute in Dionysian festivals.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_XII_Auletes"/>
-        <skos:prefLabel xml:lang="zh">托勒密十二世</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Ptolemeusz XII Neos Dionizos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ptolémée XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Пталамей XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">프톨레마이오스 12세</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Ptolomeo XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="yo">Ptolemy 12k Auletes</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">XII. Ptolemaiosz</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Tolomeo XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Ptolemaios XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Ptolemaios XII.</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Ptolemaios XII Auletes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">プトレマイオス12世</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Πτολεμαίος ΙΒ΄ Αυλητής</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ptolemej XII Aulet</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Ptolemaios XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">بطليموس الثاني عشر</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Ptolemaeus XII Neos Dionysos</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Ptolemeu XII Neos Dionisos</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Птолемей XII Неос Дионис</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Ptolemeu XII Auletes</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Ptolemaios XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Птолемей XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Ptolemaeus XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Ptolemi XII Auletes</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Птолемей XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Ptolemėjas XII Naujasis Dionisas</skos:prefLabel>
-        <skos:prefLabel xml:lang="tl">Tolomeo XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">بطلمیوس دوازدهم</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Ptolemaios XII Auletes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Ptolemy XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תלמי השנים עשר</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Птолемеј XII Аулет</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">პტოლემე XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Ptolemaios XII.</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Ptolemaios XII Auletes</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Ptolemeo la 12-a</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">ปโตเลมีที่ 12</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39991"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/45098366"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118793578"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01d6nc"/>
-        
-        <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xii#provenance"/>
-        <skos:prefLabel xml:lang="mg">Ptolemaiosy XII</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">بطلیموس آلیٹس</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Պտղոմեոս XII Նեոս Դիոնիսոս</skos:prefLabel>
-        <skos:altLabel xml:lang="en">Ptolemy XII</skos:altLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xii#membership_9527101f974f5aedc4d6296954375b98"/>
-        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XII-Auletes"/>
-    </foaf:Person>
-   
-   
-   
-   
-   
-   
-   
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xii#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xii"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:39.742-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xii#membership_9527101f974f5aedc4d6296954375b98">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0080</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0058</nmo:hasEndDate>
-    </org:Membership>
+   <foaf:Person rdf:about="http://nomisma.org/id/ptolemy_xii">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Ptolemy XII Auletes</skos:prefLabel>
+      <skos:definition xml:lang="en">Ptolemy Neos Dionysos Theos Philopator Theos Philadelphos was a pharaoh of the Ptolemaic dynasty of Ancient Egypt. He was commonly known as "Auletes" ("the Flutist"), referring to the king's love of playing the flute in Dionysian festivals.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ptolemy_XII_Auletes"/>
+      <skos:prefLabel xml:lang="zh">托勒密十二世</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Ptolemeusz XII Neos Dionizos</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ptolémée XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Пталамей XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">프톨레마이오스 12세</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Ptolomeo XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="yo">Ptolemy 12k Auletes</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">XII. Ptolemaiosz</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Tolomeo XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Ptolemaios XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Ptolemaios XII.</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Ptolemaios XII Auletes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プトレマイオス12世</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Πτολεμαίος ΙΒ΄ Αυλητής</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ptolemej XII Aulet</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Ptolemaios XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">بطليموس الثاني عشر</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Ptolemaeus XII Neos Dionysos</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Ptolemeu XII Neos Dionisos</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Птолемей XII Неос Дионис</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Ptolemeu XII Auletes</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Ptolemaios XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Птолемей XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Ptolemaeus XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Ptolemi XII Auletes</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Птолемей XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Ptolemėjas XII Naujasis Dionisas</skos:prefLabel>
+      <skos:prefLabel xml:lang="tl">Tolomeo XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">بطلمیوس دوازدهم</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Ptolemaios XII Auletes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Ptolemy XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תלמי השנים עשר</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Птолемеј XII Аулет</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">პტოლემე XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Ptolemaios XII.</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Ptolemaios XII Auletes</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Ptolemeo la 12-a</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">ปโตเลมีที่ 12</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q39991"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/45098366"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118793578"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01d6nc"/>
+      <org:memberOf rdf:resource="http://nomisma.org/id/ptolemaic_dynasty"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/ptolemy_xii#provenance"/>
+      <skos:prefLabel xml:lang="mg">Ptolemaiosy XII</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">بطلیموس آلیٹس</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Պտղոմեոս XII Նեոս Դիոնիսոս</skos:prefLabel>
+      <skos:altLabel xml:lang="en">Ptolemy XII</skos:altLabel>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/ptolemy_xii#membership_9527101f974f5aedc4d6296954375b98"/>
+      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Ptolemy-XII-Auletes"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4529"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ptolemy_xii#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/ptolemy_xii"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-05T13:09:39.742-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13vtnvFZVvRCxdgc9K4a8_EAdBEfcr1wW9gb0wmynLuE/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/ptolemy_xii#membership_9527101f974f5aedc4d6296954375b98">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/ptolemaic_empire"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0080</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0058</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

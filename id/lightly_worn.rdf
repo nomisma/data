@@ -1,68 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:CoinWear rdf:about="http://nomisma.org/id/lightly_worn">
-        <skos:definition xml:lang="fr">Légèrement usé: Les parties proéminentes du relief sont atténuées. Les détails (cheveux ou couronne de l'avers, draperies ou atttributs des personnages du revers) sont imprécis. D'après "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Voire "U-A 3".</skos:definition>
-        <skos:definition xml:lang="de">Leicht abgenutzt: Die obersten Bereiche des Reliefs sind abgeflacht. Einzelheiten (Haare oder Kranz auf der Vs., Faltenwurf oder Attribute bei Figuren auf der Rs.) sind «unscharf». Nach "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Entspricht dort "A-A 3".</skos:definition>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Lightly worn</skos:prefLabel>
-        <skos:definition xml:lang="en">Slightly worn: the highest points of the relief are flattened. Individual elements (hair or wreath in the obv., folds in clothing or attributes of figures on the rev.) are "not precise". As defined by "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Equivalent to "W-A 2" in that volume.</skos:definition>
-        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/174260520"/>
-        <skos:prefLabel xml:lang="fr">Légèrement usé</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Leicht abgenutzt</skos:prefLabel>
-        <skos:altLabel xml:lang="en">W-A 2</skos:altLabel>
-        <skos:altLabel xml:lang="fr">U-A-2</skos:altLabel>
-        <skos:altLabel xml:lang="de">A-A-2</skos:altLabel>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/lightly_worn#provenance"/>
-        <skos:prefLabel xml:lang="it">Leggermente consunta</skos:prefLabel>
-        <skos:altLabel xml:lang="it">U 2</skos:altLabel>
-        <skos:definition xml:lang="it">Leggermente consunta: La moneta ha circolato. Le parti più elevate dei rilievi sono appiattite. I dettagli (i capelli o la corona d'alloro al diritto, il drappaggio o gli attributti delle figure al rovescio) sono usurati. Secondo "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Equivalente a "A/U 2".</skos:definition>
-        <skos:altLabel xml:lang="es">U 2</skos:altLabel>
-        <skos:altLabel xml:lang="sl">O 2</skos:altLabel>
-        <skos:altLabel xml:lang="ro">U 2</skos:altLabel>
-        <skos:altLabel xml:lang="el">Φ 2</skos:altLabel>
-        <skos:altLabel xml:lang="ru">И 2</skos:altLabel>
-        <skos:altLabel xml:lang="pl">Z 2</skos:altLabel>
-    </nmo:CoinWear>
+      <skos:definition xml:lang="fr">Légèrement usé: Les parties proéminentes du relief sont atténuées. Les détails (cheveux ou couronne de l'avers, draperies ou atttributs des personnages du revers) sont imprécis. D'après "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Voire "U-A 3".</skos:definition>
+      <skos:definition xml:lang="de">Leicht abgenutzt: Die obersten Bereiche des Reliefs sind abgeflacht. Einzelheiten (Haare oder Kranz auf der Vs., Faltenwurf oder Attribute bei Figuren auf der Rs.) sind «unscharf». Nach "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Entspricht dort "A-A 3".</skos:definition>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Lightly worn</skos:prefLabel>
+      <skos:definition xml:lang="en">Slightly worn: the highest points of the relief are flattened. Individual elements (hair or wreath in the obv., folds in clothing or attributes of figures on the rev.) are "not precise". As defined by "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Equivalent to "W-A 2" in that volume.</skos:definition>
+      <dcterms:source rdf:resource="http://www.worldcat.org/oclc/174260520"/>
+      <skos:prefLabel xml:lang="fr">Légèrement usé</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Leicht abgenutzt</skos:prefLabel>
+      <skos:altLabel xml:lang="en">W-A 2</skos:altLabel>
+      <skos:altLabel xml:lang="fr">U-A-2</skos:altLabel>
+      <skos:altLabel xml:lang="de">A-A-2</skos:altLabel>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/lightly_worn#provenance"/>
+      <skos:prefLabel xml:lang="it">Leggermente consunta</skos:prefLabel>
+      <skos:altLabel xml:lang="it">U 2</skos:altLabel>
+      <skos:definition xml:lang="it">Leggermente consunta: La moneta ha circolato. Le parti più elevate dei rilievi sono appiattite. I dettagli (i capelli o la corona d'alloro al diritto, il drappaggio o gli attributti delle figure al rovescio) sono usurati. Secondo "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520). Equivalente a "A/U 2".</skos:definition>
+      <skos:altLabel xml:lang="es">U 2</skos:altLabel>
+      <skos:altLabel xml:lang="sl">O 2</skos:altLabel>
+      <skos:altLabel xml:lang="ro">U 2</skos:altLabel>
+      <skos:altLabel xml:lang="el">Φ 2</skos:altLabel>
+      <skos:altLabel xml:lang="ru">И 2</skos:altLabel>
+      <skos:altLabel xml:lang="pl">Z 2</skos:altLabel>
+   </nmo:CoinWear>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lightly_worn#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/lightly_worn"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-01T04:00:02+00:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-27T04:00:01-05:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T10:56:34.013-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/17u_jASGUZ3H9x9Vj_E_zZoPdt0Y9Kkalx8Qn0KshVrM/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/lightly_worn"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-01T04:00:02+00:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-27T04:00:01-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-07T10:56:34.013-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/17u_jASGUZ3H9x9Vj_E_zZoPdt0Y9Kkalx8Qn0KshVrM/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

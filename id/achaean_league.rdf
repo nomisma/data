@@ -1,112 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Organization rdf:about="http://nomisma.org/id/achaean_league">
-        <skos:definition xml:lang="en">The Achaean League was a Hellenistic-era confederation of Greek city states on the northern and central Peloponnese.</skos:definition>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:prefLabel xml:lang="en">Achaean League</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Achaean_League"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/achaean_league#league"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/achaean_league#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q244796"/>
-        <skos:prefLabel xml:lang="pl">Związek Achajski</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ligue achéenne</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">הליגה האכאית</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Ахейскі саюз</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Liga Aquea</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Lega achea</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Ahhaia liit</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Achaiischer Bund</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">അക്കീയൻ ലീഗ്</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アカイア同盟</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Αχαϊκή Συμπολιτεία</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Ahajski savez</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Achaiska förbundet</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Achaeïsche Bond</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Liga Aqueia</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Achájsky spolok</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Ахейн холбоо</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Ахейский союз</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Agayske Bûn</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Akhaian liitto</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Ахейський союз</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Foedus Achaicum</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Cynghrair Achaea</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Ahajska zveza</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Achajský spolek</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">اتحادیه اخائیه</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Ахейски съюз</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Ахајски савез</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">एकियन लीग</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">亚该亚同盟</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Liên minh Achaea</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Det akhaiske forbund</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Achaea Ligi</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Liga Akhaia</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">아카이아 동맹</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">აქაველთა კავშირი</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Aĥaja Ligo</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Akháj Szövetség</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">اتحاد آشاين</skos:prefLabel>
-        <skos:prefLabel xml:lang="eu">Akaiar Liga</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Ahajski savez</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02jswz"/>
-    </foaf:Organization>
+      <skos:definition xml:lang="en">The Achaean League was a Hellenistic-era confederation of Greek city states on the northern and central Peloponnese.</skos:definition>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:prefLabel xml:lang="en">Achaean League</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Achaean_League"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/achaean_league#league"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/achaean_league#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q244796"/>
+      <skos:prefLabel xml:lang="pl">Związek Achajski</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Ligue achéenne</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">הליגה האכאית</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Ахейскі саюз</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Liga Aquea</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Lega achea</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Ahhaia liit</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Achaiischer Bund</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">അക്കീയൻ ലീഗ്</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アカイア同盟</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Αχαϊκή Συμπολιτεία</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Ahajski savez</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Achaiska förbundet</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Achaeïsche Bond</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Liga Aqueia</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Achájsky spolok</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Ахейн холбоо</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Ахейский союз</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Agayske Bûn</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Akhaian liitto</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Ахейський союз</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Foedus Achaicum</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Cynghrair Achaea</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Ahajska zveza</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Achajský spolek</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">اتحادیه اخائیه</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Ахейски съюз</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Ахајски савез</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">एकियन लीग</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">亚该亚同盟</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Liên minh Achaea</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Det akhaiske forbund</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Achaea Ligi</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Liga Akhaia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">아카이아 동맹</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">აქაველთა კავშირი</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Aĥaja Ligo</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Akháj Szövetség</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">اتحاد آشاين</skos:prefLabel>
+      <skos:prefLabel xml:lang="eu">Akaiar Liga</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Ahajski savez</skos:prefLabel>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02jswz"/>
+   </foaf:Organization>
    <org:Membership rdf:about="http://nomisma.org/id/achaean_league#league">
-        <org:role rdf:resource="http://nomisma.org/id/league"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0280</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0146</nmo:hasEndDate>
-    </org:Membership>
+      <org:role rdf:resource="http://nomisma.org/id/league"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0280</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0146</nmo:hasEndDate>
+   </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/achaean_league#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/achaean_league"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-12T04:00:02-05:00</prov:atTime>
-                <dcterms:type>manual</dcterms:type>
-            </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T04:56:49.514-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T09:02:51.561-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
+      <foaf:topic rdf:resource="http://nomisma.org/id/achaean_league"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-12T04:00:02-05:00</prov:atTime>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T04:56:49.514-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T09:02:51.561-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,62 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/spartolus">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Spartolus</skos:prefLabel>
-        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/491729"/>
-        <skos:broader rdf:resource="http://nomisma.org/id/chalcidian_district"/>
-        <skos:altLabel xml:lang="en">Spartolos</skos:altLabel>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <skos:definition xml:lang="en">The mint at the ancient site of Spartolus in Macedon</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/spartolus#provenance"/>
-        <geo:location rdf:resource="http://nomisma.org/id/spartolus#this"/>
-        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q4894643"/>
-        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Spartolus"/>
-        <skos:prefLabel xml:lang="es">Espartolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Espartolos</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Σπάρτωλος</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Spartolo</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Спартол</skos:prefLabel>
-    </nmo:Mint>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="en">Spartolus</skos:prefLabel>
+      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/491729"/>
+      <skos:broader rdf:resource="http://nomisma.org/id/chalcidian_district"/>
+      <skos:altLabel xml:lang="en">Spartolos</skos:altLabel>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+      <skos:definition xml:lang="en">The mint at the ancient site of Spartolus in Macedon</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/spartolus#provenance"/>
+      <geo:location rdf:resource="http://nomisma.org/id/spartolus#this"/>
+      <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q4894643"/>
+      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Spartolus"/>
+      <skos:prefLabel xml:lang="es">Espartolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Espartolos</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Σπάρτωλος</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Spartolo</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Спартол</skos:prefLabel>
+   </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/spartolus#provenance">
-        <foaf:topic rdf:resource="http://nomisma.org/id/spartolus"/>
-        <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-                <dcterms:type>spreadsheet</dcterms:type>
-            </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T05:07:35.178-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <geo:SpatialThing rdf:about="http://nomisma.org/id/spartolus#this">
-        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.316347</geo:lat>
-        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.159843</geo:long>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/chalcidian_district#this"/>
-    </geo:SpatialThing>
+      <foaf:topic rdf:resource="http://nomisma.org/id/spartolus"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T05:07:35.178-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <geo:SpatialThing rdf:about="http://nomisma.org/id/spartolus#this">
+      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.316347</geo:lat>
+      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.159843</geo:long>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/chalcidian_district#this"/>
+   </geo:SpatialThing>
 </rdf:RDF>

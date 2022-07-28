@@ -1,71 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Organization rdf:about="http://nomisma.org/id/trinovantes">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Trinovantes</skos:prefLabel>
-        <skos:definition xml:lang="en">A group originally from Belgic Gaul, present in Essex, Hertfordshire, Suffolk and Greater London.</skos:definition>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/trinovantes#membership_435b731162505c1375a20274291829e0"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Trinovantes"/>
-        <skos:prefLabel xml:lang="de">Trinovanten</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Тринованти</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Trinobants</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Trinovanter</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Trinovantoj</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Trinovantes</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Trinovantit</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Trinovantes</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">טרינובנטים</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Trinovanti</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">トリノヴァンテス族</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Trinovantes</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Trinovantes</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Trinobantes</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Тринованты</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Trinovanti</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Trinovanteler</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Trinovantere</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Тринованти</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">特里诺文特人</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">تراينوفا</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Trinovantes</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Trinovantes</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q962760"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01t1_5"/>
-        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/001352248"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/celtic_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/trinovantes#provenance"/>
-    </foaf:Organization>
-    <org:Membership rdf:about="http://nomisma.org/id/trinovantes#membership_435b731162505c1375a20274291829e0">
-        <org:role rdf:resource="http://nomisma.org/id/tribe"/>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/trinovantes#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/trinovantes"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-10T10:09:33.38-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1ntf1lLsxLwkNR0rKxPGzG0tvc73Z4Z9-ft21UdRKRmo/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Organization rdf:about="http://nomisma.org/id/trinovantes">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Trinovantes</skos:prefLabel>
+      <skos:definition xml:lang="en">A group originally from Belgic Gaul, present in Essex, Hertfordshire, Suffolk and Greater London.</skos:definition>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/trinovantes#membership_435b731162505c1375a20274291829e0"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Trinovantes"/>
+      <skos:prefLabel xml:lang="de">Trinovanten</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Тринованти</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Trinobants</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Trinovanter</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Trinovantoj</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Trinovantes</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Trinovantit</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Trinovantes</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">טרינובנטים</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Trinovanti</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">トリノヴァンテス族</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Trinovantes</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Trinovantes</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Trinobantes</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Тринованты</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Trinovanti</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Trinovanteler</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Trinovantere</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Тринованти</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">特里诺文特人</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">تراينوفا</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Trinovantes</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Trinovantes</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q962760"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01t1_5"/>
+      <dcterms:source rdf:resource="https://zenon.dainst.org/Record/001352248"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/celtic_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/trinovantes#provenance"/>
+   </foaf:Organization>
+   <org:Membership rdf:about="http://nomisma.org/id/trinovantes#membership_435b731162505c1375a20274291829e0">
+      <org:role rdf:resource="http://nomisma.org/id/tribe"/>
+   </org:Membership>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/trinovantes#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/trinovantes"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-10T10:09:33.38-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1ntf1lLsxLwkNR0rKxPGzG0tvc73Z4Z9-ft21UdRKRmo/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

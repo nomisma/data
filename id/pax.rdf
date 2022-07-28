@@ -1,76 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <wordnet:Deity rdf:about="http://nomisma.org/id/pax">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Pax</skos:prefLabel>
-        <skos:definition xml:lang="en">Pax, was the Roman goddess of peace derived and adopted from the ancient Greek equivalent Eirene.</skos:definition>
-        <skos:prefLabel xml:lang="pt">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">פאקס</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Paks</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Пакс</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">パークス</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Παξ</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">باكس</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Пакс</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Paksė</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">پاکس (افسانه)</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">帕克斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Paks</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Pakso</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Мир</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">팍스</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Pax</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Pax</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1132674"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/05180y"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118845748"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/37713601"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/pax#provenance"/>
-    </wordnet:Deity>
-    
-    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pax#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/pax"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <wordnet:Deity rdf:about="http://nomisma.org/id/pax">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:prefLabel xml:lang="en">Pax</skos:prefLabel>
+      <skos:definition xml:lang="en">Pax, was the Roman goddess of peace derived and adopted from the ancient Greek equivalent Eirene.</skos:definition>
+      <skos:prefLabel xml:lang="pt">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">פאקס</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Paks</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Пакс</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">パークス</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Παξ</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">باكس</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Пакс</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Paksė</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">پاکس (افسانه)</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">帕克斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Paks</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Pakso</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Мир</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">팍스</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Pax</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Pax</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1132674"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/05180y"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118845748"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/37713601"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/pax#provenance"/>
+   </wordnet:Deity>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pax#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/pax"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+            <dcterms:type>spreadsheet</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

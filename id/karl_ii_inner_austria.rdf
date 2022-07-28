@@ -1,116 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/karl_ii_inner_austria">
-        <skos:definition xml:lang="de">Karl II. (3. Juni 1540 - 10. Juli 1590) war ein Erzherzog von Österreich und regierte über Innerösterreich von 1564 bis 1590.</skos:definition>
-        <skos:prefLabel xml:lang="en">Charles II</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Charles II (3 June 1540 - 10 July 1590) was an Archduke of Austria, who reigned in Inner Austria from 1564 to 1590.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/karl_ii_inner_austria#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q156400"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Charles_II,_Archduke_of_Austria"/>
-        <skos:prefLabel xml:lang="pl">Karol Styryjski</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Charles II d'Autriche-Styrie</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Карл II, эрцгерцаг Аўстрыі</skos:prefLabel>
-        <skos:prefLabel xml:lang="bs">Karlo II, nadvojvoda Unutrašnje Austrije</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">오스트리아의 카를 2세</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Carlos II de Estiria</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">II. Habsburg Károly főherceg</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Carlo II d'Austria</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Karl II.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">カール2世</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Karl II Aostria</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Karl II av Inre Österrike</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Karel II van Oostenrijk</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Carlos II de Áustria</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Karol II.</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Карл II</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">II. Karl</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Carol al II-lea, Arhiduce de Austria</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Carles II d'Habsburg</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Карл II</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Karel II. Avstrijski</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Karel II. Štýrský</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Карл II Штајерски</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">查理二世</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Карл II (ерцхерцог на Австрия)</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">კარლ II</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Κάρολος Β´ της Αυστρίας</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Karl II.</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Karl II Štajerski</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Karolis II</skos:prefLabel>
-        <skos:prefLabel xml:lang="mk">Карло II</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">کارل دوم، آرشیدوک اتریش</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">קרל השני, ארכידוכס אוסטריה</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">كارل الثاني، أرشيدوق النمسا</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Karlo la 2-a, arkiduko de Aŭstrio</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Charles II, Đại Công tước Áo</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Kārlis II Hābsburgs</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Karl 2. af Steiermark</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Karl II.</skos:prefLabel>
-        <skos:prefLabel xml:lang="hy">Կառլոս II</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Karl II dari Austria</skos:prefLabel>
-        <skos:prefLabel xml:lang="az">II Karl (hersoq)</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Carlos II de Estiria</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/36103840"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118560069"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000061283228"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/025td11"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/185269788"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb16297309t"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500452964"/>
-        <bio:birth rdf:resource="http://nomisma.org/id/karl_ii_inner_austria#birth"/>
-        <bio:death rdf:resource="http://nomisma.org/id/karl_ii_inner_austria#death"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/karl_ii_inner_austria#membership_134bfd948c03a6bf62bda580026d259a"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/13617"/>
-    </foaf:Person>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/karl_ii_inner_austria#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/karl_ii_inner_austria"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-26T03:42:45.817Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-26T03:55:48.092Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <bio:Birth rdf:about="http://nomisma.org/id/karl_ii_inner_austria#birth">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</dcterms:date>
-    </bio:Birth>
-    <bio:Death rdf:about="http://nomisma.org/id/karl_ii_inner_austria#death">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1590</dcterms:date>
-    </bio:Death>
-    <org:Membership rdf:about="http://nomisma.org/id/karl_ii_inner_austria#membership_134bfd948c03a6bf62bda580026d259a">
-        <org:role rdf:resource="http://nomisma.org/id/archduke"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1564</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1590</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/karl_ii_inner_austria">
+      <skos:definition xml:lang="de">Karl II. (3. Juni 1540 - 10. Juli 1590) war ein Erzherzog von Österreich und regierte über Innerösterreich von 1564 bis 1590.</skos:definition>
+      <skos:prefLabel xml:lang="en">Charles II</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">Charles II (3 June 1540 - 10 July 1590) was an Archduke of Austria, who reigned in Inner Austria from 1564 to 1590.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/karl_ii_inner_austria#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q156400"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Charles_II,_Archduke_of_Austria"/>
+      <skos:prefLabel xml:lang="pl">Karol Styryjski</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Charles II d'Autriche-Styrie</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Карл II, эрцгерцаг Аўстрыі</skos:prefLabel>
+      <skos:prefLabel xml:lang="bs">Karlo II, nadvojvoda Unutrašnje Austrije</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">오스트리아의 카를 2세</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Carlos II de Estiria</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">II. Habsburg Károly főherceg</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Carlo II d'Austria</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Karl II.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">カール2世</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Karl II Aostria</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Karl II av Inre Österrike</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Karel II van Oostenrijk</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Carlos II de Áustria</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Karol II.</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Карл II</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">II. Karl</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Carol al II-lea, Arhiduce de Austria</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Carles II d'Habsburg</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Карл II</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Karel II. Avstrijski</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Karel II. Štýrský</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Карл II Штајерски</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">查理二世</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Карл II (ерцхерцог на Австрия)</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">კარლ II</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Κάρολος Β´ της Αυστρίας</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Karl II.</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Karl II Štajerski</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Karolis II</skos:prefLabel>
+      <skos:prefLabel xml:lang="mk">Карло II</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">کارل دوم، آرشیدوک اتریش</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">קרל השני, ארכידוכס אוסטריה</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">كارل الثاني، أرشيدوق النمسا</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Karlo la 2-a, arkiduko de Aŭstrio</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Charles II, Đại Công tước Áo</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Kārlis II Hābsburgs</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Karl 2. af Steiermark</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Karl II.</skos:prefLabel>
+      <skos:prefLabel xml:lang="hy">Կառլոս II</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Karl II dari Austria</skos:prefLabel>
+      <skos:prefLabel xml:lang="az">II Karl (hersoq)</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Carlos II de Estiria</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/36103840"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118560069"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000061283228"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/025td11"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/185269788"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb16297309t"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500452964"/>
+      <bio:birth rdf:resource="http://nomisma.org/id/karl_ii_inner_austria#birth"/>
+      <bio:death rdf:resource="http://nomisma.org/id/karl_ii_inner_austria#death"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/karl_ii_inner_austria#membership_134bfd948c03a6bf62bda580026d259a"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/13617"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/karl_ii_inner_austria#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/karl_ii_inner_austria"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-26T03:42:45.817Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-26T03:55:48.092Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <bio:Birth rdf:about="http://nomisma.org/id/karl_ii_inner_austria#birth">
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</dcterms:date>
+   </bio:Birth>
+   <bio:Death rdf:about="http://nomisma.org/id/karl_ii_inner_austria#death">
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1590</dcterms:date>
+   </bio:Death>
+   <org:Membership rdf:about="http://nomisma.org/id/karl_ii_inner_austria#membership_134bfd948c03a6bf62bda580026d259a">
+      <org:role rdf:resource="http://nomisma.org/id/archduke"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1564</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1590</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

@@ -1,133 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/theodoric">
-        <skos:prefLabel xml:lang="en">Theodoric the Great</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Theoderic was a king of the Ostrogoths, who reigned from 475 to 526.</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/theodoric#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q105105"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Theodoric_the_Great"/>
-        <skos:prefLabel xml:lang="eu">Teodoriko Handia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Teodoryk Wielki</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Théodoric le Grand</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">테오도리쿠스 대왕</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">תיאודריך הגדול</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Teodorico el Grande</skos:prefLabel>
-        <skos:prefLabel xml:lang="hu">Theuderich keleti gót király</skos:prefLabel>
-        <skos:prefLabel xml:lang="lv">Teodoriks Lielais</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Teodorico il Grande</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Teodorico o Grande</skos:prefLabel>
-        <skos:prefLabel xml:lang="et">Theoderich Suur</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Theoderich der Große</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Theodoric yang Agung</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">テオドリック</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Θεοδώριχος ο Μέγας</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Theodoric Đại đế</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Theodorik de Grote</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Theoderik den store</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">ثيودوريك العظيم</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Teodorico, o Grande</skos:prefLabel>
-        <skos:prefLabel xml:lang="sk">Teodorich Veľký</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Теодорик</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Теодорих Великий</skos:prefLabel>
-        <skos:prefLabel xml:lang="fy">Diderik de Grutte</skos:prefLabel>
-        <skos:prefLabel xml:lang="ro">Theodoric cel Mare</skos:prefLabel>
-        <skos:prefLabel xml:lang="th">พระเจ้าธีโอดอริคมหาราช</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Teodoric el Gran</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Teoderik Suuri</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Теодорих Великий</skos:prefLabel>
-        <skos:prefLabel xml:lang="la">Theodericus</skos:prefLabel>
-        <skos:prefLabel xml:lang="cy">Theodoric Fawr</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Theodorich Veliký</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">تئودوریک بزرگ</skos:prefLabel>
-        <skos:prefLabel xml:lang="bg">Теодорих Велики</skos:prefLabel>
-        <skos:prefLabel xml:lang="hr">Teodorik Veliki</skos:prefLabel>
-        <skos:prefLabel xml:lang="lt">Teodorikas Didysis</skos:prefLabel>
-        <skos:prefLabel xml:lang="da">Teoderik den Store</skos:prefLabel>
-        <skos:prefLabel xml:lang="an">Teodorico lo Gran</skos:prefLabel>
-        <skos:prefLabel xml:lang="ia">Theodorico le Grande</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">狄奧多里克大帝</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Теодорих Велики</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Büyük Teoderik</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Teoderik den store</skos:prefLabel>
-        <skos:prefLabel xml:lang="eo">Teodoriko la Granda</skos:prefLabel>
-        <skos:prefLabel xml:lang="sh">Teodorik Veliki</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Тэадорых Вялікі</skos:prefLabel>
-        <skos:prefLabel xml:lang="ml">തിയൊഡോറിക്</skos:prefLabel>
-        <skos:prefLabel xml:lang="mg">Theoderic the Great</skos:prefLabel>
-        <skos:prefLabel xml:lang="sq">Teodoriku i Madh</skos:prefLabel>
-        <skos:prefLabel xml:lang="sl">Teodorik Veliki</skos:prefLabel>
-        <skos:prefLabel xml:lang="br">Teodorig Veur</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">თეოდორიხ დიდი</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Ұлы Теодорих</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Teodoric lo Grand</skos:prefLabel>
-        <skos:prefLabel xml:lang="ba">Бөйөк Теодорих</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Teodorix Buyuk</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/27864382"/>
-        <skos:exactMatch rdf:resource="http://isni.org/000000011611940X"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11862167X"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/07p5b"/>
-        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11948303g"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/027442659"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500067112"/>
-        <bio:death rdf:resource="http://nomisma.org/id/theodoric#death"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/theodoric#membership_5f45942a50824f7b4d39a25d1be7aa1a"/>
-        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1434"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/ostrogothic_numismatics"/>
-    </foaf:Person>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/theodoric#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/theodoric"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-20T09:40:37.506-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-20T09:49:19.979-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-20T09:52:52.622-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
-    </dcterms:ProvenanceStatement>
-    <bio:Death rdf:about="http://nomisma.org/id/theodoric#death">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0526</dcterms:date>
-    </bio:Death>
-    <org:Membership rdf:about="http://nomisma.org/id/theodoric#membership_5f45942a50824f7b4d39a25d1be7aa1a">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0475</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0526</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/theodoric">
+      <skos:prefLabel xml:lang="en">Theodoric the Great</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">Theoderic was a king of the Ostrogoths, who reigned from 475 to 526.</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/theodoric#provenance"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q105105"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Theodoric_the_Great"/>
+      <skos:prefLabel xml:lang="eu">Teodoriko Handia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Teodoryk Wielki</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Théodoric le Grand</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">테오도리쿠스 대왕</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">תיאודריך הגדול</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Teodorico el Grande</skos:prefLabel>
+      <skos:prefLabel xml:lang="hu">Theuderich keleti gót király</skos:prefLabel>
+      <skos:prefLabel xml:lang="lv">Teodoriks Lielais</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Teodorico il Grande</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Teodorico o Grande</skos:prefLabel>
+      <skos:prefLabel xml:lang="et">Theoderich Suur</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Theoderich der Große</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Theodoric yang Agung</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">テオドリック</skos:prefLabel>
+      <skos:prefLabel xml:lang="el">Θεοδώριχος ο Μέγας</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Theodoric Đại đế</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Theodorik de Grote</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Theoderik den store</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">ثيودوريك العظيم</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Teodorico, o Grande</skos:prefLabel>
+      <skos:prefLabel xml:lang="sk">Teodorich Veľký</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Теодорик</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Теодорих Великий</skos:prefLabel>
+      <skos:prefLabel xml:lang="fy">Diderik de Grutte</skos:prefLabel>
+      <skos:prefLabel xml:lang="ro">Theodoric cel Mare</skos:prefLabel>
+      <skos:prefLabel xml:lang="th">พระเจ้าธีโอดอริคมหาราช</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Teodoric el Gran</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Teoderik Suuri</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Теодорих Великий</skos:prefLabel>
+      <skos:prefLabel xml:lang="la">Theodericus</skos:prefLabel>
+      <skos:prefLabel xml:lang="cy">Theodoric Fawr</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Theodorich Veliký</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">تئودوریک بزرگ</skos:prefLabel>
+      <skos:prefLabel xml:lang="bg">Теодорих Велики</skos:prefLabel>
+      <skos:prefLabel xml:lang="hr">Teodorik Veliki</skos:prefLabel>
+      <skos:prefLabel xml:lang="lt">Teodorikas Didysis</skos:prefLabel>
+      <skos:prefLabel xml:lang="da">Teoderik den Store</skos:prefLabel>
+      <skos:prefLabel xml:lang="an">Teodorico lo Gran</skos:prefLabel>
+      <skos:prefLabel xml:lang="ia">Theodorico le Grande</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">狄奧多里克大帝</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Теодорих Велики</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Büyük Teoderik</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Teoderik den store</skos:prefLabel>
+      <skos:prefLabel xml:lang="eo">Teodoriko la Granda</skos:prefLabel>
+      <skos:prefLabel xml:lang="sh">Teodorik Veliki</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Тэадорых Вялікі</skos:prefLabel>
+      <skos:prefLabel xml:lang="ml">തിയൊഡോറിക്</skos:prefLabel>
+      <skos:prefLabel xml:lang="mg">Theoderic the Great</skos:prefLabel>
+      <skos:prefLabel xml:lang="sq">Teodoriku i Madh</skos:prefLabel>
+      <skos:prefLabel xml:lang="sl">Teodorik Veliki</skos:prefLabel>
+      <skos:prefLabel xml:lang="br">Teodorig Veur</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">თეოდორიხ დიდი</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Ұлы Теодорих</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Teodoric lo Grand</skos:prefLabel>
+      <skos:prefLabel xml:lang="ba">Бөйөк Теодорих</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Teodorix Buyuk</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/27864382"/>
+      <skos:exactMatch rdf:resource="http://isni.org/000000011611940X"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11862167X"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/07p5b"/>
+      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11948303g"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/027442659"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500067112"/>
+      <bio:death rdf:resource="http://nomisma.org/id/theodoric#death"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/theodoric#membership_5f45942a50824f7b4d39a25d1be7aa1a"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1434"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/ostrogothic_numismatics"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/theodoric#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/theodoric"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-20T09:40:37.506-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-20T09:49:19.979-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-20T09:52:52.622-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
+   <bio:Death rdf:about="http://nomisma.org/id/theodoric#death">
+      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0526</dcterms:date>
+   </bio:Death>
+   <org:Membership rdf:about="http://nomisma.org/id/theodoric#membership_5f45942a50824f7b4d39a25d1be7aa1a">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <org:organization rdf:resource="http://nomisma.org/id/"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0475</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0526</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>

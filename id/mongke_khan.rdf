@@ -1,90 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
-         xmlns:org="http://www.w3.org/ns/org#"
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://nomisma.org/id/mongke_khan">
-        <skos:prefLabel xml:lang="en">Möngke Khan</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Möngke (11 January 1209 – 11 August 1259) was the fourth khagan of the Mongol Empire, ruling from 1 July 1251, to 11 August 1259. He was the first Khagan from the Toluid line, and made significant reforms to improve the administration of the Empire during his reign. Under Möngke, the Mongols conquered Iraq and Syria as well as the kingdom of Dali (modern Yunnan).</skos:definition>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/mongke_khan#provenance"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q7521"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/M%C3%B6ngke_Khan"/>
-        <skos:prefLabel xml:lang="fr">Möngke Khan</skos:prefLabel>
-        <skos:prefLabel xml:lang="ko">몽케 칸</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Möngke Khan</skos:prefLabel>
-        <skos:prefLabel xml:lang="ar">مونكو خان</skos:prefLabel>
-        <skos:prefLabel xml:lang="ca">Mongke</skos:prefLabel>
-        <skos:prefLabel xml:lang="cs">Möngke</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Möngke</skos:prefLabel>
-        <skos:prefLabel xml:lang="fa">منگوقاآن</skos:prefLabel>
-        <skos:prefLabel xml:lang="fi">Möngke-kaani</skos:prefLabel>
-        <skos:prefLabel xml:lang="gl">Mongke</skos:prefLabel>
-        <skos:prefLabel xml:lang="he">מונגקה ח'אן</skos:prefLabel>
-        <skos:prefLabel xml:lang="hi">मोंगके ख़ान</skos:prefLabel>
-        <skos:prefLabel xml:lang="id">Mongke Khan</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Munke</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">モンケ</skos:prefLabel>
-        <skos:prefLabel xml:lang="kk">Мөңке</skos:prefLabel>
-        <skos:prefLabel xml:lang="mn">Мөнх хаан</skos:prefLabel>
-        <skos:prefLabel xml:lang="ms">Möngke Khan</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Möngke Khan</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Mongke</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Mongke Khan</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Мунке</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Möngke</skos:prefLabel>
-        <skos:prefLabel xml:lang="tr">Möngke</skos:prefLabel>
-        <skos:prefLabel xml:lang="uk">Мунке</skos:prefLabel>
-        <skos:prefLabel xml:lang="vi">Mông Kha</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">蒙哥</skos:prefLabel>
-        <skos:prefLabel xml:lang="ka">მუნქე</skos:prefLabel>
-        <skos:prefLabel xml:lang="oc">Mongke</skos:prefLabel>
-        <skos:prefLabel xml:lang="nb">Möngke Khan</skos:prefLabel>
-        <skos:prefLabel xml:lang="sr">Монгке-кан</skos:prefLabel>
-        <skos:prefLabel xml:lang="af">Möngke Khan</skos:prefLabel>
-        <skos:prefLabel xml:lang="bo">མོང་གལ་ཁན།</skos:prefLabel>
-        <skos:prefLabel xml:lang="uz">Munke</skos:prefLabel>
-        <skos:prefLabel xml:lang="ta">மோங்கே கான்</skos:prefLabel>
-        <skos:prefLabel xml:lang="ur">مونگو خان</skos:prefLabel>
-        <skos:prefLabel xml:lang="ps">منګوق خان</skos:prefLabel>
-        <skos:prefLabel xml:lang="be">Мунке</skos:prefLabel>
-        <skos:prefLabel xml:lang="no">Möngke Khan</skos:prefLabel>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119063557"/>
-        <skos:exactMatch rdf:resource="http://isni.org/0000000116574306"/>
-        <skos:exactMatch rdf:resource="https://www.freebase.com/m/037kfg"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/50027343"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/mongke_khan#membership_33aa9780237e625b5d6309873b2debca"/>
-    </foaf:Person>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mongke_khan#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/mongke_khan"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-01T12:35:38.202-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/mongke_khan#membership_33aa9780237e625b5d6309873b2debca">
-        <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1251</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1259</nmo:hasEndDate>
-    </org:Membership>
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://nomisma.org/id/mongke_khan">
+      <skos:prefLabel xml:lang="en">Möngke Khan</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">Möngke (11 January 1209 – 11 August 1259) was the fourth khagan of the Mongol Empire, ruling from 1 July 1251, to 11 August 1259. He was the first Khagan from the Toluid line, and made significant reforms to improve the administration of the Empire during his reign. Under Möngke, the Mongols conquered Iraq and Syria as well as the kingdom of Dali (modern Yunnan).</skos:definition>
+      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+      <skos:changeNote rdf:resource="http://nomisma.org/id/mongke_khan#provenance"/>
+      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q7521"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/M%C3%B6ngke_Khan"/>
+      <skos:prefLabel xml:lang="fr">Möngke Khan</skos:prefLabel>
+      <skos:prefLabel xml:lang="ko">몽케 칸</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Möngke Khan</skos:prefLabel>
+      <skos:prefLabel xml:lang="ar">مونكو خان</skos:prefLabel>
+      <skos:prefLabel xml:lang="ca">Mongke</skos:prefLabel>
+      <skos:prefLabel xml:lang="cs">Möngke</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Möngke</skos:prefLabel>
+      <skos:prefLabel xml:lang="fa">منگوقاآن</skos:prefLabel>
+      <skos:prefLabel xml:lang="fi">Möngke-kaani</skos:prefLabel>
+      <skos:prefLabel xml:lang="gl">Mongke</skos:prefLabel>
+      <skos:prefLabel xml:lang="he">מונגקה ח'אן</skos:prefLabel>
+      <skos:prefLabel xml:lang="hi">मोंगके ख़ान</skos:prefLabel>
+      <skos:prefLabel xml:lang="id">Mongke Khan</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Munke</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">モンケ</skos:prefLabel>
+      <skos:prefLabel xml:lang="kk">Мөңке</skos:prefLabel>
+      <skos:prefLabel xml:lang="mn">Мөнх хаан</skos:prefLabel>
+      <skos:prefLabel xml:lang="ms">Möngke Khan</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Möngke Khan</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Mongke</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Mongke Khan</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Мунке</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Möngke</skos:prefLabel>
+      <skos:prefLabel xml:lang="tr">Möngke</skos:prefLabel>
+      <skos:prefLabel xml:lang="uk">Мунке</skos:prefLabel>
+      <skos:prefLabel xml:lang="vi">Mông Kha</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">蒙哥</skos:prefLabel>
+      <skos:prefLabel xml:lang="ka">მუნქე</skos:prefLabel>
+      <skos:prefLabel xml:lang="oc">Mongke</skos:prefLabel>
+      <skos:prefLabel xml:lang="nb">Möngke Khan</skos:prefLabel>
+      <skos:prefLabel xml:lang="sr">Монгке-кан</skos:prefLabel>
+      <skos:prefLabel xml:lang="af">Möngke Khan</skos:prefLabel>
+      <skos:prefLabel xml:lang="bo">མོང་གལ་ཁན།</skos:prefLabel>
+      <skos:prefLabel xml:lang="uz">Munke</skos:prefLabel>
+      <skos:prefLabel xml:lang="ta">மோங்கே கான்</skos:prefLabel>
+      <skos:prefLabel xml:lang="ur">مونگو خان</skos:prefLabel>
+      <skos:prefLabel xml:lang="ps">منګوق خان</skos:prefLabel>
+      <skos:prefLabel xml:lang="be">Мунке</skos:prefLabel>
+      <skos:prefLabel xml:lang="no">Möngke Khan</skos:prefLabel>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119063557"/>
+      <skos:exactMatch rdf:resource="http://isni.org/0000000116574306"/>
+      <skos:exactMatch rdf:resource="https://www.freebase.com/m/037kfg"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/50027343"/>
+      <org:hasMembership rdf:resource="http://nomisma.org/id/mongke_khan#membership_33aa9780237e625b5d6309873b2debca"/>
+      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/8052"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mongke_khan#provenance">
+      <foaf:topic rdf:resource="http://nomisma.org/id/mongke_khan"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-01T12:35:38.202-05:00</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+   </dcterms:ProvenanceStatement>
+   <org:Membership rdf:about="http://nomisma.org/id/mongke_khan#membership_33aa9780237e625b5d6309873b2debca">
+      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1251</nmo:hasStartDate>
+      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1259</nmo:hasEndDate>
+   </org:Membership>
 </rdf:RDF>
