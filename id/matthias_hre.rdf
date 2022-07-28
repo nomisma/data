@@ -18,10 +18,10 @@
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
     <foaf:Person rdf:about="http://nomisma.org/id/matthias_hre">
-        <skos:definition xml:lang="de">Matthias (24. Februar 1557 in Wien - 20. März 1619 in Wien) war der Kaiser des Heiligen Römischen Reiches Deutscher Nation von 1612 bis 1619. Er war zuvor Statthalter von Niederösterreich von 1593 bis 1608 sowie regierender Erzherzog von Österreich  von 1608 bis 1619 sowie als  Matyáš II. König von Ungarn von 1608 bis 1618 und von Böhmen von 1611 bis 1619.</skos:definition>
+        <skos:definition xml:lang="de">Matthias (24. Februar 1557 in Wien - 20. März 1619 in Wien) war der Kaiser des Heiligen Römischen Reiches Deutscher Nation von 1612 bis 1619. Er war zuvor Statthalter von Niederösterreich von 1593 bis 1608 sowie regierender Erzherzog von Österreich von 1608 bis 1619 sowie als  Matyáš II. König von Ungarn von 1608 bis 1618 und von Böhmen von 1611 bis 1619.</skos:definition>
         <skos:prefLabel xml:lang="en">Matthias</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Matthias (24 February 1557 in Vienna - 20 March 1619 in Vienna) was the Emperor of the Holy Roman Empire from 1612 to 1619. Previously he served as the governor of Lower Austria from 1593 to 1608. He was also Archduke of Austria from 1608 to 1619, and as Matyáš II King of both Hungary from 1608 to 1619 and of Bohema from 1611 to 1619.</skos:definition>
+        <skos:definition xml:lang="en">Matthias (24 February 1557 in Vienna - 20 March 1619 in Vienna) was the Emperor of the Holy Roman Empire from 1612 to 1619. Previously he served as the governor of Lower Austria from 1593 to 1608. He was also Archduke of Austria from 1608 to 1619, and as Matyáš II King of both Hungary from 1608 to 1619 and of Bohemia from 1611 to 1619.</skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/matthias_hre#provenance"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q152157"/>
@@ -91,6 +91,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1168"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/matthias_hre#membership_c66addba434bd19120b978fda083e4e1"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/matthias_hre#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/matthias_hre"/>
@@ -126,6 +127,14 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T04:07:12.328Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <bio:Birth rdf:about="http://nomisma.org/id/matthias_hre#birth">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1557</dcterms:date>
@@ -137,6 +146,12 @@
         <org:role rdf:resource="http://nomisma.org/id/emperor"/>
         <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1612</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1619</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/matthias_hre#membership_c66addba434bd19120b978fda083e4e1">
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/kingdom_of_bohemia"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1611</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1619</nmo:hasEndDate>
     </org:Membership>
 </rdf:RDF>

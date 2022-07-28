@@ -18,10 +18,10 @@
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
     <foaf:Person rdf:about="http://nomisma.org/id/ferdinand_ii_hre">
-        <skos:definition xml:lang="de">Ferdinand II. (9. Juli 1578 - 15. Februarr 1637) war der Kaiser des Heiligen Römischen Reiches Deutscher Nation von 1619 bis 1637. Seit 1590 war er Erzherzog von Innerösterreich, wurde 1617 König von Böhmen, 1618 König von Ungarn und Kroatien sowie 1619 Erzherzog von Niederösterreich. </skos:definition>
+        <skos:definition xml:lang="de">Ferdinand II. (9. Juli 1578 - 15. Februarr 1637) war der Kaiser des Heiligen Römischen Reiches Deutscher Nation von 1619 bis 1637. Seit 1590 war er Erzherzog von Innerösterreich, wurde 1617 König von Böhmen (bis 1627, unterbrochen durch die Herrschaft Friedrich I./V. von der Pfalz 1619-1620), 1618 König von Ungarn und Kroatien sowie 1619 Erzherzog von Niederösterreich. </skos:definition>
         <skos:prefLabel xml:lang="en">Ferdinand II</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Ferdinand II (9 July 1578 - 15 February 1637) was the emperor of the Holy Roman Emperror from 1619 to 1639. He became Archduke of Inner Austria in 1590, King of Bohemia in 1617, and of Hungary and Croatia in 1618. In 1619 he was created Archduke of Lower Austria.</skos:definition>
+        <skos:definition xml:lang="en">Ferdinand II (9 July 1578 - 15 February 1637) was the emperor of the Holy Roman Emperror from 1619 to 1639. He became Archduke of Inner Austria in 1590, King of Bohemia in 1617 (he reigned until 1627 interrupted by the reign of Friedrich I/V in 1619-1620), and of Hungary and Croatia in 1618. In 1619 he was created Archduke of Lower Austria.</skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/ferdinand_ii_hre#provenance"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q150599"/>
@@ -96,6 +96,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/610"/>
         <org:memberOf rdf:resource="http://nomisma.org/id/habsburgs"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/ferdinand_ii_hre#membership_48c78f846640149c9fa3b69ad550069a"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ferdinand_ii_hre#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/ferdinand_ii_hre"/>
@@ -123,6 +124,22 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T04:00:31.766Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-27T04:02:46.358Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <bio:Death rdf:about="http://nomisma.org/id/ferdinand_ii_hre#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1639</dcterms:date>
@@ -135,5 +152,12 @@
         <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1619</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1639</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/ferdinand_ii_hre#membership_48c78f846640149c9fa3b69ad550069a">
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1617</nmo:hasStartDate>
+        
+        <org:organization rdf:resource="http://nomisma.org/id/kingdom_of_bohemia"/>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1627</nmo:hasEndDate>
     </org:Membership>
 </rdf:RDF>
