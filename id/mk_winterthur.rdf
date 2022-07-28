@@ -1,84 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:wordnet="http://ontologi.es/WordNet/class/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+<?xml version="1.0" encoding="utf-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <nmo:Collection rdf:about="http://nomisma.org/id/mk_winterthur">
-      <skos:prefLabel xml:lang="en">Münzkabinett und Antikensammlung der Stadt Winterthur</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Münzkabinett und Antikensammlung der Stadt Winterthur</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">The Münzkabinett and Antikensammlung is a museum of the city of Winterthur dealing with monetary history and archaeology in a broad way with exhibitions and educational activities. Dating back to 1660 being part of the city library, its main founding date is 1861 when Friedrich Imhoof-Blumer (1838-1920) began his work as curator. Until 1920, he made
-a significant mark on the collection, donating in 1871 his 10'578 Swiss coins and medals and building up a collection of Greek and Roman coins and a important collection of casts of Greek coins. Today, the collection includes 64'000 coins and medals of all periods. Strong pillars are the best collection of Greek and Roman Provincial coins in Switzerland and a very good collection of Swiss coins. To this add recently developed holdings of Modern, Byzantine, Medieval and Islamic coins.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <foaf:homepage rdf:resource="https://ikmk-win.ch"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/mk_winterthur#provenance"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-      <skos:exactMatch rdf:resource="https://de.wikipedia.org/wiki/M%C3%BCnzkabinett_und_Antikensammlung_der_Stadt_Winterthur"/>
-      <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q1773583"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-      <foaf:thumbnail rdf:resource="https://stadt.winterthur.ch/muenzkabinett/@@logo/logo/get_logo?r=3ba484bb76ece76f0175f5342e3b2aab7fe6aee838289dc5338ea706b7e7ea51"/>
-   </nmo:Collection>
-   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mk_winterthur#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/mk_winterthur"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-02T07:20:50.631-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-19T00:16:38.256-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-21T00:09:41.486-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-21T00:12:21.221-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-10T04:03:39.119-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Collection rdf:about="http://nomisma.org/id/mk_winterthur">
+        <skos:prefLabel xml:lang="en">Münzkabinett und Antikensammlung der Stadt Winterthur</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Münzkabinett und Antikensammlung der Stadt Winterthur</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Münzkabinett and Antikensammlung is a museum of the city of Winterthur dealing with monetary history and archaeology in a broad way with exhibitions and educational activities. Dating back to 1660 being part of the city library, its main founding date is 1861 when Friedrich Imhoof-Blumer (1838-1920) began his work as curator. Until 1920, he made
+a significant mark on the collection, donating in 1871 his 10,578 Swiss coins and medals and building up a collection of Greek and Roman coins and a important collection of casts of Greek coins. Today, the collection includes 64,000 coins and medals of all periods. Strong pillars are the best collection of Greek and Roman Provincial coins in Switzerland and a very good collection of Swiss coins. To this add recently developed holdings of Modern, Byzantine, Medieval and Islamic coins.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="https://ikmk-win.ch"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/mk_winterthur#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <skos:exactMatch rdf:resource="https://de.wikipedia.org/wiki/M%C3%BCnzkabinett_und_Antikensammlung_der_Stadt_Winterthur"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q1773583"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        
+        <foaf:thumbnail rdf:resource="https://stadt.winterthur.ch/muenzkabinett/@@logo/logo/get_logo?r=3ba484bb76ece76f0175f5342e3b2aab7fe6aee838289dc5338ea706b7e7ea51"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+    </nmo:Collection>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mk_winterthur#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/mk_winterthur"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-02T07:20:50.631-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-19T00:16:38.256-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-21T00:09:41.486-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-21T00:12:21.221-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-10T04:03:39.119-06:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-28T05:23:18.09Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

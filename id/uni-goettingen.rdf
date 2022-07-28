@@ -1,59 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:wordnet="http://ontologi.es/WordNet/class/"
-         xmlns:nm="http://nomisma.org/id/"
-         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
-         xmlns:nmo="http://nomisma.org/ontology#"
-         xmlns:org="http://www.w3.org/ns/org#"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
-         xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+<?xml version="1.0" encoding="utf-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:nmo="http://nomisma.org/ontology#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <nmo:Collection rdf:about="http://nomisma.org/id/uni-goettingen">
-      <skos:definition xml:lang="de">Die Sammlung enthält ungefähr 40.000 Objekte, davon rund 5.900 griechische, 9.600 römische, 1.000 byzantinische, 4.000 orientalische, 2.100 mittelalterliche, 15.600 neuzeitliche Münzen, ferner ca. 1.700 Medaillen, Plaketten und Jetons sowie 100 Bleimarken. Neben der Münzsammlung in Tübingen ist die Göttinger Sammlung die bekannteste an einer deutschen Universität. Die Bedeutung der Sammlung liegt auf dem Gebiet der historischen, topographischen, onomastischen und kunsthistorischen Dokumentation. Gut dokumentiert ist dabei die orientalische Abteilung. </skos:definition>
-      <skos:prefLabel xml:lang="en">Coin cabinet of Goettingen University</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Münzkabinett der Universität Göttingen</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">The collection comprises a total ot some 40,000 coins of which are 5,900 Greek, 9,600 Roman, 1,000 Byzantine, 4,000 from the Orient, 2,100 Medieval, and 15,600 modern ones. In addition there are c. 1,700 medals and related objects, tokens, the latter including c. 100 made from lead.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <foaf:homepage rdf:resource="http://wwwuser.gwdg.de/~archaeo/html/muenzsammlung.html"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/uni-goettingen#provenance"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-      <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-062622"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/besitzer/102"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-      <foaf:thumbnail rdf:resource="https://www.uni-goettingen.de/de/document/download/c3b4f295fe0ba41f772d066a3d0f098c.png/Uni%20Goettingen%20-%20Logo%204c%20RGB%20-%20600dpi.png"/>
-   </nmo:Collection>
-   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni-goettingen#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/uni-goettingen"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-01T23:03:12.104-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-01T23:41:31.643-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Collection rdf:about="http://nomisma.org/id/uni-goettingen">
+        <skos:definition xml:lang="de">Die Sammlung enthält ungefähr 40.000 Objekte, davon rund 5.900 griechische, 9.600 römische, 1.000 byzantinische, 4.000 orientalische, 2.100 mittelalterliche, 15.600 neuzeitliche Münzen, ferner ca. 1.700 Medaillen, Plaketten und Jetons sowie 100 Bleimarken. Neben der Münzsammlung in Tübingen ist die Göttinger Sammlung die bekannteste an einer deutschen Universität. Die Bedeutung der Sammlung liegt auf dem Gebiet der historischen, topographischen, onomastischen und kunsthistorischen Dokumentation. Gut dokumentiert ist dabei die orientalische Abteilung. </skos:definition>
+        <skos:prefLabel xml:lang="en">Coin cabinet of Goettingen University</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Münzkabinett der Universität Göttingen</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The collection comprises a total ot some 40,000 coins of which are 5,900 Greek, 9,600 Roman, 1,000 Byzantine, 4,000 from the Orient, 2,100 Medieval, and 15,600 modern ones. In addition there are c. 1,700 medals and related objects, tokens, the latter including c. 100 made from lead.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="http://wwwuser.gwdg.de/~archaeo/html/muenzsammlung.html"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/uni-goettingen#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-062622"/>
+        
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/besitzer/102"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <foaf:thumbnail rdf:resource="https://www.uni-goettingen.de/de/document/download/c3b4f295fe0ba41f772d066a3d0f098c.png/Uni%20Goettingen%20-%20Logo%204c%20RGB%20-%20600dpi.png"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+    </nmo:Collection>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni-goettingen#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/uni-goettingen"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-01T23:03:12.104-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-01T23:41:31.643-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-28T05:19:22.354Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
