@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,36 +18,50 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Collection rdf:about="http://nomisma.org/id/BHM">
-      <skos:definition xml:lang="de">Das Bernische Historische Museum (BHM) ist das Historische Museum in Bern, Schweiz. Die ältesten der rund 80'000 Objekte stammen aus dem 6. Jahrhundert v. Chr., die jüngsten repräsentieren die Gegenwart. Die Bestände wurden von der Stadtbibliothek Bern begründet und fanden 1898 ihren Weg ins BHM. Sie beinhalten die weltweit wichtigste Kollektion von Berner Münzen und Medaillen sowie Münzen- und Medaillenstempel. Auch ist sie eine der wichtigsten Schweizer Sammlungen von Schweizer Münzen sowie von antiken Münzen (Griechen und Römer). Zudem gehört ihr ein international wichtiger und national einzigartiger Bestand an orientalischen Münzen an.</skos:definition>
-      <skos:prefLabel xml:lang="en">Bernisches Historisches Museum</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Bernisches Historisches Museum</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Musée d’Histoire de Berne</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Bernisches Historisches Museum</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">The Bernisches Historisches Museum (BHM) is the history museum of Bern, Switzerland. The oldest of the approximately 80,000 objects date back to the 6th century BC, the most recent represent the present. The holdings were founded by the Stadtbibliothek Bern and found their way to the BHM in 1898. They contain the world's most important collection of Bernese coins and medals as well as coin and medal dies. It is also one of the most important Swiss collections of Swiss coins as well as of ancient coins (Greek and Roman). It also includes an internationally important and nationally unique collection of Oriental coins.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <foaf:homepage rdf:resource="https://www.bhm.ch"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/BHM#provenance"/>
-      <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q98770269"/>
-      <foaf:thumbnail rdf:resource="https://www.bhm.ch/typo3conf/ext/nineteen-bhm/Resources/Public/Icons/logo_bhm_dt.svg"/>
-   </nmo:Collection>
+        <skos:definition xml:lang="de">Das Bernische Historische Museum (BHM) ist das Historische Museum in Bern, Schweiz. Die ältesten der rund 80'000 Objekte stammen aus dem 6. Jahrhundert v. Chr., die jüngsten repräsentieren die Gegenwart. Die Bestände wurden von der Stadtbibliothek Bern begründet und fanden 1898 ihren Weg ins BHM. Sie beinhalten die weltweit wichtigste Kollektion von Berner Münzen und Medaillen sowie Münzen- und Medaillenstempel. Auch ist sie eine der wichtigsten Schweizer Sammlungen von Schweizer Münzen sowie von antiken Münzen (Griechen und Römer). Zudem gehört ihr ein international wichtiger und national einzigartiger Bestand an orientalischen Münzen an.</skos:definition>
+        <skos:prefLabel xml:lang="en">Bernisches Historisches Museum</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Bernisches Historisches Museum</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Musée d’Histoire de Berne</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bernisches Historisches Museum</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Bernisches Historisches Museum (BHM) is the history museum of Bern, Switzerland. The oldest of the approximately 80,000 objects date back to the 6th century BC, the most recent represent the present. The holdings were founded by the Stadtbibliothek Bern and found their way to the BHM in 1898. They contain the world's most important collection of Bernese coins and medals as well as coin and medal dies. It is also one of the most important Swiss collections of Swiss coins as well as of ancient coins (Greek and Roman). It also includes an internationally important and nationally unique collection of Oriental coins.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="https://www.bhm.ch"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/BHM#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q98770269"/>
+        <foaf:thumbnail rdf:resource="https://www.bhm.ch/typo3conf/ext/nineteen-bhm/Resources/Public/Icons/logo_bhm_dt.svg"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/persian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/indo-greek_numismatics"/>
+    </nmo:Collection>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/BHM#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/BHM"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T03:39:39.12-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-07T09:56:19.159-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/BHM"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T03:39:39.12-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-07T09:56:19.159-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-30T13:16:47.069Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

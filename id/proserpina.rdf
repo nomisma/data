@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,68 +18,79 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <wordnet:Deity rdf:about="http://nomisma.org/id/proserpina">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:prefLabel xml:lang="en">Proserpina</skos:prefLabel>
-      <skos:definition xml:lang="en">Proserpina is an ancient Roman goddess whose cult, myths and mysteries were combined from those of Libera, an early Roman goddess of wine. She is the Roman equivalent to the Greek, Persephone.</skos:definition>
-      <skos:prefLabel xml:lang="de">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">پروسرپینا</skos:prefLabel>
-      <skos:prefLabel xml:lang="co">Pruserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Proserpine</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Proserpine</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Прозерпина</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="bs">Prozerpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Прозерпіна</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Προσερπίνα</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Prosèrpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">普洛塞庇娜</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Prozerpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Prozerpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Прозерпина</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Prozerpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">プロセルピナ</skos:prefLabel>
-      <skos:prefLabel xml:lang="is">Próserpína</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Празерпіна</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">פרוסרפינה</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">بروسربينا</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Prozerpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Proserpina (jumalatar)</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Պրոզերպինա</skos:prefLabel>
-      <skos:prefLabel xml:lang="ga">Proiseirpine</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Proserpina</skos:prefLabel>
-      <skos:prefLabel xml:lang="ku">Proserpina</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q14515330"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/09q39"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11851122X"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/25393445"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/028106628"/>
-      <skos:related rdf:resource="http://nomisma.org/id/persephone"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/proserpina#provenance"/>
-   </wordnet:Deity>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Proserpina</skos:prefLabel>
+        <skos:definition xml:lang="en">Proserpina is an ancient Roman goddess whose cult, myths and mysteries were combined from those of Libera, an early Roman goddess of wine. She is the Roman equivalent to the Greek, Persephone.</skos:definition>
+        <skos:prefLabel xml:lang="de">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">پروسرپینا</skos:prefLabel>
+        <skos:prefLabel xml:lang="co">Pruserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Proserpine</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Proserpine</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Прозерпина</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="bs">Prozerpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Прозерпіна</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Προσερπίνα</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Prosèrpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">普洛塞庇娜</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Prozerpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Prozerpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Прозерпина</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Prozerpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">プロセルピナ</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Próserpína</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Празерпіна</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">פרוסרפינה</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">بروسربينا</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Prozerpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Proserpina (jumalatar)</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Պրոզերպինա</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Proiseirpine</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Proserpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ku">Proserpina</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q14515330"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/09q39"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11851122X"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/25393445"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/028106628"/>
+        <skos:related rdf:resource="http://nomisma.org/id/persephone"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/proserpina#provenance"/>
+        <skos:prefLabel xml:lang="uz">Prozerpina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">프로세르피나</skos:prefLabel>
+    </wordnet:Deity>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/proserpina#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/proserpina"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/proserpina"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-27T21:07:31.816Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

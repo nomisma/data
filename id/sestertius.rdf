@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,86 +18,94 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/sestertius">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Sestertius</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Sesterz</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Sesterce</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Sestertius</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Сестерций</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Sestertius</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Sesterzio</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Σηστέρτιος</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sestertius"/>
-      <skos:prefLabel xml:lang="bg">Cестерций</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300037270"/>
-      <skos:definition xml:lang="en">An ancient denomination with the value of 1/4 denarius</skos:definition>
-      <skos:definition xml:lang="fr">1/4 de dénarius</skos:definition>
-      <skos:prefLabel xml:lang="es">Sestercio</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q208041"/>
-      <skos:prefLabel xml:lang="pl">Sesterc</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Sestertzio</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">세스테르티우스</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">ססטרטיוס</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Sestertius</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Sestercio</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">セステルティウス</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Sestercij</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Sestertie</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Sestércio</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Sesterco</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Sestercius</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Sestertius</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">сестерциј</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Sesterci</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Sestertius</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Сестерцій</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Sestertius</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Sestercius</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Sestercij</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Sestercija</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Сестерциј</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Sesterci</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Sestertius</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Сестэрцый</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Sesterc</skos:prefLabel>
-      <skos:prefLabel xml:lang="kk">Сестерций</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01rh6c"/>
-      <skos:prefLabel xml:lang="ka">სესტერცი</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">塞斯特斯</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Sesterts</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/sestertius#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/1100"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Sestertius</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sesterz</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sesterce</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Sestertius</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Сестерций</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Sestertius</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sesterzio</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Σηστέρτιος</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sestertius"/>
+        <skos:prefLabel xml:lang="bg">Cестерций</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300037270"/>
+        <skos:definition xml:lang="en">An ancient denomination with the value of 1/4 denarius; originally 2 1/2, after the retariffing of the denarius 4 asses. Introduced in the late-3rd century BC as a silver coin, from the Augustan coin reform it was struck in brass.</skos:definition>
+        <skos:definition xml:lang="fr">1/4 de dénarius</skos:definition>
+        <skos:prefLabel xml:lang="es">Sestercio</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q208041"/>
+        <skos:prefLabel xml:lang="pl">Sesterc</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Sestertzio</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">세스테르티우스</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">ססטרטיוס</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Sestertius</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Sestercio</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">セステルティウス</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Sestercij</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Sestertie</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Sestércio</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Sesterco</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Sestercius</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Sestertius</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">сестерциј</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Sesterci</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Sestertius</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Сестерцій</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Sestertius</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Sestercius</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Sestercij</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Sestercija</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Сестерциј</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Sesterci</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Sestertius</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Сестэрцый</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Sesterc</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Сестерций</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01rh6c"/>
+        <skos:prefLabel xml:lang="ka">სესტერცი</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">塞斯特斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Sesterts</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/sestertius#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/1100"/>
    </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sestertius#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/sestertius"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-19T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vC7sRD5zbHcQKsCkMd3z6Zo-QH5PtX0Iq07xnKXGTGY/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/sestertius"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-19T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vC7sRD5zbHcQKsCkMd3z6Zo-QH5PtX0Iq07xnKXGTGY/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-12T08:59:41.477Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

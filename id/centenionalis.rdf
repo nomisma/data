@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Denomination rdf:about="http://nomisma.org/id/centenionalis">
+        <skos:prefLabel xml:lang="en">Centenionalis</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">A term for Roman billon/copper coins attested in the 4th century AD. It is often applied to the AE3 coins of the second half of the 4th/early-5th centuries, but without any concrete evidence for the attribution. </skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/centenionalis#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1053548"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Centenionalis"/>
+        <skos:prefLabel xml:lang="bg">Центенионалис</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Центеніоналіс</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">centenionalis</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Centenionalis</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Centenionale</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Centenionalis</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Centenionalis</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Centenionalis</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Centenional</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Centenionalis</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Centenionalis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Центенионалис</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0bj2mn"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300037265"/>
+    </nmo:Denomination>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/centenionalis#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/centenionalis"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-07T19:13:24.904Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

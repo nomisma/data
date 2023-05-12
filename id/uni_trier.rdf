@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Collection rdf:about="http://nomisma.org/id/uni_trier">
+        <skos:definition xml:lang="de">Im Jahr 2017 übergab der Trierer Wasserbauingenieur Karl-Heinz Zimmer seine Sammlung antiker Münzen der Universität Trier. Die Sammlung, die vom Fach Alte Geschichte betreut wird, besteht aus 515 Stücken, die über Jahrzehnte hinweg in Kooperation mit den Denkmalbehörden zusammengetragen wurden. Sie hat einen regionalen Schwerpunkt: Die meisten der Stücke wurden in Trier geprägt und/oder in Trier gefunden. Von vielen Stücken ist der Fundort bekannt; beachtenswert sind auch die zahlreichen deponierten Stücke von der Trierer Römerbrücke (Moselbrücke) und vom Tempel in Trierweiler. Die Sammlung ist also nicht nur als Lehrmünzsammlung für die Ausbildung an der Universität Trier nützlich, sondern sie hat auch wissenschaftliche Bedeutung.</skos:definition>
+        <skos:prefLabel xml:lang="en">Coin Collection of Trier University</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Das Digitale Münzkabinett der Universität Trier Das Digitale Münzkabinett der Universität Trier</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">In 2017 Karl-Heinz Zimmer, a water engineer based in Trier, donated his collection of ancient coins to Trier University. This collection, which is now kept with the departement of Ancient History, consists of a total of 515 coins. It was built over several decades and in cooperation with local cultural heritage authorities. The collection does have a local focus, as most of the coins had been struck in the Roman mint of ancient Trier and/or were found in Trier proper, respectively. Many coins hence do have a known findspot; remarkable e.g. are many coins found at the Roman bridge in Trier (Moselbrücke) or those deposited at the Trierweiler temple. The collections thus does not only provide an imporatent teaching tool during University courses, but does represent scientific value in its own right.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="https://www.uni-trier.de/index.php?id=5108"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/uni_trier#provenance"/>
+        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-136025"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/besitzer/70"/>
+        <foaf:thumbnail rdf:resource="https://ikmk.uni-trier.de/special/logos/logo.png"/>
+    </nmo:Collection>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni_trier#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/uni_trier"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-21T11:26:00.559Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

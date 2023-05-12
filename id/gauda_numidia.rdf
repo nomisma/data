@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/gauda_numidia">
+        <skos:prefLabel xml:lang="en">Gauda of Numidia</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Gauda was a king of Numidia, who reigned from 105 BC to 88 BC. He was the son of Mastanabal and a grandson of Masinissa. Gauda was thus also a half-brother of Jugurtha. He was the father of Hiempsal II and the grandfather of Juba I. </skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/gauda_numidia#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q340116"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gauda_(king)"/>
+        <skos:prefLabel xml:lang="it">Gauda</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Gauda</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gauda</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Gauda</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Gauda</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Gauda</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">גאודה</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Gauda</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Гауда</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Gauda</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Գաուդա</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Гауда</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Gauda (król Numidii)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">غودا النوميدي</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Gauda</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Γαύδας</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0xn_pkj"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/gauda_numidia#membership_a7593d06902697817d29540dd5dc9dc9"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/gauda_numidia#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/gauda_numidia"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-07T14:47:46.134Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-07T14:51:40.24Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/gauda_numidia#membership_a7593d06902697817d29540dd5dc9dc9">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/numidian_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0105</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0088</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

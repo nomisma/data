@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/wilhelm_achtenhagen_(20thcentury)">
+        <skos:definition xml:lang="de">Biographische Daten unbekannt bzw. nicht ermittelt. Bildhauer und Medailleur in Magdeburg. Achtenhagen war mit Medaillen auf der Deutschen Kunstausstellung 1906 in Köln vertreten, er trat später mit einer Reihe von Weltkriegsmedaillen hervor, Exemplare in der Sammlung der Hamburger Kunsthalle.
+
+Lit.: M. Heidemann, Medaillenkunst in Deutschland von 1895 bis 1914. Die Kunstmedaille in Deutschland 8 (1998) 489 (mit weiterer Lit.).</skos:definition>
+        <skos:prefLabel xml:lang="en">Wilhelm Achtenhagen</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Wilhelm Achtenhagen</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">No biographical information is known.
+
+Achtenhagen is attested with medalic works at the Deutsche Kunstausstellung in Cologne in 1906. He also later produced some World War medals. Some of his medals are kept in the Kunsthalle Hamburg.
+
+Lit.: M. Heidemann, Medaillenkunst in Deutschland von 1895 bis 1914. Die Kunstmedaille in Deutschland 8 (1998) p. 489 (with additional references).</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/wilhelm_achtenhagen_(20thcentury)#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/wilhelm_achtenhagen_(20thcentury)#membership_938d66615ed48c01077ec09c0aa3677c"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/5007"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/wilhelm_achtenhagen_(20thcentury)#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/wilhelm_achtenhagen_(20thcentury)"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-26T04:10:29.973Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/wilhelm_achtenhagen_(20thcentury)#membership_938d66615ed48c01077ec09c0aa3677c">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+    </org:Membership>
+</rdf:RDF>

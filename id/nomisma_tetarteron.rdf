@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Denomination rdf:about="http://nomisma.org/id/nomisma_tetarteron">
+        <skos:prefLabel xml:lang="en">Nomisma Tetarteron</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">A light-weight gold denomination with the value of c. 22-22 ½ carats. The coin was introduced under Emperor Nikephoros II Phokas (r. 963-969) and continued to be struck until the monetary reform of Alexios I Komnenos (r. 1081-1118) in 1092. During the eleventh century, the coin went through various phases of debasement, with the gold content plummeting in the 1080s.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/nomisma_tetarteron#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/1164"/>
+    </nmo:Denomination>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/nomisma_tetarteron#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/nomisma_tetarteron"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-05T08:19:24.703Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

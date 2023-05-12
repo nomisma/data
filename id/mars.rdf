@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,97 +18,107 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <wordnet:Deity rdf:about="http://nomisma.org/id/mars">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:prefLabel xml:lang="en">Mars</skos:prefLabel>
-      <skos:definition xml:lang="en">In ancient Roman religion and myth, Mars was the god of war and also an agricultural guardian, a combination characteristic of early Rome. He was the son of Jupiter and Juno, and he was the most prominent of the military gods in the religion of the Roman army.</skos:definition>
-      <skos:prefLabel xml:lang="fr">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Марс</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Marte</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Marte</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">玛尔斯</skos:prefLabel>
-      <skos:prefLabel xml:lang="an">Marte</skos:prefLabel>
-      <skos:prefLabel xml:lang="az">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Марс</skos:prefLabel>
-      <skos:prefLabel xml:lang="bn">মার্স</skos:prefLabel>
-      <skos:prefLabel xml:lang="bo">མ་ཨེར་སི།</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Meurzh</skos:prefLabel>
-      <skos:prefLabel xml:lang="bs">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Mart</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Μαρς</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Marso</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Marte</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">مارس</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Marte</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">מרס</skos:prefLabel>
-      <skos:prefLabel xml:lang="hi">मार्स</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="ia">Marte</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="is">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">マールス</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">მარსი</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">마르스</skos:prefLabel>
-      <skos:prefLabel xml:lang="kw">Meurth</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Marsas</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">Marss</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Марс</skos:prefLabel>
-      <skos:prefLabel xml:lang="mr">मार्स</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Mart</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Marte</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Marte</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Марс</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="th">มาร์ส</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Марс</skos:prefLabel>
-      <skos:prefLabel xml:lang="li">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="ta">செவ்வாய்</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Marte</skos:prefLabel>
-      <skos:prefLabel xml:lang="pa">ਮਾਰਸ</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Марс</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">مارس</skos:prefLabel>
-      <skos:prefLabel xml:lang="ne">मङ्गल ग्रह</skos:prefLabel>
-      <skos:prefLabel xml:lang="af">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="tt">Марс</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Մարս</skos:prefLabel>
-      <skos:prefLabel xml:lang="ms">Mars</skos:prefLabel>
-      <skos:prefLabel xml:lang="cv">Марс (халаплăх)</skos:prefLabel>
-      <skos:prefLabel xml:lang="wa">Måss</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q112"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0cq3s"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/101084029"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118731181"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/029045061"/>
-      <skos:related rdf:resource="http://nomisma.org/id/ares"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/mars#provenance"/>
-   </wordnet:Deity>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Mars</skos:prefLabel>
+        <skos:definition xml:lang="en">In ancient Roman religion and myth, Mars was the god of war and also an agricultural guardian, a combination characteristic of early Rome. He was the son of Jupiter and Juno, and he was the most prominent of the military gods in the religion of the Roman army.</skos:definition>
+        <skos:prefLabel xml:lang="fr">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Марс</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Marte</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Marte</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">玛尔斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Marte</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Марс</skos:prefLabel>
+        <skos:prefLabel xml:lang="bn">মার্স</skos:prefLabel>
+        <skos:prefLabel xml:lang="bo">མ་ཨེར་སི།</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Meurzh</skos:prefLabel>
+        <skos:prefLabel xml:lang="bs">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Mart</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Μαρς</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Marso</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Marte</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">مارس</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Marte</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">מרס</skos:prefLabel>
+        <skos:prefLabel xml:lang="hi">मार्स</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="ia">Marte</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">マールス</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">მარსი</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">마르스</skos:prefLabel>
+        <skos:prefLabel xml:lang="kw">Meurth</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Marsas</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Marss</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Марс</skos:prefLabel>
+        <skos:prefLabel xml:lang="mr">मार्स</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Mart</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Marte</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Marte</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Марс</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">มาร์ส</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Марс</skos:prefLabel>
+        <skos:prefLabel xml:lang="li">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="ta">செவ்வாய்</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Marte</skos:prefLabel>
+        <skos:prefLabel xml:lang="pa">ਮਾਰਸ</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Марс</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">مارس</skos:prefLabel>
+        <skos:prefLabel xml:lang="ne">मङ्गल ग्रह</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="tt">Марс</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Մարս</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Mars</skos:prefLabel>
+        <skos:prefLabel xml:lang="cv">Марс (халаплăх)</skos:prefLabel>
+        <skos:prefLabel xml:lang="wa">Måss</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q112"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0cq3s"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/101084029"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118731181"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/029045061"/>
+        <skos:related rdf:resource="http://nomisma.org/id/ares"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/mars#provenance"/>
+        <skos:prefLabel xml:lang="ga">Mars</skos:prefLabel>
+    </wordnet:Deity>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mars#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/mars"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/mars"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-27T21:07:31.816Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

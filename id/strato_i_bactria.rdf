@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,55 +18,63 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/strato_i_bactria">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:prefLabel xml:lang="en">Strato I of Bactria</skos:prefLabel>
-      <skos:definition xml:lang="en">Strato I was an Indo-Greek king, ruling at the same time as Agathocleia and Heliocles II.</skos:definition>
-      <skos:prefLabel xml:lang="de">Straton I.</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Στράτων Α΄ ο Επιφανής</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Strato I</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Estrató I</skos:prefLabel>
-      <skos:prefLabel xml:lang="bn">প্রথম স্ত্রাতোন</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Estratón I</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Strato I</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ストラトン1世</skos:prefLabel>
-      <skos:prefLabel xml:lang="ta">ஸ்டாட்ரோ</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Стратон I</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q724127"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/04s7db"/>
-      <skos:altLabel xml:lang="en">Strato I</skos:altLabel>
-      <org:memberOf rdf:resource="http://nomisma.org/id/euthydemid_dynasty"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/strato_i_bactria#provenance"/>
-      <skos:prefLabel xml:lang="ru">Стратон I</skos:prefLabel>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/strato_i_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1421"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Strato I of Bactria</skos:prefLabel>
+        <skos:definition xml:lang="en">Strato I was an Indo-Greek king, ruling at the same time as Agathocleia and Heliocles II.</skos:definition>
+        <skos:prefLabel xml:lang="de">Straton I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Στράτων Α΄ ο Επιφανής</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Strato I</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Estrató I</skos:prefLabel>
+        <skos:prefLabel xml:lang="bn">প্রথম স্ত্রাতোন</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Estratón I</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Strato I</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ストラトン1世</skos:prefLabel>
+        <skos:prefLabel xml:lang="ta">ஸ்டாட்ரோ</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Стратон I</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q724127"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04s7db"/>
+        <skos:altLabel xml:lang="en">Strato I</skos:altLabel>
+      
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/strato_i_bactria#provenance"/>
+        <skos:prefLabel xml:lang="ru">Стратон I</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/strato_i_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1421"/>
    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/strato_i_bactria#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/strato_i_bactria"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/strato_i_bactria"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T20:05:40.359Z</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1HCD6KzhrjYNmifrzLbAWLlFl-531KU5j-nXEbcTbQ8A/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-10T18:08:06.915Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
    <org:Membership rdf:about="http://nomisma.org/id/strato_i_bactria#membership_ba2a13ae23a01d6486dcff3abd98c53f">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
-      <org:organization rdf:resource="http://nomisma.org/id/indo-greek_kingdom"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0105</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0080</nmo:hasEndDate>
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/indo-greek_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0105</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0080</nmo:hasEndDate>
    </org:Membership>
 </rdf:RDF>

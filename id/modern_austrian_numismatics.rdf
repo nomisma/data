@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,21 +18,30 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:FieldOfNumismatics rdf:about="http://nomisma.org/id/modern_austrian_numismatics">
-      <skos:prefLabel xml:lang="en">Modern Austrian Numismatics</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">The study of the coins, other numismatic items and numismatic history in Austria and historically related territories since the post-medieval period (roughly 1500).</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/modern_austrian_numismatics#provenance"/>
-   </nmo:FieldOfNumismatics>
+        <skos:prefLabel xml:lang="en">Modern Austrian Numismatics</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The study of the coins, other numismatic items and numismatic history in Austria and historically related territories since the post-medieval period (roughly 1500).</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/modern_austrian_numismatics#provenance"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+    </nmo:FieldOfNumismatics>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/modern_austrian_numismatics#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T04:41:07.708Z</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T04:41:07.708Z</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-05T16:18:01.516Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

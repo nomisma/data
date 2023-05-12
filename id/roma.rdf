@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,60 +18,70 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <wordnet:Deity rdf:about="http://nomisma.org/id/roma">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:prefLabel xml:lang="en">Roma</skos:prefLabel>
-      <skos:definition xml:lang="en">In ancient Roman religion, Roma was a female deity who personified the city of Rome and more broadly, the Roman state. She embodied and idealised certain of Rome's ideas about itself, its advancement and its eventual domination of its neighbours.</skos:definition>
-      <skos:prefLabel xml:lang="pt">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Рома</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Դեա Ռոմա</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Рома</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Dea Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Рома</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Dea Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ローマ</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">روما</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Рома</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Рома, багіня</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">روما</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">로마</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Erroma</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Roma</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">羅馬女神</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Romo</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">רומא</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Roma (mitoloji)</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Roma (mitologija)</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q953033"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/012gc8"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118602381"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/139134871"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/076418146"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/roma#provenance"/>
-   </wordnet:Deity>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Roma</skos:prefLabel>
+        <skos:definition xml:lang="en">In ancient Roman religion, Roma was a female deity who personified the city of Rome and more broadly, the Roman state. She embodied and idealised certain of Rome's ideas about itself, its advancement and its eventual domination of its neighbours.</skos:definition>
+        <skos:prefLabel xml:lang="pt">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Рома</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Դեա Ռոմա</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Рома</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Dea Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Рома</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Dea Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ローマ</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">روما</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Рома</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Рома, багіня</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">روما</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">로마</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Erroma</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">羅馬女神</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Romo</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">רומא</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Roma (mitoloji)</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Roma (mitologija)</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q953033"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/012gc8"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118602381"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/139134871"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/076418146"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/roma#provenance"/>
+        <skos:prefLabel xml:lang="ga">Roma (miotaseolaíocht)</skos:prefLabel>
+    </wordnet:Deity>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/roma#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/roma"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/roma"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-27T21:07:31.816Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,53 +18,63 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <wordnet:Deity rdf:about="http://nomisma.org/id/sol">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:prefLabel xml:lang="en">Sol</skos:prefLabel>
-      <skos:definition xml:lang="en">Sol is the personification of the Sun and a god in ancient Roman religion.</skos:definition>
-      <skos:prefLabel xml:lang="ja">ソール</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Sol</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Sol</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Sol</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">솔</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Sol</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Сол</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Sol</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Sol</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Сол</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Sol</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Sol</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">索尔</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Сол</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">סול (אל)</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Solo</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Sol</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Sol</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">Sols</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Sol (thần thoại)</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Sol Indiges</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Սոլ</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Сол</skos:prefLabel>
-      <skos:prefLabel xml:lang="ur">سول (رومن مائی تھالوجی)</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">سول (اساطیر رومی)</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1199937"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0521pks"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/080488323"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/199927216"/>
-      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb14548358g"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/sol#provenance"/>
-   </wordnet:Deity>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Sol</skos:prefLabel>
+        <skos:definition xml:lang="en">Sol is the personification of the Sun and a god in ancient Roman religion.</skos:definition>
+        <skos:prefLabel xml:lang="ja">ソール</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Sol</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Sol</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Sol</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">솔</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sol</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Сол</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Sol</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Sol</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Сол</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Sol</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Sol</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">索尔</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Сол</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">סול (אל)</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Solo</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Sol</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sol</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Sols</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Sol (thần thoại)</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Sol Indiges</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Սոլ</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Сол</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">سول (رومن مائی تھالوجی)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">سول (اساطیر رومی)</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1199937"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0521pks"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/080488323"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/199927216"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb14548358g"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/sol#provenance"/>
+        <skos:prefLabel xml:lang="ga">Sol</skos:prefLabel>
+    </wordnet:Deity>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sol#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/sol"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/sol"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-27T21:07:31.816Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,24 +18,32 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/5_nummi">
-      <skos:prefLabel xml:lang="en">5 Nummi</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">A denomination with the value of 5 nummi. The coin bears the letters V reps. E.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/5_nummi#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/528"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/ostrogothic_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/ostrogothic_numismatics"/>
+        <skos:prefLabel xml:lang="en">5 Nummi</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">A denomination with the value of 5 nummi. The coin bears the letters V resp. E.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/5_nummi#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/528"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/ostrogothic_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/ostrogothic_numismatics"/>
    </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/5_nummi#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/5_nummi"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T12:05:21.679-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/5_nummi"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T12:05:21.679-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-22T05:49:21.997Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/karl_goetz">
+        <skos:definition xml:lang="de">Deutscher Bildhauer und Medailleur. Künstlerische Ausbildung zwischen 1895 und 1897 an den Kunstgewerbeschulen in Dresden und Berlin. Von 1897 bis 1899 hospitierte er in Utrecht bei Begeer sowie bei der in Le Locle/Schweiz ansässigen Prägefirma Huguenin, Von 1899 bis 1904 hielt er sich in Paris auf, anschließend ließ er sich in München nieder. Seit 1908 stellte er fast alljährlich im München Glaspalast aus. Bekannt wurde Goetz mit seinen satirisch-polemischen Propagandastücken auf die deutschen Kriegsgegner im Ersten Weltkrieg.
+
+Lit.: L. Forrer, Biographical Dictionary of Medallists II (1904) 286; VII (1923) 379; G. W. Kienast, The Medals of Karl Goetz (1967); Suppl. Band (1986); M. Heidemann, Medaillenkunst in Deutschland von 1895 bis 1914. Die Kunstmedaille in Deutschland 8 (1998) 497.</skos:definition>
+        <skos:prefLabel xml:lang="en">Karl Goetz</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">German medalist. In particular known for his WWI medals.
+
+Lit.: L. Forrer, Biographical Dictionary of Medallists II (1904) p. 286; VII (1923) p. 379; G. W. Kienast, The Medals of Karl Goetz (1967); Suppl. volume (1986); M. Heidemann, Medaillenkunst in Deutschland von 1895 bis 1914. Die Kunstmedaille in Deutschland 8 (1998) p. 497.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/karl_goetz#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/karl_goetz#membership_f3ab62120743b52de06ccb7f998a2d63"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/karl_goetz#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/karl_goetz#death"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q1565448"/>
+        <skos:exactMatch rdf:resource="https://mmlo.de/20672"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/116739541"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/45061627"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3932"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:altLabel xml:lang="de">Carl Goetz</skos:altLabel>
+        <skos:altLabel xml:lang="de">Karl Götz</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG29254"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/karl_goetz#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/karl_goetz"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-21T04:58:23.647Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-25T06:12:51.451Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/karl_goetz#membership_f3ab62120743b52de06ccb7f998a2d63">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+    </org:Membership>
+    <bio:Birth rdf:about="http://nomisma.org/id/karl_goetz#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1875</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/karl_goetz#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1950</dcterms:date>
+    </bio:Death>
+</rdf:RDF>

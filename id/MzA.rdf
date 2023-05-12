@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,37 +18,46 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Collection rdf:about="http://nomisma.org/id/MzA">
-      <skos:definition xml:lang="de">Das Museum zu Allerheiligen in Schaffhausen, Schweiz, pflegt eine numismatische Sammlung mit Schwerpunkt Schaffhausen.</skos:definition>
-      <skos:prefLabel xml:lang="de">Museum zu Allerheiligen Schaffhausen</skos:prefLabel>
-      <skos:prefLabel xml:lang="en">Museum zu Allerheiligen Schaffhausen</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">The Museum zu Allerheiligen in Schaffhausen, Switzerland houses a coin collection with focus on coins and medals from Schaffhausen.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <foaf:homepage rdf:resource="https://www.allerheiligen.ch"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/MzA#provenance"/>
-      <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q1954786"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-   </nmo:Collection>
+        <skos:definition xml:lang="de">Das Museum zu Allerheiligen in Schaffhausen, Schweiz, pflegt eine numismatische Sammlung mit Schwerpunkt Schaffhausen.</skos:definition>
+        <skos:prefLabel xml:lang="de">Museum zu Allerheiligen Schaffhausen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Museum zu Allerheiligen Schaffhausen</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Museum zu Allerheiligen in Schaffhausen, Switzerland houses a coin collection with focus on coins and medals from Schaffhausen.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="https://www.allerheiligen.ch"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/MzA#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q1954786"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <foaf:thumbnail rdf:resource="https://www.allerheiligen.ch/images/logo.png"/>
+    </nmo:Collection>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/MzA#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/MzA"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T03:18:26.343-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T03:29:42.257-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/MzA"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T03:18:26.343-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T03:29:42.257-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-31T12:45:31.664Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,75 +18,100 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/solidus">
-      <skos:definition xml:lang="en">The standard late Roman and early/middle Byzantine gold denomination, introduced by Constantine the Great.</skos:definition>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Sólido bizantino</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Солид</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Solidus (monnaie)</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Солідус (монета)</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Solidus (munt)</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Sòlid bizantí</skos:prefLabel>
-      <skos:prefLabel xml:lang="no">Solidus (mynt)</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Soldo (moeda)</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Solido (moneta)</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ソリドゥス金貨</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">苏勒德斯 (钱币)</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Solid</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Solidus_(coin)"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q231455"/>
-      <skos:prefLabel xml:lang="he">סולידוס</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Солід</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Σόλιδος</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">صوليدوس</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Solido</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Սոլիդուս</skos:prefLabel>
-      <skos:prefLabel xml:lang="fy">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Солид</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">سولیدوس</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Солид</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">სოლიდუსი</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Solid</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Solidas</skos:prefLabel>
-      <skos:prefLabel xml:lang="an">Solido bizantín</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">solidus</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Solido</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">solidus</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02chqb"/>
-      <skos:prefLabel xml:lang="da">Solidus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/solidus#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/1112"/>
-   </nmo:Denomination>
+        <skos:definition xml:lang="en">The standard late Roman and early/middle Byzantine gold denomination, introduced by Constantine the Great. The Greek name for the Solidus is nomisma (νόμισμα),</skos:definition>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Sólido bizantino</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Солид</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Solidus (monnaie)</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Солідус (монета)</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Solidus (munt)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Sòlid bizantí</skos:prefLabel>
+        <skos:prefLabel xml:lang="no">Solidus (mynt)</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Soldo (moeda)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Solido (moneta)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ソリドゥス金貨</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">苏勒德斯 (钱币)</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Solid</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Solidus_(coin)"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q231455"/>
+        <skos:prefLabel xml:lang="he">סולידוס</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Солід</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">νόμισμα</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">صوليدوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Solido</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Սոլիդուս</skos:prefLabel>
+        <skos:prefLabel xml:lang="fy">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Солид</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">سولیدوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Солид</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">სოლიდუსი</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Solid</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Solidas</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Solido bizantín</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">solidus</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Solido</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">solidus</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02chqb"/>
+        <skos:prefLabel xml:lang="da">Solidus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/solidus#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/1112"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300037252"/>
+    </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/solidus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/solidus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/solidus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-12T09:10:21.299Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-02T13:24:28.964Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-05T08:14:42.979Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

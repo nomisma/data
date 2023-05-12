@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,81 +18,92 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <wordnet:Deity rdf:about="http://nomisma.org/id/nemesis">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:prefLabel xml:lang="en">Nemesis</skos:prefLabel>
-      <skos:definition xml:lang="en">In ancient Greek religion, Nemesis, also called Rhamnousia or Rhamnusia, is the goddess who enacts retribution against those who succumb to hubris, arrogance before the gods.</skos:definition>
-      <skos:prefLabel xml:lang="eu">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Nemezis</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">네메시스</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Némésis</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">נמסיס</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Némesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Nemeszisz</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Nemesi</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Némese</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ネメシス</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Νέμεσις</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Nêmesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Nemezo</skos:prefLabel>
-      <skos:prefLabel xml:lang="is">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Немесида</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Nèmesi</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Немесіда</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Nemeza</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Немезида</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">نمسیس</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Nemezidė</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="th">เนเมซิส</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Немеза</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">涅墨西斯</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="cy">nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Немезіда</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">نمسيس</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Немезида</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Նեմեսիս</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">nemezīda</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">ნემესისი</skos:prefLabel>
-      <skos:prefLabel xml:lang="az">Nemesis</skos:prefLabel>
-      <skos:prefLabel xml:lang="ga">Neimisis</skos:prefLabel>
-      <skos:prefLabel xml:lang="ms">Nemesis</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q185747"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0m9h1"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118924850"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/205840153"/>
-      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12331397v"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/032245270"/>
-      <skos:exactMatch rdf:resource="https://resource.manto.unh.edu/8189869"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/nemesis#provenance"/>
-   </wordnet:Deity>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Nemesis</skos:prefLabel>
+        <skos:definition xml:lang="en">In ancient Greek religion, Nemesis, also called Rhamnousia or Rhamnusia, is the goddess who enacts retribution against those who succumb to hubris, arrogance before the gods.</skos:definition>
+        <skos:prefLabel xml:lang="eu">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Nemezis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">네메시스</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Némésis</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">נמסיס</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Némesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Nemeszisz</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Nemesi</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Némese</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ネメシス</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Νέμεσις</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Nêmesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Nemezo</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Немесида</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Nèmesi</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Немесіда</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Nemeza</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Немезида</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">نمسیس</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Nemezidė</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">เนเมซิส</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Немеза</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">涅墨西斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Немезіда</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">نمسيس</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Немезида</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Նեմեսիս</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">nemezīda</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">ნემესისი</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Nemesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Neimisis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Nemesis</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q185747"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0m9h1"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118924850"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/205840153"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12331397v"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/032245270"/>
+        <skos:exactMatch rdf:resource="https://resource.manto.unh.edu/8189869"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/nemesis#provenance"/>
+        <skos:prefLabel xml:lang="uz">Nemezida</skos:prefLabel>
+        <skos:prefLabel xml:lang="ku">Nemesîs</skos:prefLabel>
+    </wordnet:Deity>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/nemesis#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/nemesis"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-18T10:26:10.037-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/nemesis"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-18T10:26:10.037-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-27T21:07:31.816Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
