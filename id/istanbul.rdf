@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,38 +18,186 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/istanbul">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Istanbul</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at Istanbul as capital of the Ottoman Empire.</skos:definition>
-      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/77402394"/>
-      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x21178"/>
-      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002473"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-      <geo:location rdf:resource="http://nomisma.org/id/istanbul#this"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/istanbul#provenance"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Istanbul</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at Istanbul as capital of the Ottoman Empire.</skos:definition>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/77402394"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x21178"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7002473"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <geo:location rdf:resource="http://nomisma.org/id/istanbul#this"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/istanbul#provenance"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q406"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Istanbul"/>
+        <skos:prefLabel xml:lang="it">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Стамбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Истанбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Istanboel</skos:prefLabel>
+        <skos:prefLabel xml:lang="ak">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="am">ኢስታንቡል</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Istambul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">إسطنبول</skos:prefLabel>
+        <skos:prefLabel xml:lang="av">Истамбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">İstanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ba">Истанбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Стамбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Истанбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="bn">ইস্তাম্বুল</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="bs">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="cu">Цѣсар҄ь Градъ</skos:prefLabel>
+        <skos:prefLabel xml:lang="cv">Стамбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Κωνσταντινούπολη</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Istanbulo</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Estambul</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">İstanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">استانبول</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="fo">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="fy">Istanbûl</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Iostanbúl</skos:prefLabel>
+        <skos:prefLabel xml:lang="gd">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Istambul</skos:prefLabel>
+        <skos:prefLabel xml:lang="gv">İstanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ha">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">איסטנבול</skos:prefLabel>
+        <skos:prefLabel xml:lang="hi">इस्तांबुल</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Isztambul</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Ստամբուլ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ia">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ie">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="io">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Istanbúl</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">イスタンブール</skos:prefLabel>
+        <skos:prefLabel xml:lang="jv">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">სტამბოლი</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Ыстамбұл</skos:prefLabel>
+        <skos:prefLabel xml:lang="kl">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="kn">ಇಸ್ತಾಂಬುಲ್</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">이스탄불</skos:prefLabel>
+        <skos:prefLabel xml:lang="ku">Stembol</skos:prefLabel>
+        <skos:prefLabel xml:lang="kw">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ky">Стамбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Constantinopolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ln">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Stambulas</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Stambula</skos:prefLabel>
+        <skos:prefLabel xml:lang="ml">ഇസ്താംബുൾ</skos:prefLabel>
+        <skos:prefLabel xml:lang="mn">Стамбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="mr">इस्तंबूल</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Setambul</skos:prefLabel>
+        <skos:prefLabel xml:lang="my">အစ်စတန်ဘူလ်မြို့</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Istanboel</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Istambol</skos:prefLabel>
+        <skos:prefLabel xml:lang="os">Стамбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="pa">ਇਸਤਾਂਬੁਲ</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Stambuł</skos:prefLabel>
+        <skos:prefLabel xml:lang="ps">استانبول</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Istambul</skos:prefLabel>
+        <skos:prefLabel xml:lang="qu">Istampul</skos:prefLabel>
+        <skos:prefLabel xml:lang="rm">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="rw">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="sc">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="se">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Carigrad</skos:prefLabel>
+        <skos:prefLabel xml:lang="so">Istanbuul</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Stambolli</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Истанбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="sw">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ta">இசுதான்புல்</skos:prefLabel>
+        <skos:prefLabel xml:lang="te">ఇస్తాంబుల్</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">อิสตันบูล</skos:prefLabel>
+        <skos:prefLabel xml:lang="tk">Stambul</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">İstanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="tt">Истанбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="ug">ئىستانبۇل</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Стамбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">استنبول</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="vo">İstanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="yi">סטאמבול</skos:prefLabel>
+        <skos:prefLabel xml:lang="yo">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">伊斯坦堡</skos:prefLabel>
+        <skos:prefLabel xml:lang="ab">Сҭампыл</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="uz">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ce">Стамбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="or">ଇସ୍ତାନବୁଲ</skos:prefLabel>
+        <skos:prefLabel xml:lang="tw">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ne">इस्तानबुल</skos:prefLabel>
+        <skos:prefLabel xml:lang="na">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ki">İstanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ht">Istanboul</skos:prefLabel>
+        <skos:prefLabel xml:lang="li">Istanboel</skos:prefLabel>
+        <skos:prefLabel xml:lang="mg">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="as">ইষ্টানবুল</skos:prefLabel>
+        <skos:prefLabel xml:lang="bm">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="ny">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="sd">استنبول</skos:prefLabel>
+        <skos:prefLabel xml:lang="lo">ອິສະຕັນບູນ</skos:prefLabel>
+        <skos:prefLabel xml:lang="gu">ઈસ્તાંબુલ</skos:prefLabel>
+        <skos:prefLabel xml:lang="si">ඉස්තාන්බුල්</skos:prefLabel>
+        <skos:prefLabel xml:lang="tg">Истанбул</skos:prefLabel>
+        <skos:prefLabel xml:lang="fj">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="mt">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="gn">Estambul</skos:prefLabel>
+        <skos:prefLabel xml:lang="nv">Ałchʼįʼ Nááʼáhá</skos:prefLabel>
+        <skos:prefLabel xml:lang="zu">Istanbul</skos:prefLabel>
+        <skos:prefLabel xml:lang="mi">Istanbul</skos:prefLabel>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4027821-9"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/135931454"/>
+        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11864652s"/>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/09949m"/>
+        <skos:closeMatch rdf:resource="http://sws.geonames.org/745044"/>
+        <skos:closeMatch rdf:resource="http://isni.org/0000000121641665"/>
+        <skos:closeMatch rdf:resource="http://www.idref.fr/02638986X"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/istanbul#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.011025676813894</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.983023911714366</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.011025676813894</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.983023911714366</geo:long>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/istanbul#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/istanbul"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-01T04:00:01+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/istanbul"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-01T04:00:01+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-01T15:43:34.064Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
