@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/valencia">
+        <skos:prefLabel xml:lang="en">Valencia</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Valencia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Valence</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Valencia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Valencia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">València</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The medieval and modern (christian) mint located in the city of Valencia, Spain. It was in operation throughout the feudal Middle Ages (13th-15th centuries), the Modern Age, and the Contemporary Age. It was established by King James I of Aragon in 1247, a few years after he had conquered the city (known as Balansiya) from the Muslims. The initial coinage, consisting of silver pennies (reals), was issued in the name of James I in the years 1247/1249 and 1271, and the activity ceased until the mid-14th century when King Peter IV of Aragon resumed minting to produce gold florins. With subsequent reigns, starting from John I of Aragon, the Valencia mint produced coins in silver, gold, and copper, until its closure in the 19th century. For the muslim mint of Valencia, see "Balansiyah".</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/valencia#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1247</nmo:hasStartDate>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:closeMatch rdf:resource="http://nomisma.org/id/balansiyah"/>
+        <geo:location rdf:resource="http://nomisma.org/id/valencia#this"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q8818"/>
+        <skos:closeMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/860"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2509954"/>
+        <rdfs:seeAlso rdf:resource="http://nomisma.org/id/balansiyah"/>
+    </nmo:Mint>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/valencia#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/valencia"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-21T08:59:17.062Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-21T14:24:16.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/valencia#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.4760502736552</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.377491718947829</geo:long>
+    </geo:SpatialThing>
+</rdf:RDF>
