@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,35 +18,54 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/taler_(120_kreuzer)">
-      <skos:definition xml:lang="de">Talermünze im Wert von 120 Kreuzern.</skos:definition>
-      <skos:prefLabel xml:lang="en">Taler (120 Kreuzer)</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Taler (120 Kreuzer)</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">Taler valued as 120 Kreuzers.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/taler_(120_kreuzer)#provenance"/>
-      <skos:broader rdf:resource="http://nomisma.org/id/taler"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/1499"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-   </nmo:Denomination>
+        <skos:definition xml:lang="de">Nominal der Kipperzeit. Auch wenn dieses Nominal häufig in der Literatur als Taler oder Kippertaler angesprochen wird, handelt es sich hierbei nicht um Reichstaler.
+Wenn überhaupt, handelt es sich um einen doppelten Gulden: „Hieraus ergibt sich aber auch eindeutig, daß diese in der Literatur häufig als Kippertaler bezeichneten Münzen keine wie auch immer gearteten Taler gewesen sein können, es waren vielmehr Gulden. Im Unterschied zu Talern, die eine definierte Silbermenge enthalten mußten, verkörpern Gulden eine Zählmenge, konkret die Menge von 60 Kreuzern. Dabei spielte es keine Rolle, ob die Kreuzer vollwertig waren oder nicht. Fünf 12-Kreuzerstücke waren 60 Kreuzer und damit rechnerisch immer einen Gulden (zu verschiedenen Zeitpunkten natürlich mit völlig unterschiedlichem inneren Wert).“ [L. Koppe - T. Seitz, Die Kippermünzen von Sachsen-Weimar 1619-1622 (2012) 19]</skos:definition>
+        <skos:prefLabel xml:lang="en">120 Kreuzer (sog. Kippertaler)</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">120 Kreuzer (so-called Kippertaler)</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Denomination of the Kipper period. Even though this denomination is often referred to in the literature as a Taler resp. a Kippertaler, it does not represent a Reichstaler.
+If anything, it is a double Gulden: "From this, however, it is also clear that these coins, often referred to in the literature as Kippertaler, could not have been Talers of any kind, they were rather Gulden. In contrast to talers, which had to contain a defined quantity of silver, guldens (florins) embody a counted quantity, specifically the quantity of 60 kreuzers. It did not matter whether the kreuzers were full-value or not. Five pieces of 12 kreuzers valued as 60 kreuzers and thus arithmetically always one florin (at different times, of course, with completely different intrinsic value)." [L. Koppe - T. Seitz, Die Kippermünzen von Sachsen-Weimar 1619-1622 (2012) p. 19].</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/taler_(120_kreuzer)#provenance"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/taler"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/1499"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_austrian_numismatics"/>
+    </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/taler_(120_kreuzer)#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/taler_(120_kreuzer)"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-11T08:22:40.03-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-11T08:37:58.802-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/taler_(120_kreuzer)"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-11T08:22:40.03-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-11T08:37:58.802-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-10T08:26:05.692Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-10T09:17:52.22Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
