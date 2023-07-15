@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,91 +18,101 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <wordnet:Deity rdf:about="http://nomisma.org/id/vulcan">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:prefLabel xml:lang="en">Vulcan</skos:prefLabel>
-      <skos:definition xml:lang="en">Vulcan is the god of fire including the fire of volcanoes, deserts, metalworking and the forge in ancient Roman religion and myth. He is often depicted with a blacksmith's hammer. His Greek counterpart is Hephaestus, the god of fire and smithery. In Etruscan religion, he is identified with Sethlans.</skos:definition>
-      <skos:prefLabel xml:lang="zh">武尔坎努斯</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Vulkano</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Wulkan</skos:prefLabel>
-      <skos:prefLabel xml:lang="bs">Vulkan</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Vulcano</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Βούλκαν</skos:prefLabel>
-      <skos:prefLabel xml:lang="ia">Vulcano</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">فولكانوس</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Vulcano</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Vulkano</skos:prefLabel>
-      <skos:prefLabel xml:lang="is">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Вулкан</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Вулкан</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Вулкан</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Вулкан</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Guden Vulkan</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Vulkan</skos:prefLabel>
-      <skos:prefLabel xml:lang="az">Vulkan</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Vulkan</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Vulcain</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">불카누스</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Вулкан</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Vulcano</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Vulkanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ウゥルカーヌス</skos:prefLabel>
-      <skos:prefLabel xml:lang="hi">वुल्कन</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Vulkán</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Վուլկան</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Vulcan</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Vulcà</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="cy">Fwlcan</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Vulkan</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="mr">व्हल्कन</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">وولکان</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Вулкан</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">ვულკანუსი</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Vulkanas</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Vulcan</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Vulkan</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Vulkanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Vulkan</skos:prefLabel>
-      <skos:prefLabel xml:lang="ta">வல்கன்</skos:prefLabel>
-      <skos:prefLabel xml:lang="lb">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="uz">Vulkan</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">Vulkāns</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Vulkan</skos:prefLabel>
-      <skos:prefLabel xml:lang="ba">Вулкан</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Vulcano</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Vulcan</skos:prefLabel>
-      <skos:prefLabel xml:lang="ga">Bolcán</skos:prefLabel>
-      <skos:prefLabel xml:lang="af">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ms">Vulcanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tg">Вулкон</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">וולקן</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q4640"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/07_3l"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118770462"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/42633769"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/027862682"/>
-      <skos:related rdf:resource="http://nomisma.org/id/hephaestus"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/vulcan#provenance"/>
-   </wordnet:Deity>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Vulcan</skos:prefLabel>
+        <skos:definition xml:lang="en">Vulcan is the god of fire including the fire of volcanoes, deserts, metalworking and the forge in ancient Roman religion and myth. He is often depicted with a blacksmith's hammer. His Greek counterpart is Hephaestus, the god of fire and smithery. In Etruscan religion, he is identified with Sethlans.</skos:definition>
+        <skos:prefLabel xml:lang="zh">武尔坎努斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Vulkano</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Wulkan</skos:prefLabel>
+        <skos:prefLabel xml:lang="bs">Vulkan</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Vulcano</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Βούλκαν</skos:prefLabel>
+        <skos:prefLabel xml:lang="ia">Vulcano</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">فولكانوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Vulcano</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Vulkano</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Вулкан</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Вулкан</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Вулкан</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Вулкан</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Guden Vulkan</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Vulkan</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Vulkan</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Vulkan</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Vulcain</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">불카누스</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Вулкан</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Vulcano</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Vulkanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ウゥルカーヌス</skos:prefLabel>
+        <skos:prefLabel xml:lang="hi">वुल्कन</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Vulkán</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Վուլկան</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Vulcan</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Vulcà</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Fwlcan</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Vulkan</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="mr">व्हल्कन</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">وولکان</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Вулкан</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">ვულკანუსი</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Vulkanas</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Vulcan</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Vulkan</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Vulkanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Vulkan</skos:prefLabel>
+        <skos:prefLabel xml:lang="ta">வல்கன்</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="uz">Vulkan</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Vulkāns</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Vulkan</skos:prefLabel>
+        <skos:prefLabel xml:lang="ba">Вулкан</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Vulcano</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Vulcan</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Bolcán</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Vulcanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tg">Вулкон</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">וולקן</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q4640"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/07_3l"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118770462"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/42633769"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/027862682"/>
+        <skos:related rdf:resource="http://nomisma.org/id/hephaestus"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/vulcan#provenance"/>
+        <skos:prefLabel xml:lang="ku">Vûlkan</skos:prefLabel>
+    </wordnet:Deity>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/vulcan#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/vulcan"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/vulcan"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T14:54:40.852-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-14T18:41:00.331Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
