@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,39 +8,73 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:crmsci="http://www.ics.forth.gr/isl/CRMsci/"
+         xmlns:crmarchaeo="http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/"
+         xmlns:crmgeo="http://www.ics.forth.gr/isl/CRMgeo/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Hoard rdf:about="http://nomisma.org/id/lliria_hoard">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="es">Llíria Hoard</skos:prefLabel>
-      <skos:prefLabel xml:lang="en">Llíria Hoard</skos:prefLabel>
-      <skos:definition xml:lang="en">In 1999, at the Duc of Lliria Street No. 50-52 (Lliria) a hoard of 5,991 Roman denarii was uncovered, hidden under the floor of a house.</skos:definition>
-      <nmo:hasFindspot rdf:resource="http://sws.geonames.org/2515036/"/>
-      <nmo:hasClosingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0210</nmo:hasClosingDate>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/lliria_hoard#provenance"/>
-   </nmo:Hoard>
-   <geo:SpatialThing rdf:about="http://sws.geonames.org/2515036/">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.628528</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.596901</geo:long>
-      <foaf:name>Llíria (Spain)</foaf:name>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="es">Llíria Hoard</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Llíria Hoard</skos:prefLabel>
+        <skos:definition xml:lang="en">In 1999, at the Duc of Lliria Street No. 50-52 (Lliria) a hoard of 5,991 Roman denarii was uncovered, hidden under the floor of a house.</skos:definition>
+        <nmo:hasFindspot>
+	           <nmo:Find>
+		              <crm:P7_took_place_at>
+			                 <crm:E53_Place>
+				                    <rdfs:label xml:lang="en">Llíria</rdfs:label>
+				                    <crm:P89_falls_within rdf:resource="https://sws.geonames.org/2515036/"/>
+      				          </crm:E53_Place>
+      			       </crm:P7_took_place_at>
+      		    </nmo:Find>
+        </nmo:hasFindspot>
+        <nmo:hasClosingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0210</nmo:hasClosingDate>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/lliria_hoard#provenance"/>
+    </nmo:Hoard>
+    <crm:E53_Place rdf:about="https://sws.geonames.org/2515036/">
+	       <rdfs:label>Llíria (Spain)</rdfs:label>
+	       <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300008347"/>
+	       <geo:location rdf:resource="https://sws.geonames.org/2515036/#this"/>
+	       <crm:P168_place_is_defined_by rdf:resource="https://sws.geonames.org/2515036/#this"/>
+    </crm:E53_Place>
+    <geo:SpatialThing rdf:about="https://sws.geonames.org/2515036/#this">
+	       <rdf:type rdf:resource="http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression"/>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.628528</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.596901</geo:long>
+        <crmgeo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-0.596901 39.628528)</crmgeo:asWKT>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lliria_hoard#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/lliria_hoard"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-03T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/lliria_hoard"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-03T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T13:50:58.169Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T14:09:59.164Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

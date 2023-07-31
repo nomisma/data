@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,40 +18,48 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Collection rdf:about="http://nomisma.org/id/mpv">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Museu de Prehistòria de València</skos:prefLabel>
-      <skos:definition xml:lang="en">The Prehistory Museum of Valencia is a museum of the city of Valencia (Spain) that exposes archaeological materials covering from Paleolithic to the Visigoths period.</skos:definition>
-      <foaf:homepage rdf:resource="http://www.museuprehistoriavalencia.es"/>
-      <skos:prefLabel xml:lang="es">Museu de Prehistòria de València</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2701512"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Prehistory_Museum_of_Valencia"/>
-      <skos:prefLabel xml:lang="pl">Muzeum Prehistorii w Walencji</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">musée de la préhistoire de Valence</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Museu de Prehistòria de València</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Museo di Preistoria di Valencia</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Museo de Prehistoria de Valencia</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0fqqwc7"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/5547706-9"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/138947009"/>
-      <foaf:thumbnail rdf:resource="http://www.museudeprehistoria.org/nomisma/media/image/entidad/1.5MB/mupreva2237_mupreva609_1.jpg"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/mpv#provenance"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Museu de Prehistòria de València</skos:prefLabel>
+        <skos:definition xml:lang="en">The Prehistory Museum of Valencia is a museum of the city of Valencia (Spain) that exposes archaeological materials covering from Paleolithic to the Visigoths period.</skos:definition>
+        <foaf:homepage rdf:resource="https://www.mupreva.org/"/>
+        <skos:prefLabel xml:lang="es">Museu de Prehistòria de València</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2701512"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Prehistory_Museum_of_Valencia"/>
+        <skos:prefLabel xml:lang="pl">Muzeum Prehistorii w Walencji</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">musée de la préhistoire de Valence</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Museu de Prehistòria de València</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Museo di Preistoria di Valencia</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Museo de Prehistoria de Valencia</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0fqqwc7"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/5547706-9"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/138947009"/>
+        <foaf:thumbnail rdf:resource="https://www.mupreva.org/web_mupreva_dedalo/footer_web/img/logo_mupreva.png"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/mpv#provenance"/>
    </nmo:Collection>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mpv#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/mpv"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-03T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-08T04:00:03+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/mpv"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-03T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-08T04:00:03+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T13:42:12.06Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
