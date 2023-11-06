@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,90 +18,98 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/chersonesus_thrace">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Chersonesus</skos:prefLabel>
-      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/501386"/>
-      <skos:broader rdf:resource="http://nomisma.org/id/thracian_chersonesus"/>
-      <skos:altLabel xml:lang="en">Khersonesos</skos:altLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:definition xml:lang="en">The mint at the ancient site of Chersonesus in Thrace</skos:definition>
-      <skos:closeMatch rdf:resource="https://www.britishmuseum.org/collection/term/x271277"/>
-      <skos:prefLabel xml:lang="es">Quersoneso</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Kherszonészosz</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Chersonesos</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Quersoneso</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Ĥersoneso</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Hersones</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Chersones</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ケルソネソス</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Chersonézos</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Chersonesos</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Quersonès</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Herson</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Херсонес Таврически</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Taurijos Chersonesas</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">克森尼索</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Cherson</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Khersonesos (Krim)</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Херсонес Тауријски</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Chersonèse</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">ტავრიის ქერსონესი</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Херсанес Таўрычаскі</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Chersonesus</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Խերսոնես Տավրիկյան</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Chersonesus</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Chersonesus</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Chersonesos</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Chersonesos</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">تاوريس خيرسون</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Herson Taurijski</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">חרסונסוס</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">Hersonēsa</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">خرسونسوس، کریمه</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Chersonesos</skos:prefLabel>
-      <geo:location rdf:resource="http://nomisma.org/id/chersonesus_thrace#this"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/chersonesus_thrace#provenance"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Chersonesus, Thrace</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/501386"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/thracian_chersonesus"/>
+        <skos:altLabel xml:lang="en">Khersonesos</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:definition xml:lang="en">The mint at the ancient site of Chersonesus in Thrace</skos:definition>
+        <skos:closeMatch rdf:resource="https://www.britishmuseum.org/collection/term/x271277"/>
+        <skos:prefLabel xml:lang="es">Quersoneso</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Kherszonészosz</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Chersonesos</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Quersoneso</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Ĥersoneso</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Hersones</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Chersones</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ケルソネソス</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Chersonézos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Chersonesos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Quersonès</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Herson</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Херсонес Таврически</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Taurijos Chersonesas</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">克森尼索</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Cherson</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Khersonesos (Krim)</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Херсонес Тауријски</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Chersonèse</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">ტავრიის ქერსონესი</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Херсанес Таўрычаскі</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Chersonesus</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Խերսոնես Տավրիկյան</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Chersonesus</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Chersonesus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Chersonesos</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Chersonesos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">تاوريس خيرسون</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Herson Taurijski</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">חרסונסוס</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Hersonēsa</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">خرسونسوس، کریمه</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Chersonesos</skos:prefLabel>
+        <geo:location rdf:resource="http://nomisma.org/id/chersonesus_thrace#this"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/chersonesus_thrace#provenance"/>
    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/chersonesus_thrace#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.33333</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.5</geo:long>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/thracian_chersonesus#this"/>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.33333</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.5</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/thracian_chersonesus#this"/>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/chersonesus_thrace#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/chersonesus_thrace"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-08T04:00:03+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-09T05:00:22.376-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/chersonesus_thrace"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-08T04:00:03+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-09T05:00:22.376-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-05T22:19:53.709Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
