@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,44 +18,70 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/aegae_macedonia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Aegae</skos:prefLabel>
-      <skos:broader rdf:resource="http://nomisma.org/id/emathian_district"/>
-      <skos:altLabel xml:lang="en">Aigai</skos:altLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:definition xml:lang="en">The mint at the ancient site of Aegae in Macedon</skos:definition>
-      <geo:location rdf:resource="http://nomisma.org/id/aegae_macedonia#this"/>
-      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/491512"/>
-      <skos:closeMatch rdf:resource="http://sws.geonames.org/733901/"/>
-      <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/5004273"/>
-      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Aegae_(Macedon)"/>
-      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x46145"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/aegae_macedonia#provenance"/>
-      <skos:closeMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/2486"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Aegae, Macedon</skos:prefLabel>
+        <skos:broader rdf:resource="http://nomisma.org/id/emathian_district"/>
+        <skos:altLabel xml:lang="en">Aigai</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:definition xml:lang="en">The mint at the ancient site of Aegae in Macedon</skos:definition>
+        <geo:location rdf:resource="http://nomisma.org/id/aegae_macedonia#this"/>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/491512"/>
+        <skos:closeMatch rdf:resource="http://sws.geonames.org/733901/"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/5004273"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Aegae_(Macedon)"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x46145"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/aegae_macedonia#provenance"/>
+        <skos:closeMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/2486"/>
+        <skos:closeMatch rdf:resource="https://www.wikidata.org/entity/Q16963755"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Aegae_(Macedonia)"/>
+        <skos:prefLabel xml:lang="nl">Aigai</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Egas</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αιγές</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Aigai</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ege</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Eges</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Aegae</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Aigai, Makedonia</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Ајга</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Эги</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アイガイ</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Еге</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Aigai</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Aigai</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">إيجاي</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">埃格</skos:prefLabel>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/aegae_macedonia#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.481111</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.313611</geo:long>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/emathian_district#this"/>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.481111</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.313611</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/emathian_district#this"/>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/aegae_macedonia#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/aegae_macedonia"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-29T18:17:56+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/aegae_macedonia"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-29T18:17:56+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-06T09:33:48.872Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

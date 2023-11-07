@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,70 +18,88 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/theodora_iii">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Theodora III</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Teodora (cesarzowa bizantyńska)</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">テオドラ (東ローマ女帝)</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">ثيودورا الثالثة</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">狄奥多拉女皇</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Theodora III</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Teodora (984-1056)</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Teodora Porfirogenita</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Феодора (византийская императрица)</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Teodora Porfirogeneta</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Theodora III.</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Théodora Porphyrogénète</skos:prefLabel>
-      <skos:definition xml:lang="en">The Byzantine empress Theodora III.</skos:definition>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Theodora_(11th_century)"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q41666"/>
-      <skos:prefLabel xml:lang="he">תאודורה, קיסרית האימפריה הביזנטית</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">테오도라</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Theodóra bizánci császárnő</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Teodora Porfiroxénita</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Theodōra</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Θεοδώρα</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Carica Teodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Theodora Porphyrogenita</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Теодора</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Teodora (VIII. Konstantin'in kızı)</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Teodora a III-a</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Teodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Theodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Феодора</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Theodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Theodora III.</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">تئودورای مقدونی</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Теодора</skos:prefLabel>
-      <skos:prefLabel xml:lang="an">Teodora Porfirocheneta</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Theodora Porfyrogenita</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">თეოდორა (ბიზანტია)</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Теодора Порфирогенита</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Teodora III.</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Teodora III.</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Theodora</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0jtpq"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/88816459"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/theodora_iii#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1437"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Theodora III</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Teodora (cesarzowa bizantyńska)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">テオドラ (東ローマ女帝)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">ثيودورا الثالثة</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">狄奥多拉女皇</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Theodora III</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Teodora (984-1056)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Teodora Porfirogenita</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Феодора (византийская императрица)</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Teodora Porfirogeneta</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Theodora III.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Théodora Porphyrogénète</skos:prefLabel>
+        <skos:definition xml:lang="en">Theodora Porpgyrogenita (Θεοδώρα Πορφυρογέννητη) was the daughter of the Byzantine emperor Constantine VIII. She ruled as Byzantine empress Theodora (III) in 1042 and 1055 to 1056.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Theodora_(11th_century)"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q41666"/>
+        <skos:prefLabel xml:lang="he">תאודורה, קיסרית האימפריה הביזנטית</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">테오도라</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Theodóra bizánci császárnő</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Teodora Porfiroxénita</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Theodōra</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Θεοδώρα</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Carica Teodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Theodora Porphyrogenita</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Теодора</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Teodora (VIII. Konstantin'in kızı)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Teodora a III-a</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Teodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Theodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Феодора</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Theodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Theodora III.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">تئودورای مقدونی</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Теодора</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Teodora Porfirocheneta</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Theodora Porfyrogenita</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">თეოდორა (ბიზანტია)</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Теодора Порфирогенита</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Teodora III.</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Teodora III.</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Theodora</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0jtpq"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/88816459"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/theodora_iii#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1437"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG79924"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/theodora_iii#membership_281ae68d5ea501e07abc7f5076ffe675"/>
+        <bio:death rdf:resource="http://nomisma.org/id/theodora_iii#death"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/theodora_iii#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/theodora_iii"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-02T04:00:01+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/dmathie"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/theodora_iii"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-02T04:00:01+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/dmathie"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-06T07:55:19.391Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/theodora_iii#membership_281ae68d5ea501e07abc7f5076ffe675">
+        <org:role rdf:resource="http://nomisma.org/id/emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/byzantine_empire"/>
+    </org:Membership>
+    <bio:Death rdf:about="http://nomisma.org/id/theodora_iii#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1056</dcterms:date>
+    </bio:Death>
 </rdf:RDF>

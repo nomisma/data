@@ -18,25 +18,15 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
     <wordnet:Deity rdf:about="http://nomisma.org/id/ravenna_personification">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        
+        
         <skos:prefLabel xml:lang="en">Ravenna</skos:prefLabel>
         <skos:definition xml:lang="en">The Roman personification of the city of Ravenna in Italy.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/ravenna_personification#provenance"/>
+        
+        
+        <dcterms:isReplacedBy rdf:resource="http://nomisma.org/id/ravenna_deity"/>
     </wordnet:Deity>
    
    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ravenna_personification#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/ravenna_personification"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-14T18:41:00.331Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/118Qt-Po_j2QbhCGHNMbbP42HT4MlrBJliiTM2_BwaQs/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+    
 </rdf:RDF>
