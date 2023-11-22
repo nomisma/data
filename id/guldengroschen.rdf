@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,25 +18,36 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/guldengroschen">
-      <skos:prefLabel xml:lang="en">Guldengroschen</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Guldengroschen</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">The Guldiner or Guldengroschen was a silver denomination equivalent in value to the golden gulden or florin. It was first minted in Tyrol in 1486, and similar huge silver coins were issued by other authorities (electors of Saxony, dukes of Schlick) soon afterwards. The growing popularity of the Guldengroschen from Joachimsthal (Jáchimov) issued by the Grafen von Schlick as of 1519 introduced the name Joachimstaler (Joachimsthaler) or simply Taler (Thaler) for these huge silver coins, which became much more popular from the mid-16th century onward. According to its circulation the Guldengroschen was to be found in Northern and central Germany, and in Saxony. For Southern Germany, Switzerland, Tyrol, and Habsburg see Guldiner.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/guldengroschen#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/909"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-   </nmo:Denomination>
+        <skos:prefLabel xml:lang="en">Guldengroschen</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Guldengroschen</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Denomination with the value of guldengroschen.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/guldengroschen#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/909"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:prefLabel xml:lang="fr">guldengroschen</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">guldengroschen</skos:prefLabel>
+    </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/guldengroschen#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/guldengroschen"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-02T23:57:26.594-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/guldengroschen"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-02T23:57:26.594-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-21T14:35:37.663Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IBkZl7eagrVL_vC5WnqySHzxzHsUr-mLDE6G8B0v2hc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

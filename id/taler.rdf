@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,67 +18,80 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/taler">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Taler</skos:prefLabel>
-      <skos:definition xml:lang="en">The Guldengroschen (Guldiner) issued by the Counts of Schlick in Joachimsthal (Jáchimov) were quickly labeled Joachimstaler (Joachimsthaler) or simply Taler (Thaler), hence introducing this term as a name for the now highly popular huge silver denomination equivalent to the gold gulden (florin). This nomisma_id serves to identify all similar coins (within mainly the German speaking world) issued during the following centuries while designated ids for specific types of Talers and foreign currency based on the Taler will have to be created in the future.</skos:definition>
-      <skos:altLabel xml:lang="en">Thaler</skos:altLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q162528"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Thaler"/>
-      <skos:prefLabel xml:lang="pl">Talar</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Талер</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">טאלר</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Thaler</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Tálero</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Tallér</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">Dālderis</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Tallero</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Taler</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ターラー</skos:prefLabel>
-      <skos:prefLabel xml:lang="am">Thaler</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Daler</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Daalder</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">تالر</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Táler</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Talero</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Toliar</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Талер</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Թալեր</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Taler</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Tàler</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Taaleri</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Талер</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Tolar</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Dalar</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Талер</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">تالر</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Daler</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Thaler</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">tolar</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Daler</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Talir</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Taaler</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">ტალერი</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">塔勒</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Taler</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0gbfk"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/currency/thaler"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300191673"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/taler#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/waehrung/9"/>
-   </nmo:Denomination>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Taler</skos:prefLabel>
+        <skos:definition xml:lang="en">Denomination with the value of taler. For the regional variants in German, French and Italian-speaking areas, see taler_de, taler_fr and tallero_it.</skos:definition>
+        <skos:altLabel xml:lang="en">Thaler</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q162528"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Thaler"/>
+        <skos:prefLabel xml:lang="pl">Talar</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Талер</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">טאלר</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Thaler</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Tálero</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Tallér</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Dālderis</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Tallero</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Taler</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ターラー</skos:prefLabel>
+        <skos:prefLabel xml:lang="am">Thaler</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Daler</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Daalder</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">تالر</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Táler</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Talero</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Toliar</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Талер</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Թալեր</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Taler</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Tàler</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Taaleri</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Талер</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Tolar</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Dalar</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Талер</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">تالر</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Daler</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Thaler</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">tolar</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Daler</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Talir</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Taaler</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">ტალერი</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">塔勒</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Taler</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0gbfk"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/currency/thaler"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300191673"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/taler#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/waehrung/9"/>
+        <rdfs:seeAlso rdf:resource="http://hls-dhs-dss.ch/de/articles/013692/2012-07-30/"/>
+        <skos:narrower rdf:resource="http://nomisma.org/id/taler_de"/>
+        <skos:narrower rdf:resource="http://nomisma.org/id/taler_fr"/>
+        <skos:narrower rdf:resource="http://nomisma.org/id/tallero_it"/>
+    </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/taler#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/taler"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/taler"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-21T14:35:37.663Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IBkZl7eagrVL_vC5WnqySHzxzHsUr-mLDE6G8B0v2hc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

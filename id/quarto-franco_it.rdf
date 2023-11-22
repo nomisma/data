@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Denomination rdf:about="http://nomisma.org/id/quarto-franco_it">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="de">1/4 Franco</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">1/4 franco</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">1/4 franco</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">1/4 franco</skos:prefLabel>
+        <skos:definition xml:lang="en">Denomination with the value of 1/4 franco, issued in the Italian speaking area. For the overarching concept, see quarter-franc.</skos:definition>
+        <skos:broader rdf:resource="http://nomisma.org/id/quarter-franc"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/quarto-franco_it#provenance"/>
+    </nmo:Denomination>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/quarto-franco_it#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/quarto-franco_it"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-21T14:35:37.663Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IBkZl7eagrVL_vC5WnqySHzxzHsUr-mLDE6G8B0v2hc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,7 +18,7 @@
    <nmo:Denomination rdf:about="http://nomisma.org/id/medieval_denarius">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Medieval Denarius</skos:prefLabel>
-        <skos:definition xml:lang="en">Term to describe the main silver coin in medieval European currency systems. First introduced in the Merovingian kingdom around AD 670 and reformed both under Pepin the Short and Charlemagne. Variously named as penny, Pfennig, denaro or denier. Not to be confused with neither the denarius of the Roman Republican and Imperial periods, nor modern period (silver or copper) coins.</skos:definition>
+        <skos:definition xml:lang="en">Denomination with the value of denarius. For the regional variants in German, French and Italian-speaking areas, see denar_de, denier_fr and denaro_it.</skos:definition>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
         <skos:prefLabel xml:lang="de">Pfennig</skos:prefLabel>
@@ -29,6 +30,11 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_scandinavian_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_italian_numismatics"/>
+        <skos:prefLabel xml:lang="fr">denier</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">denaro</skos:prefLabel>
+        <skos:narrower rdf:resource="http://nomisma.org/id/denar_de"/>
+        <skos:narrower rdf:resource="http://nomisma.org/id/denier_fr"/>
+        <skos:narrower rdf:resource="http://nomisma.org/id/denaro_it"/>
     </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/medieval_denarius#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/medieval_denarius"/>
@@ -63,6 +69,15 @@
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-28T05:17:42.354Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
 					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-21T14:35:37.663Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IBkZl7eagrVL_vC5WnqySHzxzHsUr-mLDE6G8B0v2hc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

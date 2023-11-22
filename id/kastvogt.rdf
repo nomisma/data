@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <org:Role rdf:about="http://nomisma.org/id/kastvogt">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Kastvogt</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kastvogt</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Schirmvogt</skos:altLabel>
+        <skos:prefLabel xml:lang="fr">Avoué</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Avogadro</skos:prefLabel>
+        <skos:definition xml:lang="en">The individual holding the office of Kastvogt. Kastvogtei is a legal term of Alemannic origin that was used from the High Middle Ages to the early modern period. Upon assuming the office of Kastvogt, feudal lords exercised protective supervision over a monastery or convent, represented this institution in secular matters and performed certain tasks in the monastery's economic management (Kasten = storehouse), its jurisdiction and legal representation externally and in court. In return, the Kastvogt was entitled to parts of the tithe.</skos:definition>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2236362"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/kastvogt#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+    </org:Role>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/kastvogt#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/kastvogt"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-21T15:15:02.739Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1q60JAj3cnN_LtZbhpAMjDfXLxqcFu_BB1yxKwe-PV0A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-21T15:25:27.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

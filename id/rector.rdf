@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <org:Role rdf:about="http://nomisma.org/id/rector">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Rector</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Rektor</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Recteur</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Rettore</skos:prefLabel>
+        <skos:definition xml:lang="en">The individual holding the title of rector in a territory during the Middle Ages or the Modern period.</skos:definition>
+        <skos:broader rdf:resource="http://nomisma.org/id/clergy"/>
+        <skos:prefLabel xml:lang="nl">rector</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">rektor semináře</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">rector</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">rektor</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">ректор</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">教区牧師</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">bölge papazı</skos:prefLabel>
+        <skos:prefLabel xml:lang="tt">риктыр</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">rector</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">retor</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Rektor</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">reachtaire</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">person</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">rektor</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">rektor</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">rektor</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">рэктар</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">rheithor</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">rektor</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3147441"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0k0hk8x"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300025777"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/rector#provenance"/>
+    </org:Role>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/rector#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/rector"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-21T15:15:02.739Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1q60JAj3cnN_LtZbhpAMjDfXLxqcFu_BB1yxKwe-PV0A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

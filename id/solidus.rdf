@@ -18,7 +18,7 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/solidus">
-        <skos:definition xml:lang="en">The standard late Roman and early/middle Byzantine gold denomination, introduced by Constantine the Great. The Greek name for the Solidus is nomisma (νόμισμα),</skos:definition>
+        <skos:definition xml:lang="en">Denomination with the value of solidus.</skos:definition>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Solidus</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Solidus</skos:prefLabel>
@@ -72,6 +72,7 @@
         <skos:changeNote rdf:resource="http://nomisma.org/id/solidus#provenance"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/1112"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300037252"/>
+        <rdfs:seeAlso rdf:resource="http://hls-dhs-dss.ch/de/articles/013663/2010-01-21/"/>
     </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/solidus#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/solidus"/>
@@ -111,6 +112,15 @@
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-05T08:14:42.979Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
 					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-21T14:35:37.663Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IBkZl7eagrVL_vC5WnqySHzxzHsUr-mLDE6G8B0v2hc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

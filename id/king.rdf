@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,142 +18,153 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <org:Role rdf:about="http://nomisma.org/id/king">
-      <skos:prefLabel xml:lang="en">King</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">The individual holding the title of king in a territory during the Middle Ages or the Modern period.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/king#provenance"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-      <skos:broader rdf:resource="http://nomisma.org/id/ruler"/>
-      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q12097"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/King"/>
-      <skos:prefLabel xml:lang="fr">roi</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">König</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">re</skos:prefLabel>
-      <skos:prefLabel xml:lang="am">ንጉሥ</skos:prefLabel>
-      <skos:prefLabel xml:lang="az">Kral</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">кароль</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Крал</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">král</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">konge</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">reĝo</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">kuningas</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">errege</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">kuningas</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">kralj</skos:prefLabel>
-      <skos:prefLabel xml:lang="ht">Wa</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">király</skos:prefLabel>
-      <skos:prefLabel xml:lang="ia">Rege</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">王</skos:prefLabel>
-      <skos:prefLabel xml:lang="kn">ಅರಸ</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">왕</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Rex</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Karalius</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">karalis</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">крал</skos:prefLabel>
-      <skos:prefLabel xml:lang="ne">राजा</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">koning</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">konge</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">król</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">rei</skos:prefLabel>
-      <skos:prefLabel xml:lang="qu">Qhapaq</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">король</skos:prefLabel>
-      <skos:prefLabel xml:lang="se">gonagas</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">kráľ</skos:prefLabel>
-      <skos:prefLabel xml:lang="so">Boqortooyo</skos:prefLabel>
-      <skos:prefLabel xml:lang="sq">Mbreti</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">краљ</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">kung</skos:prefLabel>
-      <skos:prefLabel xml:lang="te">మహారాజు</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Hari</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">kral</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">король</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">vương</skos:prefLabel>
-      <skos:prefLabel xml:lang="yo">Ọba</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">王</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">rey</skos:prefLabel>
-      <skos:prefLabel xml:lang="af">koning</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">konge</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">βασιλέας</skos:prefLabel>
-      <skos:prefLabel xml:lang="ku">Key</skos:prefLabel>
-      <skos:prefLabel xml:lang="fy">kening</skos:prefLabel>
-      <skos:prefLabel xml:lang="th">พระราชา</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">شاه</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Roue</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">kralj</skos:prefLabel>
-      <skos:prefLabel xml:lang="bs">kralj</skos:prefLabel>
-      <skos:prefLabel xml:lang="ie">Rey</skos:prefLabel>
-      <skos:prefLabel xml:lang="ee">3fia</skos:prefLabel>
-      <skos:prefLabel xml:lang="li">Keuning</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">rei</skos:prefLabel>
-      <skos:prefLabel xml:lang="ak">Ohene</skos:prefLabel>
-      <skos:prefLabel xml:lang="ce">Паччахь</skos:prefLabel>
-      <skos:prefLabel xml:lang="cy">brenin</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">թագավոր</skos:prefLabel>
-      <skos:prefLabel xml:lang="is">Konungur</skos:prefLabel>
-      <skos:prefLabel xml:lang="uz">Qirol</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">ملك</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">מלך</skos:prefLabel>
-      <skos:prefLabel xml:lang="co">Rè</skos:prefLabel>
-      <skos:prefLabel xml:lang="vo">hireg</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">rege</skos:prefLabel>
-      <skos:prefLabel xml:lang="io">rejulo</skos:prefLabel>
-      <skos:prefLabel xml:lang="ta">அரசன்</skos:prefLabel>
-      <skos:prefLabel xml:lang="tg">шоҳ</skos:prefLabel>
-      <skos:prefLabel xml:lang="gd">rìgh</skos:prefLabel>
-      <skos:prefLabel xml:lang="lb">Kinnek</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">kralj</skos:prefLabel>
-      <skos:prefLabel xml:lang="gu">રાજા</skos:prefLabel>
-      <skos:prefLabel xml:lang="ur">بادشاہ</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">rei</skos:prefLabel>
-      <skos:prefLabel xml:lang="gn">mburuvichavete</skos:prefLabel>
-      <skos:prefLabel xml:lang="km">ព្រះមហាក្សត្រ</skos:prefLabel>
-      <skos:prefLabel xml:lang="ps">پاچا</skos:prefLabel>
-      <skos:prefLabel xml:lang="sd">بادشاھ</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Raja</skos:prefLabel>
-      <skos:prefLabel xml:lang="tt">кыйрал</skos:prefLabel>
-      <skos:prefLabel xml:lang="ha">sarki</skos:prefLabel>
-      <skos:prefLabel xml:lang="hi">राजा</skos:prefLabel>
-      <skos:prefLabel xml:lang="or">ରାଜା</skos:prefLabel>
-      <skos:prefLabel xml:lang="mr">राजा</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">მეფე</skos:prefLabel>
-      <skos:prefLabel xml:lang="sw">Mfalme</skos:prefLabel>
-      <skos:prefLabel xml:lang="mn">Ван</skos:prefLabel>
-      <skos:prefLabel xml:lang="ga">rí</skos:prefLabel>
-      <skos:prefLabel xml:lang="yi">מלך</skos:prefLabel>
-      <skos:prefLabel xml:lang="ms">raja</skos:prefLabel>
-      <skos:prefLabel xml:lang="my">မင်းတရား</skos:prefLabel>
-      <skos:prefLabel xml:lang="kw">myghtern</skos:prefLabel>
-      <skos:prefLabel xml:lang="sn">Mambo</skos:prefLabel>
-      <skos:prefLabel xml:lang="bn">রাজা</skos:prefLabel>
-      <skos:prefLabel xml:lang="cv">Король</skos:prefLabel>
-      <skos:prefLabel xml:lang="lg">Kabaka</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4031516-2"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03w9bnr"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300025481"/>
-   </org:Role>
+        <skos:prefLabel xml:lang="en">King</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The individual holding the title of king in a territory during the Middle Ages or the Modern period.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/king#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/ruler"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q12097"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/King"/>
+        <skos:prefLabel xml:lang="fr">roi</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">König</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">re</skos:prefLabel>
+        <skos:prefLabel xml:lang="am">ንጉሥ</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Kral</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">кароль</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Крал</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">král</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">konge</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">reĝo</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">kuningas</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">errege</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">kuningas</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">kralj</skos:prefLabel>
+        <skos:prefLabel xml:lang="ht">Wa</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">király</skos:prefLabel>
+        <skos:prefLabel xml:lang="ia">Rege</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">王</skos:prefLabel>
+        <skos:prefLabel xml:lang="kn">ಅರಸ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">왕</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Rex</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Karalius</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">karalis</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">крал</skos:prefLabel>
+        <skos:prefLabel xml:lang="ne">राजा</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">koning</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">konge</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">król</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">rei</skos:prefLabel>
+        <skos:prefLabel xml:lang="qu">Qhapaq</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">король</skos:prefLabel>
+        <skos:prefLabel xml:lang="se">gonagas</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">kráľ</skos:prefLabel>
+        <skos:prefLabel xml:lang="so">Boqortooyo</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Mbreti</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">краљ</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">kung</skos:prefLabel>
+        <skos:prefLabel xml:lang="te">మహారాజు</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Hari</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">kral</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">король</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">vương</skos:prefLabel>
+        <skos:prefLabel xml:lang="yo">Ọba</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">王</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">rey</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">koning</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">konge</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">βασιλέας</skos:prefLabel>
+        <skos:prefLabel xml:lang="ku">Key</skos:prefLabel>
+        <skos:prefLabel xml:lang="fy">kening</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">พระราชา</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">شاه</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Roue</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">kralj</skos:prefLabel>
+        <skos:prefLabel xml:lang="bs">kralj</skos:prefLabel>
+        <skos:prefLabel xml:lang="ie">Rey</skos:prefLabel>
+        <skos:prefLabel xml:lang="ee">3fia</skos:prefLabel>
+        <skos:prefLabel xml:lang="li">Keuning</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">rei</skos:prefLabel>
+        <skos:prefLabel xml:lang="ak">Ohene</skos:prefLabel>
+        <skos:prefLabel xml:lang="ce">Паччахь</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">brenin</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">թագավոր</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Konungur</skos:prefLabel>
+        <skos:prefLabel xml:lang="uz">Qirol</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">ملك</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">מלך</skos:prefLabel>
+        <skos:prefLabel xml:lang="co">Rè</skos:prefLabel>
+        <skos:prefLabel xml:lang="vo">hireg</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">rege</skos:prefLabel>
+        <skos:prefLabel xml:lang="io">rejulo</skos:prefLabel>
+        <skos:prefLabel xml:lang="ta">அரசன்</skos:prefLabel>
+        <skos:prefLabel xml:lang="tg">шоҳ</skos:prefLabel>
+        <skos:prefLabel xml:lang="gd">rìgh</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Kinnek</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">kralj</skos:prefLabel>
+        <skos:prefLabel xml:lang="gu">રાજા</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">بادشاہ</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">rei</skos:prefLabel>
+        <skos:prefLabel xml:lang="gn">mburuvichavete</skos:prefLabel>
+        <skos:prefLabel xml:lang="km">ព្រះមហាក្សត្រ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ps">پاچا</skos:prefLabel>
+        <skos:prefLabel xml:lang="sd">بادشاھ</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Raja</skos:prefLabel>
+        <skos:prefLabel xml:lang="tt">кыйрал</skos:prefLabel>
+        <skos:prefLabel xml:lang="ha">sarki</skos:prefLabel>
+        <skos:prefLabel xml:lang="hi">राजा</skos:prefLabel>
+        <skos:prefLabel xml:lang="or">ରାଜା</skos:prefLabel>
+        <skos:prefLabel xml:lang="mr">राजा</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">მეფე</skos:prefLabel>
+        <skos:prefLabel xml:lang="sw">Mfalme</skos:prefLabel>
+        <skos:prefLabel xml:lang="mn">Ван</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">rí</skos:prefLabel>
+        <skos:prefLabel xml:lang="yi">מלך</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">raja</skos:prefLabel>
+        <skos:prefLabel xml:lang="my">မင်းတရား</skos:prefLabel>
+        <skos:prefLabel xml:lang="kw">myghtern</skos:prefLabel>
+        <skos:prefLabel xml:lang="sn">Mambo</skos:prefLabel>
+        <skos:prefLabel xml:lang="bn">রাজা</skos:prefLabel>
+        <skos:prefLabel xml:lang="cv">Король</skos:prefLabel>
+        <skos:prefLabel xml:lang="lg">Kabaka</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4031516-2"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03w9bnr"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300025481"/>
+        <skos:prefLabel xml:lang="os">къарол</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q12097"/>
+    </org:Role>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/king#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/king"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-08T16:41:16.432Z</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T04:32:51.522Z</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/king"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-08T16:41:16.432Z</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T04:32:51.522Z</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-21T15:15:02.739Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1q60JAj3cnN_LtZbhpAMjDfXLxqcFu_BB1yxKwe-PV0A/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
