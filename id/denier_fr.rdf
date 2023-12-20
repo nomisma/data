@@ -22,9 +22,13 @@
         <skos:prefLabel xml:lang="fr">denier</skos:prefLabel>
         <skos:prefLabel xml:lang="it">denier</skos:prefLabel>
         <skos:prefLabel xml:lang="en">denier</skos:prefLabel>
-        <skos:definition xml:lang="en">Denomination with the value of denier, issued in the French speaking area. For the overarching concept, see denarius.</skos:definition>
+        <skos:definition xml:lang="en">Denomination with the value of denier, issued in the French speaking area. For the overarching concept, see medieval_denarius.</skos:definition>
         <skos:broader rdf:resource="http://nomisma.org/id/medieval_denarius"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/denier_fr#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_french_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
     </nmo:Denomination>
    
    
@@ -39,5 +43,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-19T08:56:30.484Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

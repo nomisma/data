@@ -21,10 +21,14 @@
         <skos:prefLabel xml:lang="de">Denar</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">denar</skos:prefLabel>
         <skos:prefLabel xml:lang="it">denar</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">denar</skos:prefLabel>
-        <skos:definition xml:lang="en">Denomination with the value of denar, issued in the German speaking area. For the overarching concept, see denarius.</skos:definition>
+        <skos:prefLabel xml:lang="en">Denar</skos:prefLabel>
+        <skos:definition xml:lang="en">Denomination with the value of denar, issued in the German speaking area during medieval times. For the overarching concept, see medieval_denarius.</skos:definition>
         <skos:broader rdf:resource="http://nomisma.org/id/medieval_denarius"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/denar_de#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_austrian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
     </nmo:Denomination>
    
    
@@ -39,5 +43,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-19T07:34:04.86Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
