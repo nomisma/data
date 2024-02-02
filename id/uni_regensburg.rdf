@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Collection rdf:about="http://nomisma.org/id/uni_regensburg">
+        <skos:prefLabel xml:lang="en">Coin collection of Regensburg University</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Münzsammlung der Universität Regensburg</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The coin collection of the Institute of Classical Archaeology at the University of Regensburg originates from the private collection of the engineer and architect Franz Langlotz (1876-1953). Due to his personal interest and passion he managed to collect many objects of ancient art – including Attic and southern Italian painted ceramics, 42 (mostly Roman) glass vessels, small bronze objects, Hellenistic terracotta statuettes – and 25 coins (mainly Roman denarii).
+Born in Regensburg, Langlotz bequeathed half of this collection, including the coins, to his former school, the Humanistisches Gymnasium, now the Albertus-Magnus-Gymnasium. From 1991 to 1994, on the initiative of Prof Dr Dieter Salzmann, over 800 ancient coins were added, mainly as donations from various German auction houses and coin cabinets as well as permanent loans from the Historisches Museum Regensburg. Designed as a study collection, it now covers all the important historical regions and Roman provinces of the Mediterranean and beyond, organised chronologically from the Greek Archaic period to the Byzantine era.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="https://www.uni-regensburg.de/philosophie-kunst-geschichte-gesellschaft/klassische-archaeologie/institut/index.html"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/uni_regensburg#provenance"/>
+        <rdfs:seeAlso rdf:resource="http://www.universitaetssammlungen.de/sammlung/476"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/besitzer/98"/>
+        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-4278"/>
+        <foaf:thumbnail rdf:resource="https://www.uni-regensburg.de/typo3conf/ext/ur_template/Resources/Public/dist/Images/ur-logo-wort-bildmarke-grau.svg"/>
+    </nmo:Collection>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/uni_regensburg#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/uni_regensburg"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-01T09:12:09.209Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-01T09:19:38.917Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
