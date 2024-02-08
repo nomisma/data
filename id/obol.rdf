@@ -20,7 +20,7 @@
    <nmo:Denomination rdf:about="http://nomisma.org/id/obol">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Obol</skos:prefLabel>
-        <skos:definition xml:lang="en">Denomination with the value of obol. For the regional variants in German, French, Italian and English-speaking areas, see obol_de, obole_fr, obolo_it and obol_en.</skos:definition>
+        <skos:definition xml:lang="en">An ancient denomination with the value of 1 obol. In Greek monetary systems a silver obol represents 1/6 drachm. For the medieval or modern denomination of obol, see the ID medieval_obol.</skos:definition>
         <skos:prefLabel xml:lang="fr">Obole</skos:prefLabel>
         <skos:prefLabel xml:lang="nl">Obool</skos:prefLabel>
         <skos:prefLabel xml:lang="ja">オボルス</skos:prefLabel>
@@ -34,7 +34,7 @@
         <skos:prefLabel xml:lang="pt">Óbolo</skos:prefLabel>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Obol_(coin)"/>
-        <skos:definition xml:lang="fr">1 obole</skos:definition>
+        <skos:definition xml:lang="fr">1 obole.</skos:definition>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q384102"/>
         <skos:prefLabel xml:lang="be">Абол</skos:prefLabel>
         <skos:prefLabel xml:lang="bg">Обол</skos:prefLabel>
@@ -63,6 +63,7 @@
         <skos:narrower rdf:resource="http://nomisma.org/id/obol_de"/>
         <skos:narrower rdf:resource="http://nomisma.org/id/obole_fr"/>
         <skos:narrower rdf:resource="http://nomisma.org/id/obolo_it"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/sasanian_numismatics"/>
     </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/obol#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/obol"/>
@@ -96,6 +97,46 @@
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IBkZl7eagrVL_vC5WnqySHzxzHsUr-mLDE6G8B0v2hc/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-07T09:47:02.043Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-07T10:03:04.941Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-07T10:50:43.454Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-07T13:11:21.172Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-07T13:17:48.867Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

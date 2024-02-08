@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,95 +18,104 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/drachma">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Drachma</skos:prefLabel>
-      <skos:altLabel xml:lang="en">Drachm</skos:altLabel>
-      <skos:prefLabel xml:lang="de">Drachme</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Drachme</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Drahmă</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Драхма</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Drachme</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Dracma</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Δραχμή</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Drachme</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">그리스 드라크마</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Грецька драхма</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Řecká drachma</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ドラクマ</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Kreikan drakma</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Dracma griega moderna</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Greek_drachma"/>
-      <skos:prefLabel xml:lang="bg">драхма</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300191372"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/currency/drachma"/>
-      <skos:definition xml:lang="en">An ancient denomination with the value of 1 drachm</skos:definition>
-      <skos:definition xml:lang="fr">1 drachme</skos:definition>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1546443"/>
-      <skos:prefLabel xml:lang="eo">Draĥmo</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">德拉克马</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Dracma</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Drakme</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">دراخما</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Dracma</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Dirham</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">דרכמה</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Dracma</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Drakme</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">грчка драхма</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Drahmi</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Drachma (novoveké Grécko)</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Grčka drahma</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Graikijos drachma</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Grčka drahma</skos:prefLabel>
-      <skos:prefLabel xml:lang="is">Grísk drakma</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Drachma grecka</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">دراخما</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Greziar drakma</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Drakmang Griyego</skos:prefLabel>
-      <skos:prefLabel xml:lang="ur">یونانی دراخما</skos:prefLabel>
-      <skos:prefLabel xml:lang="cv">Греци драхми</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Drakme</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Drachma</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Drachma</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Грэчаская драхма</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Հունական դրախմա</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02b0x"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:prefLabel xml:lang="mt">drachma</skos:prefLabel>
-      <skos:prefLabel xml:lang="bs">Grčka drahma</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Драхма</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/drachma#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/792"/>
-   </nmo:Denomination>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Drachma</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Drachm</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Drachme</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Drachme</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Drahmă</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Драхма</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Drachme</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Dracma</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Δραχμή</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Drachme</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">그리스 드라크마</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Грецька драхма</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Řecká drachma</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ドラクマ</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Kreikan drakma</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Dracma griega moderna</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Greek_drachma"/>
+        <skos:prefLabel xml:lang="bg">драхма</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300191372"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/currency/drachma"/>
+        <skos:definition xml:lang="en">An ancient denomination with the value of 1 drachm</skos:definition>
+        <skos:definition xml:lang="fr">1 drachme</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1546443"/>
+        <skos:prefLabel xml:lang="eo">Draĥmo</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">德拉克马</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Dracma</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Drakme</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">دراخما</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Dracma</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Dirham</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">דרכמה</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Dracma</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Drakme</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">грчка драхма</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Drahmi</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Drachma (novoveké Grécko)</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Grčka drahma</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Graikijos drachma</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Grčka drahma</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Grísk drakma</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Drachma grecka</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">دراخما</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Greziar drakma</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Drakmang Griyego</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">یونانی دراخما</skos:prefLabel>
+        <skos:prefLabel xml:lang="cv">Греци драхми</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Drakme</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Drachma</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Drachma</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Грэчаская драхма</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Հունական դրախմա</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02b0x"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:prefLabel xml:lang="mt">drachma</skos:prefLabel>
+        <skos:prefLabel xml:lang="bs">Grčka drahma</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Драхма</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/drachma#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/792"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/sasanian_numismatics"/>
+    </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/drachma#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/drachma"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-19T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vC7sRD5zbHcQKsCkMd3z6Zo-QH5PtX0Iq07xnKXGTGY/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/drachma"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-19T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1vC7sRD5zbHcQKsCkMd3z6Zo-QH5PtX0Iq07xnKXGTGY/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-07T13:18:40.68Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
