@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,53 +18,62 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/francois_briot">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/francois_briot#medalist"/>
-      <skos:prefLabel xml:lang="en">François Briot</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-      <skos:definition xml:lang="en">Medalist and die cutter in Stuttgart, Baden-Wuerttemberg, Germany from 1579/80 to 1616. Worked in Mömpelgard, too. Born in 1550. Lit.: U. Klein and A. Raff, Die Württembergischen Münzen von 1373 - 1693 (1993), p. 109,127</skos:definition>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/52750494"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/294159059"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/francois_briot#engraver"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/francois_briot#engraver2"/>
-      <bio:birth rdf:resource="http://nomisma.org/id/francois_briot#birth"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/francois_briot#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/francois_briot#medalist"/>
+        <skos:prefLabel xml:lang="en">François Briot</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:definition xml:lang="en">Medalist and die cutter in Stuttgart, Baden-Wuerttemberg, Germany from 1579/80 to 1616. Worked in Mömpelgard, too. Born in 1550. Lit.: U. Klein and A. Raff, Die Württembergischen Münzen von 1373 - 1693 (1993), p. 109,127;  U. Klein and A. Raff, Die Württembergischen Medaillen von 1496 - 1797 (1995) p. 449.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/52750494"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/294159059"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/francois_briot#engraver"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/francois_briot#engraver2"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/francois_briot#birth"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/francois_briot#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q5586527"/>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/francois_briot#medalist">
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1579</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1616</nmo:hasEndDate>
-      <org:role rdf:resource="http://nomisma.org/id/medalist"/>
-      <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1579</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1616</nmo:hasEndDate>
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+        <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
    </org:Membership>
    <org:Membership rdf:about="http://nomisma.org/id/francois_briot#engraver">
-      <org:role rdf:resource="http://nomisma.org/id/engraver"/>
-      <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
+        <org:role rdf:resource="http://nomisma.org/id/engraver"/>
+        <org:organization rdf:resource="http://nomisma.org/id/stuttgart"/>
    </org:Membership>
    <org:Membership rdf:about="http://nomisma.org/id/francois_briot#engraver2">
-      <org:role rdf:resource="http://nomisma.org/id/engraver"/>
-      <org:organization rdf:resource="http://nomisma.org/id/montbeliard"/>
+        <org:role rdf:resource="http://nomisma.org/id/engraver"/>
+        <org:organization rdf:resource="http://nomisma.org/id/montbeliard"/>
    </org:Membership>
    <bio:Birth rdf:about="http://nomisma.org/id/francois_briot#birth">
-      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</dcterms:date>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</dcterms:date>
    </bio:Birth>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/francois_briot#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/francois_briot"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-10T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/francois_briot"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-10T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-29T05:39:52.409Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
