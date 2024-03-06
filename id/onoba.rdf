@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,42 +18,18 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/onoba">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Onuba</skos:prefLabel>
-      <skos:definition xml:lang="en">The mint at the ancient site of Onoba in Hispania Citerior.</skos:definition>
-      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Huelva"/>
-      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/256346"/>
-      <geo:location rdf:resource="http://nomisma.org/id/onoba#this"/>
-      <skos:broader rdf:resource="http://nomisma.org/id/hispania"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/onoba#provenance"/>
-   </nmo:Mint>
-   <geo:SpatialThing rdf:about="http://nomisma.org/id/onoba#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.257074</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-6.949713</geo:long>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/hispania#this"/>
-   </geo:SpatialThing>
-   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/onoba#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/onoba"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+      
+      
+        <skos:prefLabel xml:lang="en">Onuba</skos:prefLabel>
+        <skos:definition xml:lang="en">The mint at the ancient site of Onoba in Hispania Citerior.</skos:definition>
+      
+      
+      
+      
+      
+      
+        <dcterms:isReplacedBy rdf:resource="http://nomisma.org/id/onuba"/>
+    </nmo:Mint>
+   
+   
 </rdf:RDF>
