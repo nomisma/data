@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/saint_andronicus">
+        <skos:prefLabel xml:lang="en">Saint Andronicus</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Martyr saint (died 304). He was beheaded during the Diocletianic persecution at Anazarbus (near Mopsuestia) with Probus and Tarachus.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/saint_andronicus#provenance"/>
+        <skos:prefLabel xml:lang="de">Heiliger Andronicus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Andronicus</skos:prefLabel>
+        <skos:prefLabel xml:lang="la"> Andronicus</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Andronicus</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_andronicus#membership_da02adee303e144d22fbed8ff52293eb"/>
+        <bio:death rdf:resource="http://nomisma.org/id/saint_andronicus#death"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/saint_andronicus#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/saint_andronicus"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-07T10:06:52.063Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/saint_andronicus#membership_da02adee303e144d22fbed8ff52293eb">
+        <org:role rdf:resource="http://nomisma.org/id/Saint"/>
+    </org:Membership>
+    <bio:Death rdf:about="http://nomisma.org/id/saint_andronicus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0304</dcterms:date>
+    </bio:Death>
+</rdf:RDF>

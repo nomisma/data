@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,64 +18,80 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/eligius">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Eligius</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Santo Elígio</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Eligius</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Eligio di Noyon</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Éloi de Noyon</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Элигий</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Eligio</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Eligiusz z Noyon</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Eligius</skos:prefLabel>
-      <skos:definition xml:lang="en">Eligius (c. 588 – 1 December 660). Bishop of Noyon, Merovingian moneyer and goldsmith, patron Saint of Numismatics. Reference: J. Lafaurie, Eligius Monetarius, Revue Numismatique 1977, pp. 111-151.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Saint_Eligius"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/3273353"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/eligius#merovingian_monetarius"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q360798"/>
-      <skos:prefLabel xml:lang="eu">Eloi</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Святы Элігій</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">אליגיוס הקדוש</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Eloi de Noyon</skos:prefLabel>
-      <skos:prefLabel xml:lang="ml">എലിജിയസ്</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Svatý Eligius</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Sveti Eligije</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Sveti Eligije</skos:prefLabel>
-      <skos:prefLabel xml:lang="an">Eloi de Noyon</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Eligius</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Eligius</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Eligius</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119103427"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/02727716X"/>
-      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119016958"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/025hz0"/>
-      <skos:exactMatch rdf:resource="http://isni.org/0000000120986266"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/eligius#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3238"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Eligius</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Santo Elígio</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Eligius</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Eligio di Noyon</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Éloi de Noyon</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Элигий</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Eligio</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Eligiusz z Noyon</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Eligius</skos:prefLabel>
+        <skos:definition xml:lang="en">Eligius (c. 588 – 1 December 660). Bishop of Noyon, Merovingian moneyer and goldsmith, patron Saint of Numismatics. Reference: J. Lafaurie, Eligius Monetarius, Revue Numismatique 1977, pp. 111-151.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Saint_Eligius"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/3273353"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/eligius#merovingian_monetarius"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q360798"/>
+        <skos:prefLabel xml:lang="eu">Eloi</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Святы Элігій</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">אליגיוס הקדוש</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Eloi de Noyon</skos:prefLabel>
+        <skos:prefLabel xml:lang="ml">എലിജിയസ്</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Svatý Eligius</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Sveti Eligije</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Sveti Eligije</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Eloi de Noyon</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Eligius</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Eligius</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Eligius</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119103427"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/02727716X"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119016958"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/025hz0"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000120986266"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/eligius#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3238"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/eligius#membership_30ac2822154516f5153004b89d0528d2"/>
+        <bio:death rdf:resource="http://nomisma.org/id/eligius#death"/>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/eligius#merovingian_monetarius">
-      <org:role rdf:resource="http://nomisma.org/id/merovingian_monetarius"/>
+        <org:role rdf:resource="http://nomisma.org/id/merovingian_monetarius"/>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/eligius#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/eligius"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-21T04:00:01+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-20T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/eligius"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-21T04:00:01+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-20T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-07T11:10:45.81Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/eligius#membership_30ac2822154516f5153004b89d0528d2">
+        <org:role rdf:resource="http://nomisma.org/id/Saint"/>
+    </org:Membership>
+    <bio:Death rdf:about="http://nomisma.org/id/eligius#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0660</dcterms:date>
+    </bio:Death>
 </rdf:RDF>
