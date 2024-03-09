@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">Lived from c. 5-c. 64/68. One of the apostles of Jesus, Eusebius claimed he died under Nero's reign.</skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/saint_paul#provenance"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_paul#membership_c05bfec7696cfe6416a9738c2d89c324"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
@@ -136,6 +136,7 @@
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500372067"/>
         <skos:exactMatch rdf:resource="http://www.idref.fr/052468844"/>
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119448523"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_paul#membership_06c8890c000a861471d6b2ebfd989880"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/saint_paul#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/saint_paul"/>
@@ -147,8 +148,25 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:11:50.729Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:22:46.463Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/saint_paul#membership_c05bfec7696cfe6416a9738c2d89c324">
-        <org:role rdf:resource="http://nomisma.org/id/Saint"/>
+    
+    <org:Membership rdf:about="http://nomisma.org/id/saint_paul#membership_06c8890c000a861471d6b2ebfd989880">
+        <org:role rdf:resource="http://nomisma.org/id/saint"/>
     </org:Membership>
 </rdf:RDF>

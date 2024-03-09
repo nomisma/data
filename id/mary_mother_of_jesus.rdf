@@ -131,10 +131,11 @@
         <skos:exactMatch rdf:resource="http://isni.org/0000000427570951"/>
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11934598c"/>
         <skos:exactMatch rdf:resource="http://www.idref.fr/027793745"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/mary_mother_of_jesus#membership_53f9b47a74be5c4ca2a7fd4e2cfa43a7"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/mary_mother_of_jesus#membership_5f5755c171619c82e0bfbe5d25f347e6"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mary_mother_of_jesus#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/mary_mother_of_jesus"/>
@@ -146,8 +147,25 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:10:52.074Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:22:06.076Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/mary_mother_of_jesus#membership_53f9b47a74be5c4ca2a7fd4e2cfa43a7">
-        <org:role rdf:resource="http://nomisma.org/id/Saint"/>
+    
+    <org:Membership rdf:about="http://nomisma.org/id/mary_mother_of_jesus#membership_5f5755c171619c82e0bfbe5d25f347e6">
+        <org:role rdf:resource="http://nomisma.org/id/saint"/>
     </org:Membership>
 </rdf:RDF>

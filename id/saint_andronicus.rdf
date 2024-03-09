@@ -27,9 +27,10 @@
         <skos:prefLabel xml:lang="fr">Andronicus</skos:prefLabel>
         <skos:prefLabel xml:lang="la"> Andronicus</skos:prefLabel>
         <skos:prefLabel xml:lang="nl">Andronicus</skos:prefLabel>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_andronicus#membership_da02adee303e144d22fbed8ff52293eb"/>
+        
         <bio:death rdf:resource="http://nomisma.org/id/saint_andronicus#death"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_andronicus#membership_b1117b267cae2d76906258be12766bc0"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/saint_andronicus#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/saint_andronicus"/>
@@ -41,11 +42,28 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:08:08.497Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:20:36.081Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/saint_andronicus#membership_da02adee303e144d22fbed8ff52293eb">
-        <org:role rdf:resource="http://nomisma.org/id/Saint"/>
-    </org:Membership>
+    
     <bio:Death rdf:about="http://nomisma.org/id/saint_andronicus#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0304</dcterms:date>
     </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/saint_andronicus#membership_b1117b267cae2d76906258be12766bc0">
+        <org:role rdf:resource="http://nomisma.org/id/saint"/>
+    </org:Membership>
 </rdf:RDF>

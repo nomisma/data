@@ -55,8 +55,9 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/eligius#provenance"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3238"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/eligius#membership_30ac2822154516f5153004b89d0528d2"/>
+        
         <bio:death rdf:resource="http://nomisma.org/id/eligius#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/eligius#membership_1a1f7b131dd54f4bc347f440e04c558d"/>
     </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/eligius#merovingian_monetarius">
         <org:role rdf:resource="http://nomisma.org/id/merovingian_monetarius"/>
@@ -87,11 +88,28 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:09:56.886Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:19:39.603Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/eligius#membership_30ac2822154516f5153004b89d0528d2">
-        <org:role rdf:resource="http://nomisma.org/id/Saint"/>
-    </org:Membership>
+    
     <bio:Death rdf:about="http://nomisma.org/id/eligius#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0660</dcterms:date>
     </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/eligius#membership_1a1f7b131dd54f4bc347f440e04c558d">
+        <org:role rdf:resource="http://nomisma.org/id/saint"/>
+    </org:Membership>
 </rdf:RDF>

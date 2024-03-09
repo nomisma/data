@@ -122,11 +122,12 @@
         <skos:exactMatch rdf:resource="http://www.idref.fr/028123395"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/071wp"/>
         <skos:exactMatch rdf:resource="http://isni.org/0000000119847373"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_peter#membership_c049f4742f29931605fa73f2efe3c67e"/>
+        
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
         <bio:death rdf:resource="http://nomisma.org/id/saint_peter#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_peter#membership_797008092dea48d6a99c0d61f94eec31"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/saint_peter#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/saint_peter"/>
@@ -138,12 +139,29 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:09:29.546Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:21:41.156Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/saint_peter#membership_c049f4742f29931605fa73f2efe3c67e">
-        <org:role rdf:resource="http://nomisma.org/id/Saint"/>
-    </org:Membership>
+    
     <bio:Death rdf:about="http://nomisma.org/id/saint_peter#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0064</dcterms:date>
         <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
     </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/saint_peter#membership_797008092dea48d6a99c0d61f94eec31">
+        <org:role rdf:resource="http://nomisma.org/id/saint"/>
+    </org:Membership>
 </rdf:RDF>

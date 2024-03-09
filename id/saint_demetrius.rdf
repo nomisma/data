@@ -24,7 +24,7 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/saint_demetrius#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_demetrius#membership_c78f7b9081ace1dd1b63688b0718dcb1"/>
+        
         <bio:death rdf:resource="http://nomisma.org/id/saint_demetrius#death"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q310633"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Demetrius_of_Thessaloniki"/>
@@ -72,6 +72,7 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118677691"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/02jgk7"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_demetrius#membership_2cc5821908e5bbe5ec50c77e28bcf187"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/saint_demetrius#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/saint_demetrius"/>
@@ -91,12 +92,29 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:08:26.548Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:21:00.549Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/saint_demetrius#membership_c78f7b9081ace1dd1b63688b0718dcb1">
-        <org:role rdf:resource="http://nomisma.org/id/Saint"/>
-    </org:Membership>
+    
     <bio:Death rdf:about="http://nomisma.org/id/saint_demetrius#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0306</dcterms:date>
         <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
     </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/saint_demetrius#membership_2cc5821908e5bbe5ec50c77e28bcf187">
+        <org:role rdf:resource="http://nomisma.org/id/saint"/>
+    </org:Membership>
 </rdf:RDF>

@@ -120,8 +120,9 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118557858"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/043mx"/>
         <skos:exactMatch rdf:resource="http://isni.org/0000000087050000"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_john_the_baptist#membership_07d3c7232d3f19ab30cc65a735962df5"/>
+        
         <bio:death rdf:resource="http://nomisma.org/id/saint_john_the_baptist#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_john_the_baptist#membership_d90a36316aff864a77907753b75cf5e7"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/saint_john_the_baptist#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/saint_john_the_baptist"/>
@@ -133,12 +134,29 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:11:19.218Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:22:25.509Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/saint_john_the_baptist#membership_07d3c7232d3f19ab30cc65a735962df5">
-        <org:role rdf:resource="http://nomisma.org/id/Saint"/>
-    </org:Membership>
+    
     <bio:Death rdf:about="http://nomisma.org/id/saint_john_the_baptist#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0030</dcterms:date>
         <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
     </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/saint_john_the_baptist#membership_d90a36316aff864a77907753b75cf5e7">
+        <org:role rdf:resource="http://nomisma.org/id/saint"/>
+    </org:Membership>
 </rdf:RDF>

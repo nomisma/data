@@ -81,8 +81,9 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/helena#provenance"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3787"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/helena#membership_33393bdf86dee024ffa38d7eeb641019"/>
+        
         <org:hasMembership rdf:resource="http://nomisma.org/id/helena#membership_8f12619fd8037693ee6f5a9eae7bb769"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/helena#membership_f1e86cfab3a0826b389d795eb9987cc4"/>
     </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/helena#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/helena"/>
@@ -116,11 +117,28 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:10:12.639Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:19:09.357Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/helena#membership_33393bdf86dee024ffa38d7eeb641019">
-        <org:role rdf:resource="http://nomisma.org/id/Saint"/>
-    </org:Membership>
+    
     <org:Membership rdf:about="http://nomisma.org/id/helena#membership_8f12619fd8037693ee6f5a9eae7bb769">
         <org:role rdf:resource="http://nomisma.org/id/portrait"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/helena#membership_f1e86cfab3a0826b389d795eb9987cc4">
+        <org:role rdf:resource="http://nomisma.org/id/saint"/>
     </org:Membership>
 </rdf:RDF>

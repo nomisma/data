@@ -24,13 +24,14 @@
         <skos:definition xml:lang="en">Martyr saint, born at Kampsada in Phrygia (now Turkey), martyred by torture and beheading in 250 AD.</skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/saint_tryphon#provenance"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_tryphon#membership_62a0d50e4dfbd20e0dccd40e6fe912d7"/>
+        
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q109859523"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Tryphon,_Respicius,_and_Nympha"/>
         <skos:prefLabel xml:lang="id">Trifon</skos:prefLabel>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <bio:death rdf:resource="http://nomisma.org/id/saint_tryphon#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/saint_tryphon#membership_635ce5b21bbe34e97b64488de1d1d4e7"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/saint_tryphon#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/saint_tryphon"/>
@@ -50,11 +51,28 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:07:48.436Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-08T05:20:17.878Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/saint_tryphon#membership_62a0d50e4dfbd20e0dccd40e6fe912d7">
-        <org:role rdf:resource="http://nomisma.org/id/Saint"/>
-    </org:Membership>
+    
     <bio:Death rdf:about="http://nomisma.org/id/saint_tryphon#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0250</dcterms:date>
     </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/saint_tryphon#membership_635ce5b21bbe34e97b64488de1d1d4e7">
+        <org:role rdf:resource="http://nomisma.org/id/saint"/>
+    </org:Membership>
 </rdf:RDF>
