@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,40 +18,48 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/theodosius_son_of_mauricius">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Theodosius</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Théodose (fils de Maurice)</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Teodósio (filho de Maurício)</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Theodosios (III.)</skos:prefLabel>
-      <skos:definition xml:lang="en">The son of the Byzantine emperor Maurice.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Theodosius_(son_of_Maurice)"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q354997"/>
-      <skos:prefLabel xml:lang="sh">Teodosije</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Teodosiu</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Theodosius</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Theodosius</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0g5rd0r"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/theodosius_son_of_mauricius#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/6996"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Theodosius, son of Maurice</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Théodose (fils de Maurice)</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Teodósio (filho de Maurício)</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Theodosios (III.)</skos:prefLabel>
+        <skos:definition xml:lang="en">The son of the Byzantine emperor Maurice.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Theodosius_(son_of_Maurice)"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q354997"/>
+        <skos:prefLabel xml:lang="sh">Teodosije</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Teodosiu</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Theodosius</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Theodosius</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0g5rd0r"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/theodosius_son_of_mauricius#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/6996"/>
    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/theodosius_son_of_mauricius#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/theodosius_son_of_mauricius"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-31T04:00:01+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/dmathie"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/theodosius_son_of_mauricius"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-31T04:00:01+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/dmathie"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-13T14:26:03.416Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
