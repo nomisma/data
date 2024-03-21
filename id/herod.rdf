@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,98 +18,81 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/herod">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Herod the Great</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Herod Đại đế</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Herodes der Große</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">大希律王</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Ірод I Великий</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Herodes Veliký</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Herodes el gran</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ヘロデ大王</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">هيرودس الأول</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Herodes I</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Herod Wielki</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Herodes I el Grande</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Herodes</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Hérode Ier le Grand</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Erode il Grande</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Ирод I Великий</skos:prefLabel>
-      <skos:definition xml:lang="en">Herod (Hebrew: הוֹרְדוֹס, Hordos, Greek: Ἡρῴδης, Hērōdēs), also known as Herod the Great (born 73 or 74 BCE, died 4 BCE in Jericho), was a Roman client king of Judea.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Herod_the_Great"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/herod#authority"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/107903854"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q51672"/>
-      <skos:prefLabel xml:lang="id">Herodes yang Agung</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Ірад Вялікі</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Ирод Велики</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Herodez Veur</skos:prefLabel>
-      <skos:prefLabel xml:lang="cy">Herod Fawr</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Herodes den Store</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Ηρώδης ο Μέγας</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Herodo la Granda</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Herodes</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Herodes I.a Handia</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">هیرود بزرگ</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Herodes</skos:prefLabel>
-      <skos:prefLabel xml:lang="ga">Héaród Mór</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Herodes</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">הורדוס</skos:prefLabel>
-      <skos:prefLabel xml:lang="hi">हेरोद महान</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Herod I. Veliki</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Heródes</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">헤로데 1세</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Erodas I Didysis</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">Hērods Lielais</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Eròdes lo Grand</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Irod cel Mare</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Herod Veliki</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Herodes Veľký</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Herod Veliki</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Ирод Велики</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Herodes den store</skos:prefLabel>
-      <skos:prefLabel xml:lang="sw">Herode Mkuu</skos:prefLabel>
-      <skos:prefLabel xml:lang="ta">முதலாம் ஹெரொட்</skos:prefLabel>
-      <skos:prefLabel xml:lang="th">พระเจ้าเฮโรดมหาราช</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Herodes ang Dakila</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Hirodes</skos:prefLabel>
-      <skos:prefLabel xml:lang="yi">הורדוס</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Herodes</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">ჰეროდე I დიდი</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Herodes den store</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Herodes den store</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Հերովդես I Մեծ</skos:prefLabel>
-      <skos:prefLabel xml:lang="ur">ہیرودیس</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Ирод Велики</skos:prefLabel>
-      <skos:prefLabel xml:lang="af">Herodes die Grote</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118549847"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0hsm_"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/02814693X"/>
-      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12003931x"/>
-      <skos:exactMatch rdf:resource="http://isni.org/0000000122592324"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500271710"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/herod#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/821"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/herod#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
-   </org:Membership>
-   <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/herod#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/herod"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+      
+        <skos:prefLabel xml:lang="en">Herod the Great</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Herod Đại đế</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Herodes der Große</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">大希律王</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Ірод I Великий</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Herodes Veliký</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Herodes el gran</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ヘロデ大王</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">هيرودس الأول</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Herodes I</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Herod Wielki</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Herodes I el Grande</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Herodes</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hérode Ier le Grand</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Erode il Grande</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Ирод I Великий</skos:prefLabel>
+        <skos:definition xml:lang="en">Herod (Hebrew: הוֹרְדוֹס, Hordos, Greek: Ἡρῴδης, Hērōdēs), also known as Herod the Great (born 73 or 74 BCE, died 4 BCE in Jericho), was a Roman client king of Judea.</skos:definition>
+      
+      
+      
+      
+        <skos:prefLabel xml:lang="id">Herodes yang Agung</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Ірад Вялікі</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Ирод Велики</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Herodez Veur</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Herod Fawr</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Herodes den Store</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ηρώδης ο Μέγας</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Herodo la Granda</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Herodes</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Herodes I.a Handia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">هیرود بزرگ</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Herodes</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Héaród Mór</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Herodes</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">הורדוס</skos:prefLabel>
+        <skos:prefLabel xml:lang="hi">हेरोद महान</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Herod I. Veliki</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Heródes</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">헤로데 1세</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Erodas I Didysis</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Hērods Lielais</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Eròdes lo Grand</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Irod cel Mare</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Herod Veliki</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Herodes Veľký</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Herod Veliki</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Ирод Велики</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Herodes den store</skos:prefLabel>
+        <skos:prefLabel xml:lang="sw">Herode Mkuu</skos:prefLabel>
+        <skos:prefLabel xml:lang="ta">முதலாம் ஹெரொட்</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">พระเจ้าเฮโรดมหาราช</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Herodes ang Dakila</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Hirodes</skos:prefLabel>
+        <skos:prefLabel xml:lang="yi">הורדוס</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Herodes</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">ჰეროდე I დიდი</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Herodes den store</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Herodes den store</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Հերովդես I Մեծ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">ہیرودیس</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Ирод Велики</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Herodes die Grote</skos:prefLabel>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <dcterms:isReplacedBy rdf:resource="http://nomisma.org/id/herod_i_judaea"/>
+    </foaf:Person>
+   
+   
 </rdf:RDF>
