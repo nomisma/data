@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/mithradates_iii_bosporus">
+        <skos:prefLabel xml:lang="en">Mithridates III of Bosporus</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Tiberius Julius Mithridates Philogermanicus Philopatris,[a] also known as Mithridates III of the Bosporus (fl. 41 AD, died 68 AD), was a Roman client king of the Bosporus, co-ruling with his mother, Gepaepyris.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/mithradates_iii_bosporus#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q2381819"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Tiberius_Julius_Mithridates"/>
+        <skos:prefLabel xml:lang="pl">Mitrydates III</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Митридат VIII</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Mithridate II du Bosphore</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Claudi Mitridates II</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Тиберий Юлий Митридат</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Mitrídates II del Bósforo</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Tiberius Julius Mithridates</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Tiberius Julius Mithridates</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Мітрідат III</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Tiberius Julius Mithridates</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Tiberio Giulio Mitridate</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">მითრიდატე VIII</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">瑟拉馬蒂斯二世</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Τιβέριος Ιούλιος Μιθριδάτης</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Tiberius Julius Mithridates</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/04049bb"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1199047082"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/2482157342839510100008"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/mithradates_iii_bosporus#membership_077712f212bf2621390ec4980dc9d41a"/>
+        <bio:death rdf:resource="http://nomisma.org/id/mithradates_iii_bosporus#death"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mithradates_iii_bosporus#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/mithradates_iii_bosporus"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-22T19:27:39.468Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/mithradates_iii_bosporus#membership_077712f212bf2621390ec4980dc9d41a">
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0039</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0045</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/bosporan_kingdom"/>
+    </org:Membership>
+    <bio:Death rdf:about="http://nomisma.org/id/mithradates_iii_bosporus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0068</dcterms:date>
+    </bio:Death>
+</rdf:RDF>
