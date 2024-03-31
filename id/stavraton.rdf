@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Denomination rdf:about="http://nomisma.org/id/stavraton">
+        <skos:prefLabel xml:lang="en">Stavraton</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Byzantine silver coin which was introduced in c. 1367 as the main silver denomination of the Late Byzantine empire. It was valued as half of the gold Hyperpyron. Also fractions of the Stavraton were struck.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/stavraton#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q7604839"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Stavraton"/>
+        <skos:prefLabel xml:lang="el">Σταυράτον</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Stavraton</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">stavraton</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Stavraton</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">stavraton</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Stavraton</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Stavraton</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Stavraton</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Ставратон</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Stavraton</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0bh77ys"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/nominal/1357"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+    </nmo:Denomination>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/stavraton#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/stavraton"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-30T05:38:43.93Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-30T07:57:12.32Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
