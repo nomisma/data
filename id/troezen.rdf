@@ -59,7 +59,8 @@
         <skos:changeNote rdf:resource="http://nomisma.org/id/troezen#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
         <skos:closeMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/2780"/>
-   </nmo:Mint>
+        <skos:closeMatch rdf:resource="http://nomisma.org/id/damala_medieval"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/troezen#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.496395</geo:lat>
         <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.362444</geo:long>
@@ -108,6 +109,14 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-04T18:34:40.345Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-10T13:12:26.634Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
