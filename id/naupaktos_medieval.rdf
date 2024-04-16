@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/naupaktos_medieval">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Naupaktos</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Lepanto</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Naupaktos</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Lepanto</skos:altLabel>
+        <skos:prefLabel xml:lang="fr">Naupacte</skos:prefLabel>
+        <skos:altLabel xml:lang="fr">Lépante</skos:altLabel>
+        <skos:prefLabel xml:lang="it">Lepanto</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Naupacto</skos:altLabel>
+        <skos:prefLabel xml:lang="el">Ναύπακτος</skos:prefLabel>
+        <skos:altLabel xml:lang="el">Λεπάντο</skos:altLabel>
+        <skos:prefLabel xml:lang="es">Naupacto</skos:prefLabel>
+        <skos:altLabel xml:lang="es">Lepanto</skos:altLabel>
+        <skos:definition xml:lang="en">The medieval mint of Naupaktos produced deniers tournois for Philip of Taranto, prince of Achaia, in his position of despot of Romania, in significant quantities during the period ca. 1301 to ca. 1306 (literature: Travaini 2011, pp. 1352-1353; Baker 2021, pp. 1445-1453).</skos:definition>
+        <skos:definition xml:lang="el">Το μεσαιωνικό νομισματοκοπείο της Ναυπάκτου παρήγαγε δηνάρια τορνέσια για τον Φίλιππο του Τάραντος, πρίγκηπα της Αχαΐας, με την ιδιότητα του δεσπότη της Ρωμανίας, σε σημαντικές ποσότητες κατά την περίοδο από περ. 1301 έως περ. 1306 (βιβλιογραφία: Travaini 2011, σσ. 1352-1353· Baker 2021, σσ. 1445-1453).</skos:definition>
+        <skos:definition xml:lang="de">Die mittelalterliche Münzstätte von Naupaktos prägte in der Zeit von ca. 1301 bis ca. 1306 grosse Mengen an Deniers Tournois für Philipp von Tarent, Fürst von Achaia, in seiner Funktion als Despot von Romania (Literatur: Travaini 2011, S. 1352-1353; Baker 2021, S. 1445-1453).</skos:definition>
+        <geo:location rdf:resource="http://nomisma.org/id/naupaktos_medieval#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_latin_east_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/naupaktos_medieval#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/naupaktos_medieval#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.391667</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.8275</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/naupaktos_medieval#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/naupaktos_medieval"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T16:39:10.412Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1-q9m7A8Wo0b0h0g_or7ev1ZCtcr07PcMTbG9KnhDHNM/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

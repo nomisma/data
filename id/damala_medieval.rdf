@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/damala_medieval">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Damala</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Troizina</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Damala</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Troizen</skos:altLabel>
+        <skos:prefLabel xml:lang="fr">Damala</skos:prefLabel>
+        <skos:altLabel xml:lang="fr">Trézène</skos:altLabel>
+        <skos:prefLabel xml:lang="it">Damala</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Trezene</skos:altLabel>
+        <skos:prefLabel xml:lang="el">Δαμαλάς</skos:prefLabel>
+        <skos:altLabel xml:lang="el">Τροιζήνα</skos:altLabel>
+        <skos:prefLabel xml:lang="es">Damala</skos:prefLabel>
+        <skos:altLabel xml:lang="es">Trecen</skos:altLabel>
+        <skos:definition xml:lang="en">Possible medieval mint of Damala, ancient and modern Troizina in the Argolis. In the most recent literature, the existence of this mint has been questioned and the excessively rare denier tournois issues of the Zaccaria barons bearing this mint signature are considered to have been more likely produced at the mint of Chios in the eastern Aegean (literature: Travaini 2011, pp. 1327-1328; Baker 2021, pp. 1464-1465). For the ancient mint of Troezen, see http://nomisma.org/id/troezen.</skos:definition>
+        <skos:definition xml:lang="el">Πιθανό μεσαιωνικό νομισματοκοπείο του Δαμαλά, αρχαία και σύγχρονη Τροιζήνα στην Αργολίδα. Στην πιο πρόσφατη βιβλιογραφία η ύπαρξη αυτού του νομισματοκοπείου αμφισβητήθηκε: τα ιδιαίτερα σπάνια δηνάρια τορνέσια των βαρόνων Zaccaria με το όνομα αυτού του νομισματοκοπείου θεωρήθηκε πιο πιθανό να έχουν παραχθεί στο νομισματοκοπείο της Χίου, στο ανατολικό Αιγαίο (βιβλιογραφία: Travaini 2011, σσ. 1327-1328· Baker 2021, σσ. 1464-1465). Για το αρχαίο νομισματοκοπείο του Δαμαλά, βλέπε http://nomisma.org/id/troezen.</skos:definition>
+        <skos:definition xml:lang="de">Die hypothetische mittelalterliche Münzstätte von Damala, dem antiken und modernen Troizina in der Argolis. In der neueren Literatur wird die Existenz dieser Münzstätte in Frage gestellt, und die äußerst seltenen Deniers Tournois der Zaccaria-Barone mit dieser Münzstättenangabe werden eher der Münzstätte von Chios in der östlichen Ägäis zugewiesen (Literatur: Travaini 2011, S. 1327-1328; Baker 2021, S. 1464-1465). Für die antike Münzstätte Troizen, siehe http://nomisma.org/id/troezen .</skos:definition>
+        <skos:closeMatch rdf:resource="http://nomisma.org/id/troezen"/>
+        <geo:location rdf:resource="http://nomisma.org/id/damala_medieval#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_latin_east_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/damala_medieval#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/damala_medieval#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.497229</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.363113</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/damala_medieval#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/damala_medieval"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T16:39:10.412Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1-q9m7A8Wo0b0h0g_or7ev1ZCtcr07PcMTbG9KnhDHNM/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
