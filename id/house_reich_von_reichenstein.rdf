@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <rdac:Family rdf:about="http://nomisma.org/id/house_reich_von_reichenstein">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">House Reich von Reichenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Reich von Reichenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Maison Reich de Reichenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Casa Reich von Reichenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Casa de Reich de Reichenstein</skos:prefLabel>
+        <skos:definition xml:lang="en">The Reich von Reichenstein were a knightly dyasty first mentioned in 1166/79 with Rudolf Dives. Originally ministeriales of the bishops of Basel, they held the office of kämmerer (chamberlain) from the beginning of the 13th century and received the castle of Reichenstein near Arlesheim as a fief from the bishop of Basel around 1250. From the 13th to the middle of the 15th century, the Reich von Reichenstein were represented in the council of the city of Basel, provided six mayors of Basel, a bishop of Basel and a rector of the University of Basel. From the 15th century onwards, the family members increasingly entered the service of the Habsburgs and the Margraves of Hachberg and Baden.The family's possessions lay in the Basel Area, Sundgau and southern Black Forest and consisted of fiefs of the Dukes of Austria, the Bishop of Basel and the Margraves of Baden.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/house_reich_von_reichenstein#provenance"/>
+    </rdac:Family>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/house_reich_von_reichenstein#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/house_reich_von_reichenstein"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T07:15:24.18Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/16B_A6lY2AJD_U7VpsLvfgYuEaN9zvnzlhepJDuW1FU4/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

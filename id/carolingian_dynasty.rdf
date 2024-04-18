@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <rdac:Family rdf:about="http://nomisma.org/id/carolingian_dynasty">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Carolingian dynasty</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Karolinger</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Carolingiens</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Carolingi</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Dinastía carolingia</skos:prefLabel>
+        <skos:definition xml:lang="en">The Carolingian dynasty was a Frankish noble family named after Charlemagne, grandson of mayor Charles Martel and a descendant of the Arnulfing and Pippinid clans of the 7th century AD. The dynasty consolidated its power in the 8th century, eventually making the offices of mayor of the palace and dux et princeps Francorum hereditary, and becoming the de facto rulers of the Franks as the real powers behind the Merovingian throne. In 751 the Merovingian dynasty which had ruled the Germanic Franks was overthrown with the consent of the Papacy and the aristocracy, and Pepin the Short, son of Martel, was crowned King of the Franks. The Carolingian dynasty reached its peak in 800 with the crowning of Charlemagne as the first Emperor of the Romans in the West in over three centuries. His death in 814 began an extended period of fragmentation of the Carolingian Empire and decline that would eventually lead to the evolution of the Kingdom of France and the Holy Roman Empire.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Carolingian_dynasty"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_italian_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/carolingian_dynasty#provenance"/>
+    </rdac:Family>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/carolingian_dynasty#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/carolingian_dynasty"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T07:15:24.18Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/16B_A6lY2AJD_U7VpsLvfgYuEaN9zvnzlhepJDuW1FU4/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

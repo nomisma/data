@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <rdac:Family rdf:about="http://nomisma.org/id/house_of_zaehringen">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">House of Zähringen</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Zähringer</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Maison de Zähringen</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Zähringen</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Casa de Zähringen</skos:prefLabel>
+        <skos:definition xml:lang="en">The House of Zähringen (German: Zähringer) was a dynasty of Swabian nobility. The family's name derived from Zähringen Castle near Freiburg im Breisgau. The Zähringer in the 12th century used the title of Duke of Zähringen, in compensation for having conceded the title of Duke of Swabia to the Staufer in 1098. The Zähringer were granted the special title of Rector of Burgundy in 1127, and they continued to use both titles until the end of the ducal line in 1218.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/House_of_Z%C3%A4hringen"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/house_of_zaehringen#provenance"/>
+    </rdac:Family>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/house_of_zaehringen#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/house_of_zaehringen"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T07:15:24.18Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/16B_A6lY2AJD_U7VpsLvfgYuEaN9zvnzlhepJDuW1FU4/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

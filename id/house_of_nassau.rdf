@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <rdac:Family rdf:about="http://nomisma.org/id/house_of_nassau">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">House of Nassau</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Haus Nassau</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Maison de Nassau</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Casato di Nassau</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Casa de Nassau</skos:prefLabel>
+        <skos:definition xml:lang="en">The House of Nassau is a diversified aristocratic dynasty in Europe. It is named after the lordship associated with Nassau Castle, located in present-day Nassau, Rhineland-Palatinate, Germany. With the fall of the Hohenstaufen in the first half of the 13th century royal power within Franconia evaporated and the former stem duchy fragmented into separate independent states. Nassau emerged as one of those independent states as part of the Holy Roman Empire. The lords of Nassau were originally titled "Count of Nassau", subject only to the Emperor, and then elevated to the princely class as "Princely Counts". Early on they divided into two main branches: the elder (Walramian) branch, that gave rise to the German king Adolf, and the younger (Ottonian) branch, that gave rise to the Princes of Orange and the monarchs of the Netherlands.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/House_of_Nassau"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/house_of_nassau#provenance"/>
+    </rdac:Family>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/house_of_nassau#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/house_of_nassau"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T07:15:24.18Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/16B_A6lY2AJD_U7VpsLvfgYuEaN9zvnzlhepJDuW1FU4/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

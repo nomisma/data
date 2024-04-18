@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <rdac:Family rdf:about="http://nomisma.org/id/house_of_frohburg">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">House of Frohburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Frohburger</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Maison de Frobourg</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Casa di Frohburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Casa de Frohburg</skos:prefLabel>
+        <skos:definition xml:lang="en">The House of Frohburg (also Froburg) was a noble family in medieval Switzerland, with possessions in what is now the canton of Solothurn. They originate in the Wigger basin, near Zofingen. In the 10th century, they built Frohburg Castle on a hill near Trimbach. They had the title of counts from the later 11th century. They ruled the lands between Olten and Solothurn, and took parts of Aargau and Sisgau as fief from the bishop of Basel. They reached the peak of their power in the later 12th and early 13th century, building a number of castles, and founding towns such as Aarburg, Liestal, Olten, Waldenburg, Wiedlisbach and Zofingen. The last count of Frohburg was Hermann VI (d. 1367 as abbot of St. Urban's Abbey).</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/House_of_Frohburg"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/house_of_frohburg#provenance"/>
+    </rdac:Family>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/house_of_frohburg#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/house_of_frohburg"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T07:15:24.18Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/16B_A6lY2AJD_U7VpsLvfgYuEaN9zvnzlhepJDuW1FU4/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

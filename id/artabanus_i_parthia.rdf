@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,63 +18,71 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/artabanus_i_parthia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:prefLabel xml:lang="en">Artabanus I of Partha</skos:prefLabel>
-      <skos:definition xml:lang="en">Artabanus I, incorrectly known in older scholarship as Artabanus II, was king of the Parthian Empire, ruling briefly from c. 127 to 124/3 BC. His short reign ended abruptly when he died during a battle against the Yuezhi in the east. He was succeeded by his son Mithridates II.</skos:definition>
-      <skos:prefLabel xml:lang="pt">Artabano I da Pártia</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Artabanus I</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Artaban I.a</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Artaban Ier</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Артабан II Парфянский</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Արտավան Բ Պարթև</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Artabano I</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Artaban II de Pàrtia</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Artabano I</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Artabanos I.</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">アルタバヌス1世</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Artabanos I.</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Артабан I</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Artabanus I của Parthia</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">اردوان دوم</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Artaban I od Partije</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Artabanus I</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Artaban II.</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Αρτάβανος Β’ της Παρθίας</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Artabanes I av Parthia</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Артабан II Парфянський</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">არტაბან II</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">II. Artabanosz</skos:prefLabel>
-      <skos:prefLabel xml:lang="tk">Artaban I</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Ardawan I dari Parthia</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">阿爾塔巴努斯一世</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q345053"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/05mkk6"/>
-      <skos:altLabel xml:lang="en">Artabanus II</skos:altLabel>
-      <org:memberOf rdf:resource="http://nomisma.org/id/arsacid_dynasty_parthia"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/artabanus_i_parthia#membership_9527101f974f5aedc4d6296954375b98"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Artabanus-I"/>
-      <rdfs:seeAlso rdf:resource="http://parthia.com/artabanus1.htm"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/artabanus_i_parthia#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4287"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Artabanus I of Parthia</skos:prefLabel>
+        <skos:definition xml:lang="en">Artabanus I, incorrectly known in older scholarship as Artabanus II, was king of the Parthian Empire, ruling briefly from c. 127 to 124/3 BC. His short reign ended abruptly when he died during a battle against the Yuezhi in the east. He was succeeded by his son Mithridates II.</skos:definition>
+        <skos:prefLabel xml:lang="pt">Artabano I da Pártia</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Artabanus I</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Artaban I.a</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Artaban Ier</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Артабан II Парфянский</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Արտավան Բ Պարթև</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Artabano I</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Artaban II de Pàrtia</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Artabano I</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Artabanos I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アルタバヌス1世</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Artabanos I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Артабан I</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Artabanus I của Parthia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">اردوان دوم</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Artaban I od Partije</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Artabanus I</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Artaban II.</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αρτάβανος Β’ της Παρθίας</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Artabanes I av Parthia</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Артабан II Парфянський</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">არტაბან II</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">II. Artabanosz</skos:prefLabel>
+        <skos:prefLabel xml:lang="tk">Artaban I</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Ardawan I dari Parthia</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">阿爾塔巴努斯一世</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q345053"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/05mkk6"/>
+        <skos:altLabel xml:lang="en">Artabanus II</skos:altLabel>
+        <org:memberOf rdf:resource="http://nomisma.org/id/arsacid_dynasty_parthia"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/artabanus_i_parthia#membership_9527101f974f5aedc4d6296954375b98"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <rdfs:seeAlso rdf:resource="http://www.britannica.com/biography/Artabanus-I"/>
+        <rdfs:seeAlso rdf:resource="http://parthia.com/artabanus1.htm"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/artabanus_i_parthia#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4287"/>
    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/artabanus_i_parthia#membership_9527101f974f5aedc4d6296954375b98">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
-      <org:organization rdf:resource="http://nomisma.org/id/parthian_empire"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0127</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0123</nmo:hasEndDate>
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/parthian_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0127</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0123</nmo:hasEndDate>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/artabanus_i_parthia#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/artabanus_i_parthia"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/artabanus_i_parthia"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:14:09.132-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1VrK8iDlcEzALvwMgZI49JiYV5gcVs_cAlzkdDh0PGEc/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T18:05:29.434Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

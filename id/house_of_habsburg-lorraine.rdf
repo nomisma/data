@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <rdac:Family rdf:about="http://nomisma.org/id/house_of_habsburg-lorraine">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">House of Habsburg-Lorraine</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Habsburg-Lothringen</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Maison de Habsbourg-Lorraine</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Casa d'Asburgo-Lorena</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Casa de Habsburgo-Lorena</skos:prefLabel>
+        <skos:definition xml:lang="en">The House of Habsburg-Lorraine (German: Haus Habsburg-Lothringen) originated from the marriage in 1736 of Francis III, Duke of Lorraine and Bar, and Maria Theresa of Austria, later successively Queen of Bohemia, Queen of Hungary, Queen of Croatia and Archduchess of Austria. Its members are the legitimate surviving line of both the House of Habsburg and the House of Lorraine and inherit their patrimonial possessions and vocation to the Empire from their female line of the House of Habsburg and from the male line of the House of Lorraine.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/House_of_Habsburg-Lorraine"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/house_of_habsburg-lorraine#provenance"/>
+    </rdac:Family>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/house_of_habsburg-lorraine#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/house_of_habsburg-lorraine"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T07:15:24.18Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/16B_A6lY2AJD_U7VpsLvfgYuEaN9zvnzlhepJDuW1FU4/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

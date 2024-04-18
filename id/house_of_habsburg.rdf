@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <rdac:Family rdf:about="http://nomisma.org/id/house_of_habsburg">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">House of Habsburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Haus Habsburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Maison de Habsbourg</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Casa d'Asburgo</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Casa de Habsburgo</skos:prefLabel>
+        <skos:definition xml:lang="en">The House of Habsburg, also known as the House of Austria, is one of the most prominent and important dynasties in European history. It takes its name from Habsburg Castle, a fortress built in the 1020s in present-day Switzerland by Radbot of Klettgau, who named his fortress Habsburg. His grandson Otto II was the first to take the fortress name as his own, adding "Count of Habsburg" to his title. In 1273, Count Radbot's seventh-generation descendant, Rudolph of Habsburg, was elected King of the Romans. Taking advantage of the extinction of the Babenbergs and of his victory over Ottokar II of Bohemia at the battle on the Marchfeld in 1278, he appointed his sons as Dukes of Austria and moved the family's power base to Vienna, where the Habsburg dynasty gained the name of "House of Austria" and ruled until 1918.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/House_of_Habsburg"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_austrian_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/house_of_habsburg#provenance"/>
+    </rdac:Family>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/house_of_habsburg#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/house_of_habsburg"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T07:15:24.18Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/16B_A6lY2AJD_U7VpsLvfgYuEaN9zvnzlhepJDuW1FU4/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

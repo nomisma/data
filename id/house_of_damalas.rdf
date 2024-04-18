@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <rdac:Family rdf:about="http://nomisma.org/id/house_of_damalas">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">House of Damalas</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Damaliden</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Maison de Damalet</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Casa di Damalà</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Casa de Damalà</skos:prefLabel>
+        <skos:definition xml:lang="en">The House of Damalas (Greek: Δαμαλάς) is a Genoese-Byzantine noble House established in the late 15th century, with roots originating from the island of Chios during the Genoese occupation.Created as a result of intermarriages among the Imperial House of Palaiologos with the Genoese noble House of Zaccaria. There is also an unrelated Byzantine family named Damalas/Damalis, which is seen as early as 1230 in the Thracesian Theme of the Eastern Roman Empire. Descendants of this unrelated family were also settled in Chios as well as Kos.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Damalas"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/house_of_damalas#provenance"/>
+    </rdac:Family>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/house_of_damalas#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/house_of_damalas"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T07:15:24.18Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/16B_A6lY2AJD_U7VpsLvfgYuEaN9zvnzlhepJDuW1FU4/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
