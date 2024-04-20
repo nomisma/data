@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,59 +18,80 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/bonosus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Bonosus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Bonoso</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Bonosus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Bonosus (Rzymianin)</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Bonosus</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Gaio Quinto Bonoso</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Bonosus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Боноз</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Bonoso (usurpador)</skos:prefLabel>
-      <skos:definition xml:lang="en">Usurper against Probus in the year 280.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Bonosus_(usurper)"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/197678203"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q437760"/>
-      <skos:prefLabel xml:lang="fy">Bonosus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Bonosus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Bonós</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Бонос</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">بونوسوس</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Bonos</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Bonos</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Бонос</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Bonosus</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02n_w8"/>
-      <skos:prefLabel xml:lang="da">Bonosus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/bonosus#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Bonosus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Bonoso</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Bonosus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Bonosus (Rzymianin)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Bonosus</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gaio Quinto Bonoso</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bonosus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Боноз</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Bonoso (usurpador)</skos:prefLabel>
+        <skos:definition xml:lang="en">Usurper against Probus in the year 280.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Bonosus_(usurper)"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/197678203"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q437760"/>
+        <skos:prefLabel xml:lang="fy">Bonosus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Bonosus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Bonós</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Бонос</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">بونوسوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Bonos</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Bonos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Бонос</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Bonosus</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02n_w8"/>
+        <skos:prefLabel xml:lang="da">Bonosus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/bonosus#provenance"/>
+        <bio:death rdf:resource="http://nomisma.org/id/bonosus#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/bonosus#membership_15cd2e948d415f0fccc31b30306a2421"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bonosus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/bonosus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-29T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/bonosus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-29T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Death rdf:about="http://nomisma.org/id/bonosus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0280</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/bonosus#membership_15cd2e948d415f0fccc31b30306a2421">
+        <foaf:topic rdf:resource="http://nomisma.org/id/bonosus"/>
+        <org:role rdf:resource="http://nomisma.org/id/pretender"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0280</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0280</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,59 +18,73 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/clodius_macer">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Clodius Macer</skos:prefLabel>
-      <skos:definition xml:lang="en">Roman legatus of Africa, d. A.D. 68.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lucius_Clodius_Macer"/>
-      <skos:prefLabel xml:lang="de">Clodius Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Clodius Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Clodius Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Клавдий Мацер</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Clodius Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Clodius Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Κλώδιος Μάκρος</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Клодий Мацер</skos:prefLabel>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/clodius_macer#authority"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q550616"/>
-      <skos:prefLabel xml:lang="pt">Clódio Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Lucjusz Klodiusz Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Lucio Clodio Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Clodi Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Луцій Клодій Макр</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Lucije Klodije Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Lucije Klodije Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Lucius Clodius Macer</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/25408052"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119226510"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01tfn8"/>
-      <skos:prefLabel xml:lang="hu">Lucio Clodio Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Clodius Macer</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Clodius Macer</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/clodius_macer#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4821"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/clodius_macer#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Clodius Macer</skos:prefLabel>
+        <skos:definition xml:lang="en">Lucius Clodius Macer was a legatus of the Roman Empire in Africa in the time of Nero. He revolted in May 68, cutting off the food supply of Rome, possibly at the instigation of Calvia Crispinilla. He produced denarii which are extremely rare today. Only about 85 are known to exist, of which only 20 bear his portrait.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lucius_Clodius_Macer"/>
+        <skos:prefLabel xml:lang="de">Clodius Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Clodius Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Clodius Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Клавдий Мацер</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Clodius Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Clodius Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Κλώδιος Μάκρος</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Клодий Мацер</skos:prefLabel>
+      
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q550616"/>
+        <skos:prefLabel xml:lang="pt">Clódio Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Lucjusz Klodiusz Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Lucio Clodio Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Clodi Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Луцій Клодій Макр</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Lucije Klodije Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Lucije Klodije Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Lucius Clodius Macer</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/25408052"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119226510"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01tfn8"/>
+        <skos:prefLabel xml:lang="hu">Lucio Clodio Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Clodius Macer</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Clodius Macer</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/clodius_macer#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4821"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/clodius_macer#membership_1d629a7a996e7f2c21d369d9492b5a46"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/clodius_macer#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/clodius_macer"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/clodius_macer"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/clodius_macer#membership_1d629a7a996e7f2c21d369d9492b5a46">
+        <foaf:topic rdf:resource="http://nomisma.org/id/clodius_macer"/>
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0068</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0068</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

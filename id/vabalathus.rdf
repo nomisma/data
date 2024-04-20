@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,69 +18,91 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/vabalathus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Vabalathus</skos:prefLabel>
-      <skos:definition xml:lang="en">The Roman emperor Vabalathus. Son of Septimius Odaenathus and Zenobia.</skos:definition>
-      <skos:prefLabel xml:lang="de">Vaballathus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Waballat</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Vabalato</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Vaballato</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ウァバッラトゥス</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Wahballat</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Vabalathus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Vabalato</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Вабаллат</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Vaballathus"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/vabalathus#roman_emperor"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/100187"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q507623"/>
-      <skos:prefLabel xml:lang="fi">Vaballathus</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Луций Вабалат Атенодор</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Vabalat</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Vabalat</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Vaballathus</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Lucius Iulius Septimius Vaballatus Aphenodorus</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Vabalato</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Vabalat</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/06trz3"/>
-      <skos:prefLabel xml:lang="id">Vabalathus</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Vabalathus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Vabalathus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Vabalathus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/vabalathus#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2174"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/vabalathus#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0271</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0272</nmo:hasEndDate>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Vabalathus</skos:prefLabel>
+        <skos:definition xml:lang="en">The Roman emperor Vabalathus. Son of Septimius Odaenathus and Zenobia.</skos:definition>
+        <skos:prefLabel xml:lang="de">Vaballathus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Waballat</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Vabalato</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Vaballato</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ウァバッラトゥス</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Wahballat</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Vabalathus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Vabalato</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Вабаллат</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Vaballathus"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/100187"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q507623"/>
+        <skos:prefLabel xml:lang="fi">Vaballathus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Луций Вабалат Атенодор</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Vabalat</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Vabalat</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Vaballathus</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Lucius Iulius Septimius Vaballatus Aphenodorus</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Vabalato</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Vabalat</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/06trz3"/>
+        <skos:prefLabel xml:lang="id">Vabalathus</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Vabalathus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Vabalathus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Vabalathus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/vabalathus#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2174"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/vabalathus#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/vabalathus#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/odaenathus_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/vabalathus#membership_12b492d362815ba56582858b481e80a0"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/vabalathus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/vabalathus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-06T14:18:28+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/vabalathus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-06T14:18:28+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/vabalathus#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0259</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/vabalathus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0274</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/vabalathus#membership_12b492d362815ba56582858b481e80a0">
+        <foaf:topic rdf:resource="http://nomisma.org/id/vabalathus"/>
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/palmyrene_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0270</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0272</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,56 +18,74 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/theodora">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Theodora</skos:prefLabel>
-      <skos:definition xml:lang="en">The second wife of the Roman emperor Constantius I Chlorus.</skos:definition>
-      <skos:prefLabel xml:lang="de">Flavia Maximiana Theodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Flavia Massimiana Teodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Teodora (cesarzowa rzymska)</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">弗拉维娅·马克西米安娜·狄奥多拉</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Théodora (femme de Constance Chlore)</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Flavia Maximiana Teodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Флавия Максимиана Феодора</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">フラウィア・マクシミアナ・テオドラ</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Flavia Maximiana Theodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Flávia Maximiana Teodora</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Flavia_Maximiana_Theodora"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q232094"/>
-      <skos:prefLabel xml:lang="tr">Flavia Maximiana Theodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Flavia Maximiana Theodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Flavia Maximiana Theodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Flavia Maximiana Theodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">فلاویا ماکسیمیانا تئودورا</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Флавия Максимиана Теодора</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Flavija Maksimijana Teodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Flavia Maximiana Theodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Флавія Максиміана Теодора</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Φλαβία Μαξιμιανή Θεοδώρα</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Flavia Maximiana Theodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Flàvia Maximiana Teodora</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02h1g5"/>
-      <skos:prefLabel xml:lang="id">Flavia Maximiana Teodora</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Theodora</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/theodora#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/5150"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Theodora</skos:prefLabel>
+        <skos:definition xml:lang="en">The second wife of the Roman emperor Constantius I Chlorus.</skos:definition>
+        <skos:prefLabel xml:lang="de">Flavia Maximiana Theodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Flavia Massimiana Teodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Teodora (cesarzowa rzymska)</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">弗拉维娅·马克西米安娜·狄奥多拉</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Théodora (femme de Constance Chlore)</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Flavia Maximiana Teodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Флавия Максимиана Феодора</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">フラウィア・マクシミアナ・テオドラ</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Flavia Maximiana Theodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Flávia Maximiana Teodora</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Flavia_Maximiana_Theodora"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q232094"/>
+        <skos:prefLabel xml:lang="tr">Flavia Maximiana Theodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Flavia Maximiana Theodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Flavia Maximiana Theodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Flavia Maximiana Theodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">فلاویا ماکسیمیانا تئودورا</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Флавия Максимиана Теодора</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Flavija Maksimijana Teodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Flavia Maximiana Theodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Флавія Максиміана Теодора</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Φλαβία Μαξιμιανή Θεοδώρα</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Flavia Maximiana Theodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Flàvia Maximiana Teodora</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02h1g5"/>
+        <skos:prefLabel xml:lang="id">Flavia Maximiana Teodora</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Theodora</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/theodora#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/5150"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/theodora#birth"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/theodora#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/theodora#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/theodora"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/theodora"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/theodora#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0275</dcterms:date>
+    </bio:Birth>
+    <org:Membership rdf:about="http://nomisma.org/id/theodora#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/theodora"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

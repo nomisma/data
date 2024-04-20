@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,65 +18,88 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/fausta">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Fausta</skos:prefLabel>
-      <skos:definition xml:lang="en">The wife of the Roman emperor Constantine I.</skos:definition>
-      <skos:prefLabel xml:lang="de">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Flavia Maxima Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Флавия Максима Фауста</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Fausta (cesarzowa)</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Fausta (imperatrice)</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Fausta</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/169686242"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Fausta"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/133185"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q231063"/>
-      <skos:prefLabel xml:lang="tr">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Fausta Flavia Maxima</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Флавія Максима Фауста</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Fausta Flavia Maxima</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Φαύστα</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Фауста</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Фауста</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Flàvia Maximiana Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Флавія Максіма Фауста</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Fausta</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">파우스타</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Faŭsta</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ファウスタ・フラウィア・マクシマ</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/143870947"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02h1jd"/>
-      <skos:prefLabel xml:lang="id">Fausta</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/fausta#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4508"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Fausta</skos:prefLabel>
+        <skos:definition xml:lang="en">The wife of the Roman emperor Constantine I.</skos:definition>
+        <skos:prefLabel xml:lang="de">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Flavia Maxima Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Флавия Максима Фауста</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Fausta (cesarzowa)</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Fausta (imperatrice)</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Fausta</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/169686242"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Fausta"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/133185"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q231063"/>
+        <skos:prefLabel xml:lang="tr">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Fausta Flavia Maxima</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Флавія Максима Фауста</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Fausta Flavia Maxima</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Φαύστα</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Фауста</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Фауста</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Flàvia Maximiana Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Флавія Максіма Фауста</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Fausta</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">파우스타</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Faŭsta</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ファウスタ・フラウィア・マクシマ</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/143870947"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02h1jd"/>
+        <skos:prefLabel xml:lang="id">Fausta</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/fausta#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4508"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/fausta#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/fausta#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/constantinian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/fausta#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/fausta#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/fausta"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/fausta"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/fausta#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0289</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/fausta#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0326</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/fausta#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/fausta"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

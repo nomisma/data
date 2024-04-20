@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,60 +18,78 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/dalmatius">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Dalmatius</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Dalmatius (caesar)</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Dalmacio César</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Flavio Dalmazio (cesare)</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Dalmatius</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Flavius Dalmatius (César)</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Dalmacjusz</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Далмаций Младший</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Dalmácio (césar)</skos:prefLabel>
-      <skos:definition xml:lang="en">The Roman emperor Dalmatius.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Dalmatius"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/dalmatius#roman_emperor"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q354415"/>
-      <skos:prefLabel xml:lang="ro">Dalmatius</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Dalmaci Cèsar</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Flavius Dalmatius</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Dalmatius</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Далмаций</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Δαλμάτιος</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">دالماتیوس</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Dalmacije</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Dalmacije</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Dalmatius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Далмацій Молодший</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0d6l8z"/>
-      <skos:prefLabel xml:lang="id">Dalmatius</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Dalmatius</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Dalmatius</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/dalmatius#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4539"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/dalmatius#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0335</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0337</nmo:hasEndDate>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Dalmatius</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Dalmatius (caesar)</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Dalmacio César</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Flavio Dalmazio (cesare)</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Dalmatius</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Flavius Dalmatius (César)</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Dalmacjusz</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Далмаций Младший</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Dalmácio (césar)</skos:prefLabel>
+        <skos:definition xml:lang="en">Flavius Julius Dalmatius Caesar was a Caesar (335–337) of the Roman Empire, and member of the Constantinian dynasty, and brother to Hannibalianus.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Dalmatius"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q354415"/>
+        <skos:prefLabel xml:lang="ro">Dalmatius</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Dalmaci Cèsar</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Flavius Dalmatius</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Dalmatius</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Далмаций</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Δαλμάτιος</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">دالماتیوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Dalmacije</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Dalmacije</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Dalmatius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Далмацій Молодший</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0d6l8z"/>
+        <skos:prefLabel xml:lang="id">Dalmatius</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Dalmatius</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Dalmatius</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/dalmatius#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4539"/>
+        <bio:death rdf:resource="http://nomisma.org/id/dalmatius#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/constantinian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/dalmatius#membership_44e80c77e8f3b0cf24b13e03643ee6a0"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/dalmatius#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/dalmatius"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/dalmatius"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Death rdf:about="http://nomisma.org/id/dalmatius#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0337</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/dalmatius#membership_44e80c77e8f3b0cf24b13e03643ee6a0">
+        <foaf:topic rdf:resource="http://nomisma.org/id/dalmatius"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0335</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0337</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

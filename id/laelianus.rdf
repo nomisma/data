@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,68 +18,89 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/laelianus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Лелиан</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Leliano</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Lélien (usurpateur)</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Ulpio Cornelio Leliano</skos:prefLabel>
-      <skos:definition xml:lang="en">Ulpius Cornelius Laelianus was a usurper against the Gallic Emperor Postumus.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Laelianus"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/1484100"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/93853"/>
-      <skos:altLabel xml:lang="de">Laelian</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q326560"/>
-      <skos:prefLabel xml:lang="sk">Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Lelià</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Ulpius Cornelius Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Ulpius Cornelius Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Leliano</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Лелиан</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Lelijan</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Lelijan</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Леліян</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Leliano</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01mz7g"/>
-      <skos:prefLabel xml:lang="da">Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Laelianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Laelianus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/laelianus#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1059"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Лелиан</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Leliano</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Lélien (usurpateur)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ulpio Cornelio Leliano</skos:prefLabel>
+        <skos:definition xml:lang="en">Ulpius Cornelius Laelianus was a usurper against the Gallic Emperor Postumus.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Laelianus"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/1484100"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/93853"/>
+        <skos:altLabel xml:lang="de">Laelian</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q326560"/>
+        <skos:prefLabel xml:lang="sk">Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Lelià</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Ulpius Cornelius Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Ulpius Cornelius Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Leliano</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Лелиан</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Lelijan</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Lelijan</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Леліян</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Leliano</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01mz7g"/>
+        <skos:prefLabel xml:lang="da">Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Laelianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Laelianus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/laelianus#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1059"/>
+        <bio:death rdf:resource="http://nomisma.org/id/laelianus#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/laelianus#membership_b5c5dc823e1882f2a3f64ca1221a4d02"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/laelianus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/laelianus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-27T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/laelianus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-27T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Death rdf:about="http://nomisma.org/id/laelianus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0269</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/laelianus#membership_b5c5dc823e1882f2a3f64ca1221a4d02">
+        <foaf:topic rdf:resource="http://nomisma.org/id/laelianus"/>
+        <org:role rdf:resource="http://nomisma.org/id/pretender"/>
+        <org:organization rdf:resource="http://nomisma.org/id/gallic_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0269</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0269</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,55 +18,77 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/lucius_vitellius_pater">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Lucius Vitellius Pater</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Lucius Vitellius</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ルキウス・ウィテッリウス</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Lucio Vitelio</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Lucius Vitellius (Vater)</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Lúcio Vitélio</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Lucius Vitellius</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Луций Вителлий (консул 34 года)</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Lucio Vitellio il Vecchio</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Lucius Vitellius (gouverneur van Syria)</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Lucjusz Witeliusz (ojciec)</skos:prefLabel>
-      <skos:definition xml:lang="en">Lucius Vitellius the Elder (before 5 BC - 51) was the youngest son of quaestor Publius Vitellius, and the father of Aulus Vitellius Germanicus (Emperor in 69).</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lucius_Vitellius_the_Elder"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:altLabel xml:lang="la">Lucius Vitellius</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q351491"/>
-      <skos:prefLabel xml:lang="eu">Luzio Vitelio</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Lucius Vitellius</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Lucius Vitellius</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Луцій Вітеллій</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Lucius Vitellius</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Луций Вителий</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Lucije Vitelije Stariji</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Luci Vitel·li (cònsol any 34)</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Lucius Vitellius</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/05m8zg"/>
-      <skos:prefLabel xml:lang="he">לוקיוס ויטליוס האב</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Lucius Vitellius Pater</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Lucius Vitellius Pater</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/lucius_vitellius_pater#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2121"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Lucius Vitellius Pater</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Lucius Vitellius</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ルキウス・ウィテッリウス</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Lucio Vitelio</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Lucius Vitellius (Vater)</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Lúcio Vitélio</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Lucius Vitellius</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Луций Вителлий (консул 34 года)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Lucio Vitellio il Vecchio</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Lucius Vitellius (gouverneur van Syria)</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Lucjusz Witeliusz (ojciec)</skos:prefLabel>
+        <skos:definition xml:lang="en">Lucius Vitellius the Elder (before 5 BC - 51) was the youngest son of quaestor Publius Vitellius, and the father of Aulus Vitellius Germanicus (Emperor in 69).</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lucius_Vitellius_the_Elder"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:altLabel xml:lang="la">Lucius Vitellius</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q351491"/>
+        <skos:prefLabel xml:lang="eu">Luzio Vitelio</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Lucius Vitellius</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Lucius Vitellius</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Луцій Вітеллій</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Lucius Vitellius</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Луций Вителий</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Lucije Vitelije Stariji</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Luci Vitel·li (cònsol any 34)</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Lucius Vitellius</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/05m8zg"/>
+        <skos:prefLabel xml:lang="he">לוקיוס ויטליוס האב</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Lucius Vitellius Pater</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Lucius Vitellius Pater</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/lucius_vitellius_pater#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2121"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/lucius_vitellius_pater#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/lucius_vitellius_pater#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/lucius_vitellius_pater#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lucius_vitellius_pater#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/lucius_vitellius_pater"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-13T04:00:01+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/lucius_vitellius_pater"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-13T04:00:01+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/lucius_vitellius_pater#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0005</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/lucius_vitellius_pater#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0051</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/lucius_vitellius_pater#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/lucius_vitellius_pater"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

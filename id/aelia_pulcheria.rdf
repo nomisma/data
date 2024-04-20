@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,72 +18,95 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/aelia_pulcheria">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Aelia Pulcheria</skos:prefLabel>
-      <skos:definition xml:lang="en">Daughter of the Roman emperor Arcadius.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pulcheria"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/59880313"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q231919"/>
-      <skos:prefLabel xml:lang="eu">Pulkeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Pulchérie</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">풀케리아</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">פולכריה</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Pulqueria</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Pulkheria keletrómai császárné</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Elia Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Aelia Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Pulherija</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">بلخريا</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Aelia Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Aélia Pulquéria</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Пульхерия</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Pulquèria</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Пульхерія</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Aelia Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Aelia Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Елия Пулхерия</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">პულხერია</skos:prefLabel>
-      <skos:prefLabel xml:lang="az">Pulçeriya</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Πουλχερία</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">普爾喀麗亞</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Пулхерија</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Aelia Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Елија Пулхерија</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Aelia Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Aelia Pulcheria</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Պուլչերիա</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://isni.org/0000000055392911"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118793675"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01rtz7"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/086082965"/>
-      <skos:prefLabel xml:lang="be">Пульхерыя</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/aelia_pulcheria#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4872"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Aelia Pulcheria</skos:prefLabel>
+        <skos:definition xml:lang="en">Daughter of the Roman emperor Arcadius.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Pulcheria"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/59880313"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q231919"/>
+        <skos:prefLabel xml:lang="eu">Pulkeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Pulchérie</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">풀케리아</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">פולכריה</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pulqueria</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Pulkheria keletrómai császárné</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Elia Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Aelia Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Pulherija</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">بلخريا</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Aelia Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Aélia Pulquéria</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Пульхерия</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Pulquèria</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Пульхерія</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Aelia Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Aelia Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Елия Пулхерия</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">პულხერია</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Pulçeriya</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Πουλχερία</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">普爾喀麗亞</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Пулхерија</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Aelia Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Елија Пулхерија</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Aelia Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Aelia Pulcheria</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Պուլչերիա</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000055392911"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118793675"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01rtz7"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/086082965"/>
+        <skos:prefLabel xml:lang="be">Пульхерыя</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/aelia_pulcheria#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4872"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/aelia_pulcheria#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/aelia_pulcheria#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/theodosian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/aelia_pulcheria#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/aelia_pulcheria#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/aelia_pulcheria"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-22T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/aelia_pulcheria"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-22T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/aelia_pulcheria#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0399-01-19</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/aelia_pulcheria#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">0453-07</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/aelia_pulcheria#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/aelia_pulcheria"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

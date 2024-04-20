@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,56 +18,74 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/caecilia_paulina">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Caecilla Paulina</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Caecilia Paulina</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Caecilia Paulina</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Цецилия Паулина</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Cecilia Paulina</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Cecilia Paolina</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Caecilia Paulina</skos:prefLabel>
-      <skos:definition xml:lang="en">Wife of the Emperor Maximinus Thrax.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Caecilia_Paulina"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:prefLabel xml:lang="la">Caecilia Paulina</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Сецилия Паулина</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Caecilia Paulina</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Цецилія Пауліна</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Cecília Paulina</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Caecilia Paulina</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03d9dmq"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3372698"/>
-      <skos:prefLabel xml:lang="ca">Paulina (emperadriu)</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Caecilla Paulina</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Caecilla Paulina</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Caecilla Paulina</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/caecilia_paulina#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3340"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Caecilla Paulina</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Caecilia Paulina</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Caecilia Paulina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Цецилия Паулина</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cecilia Paulina</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Cecilia Paolina</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Caecilia Paulina</skos:prefLabel>
+        <skos:definition xml:lang="en">Wife of the Emperor Maximinus Thrax.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Caecilia_Paulina"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:prefLabel xml:lang="la">Caecilia Paulina</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Сецилия Паулина</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Caecilia Paulina</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Цецилія Пауліна</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Cecília Paulina</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Caecilia Paulina</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03d9dmq"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3372698"/>
+        <skos:prefLabel xml:lang="ca">Paulina (emperadriu)</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Caecilla Paulina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Caecilla Paulina</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Caecilla Paulina</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/caecilia_paulina#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3340"/>
+        <bio:death rdf:resource="http://nomisma.org/id/caecilia_paulina#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/caecilia_paulina#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/caecilia_paulina#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/caecilia_paulina"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-21T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-29T13:20:30.097-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/caecilia_paulina"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-21T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-29T13:20:30.097-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Death rdf:about="http://nomisma.org/id/caecilia_paulina#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0236</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/caecilia_paulina#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/caecilia_paulina"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

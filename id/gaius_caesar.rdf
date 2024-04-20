@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,69 +18,92 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/gaius_caesar">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Gaius Caesar</skos:prefLabel>
-      <skos:definition xml:lang="en">Gaius Julius Caesar (20 BC – 21 February AD 4), most commonly known as Gaius Caesar or Caius Caesar, was the oldest son of Marcus Vipsanius Agrippa and Julia the Elder.</skos:definition>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/58081943/"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Vipsanius_Agrippa"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:prefLabel xml:lang="de">Caius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Caius Vipsanius Agrippa</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q298162"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Caesar"/>
-      <skos:prefLabel xml:lang="pl">Gajusz Juliusz Cezar</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Gaio Zesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">가이우스 카이사르</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Caius Julius Caesar Vipsanianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">גאיוס קיסר</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Cayo César</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Caius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">Gajs Cēzars</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Gaio Cesare</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Gaius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ガイウス・カエサル</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Γάιος Καίσαρας</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Gaj Cezar</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Gaius Vipsanius Agrippa</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Caio César</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Гай Юлий Цезарь Випсаниан</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Gaius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Gai Agripa</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Gaius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Гай Юлій Цезар Віпсаніан</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Gaius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Гай Цезар</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Gaius Cæsar</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Gaius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Caius Caesar</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/58081943"/>
-      <skos:exactMatch rdf:resource="http://isni.org/000000006299390X"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/018wsf"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/028507819"/>
-      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120330076"/>
-      <skos:prefLabel xml:lang="ka">გაიუს კეისარი</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Гај Цезар</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Gaius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Gaius Caesar</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/gaius_caesar#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2794"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Gaius Caesar</skos:prefLabel>
+        <skos:definition xml:lang="en">Gaius Julius Caesar (20 BC – 21 February AD 4), most commonly known as Gaius Caesar or Caius Caesar, was the oldest son of Marcus Vipsanius Agrippa and Julia the Elder.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/58081943/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Vipsanius_Agrippa"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:prefLabel xml:lang="de">Caius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Caius Vipsanius Agrippa</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q298162"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Caesar"/>
+        <skos:prefLabel xml:lang="pl">Gajusz Juliusz Cezar</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Gaio Zesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">가이우스 카이사르</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Caius Julius Caesar Vipsanianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">גאיוס קיסר</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cayo César</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Caius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Gajs Cēzars</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gaio Cesare</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Gaius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ガイウス・カエサル</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Γάιος Καίσαρας</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Gaj Cezar</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Gaius Vipsanius Agrippa</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Caio César</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Гай Юлий Цезарь Випсаниан</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Gaius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Gai Agripa</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Gaius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Гай Юлій Цезар Віпсаніан</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Gaius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Гай Цезар</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Gaius Cæsar</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Gaius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Caius Caesar</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/58081943"/>
+        <skos:exactMatch rdf:resource="http://isni.org/000000006299390X"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/018wsf"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/028507819"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120330076"/>
+        <skos:prefLabel xml:lang="ka">გაიუს კეისარი</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Гај Цезар</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Gaius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Gaius Caesar</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/gaius_caesar#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2794"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/gaius_caesar#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/gaius_caesar#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/julio-claudian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/gaius_caesar#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/gaius_caesar#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/gaius_caesar"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-12T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/gaius_caesar"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-12T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/gaius_caesar#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0020</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/gaius_caesar#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0004-02-21</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/gaius_caesar#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/gaius_caesar"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

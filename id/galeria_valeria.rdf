@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,60 +18,74 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/galeria_valeria">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Galeria Valeria</skos:prefLabel>
-      <skos:definition xml:lang="en">Daughter of Diocletian and wife of Galerius</skos:definition>
-      <bio:death rdf:resource="http://nomisma.org/id/galeria_valeria#death"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q234562"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Galeria_Valeria"/>
-      <skos:prefLabel xml:lang="pt">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Galeria Waleria</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Галерия Валерия</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">گالریا والریا</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Галерия Валерия</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Галерія Валерія</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Γαλερία Βαλέρια</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0bqzbx"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/89764890"/>
-      <skos:prefLabel xml:lang="ja">ガレリア・ウァレリア</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Galeria Valeria</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Galeria Valeria</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/galeria_valeria#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4146"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Galeria Valeria</skos:prefLabel>
+        <skos:definition xml:lang="en">Daughter of Diocletian and wife of Galerius</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/galeria_valeria#death"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q234562"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Galeria_Valeria"/>
+        <skos:prefLabel xml:lang="pt">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Galeria Waleria</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Галерия Валерия</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">گالریا والریا</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Галерия Валерия</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Галерія Валерія</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Γαλερία Βαλέρια</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0bqzbx"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/89764890"/>
+        <skos:prefLabel xml:lang="ja">ガレリア・ウァレリア</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Galeria Valeria</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Galeria Valeria</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/galeria_valeria#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4146"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/galeria_valeria#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <bio:Death rdf:about="http://nomisma.org/id/galeria_valeria#death">
-      <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0315</dcterms:date>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0315</dcterms:date>
    </bio:Death>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/galeria_valeria#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/galeria_valeria"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-02T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/galeria_valeria"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-02T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/galeria_valeria#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/galeria_valeria"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

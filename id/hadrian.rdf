@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,116 +18,140 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/hadrian">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Hadrian</skos:prefLabel>
-      <skos:definition xml:lang="en">Roman Emperor from 10 August 117 to 10 July 138.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hadrian"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/82440741"/>
-      <skos:prefLabel xml:lang="de">Hadrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Hadrien</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Hadrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Адриан</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Adriano</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Αδριανός</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">哈德良</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Адріан (римський імператор)</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Adrià</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Хадриан</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/hadrian#roman_emperor"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1427"/>
-      <skos:prefLabel xml:lang="an">Hadrián</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">هادريان</skos:prefLabel>
-      <skos:prefLabel xml:lang="az">Adrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Адрыян</skos:prefLabel>
-      <skos:prefLabel xml:lang="bs">Hadrijan</skos:prefLabel>
-      <skos:prefLabel xml:lang="cy">Hadrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Hadrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Hadriano</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Adriano</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Hadriano</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">پوبلیوس آئلیوس ترایانوس هادریانوس</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fy">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Hadriano</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">אדריאנוס</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Hadrijan</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Hadrianus római császár</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Հադրիանոս</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="is">Hadríanus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ハドリアヌス</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">ადრიანე</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">하드리아누스</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Publijus Elijus Trajanas Adrianas</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">Adriāns</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Адријан</skos:prefLabel>
-      <skos:prefLabel xml:lang="mr">हेड्रियान</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Hadrian av Romarriket</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Hadrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Adriano</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Hadrijan</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Hadrián</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Hadrijan</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Хадријан</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="sw">Kaizari Hadrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="th">จักรพรรดิเฮเดรียน</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Hadrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="yo">Hadrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="ml">ഹാഡ്രിയൻ</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Adrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="bn">হাদ্রিয়ান</skos:prefLabel>
-      <skos:prefLabel xml:lang="uz">Adrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Hadrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Hadrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="af">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="sq">Adriani</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://isni.org/0000000108449425"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118544373"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/027527530"/>
-      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11954875z"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03jxc"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500022200"/>
-      <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/129"/>
-      <skos:prefLabel xml:lang="ne">हाड्रियन</skos:prefLabel>
-      <skos:prefLabel xml:lang="kk">Адриан</skos:prefLabel>
-      <skos:prefLabel xml:lang="kg">Hadrianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="lb">Hadrian</skos:prefLabel>
-      <skos:prefLabel xml:lang="am">ሄድሪየን</skos:prefLabel>
-      <skos:prefLabel xml:lang="hi">हेद्रिअन</skos:prefLabel>
-      <skos:prefLabel xml:lang="mg">Hadrien</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/hadrian#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/751"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/hadrian#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Hadrian</skos:prefLabel>
+        <skos:definition xml:lang="en">Roman Emperor from 10 August 117 to 10 July 138.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hadrian"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/82440741"/>
+        <skos:prefLabel xml:lang="de">Hadrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hadrien</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Hadrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Адриан</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Adriano</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αδριανός</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">哈德良</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Адріан (римський імператор)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Adrià</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Хадриан</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1427"/>
+        <skos:prefLabel xml:lang="an">Hadrián</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">هادريان</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Adrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Адрыян</skos:prefLabel>
+        <skos:prefLabel xml:lang="bs">Hadrijan</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Hadrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Hadrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Hadriano</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Adriano</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Hadriano</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">پوبلیوس آئلیوس ترایانوس هادریانوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fy">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Hadriano</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">אדריאנוס</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Hadrijan</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Hadrianus római császár</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Հադրիանոս</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Hadríanus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ハドリアヌス</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">ადრიანე</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">하드리아누스</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Publijus Elijus Trajanas Adrianas</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Adriāns</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Адријан</skos:prefLabel>
+        <skos:prefLabel xml:lang="mr">हेड्रियान</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Hadrian av Romarriket</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Hadrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Adriano</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Hadrijan</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Hadrián</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Hadrijan</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Хадријан</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sw">Kaizari Hadrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">จักรพรรดิเฮเดรียน</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Hadrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="yo">Hadrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="ml">ഹാഡ്രിയൻ</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Adrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="bn">হাদ্রিয়ান</skos:prefLabel>
+        <skos:prefLabel xml:lang="uz">Adrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Hadrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Hadrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Adriani</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000108449425"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118544373"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/027527530"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11954875z"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03jxc"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500022200"/>
+        <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/129"/>
+        <skos:prefLabel xml:lang="ne">हाड्रियन</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Адриан</skos:prefLabel>
+        <skos:prefLabel xml:lang="kg">Hadrianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Hadrian</skos:prefLabel>
+        <skos:prefLabel xml:lang="am">ሄድሪየን</skos:prefLabel>
+        <skos:prefLabel xml:lang="hi">हेद्रिअन</skos:prefLabel>
+        <skos:prefLabel xml:lang="mg">Hadrien</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/hadrian#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/751"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/hadrian#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/hadrian#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/nerva-antonine_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/hadrian#membership_bc23fc8efd71590b7c854e62574ad0af"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hadrian#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/hadrian"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/hadrian"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/hadrian#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0076-01-24</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/hadrian#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0138-07-10</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/hadrian#membership_bc23fc8efd71590b7c854e62574ad0af">
+        <foaf:topic rdf:resource="http://nomisma.org/id/hadrian"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0117</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0138</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

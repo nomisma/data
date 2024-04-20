@@ -31,9 +31,9 @@
         <skos:prefLabel xml:lang="it">Costantino I</skos:prefLabel>
         <skos:prefLabel xml:lang="ru">Константин I Великий</skos:prefLabel>
         <skos:prefLabel xml:lang="es">Constantino I</skos:prefLabel>
-        <skos:definition xml:lang="en">Constantine the Great (Latin: Flavius Valerius Aurelius Constantinus Augustus, 27 February c. 272 – 22 May 337), also known as Constantine I (venerated as Saint Constantine by the Eastern Orthodox and Oriental churches), was Roman Emperor from 306 to 337.</skos:definition>
+        <skos:definition xml:lang="en">Constantine the Great (Latin: Flavius Valerius Aurelius Constantinus Augustus; 27 February c. 272 – 22 May 337), also known as Constantine I or Saint Constantine, was Roman Emperor from 306 to 337.</skos:definition>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Constantine_the_Great"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/constantine_i#roman_emperor"/>
+        
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q8413"/>
         <skos:prefLabel xml:lang="ka">კონსტანტინე I დიდი</skos:prefLabel>
         <skos:prefLabel xml:lang="af">Konstantyn die Grote</skos:prefLabel>
@@ -121,13 +121,15 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/constantine_i#provenance"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/482"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/constantine_i#membership_9225b6fc6a5e0f04b14a0ec059e7abc9"/>
         
-        <org:hasMembership rdf:resource="http://nomisma.org/id/constantine_i#membership_2e2173a1216122d8c42a4263db78f151"/>
+        
+        
+        <bio:birth rdf:resource="http://nomisma.org/id/constantine_i#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/constantine_i#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/constantinian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/constantine_i#membership_0fa86b8de50947da7f57da6f0fd2d1ff"/>
     </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/constantine_i#roman_emperor">
-        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-   </org:Membership>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/constantine_i#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/constantine_i"/>
         <prov:wasGeneratedBy>
@@ -176,12 +178,30 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://nomisma.org/id/constantine_i#membership_9225b6fc6a5e0f04b14a0ec059e7abc9">
-        <org:role rdf:resource="http://nomisma.org/id/portrait"/>
-    </org:Membership>
     
-    <org:Membership rdf:about="http://nomisma.org/id/constantine_i#membership_2e2173a1216122d8c42a4263db78f151">
-        <org:role rdf:resource="http://nomisma.org/id/saint"/>
+    
+    
+    <bio:Birth rdf:about="http://nomisma.org/id/constantine_i#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0272-02-27</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/constantine_i#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0337-05-22</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/constantine_i#membership_0fa86b8de50947da7f57da6f0fd2d1ff">
+        <foaf:topic rdf:resource="http://nomisma.org/id/constantine_i"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0306</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0337</nmo:hasEndDate>
     </org:Membership>
 </rdf:RDF>

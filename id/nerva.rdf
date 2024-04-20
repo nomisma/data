@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,48 +18,72 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/nerva">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Nerva</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nerva"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/69725573"/>
-      <skos:prefLabel xml:lang="de">Nerva</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Nerva</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Nerva</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Нерва</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Nerva</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Nerva</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Νέρβας</skos:prefLabel>
-      <skos:altLabel xml:lang="bg">Нерва</skos:altLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/nerva#roman_emperor"/>
-      <skos:definition xml:lang="en">Nerva was Roman Emperor from 96 to 98. Nerva became Emperor at the age of sixty-five, after a lifetime of imperial service under Nero and the rulers of the Flavian dynasty.</skos:definition>
-      <skos:prefLabel xml:lang="da">Nerva</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Nerva</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/nerva#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1218"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/nerva#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Nerva</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nerva"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/69725573"/>
+        <skos:prefLabel xml:lang="de">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Нерва</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Νέρβας</skos:prefLabel>
+        <skos:altLabel xml:lang="bg">Нерва</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      
+        <skos:definition xml:lang="en">Nerva was Roman Emperor from 96 to 98. Nerva became Emperor at the age of sixty-five, after a lifetime of imperial service under Nero and the rulers of the Flavian dynasty.</skos:definition>
+        <skos:prefLabel xml:lang="da">Nerva</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Nerva</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/nerva#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1218"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/nerva#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/nerva#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/nerva-antonine_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/nerva#membership_e4aaeae551e288bae86b0f8a77e5af7f"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/nerva#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/nerva"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/nerva"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/nerva#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0030-11-08</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/nerva#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0098-01-27</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/nerva#membership_e4aaeae551e288bae86b0f8a77e5af7f">
+        <foaf:topic rdf:resource="http://nomisma.org/id/nerva"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0096</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0098</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

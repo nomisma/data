@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,49 +18,72 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/vitellius">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Vitellius</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Vitellius"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/16012563"/>
-      <skos:prefLabel xml:lang="de">Vitellius</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Vitellius</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Vitellius</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Вителлий</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Vitellius</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Vitellio</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Βιτέλλιος</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Вителий</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/vitellius#roman_emperor"/>
-      <skos:definition xml:lang="en">Vitellius (Latin: Aulus Vitellius Germanicus Augustus; 24 September AD 15 – 22 December AD 69) was Roman Emperor for eight months, from 16 April to 22 December AD 69. Vitellius was proclaimed emperor following the quick succession of the previous emperors Galba and Otho, in a year of civil war known as the Year of the Four Emperors.</skos:definition>
-      <skos:prefLabel xml:lang="da">Vitellius</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Vitellius</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/vitellius#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1490"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/vitellius#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Vitellius</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Vitellius"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/16012563"/>
+        <skos:prefLabel xml:lang="de">Vitellius</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Vitellius</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Vitellius</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Вителлий</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Vitellius</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Vitellio</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Βιτέλλιος</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Вителий</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      
+        <skos:definition xml:lang="en">Vitellius (Latin: Aulus Vitellius Germanicus Augustus; 24 September AD 15 – 22 December AD 69) was Roman Emperor for eight months, from 16 April to 22 December AD 69. Vitellius was proclaimed emperor following the quick succession of the previous emperors Galba and Otho, in a year of civil war known as the Year of the Four Emperors.</skos:definition>
+        <skos:prefLabel xml:lang="da">Vitellius</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Vitellius</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/vitellius#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1490"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/vitellius#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/vitellius#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/vitellius#membership_8432c810699507aaf21ffc3bf87fd389"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/vitellius#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/vitellius"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/vitellius"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/vitellius#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0015-09-24</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/vitellius#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0069-12-22</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/vitellius#membership_8432c810699507aaf21ffc3bf87fd389">
+        <foaf:topic rdf:resource="http://nomisma.org/id/vitellius"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0069</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0069</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

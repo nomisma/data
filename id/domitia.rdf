@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,55 +18,78 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/domitia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Domitia</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Domitia Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Domizia Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Domitia Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ドミティア・ロンギナ</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Domitia Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Domicja Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Domitia Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Domicia Longina</skos:prefLabel>
-      <skos:definition xml:lang="en">Domitia Longina (c. AD 53-55–c. AD 126-130) was an Empress of Rome and wife to the Roman Emperor Domitian. She was the youngest daughter of the general and consul Gnaeus Domitius Corbulo. She became Empress of Rome upon Domitian's accession in 81, and remained so until his assassination in 96.</skos:definition>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/140326922/"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Domitia_Longina"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:altLabel xml:lang="la">Domitia Longina</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q239010"/>
-      <skos:prefLabel xml:lang="eu">Domitia Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Domitia Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Domícia Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Доміція Лонгіна</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Домиция Лонгина</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Domicija Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Domicija Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Domícia Longina</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Домитија Лонгина</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Domitia Longina</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01zwdy"/>
-      <skos:prefLabel xml:lang="be">Даміцыя Лангіна</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Domitia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Domitia</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/domitia#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3157"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Domitia</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Domitia Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Domizia Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Domitia Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ドミティア・ロンギナ</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Domitia Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Domicja Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Domitia Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Domicia Longina</skos:prefLabel>
+        <skos:definition xml:lang="en">Domitia Longina (c. AD 53-55–c. AD 126-130) was an Empress of Rome and wife to the Roman Emperor Domitian. She was the youngest daughter of the general and consul Gnaeus Domitius Corbulo. She became Empress of Rome upon Domitian's accession in 81, and remained so until his assassination in 96.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/140326922/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Domitia_Longina"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:altLabel xml:lang="la">Domitia Longina</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q239010"/>
+        <skos:prefLabel xml:lang="eu">Domitia Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Domitia Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Domícia Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Доміція Лонгіна</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Домиция Лонгина</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Domicija Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Domicija Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Domícia Longina</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Домитија Лонгина</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Domitia Longina</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01zwdy"/>
+        <skos:prefLabel xml:lang="be">Даміцыя Лангіна</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Domitia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Domitia</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/domitia#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3157"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/domitia#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/domitia#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/flavian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/domitia#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/domitia#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/domitia"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T04:00:01+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/domitia"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T04:00:01+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/domitia#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0053</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/domitia#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0130</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/domitia#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/domitia"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

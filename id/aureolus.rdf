@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,68 +18,87 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/aureolus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Aureolus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Aureol</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Aureolus</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Aureolus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Aureolo</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Aureolus (uzurpator rzymski)</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Aureolo</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Авреол</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Auréolus</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Manius Acilius Aureolus</skos:prefLabel>
-      <skos:definition xml:lang="en">Manius Acilius Aureolus (died 268) was a Roman military commander and would-be usurper.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aureolus"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/aureolus#issuer"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/74401"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q312910"/>
-      <skos:prefLabel xml:lang="sk">Aureolus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Aureolus</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Manlius Acilius Aureolus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Aureolus</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Manius Acilius Aureolus</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Aureolus</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Aureolus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">اورئولوس</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Авреол</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Aureol</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Aureol</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Ауреол</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">アウレオルス</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02nzc2"/>
-      <skos:prefLabel xml:lang="da">Aureolus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/aureolus#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/8742"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/aureolus#issuer">
-      <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Aureolus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Aureol</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Aureolus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Aureolus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Aureolo</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Aureolus (uzurpator rzymski)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Aureolo</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Авреол</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Auréolus</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Manius Acilius Aureolus</skos:prefLabel>
+        <skos:definition xml:lang="en">Manius Acilius Aureolus (died 268) was a Roman military commander and would-be usurper.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aureolus"/>
+      
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/74401"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q312910"/>
+        <skos:prefLabel xml:lang="sk">Aureolus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Aureolus</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Manlius Acilius Aureolus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Aureolus</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Manius Acilius Aureolus</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Aureolus</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Aureolus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">اورئولوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Авреол</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Aureol</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Aureol</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Ауреол</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アウレオルス</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02nzc2"/>
+        <skos:prefLabel xml:lang="da">Aureolus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/aureolus#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/8742"/>
+        <bio:death rdf:resource="http://nomisma.org/id/aureolus#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/aureolus#membership_4d8893d8ccb2d8601cf8a0a8a33325d8"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/aureolus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/aureolus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/aureolus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Death rdf:about="http://nomisma.org/id/aureolus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0268</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/aureolus#membership_4d8893d8ccb2d8601cf8a0a8a33325d8">
+        <foaf:topic rdf:resource="http://nomisma.org/id/aureolus"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+        <org:organization rdf:resource="http://nomisma.org/id/gallic_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0268</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0268</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

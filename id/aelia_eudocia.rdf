@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,68 +18,86 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/aelia_eudocia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">欧多西亚</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Eudocie</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Élia Eudócia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">アエリア・エウドキア</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Евдокия (супруга Феодосия II)</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Elia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Atena Eudokia</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Elia Eudocia</skos:prefLabel>
-      <skos:definition xml:lang="en">The wife of the Roman emperor Theodosius II.</skos:definition>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/105135748"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aelia_Eudocia"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/85975"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q229307"/>
-      <skos:prefLabel xml:lang="he">אייליה אאודוקיה</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">아일리아 에우도키아</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Eudòcia Augusta</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Елия Евдокия</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Ευδοκία</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Elija Eudokija</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Афінаїда</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Атенаида-Евдокија</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Aelia Eudocia</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Елија Евдокија</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Aelia Eudocia</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://isni.org/0000000108043783"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/100941028"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0n9h_"/>
-      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb135270921"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/050379380"/>
-      <skos:prefLabel xml:lang="ro">Aelia Eudocia</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/aelia_eudocia#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4178"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">欧多西亚</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Eudocie</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Élia Eudócia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アエリア・エウドキア</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Евдокия (супруга Феодосия II)</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Elia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Atena Eudokia</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Elia Eudocia</skos:prefLabel>
+        <skos:definition xml:lang="en">The wife of the Roman emperor Theodosius II.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/105135748"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aelia_Eudocia"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/85975"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q229307"/>
+        <skos:prefLabel xml:lang="he">אייליה אאודוקיה</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">아일리아 에우도키아</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Eudòcia Augusta</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Елия Евдокия</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ευδοκία</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Elija Eudokija</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Афінаїда</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Атенаида-Евдокија</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Aelia Eudocia</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Елија Евдокија</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Aelia Eudocia</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000108043783"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/100941028"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0n9h_"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb135270921"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/050379380"/>
+        <skos:prefLabel xml:lang="ro">Aelia Eudocia</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/aelia_eudocia#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4178"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/aelia_eudocia#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/aelia_eudocia#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/theodosian_dynasty"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/aelia_eudocia#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/aelia_eudocia"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-22T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/aelia_eudocia"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-22T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/aelia_eudocia#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0401</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/aelia_eudocia#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0460</dcterms:date>
+    </bio:Death>
 </rdf:RDF>

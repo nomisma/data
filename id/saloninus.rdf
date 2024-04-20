@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,70 +18,94 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/saloninus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">薩洛尼努斯</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Publi Licini Corneli Valerià Saloní</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Salonin</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Salonino</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Салонин</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Cornelio Salonino</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Salonino</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Salonin</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">プブリウス・リキニウス・コルネリウス・サロニヌス</skos:prefLabel>
-      <skos:definition xml:lang="en">Publius Licinius Cornelius Saloninus Valerianus (c. 242 – 260) was Roman Emperor in 259 or 260.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Saloninus"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/saloninus#roman_emperor"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q297494"/>
-      <skos:prefLabel xml:lang="yo">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Salonin</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">سالونینوس</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Салонин</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Salonin</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Salonin</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Салонин</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Σαλόνινος</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Saloninus római császár</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Публій Ліциній Корнелій Салонін Валеріан</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Saloninus</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0832zn"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/98046"/>
-      <skos:prefLabel xml:lang="id">Saloninus</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Салонін</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Saloninus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/saloninus#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4149"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/saloninus#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">薩洛尼努斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Publi Licini Corneli Valerià Saloní</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Salonin</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Salonino</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Салонин</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Cornelio Salonino</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Salonino</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Salonin</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">プブリウス・リキニウス・コルネリウス・サロニヌス</skos:prefLabel>
+        <skos:definition xml:lang="en">Publius Licinius Cornelius Saloninus Valerianus (c. 242 – 260) was Roman Emperor in 259 or 260. He was the son of Gallienus.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Saloninus"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q297494"/>
+        <skos:prefLabel xml:lang="yo">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Salonin</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">سالونینوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Салонин</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Salonin</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Salonin</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Салонин</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Σαλόνινος</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Saloninus római császár</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Публій Ліциній Корнелій Салонін Валеріан</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Saloninus</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0832zn"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/98046"/>
+        <skos:prefLabel xml:lang="id">Saloninus</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Салонін</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Saloninus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/saloninus#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4149"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/saloninus#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/saloninus#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/valerian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/saloninus#membership_d7a48634e9e31b4a4f497b1e88767bcf"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/saloninus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/saloninus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/saloninus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/saloninus#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0242</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/saloninus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0260</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/saloninus#membership_d7a48634e9e31b4a4f497b1e88767bcf">
+        <foaf:topic rdf:resource="http://nomisma.org/id/saloninus"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0260</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0260</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

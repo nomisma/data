@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,62 +18,87 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/philippus_ii">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Philip II</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">マルクス・ユリウス・セウェルス・ピリップス</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Marco Giulio Severo Filippo</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Филипп II Младший</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Filip II</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Philippe II</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Philippus Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Philippus II</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Marco Julio Severo Filipo</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Filip II</skos:prefLabel>
-      <skos:definition xml:lang="en">Marcus Julius Philippus Severus, also known as Philippus II, Philip II and Philip the Younger (238–249) was the son and heir of the Roman Emperor Philip the Arab by his wife Roman Empress Marcia Otacilia Severa.</skos:definition>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:altLabel xml:lang="en">Philippus II</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Philippus_II"/>
-      <skos:altLabel xml:lang="en">Philip the Younger</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q318865"/>
-      <skos:prefLabel xml:lang="ro">Filip II Junior</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Philippus II</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">II. Philippus római császár</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Philippus II</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Philippus mladší</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">فیلیپوس دوم</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Μάρκος Ιούλιος Φίλιππος Σεβήρος</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Филип II</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Filip Cezar</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Filip Cezar</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Felip II</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Philippus II</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Filip II.</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Філіп Молодший</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Philippus II</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/025_lhh"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/88945277"/>
-      <skos:prefLabel xml:lang="zh">菲利普二世</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Philip II</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">II. Philipus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/philippus_ii#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1305"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Philip II</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">マルクス・ユリウス・セウェルス・ピリップス</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Marco Giulio Severo Filippo</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Филипп II Младший</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Filip II</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Philippe II</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Philippus Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Philippus II</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Marco Julio Severo Filipo</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Filip II</skos:prefLabel>
+        <skos:definition xml:lang="en">Marcus Julius Philippus Severus, also known as Philippus II, Philip II and Philip the Younger (238–249) was the son and heir of the Roman Emperor Philip the Arab by his wife Roman Empress Marcia Otacilia Severa.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:altLabel xml:lang="en">Philippus II</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Philippus_II"/>
+        <skos:altLabel xml:lang="en">Philip the Younger</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q318865"/>
+        <skos:prefLabel xml:lang="ro">Filip II Junior</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Philippus II</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">II. Philippus római császár</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Philippus II</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Philippus mladší</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">فیلیپوس دوم</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Μάρκος Ιούλιος Φίλιππος Σεβήρος</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Филип II</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Filip Cezar</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Filip Cezar</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Felip II</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Philippus II</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Filip II.</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Філіп Молодший</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Philippus II</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/025_lhh"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/88945277"/>
+        <skos:prefLabel xml:lang="zh">菲利普二世</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Philip II</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">II. Philipus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/philippus_ii#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1305"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/philippus_ii#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/philippus_ii#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/philippus_ii#membership_c4761e89498e5bdb460cb1273d3883de"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/philippus_ii#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/philippus_ii"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-19T04:00:04+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/philippus_ii"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-19T04:00:04+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/philippus_ii#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0237</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/philippus_ii#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0249</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/philippus_ii#membership_c4761e89498e5bdb460cb1273d3883de">
+        <foaf:topic rdf:resource="http://nomisma.org/id/philippus_ii"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0244</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0249</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

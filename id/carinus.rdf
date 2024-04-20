@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,82 +18,99 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/carinus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Carinus</skos:prefLabel>
-      <skos:definition xml:lang="en">The Roman emperor Carinus.</skos:definition>
-      <skos:prefLabel xml:lang="de">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Carino</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Karinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Carin</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">卡里努斯</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Карин (император)</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Marco Aurelio Carino</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Carino</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">カリヌス</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Carinus"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/89202679"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/74647598"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/carinus#roman_emperor"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140653"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q190097"/>
-      <skos:prefLabel xml:lang="eu">Karino</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Марк Аўрэлій Карын</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">קארינוס</skos:prefLabel>
-      <skos:prefLabel xml:lang="bs">Karin</skos:prefLabel>
-      <skos:prefLabel xml:lang="yo">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Carinus római császár</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Carino</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Καρίνος</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Karin</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Карин</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Carí</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Марк Аврелій Карін</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="cy">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Карин</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">کارینوس</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Karin, rimski car</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Carin</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Карин</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Carinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Carinus</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118702297"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0kcs4"/>
-      <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/32"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/carinus#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/417"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/carinus#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0283</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0285</nmo:hasEndDate>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Carinus</skos:prefLabel>
+        <skos:definition xml:lang="en">Carinus (Marcus Aurelius Carinus) was Roman emperor from 283 to 285. The elder son of emperor Carus, he was first appointed Caesar and in the beginning of 283 co-emperor of the western portion of the empire by his father.</skos:definition>
+        <skos:prefLabel xml:lang="de">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Carino</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Karinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Carin</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">卡里努斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Карин (император)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Marco Aurelio Carino</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Carino</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">カリヌス</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Carinus"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/89202679"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/74647598"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140653"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q190097"/>
+        <skos:prefLabel xml:lang="eu">Karino</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Марк Аўрэлій Карын</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">קארינוס</skos:prefLabel>
+        <skos:prefLabel xml:lang="bs">Karin</skos:prefLabel>
+        <skos:prefLabel xml:lang="yo">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Carinus római császár</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Carino</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Καρίνος</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Karin</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Карин</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Carí</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Марк Аврелій Карін</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Карин</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">کارینوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Karin, rimski car</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Carin</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Карин</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Carinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Carinus</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118702297"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0kcs4"/>
+        <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/32"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/carinus#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/417"/>
+        <bio:death rdf:resource="http://nomisma.org/id/carinus#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/carinus#membership_281ad3b7077be2b557422bb0888df4e4"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/carinus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/carinus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-06T14:18:28+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/carinus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-06T14:18:28+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-30T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Death rdf:about="http://nomisma.org/id/carinus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">0285-07</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/carinus#membership_281ad3b7077be2b557422bb0888df4e4">
+        <foaf:topic rdf:resource="http://nomisma.org/id/carinus"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0283</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0285</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

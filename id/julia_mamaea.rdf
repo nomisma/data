@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,58 +18,81 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/julia_mamaea">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Julia Mamaea</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Iulia Mamaea</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Julia Mamea</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Julia Mamaea</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Юлия Мамея</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Julia Mamaea</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Giulia Mamea</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Julia Mamaea</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Julia Mamaea</skos:prefLabel>
-      <skos:definition xml:lang="en">Julia Avita Mamaea (14 or 29 August after 180–235) was the second daughter of Julia Maesa, a powerful Roman woman of Syrian origin, and Syrian noble Gaius Julius Avitus Alexianus. She was a niece of empress Julia Domna; emperor Lucius Septimius Severus and sister of Julia Soaemias Bassiana. She was born and raised in Emesa (modern Homs, Syria).</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Julia_Avita_Mamaea"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/75186187"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q235090"/>
-      <skos:prefLabel xml:lang="eu">Julia Mamea</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Julia Mamaea</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Júlia Mamea</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Iulia Mamaea</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Юлия Мамея</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Julija Mamea</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Julija Mamea</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Јулија Мамеја</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Юлія Мамея</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Julia Mamaea</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Julia Mamaea</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Julia Mamaea</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/123946298"/>
-      <skos:exactMatch rdf:resource="http://isni.org/0000000078689953"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02158x"/>
-      <skos:prefLabel xml:lang="hy">Յուլիա Ավիտա Մամեա</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ユリア・アウィタ</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Iulia Mamaea</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/julia_mamaea#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3339"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Julia Mamaea</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Iulia Mamaea</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Julia Mamea</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Julia Mamaea</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Юлия Мамея</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Julia Mamaea</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Giulia Mamea</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Julia Mamaea</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Julia Mamaea</skos:prefLabel>
+        <skos:definition xml:lang="en">Julia Avita Mamaea (14 or 29 August after 180–235) was the second daughter of Julia Maesa, a powerful Roman woman of Syrian origin, and Syrian noble Gaius Julius Avitus Alexianus. She was a niece of empress Julia Domna; emperor Lucius Septimius Severus and sister of Julia Soaemias Bassiana. She was born and raised in Emesa (modern Homs, Syria).</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Julia_Avita_Mamaea"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/75186187"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q235090"/>
+        <skos:prefLabel xml:lang="eu">Julia Mamea</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Julia Mamaea</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Júlia Mamea</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Iulia Mamaea</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Юлия Мамея</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Julija Mamea</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Julija Mamea</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Јулија Мамеја</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Юлія Мамея</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Julia Mamaea</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Julia Mamaea</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Julia Mamaea</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/123946298"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000078689953"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02158x"/>
+        <skos:prefLabel xml:lang="hy">Յուլիա Ավիտա Մամեա</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ユリア・アウィタ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Iulia Mamaea</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/julia_mamaea#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3339"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/julia_mamaea#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/julia_mamaea#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/severan_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/julia_mamaea#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/julia_mamaea#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/julia_mamaea"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-04T04:00:04+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/julia_mamaea"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-04T04:00:04+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/julia_mamaea#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0180</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/julia_mamaea#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0235</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/julia_mamaea#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/julia_mamaea"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

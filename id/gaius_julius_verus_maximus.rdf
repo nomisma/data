@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,49 +18,71 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/gaius_julius_verus_maximus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Maximus</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Gaio Giulio Vero Massimo</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Maximus Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Caio Júlio Vero Máximo</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Максимин Младший</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ガイウス・ユリウス・ウェルス・マクシムス</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Maximo</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Gaius Iulius Verus Maximus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Gajusz Juliusz Werus Maksym</skos:prefLabel>
-      <skos:definition xml:lang="en">Gaius Julius Verus Maximus (217/220 – April 238), also incorrectly called Gaius Julius Verus Maximinus or Maximinus the Younger was the son of the Roman Emperor Maximinus Thrax and his wife, Caecilia Paulina.</skos:definition>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:altLabel xml:lang="en">Gaius Julius Verus Maximus</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Julius_Verus_Maximus"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q518890"/>
-      <skos:prefLabel xml:lang="ro">Gaius Iulius Verus Maximus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Màxim Cèsar</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Максим</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Gaj Julije Ver Maksim</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Gaius Julius Verus Maximus</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0g51t_"/>
-      <skos:prefLabel xml:lang="la">Gaius Julius Verus Maximus</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Maximus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Maximus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/gaius_julius_verus_maximus#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2131"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Maximus</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gaio Giulio Vero Massimo</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Maximus Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Caio Júlio Vero Máximo</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Максимин Младший</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ガイウス・ユリウス・ウェルス・マクシムス</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Maximo</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Gaius Iulius Verus Maximus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Gajusz Juliusz Werus Maksym</skos:prefLabel>
+        <skos:definition xml:lang="en">Gaius Julius Verus Maximus (217/220 – April 238), also incorrectly called Gaius Julius Verus Maximinus or Maximinus the Younger was the son of the Roman Emperor Maximinus Thrax and his wife, Caecilia Paulina.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:altLabel xml:lang="en">Gaius Julius Verus Maximus</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gaius_Julius_Verus_Maximus"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q518890"/>
+        <skos:prefLabel xml:lang="ro">Gaius Iulius Verus Maximus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Màxim Cèsar</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Максим</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Gaj Julije Ver Maksim</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Gaius Julius Verus Maximus</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0g51t_"/>
+        <skos:prefLabel xml:lang="la">Gaius Julius Verus Maximus</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Maximus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Maximus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/gaius_julius_verus_maximus#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2131"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/gaius_julius_verus_maximus#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/gaius_julius_verus_maximus#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/gaius_julius_verus_maximus#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/gaius_julius_verus_maximus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/gaius_julius_verus_maximus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-30T04:00:05+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/gaius_julius_verus_maximus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-30T04:00:05+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/gaius_julius_verus_maximus#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0217</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/gaius_julius_verus_maximus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">0238-04</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/gaius_julius_verus_maximus#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/gaius_julius_verus_maximus"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

@@ -66,6 +66,10 @@
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/galla_placidia#provenance"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4804"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/galla_placidia#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/galla_placidia#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/theodosian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/galla_placidia#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
     </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/galla_placidia#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/galla_placidia"/>
@@ -91,5 +95,24 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/galla_placidia#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0388</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/galla_placidia#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0450-11-27</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/galla_placidia#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/galla_placidia"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

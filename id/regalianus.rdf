@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,66 +18,87 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/regalianus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Regalianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Regalianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Regalianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Regalianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Regaliano</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Regalianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Регалиан</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Regaliano</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Regaliano</skos:prefLabel>
-      <skos:definition xml:lang="en">Briefly claimed the office of Emperor in 260.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Regalianus"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/136306985"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/159734"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q333799"/>
-      <skos:prefLabel xml:lang="sk">Regalianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Regalianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Regalianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Regalianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Regalianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Regalianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Регалиан</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">رگالیانوس</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Regalijan</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Regalijan</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Регалијан</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Regalianus</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118743813"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/18017593"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02nyhr"/>
-      <skos:prefLabel xml:lang="da">Regalianus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/regalianus#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1348"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Regalianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Regalianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Regalianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Regalianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Regaliano</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Regalianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Регалиан</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Regaliano</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Regaliano</skos:prefLabel>
+        <skos:definition xml:lang="en">Briefly claimed the office of Emperor in 260.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Regalianus"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/136306985"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/159734"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q333799"/>
+        <skos:prefLabel xml:lang="sk">Regalianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Regalianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Regalianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Regalianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Regalianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Regalianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Регалиан</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">رگالیانوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Regalijan</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Regalijan</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Регалијан</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Regalianus</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118743813"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/18017593"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02nyhr"/>
+        <skos:prefLabel xml:lang="da">Regalianus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/regalianus#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1348"/>
+        <bio:death rdf:resource="http://nomisma.org/id/regalianus#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/regalianus#membership_c42bc6fdcece38026870b116f9fea761"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/regalianus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/regalianus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-25T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/regalianus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-25T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T04:00:02+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1Zz9Qk9YOZGMHk-_A2QMkVn580tCrZ2qBOPtrjNEtC3E/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Death rdf:about="http://nomisma.org/id/regalianus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0260</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/regalianus#membership_c42bc6fdcece38026870b116f9fea761">
+        <foaf:topic rdf:resource="http://nomisma.org/id/regalianus"/>
+        <org:role rdf:resource="http://nomisma.org/id/pretender"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0260</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0260</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

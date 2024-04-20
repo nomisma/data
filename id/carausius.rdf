@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,70 +18,87 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/carausius">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Carausius</skos:prefLabel>
-      <skos:definition xml:lang="en">The Roman emperor Carausius.</skos:definition>
-      <skos:prefLabel xml:lang="de">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Caráusio</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Karauzjusz</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Carausio</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Караузий</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Carausio</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Carausius"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/carausius#roman_emperor"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/57412397"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/232298846"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140651"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q317232"/>
-      <skos:prefLabel xml:lang="ca">Carausi</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="ms">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Караузій</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="cy">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Караузий</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Karausije</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Karauzije</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Караусије</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">カラウシウス</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">كارسيس</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118870300"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/011z2p"/>
-      <skos:prefLabel xml:lang="zh">卡劳修斯</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Karausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Carausius</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Caracausius</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/carausius#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/416"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/carausius#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0286</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0293</nmo:hasEndDate>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Carausius</skos:prefLabel>
+        <skos:definition xml:lang="en">Marcus Aurelius Mausaeus Valerius Carausius (died 293) was a military commander of the Roman Empire in the 3rd century. He was a Menapian from Belgic Gaul,[1] who usurped power in 286, during the Carausian Revolt, declaring himself emperor in Britain and northern Gaul (Imperium Britanniarum).</skos:definition>
+        <skos:prefLabel xml:lang="de">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Caráusio</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Karauzjusz</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Carausio</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Караузий</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Carausio</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Carausius"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/57412397"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/232298846"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/140651"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q317232"/>
+        <skos:prefLabel xml:lang="ca">Carausi</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Караузій</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Караузий</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Karausije</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Karauzije</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Караусије</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">カラウシウス</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">كارسيس</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118870300"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/011z2p"/>
+        <skos:prefLabel xml:lang="zh">卡劳修斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Karausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Carausius</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Caracausius</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/carausius#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/416"/>
+        <bio:death rdf:resource="http://nomisma.org/id/carausius#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/carausius#membership_148dc1fedffced3d6ccb66e9e54c54a7"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/carausius#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/carausius"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-19T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/carausius"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-19T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Death rdf:about="http://nomisma.org/id/carausius#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0293</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/carausius#membership_148dc1fedffced3d6ccb66e9e54c54a7">
+        <foaf:topic rdf:resource="http://nomisma.org/id/carausius"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/romano-british_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0286</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0293</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

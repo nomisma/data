@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,50 +18,74 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/titus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Titus</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Titus"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/83217593"/>
-      <skos:prefLabel xml:lang="de">Titus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Titus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Titus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Тит</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Titus</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Tito</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Τίτος</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Тит</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/titus#roman_emperor"/>
-      <skos:definition xml:lang="en">Titus (Latin: Titus Flāvius Caesar Vespasiānus Augustus; 30 December 39 AD – 13 September 81 AD) was Roman emperor from 79 to 81. A member of the Flavian dynasty, Titus succeeded his father Vespasian upon his death, thus becoming the first Roman Emperor to come to the throne after his own biological father.</skos:definition>
-      <skos:prefLabel xml:lang="da">Titus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Titus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/titus#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1453"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/titus#roman_emperor">
-      <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Titus</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Titus"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/83217593"/>
+        <skos:prefLabel xml:lang="de">Titus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Titus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Titus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Тит</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Titus</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Tito</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Τίτος</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Тит</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+      
+        <skos:definition xml:lang="en">Titus (Latin: Titus Flāvius Caesar Vespasiānus Augustus; 30 December 39 AD – 13 September 81 AD) was Roman emperor from 79 to 81. A member of the Flavian dynasty, Titus succeeded his father Vespasian upon his death, thus becoming the first Roman Emperor to come to the throne after his own biological father.</skos:definition>
+        <skos:prefLabel xml:lang="da">Titus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Titus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/titus#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1453"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/titus#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/titus#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/flavian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/titus#membership_0c816869baa3c8db1fe725a8467e9b84"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/titus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/titus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/titus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/titus#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0039-12-30</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/titus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0081-09-13</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/titus#membership_0c816869baa3c8db1fe725a8467e9b84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/titus"/>
+        <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0079</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0081</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

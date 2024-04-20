@@ -20,7 +20,7 @@
    <foaf:Person rdf:about="http://nomisma.org/id/helena">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Helena</skos:prefLabel>
-        <skos:definition xml:lang="en">Flavia Iulia Helena, the mother of the Roman emperor Constantine I. She is venerated as Saint Helena by Christians.</skos:definition>
+        <skos:definition xml:lang="en">Helena, Helena Augusta, or Saint Helena (Flavia Iulia Helena Augusta), was an Empress of the Roman Empire, and mother of Emperor Constantine the Great.</skos:definition>
         <skos:prefLabel xml:lang="de">Helena</skos:prefLabel>
         <skos:prefLabel xml:lang="pt">Helena de Constantinopla</skos:prefLabel>
         <skos:prefLabel xml:lang="nl">Helena (heilige)</skos:prefLabel>
@@ -82,8 +82,12 @@
         <skos:changeNote rdf:resource="http://nomisma.org/id/helena#provenance"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3787"/>
         
-        <org:hasMembership rdf:resource="http://nomisma.org/id/helena#membership_8f12619fd8037693ee6f5a9eae7bb769"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/helena#membership_f1e86cfab3a0826b389d795eb9987cc4"/>
+        
+        
+        <bio:birth rdf:resource="http://nomisma.org/id/helena#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/helena#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/constantinian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/helena#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
     </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/helena#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/helena"/>
@@ -133,12 +137,27 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     
-    <org:Membership rdf:about="http://nomisma.org/id/helena#membership_8f12619fd8037693ee6f5a9eae7bb769">
-        <org:role rdf:resource="http://nomisma.org/id/portrait"/>
-    </org:Membership>
-    <org:Membership rdf:about="http://nomisma.org/id/helena#membership_f1e86cfab3a0826b389d795eb9987cc4">
-        <org:role rdf:resource="http://nomisma.org/id/saint"/>
+    
+    
+    <bio:Birth rdf:about="http://nomisma.org/id/helena#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0246</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/helena#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0330</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/helena#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/helena"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
     </org:Membership>
 </rdf:RDF>

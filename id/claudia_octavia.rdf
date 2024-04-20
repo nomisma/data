@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,62 +18,85 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/claudia_octavia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Claudia Octavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">クラウディア・オクタウィア</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Cláudia Octávia</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Claudia Octavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Claudia Octavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Claudia Octavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Клавдия Октавия</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Oktawia (córka Klaudiusza)</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Claudia Octavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Octavia (Tochter des Claudius)</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Claudia Ottavia</skos:prefLabel>
-      <skos:definition xml:lang="en">Claudia Octavia (late AD 39 or early AD 40 – 8 June AD 62) was an Empress of Rome. She was a great-niece of the Emperor Tiberius, first cousin of the Emperor Caligula, daughter of the Emperor Claudius, and stepsister and first wife of the Emperor Nero.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Claudia_Octavia"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:altLabel xml:lang="la">Claudia Octavia</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q231262"/>
-      <skos:prefLabel xml:lang="tr">Claudia Octavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Octàvia</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Клавдія Октавія</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Octavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Claudia Octavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Клавдия Октавия</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Klaudija Oktavija</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Claudia Octavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Claudia Octavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">كلوديا أوكتافيا</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Claudia Octavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Клаудија Октавија</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118589326"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/88758447"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/079ct9"/>
-      <skos:prefLabel xml:lang="lt">Klaudija Oktavija</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Klaudia Oktavia</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">克洛迪雅·奧克塔薇爾</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">קלאודיה אוקטביה</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Claudia Octavia</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/claudia_octavia#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4462"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Claudia Octavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">クラウディア・オクタウィア</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Cláudia Octávia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Claudia Octavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Claudia Octavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Claudia Octavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Клавдия Октавия</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Oktawia (córka Klaudiusza)</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Claudia Octavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Octavia (Tochter des Claudius)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Claudia Ottavia</skos:prefLabel>
+        <skos:definition xml:lang="en">Claudia Octavia (late AD 39 or early AD 40 – 8 June AD 62) was an Empress of Rome. She was a great-niece of the Emperor Tiberius, first cousin of the Emperor Caligula, daughter of the Emperor Claudius, and stepsister and first wife of the Emperor Nero.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Claudia_Octavia"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:altLabel xml:lang="la">Claudia Octavia</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q231262"/>
+        <skos:prefLabel xml:lang="tr">Claudia Octavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Octàvia</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Клавдія Октавія</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Octavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Claudia Octavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Клавдия Октавия</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Klaudija Oktavija</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Claudia Octavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Claudia Octavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">كلوديا أوكتافيا</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Claudia Octavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Клаудија Октавија</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118589326"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/88758447"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/079ct9"/>
+        <skos:prefLabel xml:lang="lt">Klaudija Oktavija</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Klaudia Oktavia</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">克洛迪雅·奧克塔薇爾</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">קלאודיה אוקטביה</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Claudia Octavia</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/claudia_octavia#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/4462"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/claudia_octavia#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/claudia_octavia#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/julio-claudian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/claudia_octavia#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/claudia_octavia#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/claudia_octavia"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-13T04:00:01+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/claudia_octavia"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-13T04:00:01+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/claudia_octavia#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0039</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/claudia_octavia#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0062-06-08</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/claudia_octavia#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/claudia_octavia"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

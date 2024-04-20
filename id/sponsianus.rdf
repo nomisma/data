@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,52 +18,65 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/sponsianus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Sponsianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Esponsià</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Sponsianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Esponsiano</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Спонсиан</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Sponsianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Sponsiano</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Sponsianus</skos:prefLabel>
-      <skos:definition xml:lang="en">Issuer of coins known only from barbarous aurei that may not be genuine. Inclusion in nomisma is warranted by the presence of the name in RIC 4.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sponsianus"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/sponsianus#authority"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q715237"/>
-      <skos:prefLabel xml:lang="br">Sponsianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Спонсиан</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Sponsianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Sponsianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Sponsianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Սպոնսիանոս</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Esponsiano</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Sponsianus</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02f4lt"/>
-      <skos:prefLabel xml:lang="da">Sponsianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Sponsianus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/sponsianus#provenance"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/sponsianus#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Sponsianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Esponsià</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sponsianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Esponsiano</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Спонсиан</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Sponsianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sponsiano</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sponsianus</skos:prefLabel>
+        <skos:definition xml:lang="en">Issuer of coins known only from barbarous aurei that may not be genuine. Inclusion in nomisma is warranted by the presence of the name in RIC 4.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sponsianus"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q715237"/>
+        <skos:prefLabel xml:lang="br">Sponsianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Спонсиан</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Sponsianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Sponsianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Sponsianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Սպոնսիանոս</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Esponsiano</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Sponsianus</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02f4lt"/>
+        <skos:prefLabel xml:lang="da">Sponsianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Sponsianus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/sponsianus#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/sponsianus#membership_9b806007c79911976fc42469af13cb2f"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sponsianus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/sponsianus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-24T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/sponsianus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-24T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/sponsianus#membership_9b806007c79911976fc42469af13cb2f">
+        <foaf:topic rdf:resource="http://nomisma.org/id/sponsianus"/>
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

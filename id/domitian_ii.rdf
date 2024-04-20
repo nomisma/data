@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,66 +18,81 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/domitian_ii">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Domitian II</skos:prefLabel>
-      <skos:definition xml:lang="en">A usurper, probably in northern Gaul in late AD 270 or early 271.</skos:definition>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q265083"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Domitianus_II"/>
-      <skos:prefLabel xml:lang="bg">Домициан</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Domitianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Domicià II</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Domitianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Domiciano</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">دومیتیانوس</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Domitianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Domitien II</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Domicijan</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Domitianus gall császár</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Domiziano II</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Domitianus van Gallia</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Domitianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Domiciano</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Домициан II</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Domicijan II</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Domitianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Domitianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Доміціан</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02ghf8"/>
-      <skos:altLabel xml:lang="en">Domitian of Gaul</skos:altLabel>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/domitian_ii#pretender"/>
-      <skos:prefLabel xml:lang="da">Domitian II</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Domitianus II</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">II. Domitianus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/domitian_ii#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/7853"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/domitian_ii#pretender">
-      <org:role rdf:resource="http://nomisma.org/id/pretender"/>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Domitian II</skos:prefLabel>
+        <skos:definition xml:lang="en">A usurper, probably in northern Gaul in late AD 270 or early 271.</skos:definition>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q265083"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Domitianus_II"/>
+        <skos:prefLabel xml:lang="bg">Домициан</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Domitianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Domicià II</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Domitianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Domiciano</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">دومیتیانوس</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Domitianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Domitien II</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Domicijan</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Domitianus gall császár</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Domiziano II</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Domitianus van Gallia</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Domitianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Domiciano</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Домициан II</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Domicijan II</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Domitianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Domitianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Доміціан</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02ghf8"/>
+        <skos:altLabel xml:lang="en">Domitian of Gaul</skos:altLabel>
+      
+        <skos:prefLabel xml:lang="da">Domitian II</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Domitianus II</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">II. Domitianus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/domitian_ii#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/7853"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/domitian_ii#membership_a8c6c429214c60e23b85a647b98f2df7"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/domitian_ii#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/domitian_ii"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-19T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-11T14:35:00.718-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/domitian_ii"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-19T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-11T14:35:00.718-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/domitian_ii#membership_a8c6c429214c60e23b85a647b98f2df7">
+        <foaf:topic rdf:resource="http://nomisma.org/id/domitian_ii"/>
+        <org:role rdf:resource="http://nomisma.org/id/pretender"/>
+        <org:organization rdf:resource="http://nomisma.org/id/gallic_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0270</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0271</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

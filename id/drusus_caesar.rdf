@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,54 +18,77 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/drusus_caesar">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Drusus Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Druso Cesare</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Drusus Iulius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Druso César</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Друз Юлий Цезарь</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Drusus Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Drusus Julius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ドルスス・カエサル</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Druzus III</skos:prefLabel>
-      <skos:definition xml:lang="en">Drusus Julius Caesar (AD 7 – AD 33), was a member of the Julio-Claudian family. He was a son of Germanicus and Agrippina the Elder. He was brother of Caligula, nephew of the Emperor Claudius.</skos:definition>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/250753068/"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Drusus_Caesar"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:altLabel xml:lang="la">Drusus Iulius Caesar</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q165448"/>
-      <skos:prefLabel xml:lang="bg">Друз Цезар</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Drus Cèsar</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Drusus Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Drusus Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Druz Cezar</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Drusus Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Друз Юлій Цезар</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Drusus Julius Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Druso César</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/43208867"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02wcs3"/>
-      <skos:prefLabel xml:lang="da">Drusus Caesar</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Drusus Caesar</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/drusus_caesar#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2456"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Drusus Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Druso Cesare</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Drusus Iulius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Druso César</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Друз Юлий Цезарь</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Drusus Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Drusus Julius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ドルスス・カエサル</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Druzus III</skos:prefLabel>
+        <skos:definition xml:lang="en">Drusus Julius Caesar (AD 7 – AD 33), was a member of the Julio-Claudian family. He was a son of Germanicus and Agrippina the Elder. He was brother of Caligula, nephew of the Emperor Claudius.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/250753068/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Drusus_Caesar"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:altLabel xml:lang="la">Drusus Iulius Caesar</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q165448"/>
+        <skos:prefLabel xml:lang="bg">Друз Цезар</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Drus Cèsar</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Drusus Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Drusus Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Druz Cezar</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Drusus Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Друз Юлій Цезар</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Drusus Julius Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Druso César</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/43208867"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02wcs3"/>
+        <skos:prefLabel xml:lang="da">Drusus Caesar</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Drusus Caesar</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/drusus_caesar#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2456"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/drusus_caesar#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/drusus_caesar#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/julio-claudian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/drusus_caesar#membership_c9fbc3dd911157b9d58eeabdad62ef84"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/drusus_caesar#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/drusus_caesar"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-12T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/drusus_caesar"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-12T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/drusus_caesar#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0007</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/drusus_caesar#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0033</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/drusus_caesar#membership_c9fbc3dd911157b9d58eeabdad62ef84">
+        <foaf:topic rdf:resource="http://nomisma.org/id/drusus_caesar"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+    </org:Membership>
 </rdf:RDF>

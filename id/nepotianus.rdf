@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,69 +18,87 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/nepotianus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Nepotianus</skos:prefLabel>
-      <skos:definition xml:lang="en">The Roman emperor Nepotianus.</skos:definition>
-      <skos:prefLabel xml:lang="de">Nepotianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Nepociano</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Nepocjan</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Népotien</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Nepotianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Nepociano</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Юлий Непоциан</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Nepoziano</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nepotianus"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/nepotianus#pretender"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/95597"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q367598"/>
-      <skos:prefLabel xml:lang="tr">Nepotianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Flavius Popilius Virius Nepotianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Nepociano</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Непоциан</skos:prefLabel>
-      <skos:prefLabel xml:lang="mr">नेपोटियानस</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Nepocijan</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Nepotijan</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Непоцијан</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Непоціан</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">იულიუს ნეპოტიანუსი</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Nepociano</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ネポティアヌス</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03l4qq"/>
-      <skos:prefLabel xml:lang="da">Nepotianus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Nepotianus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/nepotianus#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1216"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/nepotianus#pretender">
-      <org:role rdf:resource="http://nomisma.org/id/pretender"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0350</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0350</nmo:hasEndDate>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Nepotianus</skos:prefLabel>
+        <skos:definition xml:lang="en">Julius Nepotianus (died June 30, 350), sometimes known in English as Nepotian, was a member of the Constantinian dynasty who reigned as a short-lived usurper of the Roman Empire.</skos:definition>
+        <skos:prefLabel xml:lang="de">Nepotianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Nepociano</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Nepocjan</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Népotien</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Nepotianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Nepociano</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Юлий Непоциан</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Nepoziano</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nepotianus"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/95597"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q367598"/>
+        <skos:prefLabel xml:lang="tr">Nepotianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Flavius Popilius Virius Nepotianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Nepociano</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Непоциан</skos:prefLabel>
+        <skos:prefLabel xml:lang="mr">नेपोटियानस</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Nepocijan</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Nepotijan</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Непоцијан</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Непоціан</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">იულიუს ნეპოტიანუსი</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Nepociano</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ネポティアヌス</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03l4qq"/>
+        <skos:prefLabel xml:lang="da">Nepotianus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Nepotianus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/nepotianus#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1216"/>
+        <bio:death rdf:resource="http://nomisma.org/id/nepotianus#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/constantinian_dynasty"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/nepotianus#membership_b771c16dc2c2e416e9f5b835a354746a"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/nepotianus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/nepotianus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-11T14:50:14.882-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/nepotianus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-21T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-11T14:50:14.882-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Death rdf:about="http://nomisma.org/id/nepotianus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">0350-06</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/nepotianus#membership_b771c16dc2c2e416e9f5b835a354746a">
+        <foaf:topic rdf:resource="http://nomisma.org/id/nepotianus"/>
+        <org:role rdf:resource="http://nomisma.org/id/pretender"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0350</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0350</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

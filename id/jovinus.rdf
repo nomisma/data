@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,70 +18,83 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/jovinus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Jovinus</skos:prefLabel>
-      <skos:definition xml:lang="en">The Roman emperor Jovinus.</skos:definition>
-      <skos:prefLabel xml:lang="de">Iovinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Jovino</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Giovino (usurpatore)</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Jovin</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Jovino</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Jovinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Иовин</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Jowin</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/72598772"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Jovinus"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/jovinus#pretender"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/93481"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q364171"/>
-      <skos:prefLabel xml:lang="fy">Jovinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Jovinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Jovinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Iovinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Jovinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Йовин</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Jovin</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Jovin</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Jovinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Јовин</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Jovinus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ヨウィヌス</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01n5bc"/>
-      <skos:prefLabel xml:lang="ca">Joví</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Iovinus</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/jovinus#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/842"/>
-   </foaf:Person>
-   <org:Membership rdf:about="http://nomisma.org/id/jovinus#pretender">
-      <org:role rdf:resource="http://nomisma.org/id/pretender"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0411</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0413</nmo:hasEndDate>
-   </org:Membership>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Jovinus</skos:prefLabel>
+        <skos:definition xml:lang="en">Jovinus was a Gallo-Roman senator and claimed to be Roman Emperor (411–413 AD) and co-ruled Gaul with his brother, Sebastianus.</skos:definition>
+        <skos:prefLabel xml:lang="de">Iovinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Jovino</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Giovino (usurpatore)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Jovin</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Jovino</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Jovinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Иовин</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Jowin</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/72598772"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Jovinus"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/93481"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q364171"/>
+        <skos:prefLabel xml:lang="fy">Jovinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Jovinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Jovinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Iovinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Jovinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Йовин</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Jovin</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Jovin</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Jovinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Јовин</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Jovinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ヨウィヌス</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01n5bc"/>
+        <skos:prefLabel xml:lang="ca">Joví</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Iovinus</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/jovinus#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/842"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/jovinus#membership_d00f3cd5e3a5e17bcd4b0ff1374ac339"/>
+    </foaf:Person>
+   
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/jovinus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/jovinus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-22T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-11T14:52:48.216-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/jovinus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-22T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-28T19:10:55+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-11T14:52:48.216-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T18:12:48.4Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FR4b2FwhLr70McADQw76B3vCj7lMOoQISBJsgpDTTRU/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/jovinus#membership_d00f3cd5e3a5e17bcd4b0ff1374ac339">
+        <foaf:topic rdf:resource="http://nomisma.org/id/jovinus"/>
+        <org:role rdf:resource="http://nomisma.org/id/pretender"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0411</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0413</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>
