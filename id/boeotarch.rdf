@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <org:Role rdf:about="http://nomisma.org/id/boeotarch">
+        <skos:prefLabel xml:lang="en">Boeotarch</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Βοιωτάρχης</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Beotarca</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Béotarque</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Boiotarch</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Boeotarch was the title of the chief officers of the Boeotian Confederacy. The function of the Boeotarchs were roughly equivalent to that of the Athenian strategos, acting as both political leaders and generals in battle. The most famous individuals to hold the office were Epaminondas and Pelopidas, who led Thebes to hegemonic status over Greece in the middle of the 4th century BC.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/boeotarch#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:related rdf:resource="http://nomisma.org/id/boeotian_league"/>
+        <skos:exactMatch rdf:resource="https://en.wikipedia.org/wiki/Boeotarch"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q1019919"/>
+        <skos:altLabel xml:lang="de">Böotarch</skos:altLabel>
+        <skos:altLabel xml:lang="en">Boiotarch</skos:altLabel>
+    </org:Role>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/boeotarch#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/boeotarch"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-01T15:59:00.282Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

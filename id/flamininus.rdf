@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,96 +18,109 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/flamininus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Titus Quinctius Flamininus</skos:prefLabel>
-      <skos:definition xml:lang="en">Titus Quinctius Flamininus (c. 229 BC – c. 174 BC) was a Roman politician and general instrumental in the Roman conquest of Greece. Consul 198 BC.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Flamininus"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/54942559"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:altLabel xml:lang="la">Titus Quinctius Flamininus</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q349222"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Titus_Quinctius_Flamininus"/>
-      <skos:prefLabel xml:lang="pl">Tytus Kwinkcjusz Flamininus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Тит Квинкций Фламинин</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Titus Quinctius Flamininus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Tito Quincio Flaminino</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Titus Quinctius Flamininus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Tit Quinti Flaminí I</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Titus Quinctius Flamininus</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Тит Квінкцій Фламінін</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Tito Quinzio Flaminino</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Titus Quinctius Flamininus</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Titus Quinctius Flamininus</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Titus Quinctius Flamininus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ティトゥス・クィンクティウス・フラミニヌス</skos:prefLabel>
-      <skos:prefLabel xml:lang="sq">Titus Kuinktius Flamininus</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Titus Quinctius Flamininus</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Тит Квинкций Фламинин</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Tit Kvinkcije Flaminin</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Titus Quinctius Flamininus</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Тит Квинкције Фламинин</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">提图斯·昆克修斯·弗拉米尼努斯</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Τίτος Κόιντος Φλαμινίνος</skos:prefLabel>
-      <skos:prefLabel xml:lang="kk">Фламиний Тит Квинкций</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://isni.org/0000000095188560"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118683837"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/029dyt"/>
-      <skos:exactMatch rdf:resource="http://www.idref.fr/084635630"/>
-      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15043706d"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/flamininus#provenance"/>
-      <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/flamininus#membership_4baa3e41cb521a9b5f5209645a4ab798"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2170"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Titus Quinctius Flamininus</skos:prefLabel>
+        <skos:definition xml:lang="en">Titus Quinctius Flamininus (c. 229 BC – c. 174 BC) was a Roman politician and general instrumental in the Roman conquest of Greece. Consul 198 BC. He is represented on modern European medals.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Flamininus"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/54942559"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:altLabel xml:lang="la">Titus Quinctius Flamininus</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q349222"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Titus_Quinctius_Flamininus"/>
+        <skos:prefLabel xml:lang="pl">Tytus Kwinkcjusz Flamininus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Тит Квинкций Фламинин</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Titus Quinctius Flamininus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Tito Quincio Flaminino</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Titus Quinctius Flamininus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Tit Quinti Flaminí I</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Titus Quinctius Flamininus</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Тит Квінкцій Фламінін</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Tito Quinzio Flaminino</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Titus Quinctius Flamininus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Titus Quinctius Flamininus</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Titus Quinctius Flamininus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ティトゥス・クィンクティウス・フラミニヌス</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Titus Kuinktius Flamininus</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Titus Quinctius Flamininus</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Тит Квинкций Фламинин</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Tit Kvinkcije Flaminin</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Titus Quinctius Flamininus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Тит Квинкције Фламинин</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">提图斯·昆克修斯·弗拉米尼努斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Τίτος Κόιντος Φλαμινίνος</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Фламиний Тит Квинкций</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000095188560"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118683837"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/029dyt"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/084635630"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb15043706d"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/flamininus#provenance"/>
+        <dcterms:source rdf:resource="http://nomisma.org/id/rrc"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/flamininus#membership_4baa3e41cb521a9b5f5209645a4ab798"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/2170"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/flamininus#membership_cf42f9e11be8acec20ed08a0d15632db"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/flamininus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/flamininus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-26T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-21T04:00:02+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T14:46:53.695Z</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T14:34:14.229Z</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:11:54.895Z</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/flamininus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-26T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-21T04:00:02+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T14:46:53.695Z</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T14:34:14.229Z</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T15:11:54.895Z</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1lBfnQPZQWNnx20F4P5avfXE8o0aHYHp2hR2ZIq_YzkM/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-01T17:56:53.58Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
    <org:Membership rdf:about="http://nomisma.org/id/flamininus#membership_4baa3e41cb521a9b5f5209645a4ab798">
-      <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
-      <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0196</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0196</nmo:hasEndDate>
+        <org:role rdf:resource="http://nomisma.org/id/rrc_moneyer"/>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_republic"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0196</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0196</nmo:hasEndDate>
    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/flamininus#membership_cf42f9e11be8acec20ed08a0d15632db">
+        <org:role rdf:resource="http://nomisma.org/id/portrait"/>
+    </org:Membership>
 </rdf:RDF>
