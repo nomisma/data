@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/lucius_aelianus_usurper">
+        <skos:prefLabel xml:lang="en">Lucius Aelianus</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">A fictional Roman usurper portrayed on modern medals. Presumably a mistaken identification of the Gallic Emperor Laelianus.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/lucius_aelianus_usurper#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lucius_aelianus_usurper#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/lucius_aelianus_usurper"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-04T18:52:34.972Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
