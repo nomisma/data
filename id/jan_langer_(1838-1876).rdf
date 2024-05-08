@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/jan_langer_(1838-1876)">
+        <skos:definition xml:lang="pl">Polski medalier i rytownik. Aktywny w Krakowie. Lit.: J. Strzałkowski, Słownik medalierów. Warszawa (1982), s. 73.</skos:definition>
+        <skos:prefLabel xml:lang="en">Jan Nepomucen Langer</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Jan Nepomucen Langer</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Jan Langer (1838-1876) was a Polish medalist and engraver. Active in Krakow. Lit.: J. Strzałkowski, Słownik medalierów. Warszawa (1982) p. 73.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/jan_langer_(1838-1876)#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/jan_langer_(1838-1876)#membership_4a6eb8aaba521d8cc293b2403d7e37e0"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/jan_langer_(1838-1876)#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/jan_langer_(1838-1876)#death"/>
+        <skos:exactMatch rdf:resource="https://www.viaf.org/viaf/68164959784524021522"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_polish_numismatics"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/jan_langer_(1838-1876)#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/jan_langer_(1838-1876)"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-07T12:02:55.065Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/jan_langer_(1838-1876)#membership_4a6eb8aaba521d8cc293b2403d7e37e0">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+    </org:Membership>
+    <bio:Birth rdf:about="http://nomisma.org/id/jan_langer_(1838-1876)#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1838</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/jan_langer_(1838-1876)#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1876</dcterms:date>
+    </bio:Death>
+</rdf:RDF>
