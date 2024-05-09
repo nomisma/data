@@ -26,11 +26,12 @@
         <skos:prefLabel xml:lang="en">obol</skos:prefLabel>
         <skos:altLabel xml:lang="de">Obolus</skos:altLabel>
         <skos:definition xml:lang="en">Medieval denomination with the value of obol, issued in the German speaking area. For the overarching medieval and modern concept of obol, see medieval_obol. For the ancient greek denomination see obol.</skos:definition>
-        <skos:broader rdf:resource="http://nomisma.org/id/obol"/>
+        
         <skos:changeNote rdf:resource="http://nomisma.org/id/obol_de#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/medieval_obol"/>
     </nmo:Denomination>
    
    
@@ -57,6 +58,14 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-07T10:48:07.73Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T09:25:16.765Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
