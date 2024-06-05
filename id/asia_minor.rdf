@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,91 +18,101 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/asia_minor">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <skos:prefLabel xml:lang="en">Asia Minor</skos:prefLabel>
-      <skos:definition xml:lang="en">The ancient region of Asia Minor as defined without explicit reference to an external authority.</skos:definition>
-      <skos:prefLabel xml:lang="de">Asia Minor</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Asie Mineure</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Asia Minor</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Малая Азия</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Klein Azië</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Asia Minore</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Μικρά Ασία</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Мала Азия</skos:prefLabel>
-      <geo:location rdf:resource="http://nomisma.org/id/asia_minor#this"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q12824780"/>
-      <skos:prefLabel xml:lang="uz">Kichik osiyo yarim oroli</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Malgrandazio</skos:prefLabel>
-      <skos:prefLabel xml:lang="cy">Asia Leiaf</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Malá Asie</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Väike-Aasia</skos:prefLabel>
-      <skos:prefLabel xml:lang="az">Kiçik Asiya</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Vesleasia</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Asia Minor</skos:prefLabel>
-      <skos:prefLabel xml:lang="tt">Кече Азия</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Asya Menor</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Mala Azija</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Mažoji Azija</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Малая Азія</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Azia Vihanañ</skos:prefLabel>
-      <skos:prefLabel xml:lang="kk">Кіші Азия</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Мала Азија</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Мала Азија</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Malá Ázia</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Mala Azija</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Мала Азія</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Lilleasia</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Anadolu</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">آسيا الصغرى</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Anatòlia</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Anatolia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">ანატოლია</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Tiểu Á</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Mindre Asien</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Փոքր Ասիա</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Azja Mniejsza</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">소아시아</skos:prefLabel>
-      <skos:prefLabel xml:lang="ga">An Áise Bheag</skos:prefLabel>
-      <skos:prefLabel xml:lang="ce">Жима Ази</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">آسیای صغیر</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Lilleasien</skos:prefLabel>
-      <skos:broader rdf:resource="http://nomisma.org/id/asia"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/asia_minor#provenance"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/392"/>
-   </nmo:Region>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:prefLabel xml:lang="en">Asia Minor</skos:prefLabel>
+        <skos:definition xml:lang="en">The ancient region of Asia Minor as defined without explicit reference to an external authority.</skos:definition>
+        <skos:prefLabel xml:lang="de">Asia Minor</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Asie Mineure</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Asia Minor</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Малая Азия</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Klein Azië</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Asia Minore</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Μικρά Ασία</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Мала Азия</skos:prefLabel>
+        <geo:location rdf:resource="http://nomisma.org/id/asia_minor#this"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q12824780"/>
+        <skos:prefLabel xml:lang="uz">Kichik osiyo yarim oroli</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Malgrandazio</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Asia Leiaf</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Malá Asie</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Väike-Aasia</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Kiçik Asiya</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Vesleasia</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Asia Minor</skos:prefLabel>
+        <skos:prefLabel xml:lang="tt">Кече Азия</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Asya Menor</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Mala Azija</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Mažoji Azija</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Малая Азія</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Azia Vihanañ</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Кіші Азия</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Мала Азија</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Мала Азија</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Malá Ázia</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Mala Azija</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Мала Азія</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Lilleasia</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Anadolu</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">آسيا الصغرى</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Anatòlia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Anatolia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">ანატოლია</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Tiểu Á</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Mindre Asien</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Փոքր Ասիա</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Azja Mniejsza</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">소아시아</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">An Áise Bheag</skos:prefLabel>
+        <skos:prefLabel xml:lang="ce">Жима Ази</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">آسیای صغیر</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Lilleasien</skos:prefLabel>
+      
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/asia_minor#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/392"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/greek_asia"/>
+    </nmo:Region>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/asia_minor#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.9594088</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.53125</geo:long>
-      <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
-   </geo:SpatialThing>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.9594088</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.53125</geo:long>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_asia#this"/>
+    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/asia_minor#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/asia_minor"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
-            <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-03T04:00:01-06:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-01T12:42:51.407-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/asia_minor"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-28T21:43:36+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/sfsheath"/>
+                <dcterms:description xml:lang="en">This is among the original Nomisma XHTML+RDFa fragments, most likely created between 2010-2012 by Sebastian Heath and/or Andy Meadows.</dcterms:description>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-03T04:00:01-06:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-01T12:42:51.407-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-04T14:33:02.24Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

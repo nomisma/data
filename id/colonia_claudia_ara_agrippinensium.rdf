@@ -147,11 +147,13 @@
         <skos:changeNote rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium#provenance"/>
         <skos:closeMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/193"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/germania"/>
     </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/colonia_claudia_ara_agrippinensium#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.95</geo:lat>
         <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.966667</geo:long>
-   </geo:SpatialThing>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/germania#this"/>
+    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/colonia_claudia_ara_agrippinensium#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/colonia_claudia_ara_agrippinensium"/>
         <prov:wasGeneratedBy>
@@ -194,6 +196,14 @@
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-31T10:10:16.594Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-04T13:25:29.274Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>

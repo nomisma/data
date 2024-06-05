@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,83 +18,92 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Region rdf:about="http://nomisma.org/id/noricum">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Noricum</skos:prefLabel>
-      <skos:definition xml:lang="en">Noricum, within the context of ancient history, is the Latin name for a Celtic kingdom, or federation of twelve tribes, including most of modern Austria and part of Slovenia. It became a province of the Roman Empire.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Noricum"/>
-      <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/981538"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q131434"/>
-      <skos:prefLabel xml:lang="eu">Norika</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Norique</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Nórico</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Norico</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ノリクム</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Noriked</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Norik</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Nórica</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Норик</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Nòrica</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Норік</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="cy">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Noriško kraljestvo</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Норик</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Norik</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Norikas</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Reiaume de Norica</skos:prefLabel>
-      <skos:prefLabel xml:lang="kk">Норик</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Норик</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">诺里库姆</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Nórico</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">נוריקום</skos:prefLabel>
-      <skos:prefLabel xml:lang="am">ኖሪኩም</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Норик</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/0h820"/>
-      <skos:exactMatch rdf:resource="http://sws.geonames.org/8133605/"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4042608-7"/>
-      <skos:prefLabel xml:lang="ia">Provincia Noricum</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Norikum</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/noricum#provenance"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-      <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/498"/>
-   </nmo:Region>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Noricum</skos:prefLabel>
+        <skos:definition xml:lang="en">Noricum, within the context of ancient history, is the Latin name for a Celtic kingdom, or federation of twelve tribes, including most of modern Austria and part of Slovenia. It became a province of the Roman Empire.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Noricum"/>
+        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/981538"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q131434"/>
+        <skos:prefLabel xml:lang="eu">Norika</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Norique</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Nórico</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Norico</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ノリクム</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Noriked</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Norik</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Nórica</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Норик</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Nòrica</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Норік</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Noriško kraljestvo</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Норик</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Norik</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Norikas</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Reiaume de Norica</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Норик</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Норик</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">诺里库姆</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Nórico</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">נוריקום</skos:prefLabel>
+        <skos:prefLabel xml:lang="am">ኖሪኩም</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Норик</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0h820"/>
+        <skos:exactMatch rdf:resource="http://sws.geonames.org/8133605/"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4042608-7"/>
+        <skos:prefLabel xml:lang="ia">Provincia Noricum</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Norikum</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/noricum#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/region/498"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/greek_europe"/>
+    </nmo:Region>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/noricum#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/noricum"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T10:10:19.981-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/noricum"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-21T15:11:30+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-27T20:18:19+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-09T10:10:19.981-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-04T14:28:24.789Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
