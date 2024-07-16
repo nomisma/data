@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Denomination rdf:about="http://nomisma.org/id/rb-sheqel">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Rb' sheqel</skos:prefLabel>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0400</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0300</nmo:hasEndDate>
+        <skos:definition xml:lang="en">Denomination of the Philistian Standard, most likely quarter of a sheqel of 14.32g (calculated weight). Mean weight of 3.58g. The name of this denomination is not securely attested, yet a late fourth-century papyrus found in Ketef Jericho suggests it's use.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:source rdf:resource="http://nomisma.org/id/yehud_coinage"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/rb-sheqel#provenance"/>
+    </nmo:Denomination>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/rb-sheqel#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/rb-sheqel"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-15T14:23:28.853Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1cTGgcOdj9eM4H0h-u9bphT1xj5dpIjayZnEXm6W85VA/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
