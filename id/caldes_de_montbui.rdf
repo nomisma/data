@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/caldes_de_montbui">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Caldes de Montbui</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Caldas de Montbuy</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Caldes de Montbui</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Caldes de Montbui</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Caldes de Montbui</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Caldes de Montbui</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint, established in the town of Caldas de Montbui, in the province of Barcelona (Catalonia, Spain). There are records of its activity since 1473, when the minting of lead senyals (tokens) began. It remained in operation until 1642. This mint issued lead senyals, billon diners, copper sixenes, and pieces of 5 rals / reials.</skos:definition>
+        <skos:definition xml:lang="ca">Seca d'època medieval i moderna (cristiana), establida en la població barcelonesa de Caldes de Montbui, Espanya. Tenim notícies de la seua activitat des de l'any 1473, quan va iniciar l'encunyació de ploms. Estigué en producció fins a l'any 1642, i durant tot aquell període s'hi fabricaren ploms, senyals, diners, sisens d'aram i peces de 5 rals.</skos:definition>
+        <skos:definition xml:lang="es">Ceca de época medieval y moderna (cristiana), establecida en la población barcelonesa de Caldas de Montbuy, España. Se tienen noticias de su actividad desde el año 1473, cuando inició la acuñación de plomos. Estuvo es producción hasta el año 1642, y durante todo aquel período se fabricaron plomos, señales, dineros, seisenes de cobre y piezas de 5 reales.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Caldes_de_Montbui"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3127035/caldes-de-montbui.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/caldes_de_montbui#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/caldes_de_montbui#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/caldes_de_montbui#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.63333</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.16667</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/caldes_de_montbui#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/caldes_de_montbui"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

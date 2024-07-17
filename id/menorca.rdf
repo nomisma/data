@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/menorca">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Menorca</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Menorca</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Menorca</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Menorca</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Menorca</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Menorca</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval Christian mint located in the island of Menorca (Balearic Islands, Spain) during the 15th century. It was established by King Alfonso V of Aragon and operated until 1454, shortly before the monarch's death. Diners were produced at this mint.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana localitzada a l'illa de Menorca, Espanya, al segle XV. Establida pel rei Alfons V d'Aragó; estigué en funcionament fins a l'any 1454, poc abans de la mort del monarca. En aquesta seca s'encunyaren diners.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana localizada en la isla de Menorca, España, en el siglo XV. Establecida por el rey Alfonso V de Aragón. Estuvo en funcionamiento hasta el año 1454, poco antes de la muerte del monarca. En esta ceca se acuñaron dineros.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Menorca"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2513925/minorca.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/menorca#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/menorca#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/menorca#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.01000</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.01000</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/menorca#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/menorca"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

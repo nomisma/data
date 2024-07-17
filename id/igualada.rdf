@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/igualada">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Igualada</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Igualada</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Igualada</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Igualada</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Igualada</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Igualada</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint dedicated to the production of local currency, located in the town of Igualada (province of Barcelona, Catalonia, Spain). There are documentary reports of municipal issuances since 1468 to an unknown date, and again in 1641, but no pieces have been identified yet.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana de moneda local, situada en la població d'Igualada, a la província de Barcelona, Espanya. Hi ha notícies documentals de les emissions municipals, però no s'ha localitzat o identificat encara cap peça. Sembla que aquestes encunyacions podrien haver començat en l'any 1468, per a fabricar diners, i de nou en l'any 1641, a l'inici de la guerra dels Segadors a Catalunya (1640-1652).</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana de moneda local, situada en la población de Igualada, en la provincia de Barcelona, España. Existen noticias documentales de las emisiones municipales, pero no se ha identificado o localizado por ahora ninguna pieza. Parece que estas acuñaciones podrían haber comenzado en el año 1468, para la fabricación de dineros, y de nuevo en el año 1641, al principio de la Guerra de los Segadores en Cataluña (1640-1652).</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Igualada"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3120431/igualada.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/igualada#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/igualada#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/igualada#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.5842</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.61999</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/igualada#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/igualada"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/girona">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Girona</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Gerona</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Girona</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Girona</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Gérone</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gerona</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint, located in the Catalan city of Girona (Catalonia, Spain). It produced Carolingian and county coins during the 10th and 11th centuries, and episcopal currency. Over time, it lost relevance in front of the mint of Barcelona. In 1463, King John II of Aragon approved the production of local currency and in 1481 King Ferdinand II of Aragon granted a privilege to continue minting local coins, a practice that lasted until the Catalan Reapers' War (1640-1652). Exceptionally, it resumed its production during the War of Spanish Independence (1808-1814). It closed permanently in the 19th century.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, localitzada en la ciutat catalana de Girona, Espanya. En ella es va encunyar moneda carolíngia i comtal (segles X-XI). En la ciutat es van fabricar també monedes episcopals. Va anar perdent rellevància davant la seca de Barcelona. En 1463, el rei Joan II d'Aragó aprovà la fabricació de moneda local. En 1481, el rei Ferran II d'Aragó li concedí un privilegi a la ciutat perquè continuara encunyant moneda local, fet que es mantindre fins a la Guerra dels Segadors a Catalunya (1640-1652). De manera excepcional, tornà a encunyar moneda durant la Guerra del Francés o d'Independència (1808-1814). Va tancar en el segle XIX.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, localizada en la ciudad catalana de Gerona, España. En ella se acuñó moneda carolingia y condal (siglos X-XI). En la ciudad se fabricaron, también, monedas episcopales. Fue perdiendo relevancia ante la ceca de Barcelona. En 1463, el rey Juan II de Aragón aprobó la fabricación de moneda local. En el año 1481, el rey Fernando II de Aragón concedió un privilegio a la ciudad para que continuase acuñando moneda local, hecho que se mantendría hasta la guerra de los Segadores (Cataluña, 1640-1652). De forma excepcional, volvió a acuñar moneda durante la guerra de Independencia (1808-1814). Cerró en el siglo XIX.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Girona"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3121456/girona.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/girona#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/girona#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/girona#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.98311</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.82493</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/girona#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/girona"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

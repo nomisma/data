@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/poblet">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Poblet</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Poblet</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Poblet</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Poblet</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Poblet</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Poblet</skos:prefLabel>
+        <skos:definition xml:lang="en">The medieval and modern Christian mint, dedicated to local coinage, was located in the town of Poblet (province of Tarragona, Catalonia, Spain). There are hypothetical emissions of lead tokens between 1502 and 1526, as well as silver coins minted between 1648 and 1652, both issued by the Abbey of Poblet.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, de moneda local, situada en la població de Poblet, a la província de Tarragona, Espanya. Hi ha emissions hipotètiques de ploms entre els anys 1502 i 1526, i de moneda d'argent entre 1648 i 1652, ambdues abacials.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, de moneda local, situada en la población de Poblet, en la provincia de Tarragona, España. Hay emisiones hipotéticas de plomos entre los años 1502 y 1526, y de moneda de plata entre 1648 y 1652, las dos abaciales.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Poblet_Abbey"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/9883558/poblet.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/poblet#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/poblet#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/poblet#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.38083</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.08157</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/poblet#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/poblet"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

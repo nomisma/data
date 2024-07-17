@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/castello_de_farfanya">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Castelló de Farfanya</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Castellón de Farfaña</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Castelló de Farfanya</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Castelló de Farfanya</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Castelló de Farfanya</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Castelló de Farfanya</skos:prefLabel>
+        <skos:definition xml:lang="en">Christian medieval and modern mint, dedicated to the production of local currency, located in the town of Castelló de Farfanya (province of Lleida, Catalonia, Spain). Between 1298 and 1400, it already produced pougeoises, but no pieces from these emissions have been found. It minted pougeoises and copper senyals between the 15th and 16th centuries. It is unknown if it continued to produce coins in the 17th century, despite the concessions granted in 1645 to mint ardits and diners.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, dedicada a la producció de moneda local, situada en la població de Castelló de Farfanya, a l'actual província de Lleida, Espanya. Entre els anys 1298 i 1400 ja produí pugeses, però no s'ha trobat cap peça d'aquestes emissions. Encunyà pugeses de llautó i senyals d'aram entre els segles XV i XVI. Es deconeix si va seguir produïnt moneda en el segle XVII, malgrat les concessions de 1645 per a fabricar ardits i moneda d'argent.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, dedicada a la producción de moneda local, situada en la població de Castellón de Farfaña, en la actual provincia de Lérida, España. Entre los años 1298 y 1400 ya produjo pugesas, pero no se ha encontrado ninguna pieza de estas emisiones. Acuñó pugesas y señales de cobre entre los siglos XV y XVI. Se desconoce si siguió produciendo moneda en el siglo XVII, a pesar de las concesiones del año 1645 para fabricar ardites y moneda de plata.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Castell%C3%B3_de_Farfanya"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3125883/castello-de-farfanya.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/castello_de_farfanya#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/castello_de_farfanya#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/castello_de_farfanya#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.81667</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.73333</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/castello_de_farfanya#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/castello_de_farfanya"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

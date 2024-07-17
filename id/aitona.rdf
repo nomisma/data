@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/aitona">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Aitona</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Aitona</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Aitona</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Aitona</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Aitona</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Aitona</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint, established in the town of Aitona (province of Lleida, Catalonia, Spain). It was dedicated to the production of local currency. While some authors attribute pougeoises and countermarks to this mint between the 14th and 16th centuries, others believe that the issuances could have taken place in the 15th century, although they are still considered hypothetical.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, localitzada en la població d'Aitona, a la província de Lleida, Espanya, i dedicada a la fabricació de moneda local. Encara que alguns autors atribueixen pugeses de llautó i contramarques a aquesta seca, entre els segles XIV i XVI, altres opinen que les emissions podrien haver-se produït en el segle XV, encara que les consideren hipotètiques.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, establecida en la población de Aitona, en la provincia de Lérida, España, y dedicada a la fabricación de moneda local. Aunque algunos autores atribuyen pugesas y contramarcas a esta ceca, entre los siglos XIV y XVI, otros opinan que las emisiones pudieron haberse producido en el siglo XV, aunque todavía las consideran hipotéticas.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Aitona"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3129099/aitona.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/aitona#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/aitona#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/aitona#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.48333</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.46667</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/aitona#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/aitona"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/bellpuig">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Bellpuig</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Bellpuig</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Bellpuig d'Urgell</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bellpuig</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Bellpuig</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Bellpuig</skos:prefLabel>
+        <skos:definition xml:lang="en">Modern mint dedicated to the production of local currency, located in the town of Bellpuig (province of Lleida, Catalonia, Spain). It mainly minted ardits, but also sixenes, senyals (tokens), and diners between the 16th and 17th centuries. The first issuance of lead senyals (tokens), between the years 1462 and 1556, has not been documented with the discovery of any pieces. Its production ceased in the year 1670.</skos:definition>
+        <skos:definition xml:lang="ca">Seca d'època moderna, dedicada a la producció de moneda local, situada en la població de Bellpuig d'Urgell, a la província de Lleida, Espanya. Encunyà sobretot ardits, però també sisens, senyals i diners entre els segles XVI i XVII. Una primera encunyació de ploms, situada entre els anys 1462 i 1556, no ha pogut ser encara documentada amb troballes de peces. Va finalitzar la seua producció en l'any 1670.</skos:definition>
+        <skos:definition xml:lang="es">Ceca de época moderna, dedicada a la producción de moneda local, situada en la población de Bellpuig, en la provincia de Lérida, España. Acuñó sobre todo ardites, pero también seisenes, señales y dineros entre los siglos XVI y XVII. Un primera acuñación de plomos, comprendida entre los años 1462 y 1556, no ha podido ser documentada con hallazgos de piezas. Finalizó su producción en el año 1670.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Bellpuig"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3128336/bellpuig.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/bellpuig#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/bellpuig#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/bellpuig#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.62595</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.01144</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/bellpuig#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/bellpuig"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

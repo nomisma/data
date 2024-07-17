@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/naples">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Naples</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Nápoles</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Nàpols</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Neapel</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Naples</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Napoli</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval Christian and modern mint, located in the city of Naples, Italy. It produced currency throughout the Middle Ages, but gained greater significance with its incorporation into the Kingdom of Naples, first under the sovereignty of the Kings of Aragon in the 15th century, and later under the Spanish Monarchy until the reign of Charles III of Spain in the 18th century. Its activity ceased in the year 1867. Fot the ancient mint of Napoli, see http://nomisma.org/id/neapolis_campania.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana i d'època moderna, situada en la ciutat de Nàpols, Itàlia. Encunyà moneda al llarg de l'Edat Mitjana, encara que prendria gran importància amb la seua incorporació al regne de Nàpols, primer sota la sobirania dels reis d'Aragó, al segle XV, i després de la Monarquia Hispànica, fins al regnat de Carles III de Borbó (segle XVIII). La seua activitat va finalitzar en l'any 1867. Per a l'antigua seca de Napoli, vedeu http://nomisma.org/id/neapolis_campania.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana y de época moderna, situada en la ciudad de Nápoles, Italia. Acuñó moneda a lo largo de la Edad Media, aunque tomaría mayor relevancia con su incorporación al reino de Nápoles, primero bajo la soberanía de los reyes de Aragón, en el siglo XV, y después de la Monarquía Hispánica, hasta el reinado de Carlos III de Borbón (siglo XVIII). Su actividad cesó en el año 1867. Para la antigua ceca de Napoli, véase http://nomisma.org/id/neapolis_campania.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Naples"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3172394/naples.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/naples#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_italian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/naples#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/naples#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.85216</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.26811</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/naples#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/naples"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

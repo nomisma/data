@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/camprodon">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Camprodon</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Camprodón</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Camprodon</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Camprodon</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Camprodon</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Camprodon</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint, located in the town of Camprodon, in the province of Girona (Catalonia, Spain). Only one type of coin is known, with a probable dating from the 16th century. There are documentary records of productions dating back to 1483, as well as emissions of pieces of 5 silver rals / reials and diners in 1642, during the Catalan Reapers' War (1640-1652). However, no coins that can be associated with these emissions have been found.</skos:definition>
+        <skos:definition xml:lang="ca">Seca d'època baixmedieval i moderna (cristiana), situada en la població de Camprodon, a la província de Girona, Espanya. Només es coneix un tipus de diner, amb una probable datació del segle XVI. Existeixen notícies documentals de produccions des de l'any 1483, i d'emissions de peces de 5 rals d'argent i de diners menuts en 1642, durant la Guerra dels Segadors (1640-1652), però no s'han trobat monedes que es puguen associar a elles.</skos:definition>
+        <skos:definition xml:lang="es">Ceca de época medieval y moderna (cristiana), situada en la población de Camprodon, en la provincia de Gerona, España. Solamente se conoce un tipo de dinero, con una probable datación del siglo XVI. Existen noticias documentales de producciones desde el año 1483, y de emisiones de piezas de 5 reales de plata y de dineros en 1642, durante la guerra de los Segadores (1640-1652), pero no se han encontrado monedas que se puedan asociar a ellas.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Camprodon"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3126722/camprodon.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/camprodon#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/camprodon#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/camprodon#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.31185</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.36506</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/camprodon#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/camprodon"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

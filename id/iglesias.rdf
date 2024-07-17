@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/iglesias">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Iglesias</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Chiesa</skos:altLabel>
+        <skos:prefLabel xml:lang="es">Iglesias</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Esglésies</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Iglesias</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Iglesias</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Iglesias</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval mint located in the town of Iglesias, formerly known as Chiesa, on the island of Sardinia, Italy. The first coin minting is documented in the last third of the 13th century. After the island was conquered by the aragonese kings and incorporated into the Crown of Aragon, the mint began producing currency under the standard of the Barcelona royal mark. Coins made of billon, silver, and gold were minted. Cf. Travaini 2011, p. 755-764.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval localitzada en la vila d'Esglésies, antiga Chiesa, a l'illa de Sardenya, Itàlia. Les primeres encunyacions de moneda s'hi documenten al darrer terç del segle XIII. Arran de la conquesta de l'illa per part dels reis de la Corona d'Aragó, i la seua incorporació als territoris del rei aragonés, la seca començà a batre moneda sota el patró del marc reial de Barcelona. S'hi van produïr peces de billó, argent i or. Cf. Travaini 2011, p. 755-764.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval localizada en la villa de Iglesias, antigua Chiesa, en la isla de Cerdeña, Italia. Las primeras acuñaciones de moneda se documentan en el último tercio del siglo XIII. A partir de la conquista de la isla por parte de los reyes de Corona de Aragón, y su incorporación a los territorios del monarca aragonés, la ceca comenzó a producir moneda bajo el patrón del marco real de Barcelona. Se acuñaron piezas de vellón, plata y oro. Cf. Travaini 2011, p. 755-764.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Iglesias,_Sardinia"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2524533/iglesias.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/iglesias#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_italian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/iglesias#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/iglesias#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.31341</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.53234</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/iglesias#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/iglesias"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

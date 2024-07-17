@@ -63,6 +63,11 @@
         <skos:changeNote rdf:resource="http://nomisma.org/id/al-mariyah#provenance"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <skos:prefLabel xml:lang="ca">Al-Mariya</skos:prefLabel>
+        <skos:definition xml:lang="ca">Seca medieval islàmica localitzada en l'actual ciutat d'Almeria, Espanya. La seua activitat es va desenvolupar des del segle XI fins a la conquesta cristiana de la ciutat.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval islámica localizada en la actual ciudad de Almería, comunidad autónoma de Andalucía, España. Su actividad se desarrolló desde el siglo XI hasta la conquista cristiana de la ciudad.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Almer%C3%ADa"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2521886/almeria.html"/>
     </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/al-mariyah#this">
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.83814</geo:lat>
@@ -101,6 +106,15 @@
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-22T06:49:24.919Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
 					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

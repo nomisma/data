@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/montblanc">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Montblanc</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Montblanch</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Montblanc</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Montblanc</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Montblanc</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Montblanc</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint, dedicated to the production of local currency, located in the town of Montblanc (province of Tarragona, Catalonia, Spain). In 1466, it received authorization to issue gold and silver coins. Between 1508 and 1611, several emissions of lead and copper diners were apparently produced.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, dedicada a la producció de moneda local, situada en la població de Montblanc, a la província de Tarragona, Espanya. Rebé autorització en 1466 per a encunyar moneda d'or i d'argent. Entre 1508 i 1611 sembla que es desenvoluparen diverses emissions de diners de plom i llautó, encara que no documentades amb troballes de moment.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, dedicada a la producción de moneda local, situada en la población de Montblanch, en la provincia de Tarragona, España. Recibió autorización en el año 1466 para acuñar moneda de oro y de plata. Entre 1508 y 1611, parece que se desarrollaron varias emisiones de dineros de plomo y de cobre, aunque sin documentar de momento con hallazgos.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Montblanc,_Tarragona"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3116411/montblanc.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/montblanc#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/montblanc#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/montblanc#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.37636</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.16163</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/montblanc#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/montblanc"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

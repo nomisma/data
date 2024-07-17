@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/montpellier">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Montpellier</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Montpellier</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Montpeller</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Montpellier</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Montpellier</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Montpellier</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval mint established in Montpellier, southern France. It succeeded the mint of Maguelone (in Occitan, Melguelh). The mint is believed to have been in operation since the creation of the Lordship of Montpellier in the late 10th century until it was sold by King James III of Majorca in 1349 to the Kingdom of France. It enjoyed great importance, especially in the 12th and 13th centuries, with the minting of silver-rich melgorese deniers, which were widespread in many territories of Western Europe. It also produced silver groats under the lordship of King James I of Aragon.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana establida en la senyoria de Montpeller, a l'Occitània (sud de França). Fou la successora de la seca de Magalona (en occità, Melguelh). La seca degué estar en funcionament des de la creació de la senyoria, a les acaballes del segle X (dinastia dels Guillem; en occità Guilhem), fins que en 1349 el rei Jaume III de Mallorca (dinastia aragonesa-mallorquina) la va vendre i passà sota el domini del regne de França. Va gaudir d'una gran importància, sobretot, en els segles XII i XIII, amb l'encunyació de diners melgoresos rics en argent, presents per bona part dels territoris de l'Europa occidental, i també sota la senyoria de Jaume I d'Aragó, quan començaren a encunyar-se de grossos d'argent.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana establecida en el señorío de Montpellier, en Occitania (sur de Francia). Fue la sucesora de la ceca de Maguelone (en occitano, Melguelh). La ceca debió estar en funcionamiento desde la creación del señorío, a finales del siglo X (dinastía de los Guillem, en occitano Guilhem), hasta que en el año 1349 el rey Jaime III de Mallorca (dinastía aragonesa-mallorquina) la vendió y pasó bajo el dominio del reino de Francia. Gozó de gran importancia, sobre todo, en los siglos XII y XIII, con la acuñación de dineros melgoreses ricos en plata, presentes en buena parte de los territorios de Europa occidental, y también bajo el señorío del rey Jaime I de Aragón, cuando comenzaron a acuñarse gruesos de plata.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Montpellier"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2992166/montpellier.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/montpellier#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/montpellier#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/montpellier#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.61093</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.87635</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/montpellier#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/montpellier"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

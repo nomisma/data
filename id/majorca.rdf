@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/majorca">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Majorca</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Mallorca</skos:altLabel>
+        <skos:prefLabel xml:lang="es">Mallorca</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Mallorca</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mallorca</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Mallorca</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Mallorca</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint, established in Palma de Mallorca (Balearic Islands, island of Majorca, Spain). It first minted billon diners under the lordship of Peter I of Urgell, between 1231 and 1258. Under the governance of the Kings of Majorca and after the Kings of Aragon and, finally, the Hispanic Monarchy, the Majorcan mint produced coins made of billon, silver, and gold, maintaining irregularly its activity until the 19th century when it definitively closed. For the muslim mint, see “Mayurqah”.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, establida en l'illa de Mallorca, España, després que el rei Jaume I d'Aragó li la conquerira als musulmans en l'any 1229. El taller monetari, localitzat en la seua capital, actualment denominada Palma de Mallorca, va encunyar diners per primera vegada sota el domini de Pere de Portugal, també anomenat Pere I d'Urgell, entre els anys 1231 i 1258. Sota el govern dels reis de Mallorca primer, dels reis d'Aragó (a partir de la conquesta de Pere IV d'Aragó al segle XIV, i la incorporació del territori a la Corona aragonesa) i, per últim, de la Monarquia Hispànica, la seca de Mallorca va batre moneda de billó, argent i or, mantenint la seua activitat fins al segle XIX, quan va tancar de manera definitiva. Per a la seca islàmica, vegeu “Mayurqa”.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, establecida en la isla de Mallorca, España, después de que el rey Jaime I de Aragón la conquistase a los musulmanes en l'any 1229. El taller monetario, localizado en su capital, actualmente denominada Palma de Mallorca, acuñó dineros por primera vez bajo el dominio de Pedro de Portugal, también conocido como Pedro I de Urgel, entre los años 1231 y 1258. Bajo el gobierno de los reyes de Mallorca primero, de los reyes de Aragón (a partir de la conquista de Pedro IV de Aragón, en el siglo XIV, y la incorporación del territorio a la Corona aragonesa) y, por último, de la Monarquía Hispánica, la ceca mallorquina acuñó moneda de vellón, plata y oro, manteniendo su actividad hasta el siglo XIX, cuando cerró definitivamente. Para la ceca islámica, véase “Mayurqa”.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Palma_de_Mallorca"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2512989/palma.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/majorca#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/majorca#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/majorca#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.56939</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.65024</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/majorca#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/majorca"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

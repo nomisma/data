@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,36 +18,54 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/madinat_al-zahra">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Madinat al-Zahra</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">مدينة الزهراء</skos:prefLabel>
-      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Al-Zahra"/>
-      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q310110"/>
-      <skos:prefLabel xml:lang="de">Az-Zahra’</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Az-Zahra</skos:prefLabel>
-      <skos:prefLabel xml:lang="ur">الزہرا</skos:prefLabel>
-      <skos:closeMatch rdf:resource="https://www.freebase.com/m/05q6r17"/>
-      <skos:definition xml:lang="en">Al-Zahra (Arabic: الزهراء‎) is a Palestinian municipality in the Gaza Governorate, south of Gaza, in the central Gaza Strip. It's the home of the University of Palestine, and Ummah Open University. In 2009, it had a population of 3,085. There were 837 housing units and 237 other buildings in the town.[1]</skos:definition>
-      <skos:closeMatch rdf:resource="http://sws.geonames.org/2513963/"/>
-      <geo:location rdf:resource="http://nomisma.org/id/madinat_al-zahra#this"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/madinat_al-zahra#provenance"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Madinat al-Zahra</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">مدينة الزهراء</skos:prefLabel>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Al-Zahra"/>
+        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q310110"/>
+        <skos:prefLabel xml:lang="de">Az-Zahra’</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Az-Zahra</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">الزہرا</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/05q6r17"/>
+        <skos:definition xml:lang="en">Al-Zahra (Arabic: الزهراء‎) is a Palestinian municipality in the Gaza Governorate, south of Gaza, in the central Gaza Strip. It's the home of the University of Palestine, and Ummah Open University. In 2009, it had a population of 3,085. There were 837 housing units and 237 other buildings in the town.[1]</skos:definition>
+        <skos:closeMatch rdf:resource="http://sws.geonames.org/2513963/"/>
+        <geo:location rdf:resource="http://nomisma.org/id/madinat_al-zahra#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/madinat_al-zahra#provenance"/>
+        <skos:prefLabel xml:lang="es">Medina Azahara</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Madinat az-Zahrà</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Madinat al-Zahra</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Madinat al-Zahra'</skos:prefLabel>
+        <skos:definition xml:lang="ca">Seca medieval islàmica que va funcionar en la desapareguda ciutat palatina de Medina Azahara (província de Còrdova, Espanya) durant el califat, en la segona meitat del segle X i, després, durant solament un any, a començaments del segle XI.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval islámica que funcionó en la desaparecida ciudad palatina de Medina Azahara (provincia de Córdoba, España) durante el califato, en la segunda mitad del siglo X, y luego durante un solo año a principios del siglo XI.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Madinat_al-Zahra"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/madinat_al-zahra#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.88607</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-4.86852</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.88607</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-4.86852</geo:long>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/madinat_al-zahra#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/madinat_al-zahra"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-28T17:58:06+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1coVOCMmTGlmh89lBLwT-_TX2qYeRHc6VLZVbCVfqyNk/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/madinat_al-zahra"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-28T17:58:06+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1coVOCMmTGlmh89lBLwT-_TX2qYeRHc6VLZVbCVfqyNk/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/cubells">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Cubells</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cubells</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Cubells</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Cubells</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Cubells</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Cubells</skos:prefLabel>
+        <skos:definition xml:lang="en">Christian medieval mint, dedicated to the production of local currency, located in the town of Cubells (province of Lleida, Catalonia, Spain). In 1299, it obtained a license to mint pougeoises similar to those of Lleida, and it appears to have continued minting them in the 14th and 15th centuries, along with some senyals. It is possible that this mint resumed the production of these coins in the 17th century, although with uncertainties.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana, dedicada a la producció de moneda local, situada en la població de Cubells, a la província de Lleida, Espanya. Entre els segles XIV i XV va encunyar pugeses i senyals. És probable que tornara a encunyar senyals al segle XVII, encara que amb dubtes.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana, dedicada a la producción de moneda local, situada en la población de Cubells, en la provincia de Lérida, España. En 1299 obtuvo licencia para fabricar pugesas como las de Lérida, y parece que las siguió acuñando en los siglos XIV y XV, junto con algunas señales. Es probable que volviera a fabricar estas piezas en el siglo XVII, aunque con dudas.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Cubells"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3124200/cubells.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/cubells#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/cubells#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/cubells#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.85062</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.95900</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cubells#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/cubells"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

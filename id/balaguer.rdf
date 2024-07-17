@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/balaguer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Balaguer</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Balaguer</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Balaguer</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Balaguer</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Balaguer</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Balaguer</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval Christian mint located in Balaguer (province of Lleida, Catalonia, Spain). The mint produced pougeoises (quarters of diner), senyals (tokens) and other local coins, especially during the rule of the Countess Teresa d'Entença (1300-1327). It also minted silver diners and obols in the name of the different counts called Ermengol, which circulated throughout the territories of the Crown of Aragon, altough in small quantities. The mint remained operational until, at least, 1642.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana localitzada en la població catalana de Balaguer, Espanya. Fou la capital històrica del Comtat d'Urgell, entitat política independent des de l'any 785 fins al 1413, quan s'incorpora de manera definitiva a la Corona d'Aragó. Encunyà llautons, pugeses o quarts de diner i senyals, sobretot sota el comtat de Teresa d'Entença, comtessa d'Urgell (1300-1327), i també diners i òbols urgellesos, a nom dels distints comtes Ermengol, i que van circular per tots els territoris de la Corona d'Aragó, encara que en poca quantitat. Va estar en funcionament, almenys, fins a l'any 1642.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana localizada en la población catalana de Balaguer, España. Fue capital histórica del condado de Urgel, entidad política independiente desde el año 785 hasta el año 1413, cuando se incorporó de manera definitiva a la Corona de Aragón. Acuñó pugesas o cuartos de dinero, señales y otras monedas locales, sobre todo bajo el condado de Teresa de Entenza, condesa de Urgel (1300-1327), y también dineros y óbolos urgeleses, a nombre de los distintos condes Ermengol, y que circularon por todos los territorios de la Corona de Aragón, aunque en poca cantidad. Estuvo en funcionamiento, al menos, hasta el año 1642.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Balaguer"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3128978/balaguer.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/balaguer#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/balaguer#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/balaguer#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.79117</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.81094</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/balaguer#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/balaguer"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

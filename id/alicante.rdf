@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/alicante">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Alicante</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Alicante</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Alacant</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Alicante</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Alicante</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Alicante</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval Christian mint located in the city of Alicante, Spain. It was in operation during the reign of King James II of Aragon, between the years 1296 and 1301. It produced billon diners known as "reales of Murcia." Although there are documentary records of the existence of billon obols and possible silver groats, it appears, for now, that they were never actually issued. The mint ceased to exist when the civil authorities of Alicante requested to adopt the currency of Valencia and decided to abandon the "reales of Murcia".</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana localitzada en la ciutat costanera d'Alacant, Espanya. Estigué en funcionament durant el regnat del rei Jaume II d'Aragó, entre els anys 1296 i 1301, per a l'encunyació de reials murcians de billó (diners); hi ha notícies documentals de l'existència d'òbols de billó i de possibles grossos d'argent, però sembla, de moment, que mai van arribar a encunyar-se. La seca desaparegué quan les autoritats alacantines van demanar al rei adherir-se al curs de la moneda valenciana i abandonar els reials murcians, a causa dels perjudicis que la nova moneda els produïa.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana localizada en la ciudad costera de Alicante, España. Estuvo en funcionamiento durante el reinado del rey Jaime II de Aragón, entre los años 1296 y 1301, para la acuñación de reales murcianos de vellón (dineros); hay noticias documentales de la existencia de óbolos de vellón, y de posibles gruesos de plata, pero parece, por el momento, que nunca llegaron a acuñarse. La ceca desapareció cuando las autoridades de Alicante pidieron al rey adherirse al curso de la moneda valenciana y abandonar los reales murcianos, por los perjuicios que la nueva moneda les causaba.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Alicante"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2521978/alicante.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/alicante#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/alicante#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/alicante#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.34517</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.48149</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/alicante#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/alicante"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

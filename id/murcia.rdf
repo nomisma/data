@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/murcia">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Murcia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Murcia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Múrcia</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Murcia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Murcie</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Murcia</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval Christian mint belonging to the Kingdom of Castile, located in the town of Murcia, Spain. Billon, silver and gold coins were minted here between the 13th and 15th centuries. For the muslim mint, see “Mursiyah”.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana pertanyent al regne de Castella, situada en la localitat de Múrcia, Espanya. Encunyà billó, argent i or entre els segles XIII i XV. Per a la seca islàmica, vegeu “Mursiya”.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana perteneciente al reino de Castilla, situada en la localidad de Murcia, España. Acuñó vellón, plata y oro entre los siglos XIII y XV. Para la ceca islámica, véase “Mursiya”.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Murcia"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2513416/murcia.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/murcia#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/murcia#provenance"/>
+    </nmo:Mint>
+   
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/murcia#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.98704</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.13004</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/murcia#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/murcia"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

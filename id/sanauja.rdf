@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/sanauja">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Sanaüja</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Sanahúja</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Sanaüja</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sanaüja</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sanaüja</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sanaüja</skos:prefLabel>
+        <skos:definition xml:lang="en">The medieval and modern Christian mint was located in the town of Sanaüja, in the province of Lleida (Catalonia, Spain). It began minting coins in the 11th century, although its activity seems to have ceased in the first third of the 12th century due to the presence of other county mints. There were possible emissions of pougeoises between the late 13th century and the 15th century, and in the second half of the 16th century there were emissions of incuse diners. In 1642, sixenes made of copper were produced, although no pieces that can be attributed to this period have been located yet.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, localitzada en la població de Sanaüja, a la província de Lleida, Espanya. Començà a encunyar moneda en el segle XI, encara que sembla que la seua activitat es va paralitzar en el primer terç del segle XII, davant l'activitat d'altres seques comtals. Entre les acaballes del segle XIII i el segle XV hi hagué possibles emissions de pugeses, i en la segona meitat del segle XVI, de diners incusos. En 1642 es fabricaren sisens d'aram, encara que no s'han trobat peces que es puguen atribuïr a aquest batiment.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, localizada en la población de Sanahúja, en la provincia de Lérida, España. Empezó a acuñar moneda en el siglo XI, aunque parece que su actividad se paralizó en el primer tercio del siglo XII, ante la activitat de otras cecas condales. Entre finales del siglo XIII y el siglo XV, hubo posibles emisiones de pugesas, y en la segunda mitad del siglo XVI, de dineros incusos. En 1642 se fabricaron seisenes de cobre, aunque no se han localizado aún piezas que se puedan atribuir a este momento.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Sana%C3%BCja"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3110908/sanaueja.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/sanauja#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/sanauja#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/sanauja#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.88333</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.31667</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sanauja#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/sanauja"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

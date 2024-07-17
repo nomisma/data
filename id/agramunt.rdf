@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/agramunt">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Agramunt</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Agramunt</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Agramunt</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Agramunt</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Agramunt</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Agramunt</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint located in Agramunt (province of Lleida, Catalonia, Spain). We have knowledge of coin minting since the 11th century, when it was a county mint belonging to the County of Urgell, that produced diners. The earliest written records indicate the existence of coin issuances in the early 14th century, for the production of pougeoises and, later, diners. It remained in operation until the year 1645.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana localitzada en la població catalana d'Agramunt, en l'actual província de Lleida, Espanya. Sabem de l'existència d'encunyacions de moneda al segle XI, quan ja era seca comtal pertanyent al comtat d'Urgell (785-1413) i produïa diners. No obstant, les primeres notícies documentals ens indiquen l'existència d'emissions monetàries a començaments del segle XIV, per a la fabricació de pugeses, i més endavant també de diners. Estigué en funcionament fins a l'any 1645</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, localizada en la población catalana de Agramunt, en la actual provincia de Lérida, España. Sabemos de la existencia de acuñaciones de moneda en el siglo XI, cuando ya era ceca condal perteneciente al condado de Urgel (785-1413) y producía dineros. No obstante, las primeras noticias documentales nos indican la existencia de emisiones monetarias a inicios del siglo XIV, para la fabricación de pugesas y, más adelante, también dineros. Estuvo en funcionamiento hasta el año 1645.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Agramunt"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3130911/agramunt.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/agramunt#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/agramunt#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/agramunt#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.78686</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.09683</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/agramunt#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/agramunt"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

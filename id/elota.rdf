@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/elota">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Elota</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Elota</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Elota</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Elota</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Elota</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Elota</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">الوطة</skos:prefLabel>
+        <skos:definition xml:lang="en">The medieval muslim mint of unknown location, located in Spain, appears to have started minting coins in the early stages of political instability that led to the disintegration of the Caliphate of Córdoba in the early 11th century. Coins from this mint bear various inscriptions, such as Elota, Aluta, al-Weteh, al-Watah, or al-Wata.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval islàmica de localització desconeguda, situada en Espanya, i que pareix que comença a encunyar moneda en els primers moments d'inestabilitat política que portaran a la desintegració del califat de Còrdova a començaments del segle XI. Les monedes d'aquesta seca presenten diverses lectures, com Elota, Aluta, al-Weteh, al-Watah o al-Wata.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval islámica de localización desconocida, situada en España, y que parece que empieza a acuñar moneda en los primeros momentos de inestabilidad política que llevarán a la desintegración del califato de Córdoba a principios del siglo XI. Las monedas con esta ceca presentan varias lecturas, como Elota, Aluta, al-Weteh, al-Watah o al-Wata.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/elota#provenance"/>
+    </nmo:Mint>
+   
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/elota#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/elota"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

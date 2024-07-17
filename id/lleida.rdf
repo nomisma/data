@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/lleida">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Lleida</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Lérida</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Lleida</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Lleida</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Lérida</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Lleida</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint located in the city of Lleida (Catalonia, Spain). At least from 1340, if not earlier, pougeoises were minted. It continued this activity until the second half of the 17th century. In the modern period, it also produced diners and silver currency. For the ancient mint of Lleida, see http://nomisma.org/id/ilerda.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, localitzada en la ciutat de Lleida, Espanya. Almenys des de l'any 1340, si no abans, encunyava pugeses (sembla que en 1299 ja n'emitia, però aquestes produccions, entre aquell any i 1339, no s'han documentat amb troballes). Continuà amb aquesta activitat fins a la segona meitat del segle XVII. En època moderna també encunyà diners i moneda d'argent. Per a l'antigua seca de Lleida, vedeu http://nomisma.org/id/ilerda.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, localizada en la ciudad de Lérida, España. Al menos desde el año 1340, si no antes, acuñaba pugesas (parece que en 1299 ya las emitía, pero estas producciones, entre aquel año y 1339, no se han podido documentar con hallazgos monetarios). Continuó con esta actividad hasta la segunda mitad del siglo XVII. En época moderna también acuñó dineros y moneda de plata. Para la antigua ceca de Lleida, véase http://nomisma.org/id/ilerda.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Lleida"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3118514/lleida.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/lleida#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/lleida#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/lleida#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.61674</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.62218</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/lleida#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/lleida"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

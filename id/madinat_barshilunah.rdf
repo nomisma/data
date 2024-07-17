@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/madinat_barshilunah">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Madinat Barshilunah</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Madinat Barshinunah</skos:altLabel>
+        <skos:prefLabel xml:lang="es">Madinat Barshiluna</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Madinat Barshiluna</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Madinat Barshiluna</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Madinat Barshiluna</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Madinat Barshiluna</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">ﻣﺪﯾﻨﺔ برشلونة</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval oriental mint, located in the city of Barcelona (Catalonia, Spain). For the christian medieval and modern mint, see http://nomisma.org/id/barcelona. For the ancient mint, see http://nomisma.org/id/barcino and http://nomisma.org/id/barkeno.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval islàmica, localitzada en la ciutat de Barcelona, actual capital de la comunitat autònoma de Catalunya, Espanya. Per a la seca cristiana, vegeu http://nomisma.org/id/barcelona. Per a l'antigua seca de Barcelona, vedeu http://nomisma.org/id/barcino i http://nomisma.org/id/barkeno.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval oriental, localizada en la ciudad de Barcelona, actual capital de la comunidad autónoma de Cataluña, España. Para la ceca cristiana, véase http://nomisma.org/id/barcelona. Para la antigua ceca de Barcelona, véase http://nomisma.org/id/barcino y http://nomisma.org/id/barkeno.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Barcelona"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3128760/barcelona.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/madinat_barshilunah#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/madinat_barshilunah#provenance"/>
+    </nmo:Mint>
+   
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/madinat_barshilunah#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.38879</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.15899</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/madinat_barshilunah#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/madinat_barshilunah"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

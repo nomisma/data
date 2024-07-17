@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/valencia_de_alcantara">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Valencia de Alcántara</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Valencia de Alcántara</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Valencia de Alcántara</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Valencia de Alcántara</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Valencia de Alcántara</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Valencia de Alcántara</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval Christian mint belonging to the Kingdom of Castile, located in the town of Valencia de Alcántara, province of Cáceres, Spain. It was in operation during the 14th century, under the reigns of Henry II of Castile (1367-1379) and Ferdinand I of Portugal (1367-1383).</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana pertanyent al regne de Castella, situada en la localitat de Valencia de Alcántara, província de Cáceres, Espanya. Estigué en funcionament en el segle XIV, sota els regnats d'Enric II de Castella (1367-1379) i Ferran I de Portugal (1367-1383).</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana perteneciente al reino de Castilla, situada en la localidad de Valencia de Alcántara, provincia de Cáceres, España. Estuvo en funcionamiento en el siglo XIV, bajo los reinados de Enrique II de Castilla (1367-1379) y Fernando I de Portugal (1367-1383).</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Valencia_de_Alc%C3%A1ntara"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2509950/valencia-de-alcantara.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/valencia_de_alcantara#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/valencia_de_alcantara#provenance"/>
+    </nmo:Mint>
+   
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/valencia_de_alcantara#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.41148</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-7.24435</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/valencia_de_alcantara#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/valencia_de_alcantara"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/fairs_of_medina_del_campo">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Fairs of Medina del Campo</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ferias de Medina del Campo</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Fires de Medina del Campo</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Messen in Medina del Campo</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Foires de Medina del Campo</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval Christian mint belonging to the Kingdom of Castile, located in the town of Medina del Campo, province of Valladolid, Spain. It was established around the year 1467. Coins were produced throughout the reign of Henry IV of Castile (1454-1474) during fair days, which is the reason for the name adopted by the mint.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana pertanyent al regne de Castella, situada en la localitat de Medina del Campo, província de Valladolid, Espanya. Establida en l'any 1467. La moneda s'hi fabricà, al llarg del regnat d'Enric IV de Castella (1454-1474), durant els dies de fira, raó del nom que adoptà la seca.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana perteneciente al reino de Castilla, situada en la localidad de Medina del Campo, provincia de Valladolid, España. Establecida hacia el año 1467. La moneda se fabricó, a lo largo del reinado de Enrique IV de Castilla (1454-1474), durante los día de feria, razón del nombre que adoptó la ceca.</skos:definition>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3117010/medina-del-campo.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/fairs_of_medina_del_campo#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/fairs_of_medina_del_campo#provenance"/>
+    </nmo:Mint>
+   
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/fairs_of_medina_del_campo#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.31239</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-4.91413</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/fairs_of_medina_del_campo#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/fairs_of_medina_del_campo"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

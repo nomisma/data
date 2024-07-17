@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/manresa">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Manresa</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Manresa</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Manresa</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Manresa</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Manresa</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Manresa</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint, dedicated to the production of local currency, located in the town of Manresa (province of Barcelona, Catalonia, Spain). Its first issues date back to the second half of the 15th century. Towards the end of the Late Middle Ages, it was producing lead senyals (tokens). Production ceased in 1495, but it appears to have resumed from 1641 to 1648, during the the Catalan Reapers' War (1640-1652).</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, dedicada a la producció de moneda local, situada en la població de Manresa, a la província de Barcelona, Espanya. Les seues primeres emissions daten de la segona meitat del segle XV. A les acaballes de la Baixa Edat Mitjana estava fabricant ploms. La producció s'atura en 1495, i sembla que es reprén en 1641, fins a l'any 1648, en el context de la guerra dels Segadors de Catalunya (1640-1652).</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, dedicada a la producción de moneda local, situada en la población de Manresa, provincia de Barcelona, España. Sus primeras emisiones datan de la segunda mitad del siglo XV. A finales de la Baja Edad Media estaba fabricando plomos. La producción se detiene en 1495, y parece que se retoma en 1641, hasta el año 1648, en el contexto de la Guerra de los Segadores de Cataluña (1640-1652).</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Manresa"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3117533/manresa.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/manresa#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/manresa#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/manresa#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.72815</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.82399</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/manresa#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/manresa"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

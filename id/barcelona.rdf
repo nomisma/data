@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/barcelona">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Barcelona</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Barcelona</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Barcelona</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Barcelona</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Barcelona</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Barcelona</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint, located in the city of Barcelona (Catalonia, Spain). It was established in the 9th century following the Carolingian conquest of the Arab city known as Barshilunah, and remained in operation until its definitive closure in the 19th century due to the centralization processes of Spanish monetary production. As was common, it had several locations in the city over time, and it did not have a fixed workshop until the king Peter IV of Aragon, also Count of Barcelona, purchased a building on Flassaders Street in the mid-14th century to serve as the permanent minting location until the end of Barcelona's monetary productions. Throughout its existence, it minted coins of various types, including county, royal and municipal coins, in billon, silver, and gold. For the oriental mint, see http://nomisma.org/id/madinat_barshilunah. For the ancient mint, see http://nomisma.org/id/barcino and http://nomisma.org/id/barkeno.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, localitzada en la ciutat de Barcelona, actual capital de la comunitat autònoma de Catalunya, Espanya. S'hi va establir en el segle IX arran de la conquesta carolíngia de la ciutat àrab, denominada llavors Barxiluna, i estigué en funcionament fins al seu tancament definitiu en el segle XIX, a causa dels processos de centralització en la producció monetària espanyola. Com era comú, va ser una seca amb diverses localitzacions dins de la ciutat al llarg del temps, i no va tindre un taller fixe fins que el rei Pere IV d'Aragó, comte de Barcelona, va comprar a mitjans del segle XIV un edifici en el carrer dels Flassaders perquè fóra el lloc d'encunyació permanent fins al final de les produccions monetàries barceloneses. Al llarg de la seua existència, va encunyar monedes comtals, reials i municipals, en billó, argent i or. Per a la seca oriental, vegeu http://nomisma.org/id/madinat_barshilunah. Per a l'antigua seca de Barcelona, vedeu http://nomisma.org/id/barcino i http://nomisma.org/id/barkeno.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, localizada en la ciudad de Barcelona, actual capital de la comunidad autónoma de Cataluña, España. Quedó establecida en el siglo IX a partir de la conquista carolingia de la ciudad árabe, denominada Barshiluna, y estuvo en funcionamiento hasta su cierre definitivo en el siglo XIX, a causa de los procesos de centralización de la producción monetaria española. Como era común, fue una ceca con varias localizaciones en la ciudad a lo largo del tiempo, y no tuvo un taller fijo hasta que el rey Pedro IV de Aragón, conde de Barcelona, compró a medidados del siglo XIV un edificio en la calle Flassaders para que fuese el lugar permanente de acuñación hasta el final de las producciones monetarias barcelonesas. A lo largo de su existencia, acuñó monedas condales, reales y municipales, en vellón, plata y oro. Para la ceca oriental, véase http://nomisma.org/id/madinat_barshilunah. Para la antigua ceca de Barcelona, véase http://nomisma.org/id/barcino y http://nomisma.org/id/barkeno.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Barcelona"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3128760/barcelona.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/barcelona#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/barcelona#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/barcelona#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.38879</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.15899</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/barcelona#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/barcelona"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

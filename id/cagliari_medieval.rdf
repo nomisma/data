@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/cagliari_medieval">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Cagliari</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cagliari</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Càller</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Cagliari</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Cagliari</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Cagliari</skos:prefLabel>
+        <skos:definition xml:lang="en">A mint located in the city of Cagliari, on the island of Sardinia, Italy. It was active from the 14th century, when the Crown of Aragon conquered the island (1323-1326), to 1720, when it was closed and the production was moved to Turin. It remained under Aragonese control until 1708, and again between 1717 and 1720. The mint primarily produced billon diners and silver currency, and a limited number of gold coins. Cf. Travaini 2011, pp. 553-556. For the ancient mint of Cagiari, see http://nomisma.org/id/cagliari.</skos:definition>
+        <skos:definition xml:lang="ca">Seca localitzada en la ciutat de Càller, a l'illa de Sardenya, Itàlia. Estigué activa des del segle XIV, quan la Corona d'Aragó conquerí l'illa (1323-1326), fins a l'any 1720, quan fou clausurada per traslladar la producció a Torí; va romandre sota control aragonés fins a l'any 1708, i de nou entre els anys 1717 i 1720. Encunyà, sobretot, diners i moneda d'argent, i poca moneda d'or. Cf. Travaini 2011, pp. 553-556. Per a l'antiga seca de Cagliari, vedeu http://nomisma.org/id/cagliari.</skos:definition>
+        <skos:definition xml:lang="es">Ceca localizada en la ciudad de Cagliari, en la isla de Cerdeña, Italia. Estuvo activa desde el siglo XIV, cuando la Corona de Aragón conquistó la isla (1323-1326), hasta el año 1720, cuando fue clausurada para trasladar la producción a Turín; se mantuvo bajo control aragonés hasta el año 1708, y de nuevo entre los años 1717 y 1720. Acuñó, sobre todo, dineros y moneda de plata, y escasa moneda de oro. Cf. Travaini 2011, pp. 553-556. Para la antigua ceca de Cagliari, véase http://nomisma.org/id/cagliari.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Cagliari"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2525473/cagliari.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/cagliari_medieval#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_italian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/cagliari_medieval#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/cagliari_medieval#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.23054</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.11917</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cagliari_medieval#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/cagliari_medieval"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

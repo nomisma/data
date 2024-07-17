@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/ager">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Àger</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Áger</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Àger</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Àger</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Àger</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Àger</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval Christian mint, located in the town of Àger, province of Lleida (Catalonia, Spain). It was dedicated to the production of pougeoises (quarters of diner) during the 14th century. The first documented issue started in the year 1328, and the last one ended in 1333. In 1472, it resumed minting for a few years, producing lead senyals (tokens).</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana, localitzada en la població d'Àger, a la província catalana de Lleida, Espanya. Dedicada a la fabricació de pugeses en el segle XIV, començant la primera emissió documentada en l'any 1328, i finalitzant la darrera en 1333. En 1472 tornà a encunyar durant uns anys, aquesta vegada ploms.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana, localizada en la población de Áger, en la provincia catalana de Lérida, España. Dedicada a la fabricación de pugesas en el siglo XIV, comenzando la primera emisión documentada en el año 1328, y finalizando la última en el año 1333. En 1472 volvió a acuñar durante unos años, esta vez plomos.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/%C3%80ger"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3130920/ager.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/ager#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/ager#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/ager#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.99961</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.76667</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ager#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/ager"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

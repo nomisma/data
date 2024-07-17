@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/tortosa">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Tortosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Tortosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Tortosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Tortosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Tortosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Tortosa</skos:prefLabel>
+        <skos:definition xml:lang="en">The medieval and modern Christian mint that was located in the town of Tortosa, in the province of Tarragona (Catalonia, Spain). In the late 15th century, it minted tokens without a legend, along with other local monetary types. The mint continued its operations until, at least, the 17th century. For the Muslim mint, see “Turtushah”.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, localitzada en la localitat de Tortosa, a la província catalana de Tarragona, Espanya. En el darrer terç del segle XV encunyava senyals sense llegenda, a més d'altres tipus monetaris locals. Es va mantindre en funcionament, almenys, fins al segle XVII. Per a la seca islàmica, vegeu Turtuixa.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, localizada en la ciudad de Tortosa, en la provincia catalana de Tarragona, España. En el último tercio del siglo XV acuñaba señales sin leyenda, además de otros tipos monetarios locales. Se mantuvo en funcionamiento, al menos, hasta el siglo XVII. Para la ceca islámica, véase Turtusha.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Tortosa"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3107677/tortosa.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/tortosa#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/tortosa#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/tortosa#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.81249</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.52160</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/tortosa#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/tortosa"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

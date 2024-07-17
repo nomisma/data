@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/ibiza">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Ibiza</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ibiza</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Eivissa</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ibiza</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ibiza</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ibiza</skos:prefLabel>
+        <skos:definition xml:lang="en">Modern mint established in the city of Ibiza (Balearic Islands, Spain). It was active between the reigns of Charles I of Spain and Ferdinand VII of Spain. The mint produced pougeoises, senyals (tokens), doblers, sous, cinquene and countermarks. For the ancient mint of Ibiza, see http://nomisma.org/id/ebusus.</skos:definition>
+        <skos:definition xml:lang="ca">Seca d'època moderna, establida en la ciutat d'Eivissa i en l'illa homònima, Espanya. Estigué activa entre els regnats de Carles I d'Àustria i Ferran VII de Borbó, i encunyà pugeses, senyals, doblers, sous, cinquenes i contramarques. Per a l'antigua seca de Ibiza, vedeu http://nomisma.org/id/ebusus.</skos:definition>
+        <skos:definition xml:lang="es">Ceca de época moderna, establecida en la ciudad de Ibiza y en la isla homónima, España. Estuvo activa entre los reinados de Carlos I de Austria y Fernando VII de Borbón, y acuñó pugesas, señales, doblers, sueldos, cinquenes y contramarcas. Para la antigua ceca de Ibiza, véase http://nomisma.org/id/ebusus.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Ibiza,_Spain_(city)"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2516479/ibiza.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/ibiza#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/ibiza#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/ibiza#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.90883</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.43296</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ibiza#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/ibiza"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

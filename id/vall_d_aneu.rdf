@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/vall_d_aneu">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Vall d'Àneu</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Valle de Aneu</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Vall d'Àneu</skos:prefLabel>
+        <skos:definition xml:lang="en">Mint initially dedicated to the production of county currency, and later to local currency. Located in the Aneu Valley, a group of parishes within the valley of the same name, in the current province of Lleida (Catalonia, Spain). Originally belonging to the independent County of Pallars, in the 16th century it became integrated into the Principality of Catalonia after the defeat of the last Count of Pallars, Hug Roger III. During this period, it minted incused copper coins, but as of now, no piece from this mint has been identified or discovered.</skos:definition>
+        <skos:definition xml:lang="ca">Seca dedicada a la producció de moneda comtal, primer, i local més tard, situada en la Vall d'Àneu, una agrupació de parròquies dins de la vall homònima, a l'actual província de Lleida, Espanya. Pertanyent al comtat independent de Pallars, en el segle XVI va ser integrada en el Principat de Catalunya després de la derrota del darrer comte de Pallars, Hug Roger III. Llavors, va encunyar diners incusos de llautó, dels quals encara no s'ha localitzat cap peça.</skos:definition>
+        <skos:definition xml:lang="es">Ceca dedicada a la producción de moneda condal, primero, y local más tarde, situada en el Valle de Aneu, una agrupación de parroquias dins del valle homónimo, en la actual provincia de Lérida, España. Perteneciente al condado independiente de Pallars, en el siglo XVI fue integrada en el Principado de Cataluña después de la derrota del último conde de Pallars, Hugo Roger III. Entonces, acuñó dineros incusos de cobre, de los cuales aún no se ha identificado ninguna pieza.</skos:definition>
+        <geo:location rdf:resource="http://nomisma.org/id/vall_d_aneu#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/vall_d_aneu#provenance"/>
+    </nmo:Mint>
+    
+    
+    
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/vall_d_aneu#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.478407</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.382388</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/vall_d_aneu#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/vall_d_aneu"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

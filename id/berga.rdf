@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/berga">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Berga</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Berga</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Berga</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Berga</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Berga</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Berga</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint, located in the town of Berga (province of Barcelona, Catalonia, Spain). We have knowledge of two issuances: one from the year 1466, with royal permission to mint rals or reials (equivalent to diners) and sous, similar to those of the Barcelona mint. In the second one, from 1641, the mint produced sous and silver rals / reials. For the ancient Greek mint of Berga in Macedonia, see http://nomisma.org/id/berge.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana localitzada en la població de Berga, a la província de Barcelona, Espanya. Hi ha dues emissions documentades: una de l'any 1466, en què se li atorga llicència reial a la ciutat per a encunyar rals i sous com els de la seca de Barcelona, i una de l'any 1641, per a la fabricació de sous i rals d'argent. Per a l'antigua seca de Berga in Macedonia, vedeu http://nomisma.org/id/berge.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, localizada en la población de Berga, provincia de Barcelona, España. Tenemos conocimiento de dos emisiones: una del año 1466, en la cual se le otorga a la ciudad licencia real para acuñar reales y sueldos como los de la ceca de Barcelona, y una del año 1641, para la fabricación de sueldos y reales de plata. Para la antigua ceca de Berga in Macedonia, véase http://nomisma.org/id/berge.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Berga"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3128201/berga.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/berga#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/berga#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/berga#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.10429</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.84628</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/berga#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/berga"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,96 +18,109 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/al-andalus">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <prov:alternateOf rdf:resource="http://nomisma.org/id/cordoba"/>
-      <skos:prefLabel xml:lang="en">al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">الاندلس</skos:prefLabel>
-      <skos:altLabel xml:lang="en">Cordoba</skos:altLabel>
-      <skos:altLabel xml:lang="ar">xxx</skos:altLabel>
-      <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Al-Andalus"/>
-      <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q123559"/>
-      <skos:prefLabel xml:lang="jv">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Al Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="gd">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Al-Ándalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Al Andalús</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Andalusz</skos:prefLabel>
-      <skos:prefLabel xml:lang="ms">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="sw">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Al-Ándalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ga">Al Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">аль-Андалус</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Endülüs</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">ел-Андалуз</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Аль-Андалус</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="io">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="an">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="so">Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">אל-אנדלוס</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">알안달루스</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">アンダルス</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="th">อัลอันดะลุส</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Al-Àndalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Andalusia</skos:prefLabel>
-      <skos:prefLabel xml:lang="cy">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">اندلس</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Ал-Андалус</skos:prefLabel>
-      <skos:prefLabel xml:lang="ur">اندلس</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">ალ-ანდალუსია</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Al-Andalusija</skos:prefLabel>
-      <skos:prefLabel xml:lang="tg">Андалус</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">安达卢斯</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Ал Андалуз</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">Andalusa</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="ku">Endulus</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Αλ-Ανταλούς</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Аль-Андалус</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Al Andaluz</skos:prefLabel>
-      <skos:prefLabel xml:lang="bn">আন্দালুস</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Al-Andalus</skos:prefLabel>
-      <skos:prefLabel xml:lang="kk">Әл-Андалуси</skos:prefLabel>
-      <skos:closeMatch rdf:resource="https://www.freebase.com/m/01zv4k"/>
-      <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4536234-8"/>
-      <skos:definition xml:lang="en">Córdoba (/ˈkɔrdəbə/, Spanish: [ˈkoɾðoβa]),[1] also called Cordova (/ˈkɔrdəvə/) in English,[2] is a city in Andalusia, southern Spain, and the capital of the province of Córdoba.</skos:definition>
-      <skos:closeMatch rdf:resource="http://sws.geonames.org/2519240/"/>
-      <geo:location rdf:resource="http://nomisma.org/id/al-andalus#this"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/al-andalus#provenance"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <prov:alternateOf rdf:resource="http://nomisma.org/id/cordoba"/>
+        <skos:prefLabel xml:lang="en">al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">الاندلس</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Cordoba</skos:altLabel>
+        <skos:altLabel xml:lang="ar">xxx</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Al-Andalus"/>
+        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q123559"/>
+        <skos:prefLabel xml:lang="jv">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Al Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="gd">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Al-Ándalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Al Andalús</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Andalusz</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sw">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Al-Ándalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Al Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">аль-Андалус</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Endülüs</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">ел-Андалуз</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Аль-Андалус</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="io">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="so">Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">אל-אנדלוס</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">알안달루스</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アンダルス</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">อัลอันดะลุส</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Al-Àndalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Andalusia</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">اندلس</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Ал-Андалус</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">اندلس</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">ალ-ანდალუსია</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Al-Andalusija</skos:prefLabel>
+        <skos:prefLabel xml:lang="tg">Андалус</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">安达卢斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Ал Андалуз</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Andalusa</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="ku">Endulus</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αλ-Ανταλούς</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Аль-Андалус</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Al Andaluz</skos:prefLabel>
+        <skos:prefLabel xml:lang="bn">আন্দালুস</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Al-Andalus</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Әл-Андалуси</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://www.freebase.com/m/01zv4k"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4536234-8"/>
+        <skos:definition xml:lang="en">Córdoba (/ˈkɔrdəbə/, Spanish: [ˈkoɾðoβa]),[1] also called Cordova (/ˈkɔrdəvə/) in English,[2] is a city in Andalusia, southern Spain, and the capital of the province of Córdoba.</skos:definition>
+        <skos:closeMatch rdf:resource="http://sws.geonames.org/2519240/"/>
+        <geo:location rdf:resource="http://nomisma.org/id/al-andalus#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/al-andalus#provenance"/>
+        <skos:definition xml:lang="ca">Denominació de seca islàmica general que apareix en algunes encunyacions anteriors a l'aparició dels regnes de taifa en el segle XI, després de la desintegració del califat de Còrdova, i que fa referència a les monedes batudes en el territori de la Península Ibèrica denominat pels àrabs Àndalus. També aparei com a nom genèric en algunes encunyacions taifes.</skos:definition>
+        <skos:definition xml:lang="es">Denominación de ceca islámica general que aparece en algunas acuñaciones anteriores a la aparición los reinos de taifa del siglo XI tras la desintegración del califato de Córdoba, y que hace referencia a las monedas acuñadas en el territorio de la Península Ibérica denominado por los árabes al-Andalus. También aparece como nombre genérico en algunas acuñaciones taifas.</skos:definition>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/al-andalus#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.89155</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-4.77275</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.89155</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-4.77275</geo:long>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/al-andalus#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/al-andalus"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-28T17:58:06+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1coVOCMmTGlmh89lBLwT-_TX2qYeRHc6VLZVbCVfqyNk/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/al-andalus"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-28T17:58:06+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1coVOCMmTGlmh89lBLwT-_TX2qYeRHc6VLZVbCVfqyNk/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

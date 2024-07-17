@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/perpignan">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Perpignan</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Perpiñán</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Perpinyà</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Perpignan</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Perpignan</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Perpignano</skos:prefLabel>
+        <skos:definition xml:lang="en">The medieval mint located in the city of Perpignan, in Roussillon (south of France), belonging to the Kingdom of Majorca until its conquest by King Peter IV of Aragon and its incorporation into the Crown of Aragon. In this mint, coins of billon, silver, and gold were produced, as well as counterfeit currency used to circulate in the Kingdoms of Castile and France. Local coins were also minted, such as ardites. The mint continued to operate during the modern era until its closure in 1654.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval localitzada en la ciutat francesa de Perpinyà, en el Rosselló. Va pertànyer al regne de Mallorca fins a la seua conquesta per part del rei Pere IV d'Aragó i la seua incorporació a la Corona d'Aragó. En ella es van batre monedes de billó, argent i or, també moneda falsa, per ordre reial, per a córrer als regnes de Castella i França, i moneda local, com ardits. La seca va seguir en funcionament en època moderna, fins a l'any 1654, quan fou clausurada.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval localizada en la ciudad francesa de Perpiñán, en el sur del país (Rosellón). Perteneció al reino de Mallorca hasta su conquista por parte del rey Pedro IV de Aragón, y su incorporación a la Corona de Aragón. En ella se produjeron monedas de vellón, plata y oro, también moneda falsa para hacerla circular por los reinos de Castilla, principalmente, y de Francia, y moneda local, como ardites. La ceca siguió en funcionamiento en época moderna, hasta el año 1654, cuando fue clausurada.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Perpignan"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2987914/perpignan.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/perpignan#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_french_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/perpignan#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/perpignan#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.69764</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.89541</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/perpignan#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/perpignan"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

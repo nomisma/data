@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/villefranche_de_conflent">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Villefranche-de-Conflent</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Villafranca de Conflent</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Vilafranca de Conflent</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Villefranche-de-Conflent</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Villefranche-de-Conflent</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Villefranche-de-Conflent</skos:prefLabel>
+        <skos:definition xml:lang="en">Mint located in the French town of Villefranche-de-Conflent, France. It produced billon and silver coins by privilege of King John II of Aragon in 1473.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana localitzada en la població francesa de Vilafranca de Conflent, Espanya. Encunyà moneda de billó i d'argent, com la de la seca de Perpinyà, per privilegi del rei Joan II d'Aragó, en l'any 1473.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana localizada en la población francesa de Villafranca de Conflent, España. Acuñó moneda de vellón y de plata como la de la ceca de Perpiñán por privilegio del rey Juan II de Aragón, en el año 1473.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Villefranche-de-Conflent"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2968759/villefranche-de-conflent.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/villefranche_de_conflent#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/villefranche_de_conflent#provenance"/>
+    </nmo:Mint>
+    
+    
+    
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/villefranche_de_conflent#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.58707</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.36724</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/villefranche_de_conflent#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/villefranche_de_conflent"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

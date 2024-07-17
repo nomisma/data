@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/sort">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Sort</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Sort</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Sort</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sort</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sort</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sort</skos:prefLabel>
+        <skos:definition xml:lang="en">The late medieval and modern Christian mint in the town of Sort, located in the province of Lleida (Catalonia, Spain). It was dedicated to the production of local currency. It carried out copper issues between the 15th and 17th centuries, but no pieces have been identified or located.</skos:definition>
+        <skos:definition xml:lang="ca">Seca baixmedieval i moderna cristiana, dedicada a la producció de moneda local, situada en la població de Sort, a la província de Lleida, Espanya. Hi hagué encunyacions de llautons i arams entre els segles XV i XVII, de les quals encara no s'ha identificat cap peça.</skos:definition>
+        <skos:definition xml:lang="es">Ceca bajomedieval y moderna cristiana, dedicada a la producción de moneda local, situada en la población de Sort, en la provincia de Lérida, España. Hubo acuñaciones de cobres entre los siglos XV y XVII, de las cuales no se ha identificado ún ninguna pieza.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Sort,_Lleida"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3108663/sort.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/sort#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/sort#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/sort#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.41319</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.13045</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sort#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/sort"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/sagunto">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Sagunto (Murviedro)</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Sagunto (Murviedro)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Sagunt (Morvedre)</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sagunt</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sagonte</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sagunto</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval Christian mint located in the town of Sagunto, also known as Murviedro, in the province of Valencia, Spain. It was established by the Kingdom of Castile during the war against the Crown of Aragon and the invasion of the Kingdom of Valencia by King Peter I of Castile (1350-1369). It minted war-related coinage for a short period of time. For the ancient mint of Sagunto, see http://nomisma.org/id/arse.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval cristiana situada en la localitat de Sagunt, també coneguda com a Morvedre, província de València. Establida pel regne de Castella durant la guerra contra la corona d'Aragó i la invasió del regne de València per part del rei Pere I de Castella (1350-1369). Encunyà emissions de guerra sota un curt espai de temps. Per a l'antiga seca de Sagunt, vedeu http://nomisma.org/id/arse.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval cristiana situada en la localidad de Sagunto, también conocida como Murviedro, en la provincia de Valencia, España. Establecida por el reino de Castilla durante la guerra contra la Corona de Aragón y la invasión del reino de Valencia por parte del rey Pedro I de Castilla (1350-1369). Acuñó emisiones bélicas durante un corto espacio de tiempo. Para la antigua ceca de Sagunto, véase http://nomisma.org/id/arse.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Sagunto"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2511619/sagunto.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/sagunto#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/sagunto#provenance"/>
+    </nmo:Mint>
+   
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/sagunto#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.68333</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.26667</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sagunto#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/sagunto"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

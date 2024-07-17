@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/palamos">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Palamós</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Palamós</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Palamós</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Palamós</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Palamós</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Palamós</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval and modern Christian mint, dedicated to the production of local currency, located in the town of Palamós (province of Girona, Catalonia, Spain). It minted diners between 1483 and 1486. In 1604, the coin production was intented to be resumed, but it is possible that it was not permitted to do so.</skos:definition>
+        <skos:definition xml:lang="ca">Seca de cronologia medieval i moderna cristiana, dedicada a la producció de moneda local, situada en la població de Palamós, a la província de Girona, Espanya. S'hi encunyaren diners entre els anys 1483 i 1486. En 1604 sembla que va voler fabricar moneda de nou, però potser no se li va permetre.</skos:definition>
+        <skos:definition xml:lang="es">Ceca de cronología medieval y moderna cristiana, dedicada a la produccion de moneda local, situada en la población de Palamós, en la provincia de Gerona, España. Se acuñaron dineros entre los años 1483 y 1486. En 1604 parece que quiso volver a fabricar moneda, pero es posible que no se le permitiese.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Palam%C3%B3s"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3114566/palamos.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/palamos#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/palamos#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/palamos#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.84843</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.12912</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/palamos#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/palamos"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

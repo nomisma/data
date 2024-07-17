@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/cervera">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Cervera</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cervera</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Cervera</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Cervera</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Cervera</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Cervera</skos:prefLabel>
+        <skos:definition xml:lang="en">Christian medieval and modern mint, primarily dedicated to the production of local currency, located in the town of Cervera (province of Lleida, Catalonia, Spain). In 1462, the municipality requested a license to mint, and by 1465 they were producing local silver diners as well as currency of general circulation. Between the 15th and 16th centuries, this mint produced diners, ardits, reials, pougeoises (quarters of diner), lead diners, senyals (tokens), and half-senyals made of copper. In 1716, their operations ceased as the newly crowned King Philip V of Spain denied them the minting license.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval i moderna cristiana, dedicada a la producció de moneda local, situada en la població de Cervera, a la província de Lleida, Espanya. En l'any 1462, el municipi sol·licità la llicència per a encunyar moneda, i en 1465 ja estava produïnt moneda d'argent local i moneda de curs general. Entre els segles XV i XVI encunyà diners, ardits, rals, pugeses i diners de plom, senyals i mitjos senyals, d'aram i de llautó. En l'any 1716 cessava la seua activitat, en denegar la llicència d'encunyació el nou rei Felip V de Borbó.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval y moderna cristiana, dedicada sobre todo a la producción de moneda local, situada en la población de Cervera, provincia de Lérida, España. En el año 1462, el municipio solicitó la licencia para acuñar moneda, y en 1465 ya estaba produciendo moneda de plata local y moneda de curso general. Entre los siglos XV y XVI acuñó dineros, ardites, reales, pugesas y dineros de plomo, señales y medias señales de cobre. En el año 1716 cesaba su actividad, al denegar la licencia de acuñación el nuevo rey Felipe V de Borbón.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Cervera"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3125308/cervera.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/cervera#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/cervera#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/cervera#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.67003</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.27210</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cervera#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/cervera"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/blanes">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Blanes</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Blanes</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Blanes</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Blanes</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Blanes</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Blanes</skos:prefLabel>
+        <skos:definition xml:lang="en">Modern mint dedicated to the production of local currency, located in the town of Blanes (province of Girona, Catalonia, Spain). It appears that there was an issuance of lead senyals (tokens) between 1462 and 1494, although it has not yet been documented with monetary findings.</skos:definition>
+        <skos:definition xml:lang="ca">Seca d'època moderna, dedicada a la producció de moneda local, situada en la població de Blanes, a la província de Girona, Espanya. Sembla que entre els anys 1462 i 1494 hi hagué una emissió de ploms, encara no documentada amb troballes monetàries. A aquesta seca sembla atribuïr-se, de moment, una senyal, amb una datació probable del segle XVI.</skos:definition>
+        <skos:definition xml:lang="es">Ceca de época moderna, dedicada a la producción de moneda local, situada en la población de Blanes, en la provincia de Gerona, España. Parece que entre los años 1462 y 1494 hubo una emisión de plomos, aún no documentada con hallazgos monetarios. A esta ceca parece atribuírsele, de momento, una señal, con una datación probable del siglo XVI.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Blanes"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/3127978/blanes.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/blanes#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_spanish_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/blanes#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/blanes#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.67419</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.79036</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/blanes#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/blanes"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

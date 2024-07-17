@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/mayurqah">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Mayurqah</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Mayurqa</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Mayurqa</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mayurqa</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Mayurqa</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Mayurqa</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">ملورقة</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval muslim mint located in the actual city of Mallorca, Balearic Islands, Spain. It developed its activity from the 11th century until the Christian conquest of the city. For the non-muslim mint of Mallorca, see the "Mallorca".</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval islàmica localitzada en l'actual ciutat de Mallorca, Illes Balears, Espanya. La seua activitat es va desenvolupar des del segle XI fins a la conquesta cristiana de la ciutat. Per a la seca cristiana, vegeu “Mallorca”.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval islámica localizada en la actual ciudad de Mallorca, islas Baleares, España. Su actividad se desarrolló desde el siglo XI hasta la conquista cristiana de la ciudad. Para la ceca cristiana, véase “Mallorca”.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Palma_de_Mallorca"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2512989/palma.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/mayurqah#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/mayurqah#provenance"/>
+    </nmo:Mint>
+   
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/mayurqah#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.56939</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.65024</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/mayurqah#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/mayurqah"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

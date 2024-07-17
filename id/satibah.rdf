@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/satibah">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Satibah</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Satiba</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Satiba</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Satiba</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Satiba</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Satiba</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">شاطبة</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval muslim mint located in the actual city of Xàtiva, province of Valencia, Spain. While the city of Valencia was under Christian control in the late 11th century, it appears that Xàtiva became the primary center for coin production in Sharq al-Andalus or the Islamic eastern Iberian Peninsula. It is known with certainty to have minted coins in the early 11th century and had periods of activity until the 13th century when it was conquered definitely by the Christians.</skos:definition>
+        <skos:definition xml:lang="ca">Seca medieval islàmica localitzada en l'actual municipi de Xàtiva, província de València, Espanya. Mentre la ciutat de València va estar en poder dels cristians a finals del segle XI, sembla que Xàtiva va ser el principal centre de producció monetària del Sharq al-Andalus o este peninsular islàmic. Se sap que encunyà a començaments del segle XI i que després va tindre períodes d'activitat fins al segle XIII, quan fou definitivament conquerida pels cristians.</skos:definition>
+        <skos:definition xml:lang="es">Ceca medieval islámica localizada en la actual municipio de Xàtiva, provincia de Valencia, España. Mientras la ciudad de Valencia estuvo en poder de los cristianos a finales del siglo XI, parece que Xàtiva fue el principal centro de producción monetaria del Sharq al-Andalus o este peninsular islámico. Se sabe que acuñó con certeza a comienzos del siglo XI, y que luego tuvo períodos de actividad hasta el siglo XIII, cuando fue conquistada por los cristianos.</skos:definition>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/X%C3%A0tiva"/>
+        <skos:closeMatch rdf:resource="http://www.geonames.org/2516345/xativa.html"/>
+        <geo:location rdf:resource="http://nomisma.org/id/satibah#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_spanish_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/satibah#provenance"/>
+    </nmo:Mint>
+   
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/satibah#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.99042</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.51852</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/satibah#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/satibah"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-16T14:00:54.431Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jBrhbwwVnBC9iXeYobXRFeU51Jmxp9M7jVABN2CcEeI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
