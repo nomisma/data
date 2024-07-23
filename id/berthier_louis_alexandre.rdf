@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,65 +18,99 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/berthier_louis_alexandre">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Berthier, Louis Alexandre (d. 1815)</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">اليكس بريسير</skos:prefLabel>
-      <skos:definition xml:lang="en">Louis Alexandre Berthier, 1st prince de Wagram, 1st duc de Valangin, 1st sovereign Prince of Neuchâtel (20 February 1753 – 1 June 1815), was a Marshal and Vice-Constable of France beginning in 1808, and Chief of Staff (Major général) under Napoleon.</skos:definition>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/berthier_louis_alexandre#authority"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Louis-Alexandre_Berthier"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/19775561"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q155734"/>
-      <skos:prefLabel xml:lang="pl">Louis-Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Louis-Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Луі Аляксандр Берцье</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">루이 알렉상드르 베르티에</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Louis Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Louis-Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Louis Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Louis-Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ルイ＝アレクサンドル・ベルティエ</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Λουί Αλεξάντρ Μπερτιέ</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Louis Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Louis Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Louis Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Луи Александр Бертье</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Louis-Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Louis Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Louis Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Луї-Александр Бертьє</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Louis Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Louis Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Луи Бертие</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Louis Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="th">หลุยส์-อาแล็กซ็องดร์ แบร์ตีเย</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">路易斯·亚历山大·贝尔蒂埃</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Louis-Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Луј Александр Бертје</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">ლუი-ალექსანდრ ბერთიე</skos:prefLabel>
-      <skos:prefLabel xml:lang="az">Lui Aleksandr Bertye</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Louis-Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Louis-Alexandre Berthier</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Louis-Alexandre Berthier</skos:prefLabel>
-      <skos:exactMatch rdf:resource="http://isni.org/0000000121231367"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118658530"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/01wttn"/>
-      <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12459791d"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/berthier_louis_alexandre#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Louis-Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">اليكس بريسير</skos:prefLabel>
+        <skos:definition xml:lang="en">Louis Alexandre Berthier, 1st prince de Wagram, 1st duc de Valangin, 1st sovereign Prince of Neuchâtel (20 February 1753 – 1 June 1815), was a Marshal and Vice-Constable of France beginning in 1808, and Chief of Staff (Major général) under Napoleon. He resigned on the 03.06.1814 after the fall of Napoleon.</skos:definition>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/berthier_louis_alexandre#authority"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Louis-Alexandre_Berthier"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/19775561"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q155734"/>
+        <skos:prefLabel xml:lang="pl">Louis-Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Louis-Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Луі Аляксандр Берцье</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">루이 알렉상드르 베르티에</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Louis Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Louis-Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Louis Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Louis-Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ルイ＝アレクサンドル・ベルティエ</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Λουί Αλεξάντρ Μπερτιέ</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Louis Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Louis Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Louis Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Луи Александр Бертье</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Louis-Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Louis Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Louis Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Луї-Александр Бертьє</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Louis Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Louis Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Луи Бертие</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Louis Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">หลุยส์-อาแล็กซ็องดร์ แบร์ตีเย</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">路易斯·亚历山大·贝尔蒂埃</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Louis-Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Луј Александр Бертје</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">ლუი-ალექსანდრ ბერთიე</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Lui Aleksandr Bertye</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Louis-Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Louis-Alexandre Berthier</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Louis-Alexandre Berthier</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000121231367"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118658530"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/01wttn"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12459791d"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/berthier_louis_alexandre#provenance"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/berthier_louis_alexandre#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/berthier_louis_alexandre#death"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/berthier_louis_alexandre#membership_5512acc1330322ab32eb2bb2d537621f"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/berthier_louis_alexandre#membership_7f377322c7205a2c82adb2d49c6cd38d"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/021253/2004-09-22/"/>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/Louis-Alexandre_Berthier"/>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/berthier_louis_alexandre#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/berthier_louis_alexandre#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/berthier_louis_alexandre"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-31T04:00:01+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/11GJuOq7OMGOtmm6PhQf5hC4QIMrvqtoA-uequT4ytqI/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/berthier_louis_alexandre"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-31T04:00:01+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/11GJuOq7OMGOtmm6PhQf5hC4QIMrvqtoA-uequT4ytqI/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-22T13:06:12.147Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/berthier_louis_alexandre#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1753-11-20</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/berthier_louis_alexandre#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1815-06-01</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/berthier_louis_alexandre#membership_5512acc1330322ab32eb2bb2d537621f">
+        <org:role rdf:resource="http://nomisma.org/id/prince"/>
+        <org:organization rdf:resource="http://nomisma.org/id/neuchatel_principality"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1806</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1814</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/berthier_louis_alexandre#membership_7f377322c7205a2c82adb2d49c6cd38d">
+        <org:role rdf:resource="http://nomisma.org/id/prince"/>
+        <org:organization rdf:resource="http://nomisma.org/id/valangin_principality"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1806</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1814</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>

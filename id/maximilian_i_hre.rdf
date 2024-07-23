@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -102,6 +103,10 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1176"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/maximilian_i_hre#membership_cfd45d28619e8ccf5972e4991949e21f"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/029210/2010-01-06/"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/Maximilian_I,_Holy_Roman_Emperor"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_dutch_numismatics"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/maximilian_i_hre#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/maximilian_i_hre"/>
@@ -121,23 +126,35 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-22T11:06:09.166Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <bio:Birth rdf:about="http://nomisma.org/id/maximilian_i_hre#birth">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1459</dcterms:date>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1459-03-22</dcterms:date>
     </bio:Birth>
     <bio:Death rdf:about="http://nomisma.org/id/maximilian_i_hre#death">
-        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</dcterms:date>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1519-01-12</dcterms:date>
     </bio:Death>
     <org:Membership rdf:about="http://nomisma.org/id/maximilian_i_hre#membership_3c590f410271f5620ced6e039d2a7c9d">
         <org:role rdf:resource="http://nomisma.org/id/emperor"/>
         <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</nmo:hasEndDate>
+        <rdfs:label xml:lang="en">Maximilian I</rdfs:label>
+        <rdfs:label xml:lang="de">Maximilian I.</rdfs:label>
     </org:Membership>
     <org:Membership rdf:about="http://nomisma.org/id/maximilian_i_hre#membership_cfd45d28619e8ccf5972e4991949e21f">
         <org:role rdf:resource="http://nomisma.org/id/king"/>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1486</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</nmo:hasEndDate>
         <org:organization rdf:resource="http://nomisma.org/id/roman_german_king"/>
+        <rdfs:label xml:lang="en">Maximilian I</rdfs:label>
+        <rdfs:label xml:lang="de">Maximilian I.</rdfs:label>
     </org:Membership>
 </rdf:RDF>
