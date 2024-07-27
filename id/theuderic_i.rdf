@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/theuderic_i">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Theuderic I</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Theuderich I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Thierry I</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Teodorico I</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Teodorico I</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Theuderic I</skos:altLabel>
+        <skos:definition xml:lang="en">Theuderich I was a king of francs in the east region that was later named Austrasien. He reigned from about 511 (exact year unknown) until his death in 533.</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/theuderic_i#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/merovingian_dynasty"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/1060064901/34"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Theuderic_I"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/theuderic_i#membership_2825aa5e4f5dd69a84fcad85783c5c22"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/theuderic_i#provenance"/>
+    </foaf:Person>
+    <bio:Death rdf:about="http://nomisma.org/id/theuderic_i#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0533</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/theuderic_i#membership_2825aa5e4f5dd69a84fcad85783c5c22">
+        <rdfs:label xml:lang="es">Teodorico I</rdfs:label>
+        <rdfs:label xml:lang="it">Teodorico I</rdfs:label>
+        <rdfs:label xml:lang="fr">Thierry I</rdfs:label>
+        <rdfs:label xml:lang="de">Theuderich I.</rdfs:label>
+        <rdfs:label xml:lang="en">Theuderich I</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/theuderic_i"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/francia_merovingian_dynasty"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0511</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0533</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/theuderic_i#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/theuderic_i"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

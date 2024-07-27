@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/johann_lucius_von_salis_haldenstein">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Johann Lucius von Salis-Haldenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Johann Lucius von Salis-Haldenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Jean-Lucius de Salis</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Johann Lucius von Salis-Haldenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Johann Lucius von Salis-Haldenstein</skos:prefLabel>
+        <skos:definition xml:lang="en">Johann Lucius von Salis was lord of Haldenstein from 1701 until 1722.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/johann_lucius_von_salis_haldenstein#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/johann_lucius_von_salis_haldenstein#death"/>
+        <skos:exactMatch rdf:resource="http://www.deutsche-biographie.de/pnd139621857.html"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_lucius_von_salis_haldenstein#membership_c060273fbe16feaa6eac19d07fc87643"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/johann_lucius_von_salis_haldenstein#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/johann_lucius_von_salis_haldenstein#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1672</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/johann_lucius_von_salis_haldenstein#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1722</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/johann_lucius_von_salis_haldenstein#membership_c060273fbe16feaa6eac19d07fc87643">
+        <rdfs:label xml:lang="es">Johann Lucius von Salis-Haldenstein</rdfs:label>
+        <rdfs:label xml:lang="it">Johann Lucius von Salis-Haldenstein</rdfs:label>
+        <rdfs:label xml:lang="fr">Johann Lucius von Salis-Haldenstein</rdfs:label>
+        <rdfs:label xml:lang="de">Johann Lucius von Salis-Haldenstein</rdfs:label>
+        <rdfs:label xml:lang="en">Johann Lucius von Salis-Haldenstein</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/johann_lucius_von_salis_haldenstein"/>
+        <org:role rdf:resource="http://nomisma.org/id/lord"/>
+        <org:organization rdf:resource="http://nomisma.org/id/haldenstein_barony"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1701</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1722</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/johann_lucius_von_salis_haldenstein#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/johann_lucius_von_salis_haldenstein"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

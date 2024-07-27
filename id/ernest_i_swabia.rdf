@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/ernest_i_swabia">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Ernest I</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ernst I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ernest Ier de Souabe</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ernesto I di Svevia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ernesto I de Suabia</skos:prefLabel>
+        <skos:definition xml:lang="en">Ernest I born before 984 was duke of Swabia between 1012 and his death in 1015.</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/ernest_i_swabia#death"/>
+        <skos:exactMatch rdf:resource="http://www.deutsche-biographie.de/pnd142264954.html#ndbcontent"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ernest_I,_Duke_of_Swabia"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/ernest_i_swabia#membership_1424716f2d2941540763aade12dc3858"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/ernest_i_swabia#provenance"/>
+    </foaf:Person>
+    
+    
+    
+    
+    
+    
+    <bio:Death rdf:about="http://nomisma.org/id/ernest_i_swabia#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1015-05-31</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/ernest_i_swabia#membership_1424716f2d2941540763aade12dc3858">
+        <rdfs:label xml:lang="es">Ernesto I de Suabia</rdfs:label>
+        <rdfs:label xml:lang="it">Ernesto I di Svevia</rdfs:label>
+        <rdfs:label xml:lang="fr">Ernest I de Souabe</rdfs:label>
+        <rdfs:label xml:lang="de">Ernst I.</rdfs:label>
+        <rdfs:label xml:lang="en">Ernest I</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/ernest_i_swabia"/>
+        <org:role rdf:resource="http://nomisma.org/id/duke"/>
+        <org:organization rdf:resource="http://nomisma.org/id/swabia_duchy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1012</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1015</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ernest_i_swabia#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/ernest_i_swabia"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

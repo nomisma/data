@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/henry_iii_hre">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Henry III</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Heinrich III.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Henri III</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Enrico III</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Enrique III</skos:prefLabel>
+        <skos:definition xml:lang="en">Henry III was Duke of Bavaria between 1027 and 1042, Duke of Swabia between 1038 and 1045. From 1038 until his death he was king of Burgundy. Henry III became king of the Roman Empire in 1039 and was named emperor in 1046. He reigend until his death in 1056.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/henry_iii_hre#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/henry_iii_hre#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/salian_dynasty"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/029196/2006-08-29/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Henry_III,_Holy_Roman_Emperor"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/henry_iii_hre#membership_88237537e038560c06d348c2f05e4312"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/henry_iii_hre#membership_93f5ac5f9af0e58ede418127b7802e8f"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/henry_iii_hre#membership_a6fe50c2fb99e8168b65486e30ed2119"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/henry_iii_hre#membership_a86cd69b7cb10ac3e349530326a38539"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/henry_iii_hre#membership_395058f08dce4babe91e38b89a2b296a"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/henry_iii_hre#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/henry_iii_hre#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1017-10-28</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/henry_iii_hre#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1056-10-05</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/henry_iii_hre#membership_88237537e038560c06d348c2f05e4312">
+        <rdfs:label xml:lang="es">Enrique III</rdfs:label>
+        <rdfs:label xml:lang="it">Enrico III</rdfs:label>
+        <rdfs:label xml:lang="fr">Henri III</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich III.</rdfs:label>
+        <rdfs:label xml:lang="en">Henry III</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/henry_iii_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/duke"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bavaria_duchy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1027</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1042</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/henry_iii_hre#membership_93f5ac5f9af0e58ede418127b7802e8f">
+        <rdfs:label xml:lang="es">Enrique III</rdfs:label>
+        <rdfs:label xml:lang="it">Enrico III</rdfs:label>
+        <rdfs:label xml:lang="fr">Henri III</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich III.</rdfs:label>
+        <rdfs:label xml:lang="en">Henry III</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/henry_iii_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/duke"/>
+        <org:organization rdf:resource="http://nomisma.org/id/swabia_duchy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1038</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1045</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/henry_iii_hre#membership_a6fe50c2fb99e8168b65486e30ed2119">
+        <rdfs:label xml:lang="es">Enrique III</rdfs:label>
+        <rdfs:label xml:lang="it">Enrico III</rdfs:label>
+        <rdfs:label xml:lang="fr">Henri III</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich III.</rdfs:label>
+        <rdfs:label xml:lang="en">Henry III</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/henry_iii_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/burgundy_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1038</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1056</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/henry_iii_hre#membership_a86cd69b7cb10ac3e349530326a38539">
+        <rdfs:label xml:lang="es">Enrique III</rdfs:label>
+        <rdfs:label xml:lang="it">Enrico III</rdfs:label>
+        <rdfs:label xml:lang="fr">Henri III</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich III.</rdfs:label>
+        <rdfs:label xml:lang="en">Henry III</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/henry_iii_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1039</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1046</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/henry_iii_hre#membership_395058f08dce4babe91e38b89a2b296a">
+        <rdfs:label xml:lang="es">Enrique III</rdfs:label>
+        <rdfs:label xml:lang="it">Enrico III</rdfs:label>
+        <rdfs:label xml:lang="fr">Henri III</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich III.</rdfs:label>
+        <rdfs:label xml:lang="en">Henry III</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/henry_iii_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/emperor"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1046</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1056</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/henry_iii_hre#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/henry_iii_hre"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

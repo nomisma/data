@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/heinrich_von_thun">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Heinrich von Thun</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Heinrich von Thun</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Henri II de Thoune</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Heinrich von Thun</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Heinrich von Thun</skos:prefLabel>
+        <skos:definition xml:lang="en">After his election, which presumably took place in 1216, Heinrich von Thun 1217 is attested as the bishop from Basel. He was bishop until his death in 1238.</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/heinrich_von_thun#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/house_of_thun_switzerland"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/013027/2012-01-23/"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/heinrich_von_thun#membership_a067acd1fb5c797ef6236b4624c141c4"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/heinrich_von_thun#provenance"/>
+    </foaf:Person>
+    <bio:Death rdf:about="http://nomisma.org/id/heinrich_von_thun#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1238-02-17</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/heinrich_von_thun#membership_a067acd1fb5c797ef6236b4624c141c4">
+        <rdfs:label xml:lang="es">Heinrich II von Thun</rdfs:label>
+        <rdfs:label xml:lang="it">Heinrich II von Thun</rdfs:label>
+        <rdfs:label xml:lang="fr">Henri II de Thoune</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich II. von Thun</rdfs:label>
+        <rdfs:label xml:lang="en">Heinrich II von Thun</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/heinrich_von_thun"/>
+        <org:role rdf:resource="http://nomisma.org/id/bishop"/>
+        <org:organization rdf:resource="http://nomisma.org/id/basel_bishopric"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1216</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1238</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/heinrich_von_thun#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/heinrich_von_thun"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

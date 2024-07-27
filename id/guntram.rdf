@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/guntram">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Guntram</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Guntram I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Gontran</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gontrano</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Gontrán I</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Guntchramm</skos:altLabel>
+        <skos:altLabel xml:lang="en">Guntchram</skos:altLabel>
+        <skos:definition xml:lang="en">Saint Gontrand (c. 532 in Soissons – 28 March 592 in Chalon-sur-Saône), also called Gontran, Gontram, Guntram, Gunthram, Gunthchramn, and Guntramnus, was the king of the Kingdom of Orléans from AD 561 to AD 592. He was a son of Chlothar I and Ingunda. On his father's death in 561, he became king of a fourth of the Kingdom of the Franks, and made his capital at Orléans.</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/guntram#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/merovingian_dynasty"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/85295"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Guntram"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/guntram#membership_c6fc700bd726a3f705d11285d459c02a"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/guntram#provenance"/>
+    </foaf:Person>
+    <bio:Death rdf:about="http://nomisma.org/id/guntram#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0592-03-28</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/guntram#membership_c6fc700bd726a3f705d11285d459c02a">
+        <rdfs:label xml:lang="es">Gontrán I</rdfs:label>
+        <rdfs:label xml:lang="it">Gontrano</rdfs:label>
+        <rdfs:label xml:lang="fr">Gontran</rdfs:label>
+        <rdfs:label xml:lang="de">Guntchram</rdfs:label>
+        <rdfs:label xml:lang="en">Guntchram</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/guntram"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/francia_merovingian_dynasty"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0561</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0592</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/guntram#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/guntram"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

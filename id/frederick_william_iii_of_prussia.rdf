@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/frederick_william_iii_of_prussia">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Frederick William III of Prussia</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Friedrich Wilhelm III.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Frédéric-Guillaume III</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Federico Guglielmo III di Prussia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Federico Guillermo III de Prusia</skos:prefLabel>
+        <skos:definition xml:lang="en">Frederick William III of Prussia was king of Prussia an duke of Neuenburg from the 16.11.1797 until his death in 1840.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/frederick_william_iii_of_prussia#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/frederick_william_iii_of_prussia#death"/>
+        <skos:exactMatch rdf:resource="http://www.deutsche-biographie.de/pnd118535986.html"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Frederick_William_III_of_Prussia"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/frederick_william_iii_of_prussia#membership_41ab1bcc805b828f24392dca8464f465"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/frederick_william_iii_of_prussia#membership_dbf02836870d3f180bedabed503fe182"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/frederick_william_iii_of_prussia#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/frederick_william_iii_of_prussia#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1770-08-03</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/frederick_william_iii_of_prussia#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1840-06-07</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/frederick_william_iii_of_prussia#membership_41ab1bcc805b828f24392dca8464f465">
+        <rdfs:label xml:lang="es">Federico Guillermo III de Prusia</rdfs:label>
+        <rdfs:label xml:lang="it">Federico Guglielmo III di Prussia</rdfs:label>
+        <rdfs:label xml:lang="fr">Frédéric-Guillaume III</rdfs:label>
+        <rdfs:label xml:lang="de">Friedrich Wilhelm III.</rdfs:label>
+        <rdfs:label xml:lang="en">Frederick William III of Prussia</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/frederick_william_iii_of_prussia"/>
+        <org:role rdf:resource="http://nomisma.org/id/prince"/>
+        <org:organization rdf:resource="http://nomisma.org/id/neuchatel_principality"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1797</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1840</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/frederick_william_iii_of_prussia#membership_dbf02836870d3f180bedabed503fe182">
+        <rdfs:label xml:lang="es">Federico Guillermo III de Prusia</rdfs:label>
+        <rdfs:label xml:lang="it">Federico Guglielmo III di Prussia</rdfs:label>
+        <rdfs:label xml:lang="fr">Frédéric-Guillaume III</rdfs:label>
+        <rdfs:label xml:lang="de">Friedrich Wilhelm III.</rdfs:label>
+        <rdfs:label xml:lang="en">Frederick William III of Prussia</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/frederick_william_iii_of_prussia"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/prussia_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1797-11-16</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1840-06-07</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/frederick_william_iii_of_prussia#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/frederick_william_iii_of_prussia"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

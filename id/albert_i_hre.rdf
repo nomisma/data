@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/albert_i_hre">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Albert I of Germany</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Albrecht I. von Habsburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Albert Ier</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Alberto I d'Asburgo</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Alberto I de Habsburgo</skos:prefLabel>
+        <skos:definition xml:lang="en">Albert I was as Albert V count of Habsburg from 1291 until his death in 1308. He was also duke (as Albert I) of Austria and Steiermark from 1282 until 1298. From 1298 he was (as Albert I) king of the German-Roman Empire.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/albert_i_hre#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/albert_i_hre#death"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/029202/2001-06-05/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Albert_I_of_Germany"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_austrian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/albert_i_hre#membership_775eea1f6ae8241afc5f70da516c3f7e"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/albert_i_hre#membership_f0540138736646a71e0080b8c7066238"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/albert_i_hre#membership_c45f8b9b6449bb8856153f61313156d2"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/albert_i_hre#membership_0e0b74fcc8b30f71c18897c4a2733160"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/albert_i_hre#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/albert_i_hre#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1255</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/albert_i_hre#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1308-05-01</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/albert_i_hre#membership_775eea1f6ae8241afc5f70da516c3f7e">
+        <rdfs:label xml:lang="es">Alberto I de Habsburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Alberto I d'Asburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Albert I</rdfs:label>
+        <rdfs:label xml:lang="de">Albrecht I. von Habsburg</rdfs:label>
+        <rdfs:label xml:lang="en">Albert I of Germany</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/albert_i_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/duke"/>
+        <org:organization rdf:resource="http://nomisma.org/id/austria_duchy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1282</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1308</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/albert_i_hre#membership_f0540138736646a71e0080b8c7066238">
+        <rdfs:label xml:lang="es">Alberto I de Habsburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Alberto I d'Asburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Albert I</rdfs:label>
+        <rdfs:label xml:lang="de">Albrecht I. von Habsburg</rdfs:label>
+        <rdfs:label xml:lang="en">Albert I of Germany</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/albert_i_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/duke"/>
+        <org:organization rdf:resource="http://nomisma.org/id/styria_duchy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1282</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1298</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/albert_i_hre#membership_c45f8b9b6449bb8856153f61313156d2">
+        <rdfs:label xml:lang="es">Alberto V de Habsburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Alberto V d'Asburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Albert V</rdfs:label>
+        <rdfs:label xml:lang="de">Albrecht V. von Habsburg</rdfs:label>
+        <rdfs:label xml:lang="en">Albert V of Germany</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/albert_i_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/count"/>
+        <org:organization rdf:resource="http://nomisma.org/id/habsburg-laufenburg_county"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1291</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1308</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/albert_i_hre#membership_0e0b74fcc8b30f71c18897c4a2733160">
+        <rdfs:label xml:lang="es">Alberto I de Habsburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Alberto I d'Asburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Albert I</rdfs:label>
+        <rdfs:label xml:lang="de">Albrecht I. von Habsburg</rdfs:label>
+        <rdfs:label xml:lang="en">Albert I of Germany</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/albert_i_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1298</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1308</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/albert_i_hre#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/albert_i_hre"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/johann_jordan_sion">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Johann Jordan</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Johannes Jordan</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Jean Jordan</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Johann Jordan</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Johann Jordan</skos:prefLabel>
+        <skos:definition xml:lang="en">Johann Jordan was elected bishop of Sion and count of Valais in 1548. He reigned until his death in 1565.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/johann_jordan_sion#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/johann_jordan_sion#death"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/021379/2008-02-04/"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_jordan_sion#membership_70bce1a7fdc7726a2a35bfae0c018c13"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_jordan_sion#membership_d167b006a715801f969996d27d8cd50e"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/johann_jordan_sion#provenance"/>
+    </foaf:Person>
+    
+    
+    
+    
+    
+    
+    <bio:Birth rdf:about="http://nomisma.org/id/johann_jordan_sion#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1494</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/johann_jordan_sion#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1565-06-12</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/johann_jordan_sion#membership_70bce1a7fdc7726a2a35bfae0c018c13">
+        <rdfs:label xml:lang="es">Johann Jordan</rdfs:label>
+        <rdfs:label xml:lang="it">Johann Jordan</rdfs:label>
+        <rdfs:label xml:lang="fr">Jean Jordan</rdfs:label>
+        <rdfs:label xml:lang="de">Johannes Jordan</rdfs:label>
+        <rdfs:label xml:lang="en">Johann Jordan</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/johann_jordan_sion"/>
+        <org:role rdf:resource="http://nomisma.org/id/bishop"/>
+        <org:organization rdf:resource="http://nomisma.org/id/sion_bishopric"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1565</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/johann_jordan_sion#membership_d167b006a715801f969996d27d8cd50e">
+        <rdfs:label xml:lang="es">Johann Jordan</rdfs:label>
+        <rdfs:label xml:lang="it">Johann Jordan</rdfs:label>
+        <rdfs:label xml:lang="fr">Jean Jordan</rdfs:label>
+        <rdfs:label xml:lang="de">Johannes Jordan</rdfs:label>
+        <rdfs:label xml:lang="en">Johann Jordan</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/johann_jordan_sion"/>
+        <org:role rdf:resource="http://nomisma.org/id/count"/>
+        <org:organization rdf:resource="http://nomisma.org/id/valais_county"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1565</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/johann_jordan_sion#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/johann_jordan_sion"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

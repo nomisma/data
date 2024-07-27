@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/frederick_i_hre">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Frederick I Barbarossa</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Friedrich I. Barbarossa</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Frédéric Barberousse</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Federico I Barbarossa</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Federico I Barbarroja</skos:prefLabel>
+        <skos:definition xml:lang="en">Frederick I, called Barbarossa, from the noble family of the Staufer was from 1147 to 1152 as Friedrich III. Duke of Swabia, King of the Holy Roman Empire from 1152 to 1190 and Emperor of the Holy Roman Empire from 1155 to 1190.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/frederick_i_hre#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/frederick_i_hre#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/staufen_dynasty"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/029199/2009-10-15/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Frederick_Barbarossa"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/frederick_i_hre#membership_5efdec44dd92bc3f14b6c90c7d3598c1"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/frederick_i_hre#membership_a4a693e1b9b73e16fc1ecdec164ccdd7"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/frederick_i_hre#membership_4cc25d25efe493ec1c9a88e55687b928"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/frederick_i_hre#provenance"/>
+    </foaf:Person>
+    
+    
+    
+    
+    
+    
+    <bio:Birth rdf:about="http://nomisma.org/id/frederick_i_hre#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1122</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/frederick_i_hre#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1190-06-10</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/frederick_i_hre#membership_5efdec44dd92bc3f14b6c90c7d3598c1">
+        <rdfs:label xml:lang="es">Federico I Barbarroja</rdfs:label>
+        <rdfs:label xml:lang="it">Federico I Barbarossa</rdfs:label>
+        <rdfs:label xml:lang="fr">Frédéric I Barberousse</rdfs:label>
+        <rdfs:label xml:lang="de">Friedrich I. Barbarossa</rdfs:label>
+        <rdfs:label xml:lang="en">Frederick I Barbarossa</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/frederick_i_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/duke"/>
+        <org:organization rdf:resource="http://nomisma.org/id/swabia_duchy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1190</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/frederick_i_hre#membership_a4a693e1b9b73e16fc1ecdec164ccdd7">
+        <rdfs:label xml:lang="es">Federico I Barbarroja</rdfs:label>
+        <rdfs:label xml:lang="it">Federico I Barbarossa</rdfs:label>
+        <rdfs:label xml:lang="fr">Frédéric I Barberousse</rdfs:label>
+        <rdfs:label xml:lang="de">Friedrich I. Barbarossa</rdfs:label>
+        <rdfs:label xml:lang="en">Frederick I Barbarossa</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/frederick_i_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1152</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1155</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/frederick_i_hre#membership_4cc25d25efe493ec1c9a88e55687b928">
+        <rdfs:label xml:lang="es">Federico I Barbarroja</rdfs:label>
+        <rdfs:label xml:lang="it">Federico I Barbarossa</rdfs:label>
+        <rdfs:label xml:lang="fr">Frédéric I Barberousse</rdfs:label>
+        <rdfs:label xml:lang="de">Friedrich I. Barbarossa</rdfs:label>
+        <rdfs:label xml:lang="en">Frederick I Barbarossa</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/frederick_i_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1155</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1190</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/frederick_i_hre#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/frederick_i_hre"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

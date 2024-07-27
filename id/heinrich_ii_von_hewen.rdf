@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/heinrich_ii_von_hewen">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Heinrich II von Hewen</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Heinrich II. von Hewen</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Henri de Heuwen</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Heinrich von Hewen</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Heinrich II von Hewen</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Heinrich von Höwen</skos:altLabel>
+        <skos:definition xml:lang="en">Heinrich von Hewen was a Roman Catholic bishop of the diocese of Chur. His exact date of death is not clear but it is assumed to be between 1519 and 1520.</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/heinrich_ii_von_hewen#death"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/013094/2007-12-13/"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/heinrich_ii_von_hewen#membership_f1cc63e682b36d2f7d997704baaf1718"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/heinrich_ii_von_hewen#provenance"/>
+    </foaf:Person>
+    <bio:Death rdf:about="http://nomisma.org/id/heinrich_ii_von_hewen#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/heinrich_ii_von_hewen#membership_f1cc63e682b36d2f7d997704baaf1718">
+        <rdfs:label xml:lang="es">Heinrich V von Hewen</rdfs:label>
+        <rdfs:label xml:lang="it">Heinrich V von Hewen</rdfs:label>
+        <rdfs:label xml:lang="fr">Heinrich V von Hewen</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich V. von Hewen</rdfs:label>
+        <rdfs:label xml:lang="en">Heinrich V von Hewen</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/heinrich_ii_von_hewen"/>
+        <org:role rdf:resource="http://nomisma.org/id/bishop"/>
+        <org:organization rdf:resource="http://nomisma.org/id/chur_bishopric"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1491</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/heinrich_ii_von_hewen#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/heinrich_ii_von_hewen"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

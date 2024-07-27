@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/leopold_i_habsburg">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Leopold I</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Leopold I. von Habsburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Léopold I de Habsbourg</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Leopoldo I d'Asburgo</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Leopoldo I de Habsburgo</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Leopold the Glorious</skos:altLabel>
+        <skos:definition xml:lang="en">Leopold I was count of Habsburg, duke of Austria and Steiermark from 1308 until his death in 1326.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/leopold_i_habsburg#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/leopold_i_habsburg#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/house_of_habsburg"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/029217/2007-10-16/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Leopold_I,_Duke_of_Austria"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_austrian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/leopold_i_habsburg#membership_7ebe38cbefef0f29eafacf77b7837703"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/leopold_i_habsburg#membership_88130c166c68ae23e2903f7ad99ad0ff"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/leopold_i_habsburg#membership_a10ad3af2511fa284d7f10f7e0ee36db"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/leopold_i_habsburg#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/leopold_i_habsburg#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1290</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/leopold_i_habsburg#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1326</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/leopold_i_habsburg#membership_7ebe38cbefef0f29eafacf77b7837703">
+        <rdfs:label xml:lang="es">Leopoldo I de Habsburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Leopoldo I d'Asburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Léopold I de Habsbourg</rdfs:label>
+        <rdfs:label xml:lang="de">Leopold I von Habsburg</rdfs:label>
+        <rdfs:label xml:lang="en">Leopold I of Habsburg</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/leopold_i_habsburg"/>
+        <org:role rdf:resource="http://nomisma.org/id/count"/>
+        <org:organization rdf:resource="http://nomisma.org/id/habsburg_county"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1308</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1326</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/leopold_i_habsburg#membership_88130c166c68ae23e2903f7ad99ad0ff">
+        <rdfs:label xml:lang="es">Leopoldo I de Habsburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Leopoldo I d'Asburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Léopold I de Habsbourg</rdfs:label>
+        <rdfs:label xml:lang="de">Leopold I von Habsburg</rdfs:label>
+        <rdfs:label xml:lang="en">Leopold I of Habsburg</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/leopold_i_habsburg"/>
+        <org:role rdf:resource="http://nomisma.org/id/duke"/>
+        <org:organization rdf:resource="http://nomisma.org/id/austria_duchy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1308</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1326</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/leopold_i_habsburg#membership_a10ad3af2511fa284d7f10f7e0ee36db">
+        <rdfs:label xml:lang="es">Leopoldo I de Habsburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Leopoldo I d'Asburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Léopold I de Habsbourg</rdfs:label>
+        <rdfs:label xml:lang="de">Leopold I von Habsburg</rdfs:label>
+        <rdfs:label xml:lang="en">Leopold I of Habsburg</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/leopold_i_habsburg"/>
+        <org:role rdf:resource="http://nomisma.org/id/duke"/>
+        <org:organization rdf:resource="http://nomisma.org/id/styria_duchy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1308</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1326</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/leopold_i_habsburg#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/leopold_i_habsburg"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

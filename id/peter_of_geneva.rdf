@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/peter_of_geneva">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Peter of Geneva</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Peter</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Pierre de Genève</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pietro di Ginevra</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Piedro di Ginevra</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Peter von Genf</skos:altLabel>
+        <skos:definition xml:lang="en">Peter of Geneva was count of Geneva between 1370 and 1392. He was the son of Amadeus III.</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/peter_of_geneva#death"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Peter_of_Geneva"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/peter_of_geneva#membership_59af27dd63ec98c71eeac4641d38fc5d"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/peter_of_geneva#provenance"/>
+    </foaf:Person>
+    <bio:Death rdf:about="http://nomisma.org/id/peter_of_geneva#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1392</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/peter_of_geneva#membership_59af27dd63ec98c71eeac4641d38fc5d">
+        <rdfs:label xml:lang="es">Piedro di Ginevra</rdfs:label>
+        <rdfs:label xml:lang="it">Pietro di Ginevra</rdfs:label>
+        <rdfs:label xml:lang="fr">Pierre de Genève</rdfs:label>
+        <rdfs:label xml:lang="de">Peter</rdfs:label>
+        <rdfs:label xml:lang="en">Peter</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/peter_of_geneva"/>
+        <org:role rdf:resource="http://nomisma.org/id/count"/>
+        <org:organization rdf:resource="http://nomisma.org/id/geneva_county"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1370</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1392</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/peter_of_geneva#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/peter_of_geneva"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

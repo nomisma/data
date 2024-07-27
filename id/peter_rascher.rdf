@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/peter_rascher">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Peter Rascher</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Peter II. Rascher</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Pierre II de Rascher</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Peter de Raschèr</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Peter de Raschèr</skos:prefLabel>
+        <skos:definition xml:lang="en">Peter II Rascher was elected bishop of Chur in the year 1581. The episcopal consecration was 1582. He was bishop until his death in 1601.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/peter_rascher#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/peter_rascher#death"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/026318/2012-01-12/"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/peter_rascher#membership_163d06ffc477f0893974463cca0cc15a"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/peter_rascher#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/peter_rascher#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1549</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/peter_rascher#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-01-03</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/peter_rascher#membership_163d06ffc477f0893974463cca0cc15a">
+        <rdfs:label xml:lang="es">Peter de Raschèr</rdfs:label>
+        <rdfs:label xml:lang="it">Peter de Raschèr</rdfs:label>
+        <rdfs:label xml:lang="fr">Peter de Raschèr</rdfs:label>
+        <rdfs:label xml:lang="de">Peter Rascher</rdfs:label>
+        <rdfs:label xml:lang="en">Peter Rascher</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/peter_rascher"/>
+        <org:role rdf:resource="http://nomisma.org/id/bishop"/>
+        <org:organization rdf:resource="http://nomisma.org/id/chur_bishopric"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1581</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1601</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/peter_rascher#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/peter_rascher"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

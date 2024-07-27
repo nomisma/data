@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/franz_troger">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Franz Troger</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Franz Troger</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">François Troger</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Franz Troger</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Franz Troger</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Franziskus (Johann Karl) Troger</skos:altLabel>
+        <skos:definition xml:lang="en">Franz Troger was abbot of Fischingen from 1688-1728.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/franz_troger#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/franz_troger#death"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/025787/2022-06-07/"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/franz_troger#membership_abe3d24ca454b277141d68d077aaf78a"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/franz_troger#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/franz_troger#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1652-10-27</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/franz_troger#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1728-04-30</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/franz_troger#membership_abe3d24ca454b277141d68d077aaf78a">
+        <rdfs:label xml:lang="es">Franz Troger</rdfs:label>
+        <rdfs:label xml:lang="it">Franz Troger</rdfs:label>
+        <rdfs:label xml:lang="fr">Franz Troger</rdfs:label>
+        <rdfs:label xml:lang="de">Franz Troger</rdfs:label>
+        <rdfs:label xml:lang="en">Franz Troger</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/franz_troger"/>
+        <org:role rdf:resource="http://nomisma.org/id/abbot"/>
+        <org:organization rdf:resource="http://nomisma.org/id/fischingen_abbey"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1688</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1728</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/franz_troger#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/franz_troger"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

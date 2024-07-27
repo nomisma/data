@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/frederick_the_fair_hre">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Frederick the Fair</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Friedrich der Schöne</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Frédéric le Bel</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Federico I d'Asburgo</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Federico de Habsburgo</skos:prefLabel>
+        <skos:definition xml:lang="en">Frederick the Fair was count of Habsburg since 1326, duke of Austria and Steiermark since 1308 and king of the German-Roman Empire since 1314. He held all positions until his death in 1330.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/frederick_the_fair_hre#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/frederick_the_fair_hre#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/house_of_habsburg"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/029204/2006-01-09/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Frederick_the_Fair"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_austrian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/frederick_the_fair_hre#membership_0d35f7a05fcb56722ba4d0a2336f5363"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/frederick_the_fair_hre#membership_4185784debae0cba8964e829246edf15"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/frederick_the_fair_hre#membership_922055128010039e7f5204c9b91fad88"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/frederick_the_fair_hre#membership_2b22e66f1941769fc2f723f0ea3c3e31"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/frederick_the_fair_hre#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/frederick_the_fair_hre#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1289</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/frederick_the_fair_hre#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1330-01-13</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/frederick_the_fair_hre#membership_0d35f7a05fcb56722ba4d0a2336f5363">
+        <rdfs:label xml:lang="es">Federico de Habsburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Federico I d'Asburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Frédéric le Bel</rdfs:label>
+        <rdfs:label xml:lang="de">Friedrich der Schöne</rdfs:label>
+        <rdfs:label xml:lang="en">Frederick the Fair</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/frederick_the_fair_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/count"/>
+        <org:organization rdf:resource="http://nomisma.org/id/habsburg_county"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1326</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1330</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/frederick_the_fair_hre#membership_4185784debae0cba8964e829246edf15">
+        <rdfs:label xml:lang="es">Federico de Habsburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Federico I d'Asburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Frédéric le Bel</rdfs:label>
+        <rdfs:label xml:lang="de">Friedrich der Schöne</rdfs:label>
+        <rdfs:label xml:lang="en">Frederick the Fair</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/frederick_the_fair_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/duke"/>
+        <org:organization rdf:resource="http://nomisma.org/id/austria_duchy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1308</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1330-01-13</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/frederick_the_fair_hre#membership_922055128010039e7f5204c9b91fad88">
+        <rdfs:label xml:lang="es">Federico de Habsburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Federico I d'Asburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Frédéric le Bel</rdfs:label>
+        <rdfs:label xml:lang="de">Friedrich der Schöne</rdfs:label>
+        <rdfs:label xml:lang="en">Frederick the Fair</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/frederick_the_fair_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/duke"/>
+        <org:organization rdf:resource="http://nomisma.org/id/styria_duchy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1308</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1330</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/frederick_the_fair_hre#membership_2b22e66f1941769fc2f723f0ea3c3e31">
+        <rdfs:label xml:lang="es">Federico de Habsburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Federico I d'Asburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Frédéric le Bel</rdfs:label>
+        <rdfs:label xml:lang="de">Friedrich der Schöne</rdfs:label>
+        <rdfs:label xml:lang="en">Frederick the Fair</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/frederick_the_fair_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1314</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1330</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/frederick_the_fair_hre#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/frederick_the_fair_hre"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/johann_anton_federspiel">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Johann Anton Federspiel</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Johann Baptist Anton von Federspiel</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Jean Baptiste Antoine de Federspiel</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Johann Baptist Anton von Federspiel</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Johann Baptist Anton von Federspiel</skos:prefLabel>
+        <skos:definition xml:lang="en">Johann Anton Federspiel was chosen to be bishop of chur on the 06.02.1755. On 21.07.1755 the election was confirmed by the Pope and the episcopal consecration was 14.09.1755.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/johann_anton_federspiel#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/johann_anton_federspiel#death"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/026307/2014-06-23/"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/johann_anton_federspiel#membership_87cc12f13ef3b912240bc61fdf0845ea"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/johann_anton_federspiel#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/johann_anton_federspiel#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1708-10-23</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/johann_anton_federspiel#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1777-02-27</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/johann_anton_federspiel#membership_87cc12f13ef3b912240bc61fdf0845ea">
+        <rdfs:label xml:lang="es">Johann Baptist Anton von Federspiel</rdfs:label>
+        <rdfs:label xml:lang="it">Johann Baptist Anton von Federspiel</rdfs:label>
+        <rdfs:label xml:lang="fr">Johann Baptist Anton von Federspiel</rdfs:label>
+        <rdfs:label xml:lang="de">Johann Baptist Anton von Federspiel</rdfs:label>
+        <rdfs:label xml:lang="en">Johann Anton Federspiel</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/johann_anton_federspiel"/>
+        <org:role rdf:resource="http://nomisma.org/id/bishop"/>
+        <org:organization rdf:resource="http://nomisma.org/id/chur_bishopric"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1755</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1777</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/johann_anton_federspiel#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/johann_anton_federspiel"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

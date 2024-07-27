@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/rudolf_iii_habsburg">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Rudolf III</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Rudolf III.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Rodolphe de Habsbourg-Laufenburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Rudolf III</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Rudolf III</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Rudolf der Schweigsame</skos:altLabel>
+        <skos:definition xml:lang="en">Rudolf III bishop of Konstanz from 1274 until 1293. Between 1271 until 1288 reigned Rudolf with his younger brother Eberhard over Laufenburg (Klettgau).</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/rudolf_iii_habsburg#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/house_of_habsburg"/>
+        <skos:exactMatch rdf:resource="http://www.deutsche-biographie.de/pnd137468431.html"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_austrian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/rudolf_iii_habsburg#membership_35d0824f0e6b0e70da9b2e6d702b728c"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/rudolf_iii_habsburg#membership_fcc03189ca58074128c00e837c7ceb96"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/rudolf_iii_habsburg#provenance"/>
+    </foaf:Person>
+    <bio:Death rdf:about="http://nomisma.org/id/rudolf_iii_habsburg#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1249-07-06</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/rudolf_iii_habsburg#membership_35d0824f0e6b0e70da9b2e6d702b728c">
+        <rdfs:label xml:lang="es">Rudolf III</rdfs:label>
+        <rdfs:label xml:lang="it">Rudolf III</rdfs:label>
+        <rdfs:label xml:lang="fr">Rudolf III</rdfs:label>
+        <rdfs:label xml:lang="de">Rudolf III</rdfs:label>
+        <rdfs:label xml:lang="en">Rudolf III</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/rudolf_iii_habsburg"/>
+        <org:role rdf:resource="http://nomisma.org/id/count"/>
+        <org:organization rdf:resource="http://nomisma.org/id/habsburg_county"/>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1234</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/rudolf_iii_habsburg#membership_fcc03189ca58074128c00e837c7ceb96">
+        <rdfs:label xml:lang="es">Rudolf I von Habsburg-Laufenburg</rdfs:label>
+        <rdfs:label xml:lang="it">Rudolf I von Habsburg-Laufenburg</rdfs:label>
+        <rdfs:label xml:lang="fr">Rudolf I von Habsburg-Laufenburg</rdfs:label>
+        <rdfs:label xml:lang="de">Rudolf I. von Habsburg-Laufenburg</rdfs:label>
+        <rdfs:label xml:lang="en">Rudolf I von Habsburg-Laufenburg</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/rudolf_iii_habsburg"/>
+        <org:role rdf:resource="http://nomisma.org/id/count"/>
+        <org:organization rdf:resource="http://nomisma.org/id/habsburg-laufenburg_county"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1232</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1249-07-06</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/rudolf_iii_habsburg#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/rudolf_iii_habsburg"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

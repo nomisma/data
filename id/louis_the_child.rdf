@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/louis_the_child">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Louis the Child</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ludwig IV. das Kind</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Louis IV l'Enfant</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ludovico IV il Fanciullo</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Luis IV de Alemania</skos:prefLabel>
+        <skos:definition xml:lang="en">Louis the Child became king of the Franks with six years old in 900. He reigned until his early death in september or october 911.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/louis_the_child#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/louis_the_child#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/carolingian_dynasty"/>
+        <skos:exactMatch rdf:resource="http://www.khm.at/en/object/1133730/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Louis_the_Child"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/carolingian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/louis_the_child#membership_9b1f1b790d134251d108d299be5272b8"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/louis_the_child#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/louis_the_child#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">0893-09</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/louis_the_child#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0911-09-24</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/louis_the_child#membership_9b1f1b790d134251d108d299be5272b8">
+        <rdfs:label xml:lang="es">Luis IV de Alemania</rdfs:label>
+        <rdfs:label xml:lang="it">Ludovico IV il Fanciullo</rdfs:label>
+        <rdfs:label xml:lang="fr">Louis IV l'Enfant</rdfs:label>
+        <rdfs:label xml:lang="de">Ludwig IV. das Kind</rdfs:label>
+        <rdfs:label xml:lang="en">Louis the Child</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/louis_the_child"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/east_francia_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0900</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0911</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/louis_the_child#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/louis_the_child"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

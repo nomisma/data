@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/amadeus_vi_of_savoy">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Amadeus VI</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Amadeus VI.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Amédée VI</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Amedeo VI</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Amadeo VI</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Amadeus der Grüne Graf</skos:altLabel>
+        <skos:altLabel xml:lang="en">Amadeus the Green Count</skos:altLabel>
+        <skos:definition xml:lang="en">Amadeus VI became count of Savoy in 1343. He reigned until his death in 1383.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/amadeus_vi_of_savoy#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/amadeus_vi_of_savoy#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/house_of_savoy"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/017858/2013-04-04/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amadeus_VI,_Count_of_Savoy"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/amadeus_vi_of_savoy#membership_360df5c585e7897bc7b300deee412753"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/amadeus_vi_of_savoy#provenance"/>
+    </foaf:Person>
+    
+    
+    
+    
+    
+    
+    <bio:Birth rdf:about="http://nomisma.org/id/amadeus_vi_of_savoy#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1334-01-04</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/amadeus_vi_of_savoy#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1383-03-01</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/amadeus_vi_of_savoy#membership_360df5c585e7897bc7b300deee412753">
+        <rdfs:label xml:lang="es">Amadeo VI</rdfs:label>
+        <rdfs:label xml:lang="it">Amedeo VI</rdfs:label>
+        <rdfs:label xml:lang="fr">Amédée VI</rdfs:label>
+        <rdfs:label xml:lang="de">Amadeus VI.</rdfs:label>
+        <rdfs:label xml:lang="en">Amadeus VI</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/amadeus_vi_of_savoy"/>
+        <org:role rdf:resource="http://nomisma.org/id/count"/>
+        <org:organization rdf:resource="http://nomisma.org/id/savoy_county"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1343</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1383</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/amadeus_vi_of_savoy#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/amadeus_vi_of_savoy"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

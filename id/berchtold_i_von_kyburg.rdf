@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/berchtold_i_von_kyburg">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Berchtold I</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Berchtold I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Berchtold I</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Berchtold I</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Berchtold I</skos:prefLabel>
+        <skos:definition xml:lang="en">Berchtold I was count of Neu-Kyburg from 1384 until 1417.</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/berchtold_i_von_kyburg#death"/>
+        <skos:exactMatch rdf:resource="http://doi.org/10.5169/seals-378996"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/berchtold_i_von_kyburg#membership_7d7e81c55b2085f5c89505e035573100"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/berchtold_i_von_kyburg#provenance"/>
+    </foaf:Person>
+    <bio:Death rdf:about="http://nomisma.org/id/berchtold_i_von_kyburg#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1417</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/berchtold_i_von_kyburg#membership_7d7e81c55b2085f5c89505e035573100">
+        <rdfs:label xml:lang="es">Berchtold I</rdfs:label>
+        <rdfs:label xml:lang="it">Berchtold I</rdfs:label>
+        <rdfs:label xml:lang="fr">Berchtold I</rdfs:label>
+        <rdfs:label xml:lang="de">Berchtold I.</rdfs:label>
+        <rdfs:label xml:lang="en">Berchtold I</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/berchtold_i_von_kyburg"/>
+        <org:role rdf:resource="http://nomisma.org/id/count"/>
+        <org:organization rdf:resource="http://nomisma.org/id/neu-kyburg_county"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1384</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1417</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/berchtold_i_von_kyburg#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/berchtold_i_von_kyburg"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

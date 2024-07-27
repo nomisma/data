@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/sigismund_i_hre">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Sigismund of Luxembourg</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sigismund I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sigismond de Luxembourg</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sigismondo di Lussemburgo</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Segismundo de Luxemburgo</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Sigismund von Luxemburg</skos:altLabel>
+        <skos:altLabel xml:lang="en">Sigismund of Luxembourg</skos:altLabel>
+        <skos:definition xml:lang="en">Sigismund I became king of the Roman Empire in 1411. He was then named emperor in 1433. He reigend until his death in 1437.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/sigismund_i_hre#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/sigismund_i_hre#death"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/029208/2016-04-27/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sigismund,_Holy_Roman_Emperor"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/sigismund_i_hre#membership_ee0be5580890b9e91824da7072b5c12f"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/sigismund_i_hre#membership_f5cdc2561460d5f3946ee56e02c11be8"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/sigismund_i_hre#provenance"/>
+    </foaf:Person>
+    
+    
+    
+    
+    
+    
+    <bio:Birth rdf:about="http://nomisma.org/id/sigismund_i_hre#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1368-02-15</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/sigismund_i_hre#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1437-12-09</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/sigismund_i_hre#membership_ee0be5580890b9e91824da7072b5c12f">
+        <rdfs:label xml:lang="es">Segismundo de Luxemburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Sigismondo di Lussemburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Sigismond de Luxembourg</rdfs:label>
+        <rdfs:label xml:lang="de">Sigismund I.</rdfs:label>
+        <rdfs:label xml:lang="en">Sigismund I</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/sigismund_i_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1411</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/sigismund_i_hre#membership_f5cdc2561460d5f3946ee56e02c11be8">
+        <rdfs:label xml:lang="es">Segismundo de Luxemburgo</rdfs:label>
+        <rdfs:label xml:lang="it">Sigismondo di Lussemburgo</rdfs:label>
+        <rdfs:label xml:lang="fr">Sigismond de Luxembourg</rdfs:label>
+        <rdfs:label xml:lang="de">Sigismund I.</rdfs:label>
+        <rdfs:label xml:lang="en">Sigismund I</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/sigismund_i_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1437-12-09</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sigismund_i_hre#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/sigismund_i_hre"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

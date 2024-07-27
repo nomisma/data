@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/barthelemi_chuet">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Barthélemi Chuet</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Barthélemi Chuet</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Barthélemy Chuet</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Barthélemy Chuet</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Barthélemi Chuet</skos:prefLabel>
+        <skos:definition xml:lang="en">Barthélemi Chuet was bishop of Nizza from 1462 until 1501. Later he was the administrator of the Diocese of Lausanne between 1469 and 1472.</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/barthelemi_chuet#death"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/018645/2004-01-26/"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/barthelemi_chuet#membership_525d0b182a1adcc67d70bef14e699af5"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/barthelemi_chuet#membership_ebd0239d7cdf4a3d41db4c3620827248"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/barthelemi_chuet#provenance"/>
+    </foaf:Person>
+    <bio:Death rdf:about="http://nomisma.org/id/barthelemi_chuet#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1501-07-12</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/barthelemi_chuet#membership_525d0b182a1adcc67d70bef14e699af5">
+        <rdfs:label xml:lang="es">Barthélemi Chuet</rdfs:label>
+        <rdfs:label xml:lang="it">Barthélemy Chuet</rdfs:label>
+        <rdfs:label xml:lang="fr">Barthélemy Chuet</rdfs:label>
+        <rdfs:label xml:lang="de">Barthélemi Chuet</rdfs:label>
+        <rdfs:label xml:lang="en">Barthélemi Chuet</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/barthelemi_chuet"/>
+        <org:role rdf:resource="http://nomisma.org/id/bishop"/>
+        <org:organization rdf:resource="http://nomisma.org/id/nice_bishopric"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1462</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1501</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/barthelemi_chuet#membership_ebd0239d7cdf4a3d41db4c3620827248">
+        <rdfs:label xml:lang="es">Barthélemi Chuet</rdfs:label>
+        <rdfs:label xml:lang="it">Barthélemy Chuet</rdfs:label>
+        <rdfs:label xml:lang="fr">Barthélemy Chuet</rdfs:label>
+        <rdfs:label xml:lang="de">Barthélemi Chuet</rdfs:label>
+        <rdfs:label xml:lang="en">Barthélemi Chuet</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/barthelemi_chuet"/>
+        <org:role rdf:resource="http://nomisma.org/id/administrator_clergy"/>
+        <org:organization rdf:resource="http://nomisma.org/id/lausanne_bishopric"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1469</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/barthelemi_chuet#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/barthelemi_chuet"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

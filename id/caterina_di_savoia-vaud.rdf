@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/caterina_di_savoia-vaud">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Caterina di Savoia-Vaud</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Katharina von Savoyen</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Catherine de Savoie</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Caterina di Savoia</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Katharina von Savoyen</skos:prefLabel>
+        <skos:definition xml:lang="en">Katharina von Savoyen inherited Vaud in 1352 and reigned over it with the help of her mother. In 1359 her husband gave Vaud to Amadeus VI thus ending her reign.</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/caterina_di_savoia-vaud#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/house_of_savoy"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/020391/2011-02-23/"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/caterina_di_savoia-vaud#membership_baa2987ac48b5197fbe756f4cb7c854e"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/caterina_di_savoia-vaud#provenance"/>
+    </foaf:Person>
+    
+    
+    
+    
+    
+    
+    <bio:Death rdf:about="http://nomisma.org/id/caterina_di_savoia-vaud#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1388-01-18</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/caterina_di_savoia-vaud#membership_baa2987ac48b5197fbe756f4cb7c854e">
+        <rdfs:label xml:lang="es">Katharina von Savoyen</rdfs:label>
+        <rdfs:label xml:lang="it">Caterina di Savoia</rdfs:label>
+        <rdfs:label xml:lang="fr">Catherine de Savoie</rdfs:label>
+        <rdfs:label xml:lang="de">Katharina von Savoyen</rdfs:label>
+        <rdfs:label xml:lang="en">Katharina von Savoyen</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/caterina_di_savoia-vaud"/>
+        <org:role rdf:resource="http://nomisma.org/id/lord"/>
+        <org:organization rdf:resource="http://nomisma.org/id/savoy_barony_of_vaud"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1352</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1359</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/caterina_di_savoia-vaud#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/caterina_di_savoia-vaud"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

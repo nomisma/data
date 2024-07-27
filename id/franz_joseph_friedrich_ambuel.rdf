@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/franz_joseph_friedrich_ambuel">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Franz Joseph Friedrich Ambuel</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Franz Joseph Friedrich Ambuel</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">François-Frédéric Ambuel</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Franz Friedrich Ambuel</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Franz Friedrich Ambuel</skos:prefLabel>
+        <skos:definition xml:lang="en">Franz Friedrich Ambuel was bishop of Sion from 1760 until his death in 1780. He was the last bishop of Sion that minted coins.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/franz_joseph_friedrich_ambuel#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/franz_joseph_friedrich_ambuel#death"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/021331/2002-06-06/"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/franz_joseph_friedrich_ambuel#membership_25ea9a5ba1aaf2908a9c4ce2b925a138"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/franz_joseph_friedrich_ambuel#provenance"/>
+    </foaf:Person>
+    
+    
+    
+    
+    
+    
+    <bio:Birth rdf:about="http://nomisma.org/id/franz_joseph_friedrich_ambuel#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1704-02-28</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/franz_joseph_friedrich_ambuel#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1780-04-11</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/franz_joseph_friedrich_ambuel#membership_25ea9a5ba1aaf2908a9c4ce2b925a138">
+        <rdfs:label xml:lang="es">Franz Friedrich Ambuel</rdfs:label>
+        <rdfs:label xml:lang="it">Franz Friedrich Ambuel</rdfs:label>
+        <rdfs:label xml:lang="fr">François-Frédéric Ambuel</rdfs:label>
+        <rdfs:label xml:lang="de">Franz Friedrich Ambuel</rdfs:label>
+        <rdfs:label xml:lang="en">Franz Friedrich Ambuel</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/franz_joseph_friedrich_ambuel"/>
+        <org:role rdf:resource="http://nomisma.org/id/bishop"/>
+        <org:organization rdf:resource="http://nomisma.org/id/sion_bishopric"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1760</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1780</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/franz_joseph_friedrich_ambuel#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/franz_joseph_friedrich_ambuel"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

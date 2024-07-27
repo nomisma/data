@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/dagobert_i_austrasia">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Dagobert I</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Dagobert I.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Dagobert I</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Dagoberto I</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Dagobert I</skos:prefLabel>
+        <skos:definition xml:lang="en">Dagobert I was king of Austrasia since 623. In 629 he became king of all Franks. In 633 he gave the kingdom of Astrasia to his son. He ruled until his death either in 638 or 639.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/dagobert_i_austrasia#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/dagobert_i_austrasia#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/merovingian_dynasty"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/020772/2005-08-22/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Dagobert_I"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/dagobert_i_austrasia#membership_cc34b872edc6cea5eaae07f927719ca6"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/dagobert_i_austrasia#membership_aa915c8eca0e2b9f4bb67d9e8dae8dc6"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/dagobert_i_austrasia#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/dagobert_i_austrasia#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0608</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/dagobert_i_austrasia#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0639-01-19</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/dagobert_i_austrasia#membership_cc34b872edc6cea5eaae07f927719ca6">
+        <rdfs:label xml:lang="es">Dagobert I</rdfs:label>
+        <rdfs:label xml:lang="it">Dagoberto I</rdfs:label>
+        <rdfs:label xml:lang="fr">Dagobert I</rdfs:label>
+        <rdfs:label xml:lang="de">Dagobert I.</rdfs:label>
+        <rdfs:label xml:lang="en">Dagobert I</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/dagobert_i_austrasia"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/austrasia_kingdom"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0623</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0633</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/dagobert_i_austrasia#membership_aa915c8eca0e2b9f4bb67d9e8dae8dc6">
+        <rdfs:label xml:lang="es">Dagobert I</rdfs:label>
+        <rdfs:label xml:lang="it">Dagoberto I</rdfs:label>
+        <rdfs:label xml:lang="fr">Dagobert I</rdfs:label>
+        <rdfs:label xml:lang="de">Dagobert I.</rdfs:label>
+        <rdfs:label xml:lang="en">Dagobert I</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/dagobert_i_austrasia"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/francia_merovingian_dynasty"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0629</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0639</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/dagobert_i_austrasia#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/dagobert_i_austrasia"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

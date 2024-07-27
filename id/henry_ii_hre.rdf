@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/henry_ii_hre">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Henry II</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Heinrich II.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Henri II</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Enrico II</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Enrique II</skos:prefLabel>
+        <skos:definition xml:lang="en">Heinrich II was duke of Bavaria from 995 until 1004 (Heinrich IV). He then became King of Germany in 1002. In 1004 he was the emperor of the Holy Roman Empire. His date of birth is the 06.05 either in 973 or 978.</skos:definition>
+        <bio:birth rdf:resource="http://nomisma.org/id/henry_ii_hre#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/henry_ii_hre#death"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/ottonian_dynasty"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/029194/2007-12-05/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Henry_II,_Holy_Roman_Emperor"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/henry_ii_hre#membership_a2cbc39293a11df2f3021463c12bd02b"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/henry_ii_hre#membership_4ca91fbf82617fa725ba4e9f583f2d9f"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/henry_ii_hre#membership_f7c75aab5ec4a100c083e2c539edc23c"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/henry_ii_hre#membership_5606c7423ffe3b056e46ed7c82409d41"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/henry_ii_hre#provenance"/>
+    </foaf:Person>
+    <bio:Birth rdf:about="http://nomisma.org/id/henry_ii_hre#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0973-05-06</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/henry_ii_hre#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1024-07-13</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/henry_ii_hre#membership_a2cbc39293a11df2f3021463c12bd02b">
+        <rdfs:label xml:lang="es">Enrique IV</rdfs:label>
+        <rdfs:label xml:lang="it">Enrico IV</rdfs:label>
+        <rdfs:label xml:lang="fr">Henri IV</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich IV.</rdfs:label>
+        <rdfs:label xml:lang="en">Henry IV</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/henry_ii_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/duke"/>
+        <org:organization rdf:resource="http://nomisma.org/id/bavaria_duchy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0995</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1004</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/henry_ii_hre#membership_4ca91fbf82617fa725ba4e9f583f2d9f">
+        <rdfs:label xml:lang="es">Enrique II</rdfs:label>
+        <rdfs:label xml:lang="it">Enrico II</rdfs:label>
+        <rdfs:label xml:lang="fr">Henri II</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich II.</rdfs:label>
+        <rdfs:label xml:lang="en">Henry II</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/henry_ii_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1002</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1014</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/henry_ii_hre#membership_f7c75aab5ec4a100c083e2c539edc23c">
+        <rdfs:label xml:lang="es">Enrique II</rdfs:label>
+        <rdfs:label xml:lang="it">Enrico II</rdfs:label>
+        <rdfs:label xml:lang="fr">Henri II</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich II.</rdfs:label>
+        <rdfs:label xml:lang="en">Henry II</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/henry_ii_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/kingdom_of_italy"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1004</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1024</nmo:hasEndDate>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/henry_ii_hre#membership_5606c7423ffe3b056e46ed7c82409d41">
+        <rdfs:label xml:lang="es">Enrique II</rdfs:label>
+        <rdfs:label xml:lang="it">Enrico II</rdfs:label>
+        <rdfs:label xml:lang="fr">Henri II</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich II.</rdfs:label>
+        <rdfs:label xml:lang="en">Henry II</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/henry_ii_hre"/>
+        <org:role rdf:resource="http://nomisma.org/id/emperor"/>
+        <org:organization rdf:resource="http://nomisma.org/id/holy_roman_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1014</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1024</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/henry_ii_hre#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/henry_ii_hre"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

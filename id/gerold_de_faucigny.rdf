@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/gerold_de_faucigny">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="en">Gérold de Faucigny</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Giroldus de Faucigny</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Gérold de Faucigny</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gérold de Faucigny</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Gérold de Faucigny</skos:prefLabel>
+        <skos:definition xml:lang="en">Gérold de Faucigny was a bishop of Lausanne. When exactly he was named is not clear but it is confirmed in 1105 as he gifted the church of Blonay Robert. His death is also not clear but it is assumed to be between 1126 and 1134</skos:definition>
+        <bio:death rdf:resource="http://nomisma.org/id/gerold_de_faucigny#death"/>
+        <skos:exactMatch rdf:resource="http://hls-dhs-dss.ch/de/articles/018461/2004-02-12/"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/gerold_de_faucigny#membership_04258c724f05f6f60fad7c611ad57410"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/gerold_de_faucigny#provenance"/>
+    </foaf:Person>
+    <bio:Death rdf:about="http://nomisma.org/id/gerold_de_faucigny#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1134</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/gerold_de_faucigny#membership_04258c724f05f6f60fad7c611ad57410">
+        <rdfs:label xml:lang="es">Gérold de Faucigny</rdfs:label>
+        <rdfs:label xml:lang="it">Gérold de Faucigny</rdfs:label>
+        <rdfs:label xml:lang="fr">Gérold de Faucigny</rdfs:label>
+        <rdfs:label xml:lang="de">Giroldus de Faucigny</rdfs:label>
+        <rdfs:label xml:lang="en">Gérold de Faucigny</rdfs:label>
+        <foaf:topic rdf:resource="http://nomisma.org/id/gerold_de_faucigny"/>
+        <org:role rdf:resource="http://nomisma.org/id/bishop"/>
+        <org:organization rdf:resource="http://nomisma.org/id/lausanne_bishopric"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1105</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1134</nmo:hasEndDate>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/gerold_de_faucigny#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/gerold_de_faucigny"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-26T20:00:46.324Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1FwUl7Q9bV4PfUesg5gK7JxxdnSVd1th1iLZqXxGdw2I/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
