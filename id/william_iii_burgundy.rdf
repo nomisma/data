@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/william_iii_burgundy">
+        <skos:prefLabel xml:lang="en">William III of Burgundy</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Wilhelm III. von Burgund</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Guillaume III de Bourgogne</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Guglielmo III di Borgogna</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">William III, Count of Burgundy was a 12th-century French noble. He inherited his father William II's counties Burgundy and Mâcon as his only son, following William II's assassination by his barons in 1125. He demonstrated his piety by founding a priory of the Order of Cluny on the island of Saint-Pierre, and married the daughter of Berthold II. William III was himself then assassinated, as was his son William IV, at the church of Payerne on 1 March 1127. He was succeeded by Renaud III, son of William III's great-uncle Stephen. </skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/william_iii_burgundy#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/William_III,_Count_of_Burgundy"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/william_iii_burgundy#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/william_iii_burgundy#death"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/william_iii_burgundy#membership_8d634fd5294cbf2d4ac5fbbcf176d253"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/house_of_ivrea"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/william_iii_burgundy#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/william_iii_burgundy"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-03T13:20:54.086Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-03T13:46:41.113Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/william_iii_burgundy#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1110</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/william_iii_burgundy#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1127-03-01</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/william_iii_burgundy#membership_8d634fd5294cbf2d4ac5fbbcf176d253">
+        <org:role rdf:resource="http://nomisma.org/id/count"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1125</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1127</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/burgundy_county"/>
+    </org:Membership>
+</rdf:RDF>

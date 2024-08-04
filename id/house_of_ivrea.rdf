@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <rdac:Family rdf:about="http://nomisma.org/id/house_of_ivrea">
+        <skos:prefLabel xml:lang="en">House of Ivrea</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Anscarici</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Maison d'Ivrée</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Anscarii</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Haus Burgund-Ivrea</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Anscarids (Latin: Anscarii) or the House of Ivrea were a medieval dynasty of Burgundian and Frankish origin which rose to prominence in Northern Italy in the tenth century, even briefly holding the Italian throne. The main branch ruled the County of Burgundy from the eleventh to fourteenth centuries and it was one of their members who first declared himself a count palatine. The cadet Castilian branch of Ivrea ruled the Kingdom of Galicia from 1111 and the Kingdoms of Castile and León from 1126 until 1369. The Spanish House of Trastámara, which ruled in Castile, Aragon, Naples, and Navarre at various points between the late 14th and early 16th centuries, was an illegitimate cadet branch of that family. </skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/house_of_ivrea#provenance"/>
+        <skos:altLabel xml:lang="en">Anscarids</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/Anscarids"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/wiki/Q852111"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+    </rdac:Family>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/house_of_ivrea#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/house_of_ivrea"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-03T13:38:22.45Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
