@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,118 +18,133 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Organization rdf:about="http://nomisma.org/id/kingdom_of_italy">
-      <skos:prefLabel xml:lang="en">Kingdom of Italy</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">The modern kingdom of Italy was established in 1861 and dissolved with the creation of the Italian Republic in 1946.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/kingdom_of_italy#provenance"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q172579"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kingdom_of_Italy"/>
-      <skos:prefLabel xml:lang="jv">Krajan Italia</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Zjednoczone Królestwo Włoch</skos:prefLabel>
-      <skos:prefLabel xml:lang="eu">Italiako Erresuma</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">ממלכת איטליה</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">royaume d'Italie</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">이탈리아 왕국</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Reino de Italia</skos:prefLabel>
-      <skos:prefLabel xml:lang="lv">Itālijas Karaliste</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Regno d'Italia</skos:prefLabel>
-      <skos:prefLabel xml:lang="gl">Reino de Italia</skos:prefLabel>
-      <skos:prefLabel xml:lang="et">Itaalia kuningriik</skos:prefLabel>
-      <skos:prefLabel xml:lang="id">Kerajaan Italia</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Königreich Italien</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">イタリア王国</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Vương quốc Ý</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Kraljevina Italija</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Koninkrijk Italië</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Kungariket Italien</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">مملكة إيطاليا</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Reino de Itália</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Reĝlando Italio</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Talianske kráľovstvo</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Королевство Италия</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Իտալիայի թագավորություն</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">İtalya Krallığı</skos:prefLabel>
-      <skos:prefLabel xml:lang="ro">Regatul Italiei</skos:prefLabel>
-      <skos:prefLabel xml:lang="th">ราชอาณาจักรอิตาลี</skos:prefLabel>
-      <skos:prefLabel xml:lang="mk">Кралство Италија</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Regne d'Itàlia</skos:prefLabel>
-      <skos:prefLabel xml:lang="fi">Italian kuningaskunta</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Королівство Італія</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Regnum Italiae</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Kraljevina Italija</skos:prefLabel>
-      <skos:prefLabel xml:lang="nn">Kongedømet Italia</skos:prefLabel>
-      <skos:prefLabel xml:lang="os">Италийы къаролад</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Italské království</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Италианско кралство</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">იტალიის სამეფო</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Kraljevina Italija</skos:prefLabel>
-      <skos:prefLabel xml:lang="an">Reino d'Italia</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Kongeriget Italien</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">意大利王國</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Краљевина Италија</skos:prefLabel>
-      <skos:prefLabel xml:lang="ur">مملکت اطالیہ</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">پادشاهی ایتالیا</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Olasz Királyság</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Kongedømmet Italia</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Βασίλειο της Ιταλίας</skos:prefLabel>
-      <skos:prefLabel xml:lang="gv">Reeriaght ny h-Iddaal</skos:prefLabel>
-      <skos:prefLabel xml:lang="bs">Kraljevina Italija</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Каралеўства Італія</skos:prefLabel>
-      <skos:prefLabel xml:lang="sq">Mbretëria e Italisë</skos:prefLabel>
-      <skos:prefLabel xml:lang="ms">Kerajaan Itali</skos:prefLabel>
-      <skos:prefLabel xml:lang="br">Rouantelezh Italia</skos:prefLabel>
-      <skos:prefLabel xml:lang="si">ඉතාලි රාජධානිය</skos:prefLabel>
-      <skos:prefLabel xml:lang="lt">Italijos Karalystė (1861–1946)</skos:prefLabel>
-      <skos:prefLabel xml:lang="oc">Reialme d'Itàlia</skos:prefLabel>
-      <skos:prefLabel xml:lang="sc">Rennu de Itàlia</skos:prefLabel>
-      <skos:prefLabel xml:lang="ta">இத்தாலி இராச்சியம்</skos:prefLabel>
-      <skos:prefLabel xml:lang="tl">Kaharian ng Italya</skos:prefLabel>
-      <skos:prefLabel xml:lang="sw">Ufalme wa Italia</skos:prefLabel>
-      <skos:prefLabel xml:lang="az">İtaliya krallığı</skos:prefLabel>
-      <skos:prefLabel xml:lang="cy">Brenhiniaeth yr Eidal</skos:prefLabel>
-      <skos:prefLabel xml:lang="gd">Rìoghachd na h-Eadailte</skos:prefLabel>
-      <skos:prefLabel xml:lang="ga">Ríocht na hIodáile</skos:prefLabel>
-      <skos:prefLabel xml:lang="lb">Kinnekräich Italien</skos:prefLabel>
-      <skos:prefLabel xml:lang="tt">Италия корольлеге</skos:prefLabel>
-      <skos:prefLabel xml:lang="tg">Подшоҳии Итолиё</skos:prefLabel>
-      <skos:prefLabel xml:lang="ba">Италия короллеге</skos:prefLabel>
-      <skos:prefLabel xml:lang="af">Koninkryk van Italië</skos:prefLabel>
-      <skos:prefLabel xml:lang="bn">ইতালি রাজতন্ত্র</skos:prefLabel>
-      <skos:prefLabel xml:lang="mt">Renju tal-Italja</skos:prefLabel>
-      <skos:prefLabel xml:lang="mn">Италийн Хант Улс (1861–1946)</skos:prefLabel>
-      <skos:prefLabel xml:lang="kw">Ruwvaneth Itali</skos:prefLabel>
-      <skos:prefLabel xml:lang="ps">د ایټالیا سلطنت (پاچهي)</skos:prefLabel>
-      <skos:prefLabel xml:lang="se">Itália gonagasriika</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02psqkz"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/236812499"/>
-   </foaf:Organization>
+        <skos:prefLabel xml:lang="en">Kingdom of Italy</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The kingdom of Italy from early medieval to modern times, starting with Odoacer (4 September 476) and dissolved with the creation of the Italian Republic in 1946.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/kingdom_of_italy#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+      
+        <skos:exactMatch rdf:resource="https://it.wikipedia.org/wiki/Regno_d%27Italia"/>
+        <skos:prefLabel xml:lang="jv">Krajan Italia</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Królestwo Włoch</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Italiako Erresuma</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">ממלכת איטליה</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">royaume d'Italie</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">이탈리아 왕국</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Reino de Italia</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Itālijas Karaliste</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Regno d'Italia</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Reino de Italia</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Itaalia kuningriik</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Kerajaan Italia</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Königreich Italien</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">イタリア王国</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Vương quốc Ý</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Kraljevina Italija</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Koninkrijk Italië</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Kungariket Italien</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">مملكة إيطاليا</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Reino de Itália</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Reĝlando Italio</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Talianske kráľovstvo</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Королевство Италия</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Իտալիայի թագավորություն</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">İtalya Krallığı</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Regatul Italiei</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">ราชอาณาจักรอิตาลี</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Кралство Италија</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Regne d'Itàlia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Italian kuningaskunta</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Королівство Італія</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Regnum Italiae</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Kraljevina Italija</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Kongedømet Italia</skos:prefLabel>
+        <skos:prefLabel xml:lang="os">Италийы къаролад</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Italské království</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Италианско кралство</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">იტალიის სამეფო</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Kraljevina Italija</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Reino d'Italia</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Kongeriget Italien</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">意大利王國</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Краљевина Италија</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">مملکت اطالیہ</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">پادشاهی ایتالیا</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Olasz Királyság</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Kongedømmet Italia</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Βασίλειο της Ιταλίας</skos:prefLabel>
+        <skos:prefLabel xml:lang="gv">Reeriaght ny h-Iddaal</skos:prefLabel>
+        <skos:prefLabel xml:lang="bs">Kraljevina Italija</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Каралеўства Італія</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Mbretëria e Italisë</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Kerajaan Itali</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Rouantelezh Italia</skos:prefLabel>
+        <skos:prefLabel xml:lang="si">ඉතාලි රාජධානිය</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Italijos Karalystė (1861–1946)</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Reialme d'Itàlia</skos:prefLabel>
+        <skos:prefLabel xml:lang="sc">Rennu de Itàlia</skos:prefLabel>
+        <skos:prefLabel xml:lang="ta">இத்தாலி இராச்சியம்</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Kaharian ng Italya</skos:prefLabel>
+        <skos:prefLabel xml:lang="sw">Ufalme wa Italia</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">İtaliya krallığı</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Brenhiniaeth yr Eidal</skos:prefLabel>
+        <skos:prefLabel xml:lang="gd">Rìoghachd na h-Eadailte</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Ríocht na hIodáile</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Kinnekräich Italien</skos:prefLabel>
+        <skos:prefLabel xml:lang="tt">Италия корольлеге</skos:prefLabel>
+        <skos:prefLabel xml:lang="tg">Подшоҳии Итолиё</skos:prefLabel>
+        <skos:prefLabel xml:lang="ba">Италия короллеге</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Koninkryk van Italië</skos:prefLabel>
+        <skos:prefLabel xml:lang="bn">ইতালি রাজতন্ত্র</skos:prefLabel>
+        <skos:prefLabel xml:lang="mt">Renju tal-Italja</skos:prefLabel>
+        <skos:prefLabel xml:lang="mn">Италийн Хант Улс (1861–1946)</skos:prefLabel>
+        <skos:prefLabel xml:lang="kw">Ruwvaneth Itali</skos:prefLabel>
+        <skos:prefLabel xml:lang="ps">د ایټالیا سلطنت (پاچهي)</skos:prefLabel>
+        <skos:prefLabel xml:lang="se">Itália gonagasriika</skos:prefLabel>
+      
+      
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/carolingian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_italian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <skos:related rdf:resource="https://www.wikidata.org/entity/Q172579"/>
+        <skos:related rdf:resource="http://viaf.org/viaf/236812499"/>
+    </foaf:Organization>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/kingdom_of_italy#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/kingdom_of_italy"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-09T06:40:44.549Z</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-09T06:47:54.846Z</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T21:21:22.667Z</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/kingdom_of_italy"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-09T06:40:44.549Z</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-09T06:47:54.846Z</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-10T21:21:22.667Z</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-22T14:17:49.907Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

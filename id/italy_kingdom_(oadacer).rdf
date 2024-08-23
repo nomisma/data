@@ -18,30 +18,15 @@
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
     <foaf:Organization rdf:about="http://nomisma.org/id/italy_kingdom_(oadacer)">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        
+        
         <skos:prefLabel xml:lang="en">Kingdom of Italy</skos:prefLabel>
         <skos:definition xml:lang="en">In 476, the barbarian warlord Odoacer founded the Kingdom of Italy as its first king, initiating a new era over Roman lands. Oadacer established this kingdom as client-state of Zeno's Eastern Roman Empire.</skos:definition>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/italy_kingdom_(oadacer)#membership_a631a4d23fa1b6c3f10725d0e68863e1"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/italy_kingdom_(oadacer)#provenance"/>
+        
+        
+        
+        <dcterms:isReplacedBy rdf:resource="http://nomisma.org/id/kingdom_of_italy"/>
     </foaf:Organization>
-    <org:Membership rdf:about="http://nomisma.org/id/italy_kingdom_(oadacer)#membership_a631a4d23fa1b6c3f10725d0e68863e1">
-        <foaf:topic rdf:resource="http://nomisma.org/id/italy_kingdom_(oadacer)"/>
-        <org:role rdf:resource="http://nomisma.org/id/realm"/>
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0476</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0493</nmo:hasEndDate>
-    </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/italy_kingdom_(oadacer)#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/italy_kingdom_(oadacer)"/>
-				    <prov:wasGeneratedBy>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T17:02:51.141Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/13r05uEgNMASKoNLoR9G1y4CCwqChvknhnyxOpv9Gtfc/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-    </dcterms:ProvenanceStatement>
+    
+    
 </rdf:RDF>

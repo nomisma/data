@@ -117,6 +117,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-22T14:53:08.943Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <bio:Birth rdf:about="http://nomisma.org/id/odoacer#birth">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0433</dcterms:date>
@@ -127,8 +135,9 @@
     <org:Membership rdf:about="http://nomisma.org/id/odoacer#membership_13e538a8b740bf5b4711bbd1414c5f92">
         <foaf:topic rdf:resource="http://nomisma.org/id/odoacer"/>
         <org:role rdf:resource="http://nomisma.org/id/authority"/>
-        <org:organization rdf:resource="http://nomisma.org/id/italy_kingdom_(oadacer)"/>
+        
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0476</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0493</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/kingdom_of_italy"/>
     </org:Membership>
 </rdf:RDF>
