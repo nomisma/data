@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <crm:E37_Mark rdf:about="http://nomisma.org/symbol/stepped_cross">
+        <skos:prefLabel xml:lang="en">Stepped cross</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Stufenkreuz</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">A Latin or potent cross resting on a base with several steps (usually three), also called a Calvary cross. The three steps represent Faith, Hope and Charity (Fides. Spes, Caritas). Also called a Calvary cross or graded cross.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/symbol/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/symbol/stepped_cross#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <crm:P165i_is_incorporated_in>
+					       <crmdig:D1_Digital_Object rdf:about="https://en.wikipedia.org/wiki/Christian_cross_variants#/media/File:Calvary_cross_(bold).svg">
+						          <dcterms:format>image/svg+xml</dcterms:format>
+						          <dcterms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+					       </crmdig:D1_Digital_Object>
+				    </crm:P165i_is_incorporated_in>
+        <skos:altLabel xml:lang="en">Calvary cross</skos:altLabel>
+        <skos:altLabel xml:lang="de">Kalvarienkreuz </skos:altLabel>
+    </crm:E37_Mark>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/symbol/stepped_cross#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/symbol/stepped_cross"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-14T07:10:08.05Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
