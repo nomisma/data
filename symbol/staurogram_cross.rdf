@@ -21,7 +21,7 @@
         <skos:prefLabel xml:lang="en">Staurogram</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Staurogramm</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Formed of the ligature of the two Greek letters Tau (T) and Rho (P).</skos:definition>
+        <skos:definition xml:lang="en">Formed of the ligature of the two Greek letters Tau (Τ) and Rho (Ρ).</skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/symbol/"/>
         <skos:changeNote rdf:resource="http://nomisma.org/symbol/staurogram_cross#provenance"/>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q748908"/>
@@ -38,11 +38,13 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
         <crm:P165i_is_incorporated_in>
-					       <crmdig:D1_Digital_Object rdf:about="https://commons.wikimedia.org/wiki/File:Staurogram.svg">
+					       <crmdig:D1_Digital_Object rdf:about="https://upload.wikimedia.org/wikipedia/commons/a/a0/Staurogram.svg">
 						          <dcterms:format>image/svg+xml</dcterms:format>
 						          <dcterms:license rdf:resource="https://creativecommons.org/choose/mark/"/>
 					       </crmdig:D1_Digital_Object>
 				    </crm:P165i_is_incorporated_in>
+        <crm:P106_is_composed_of>Τ</crm:P106_is_composed_of>
+        <crm:P106_is_composed_of>Ρ</crm:P106_is_composed_of>
     </crm:E37_Mark>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/symbol/staurogram_cross#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/symbol/staurogram_cross"/>
@@ -54,5 +56,21 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-05T05:42:31.19Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-05T13:33:58.33Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
