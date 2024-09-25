@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/" xmlns:nmo="http://nomisma.org/ontology#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
+    <nmo:Monogram rdf:about="http://nomisma.org/symbol/monogram.00102">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/symbol/"/>
+        <skos:prefLabel xml:lang="en">Monogram 102</skos:prefLabel>
+        <skos:definition xml:lang="en">Monogram 102 published by Nomisma.org. See matching URIs and bibliographic references for further information about the usage of this symbol on coinage.</skos:definition>
+        <crm:P106_is_composed_of>Ο</crm:P106_is_composed_of>
+        <crm:P106_is_composed_of>Ξ</crm:P106_is_composed_of>
+        <skos:exactMatch rdf:resource="https://numismatics.org/bigr/symbol/monogram.bop.94"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:source rdf:resource="http://nomisma.org/id/bopearachchi-1991"/>
+        <crm:P165i_is_incorporated_in>
+            <crmdig:D1_Digital_Object rdf:about="https://nomisma.org/svg/monogram.00102.svg">
+                <dcterms:format>image/svg+xml</dcterms:format>
+                <dcterms:license rdf:resource="https://creativecommons.org/choose/mark/"/>
+                <dcterms:creator rdf:resource="http://nomisma.org/editor/ltomanelli"/>
+            </crmdig:D1_Digital_Object>
+        </crm:P165i_is_incorporated_in>
+        <skos:changeNote rdf:resource="http://nomisma.org/symbol/monogram.00102#provenance"/>
+    </nmo:Monogram>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/symbol/monogram.00102#provenance">
+        <foaf:topic rdf:resource="http://nomisma.org/symbol/monogram.00102"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-25T15:35:27-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ktolle"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/upeter"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/pvalfen"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <dcterms:description xml:lang="en">Unique Greek monogram shapes were extracted by Computer Vision methods implemented by Karsten Tolle. Ulrike Peter and Peter van Alfen performed quality assurance and contributed to original metadata production. Ethan Gruber merged data derived from source material.</dcterms:description>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
