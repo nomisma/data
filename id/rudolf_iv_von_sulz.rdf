@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/rudolf_iv_von_sulz">
+        <skos:prefLabel xml:lang="en">Rudolf IV of Sulz</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Rudolf IV. von Sulz</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Rudolf IV de Sulz</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Rudolf IV von Sulz</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Rudolf IV of Sulz was count Rudolf II of Klettgau from 1431 to 1487.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/rudolf_iv_von_sulz#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_luxembourgian_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/rudolf_iv_von_sulz#membership_2fca0b00fed86e4b4249996ba99eff1e"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/rudolf_iv_von_sulz#membership_4098ad8125ead5e98cd66cce168d20d1"/>
+        <skos:altLabel xml:lang="en">Rudolf II of Klettgau</skos:altLabel>
+        <skos:altLabel xml:lang="de">Rudolf II. von Klettgau </skos:altLabel>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/rudolf_iv_von_sulz#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/rudolf_iv_von_sulz"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-02T15:51:29.226Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/rudolf_iv_von_sulz#membership_2fca0b00fed86e4b4249996ba99eff1e">
+        <org:role rdf:resource="http://nomisma.org/id/count"/>
+        <org:organization rdf:resource="http://nomisma.org/id/klettgau_county"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</nmo:hasEndDate>
+        <rdfs:label xml:lang="en">Rudolf II of Klettgau</rdfs:label>
+        <rdfs:label xml:lang="de">Rudolf II. von Klettgau</rdfs:label>
+    </org:Membership>
+    <org:Membership rdf:about="http://nomisma.org/id/rudolf_iv_von_sulz#membership_4098ad8125ead5e98cd66cce168d20d1">
+        <org:role rdf:resource="http://nomisma.org/id/kastvogt"/>
+        <org:organization rdf:resource="http://nomisma.org/id/rheinau_abbey"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>
