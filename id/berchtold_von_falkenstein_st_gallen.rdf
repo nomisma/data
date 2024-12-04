@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/berchtold_von_falkenstein_st_gallen">
+        <skos:prefLabel xml:lang="en">Berchtold von Falkenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Berchtold von Falkenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Berchtold von Falkenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Berchtold von Falkenstein</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Berchtold von Falkenstein was elected prince-abbot of Saint Gall abbey in 25 November 1244 and ruled until his death (10 June 1272).</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/berchtold_von_falkenstein_st_gallen#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/berchtold_von_falkenstein_st_gallen#membership_d5101e4f0d46cf6c5cccb925b82fc5ea"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q818828"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Berchtold_von_Falkenstein"/>
+        <skos:prefLabel xml:lang="nl">Berchtold von Falkenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Berchtold von Falkenstein</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/60302893"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/124114172"/>
+        <bio:death rdf:resource="http://nomisma.org/id/berchtold_von_falkenstein_st_gallen#death"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/berchtold_von_falkenstein_st_gallen#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/berchtold_von_falkenstein_st_gallen"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-03T15:08:58.803Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/berchtold_von_falkenstein_st_gallen#membership_d5101e4f0d46cf6c5cccb925b82fc5ea">
+        <org:role rdf:resource="http://nomisma.org/id/prince-abbot"/>
+        <org:organization rdf:resource="http://nomisma.org/id/saint_gall_abbey"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1244</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1272</nmo:hasEndDate>
+    </org:Membership>
+    <bio:Death rdf:about="http://nomisma.org/id/berchtold_von_falkenstein_st_gallen#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1272-06-10</dcterms:date>
+    </bio:Death>
+</rdf:RDF>
