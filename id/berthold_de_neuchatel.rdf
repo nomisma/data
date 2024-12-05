@@ -18,7 +18,7 @@
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
     <foaf:Person rdf:about="http://nomisma.org/id/berthold_de_neuchatel">
-        <skos:prefLabel xml:lang="en">Berthold of Neuchâtel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Berthold de Neuchâtel</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Berthold von Neuenburg</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Berthold de Neuchâtel</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Berthold de Neuchâtel</skos:prefLabel>
@@ -33,6 +33,7 @@
         <org:memberOf rdf:resource="http://nomisma.org/id/house_of_fenis"/>
         <bio:death rdf:resource="http://nomisma.org/id/berthold_de_neuchatel#death"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/berthold_de_neuchatel#membership_453ecb3f01e71daff762ef789299addc"/>
+        <skos:altLabel xml:lang="en">Berthold of Neuchatel</skos:altLabel>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/berthold_de_neuchatel#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/berthold_de_neuchatel"/>
@@ -44,6 +45,14 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-04T09:48:29.711Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <bio:Death rdf:about="http://nomisma.org/id/berthold_de_neuchatel#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1220-07-13</dcterms:date>
