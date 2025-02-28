@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,102 +18,132 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/hieropolis_phrygia">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Hieropolis</skos:prefLabel>
-      <skos:broader rdf:resource="http://nomisma.org/id/phrygia"/>
-      <skos:definition xml:lang="en">The mint at the ancient site of Hieropolis in Phrygia</skos:definition>
-      <skos:prefLabel xml:lang="ru">Иерoполис</skos:prefLabel>
-      <skos:prefLabel xml:lang="bg">Хиерoполис</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Hieropolis de Frígia</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Hieropolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Ιερóπολη Φρυγίας</skos:prefLabel>
-      <skos:prefLabel xml:lang="eo">Hieropolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Hieropolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Hiérapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="he">הייראפוליס</skos:prefLabel>
-      <skos:prefLabel xml:lang="hr">Hierapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="hu">Hierapolisz</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Hierapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">ヒエラポリス-パムッカレ</skos:prefLabel>
-      <skos:prefLabel xml:lang="ko">히에라폴리스</skos:prefLabel>
-      <skos:prefLabel xml:lang="mr">हिरापोलिस</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Hiërapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Hierapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Hierápolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="sh">Hijerapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="sk">Hierapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="sq">Hierapolisi</skos:prefLabel>
-      <skos:prefLabel xml:lang="sw">Hierapoli</skos:prefLabel>
-      <skos:prefLabel xml:lang="tr">Hierapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Ієраполіс</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">希拉波利斯</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Hierapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="sr">Памукале</skos:prefLabel>
-      <skos:prefLabel xml:lang="af">Hiërapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="be">Горад Іерапаль</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">Hierapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="cs">Hierapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="ka">იერაპოლისი</skos:prefLabel>
-      <skos:prefLabel xml:lang="la">Hierapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="fa">هیراپولیس (شهر باستانی)</skos:prefLabel>
-      <skos:prefLabel xml:lang="vi">Hierapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="hy">Հիերապոլիս</skos:prefLabel>
-      <skos:prefLabel xml:lang="sl">Hierapolis</skos:prefLabel>
-      <skos:prefLabel xml:lang="ne">हेरापोलिस</skos:prefLabel>
-      <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/609403"/>
-      <geo:location rdf:resource="http://nomisma.org/id/hieropolis_phrygia#this"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/hieropolis_phrygia#provenance"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Hieropolis</skos:prefLabel>
+        <skos:broader rdf:resource="http://nomisma.org/id/phrygia"/>
+        <skos:definition xml:lang="en">The mint at the ancient site of Hieropolis in Phrygia</skos:definition>
+        <skos:prefLabel xml:lang="ru">Иерoполис</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Хиерoполис</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Hieropolis de Frígia</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Hieropolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ιερóπολη Φρυγίας</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Hieropolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Hieropolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiérapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">הייראפוליס</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Hierapolisz</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ヒエラポリス-パムッカレ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">히에라폴리스</skos:prefLabel>
+        <skos:prefLabel xml:lang="mr">हिरापोलिस</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Hiërapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Hierápolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Hijerapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Hierapolisi</skos:prefLabel>
+        <skos:prefLabel xml:lang="sw">Hierapoli</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Ієраполіс</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">希拉波利斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Памукале</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Hiërapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Горад Іерапаль</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">იერაპოლისი</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">هیراپولیس (شهر باستانی)</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Հիերապոլիս</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ne">हेरापोलिस</skos:prefLabel>
+        <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/609403"/>
+        <geo:location rdf:resource="http://nomisma.org/id/hieropolis_phrygia#this"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/hieropolis_phrygia#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q7428276"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Hierapolis"/>
+        <skos:prefLabel xml:lang="ar">هييرابوليس</skos:prefLabel>
+        <skos:prefLabel xml:lang="hi">हीरापोलिस</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Hierápolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Hierapole</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">ہیراپولس</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Јерапол</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="mg">Hierapôlisy</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ta">ஹைராபோலிஸ்</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Hierapolis</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Hierapolis</skos:prefLabel>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4089225-6"/>
+        <skos:closeMatch rdf:resource="http://sws.geonames.org/7733052"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/236375199"/>
+        <skos:altLabel xml:lang="en">Hierapolis</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/tgn/7016835"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/hieropolis_phrygia#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.461767</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.197699</geo:long>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/phrygia#this"/>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.461767</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.197699</geo:long>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/phrygia#this"/>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hieropolis_phrygia#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/hieropolis_phrygia"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-18T04:00:03+00:00</prov:atTime>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-26T14:16:07.471-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/hieropolis_phrygia"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-26T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/19N59I8u6CnwDYfSHsr10xDt50fIRp_EyqZP_BGVaH4U/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-24T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1zg7HnWqYSzVk8oSLythIOvqix0CYf0Xxv6VMb4Edeho/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-18T04:00:03+00:00</prov:atTime>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-03T08:16:26.529-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1IGGOPjahp8nM0D5xUHyjJ9joFk3DGrW2yLmf2A3hlVc/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-26T14:16:07.471-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-27T15:06:17.375Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/ameadows"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
