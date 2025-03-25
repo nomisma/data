@@ -27,14 +27,11 @@
         <dcterms:source rdf:resource="http://nomisma.org/id/yehud_coinage"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hezekiah_(governor)"/>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q104859431"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/yehizqiyah#membership_ba52c7386507877769c1afffc222b037"/>
+        
         <skos:changeNote rdf:resource="http://nomisma.org/id/yehizqiyah#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/yehizqiyah#membership_ba52c7386507877769c1afffc222b037"/>
     </foaf:Person>
-    <org:Membership rdf:about="http://nomisma.org/id/yehizqiyah#membership_ba52c7386507877769c1afffc222b037">
-        <foaf:topic rdf:resource="http://nomisma.org/id/yehizqiyah"/>
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-        <org:organization rdf:resource="http://nomisma.org/id/yehud_medinata"/>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/yehizqiyah#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/yehizqiyah"/>
 				    <prov:wasGeneratedBy>
@@ -46,5 +43,19 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-24T15:25:32.089Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/11thZkUdyerzAR0t1kBKnaExap2brmwTwrfgOHoVGRlI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/yehizqiyah#membership_ba52c7386507877769c1afffc222b037">
+        <foaf:topic rdf:resource="http://nomisma.org/id/yehizqiyah"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+        <org:organization rdf:resource="http://nomisma.org/id/yehud_medinata"/>
+    </org:Membership>
 </rdf:RDF>

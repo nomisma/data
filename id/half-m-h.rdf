@@ -17,38 +17,32 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <nmo:Denomination rdf:about="http://nomisma.org/id/rb-sheqel">
+    <nmo:Denomination rdf:about="http://nomisma.org/id/half-m-h">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="en">Rb' sheqel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">1/2 m'h</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Half m'h</skos:altLabel>
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0400</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0300</nmo:hasEndDate>
-        <skos:definition xml:lang="en">Ancient Levantine unit of standard, most likely a quarter of a sheqel of 14.40 g, mean weight of 3.60 g (Philistian and Samarian standard). The term is known from the Bible and is epigraphically attested in Persian-period finds from the southern Levant.</skos:definition>
+        <skos:definition xml:lang="en">Half of a m'h, most likely forty-eigth of a sheqel of 9.60 g, mean weight of 0.20g (Judahite standard), or forty-eigth of a sheqel of 14.40g, mean weight of 0.30g (Philistian and Samarian standard).</skos:definition>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-        <dcterms:source rdf:resource="http://nomisma.org/id/yehud_coinage"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/rb-sheqel#provenance"/>
+        <dcterms:source rdf:resource="http://nomisma.org/id/samarian_coinage"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/half-m-h#provenance"/>
     </nmo:Denomination>
+    
    
    
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/rb-sheqel#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/rb-sheqel"/>
+    
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/half-m-h#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/half-m-h"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-15T14:23:28.853Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1cTGgcOdj9eM4H0h-u9bphT1xj5dpIjayZnEXm6W85VA/pubhtml"/>
-					           <dcterms:type>spreadsheet</dcterms:type>
-				        </prov:Activity>
-        </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-24T15:34:26.075Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1cTGgcOdj9eM4H0h-u9bphT1xj5dpIjayZnEXm6W85VA/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
-        </prov:activity>
+        </prov:wasGeneratedBy>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
