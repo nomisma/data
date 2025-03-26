@@ -33,9 +33,10 @@
     <org:Membership rdf:about="http://nomisma.org/id/brochubelus_eber-nari#membership_3d3c891a0ecd1a1042e3d847eb877829">
         <foaf:topic rdf:resource="http://nomisma.org/id/brochubelus_eber-nari"/>
         <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-        <org:organization rdf:resource="http://nomisma.org/id/eber-nari"/>
+        
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0345</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0334</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/samaria_province"/>
     </org:Membership>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/brochubelus_eber-nari#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/brochubelus_eber-nari"/>
@@ -48,5 +49,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-25T16:01:33.279Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

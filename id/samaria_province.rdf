@@ -26,6 +26,7 @@
         <skos:broader rdf:resource="http://nomisma.org/id/eber-nari"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/persian_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/samaria_province#membership_ccfc4aeb965e2b7954e22808e2c69b9c"/>
     </foaf:Organization>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/samaria_province#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/samaria_province"/>
@@ -37,5 +38,17 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-25T16:00:58.592Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/samaria_province#membership_ccfc4aeb965e2b7954e22808e2c69b9c">
+        <org:role rdf:resource="http://nomisma.org/id/province"/>
+        <org:organization rdf:resource="http://nomisma.org/id/achaemenid_empire"/>
+    </org:Membership>
 </rdf:RDF>
