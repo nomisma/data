@@ -17,8 +17,8 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Denomination rdf:about="http://nomisma.org/id/medieval_denarius">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Medieval Denarius</skos:prefLabel>
-        <skos:definition xml:lang="en">Medieval denomination with the value of denarius. For the regional variants in German, French and Italian-speaking areas, see denar_de, denier_fr and denaro_it. For the roman denomination see denarius.</skos:definition>
+        <skos:prefLabel xml:lang="en">Denarius</skos:prefLabel>
+        <skos:definition xml:lang="en">Medieval denomination with the value of denarius. For the regional variants in German, French, English- and Italian-speaking areas, see denar_de, pfennig_de, denier_fr, penny_en and denaro_it. For the roman denomination see denarius.</skos:definition>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_german_numismatics"/>
         <skos:prefLabel xml:lang="de">Pfennig</skos:prefLabel>
@@ -35,6 +35,11 @@
         <skos:narrower rdf:resource="http://nomisma.org/id/denar_de"/>
         <skos:narrower rdf:resource="http://nomisma.org/id/denier_fr"/>
         <skos:narrower rdf:resource="http://nomisma.org/id/denaro_it"/>
+        <skos:related rdf:resource="http://nomisma.org/id/pfennig_de"/>
+        <skos:related rdf:resource="http://nomisma.org/id/denar_de"/>
+        <skos:related rdf:resource="http://nomisma.org/id/denier_fr"/>
+        <skos:related rdf:resource="http://nomisma.org/id/denaro_it"/>
+        <skos:related rdf:resource="http://nomisma.org/id/penny_en"/>
     </nmo:Denomination>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/medieval_denarius#provenance">
         <foaf:topic rdf:resource="http://nomisma.org/id/medieval_denarius"/>
@@ -84,6 +89,14 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-19T08:55:10.597Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T06:47:22.129Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
