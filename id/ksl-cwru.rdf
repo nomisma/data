@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Collection rdf:about="http://nomisma.org/id/ksl-cwru">
+        <skos:prefLabel xml:lang="en">Kelvin Smith Library Special Collections - Roman Coin Collection</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Kelvin Smith Library Special Collections Roman Coin Collection at Case Western Reserve University consists of 325 bronze and silver Roman coins mainly from the 2nd through 4th centuries CE, with additional specimens from the Greek, Hellenistic, and Modern worlds. The coins range from Roman Imperial issues to local provincial issues mainly from Antioch, Syria (modern Antakya, Türkiye), with other geographies also represented. These digitized coins and more are openly available on Digital Case, Case Western Reserve University's online source for curated digital content from University Archives, CWRU Special Collections, and Partner Institutions.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="http://hdl.handle.net/2186/ksl:2006236932"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/ksl-cwru#provenance"/>
+        <foaf:thumbnail rdf:resource="https://case.edu/brand/sites/default/files/2023-05/CWRU_Two-line-logo-brand.jpg"/>
+    </nmo:Collection>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ksl-cwru#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/ksl-cwru"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-14T14:22:47.327Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
