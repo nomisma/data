@@ -37,6 +37,8 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/clovis_ii#membership_0d102cce8667d35d1b4da7e4b8f00ce3"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/clovis_ii#provenance"/>
+        <skos:exactMatch rdf:resource="http://ikmk.smb.museum/ndp/person/433"/>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/Clovis_II"/>
     </foaf:Person>
     <bio:Birth rdf:about="http://nomisma.org/id/clovis_ii#birth">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0633</dcterms:date>
@@ -52,9 +54,10 @@
         <rdfs:label xml:lang="en">Clovis II</rdfs:label>
         <foaf:topic rdf:resource="http://nomisma.org/id/clovis_ii"/>
         <org:role rdf:resource="http://nomisma.org/id/king"/>
-        <org:organization rdf:resource="http://nomisma.org/id/francia_merovingian_dynasty"/>
+        
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0639</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0657</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/francia_kingdom"/>
     </org:Membership>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/clovis_ii#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/clovis_ii"/>
@@ -67,5 +70,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-01T10:15:14.359Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
