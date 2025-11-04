@@ -29,6 +29,7 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q104859431"/>
         
         <skos:changeNote rdf:resource="http://nomisma.org/id/yehizqiyah#provenance"/>
+        
         <org:hasMembership rdf:resource="http://nomisma.org/id/yehizqiyah#membership_ba52c7386507877769c1afffc222b037"/>
     </foaf:Person>
     
@@ -52,7 +53,17 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-03T17:31:18.974Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/11thZkUdyerzAR0t1kBKnaExap2brmwTwrfgOHoVGRlI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    
     <org:Membership rdf:about="http://nomisma.org/id/yehizqiyah#membership_ba52c7386507877769c1afffc222b037">
         <foaf:topic rdf:resource="http://nomisma.org/id/yehizqiyah"/>
         <org:role rdf:resource="http://nomisma.org/id/issuer"/>

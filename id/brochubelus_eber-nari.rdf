@@ -24,20 +24,14 @@
         <skos:definition xml:lang="en">High official of the Achaemenid province Samaria, satrapy of Eber-Nari, during the 4th century BCE.</skos:definition>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
         <dcterms:source rdf:resource="http://nomisma.org/id/samarian_coinage"/>
-        <org:hasMembership rdf:resource="http://nomisma.org/id/brochubelus_eber-nari#membership_3d3c891a0ecd1a1042e3d847eb877829"/>
+        
         <skos:changeNote rdf:resource="http://nomisma.org/id/brochubelus_eber-nari#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/brochubelus_eber-nari#membership_3d3c891a0ecd1a1042e3d847eb877829"/>
     </foaf:Person>
     
     
     
-    <org:Membership rdf:about="http://nomisma.org/id/brochubelus_eber-nari#membership_3d3c891a0ecd1a1042e3d847eb877829">
-        <foaf:topic rdf:resource="http://nomisma.org/id/brochubelus_eber-nari"/>
-        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
-        
-        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0345</nmo:hasStartDate>
-        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0334</nmo:hasEndDate>
-        <org:organization rdf:resource="http://nomisma.org/id/samaria_province"/>
-    </org:Membership>
+    
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/brochubelus_eber-nari#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/brochubelus_eber-nari"/>
 				    <prov:wasGeneratedBy>
@@ -57,5 +51,21 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-03T17:31:18.974Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/11thZkUdyerzAR0t1kBKnaExap2brmwTwrfgOHoVGRlI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/brochubelus_eber-nari#membership_3d3c891a0ecd1a1042e3d847eb877829">
+        <foaf:topic rdf:resource="http://nomisma.org/id/brochubelus_eber-nari"/>
+        <org:role rdf:resource="http://nomisma.org/id/issuer"/>
+        <org:organization rdf:resource="http://nomisma.org/id/eber-nari"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0345</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0334</nmo:hasEndDate>
+    </org:Membership>
 </rdf:RDF>
