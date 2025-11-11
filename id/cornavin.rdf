@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,53 +18,63 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/cornavin">
-      <skos:prefLabel xml:lang="en">Cornavin</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Cornavin</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Cornavin</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Cornavin</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">    The mint of Cornavin, then just outside of Geneva, Switzerland. Today part of a quartier in the center of Geneva. The duchy of Savoy issued coins in their mint at Cornavin from 1435 until 1532.</skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/cornavin#provenance"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1435</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1532</nmo:hasEndDate>
-      <geo:location rdf:resource="http://nomisma.org/id/cornavin#this"/>
-      <skos:closeMatch rdf:resource="http://nomisma.org/id/geneva"/>
-      <skos:closeMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/1926"/>
-   </nmo:Mint>
+        <skos:prefLabel xml:lang="en">Cornavin</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Cornavin</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Cornavin</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Cornavin</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">    The mint of Cornavin, then just outside of Geneva, Switzerland. Today part of a quartier in the center of Geneva. The duchy of Savoy issued coins in their mint at Cornavin from 1435 until 1532.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/cornavin#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1435</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1532</nmo:hasEndDate>
+        <geo:location rdf:resource="http://nomisma.org/id/cornavin#this"/>
+        <skos:closeMatch rdf:resource="http://nomisma.org/id/geneva"/>
+        <skos:closeMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/1926"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q127430044"/>
+        <skos:exactMatch rdf:resource="http://de.wikipedia.org/wiki/Münzstättte_Cornavin"/>
+    </nmo:Mint>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cornavin#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/cornavin"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-16T07:18:33.557-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-16T07:24:52.497-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T02:00:22.613-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/cornavin"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-16T07:18:33.557-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-16T07:24:52.497-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T02:00:22.613-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-10T07:59:37.619Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/cornavin#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.20976</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.14402</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.20976</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.14402</geo:long>
    </geo:SpatialThing>
 </rdf:RDF>
