@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/godegisel">
+        <skos:prefLabel xml:lang="en">Godegisel</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Godegisclus</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Godégisile</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Godegiselo</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Godegisel</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Godegisilo</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Godegisel was a Burgundian sub-king and son of the Burgundian king Gondioc. From 480 onwards, he ruled Burgundy as co-king with Gundobad. Godegisel appears to have had his seat of power in Geneva. After a failed attempt to have Gundobad assassinated, he was forced to retreat to Vienne, where he was eliminated by Gundobad and replaced by Gundobad's son Sigismund.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/godegisel#provenance"/>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/Godegisel"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/wiki/Q918807"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/godegisel#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/godegisel#death"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/godegisel#membership_49bb1d1421c1b94741dfa3859c85f779"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/godegisel#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/godegisel"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-17T16:39:38.943Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/godegisel#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0443</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/godegisel#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0501</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/godegisel#membership_49bb1d1421c1b94741dfa3859c85f779">
+        <org:role rdf:resource="http://nomisma.org/id/king"/>
+        <org:organization rdf:resource="http://nomisma.org/id/burgundy_kingdom"/>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0501</nmo:hasEndDate>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0480</nmo:hasStartDate>
+    </org:Membership>
+</rdf:RDF>

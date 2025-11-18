@@ -36,6 +36,10 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/gundobad_burgundy#membership_8c4774baa56cea67d7af80f729696bd6"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/gundobad_burgundy#provenance"/>
+        <skos:exactMatch rdf:resource="http://ikmk.smb.museum/ndp/person/745"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/gundobad_burgundy#birth"/>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/Gundobad"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/wiki/Q364245"/>
     </foaf:Person>
     <bio:Death rdf:about="http://nomisma.org/id/gundobad_burgundy#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0516</dcterms:date>
@@ -63,5 +67,17 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-17T17:09:02.469Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/gundobad_burgundy#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0452</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/uncertain_value"/>
+    </bio:Birth>
 </rdf:RDF>
