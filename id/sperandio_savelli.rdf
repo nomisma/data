@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/sperandio_savelli">
+        <skos:prefLabel xml:lang="en">Sperandio di Bartolommeo Savelli</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sperandio di Bartolommeo Savelli</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Italian medalist, architect, sculptor, painter, bronze and cannon caster, son of Bartolommeo di Sperandio Savelli, a Roman goldsmith.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/sperandio_savelli#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/sperandio_savelli#membership_2302ee38fbab06aecce6aea4b2d51bb8"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/sperandio_savelli#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/sperandio_savelli#death"/>
+        <skos:altLabel xml:lang="en">Sperandio Savelli</skos:altLabel>
+        <skos:altLabel xml:lang="en">Sperandio of Mantua</skos:altLabel>
+        
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3124"/>
+        <skos:exactMatch rdf:resource="https://viaf.org/viaf/55005923"/>
+        <skos:exactMatch rdf:resource="https://d-nb.info/gnd/121523373"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q3966499"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG115432"/>
+        <skos:altLabel xml:lang="it">Sperandio da Mantova</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sperandio_savelli#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/sperandio_savelli"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T05:03:32.041Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T05:10:51.244Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T05:16:40.406Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T14:40:57.923Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/sperandio_savelli#membership_2302ee38fbab06aecce6aea4b2d51bb8">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+    </org:Membership>
+    <bio:Birth rdf:about="http://nomisma.org/id/sperandio_savelli#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1425</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/sperandio_savelli#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1504</dcterms:date>
+    </bio:Death>
+</rdf:RDF>

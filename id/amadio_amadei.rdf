@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/amadio_amadei">
+        <skos:prefLabel xml:lang="en">Amadio Amadei</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Amadio Amadei</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Italian goldsmith and medalist, active in Ferrara.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/amadio_amadei#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/amadio_amadei#membership_a2f9e339a80b632f8d5b2d75b4485683"/>
+        <skos:altLabel xml:lang="it">Amadio da Milano</skos:altLabel>
+        <skos:altLabel xml:lang="en">Amadio da Milano</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q452043"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3880"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q452043"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG112248"/>
+        <skos:exactMatch rdf:resource="https://viaf.org/viaf/7318157100633472740009"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/amadio_amadei#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/amadio_amadei"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T05:59:12.313Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T14:38:13.707Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/amadio_amadei#membership_a2f9e339a80b632f8d5b2d75b4485683">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+    </org:Membership>
+</rdf:RDF>

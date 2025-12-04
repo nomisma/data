@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/niccolo_fiorentino">
+        <skos:prefLabel xml:lang="en">Niccolò Fiorentino</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Niccolò Fiorentino</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Italian medalist, the most prolific Florentine medalist of the early modern period.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/niccolo_fiorentino#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/niccolo_fiorentino#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/niccolo_fiorentino#death"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q16582310"/>
+        <skos:altLabel xml:lang="en">Niccolò Spinelli</skos:altLabel>
+        <skos:altLabel xml:lang="it">Niccolò di Forzore Spinelli</skos:altLabel>
+        <skos:altLabel xml:lang="it">Niccolò Spinelli </skos:altLabel>
+        <skos:exactMatch rdf:resource="https://d-nb.info/gnd/123861713"/>
+        <skos:exactMatch rdf:resource="https://viaf.org/viaf/23059911"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG107839"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3740"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/niccolo_fiorentino#membership_26788899f71a87650da9d7c37984bd72"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/niccolo_fiorentino#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/niccolo_fiorentino"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T05:19:24.59Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T14:36:32.072Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T14:39:00.776Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/niccolo_fiorentino#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/niccolo_fiorentino#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</dcterms:date>
+    </bio:Death>
+    <org:Membership rdf:about="http://nomisma.org/id/niccolo_fiorentino#membership_26788899f71a87650da9d7c37984bd72">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+    </org:Membership>
+</rdf:RDF>

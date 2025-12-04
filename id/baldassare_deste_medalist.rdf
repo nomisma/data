@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/baldassare_deste_medalist">
+        <skos:prefLabel xml:lang="en">Baldassare d’Este</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Baldassare d’Este</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Italian painter and medalist, a natural son of the Marquess Niccolo III, born at Reggio.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/baldassare_deste_medalist#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/baldassare_deste_medalist#membership_1b711bc346d9ac6e035cb45d6b46c015"/>
+        <skos:altLabel xml:lang="it">Baldassare Estense</skos:altLabel>
+        <skos:altLabel xml:lang="it">Baldassarre da Reggio</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3884"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q804745"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG107498"/>
+        <skos:exactMatch rdf:resource="https://viaf.org/viaf/6133956"/>
+        <skos:exactMatch rdf:resource="https://d-nb.info/gnd/133821889"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/baldassare_deste_medalist#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/baldassare_deste_medalist#death"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/baldassare_deste_medalist#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/baldassare_deste_medalist"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T05:45:27.468Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T14:41:25.631Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/baldassare_deste_medalist#membership_1b711bc346d9ac6e035cb45d6b46c015">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+    </org:Membership>
+    <bio:Birth rdf:about="http://nomisma.org/id/baldassare_deste_medalist#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1441</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/baldassare_deste_medalist#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1504</dcterms:date>
+    </bio:Death>
+</rdf:RDF>

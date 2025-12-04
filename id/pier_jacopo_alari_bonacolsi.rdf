@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/pier_jacopo_alari_bonacolsi">
+        <skos:prefLabel xml:lang="en">Pier Jacopo di Antonio Alari Bonacolsi</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Italian sculptor and medalist, active in Mantua, and known as Antico.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/pier_jacopo_alari_bonacolsi#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/pier_jacopo_alari_bonacolsi#membership_a679d1e9182dbcaea144179a42c15fed"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/10137"/>
+        <skos:exactMatch rdf:resource="https://d-nb.info/gnd/129065307"/>
+        <skos:exactMatch rdf:resource="https://viaf.org/viaf/23208624"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG104401"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q1464234"/>
+        
+        <skos:altLabel xml:lang="en">Antico</skos:altLabel>
+        <bio:birth rdf:resource="http://nomisma.org/id/pier_jacopo_alari_bonacolsi#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/pier_jacopo_alari_bonacolsi#death"/>
+        <skos:altLabel xml:lang="it">Pier Jacopo di Antonio Alari Bonacolsi</skos:altLabel>
+        <skos:altLabel xml:lang="it">Antico</skos:altLabel>
+        <skos:altLabel xml:lang="it">Pier Jacopo Ilario Bonacolsi</skos:altLabel>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/pier_jacopo_alari_bonacolsi#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/pier_jacopo_alari_bonacolsi"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T14:22:24.296Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T14:28:33.793Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T14:42:25.02Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-03T18:36:24.441Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/pier_jacopo_alari_bonacolsi#membership_a679d1e9182dbcaea144179a42c15fed">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+    </org:Membership>
+    <bio:Birth rdf:about="http://nomisma.org/id/pier_jacopo_alari_bonacolsi#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1460</dcterms:date>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/pier_jacopo_alari_bonacolsi#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1528</dcterms:date>
+    </bio:Death>
+</rdf:RDF>
