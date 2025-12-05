@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/gianfrancesco_enzola">
+        <skos:prefLabel xml:lang="en">Gianfrancesco Enzola</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gianfrancesco Enzola</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Italian goldsmith and medalist.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/gianfrancesco_enzola#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/gianfrancesco_enzola#membership_97b53b4c1279bbb3a2db67092c278595"/>
+        <skos:altLabel xml:lang="it">Gianfrancesco Enzola da Parma</skos:altLabel>
+        <bio:birth rdf:resource="http://nomisma.org/id/gianfrancesco_enzola#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/gianfrancesco_enzola#death"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/3935"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q16268355"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG107400"/>
+        <skos:exactMatch rdf:resource="https://viaf.org/viaf/305159910"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
+        <skos:exactMatch rdf:resource="https://d-nb.info/gnd/1041250312"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/gianfrancesco_enzola#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/gianfrancesco_enzola"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-04T06:28:33.293Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-04T06:36:00.257Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/gianfrancesco_enzola#membership_97b53b4c1279bbb3a2db67092c278595">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+    </org:Membership>
+    <bio:Birth rdf:about="http://nomisma.org/id/gianfrancesco_enzola#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/gianfrancesco_enzola#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+    </bio:Death>
+</rdf:RDF>

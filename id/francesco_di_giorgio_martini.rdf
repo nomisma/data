@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/francesco_di_giorgio_martini">
+        <skos:prefLabel xml:lang="en">Francesco di Giorgio Martini</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Francesco di Giorgio Martini</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Italian architect, sculptor, painter and medalist, active in Urbino.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/francesco_di_giorgio_martini#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/francesco_di_giorgio_martini#membership_4e4522e2c445cd5bfce66a1c0bcfab06"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/francesco_di_giorgio_martini#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/francesco_di_giorgio_martini#death"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/5552"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/wiki/Q434425"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG27746"/>
+        <skos:exactMatch rdf:resource="https://viaf.org/viaf/56688760"/>
+        <skos:exactMatch rdf:resource="https://d-nb.info/gnd/118782339"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <skos:altLabel xml:lang="en">Francesco di Giorgio Martini Pallaiulo</skos:altLabel>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/francesco_di_giorgio_martini#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/francesco_di_giorgio_martini"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-04T06:41:32.635Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/francesco_di_giorgio_martini#membership_4e4522e2c445cd5bfce66a1c0bcfab06">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+    </org:Membership>
+    <bio:Birth rdf:about="http://nomisma.org/id/francesco_di_giorgio_martini#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/francesco_di_giorgio_martini#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+    </bio:Death>
+</rdf:RDF>
