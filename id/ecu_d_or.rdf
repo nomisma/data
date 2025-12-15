@@ -18,14 +18,19 @@
     <nmo:Denomination rdf:about="http://nomisma.org/id/ecu_d_or">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:prefLabel xml:lang="de">Écu d'Or</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Goldkrone</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">écu d'or</skos:prefLabel>
         <skos:prefLabel xml:lang="it">scudo d'oro</skos:prefLabel>
         <skos:prefLabel xml:lang="en">écu d'or</skos:prefLabel>
-        <skos:definition xml:lang="en">Denomination with the value of écu d'or. For the regional variants in French and Italian-speaking areas, see ecu_d_or_fr and scudo_d_oro_it.</skos:definition>
+        <skos:definition xml:lang="en">Denomination with the value of écu d'or. For the regional variants in German, French and Italian-speaking areas, see goldkrone_de, ecu_d_or_fr and scudo_d_oro_it.</skos:definition>
         <skos:narrower rdf:resource="http://nomisma.org/id/ecu_d_or_fr"/>
         <skos:narrower rdf:resource="http://nomisma.org/id/scudo_d_oro_it"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/ecu_d_or#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_french_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/%C3%89cu"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/denomination/960"/>
     </nmo:Denomination>
    
    
@@ -40,5 +45,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-14T13:29:20.916Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
