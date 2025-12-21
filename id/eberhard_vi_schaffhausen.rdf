@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/eberhard_vi_schaffhausen">
+        <skos:prefLabel xml:lang="en">Eberhard VI</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Eberhard VI.</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Eberhard VI</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Eberhard VI</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Eberhard VI</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Count Eberhard VI of Nellenburg († 26.03.1078/79 / 1.03.1080) is first mentioned 1036/37 as count of the Zürichgau, founder of the abbey of all saints in Schaffhausen.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/eberhard_vi_schaffhausen#provenance"/>
+        <bio:birth rdf:resource="http://nomisma.org/id/eberhard_vi_schaffhausen#birth"/>
+        <bio:death rdf:resource="http://nomisma.org/id/eberhard_vi_schaffhausen#death"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <skos:exactMatch rdf:resource="http://de.wikipedia.org/wiki/Eberhard_VI._von_Nellenburg"/>
+        <org:memberOf rdf:resource="http://nomisma.org/id/house_of_nellenburg"/>
+        <skos:altLabel xml:lang="en">Eberhard III</skos:altLabel>
+        <skos:altLabel xml:lang="de">Eberhard III.</skos:altLabel>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/eberhard_vi_schaffhausen#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/eberhard_vi_schaffhausen"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-20T22:43:27.362Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <bio:Birth rdf:about="http://nomisma.org/id/eberhard_vi_schaffhausen#birth">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1015</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+    </bio:Birth>
+    <bio:Death rdf:about="http://nomisma.org/id/eberhard_vi_schaffhausen#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1078</dcterms:date>
+        <un:hasUncertainty rdf:resource="http://nomisma.org/id/approximate_value"/>
+    </bio:Death>
+</rdf:RDF>
