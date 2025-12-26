@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/walter_von_trauchburg">
+        <skos:prefLabel xml:lang="en">Walter von Trauchburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Walter von Trauchburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Walter von Trauchburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Walter von Trauchburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Walter von Trauchburg</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Walter von Trauchburg was abbot of St. Gallen Abbey from 1239 to 1244. He came from a noble family in the Allgäu region; his mother was a member of the Güttingen family. On 25 November 1244, he resigned from the abbey and entered the Dominican monastery in Constance as a preaching monk.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/walter_von_trauchburg#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/walter_von_trauchburg#membership_f675a8a671023ca4722edffd166949cf"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1206577193"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/wiki/Q50529304"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/de/viaf/9158488649611732586"/>
+        <skos:altLabel xml:lang="en">Walter of Trauchburg</skos:altLabel>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/walter_von_trauchburg#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/walter_von_trauchburg"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-25T12:36:24.877Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/walter_von_trauchburg#membership_f675a8a671023ca4722edffd166949cf">
+        <org:role rdf:resource="http://nomisma.org/id/prince-abbot"/>
+        <org:organization rdf:resource="http://nomisma.org/id/saint_gall_abbey"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1239</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1244</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

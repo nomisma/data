@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/heinrich_ii_chur">
+        <skos:prefLabel xml:lang="en">Heinrich von Arbon</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Heinrich von Arbon</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Henri de Arbon</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Enrico di Arbon</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Heinrich von Arbon</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Heinrich was a canon in Chur and Salzburg. He had been bishop of Chur since 1180, but was not consecrated until between June 1183 and July 1185. Heinrich is frequently mentioned in connection with Emperor Frederick I. In 1183, he was a witness to the peace of Constance between Frederick and the Lombard League and participated in the Mainz imperial diet of 1184. He accompanied Frederick on his last Italian campaign in 1184 to Verona. Heinrich's mismanagement led to the decline of his diocese. As a result, the cathedral chapter brought a case against the bishop before Pope Coelestin III, which led to Heinrich's removal from office at the end of 1193 or in 1194. </skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/heinrich_ii_chur#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <skos:altLabel xml:lang="en">Henry of Arbon</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/heinrich_ii_chur#membership_592629f39f6e211d7c5d3b29bb8645fd"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/wiki/Q1597748"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/138769397"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/de/viaf/95397750"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/heinrich_ii_chur#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/heinrich_ii_chur"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-25T22:07:34.071Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/heinrich_ii_chur#membership_592629f39f6e211d7c5d3b29bb8645fd">
+        <org:role rdf:resource="http://nomisma.org/id/bishop"/>
+        <org:organization rdf:resource="http://nomisma.org/id/chur_bishopric"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1180</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1194</nmo:hasEndDate>
+        <rdfs:label xml:lang="en">Heinrich II</rdfs:label>
+        <rdfs:label xml:lang="de">Heinrich II.</rdfs:label>
+        <rdfs:label xml:lang="fr">Henri II</rdfs:label>
+        <rdfs:label xml:lang="it">Enrico II</rdfs:label>
+    </org:Membership>
+</rdf:RDF>
