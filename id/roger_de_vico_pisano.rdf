@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/roger_de_vico_pisano">
+        <skos:prefLabel xml:lang="en">Roger de Vico Pisano</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Roger de Vico Pisano</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Roger de Vico Pisano</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Roger de Vico Pisano</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Roger de Vico Pisano</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Roger de Vico Pisano, who died on 5 March 1220, was Bishop of Lausanne from 1178 to 1212. He was a close associate of Pope Alexander III and held diplomatic positions. On the Pope's orders, the cathedral chapter of Lausanne elected Roger as bishop in 1178. His tomb in Lausanne Cathedral was rediscovered in 1880. </skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/roger_de_vico_pisano#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/roger_de_vico_pisano#membership_5a7e76d969595328232c45490a350590"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/wiki/Q1374857"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/de/viaf/4326149544593300490003"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/1132175690"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/roger_de_vico_pisano#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/roger_de_vico_pisano"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-26T22:55:40.993Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/roger_de_vico_pisano#membership_5a7e76d969595328232c45490a350590">
+        <org:role rdf:resource="http://nomisma.org/id/bishop"/>
+        <org:organization rdf:resource="http://nomisma.org/id/lausanne_bishopric"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1178</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1212</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

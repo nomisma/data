@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/amadeus_of_lausanne">
+        <skos:prefLabel xml:lang="en">Amadeus of Lausanne</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Amadeus Lausanensis</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Amédée de Clermont dit de Lausanne</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Amadeus von Clermont</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Amedeo di Losanna</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Amadeo de Lausana</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Amadeus of Lausanne (21 January c. 1110 – 27 August 1159) was a French Cistercian monk, abbot of Hautecombe Abbey and the twenty-third Bishop of Lausanne. </skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/amadeus_of_lausanne#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/amadeus_of_lausanne#membership_4fa596e925fbc8ec61e0db103780d033"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/wiki/Q452014"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/100936202"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/de/viaf/34565386"/>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/Amadeus_of_Lausanne"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/amadeus_of_lausanne#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/amadeus_of_lausanne"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-26T22:04:58.884Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/amadeus_of_lausanne#membership_4fa596e925fbc8ec61e0db103780d033">
+        <org:role rdf:resource="http://nomisma.org/id/bishop"/>
+        <org:organization rdf:resource="http://nomisma.org/id/lausanne_bishopric"/>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1159</nmo:hasEndDate>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1145</nmo:hasStartDate>
+    </org:Membership>
+</rdf:RDF>
