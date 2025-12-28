@@ -17,41 +17,38 @@
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:Denomination rdf:about="http://nomisma.org/id/halb-silbergulden_de">
-        <skos:prefLabel xml:lang="en">1/2 silbergulden</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">1/2 silbergulden</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">1/2 Silbergulden</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">1/2 silbergulden</skos:prefLabel>
+    <nmo:Denomination rdf:about="http://nomisma.org/id/grosso_da_sei_soldi">
+        <skos:prefLabel xml:lang="en">grosso da 6 soldi</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Grosso da 6 soldi</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">grosso da 6 soldi</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">grosso da 6 soldi</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">grosso da 6 soldi</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">A denomination of 1/2 Silbergulden, issued in the German speaking area.</skos:definition>
+        <skos:definition xml:lang="en">Denomination with the value of grosso da 6 soldi. </skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/halb-silbergulden_de#provenance"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/grosso_da_sei_soldi#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_italian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-        <skos:altLabel xml:lang="de">1/2 Gulden</skos:altLabel>
-        <skos:altLabel xml:lang="en">1/2 gulden</skos:altLabel>
-        <skos:altLabel xml:lang="fr">1/2 gulden</skos:altLabel>
-        <skos:altLabel xml:lang="it">1/2 gulden</skos:altLabel>
-        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/denomination/1485"/>
+        <skos:related rdf:resource="http://d-nb.info/gnd/4410303-7"/>
+        <skos:related rdf:resource="http://it.wikipedia.org/wiki/Grosso_(moneta)"/>
+        <skos:altLabel xml:lang="fr">gros de 6 sous</skos:altLabel>
+        <skos:altLabel xml:lang="de">Grosso zu 6 Soldi</skos:altLabel>
+        <skos:broader rdf:resource="http://nomisma.org/id/groat"/>
+        <skos:related rdf:resource="http://ikmk.smb.museum/ndp/denomination/893"/>
     </nmo:Denomination>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/halb-silbergulden_de#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/halb-silbergulden_de"/>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/grosso_da_sei_soldi#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/grosso_da_sei_soldi"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-26T23:12:11.177Z</prov:atTime>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-27T15:13:48.354Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-27T09:42:29.388Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
