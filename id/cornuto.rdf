@@ -26,6 +26,13 @@
         <skos:prefLabel xml:lang="en">cornuto</skos:prefLabel>
         <skos:definition xml:lang="en">Denomination with the value of cornuto.</skos:definition>
         <skos:changeNote rdf:resource="http://nomisma.org/id/cornuto#provenance"/>
+        <skos:altLabel xml:lang="it">cornabò</skos:altLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/wiki/Q3693800"/>
+        <skos:exactMatch rdf:resource="http://it.wikipedia.org/wiki/Cornuto"/>
+        <skos:broader rdf:resource="http://nomisma.org/id/mezzo-testone_it"/>
     </nmo:Denomination>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/cornuto#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/cornuto"/>
@@ -38,5 +45,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-28T12:01:45.248Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
