@@ -17,33 +17,25 @@
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <nmo:TypeSeries rdf:about="http://nomisma.org/id/condottieri_medals">
-        <skos:prefLabel xml:lang="en">Condottieri Medals</skos:prefLabel>
+    <foaf:Person rdf:about="http://nomisma.org/id/ercole_i_deste">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">"Medals of Condottieri in Quattrocento Italy. The Art of Aspiration", a book by Agnieszka Smołucha-Sładkowska, published by Routledge in 2026.</skos:definition>
         <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-        <skos:changeNote rdf:resource="http://nomisma.org/id/condottieri_medals#provenance"/>
+        <skos:prefLabel xml:lang="en">Ercole I d’Este</skos:prefLabel>
+        <skos:definition xml:lang="en">Duke of Ferrara, Modena, and Reggio (1471–1505), condottiere</skos:definition>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_italian_numismatics"/>
-        <rdfs:seeAlso rdf:resource="https://www.routledge.com/Medals-of-Condottieri-in-Quattrocento-Italy-The-Art-of-Aspiration/Smolucha-Sladkowska/p/book/9781041041566"/>
-        <skos:exactMatch rdf:resource="https://search.worldcat.org/en/title/1563410753"/>
-    </nmo:TypeSeries>
-    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/condottieri_medals#provenance">
-					   <foaf:topic rdf:resource="http://nomisma.org/id/condottieri_medals"/>
+        <rdfs:seeAlso rdf:resource="https://www.treccani.it/enciclopedia/ercole-i-d-este-duca-di-ferrara-modena-e-reggio_(Dizionario-Biografico)/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/ercole_i_deste#provenance"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/ercole_i_deste#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/ercole_i_deste"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-09T15:06:42.352Z</prov:atTime>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-16T20:34:21.775Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1l6KUFzK1acZxE-fEowATor-FaepVkQzgue5m8XawuLc/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
-        <prov:activity>
-            <prov:Activity>
-                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-16T20:02:14.204Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-					           <dcterms:type>manual</dcterms:type>
-				        </prov:Activity>
-        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
