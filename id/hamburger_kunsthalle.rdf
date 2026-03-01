@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Collection rdf:about="http://nomisma.org/id/hamburger_kunsthalle">
+        <skos:prefLabel xml:lang="en">Hamburger Kunsthalle</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Museum in Hamburg, Germany. The Hamburger Kunsthalle was founded by citizens of Hamburg. Today it is the largest museum in the Hanseatic city and ranks among the most important art museums in Europe. Initiated by collectors and art enthusiasts, Hamburg’s first museum arose from several private collections and was endowed from the outset by civic donations. 
+With the founding of the Kunstverein in 1817, the first art institution in the capital in the North funded by Hamburg’s citizens came into being – whose members were working determinedly towards the establishment of an art museum. In 1863, two donations from Georg Ernst Harzen and Johann Matthias Commeter formed the basis of the Kunsthalle’s collection, in connection with the claim that an exhibition space should be built for it. It was mainly donations from citizens that paved the way for Hamburg’s first museum building to be erected on the former Vincent bastion on the Alsterhöhe and opened in August 1869. The second Kunsthalle building was constructed between 1912 and 1919, and the last building section to date, the Gallery of Contemporary Art, opened in February 1997.
+
+The three striking buildings of the Hamburger Kunsthalle, located between the Inner and Outer Alster lakes, house one of the most significant public art collections in Germany today: comprising around 145,000 works of art dating from the 14th century onwards, with around 1,000 works on permanent display. These are complemented by around 6,000 coins, medals and small sculptures, which since 2022 have been recorded, researched and digitised with funding from the Dorit and Alexander Otto Foundation and will be on display in a new collection presentation from 2026. With more than 140,000 works on paper, the Kupferstichkabinett, the Kunsthalle’s department of prints and drawings, is one of the most distinguished in Germany. Its historical study room still serves as the place where works from the collection can be viewed, along with holdings from the art library and the historical archive.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="https://www.hamburger-kunsthalle.de/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/hamburger_kunsthalle#provenance"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/owner/104"/>
+        <skos:exactMatch rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-MUS-059210"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/ostrogothic_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_provincial_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <foaf:thumbnail rdf:resource="https://www.hamburger-kunsthalle.de/themes/custom/hkh_barrio/logo.svg"/>
+    </nmo:Collection>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hamburger_kunsthalle#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/hamburger_kunsthalle"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-28T06:03:16.18Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-28T06:13:31.154Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
