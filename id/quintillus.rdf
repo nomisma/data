@@ -78,6 +78,7 @@
         <skos:changeNote rdf:resource="http://nomisma.org/id/quintillus#provenance"/>
         <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/person/1334"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/quintillus#membership_5f9dd33fa0b16d5d08b0f9a9ba9d0e40"/>
+        <bio:death rdf:resource="http://nomisma.org/id/quintillus#death"/>
     </foaf:Person>
    
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/quintillus#provenance">
@@ -114,9 +115,31 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-28T11:34:03.57Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-05-28T11:49:31.206Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/david"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <org:Membership rdf:about="http://nomisma.org/id/quintillus#membership_5f9dd33fa0b16d5d08b0f9a9ba9d0e40">
         <foaf:topic rdf:resource="http://nomisma.org/id/quintillus"/>
         <org:role rdf:resource="http://nomisma.org/id/roman_emperor"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0270</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0270</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/roman_empire"/>
     </org:Membership>
+    <bio:Death rdf:about="http://nomisma.org/id/quintillus#death">
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0270</dcterms:date>
+    </bio:Death>
 </rdf:RDF>
