@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,35 +18,43 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Collection rdf:about="http://nomisma.org/id/hmb">
-      <skos:prefLabel xml:lang="en">Basel Historical Museum</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Museo storico di Basilea</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Musée historique de Bâle</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Historisches Museum Basel</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">Basel Historical Museum with its three sites is widely regarded as the most important museum of cultural history on the Upper Rhine. Its numismatic collection includes coins and medals from all periods and geographical regions. The coinage of Basel and early (Italian) medals are particularly well documented. </skos:definition>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <foaf:homepage rdf:resource="https://www.hmb.ch/en/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/hmb#provenance"/>
-      <skos:exactMatch rdf:resource="https://de.wikipedia.org/wiki/M%C3%BCnzkabinett_Historisches_Museum_Basel"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q66480946"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/celtic_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <skos:prefLabel xml:lang="en">Basel Historical Museum</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Museo storico di Basilea</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Musée historique de Bâle</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Historisches Museum Basel</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Basel Historical Museum, situated in the heart of Basel (Switzerland), with its three sites is widely regarded as the most important museum of cultural history on the Upper Rhine. Its numismatic collection includes coins and medals from all periods and geographical regions. The coinage of Basel and early (Italian) medals are particularly well documented. </skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="https://www.hmb.ch/en/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/hmb#provenance"/>
+        <skos:exactMatch rdf:resource="https://de.wikipedia.org/wiki/M%C3%BCnzkabinett_Historisches_Museum_Basel"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q66480946"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/celtic_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
    </nmo:Collection>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/hmb#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/hmb"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-02T06:52:07.439-06:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/hmb"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-02T06:52:07.439-06:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-07-20T09:06:17.266Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Organization rdf:about="http://nomisma.org/id/kingdom_of_jerusalem">
+        <skos:prefLabel xml:lang="en">Jerusalem, kingdom</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Jerusalem, Königreich</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Jérusalem, royaume</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gerusalemme, regno</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Kingdom of Jerusalem was one of the Crusader states established in the Levant immediately after the First Crusade. It lasted for almost 200 years, from the accession of Godfrey of Bouillon in 1099 until the fall of Acre in 1291. Its history is divided into two periods with a brief interruption in its existence, beginning with its collapse after the siege of Jerusalem in 1187 and its restoration after the Third Crusade in 1192. </skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/kingdom_of_jerusalem#provenance"/>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/Kingdom_of_Jerusalem"/>
+        <skos:exactMatch rdf:resource="http://ikmk.smb.museum/ndp/class_status/281"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4028588-1"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/152593141"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+    </foaf:Organization>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/kingdom_of_jerusalem#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/kingdom_of_jerusalem"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-09T10:00:08.204Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

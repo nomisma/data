@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Organization rdf:about="http://nomisma.org/id/eber-nari">
+        <skos:prefLabel xml:lang="en">Eber-Nari</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Eber-Nari (Akkadian), also called Abar-Nahara (Aramaic) or Aber Nahra (Syriac), was a region of the ancient Near East. Translated as "Beyond the River" or "Across the River" in both the Akkadian and Aramaic languages, it referred to the land on the opposite side of the Euphrates from the perspective of Mesopotamia and Persia. It was a satrapy of the Achaemenid Empire.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/eber-nari#provenance"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q957854"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Eber-Nari"/>
+        <skos:prefLabel xml:lang="de">Ebir-Nari</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Eber-Nari</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Regio trans flumen</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Заріччя</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Eber-Nari</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">عبر-ناری</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Transeuphratène</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Заречье</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">エベー・ナリ</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Сатрапія Зарэчча</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">satrapia de Síria</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">عابر-ناري</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">עבר נהרה</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">伊泊拉里</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Transeufratene</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Eber-Nari</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Eber-Nari</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Ебер-Нари</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">عبر-ناری</skos:prefLabel>
+        <skos:prefLabel xml:lang="mg">Eber-Nari</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Transeuphratia</skos:altLabel>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/eber-nari#membership_a532a7b85727b50f0baf587e39933026"/>
+    </foaf:Organization>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/eber-nari#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/eber-nari"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-24T14:23:24.674Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/eber-nari#membership_a532a7b85727b50f0baf587e39933026">
+        <org:role rdf:resource="http://nomisma.org/id/province"/>
+        <org:organization rdf:resource="http://nomisma.org/id/achaemenid_empire"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0539</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0332</nmo:hasEndDate>
+    </org:Membership>
+</rdf:RDF>

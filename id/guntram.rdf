@@ -38,6 +38,7 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/guntram#membership_c6fc700bd726a3f705d11285d459c02a"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/guntram#provenance"/>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/Guntram"/>
     </foaf:Person>
     <bio:Death rdf:about="http://nomisma.org/id/guntram#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0592-03-28</dcterms:date>
@@ -50,9 +51,10 @@
         <rdfs:label xml:lang="en">Guntchram</rdfs:label>
         <foaf:topic rdf:resource="http://nomisma.org/id/guntram"/>
         <org:role rdf:resource="http://nomisma.org/id/king"/>
-        <org:organization rdf:resource="http://nomisma.org/id/francia_merovingian_dynasty"/>
+        
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0561</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0592</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/francia_kingdom"/>
     </org:Membership>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/guntram#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/guntram"/>
@@ -65,5 +67,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-01T10:02:57.015Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

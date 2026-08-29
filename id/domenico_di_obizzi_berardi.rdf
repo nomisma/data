@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://nomisma.org/id/domenico_di_obizzi_berardi">
+        <skos:prefLabel xml:lang="en">Domenico di Obizzi Berardi</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Domenico di Obizzi Berardi</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Italian medalist, c. 1477. The identification of this medalist is uncertain. Forrer in 1904 refused the identification of the signature by one Do. Berardi on a medal as the one of the artist responsible for this work, but instead preferred to read it as the name of a donor. Recently though, this name has been considered to represent a genuine medalist's signature.
+
+Lit.: L. Forrer, Biographical Dictionary of Medallists I (1904 ) p. 168.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/domenico_di_obizzi_berardi#provenance"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/domenico_di_obizzi_berardi#membership_887fcc65df8e5e809715320a8decc75b"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_italian_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <skos:altLabel xml:lang="en">Do. Berardus</skos:altLabel>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/domenico_di_obizzi_berardi#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/domenico_di_obizzi_berardi"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-04T09:24:28.982Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://nomisma.org/id/domenico_di_obizzi_berardi#membership_887fcc65df8e5e809715320a8decc75b">
+        <org:role rdf:resource="http://nomisma.org/id/medalist"/>
+    </org:Membership>
+</rdf:RDF>

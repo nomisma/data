@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,36 +18,45 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://nomisma.org/id/najm_al-din_ghazi_i_al-sa'id">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Najm al-Din Ghazi I al-Sa'id</skos:prefLabel>
-      <skos:prefLabel xml:lang="ar">نجم الدين غازى الأول</skos:prefLabel>
-      <skos:definition xml:lang="en">Najm al-Din Ghazi I al-Sa'id (637-658/1239-1260) was a ruler of the Mardin branch of the Artuqid dynasty.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Mozaffar_ad-Din_Shah_Qajar"/>
-      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q467021"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/12716992"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/103438092"/>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/03pqhh"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
-      <org:hasMembership rdf:resource="http://nomisma.org/id/najm_al-din_ghazi_i_al-sa'id#authority"/>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/najm_al-din_ghazi_i_al-sa'id#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Najm al-Din Ghazi I al-Sa'id</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">نجم الدين غازى الأول</skos:prefLabel>
+        <skos:definition xml:lang="en">Najm al-Din Ghazi I al-Sa'id (637-658/1239-1260) was a ruler of the Mardin branch of the Artuqid dynasty.</skos:definition>
+      
+      
+      
+      
+      
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/islamic_numismatics"/>
+        <org:hasMembership rdf:resource="http://nomisma.org/id/najm_al-din_ghazi_i_al-sa'id#authority"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/najm_al-din_ghazi_i_al-sa'id#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG118457"/>
+    </foaf:Person>
    <org:Membership rdf:about="http://nomisma.org/id/najm_al-din_ghazi_i_al-sa'id#authority">
-      <org:role rdf:resource="http://nomisma.org/id/authority"/>
-      <org:organization rdf:resource="http://nomisma.org/id/artuqids_mardin"/>
-      <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1239</nmo:hasStartDate>
-      <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1260</nmo:hasEndDate>
+        <org:role rdf:resource="http://nomisma.org/id/authority"/>
+        <org:organization rdf:resource="http://nomisma.org/id/artuqids_mardin"/>
+        <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1239</nmo:hasStartDate>
+        <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1260</nmo:hasEndDate>
    </org:Membership>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/najm_al-din_ghazi_i_al-sa'id#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/najm_al-din_ghazi_i_al-sa'id"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-01T09:45:16-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
-            <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jmp82HdcIbXvpKVplMnfEH2HHypx3Akp_EAoMvH_5Ng/pubhtml"/>
-            <dcterms:type>spreadsheet</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/najm_al-din_ghazi_i_al-sa'id"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-01T09:45:16-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/egruber"/>
+                <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1jmp82HdcIbXvpKVplMnfEH2HHypx3Akp_EAoMvH_5Ng/pubhtml"/>
+                <dcterms:type>spreadsheet</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-21T05:02:01.895Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

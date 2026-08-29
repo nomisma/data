@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Collection rdf:about="http://nomisma.org/id/blumenstein">
+        <skos:prefLabel xml:lang="en">Blumenstein Museum</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Museum Blumenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Museum Blumenstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Museum BLumenstein</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Blumenstein Museum, the municipal museum of Solothurn in Switzerland, has its origins in the former collection of the Solothurn City Library. Since 1952, it has been housed in Blumenstein Castle.
+The numismatic collection dates back to the 18th century and comprises over 10,000 items. The focus is on coins and medals minted in Solothurn. A particular highlight is the collection of over 500 dies from the Solothurn mint.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="https://www.museumblumenstein.ch"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/blumenstein#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_swiss_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_swiss_numismatics"/>
+        <skos:exactMatch rdf:resource="https://en.wikipedia.org/wiki/Blumenstein_Castle"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q56230908"/>
+        <skos:exactMatch rdf:resource="https://viaf.org/en/viaf/150694622"/>
+        <skos:exactMatch rdf:resource="https://de.wikipedia.org/wiki/Historisches_Museum_Blumenstein"/>
+    </nmo:Collection>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/blumenstein#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/blumenstein"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-07-20T12:55:20.075Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

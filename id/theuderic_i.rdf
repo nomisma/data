@@ -29,7 +29,7 @@
         <skos:definition xml:lang="en">Theuderich I was a king of francs in the east region that was later named Austrasien. He reigned from about 511 (exact year unknown) until his death in 533.</skos:definition>
         <bio:death rdf:resource="http://nomisma.org/id/theuderic_i#death"/>
         <org:memberOf rdf:resource="http://nomisma.org/id/merovingian_dynasty"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/1060064901/34"/>
+        <skos:exactMatch rdf:resource="https://d-nb.info/gnd/120736268"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Theuderic_I"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/merovingian_numismatics"/>
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
@@ -37,6 +37,8 @@
         <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
         <org:hasMembership rdf:resource="http://nomisma.org/id/theuderic_i#membership_2825aa5e4f5dd69a84fcad85783c5c22"/>
         <skos:changeNote rdf:resource="http://nomisma.org/id/theuderic_i#provenance"/>
+        <skos:exactMatch rdf:resource="http://en.wikipedia.org/wiki/Theuderic_I"/>
+        <skos:exactMatch rdf:resource="http://ikmk.smb.museum/ndp/person/1443"/>
     </foaf:Person>
     <bio:Death rdf:about="http://nomisma.org/id/theuderic_i#death">
         <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0533</dcterms:date>
@@ -49,9 +51,10 @@
         <rdfs:label xml:lang="en">Theuderich I</rdfs:label>
         <foaf:topic rdf:resource="http://nomisma.org/id/theuderic_i"/>
         <org:role rdf:resource="http://nomisma.org/id/king"/>
-        <org:organization rdf:resource="http://nomisma.org/id/francia_merovingian_dynasty"/>
+        
         <nmo:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0511</nmo:hasStartDate>
         <nmo:hasEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0533</nmo:hasEndDate>
+        <org:organization rdf:resource="http://nomisma.org/id/francia_kingdom"/>
     </org:Membership>
     <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/theuderic_i#provenance">
 					   <foaf:topic rdf:resource="http://nomisma.org/id/theuderic_i"/>
@@ -64,5 +67,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-01T09:59:53.906Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
