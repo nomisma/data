@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Collection rdf:about="http://nomisma.org/id/vlastivedne_muzeum_olomouc">
+        <skos:prefLabel xml:lang="en">Regional Museum Olomouc</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Vlastivědné muzeum v Olomouci</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The numismatic part of the museum collection of the Museum of Homeland Studies includes about eighty thousand pieces of currency, covering all periods of historical development from antiquity to the present. The oldest part of the numismatic collection is connected with the former library of the Imperial-Royal Lyceum in Olomouc, where there was a coin cabinet following the older collecting tradition of the Jesuit University of Olomouc. In 1814, the coin collection of the Olomouc Lyceum was catalogued, and after 1827 this numismatic collection became part of the newly established Franciscan University, within which it was further expanded. The substantial units of the museum's numismatic collection today mainly consist of the former collections of the Olomouc Patriotic Museum Association and the Historical Museum of the Capital City of Olomouc. The more significant collections also include numismatic material from the former city museums in Uničov, Šternberk and Litoveľ, which were closed in the second half of the 20th century.
+
+The numismatic collection includes a comprehensive fund of more than one hundred coin finds, which number twenty thousand objects and covers all periods of monetary development in our countries from the La Tène period to the first half of the 20th century. Within the systematic collection, it is worth highlighting the collection of coins of the bishops and archbishops of Olomouc, declared a cultural monument, or a large set of shooting medals from the 19th and 20th centuries.</skos:definition>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <foaf:homepage rdf:resource="https://www.vmo.cz/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/vlastivedne_muzeum_olomouc#provenance"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/byzantine_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/greek_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/roman_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <foaf:thumbnail rdf:resource="https://www.vmo.cz/img/0bda95b74c0d4cbf6aae.png?f"/>
+        <skos:exactMatch rdf:resource="https://ikmk.smb.museum/ndp/owner/123"/>
+    </nmo:Collection>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/vlastivedne_muzeum_olomouc#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/vlastivedne_muzeum_olomouc"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-10-23T05:38:48.189Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-10-23T05:56:09.805Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-10-23T10:48:35.931Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
