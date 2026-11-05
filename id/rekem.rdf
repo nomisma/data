@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:wordnet="http://ontologi.es/WordNet/class/"
          xmlns:nm="http://nomisma.org/id/"
          xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
@@ -7,7 +8,6 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:prov="http://www.w3.org/ns/prov#"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
          xmlns:bio="http://purl.org/vocab/bio/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -18,34 +18,46 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <nmo:Mint rdf:about="http://nomisma.org/id/rekem">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:prefLabel xml:lang="en">Rekem (Reckheim)</skos:prefLabel>
-      <skos:definition xml:lang="en">The min(s) at the municipality of Rekem, now part of Lanaken, Limburg province, Belgium. It used to be the capital of the County (German: Grafschaft) of Reckheim, which historically formed a part of the Lower Rhenish–Westphalian Circle (German: Niederrheinisch-Westfälischer Reichskreis) of the Holy Roman Empire. It was designated a Herrschaft (French: Seigneurie) up to 1620 before being elavated to a County.</skos:definition>
-      <skos:prefLabel xml:lang="de">Reckheim</skos:prefLabel>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
-      <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
-      <geo:location rdf:resource="http://nomisma.org/id/rekem#this"/>
-      <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x56144"/>
-      <skos:closeMatch rdf:resource="https://sws.geonames.org/2788231/"/>
-      <skos:prefLabel xml:lang="nl">Rekem</skos:prefLabel>
-      <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
-      <skos:changeNote rdf:resource="http://nomisma.org/id/rekem#provenance"/>
-      <skos:closeMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/55"/>
-   </nmo:Mint>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Rekem (Reckheim)</skos:prefLabel>
+        <skos:definition xml:lang="en">The min(s) at the municipality of Rekem, now part of Lanaken, Limburg province, Belgium. It used to be the capital of the County (German: Grafschaft) of Reckheim, which historically formed a part of the Lower Rhenish–Westphalian Circle (German: Niederrheinisch-Westfälischer Reichskreis) of the Holy Roman Empire. It was designated a Herrschaft (French: Seigneurie) up to 1620 before being elavated to a County.</skos:definition>
+        <skos:prefLabel xml:lang="de">Reckheim</skos:prefLabel>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_german_numismatics"/>
+        <geo:location rdf:resource="http://nomisma.org/id/rekem#this"/>
+        <skos:closeMatch rdf:resource="http://collection.britishmuseum.org/id/place/x56144"/>
+        <skos:closeMatch rdf:resource="https://sws.geonames.org/2788231/"/>
+        <skos:prefLabel xml:lang="nl">Rekem</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/rekem#provenance"/>
+        <skos:closeMatch rdf:resource="https://ikmk.smb.museum/ndp/ort/55"/>
+        <dcterms:source rdf:resource="https://wiki.muntenenpapiergeld.nl/index.php?title=Muntplaatsen"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_belgian_numismatics"/>
+    </nmo:Mint>
    <geo:SpatialThing rdf:about="http://nomisma.org/id/rekem#this">
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.916667</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.683333</geo:long>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.916667</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.683333</geo:long>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/rekem#provenance">
-      <foaf:topic rdf:resource="http://nomisma.org/id/rekem"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-04T04:00:03+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
-            <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://nomisma.org/id/rekem"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-04T04:00:03+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/kdahmen"/>
+                <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/wbloom"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-11-04T10:47:54.454Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1s-81Fwv-HdVu4IVyXhO-n3hihgaCW2T0HQ0zJPH79Mk/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

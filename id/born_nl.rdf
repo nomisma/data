@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <nmo:Mint rdf:about="http://nomisma.org/id/born_nl">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="nl">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Born</skos:prefLabel>
+        <skos:definition xml:lang="en">Born (province of Limburg, the Netherlands) was a lordship, where coins were produced in the period 1356-1400.</skos:definition>
+        <dcterms:source rdf:resource="https://wiki.muntenenpapiergeld.nl/index.php?title=Muntplaatsen"/>
+        <skos:prefLabel xml:lang="eo">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="li">Bor</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Борн</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">博恩</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ボルン (オランダ)</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Bornas</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">بورن، هلند</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Born i Limburg</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Born, Țările de Jos</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Борн (Нідерланди)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Born</skos:prefLabel>
+        <skos:prefLabel xml:lang="ha">Haihuwa</skos:prefLabel>
+        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q502343"/>
+        <skos:closeMatch rdf:resource="https://sws.geonames.org/2758602/"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4395945-3"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/245389988"/>
+        <geo:location rdf:resource="http://nomisma.org/id/born_nl#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_dutch_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/born_nl#provenance"/>
+    </nmo:Mint>
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/born_nl#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.033100</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.8094</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/born_nl#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/born_nl"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-11-04T10:47:54.454Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1s-81Fwv-HdVu4IVyXhO-n3hihgaCW2T0HQ0zJPH79Mk/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/sint-bertinus_fr">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="nl">Sint-Bertinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sint-Bertinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sint-Bertinus</skos:prefLabel>
+        <skos:definition xml:lang="en">Saint-Bertinus, an abbey in the Flemish town of Saint-Omer, where coins were minted in the 11th and 12th centuries by the Flemish counts and by the abbey itself.</skos:definition>
+        <dcterms:source rdf:resource="https://wiki.muntenenpapiergeld.nl/index.php?title=Muntplaatsen"/>
+        <skos:prefLabel xml:lang="fr">abbaye Saint-Bertin</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Klášter Saint-Bertin</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">abbazia di San Bertino</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">abadía de San Bertin</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αββαείο του Σαιντ-Μπερτέν</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Saint Bertin</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Abbaye Saint-Bertin de Saint-Omer</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">サン＝ベルタン修道院</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">聖伯廷大教堂</skos:prefLabel>
+        <skos:prefLabel xml:lang="fy">Abdij fan Sint-Bertinus</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Sankt Bertin-klostret</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Aziz Bertin Manastırı</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">מנזר סן ברטן</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Saint-Bertin</skos:prefLabel>
+        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q334144"/>
+        <skos:closeMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11969647k"/>
+        <skos:closeMatch rdf:resource="http://viaf.org/viaf/248683724"/>
+        <skos:closeMatch rdf:resource="http://isni.org/0000000106873847"/>
+        <skos:closeMatch rdf:resource="http://www.idref.fr/027712699"/>
+        <skos:closeMatch rdf:resource="http://d-nb.info/gnd/1086389638"/>
+        <geo:location rdf:resource="http://nomisma.org/id/sint-bertinus_fr#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_french_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_dutch_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/sint-bertinus_fr#provenance"/>
+    </nmo:Mint>
+   
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/sint-bertinus_fr#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.7507</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2639</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/sint-bertinus_fr#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/sint-bertinus_fr"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-11-04T10:47:54.454Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1s-81Fwv-HdVu4IVyXhO-n3hihgaCW2T0HQ0zJPH79Mk/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

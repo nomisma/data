@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/kampen_fr">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="nl">Kampen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Kampen</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kampen</skos:prefLabel>
+        <skos:definition xml:lang="en">Kampen (mint city in the Dutch province of Overijssel, formerly part of the Oversticht) saw coinage by the Utrecht bishop Arnold van Hoorne (1371–1378) and later hosted a Burgundian royal mint opened in 1529 after the acquisition of the Oversticht by Charles V, active until 1535 (mintmark C on a cross). Reopened as a provincial mint in 1578 and moved to Kampen in 1582, it rotated nominally with Deventer and Zwolle until closing in 1805. As an imperial city, Kampen was granted minting rights in 1397, with urban issues from c. 1425 and cooperation with other Overijssel towns, including the joint “Drie Steden” mint (1534) moved to Kampen in 1583 and dissolved in 1588. A municipal mint operated again from 1590 to 1693, often naming the Holy Roman Emperor before aligning with Dutch practice; mint rights were surrendered in 1694. Emergency coinage was issued twice during the Eighty Years’ War (square silver pieces in 1578 and 1672), and emergency notes were put into circulation by the municipal Social Services in May 1940.</skos:definition>
+        <dcterms:source rdf:resource="https://wiki.muntenenpapiergeld.nl/index.php?title=Muntplaatsen"/>
+        <geo:location rdf:resource="http://nomisma.org/id/kampen_fr#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_dutch_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/kampen_fr#provenance"/>
+    </nmo:Mint>
+   
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/kampen_fr#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52.555000</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.9197</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/kampen_fr#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/kampen_fr"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-11-04T10:47:54.454Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1s-81Fwv-HdVu4IVyXhO-n3hihgaCW2T0HQ0zJPH79Mk/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wordnet="http://ontologi.es/WordNet/class/"
+         xmlns:nm="http://nomisma.org/id/"
+         xmlns:crmdig="http://www.ics.forth.gr/isl/CRMdig/"
+         xmlns:nmo="http://nomisma.org/ontology#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+         xmlns:bio="http://purl.org/vocab/bio/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <nmo:Mint rdf:about="http://nomisma.org/id/megen_nl">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://nomisma.org/id/"/>
+        <skos:prefLabel xml:lang="nl">Megen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Megen</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Megen</skos:prefLabel>
+        <skos:definition xml:lang="en">Megen, a former county in North Brabant, The Netherlands, is situated on the left bank of the Meuse between Ravenstein and Oijen. Following the extinction of the House of Megen, it passed to the related House of Dikbier, and in 1469 the county was sold to Gwijde van Brimeu. A fairly substantial coinage took place in Megen from around 1380 to 1451, comprising imitations of, amongst others, Flemish, Dutch and Gelderland types. In the 16th century, Karel van Brimeu (1549–1572, grandson of the aforementioned Gwijde) was restored to his coinage rights by Emperors Ferdinand I and Maximilian II, but he did not make use of them due to objections from the government in Brussels (Philip II). His niece and successor, Maria van Brimeu, married (in her second marriage) Charles of Croy, Prince of Chimay, in 1580, from whom she divorced in 1584. As Count of Megen, Charles had daalders struck in Gorinchem in 1583–1584. After her divorce, Maria van Brimeu continued coinage there until 1587, issuing double and single nobels, Burgundian imperial daalders and three-plak coins. The coat of arms of Megen features a red shield head on a gold background.</skos:definition>
+        <dcterms:source rdf:resource="https://wiki.muntenenpapiergeld.nl/index.php?title=Muntplaatsen"/>
+        <geo:location rdf:resource="http://nomisma.org/id/megen_nl#this"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/modern_european_numismatics"/>
+        <dcterms:isPartOf rdf:resource="http://nomisma.org/id/medieval_dutch_numismatics"/>
+        <skos:changeNote rdf:resource="http://nomisma.org/id/megen_nl#provenance"/>
+    </nmo:Mint>
+   
+   
+   
+    <geo:SpatialThing rdf:about="http://nomisma.org/id/megen_nl#this">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.8203</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5625</geo:long>
+    </geo:SpatialThing>
+    <dcterms:ProvenanceStatement rdf:about="http://nomisma.org/id/megen_nl#provenance">
+					   <foaf:topic rdf:resource="http://nomisma.org/id/megen_nl"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-11-04T10:47:54.454Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://nomisma.org/editor/cweiss"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1s-81Fwv-HdVu4IVyXhO-n3hihgaCW2T0HQ0zJPH79Mk/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
