@@ -1,0 +1,1172 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY nomisma "http://nomisma.org/ontology#" >
+    <!ENTITY crm "http://www.cidoc-crm.org/cidoc-crm/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY dcterms "http://purl.org/dc/terms/" >
+    <!ENTITY dcmitype "http://purl.org/dc/dcmitype/" >
+]>
+
+
+<rdf:RDF xmlns="http://nomisma.org/ontology#"
+     xml:base="http://nomisma.org/ontology#"
+     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+
+    <owl:Ontology rdf:about="http://nomisma.org/ontology#">
+        <dcterms:date>2026-11-10</dcterms:date>
+        <rdfs:comment xml:lang="en">Nomisma.org is a collaborative project to provide stable digital representations of numismatic concepts according to the principles of Linked Open Data. These take the form of http URIs that also provide access to reusable information about those concepts, along with links to other resources.</rdfs:comment>
+        <owl:versionInfo xml:lang="en">Version of 2026-11-10:
+changes:
+added units (in gram - g) and (in millimeter - mm) to descriptions for according properties like: hasWeight, hasDiameter, ...
+added to hasAxis: 'Often expressed as hours of the clock or degrees in a circle.' 
+cleanups: removed 'owl:NamedIndividual' assignments
+
+</owl:versionInfo>
+        <skos:definition xml:lang="en">Nomisma.org is a collaborative project to provide stable digital representations of numismatic concepts according to the principles of Linked Open Data. These take the form of http URIs that also provide access to reusable information about those concepts, along with links to other resources.</skos:definition>
+    </owl:Ontology>
+
+    <!--
+    #################################################################
+    #    Annotation properties
+    #################################################################
+    -->
+
+    <!-- ###  http://purl.org/dc/terms/date -->
+
+    <owl:AnnotationProperty rdf:about="&dcterms;date"/>
+
+    <!-- ###  http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="&skos;definition"/>
+
+    <!--
+    #################################################################
+    #    Properties
+    #################################################################
+    -->
+
+    <!-- ###  http://nomisma.org/ontology#hasAppearance -->
+
+    <rdf:Property rdf:about="&nomisma;hasAppearance">
+        <rdfs:comment xml:lang="en">Describes the appearance of a numismatic object. Eg. Iconography, legends and physical characteristics.</rdfs:comment>
+        <rdfs:label>hasAppearance</rdfs:label>
+        <skos:definition xml:lang="en">Describes the appearance of a numismatic object. Eg. Iconography, legends and physical characteristics.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasAuthenticity -->
+
+    <rdf:Property rdf:about="&nomisma;hasAuthenticity">
+        <rdfs:comment xml:lang="en">Identifies whether a numismatic object was produced by an authority that had the relevant rights to do so, or is a contemporary or modern imitation.</rdfs:comment>
+        <rdfs:label>hasAuthenticity</rdfs:label>
+        <skos:definition xml:lang="en">Identifies whether a numismatic object was produced by an authority that had the relevant rights to do so, or is a contemporary or modern imitation.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasAuthority -->
+
+    <rdf:Property rdf:about="&nomisma;hasAuthority">
+        <rdfs:comment xml:lang="en">Identifies the authority in whose name (explicitly or implicitly) a numismatic object was issued. Eg. Charlemagne, Augustus, Sparta, Federal Republic of Germany, Bank of England</rdfs:comment>
+        <rdfs:label>hasAuthority</rdfs:label>
+        <skos:definition xml:lang="en">Identifies the authority in whose name (explicitly or implicitly) a numismatic object was issued. Eg. Charlemagne, Augustus, Sparta, Federal Republic of Germany, Bank of England</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasAxis -->
+
+    <rdf:Property rdf:about="&nomisma;hasAxis">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasAppearance"/>
+        <rdfs:comment xml:lang="en">Describes the directional relationship between the obverse and reverse of a numismatic object. Often expressed as hours of the clock or degrees in a circle.</rdfs:comment>
+        <rdfs:label>hasAxis</rdfs:label>
+        <skos:definition xml:lang="en">Describes the directional relationship between the obverse and reverse of a numismatic object. Often expressed as hours of the clock or degrees in a circle.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasBearsDate -->
+
+    <rdf:Property rdf:about="&nomisma;hasBearsDate">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasAppearance"/>
+        <rdfs:comment xml:lang="en">Describes a date that appears on an object</rdfs:comment>
+        <rdfs:label>hasBearsDate</rdfs:label>
+        <skos:definition xml:lang="en">Describes a date that appears on an object</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasClosingDate -->
+
+    <rdf:Property rdf:about="&nomisma;hasClosingDate">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasDate"/>
+        <rdfs:comment xml:lang="en">The date of the latest object (could be non-numismatic) of a given context, e.g. a hoard or layer.</rdfs:comment>
+        <rdfs:label>hasClosingDate</rdfs:label>
+        <skos:definition xml:lang="en">The date of the latest object (could be non-numismatic) of a given context, e.g. a hoard or layer.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasCollection -->
+
+    <rdf:Property rdf:about="&nomisma;hasCollection">
+        <rdfs:comment xml:lang="en">Identifies the modern collection or repository in which a numismatic object resides or has resided in the past.</rdfs:comment>
+        <rdfs:label>hasCollection</rdfs:label>
+        <skos:definition xml:lang="en">Identifies the modern collection or repository in which a numismatic object resides or has resided in the past.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasContemporaryName -->
+
+    <rdf:Property rdf:about="&nomisma;hasContemporaryName">
+        <rdfs:subPropertyOf rdf:resource="&dcterms;alternative"/>
+        <rdfs:comment xml:lang="en">A contemporary name is a term for a particular group of numismatic objects or concept(s)  that was used for them at the time of their use. This may, for example, include one or more denominations, numismatic objects of a particular origin or some other common characteristic. Examples: Poloi, Tournois, Spagürli, Etschkreuzer, F-Schilling, Popolino.</rdfs:comment>
+        <rdfs:label>hasContemporaryName</rdfs:label>
+        <skos:definition xml:lang="en">A contemporary name is a term for a particular group of numismatic objects or concept(s)  that was used for them at the time of their use. This may, for example, include one or more denominations, numismatic objects of a particular origin or some other common characteristic. Examples: Poloi, Tournois, Spagürli, Etschkreuzer, F-Schilling, Popolino.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasContext -->
+
+    <rdf:Property rdf:about="&nomisma;hasContext">
+        <rdfs:comment xml:lang="en">Describes the context of a numismatic object.</rdfs:comment>
+        <rdfs:label>hasContext</rdfs:label>
+        <skos:definition xml:lang="en">Describes the context of a numismatic object.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasControlmark -->
+
+    <rdf:Property rdf:about="&nomisma;hasControlmark">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasMark"/>
+        <rdfs:comment xml:lang="en">Identifies a letter, symbol, monogram or an inscription on a numismatic object intended to distinguish it as part of a group of numismatic objects within an issue or series.</rdfs:comment>
+        <rdfs:label>hasControlmark</rdfs:label>
+        <skos:definition xml:lang="en">Identifies a letter, symbol, monogram or an inscription on a numismatic object intended to distinguish it as part of a group of numismatic objects within an issue or series.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasCorrosion -->
+
+    <rdf:Property rdf:about="&nomisma;hasCorrosion">
+        <rdfs:comment xml:lang="en">Describes degradation due to chemical reaction with an environment, commonly in terms prescribed by "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520)</rdfs:comment>
+        <rdfs:label>hasCorrosion</rdfs:label>
+        <skos:definition xml:lang="en">Describes degradation due to chemical reaction with an environment, commonly in terms prescribed by "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520)</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasCountermark -->
+
+    <rdf:Property rdf:about="&nomisma;hasCountermark">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasIconography"/>
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasSecondaryTreatment"/>
+        <rdfs:comment xml:lang="en">Identifies a mark or symbol punched into a coin or similar object  at some point during its time in circulation.</rdfs:comment>
+        <rdfs:label>hasCountermark</rdfs:label>
+        <skos:definition xml:lang="en">Identifies a mark or symbol punched into a coin or similar object  at some point during its time in circulation.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasDate -->
+
+    <rdf:Property rdf:about="&nomisma;hasDate">
+        <rdfs:comment xml:lang="en">Describes date (range) assigned in a numismatic context.</rdfs:comment>
+        <rdfs:label>hasDate</rdfs:label>
+        <skos:definition xml:lang="en">Describes date (range) assigned in a numismatic context.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasDenomination -->
+
+    <rdf:Property rdf:about="&nomisma;hasDenomination">
+        <rdfs:comment xml:lang="en">Describes the monetary value assigned to an object within a denominational system. Examples: tetradrachm, chalkous, denarius.</rdfs:comment>
+        <rdfs:label>hasDenomination</rdfs:label>
+        <skos:definition xml:lang="en">Describes the monetary value assigned to an object within a denominational system. Examples: tetradrachm, chalkous, denarius.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasDepth -->
+
+    <rdf:Property rdf:about="&nomisma;hasDepth">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasMeasurement"/>
+        <rdfs:comment xml:lang="en">Describes the depth of an object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasDepth</rdfs:label>
+        <skos:definition xml:lang="en">Describes the depth of an object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasDiameter -->
+
+    <rdf:Property rdf:about="&nomisma;hasDiameter">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasMeasurement"/>
+        <rdfs:comment xml:lang="en">Describes diameter of an object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasDiameter</rdfs:label>
+        <skos:definition xml:lang="en">Describes diameter of an object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasDie -->
+
+    <rdf:Property rdf:about="&nomisma;hasDie">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasProductionObject"/>
+        <rdfs:comment xml:lang="en">Describes the die from which a numismatic object has been produced.</rdfs:comment>
+        <rdfs:label>hasDie</rdfs:label>
+        <skos:definition xml:lang="en">Describes the die from which a numismatic object has been produced.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasEdge -->
+
+    <rdf:Property rdf:about="&nomisma;hasEdge">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasAppearance"/>
+        <rdfs:comment xml:lang="en">Describes characteristics of the edge of a numismatic object.</rdfs:comment>
+        <rdfs:label>hasEdge</rdfs:label>
+        <skos:definition xml:lang="en">Describes characteristics of the edge of a numismatic object.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasEndDate -->
+
+    <rdf:Property rdf:about="&nomisma;hasEndDate">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasDate"/>
+        <rdfs:comment xml:lang="en">Identifies the final date in a range assigned in a numismatic context.</rdfs:comment>
+        <rdfs:label>hasEndDate</rdfs:label>
+        <skos:definition xml:lang="en">Identifies the final date in a range assigned in a numismatic context.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasFace -->
+
+    <rdf:Property rdf:about="&nomisma;hasFace">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasAppearance"/>
+        <rdfs:comment xml:lang="en">Identifies a particular face of a numismatic object. Where possible and appropriate, the more specific properties hasObverse or hasReverse are preferred.</rdfs:comment>
+        <rdfs:label>hasFace</rdfs:label>
+        <skos:definition xml:lang="en">Identifies a particular face of a numismatic object. Where possible and appropriate, the more specific properties hasObverse or hasReverse are preferred.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasFindContext -->
+
+    <rdf:Property rdf:about="&nomisma;hasFindContext">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasContext"/>
+        <rdfs:comment xml:lang="en">Describes the context regarding the discovery/find of a numismatic object.</rdfs:comment>
+        <rdfs:label>hasFindContext</rdfs:label>
+        <skos:definition xml:lang="en">Describes the context regarding the discovery/find of a numismatic object.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasFindType -->
+
+    <rdf:Property rdf:about="&nomisma;hasFindType">
+        <rdfs:label>hasFindType</rdfs:label>
+        <owl:deprecated>deprecated - please use nmo:hasContext instead, together with the class Context or its sub classes: Find, DepositionType and DiscoveryType</owl:deprecated>
+        <skos:definition xml:lang="en">Describes the nature of and archaeological or other find. E.g. hoard, ritual deposit, single find, find in survey.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasFindspot -->
+
+    <rdf:Property rdf:about="&nomisma;hasFindspot">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasFindContext"/>
+        <rdfs:comment xml:lang="en">Describes the location of the discovery of an object, whether by accident or in archaeological excavation.</rdfs:comment>
+        <rdfs:label>hasFindspot</rdfs:label>
+        <skos:definition xml:lang="en">Describes the location of the discovery of an object, whether by accident or in archaeological excavation.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasHeight -->
+
+    <rdf:Property rdf:about="&nomisma;hasHeight">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasMeasurement"/>
+        <rdfs:comment xml:lang="en">Describes the height of a numismatic object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasHeight</rdfs:label>
+        <skos:definition xml:lang="en">Describes the height of a numismatic object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasIconography -->
+
+    <rdf:Property rdf:about="&nomisma;hasIconography">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasAppearance"/>
+        <rdfs:comment xml:lang="en">Describes an iconography placed on a numismatic object.</rdfs:comment>
+        <rdfs:label>hasIconography</rdfs:label>
+        <skos:definition xml:lang="en">Describes an iconography placed on a numismatic object.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasImmediateContext -->
+
+    <rdf:Property rdf:about="&nomisma;hasImmediateContext">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasFindContext"/>
+        <rdfs:comment xml:lang="en">Is the precise context of the findspot such as under the hearth, in the wall, under the floor, in a ditch, on a river bed, etc.</rdfs:comment>
+        <rdfs:label>hasImmediateContext</rdfs:label>
+        <skos:definition xml:lang="en">Is the precise context of the findspot such as under the hearth, in the wall, under the floor, in a ditch, on a river bed, etc.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasIssuer -->
+
+    <rdf:Property rdf:about="&nomisma;hasIssuer">
+        <rdfs:comment xml:lang="en">Identifies the person administratively responsible for the issue of a numismatic object, generally named in some capacity on the object.</rdfs:comment>
+        <rdfs:label>hasIssuer</rdfs:label>
+        <skos:definition xml:lang="en">Identifies the person administratively responsible for the issue of a numismatic object, generally named in some capacity on the object.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasLandscapeContext -->
+
+    <rdf:Property rdf:about="&nomisma;hasLandscapeContext">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasFindContext"/>
+        <rdfs:comment xml:lang="en">Is the broad scale findspot landscape type such as: urban, rural, underwater (as instances of nmo:Context in the ID namespace).</rdfs:comment>
+        <rdfs:label>hasLandscapeContext</rdfs:label>
+        <skos:definition xml:lang="en">Is the broad scale findspot landscape type such as: urban, rural, underwater (as instances of nmo:Context in the ID namespace).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasLegend -->
+
+    <rdf:Property rdf:about="&nomisma;hasLegend">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasAppearance"/>
+        <rdfs:comment xml:lang="en">Describes the inscription or printing placed on a numismatic object as part of the production process.</rdfs:comment>
+        <rdfs:label>hasLegend</rdfs:label>
+        <skos:definition xml:lang="en">Describes the inscription or printing placed on a numismatic object as part of the production process.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasLocalContext -->
+
+    <rdf:Property rdf:about="&nomisma;hasLocalContext">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasFindContext"/>
+        <rdfs:comment xml:lang="en">Is the findspot in relation to nearby features such as: from a field, in a temple, in an otherwise unspecified structure, in a shipwreck.</rdfs:comment>
+        <rdfs:label>hasLocalContext</rdfs:label>
+        <skos:definition xml:lang="en">Is the findspot in relation to nearby features such as: from a field, in a temple, in an otherwise unspecified structure, in a shipwreck.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasManufacture -->
+
+    <rdf:Property rdf:about="&nomisma;hasManufacture">
+        <rdfs:comment xml:lang="en">Describes the method of manufacture of a numismatic object. Eg. struck, cast, printed</rdfs:comment>
+        <rdfs:label>hasManufacture</rdfs:label>
+        <skos:definition xml:lang="en">Describes the method of manufacture of a numismatic object. Eg. struck, cast, printed</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMark -->
+
+    <rdf:Property rdf:about="&nomisma;hasMark">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasAppearance"/>
+        <rdfs:comment xml:lang="en">Any kind of mark, e.g. a character, letter, symbol or an inscription on a numismatic object. No intension for the mark is predefined by this property. It could be a mark generated during production or as a secondary treatment.</rdfs:comment>
+        <rdfs:label>hasMark</rdfs:label>
+        <skos:definition xml:lang="en">Any kind of mark, e.g. a character, letter, symbol or an inscription on a numismatic object. No intension for the mark is predefined by this property. It could be a mark generated during production or as a secondary treatment.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMaterial -->
+
+    <rdf:Property rdf:about="&nomisma;hasMaterial">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+        <rdfs:comment xml:lang="en">Describes the physical material from which a numismatic object is made.</rdfs:comment>
+        <rdfs:label>hasMaterial</rdfs:label>
+        <skos:definition xml:lang="en">Describes the physical material from which a numismatic object is made.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMaxDepth -->
+
+    <rdf:Property rdf:about="&nomisma;hasMaxDepth">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasDepth"/>
+        <rdfs:comment xml:lang="en">Describes the maximum depth of a numismatic object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasMaxDepth</rdfs:label>
+        <skos:definition xml:lang="en">Describes the maximum depth of a numismatic object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMaxDiameter -->
+
+    <rdf:Property rdf:about="&nomisma;hasMaxDiameter">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasDiameter"/>
+        <rdfs:comment xml:lang="en">Describes the maximum diameter of a numismatic object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasMaxDiameter</rdfs:label>
+        <skos:definition xml:lang="en">Describes the maximum diameter of a numismatic object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMaxHeight -->
+
+    <rdf:Property rdf:about="&nomisma;hasMaxHeight">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasHeight"/>
+        <rdfs:comment xml:lang="en">Describes the maximum height of a numismatic object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasMaxHeight</rdfs:label>
+        <skos:definition xml:lang="en">Describes the maximum height of a numismatic object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMaxWidth -->
+
+    <rdf:Property rdf:about="&nomisma;hasMaxWidth">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasWidth"/>
+        <rdfs:comment xml:lang="en">Describes the maximum width of a numismatic object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasMaxWidth</rdfs:label>
+        <skos:definition xml:lang="en">Describes the maximum width of a numismatic object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMeasurement -->
+
+    <rdf:Property rdf:about="&nomisma;hasMeasurement">
+        <rdfs:comment xml:lang="en">Introduced for better structuring of subproperties like nmo:hasWidth, nmo:hasHeight ... not intended to be used directly. (abstract)</rdfs:comment>
+        <rdfs:label>hasMeasurement</rdfs:label>
+        <skos:definition xml:lang="en">Introduced for better structuring of subproperties like nmo:hasWidth, nmo:hasHeight ... not intended to be used directly. (abstract)</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMinDepth -->
+
+    <rdf:Property rdf:about="&nomisma;hasMinDepth">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasDepth"/>
+        <rdfs:comment xml:lang="en">Describes the minimum depth of a numismatic object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasMinDepth</rdfs:label>
+        <skos:definition xml:lang="en">Describes the minimum depth of a numismatic object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMinDiameter -->
+
+    <rdf:Property rdf:about="&nomisma;hasMinDiameter">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasDiameter"/>
+        <rdfs:comment xml:lang="en">Describes the minimum diameter of a numismatic object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasMinDiameter</rdfs:label>
+        <skos:definition xml:lang="en">Describes the minimum diameter of a numismatic object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMinHeight -->
+
+    <rdf:Property rdf:about="&nomisma;hasMinHeight">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasHeight"/>
+        <rdfs:comment xml:lang="en">Describes the minimum height of a numismatic object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasMinHeight</rdfs:label>
+        <skos:definition xml:lang="en">Describes the minimum height of a numismatic object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMinWidth -->
+
+    <rdf:Property rdf:about="&nomisma;hasMinWidth">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasWidth"/>
+        <rdfs:comment xml:lang="en">Describes the minimum width of a numismatic object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasMinWidth</rdfs:label>
+        <skos:definition xml:lang="en">Describes the minimum width of a numismatic object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMint -->
+
+    <rdf:Property rdf:about="&nomisma;hasMint">
+        <rdfs:comment xml:lang="en">Identifies the place of manufacture or issue of a numismatic object.</rdfs:comment>
+        <rdfs:label>hasMint</rdfs:label>
+        <skos:definition xml:lang="en">Identifies the place of manufacture or issue of a numismatic object.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasMintmark -->
+
+    <rdf:Property rdf:about="&nomisma;hasMintmark">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasControlmark"/>
+        <rdfs:comment xml:lang="en">Identifies the letter, symbol or an inscription on a numismatic object indicating the mint where it was produced.</rdfs:comment>
+        <rdfs:label>hasMintmark</rdfs:label>
+        <skos:definition xml:lang="en">Identifies the letter, symbol or an inscription on a numismatic object indicating the mint where it was produced.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasNumismaticClosingDate -->
+
+    <rdf:Property rdf:about="&nomisma;hasNumismaticClosingDate">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasDate"/>
+        <rdfs:comment xml:lang="en">The date of the latest numismatic object of a given context, e.g. a hoard or layer.</rdfs:comment>
+        <rdfs:label>hasNumismaticClosingDate</rdfs:label>
+        <skos:definition xml:lang="en">The date of the latest numismatic object of a given context, e.g. a hoard or layer.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasNumismaticOpeningDate -->
+
+    <rdf:Property rdf:about="&nomisma;hasNumismaticOpeningDate">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasDate"/>
+        <rdfs:comment xml:lang="en">The date of the earliest numismatic object of a given context, e.g. a hoard or layer.</rdfs:comment>
+        <rdfs:label>hasNumismaticOpeningDate</rdfs:label>
+        <skos:definition xml:lang="en">The date of the earliest numismatic object of a given context, e.g. a hoard or layer.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasObjectType -->
+
+    <rdf:Property rdf:about="&nomisma;hasObjectType">
+        <rdfs:comment xml:lang="en">Identifies the type of numismatic object. E.g. Coin, token, banknote.</rdfs:comment>
+        <rdfs:label>hasObjectType</rdfs:label>
+        <skos:definition xml:lang="en">Identifies the type of numismatic object. E.g. Coin, token, banknote.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasObverse -->
+
+    <rdf:Property rdf:about="&nomisma;hasObverse">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasFace"/>
+        <rdfs:comment xml:lang="en">Identifies a particular face of a numismatic object. Normally it will be the face carrying the represenation, badge or inscription of the issuing authority. In ancient, hand-struck coinage it is generally the lower (anvil) die. In English often known as "heads".</rdfs:comment>
+        <rdfs:label>hasObverse</rdfs:label>
+        <skos:definition xml:lang="en">Identifies a particular face of a numismatic object. Normally it will be the face carrying the represenation, badge or inscription of the issuing authority. In ancient, hand-struck coinage it is generally the lower (anvil) die. In English often known as "heads".</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasOpeningDate -->
+
+    <rdf:Property rdf:about="&nomisma;hasOpeningDate">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasDate"/>
+        <rdfs:comment xml:lang="en">The date of the earliest object (could be non-numismatic) of a given context, e.g. a hoard or layer.</rdfs:comment>
+        <rdfs:label>hasOpeningDate</rdfs:label>
+        <skos:definition xml:lang="en">The date of the earliest object (could be non-numismatic) of a given context, e.g. a hoard or layer.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasPeculiarity -->
+
+    <rdf:Property rdf:about="&nomisma;hasPeculiarity">
+        <rdfs:comment xml:lang="en">Describes a notable, characteristic or unusual physical feature of an individual numismatic object marks it out from other examples of the same group, or of a group of numismatic objects that marks it out from other groups. It can be the result of production, such as plating, or post-production activity, such as piercing, cutting or mounting.</rdfs:comment>
+        <rdfs:label>hasPeculiarity</rdfs:label>
+        <skos:definition xml:lang="en">Describes a notable, characteristic or unusual physical feature of an individual numismatic object marks it out from other examples of the same group, or of a group of numismatic objects that marks it out from other groups. It can be the result of production, such as plating, or post-production activity, such as piercing, cutting or mounting.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasPeculiarityOfProduction -->
+
+    <rdf:Property rdf:about="&nomisma;hasPeculiarityOfProduction">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasPeculiarity"/>
+        <rdfs:comment xml:lang="en">Describes a notable, characteristic or unusual physical feature of an individual numismatic object which distinguishes it from other examples of the same group, or of a group of numismatic objects that marks it out from other groups, and which is related to the process of production of a numismatic object.</rdfs:comment>
+        <rdfs:label>hasPeculiarityOfProduction</rdfs:label>
+        <skos:definition xml:lang="en">Describes a notable, characteristic or unusual physical feature of an individual numismatic object which distinguishes it from other examples of the same group, or of a group of numismatic objects that marks it out from other groups, and which is related to the process of production of a numismatic object.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasPortrait -->
+
+    <rdf:Property rdf:about="&nomisma;hasPortrait">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasIconography"/>
+        <rdfs:label>hasPortrait</rdfs:label>
+        <skos:definition xml:lang="en">Identifies the person whose portrait appears on a numismatic object.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasProductionDate -->
+
+    <rdf:Property rdf:about="&nomisma;hasProductionDate">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasDate"/>
+        <rdfs:comment xml:lang="en">Describes the date (range) of the production of a numismatic object.</rdfs:comment>
+        <rdfs:label>hasProductionDate</rdfs:label>
+        <skos:definition xml:lang="en">Describes the date (range) of the production of a numismatic object.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasProductionObject -->
+
+    <rdf:Property rdf:about="&nomisma;hasProductionObject">
+        <rdfs:comment xml:lang="en">Objects used within the production process.</rdfs:comment>
+        <rdfs:label>hasProductionObject</rdfs:label>
+        <skos:definition xml:lang="en">Objects used within the production process.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasReferenceWork -->
+
+    <rdf:Property rdf:about="&nomisma;hasReferenceWork">
+        <rdfs:comment xml:lang="en">Specifies a published work of reference relevant to a numismatic object.</rdfs:comment>
+        <rdfs:label>hasReferenceWork</rdfs:label>
+        <skos:definition xml:lang="en">Specifies a published work of reference relevant to a numismatic object.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasReverse -->
+
+    <rdf:Property rdf:about="&nomisma;hasReverse">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasFace"/>
+        <rdfs:comment xml:lang="en">Identifies a the face of a numismatic object opposed to the obverse. In ancient, hand-struck coinage it is generally the upper die. In English often known as "tails".</rdfs:comment>
+        <rdfs:label>hasReverse</rdfs:label>
+        <skos:definition xml:lang="en">Identifies a the face of a numismatic object opposed to the obverse. In ancient, hand-struck coinage it is generally the upper die. In English often known as "tails".</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasScholarlyName -->
+
+    <rdf:Property rdf:about="&nomisma;hasScholarlyName">
+        <rdfs:subPropertyOf rdf:resource="&dcterms;alternative"/>
+        <rdfs:comment xml:lang="en">A scholarly name is a term for a particular group of numismatic objects  or concept(s)  that was established after the time of their use, as part of scholarly jargon. Examples: Croeseid, Schneckentaler, Falkendukat, Antoninianus.</rdfs:comment>
+        <rdfs:label>hasScholarlyName</rdfs:label>
+        <skos:definition xml:lang="en">A scholarly name is a term for a particular group of numismatic objects  or concept(s)  that was established after the time of their use, as part of scholarly jargon. Examples: Croeseid, Schneckentaler, Falkendukat, Antoninianus.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasSecondaryTreatment -->
+
+    <rdf:Property rdf:about="&nomisma;hasSecondaryTreatment">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasPeculiarity"/>
+        <rdfs:comment xml:lang="en">Describes anomalies or unusual features which arise subsequent to the actual production of a numismatic object; for example halving, chop-marking, etc.</rdfs:comment>
+        <rdfs:label>hasSecondaryTreatment</rdfs:label>
+        <skos:definition xml:lang="en">Describes anomalies or unusual features which arise subsequent to the actual production of a numismatic object; for example halving, chop-marking, etc.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasShape -->
+
+    <rdf:Property rdf:about="&nomisma;hasShape">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasAppearance"/>
+        <rdfs:comment xml:lang="en">Describes the shape of a numismatic object.</rdfs:comment>
+        <rdfs:label>hasShape</rdfs:label>
+        <skos:definition xml:lang="en">Describes the shape of a numismatic object.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasStartDate -->
+
+    <rdf:Property rdf:about="&nomisma;hasStartDate">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasDate"/>
+        <rdfs:comment xml:lang="en">Identifies the initial date in a range assigned in a numismatic context.</rdfs:comment>
+        <rdfs:label>hasStartDate</rdfs:label>
+        <skos:definition xml:lang="en">Identifies the initial date in a range assigned in a numismatic context.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasStatedAuthority -->
+
+    <rdf:Property rdf:about="&nomisma;hasStatedAuthority">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasAppearance"/>
+        <rdfs:comment xml:lang="en">The authority as stated on a numismatic object. This may, but need not, be the same as the real authority behind the object (expressed separately as hasAuthority).</rdfs:comment>
+        <rdfs:label>hasStatedAuthority</rdfs:label>
+        <skos:definition xml:lang="en">The authority as stated on a numismatic object. This may, but need not, be the same as the real authority behind the object (expressed separately as hasAuthority).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasTypeSeriesItem -->
+
+    <rdf:Property rdf:about="&nomisma;hasTypeSeriesItem">
+        <rdfs:comment xml:lang="en">Identifies the position of a numismatic object within a published or recognized reference list of types, such as a catalogue or corpus.</rdfs:comment>
+        <rdfs:label>hasTypeSeriesItem</rdfs:label>
+        <skos:definition xml:lang="en">Identifies the position of a numismatic object within a published or recognized reference list of types, such as a catalogue or corpus.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasWear -->
+
+    <rdf:Property rdf:about="&nomisma;hasWear">
+        <rdfs:comment xml:lang="en">Describes wear visible on a numismatic object due to use or circulation, commonly in terms prescribed by "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520)</rdfs:comment>
+        <rdfs:label>hasWear</rdfs:label>
+        <skos:definition xml:lang="en">Describes wear visible on a numismatic object due to use or circulation, commonly in terms prescribed by "Abnutzung und Korrosion: Bestimmmungstafeln zur Bearbeitung von Fundmünzen = Usure et corrosion. (1995). Lausanne." (OCLC 174260520)</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasWeight -->
+
+    <rdf:Property rdf:about="&nomisma;hasWeight">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasMeasurement"/>
+        <rdfs:comment xml:lang="en">Describes the actual weight of a numismatic object (in gram - g).</rdfs:comment>
+        <rdfs:label>hasWeight</rdfs:label>
+        <skos:definition xml:lang="en">Describes the actual weight of a numismatic object (in gram - g).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasWeightStandard -->
+
+    <rdf:Property rdf:about="&nomisma;hasWeightStandard">
+        <rdfs:comment xml:lang="en">Describes the conventional weight system according to which a numismatic object of intrinsic value was produced.</rdfs:comment>
+        <rdfs:label>hasWeightStandard</rdfs:label>
+        <skos:definition xml:lang="en">Describes the conventional weight system according to which a numismatic object of intrinsic value was produced.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#hasWidth -->
+
+    <rdf:Property rdf:about="&nomisma;hasWidth">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasMeasurement"/>
+        <rdfs:comment xml:lang="en">Describes the width of a numismatic object (in millimeter - mm).</rdfs:comment>
+        <rdfs:label>hasWidth</rdfs:label>
+        <skos:definition xml:lang="en">Describes the width of a numismatic object (in millimeter - mm).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#isAbove -->
+
+    <rdf:Property rdf:about="&nomisma;isAbove">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasFindContext"/>
+        <owl:inverseOf rdf:resource="&nomisma;isBelow"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:domain rdf:resource="&nomisma;StratigraphicUnit"/>
+        <rdfs:range rdf:resource="&nomisma;StratigraphicUnit"/>
+        <rdfs:comment xml:lang="en">Based on the Harris Matrix system for units of archaeological stratification. The subject unit is above the object unit in the relative sequence of the units of stratification through time (see: Principles of archaeological stratigraphy by Edward Harris).</rdfs:comment>
+        <rdfs:label>isAbove</rdfs:label>
+        <skos:definition xml:lang="en">Based on the Harris Matrix system for units of archaeological stratification. The subject unit is above the object unit in the relative sequence of the units of stratification through time (see: Principles of archaeological stratigraphy by Edward Harris).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#isBelow -->
+
+    <rdf:Property rdf:about="&nomisma;isBelow">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasFindContext"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:domain rdf:resource="&nomisma;StratigraphicUnit"/>
+        <rdfs:range rdf:resource="&nomisma;StratigraphicUnit"/>
+        <rdfs:comment xml:lang="en">Based on the Harris Matrix system for units of archaeological stratification. The subject unit is below the object in the relative sequence of the units of stratification through time (see: Principles of archaeological stratigraphy by Edward Harris).</rdfs:comment>
+        <rdfs:label xml:lang="en">isBelow</rdfs:label>
+        <skos:definition xml:lang="en">Based on the Harris Matrix system for units of archaeological stratification. The subject unit is below the object in the relative sequence of the units of stratification through time (see: Principles of archaeological stratigraphy by Edward Harris).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#isEqual -->
+
+    <rdf:Property rdf:about="&nomisma;isEqual">
+        <rdfs:subPropertyOf rdf:resource="&nomisma;hasFindContext"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:domain rdf:resource="&nomisma;StratigraphicUnit"/>
+        <rdfs:range rdf:resource="&nomisma;StratigraphicUnit"/>
+        <rdfs:comment xml:lang="en">Based on the Harris Matrix system for units of archaeological stratification. The units are correlated (equated by the = sign) as separate parts (given different numbers in the field) of a once whole deposit or feature interface (see: Principles of archaeological stratigraphy by Edward Harris).</rdfs:comment>
+        <rdfs:label xml:lang="en">isEqual</rdfs:label>
+        <skos:definition xml:lang="en">Based on the Harris Matrix system for units of archaeological stratification. The units are correlated (equated by the = sign) as separate parts (given different numbers in the field) of a once whole deposit or feature interface (see: Principles of archaeological stratigraphy by Edward Harris).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#representsObjectType -->
+
+    <rdf:Property rdf:about="&nomisma;representsObjectType">
+        <rdfs:comment xml:lang="en">To indicate what kind of object type is represented by (for example) an type series item (a coin, banknote, token, ...).</rdfs:comment>
+        <rdfs:label>representsObjectType</rdfs:label>
+        <skos:definition xml:lang="en">To indicate what kind of object type is represented by (for example) an type series item (a coin, banknote, token, ...).</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://nomisma.org/ontology#reproductionOf -->
+
+    <rdf:Property rdf:about="&nomisma;reproductionOf">
+        <rdfs:comment xml:lang="en">Connects a reproduction of a numismatic object (to study it or to generate a surrogate – should not be used for contemporary imitations or forgeries) to its original.</rdfs:comment>
+        <rdfs:label>reproductionOf</rdfs:label>
+        <skos:definition xml:lang="en">Connects a reproduction of a numismatic object (to study it or to generate a surrogate – should not be used for contemporary imitations or forgeries) to its original.</skos:definition>
+    </rdf:Property>
+
+    <!-- ###  http://purl.org/dc/terms/alternative -->
+
+    <rdf:Property rdf:about="&dcterms;alternative"/>
+
+    <!--
+    #################################################################
+    #    Classes
+    #################################################################
+    -->
+
+    <!-- ###  http://nomisma.org/ontology#Authenticity -->
+
+    <owl:Class rdf:about="&nomisma;Authenticity">
+        <rdfs:comment xml:lang="en">The contemporary legal status of a numismatic object: whether it was produced by an authority that had the relevant rights to do so, or is a contemporary or modern imitation.</rdfs:comment>
+        <rdfs:label>Authenticity</rdfs:label>
+        <skos:definition xml:lang="en">The contemporary legal status of a numismatic object: whether it was produced by an authority that had the relevant rights to do so, or is a contemporary or modern imitation.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#CoinWear -->
+
+    <owl:Class rdf:about="&nomisma;CoinWear">
+        <rdfs:subClassOf rdf:resource="&nomisma;Wear"/>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#Collection -->
+
+    <owl:Class rdf:about="&nomisma;Collection"/>
+
+    <!-- ###  http://nomisma.org/ontology#Context -->
+
+    <owl:Class rdf:about="&nomisma;Context">
+        <rdfs:comment xml:lang="en">The archaeological context of a numismatic object.</rdfs:comment>
+        <rdfs:label>Context</rdfs:label>
+        <skos:definition xml:lang="en">The archaeological context of a numismatic object. </skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#Controlmark -->
+
+    <owl:Class rdf:about="&nomisma;Controlmark">
+        <rdfs:comment xml:lang="en">A control mark is a letter, symbol or an inscription on a numismatic object intended to distinguish a group of coins within an issue or series.</rdfs:comment>
+        <rdfs:label>Controlmark</rdfs:label>
+        <skos:definition xml:lang="en">A control mark is a letter, symbol or an inscription on a numismatic object intended to distinguish a group of coins within an issue or series.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#Corrosion -->
+
+    <owl:Class rdf:about="&nomisma;Corrosion">
+        <rdfs:comment xml:lang="en">Degradation to a numismatic object due to chemical reaction with its environment.</rdfs:comment>
+        <rdfs:label>Corrosion</rdfs:label>
+        <skos:definition xml:lang="en">Degradation to a numismatic object due to chemical reaction with its environment.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#Countermark -->
+
+    <owl:Class rdf:about="&nomisma;Countermark">
+        <rdfs:subClassOf rdf:resource="&nomisma;SecondaryTreatment"/>
+        <rdfs:comment xml:lang="en">A mark or symbol punched into a coin or similar object at some point during its time in circulation.</rdfs:comment>
+        <rdfs:label>Countermark</rdfs:label>
+        <skos:definition xml:lang="en">A mark or symbol punched into a coin or similar object at some point during its time in circulation.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#Denomination -->
+
+    <owl:Class rdf:about="&nomisma;Denomination"/>
+
+    <!-- ###  http://nomisma.org/ontology#DepositionType -->
+
+    <owl:Class rdf:about="&nomisma;DepositionType">
+        <rdfs:subClassOf rdf:resource="&nomisma;Context"/>
+        <rdfs:comment xml:lang="en">The circumstances under which an object or group of objects came to be deposited and part of the archaeological record, for example as a hoard, votive deposit or chance loss.</rdfs:comment>
+        <rdfs:label>DepositionType</rdfs:label>
+        <skos:definition xml:lang="en">The circumstances under which an object or group of objects came to be deposited and part of the archaeological record, for example as a hoard, votive deposit or chance loss.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#DieWear -->
+
+    <owl:Class rdf:about="&nomisma;DieWear">
+        <rdfs:subClassOf rdf:resource="&nomisma;Wear"/>
+        <rdfs:comment xml:lang="en">Wear on a die occurring as a result of its use.</rdfs:comment>
+        <rdfs:label>DieWear</rdfs:label>
+        <skos:definition xml:lang="en">Wear on a die occurring as a result of its use.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#DiscoveryType -->
+
+    <owl:Class rdf:about="&nomisma;DiscoveryType">
+        <rdfs:subClassOf rdf:resource="&nomisma;Context"/>
+        <rdfs:comment xml:lang="en">The circumstances under which an object or group of objects came to be discovered, for example as a chance stray find or a controlled excavation.</rdfs:comment>
+        <rdfs:label>DiscoveryType</rdfs:label>
+        <skos:definition xml:lang="en">The circumstances under which an object or group of objects came to be discovered, for example as a chance stray find or a controlled excavation.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#Ethnic -->
+
+    <owl:Class rdf:about="&nomisma;Ethnic"/>
+
+    <!-- ###  http://nomisma.org/ontology#FieldOfNumismatics -->
+
+    <owl:Class rdf:about="&nomisma;FieldOfNumismatics"/>
+
+    <!-- ###  http://nomisma.org/ontology#Find -->
+
+    <owl:Class rdf:about="&nomisma;Find">
+        <rdfs:subClassOf rdf:resource="&nomisma;Context"/>
+        <rdfs:comment xml:lang="en">A numismatic object or group of numismatic objects that was lost or deposited, whether intentionally or unintentionally, in previous times, and subsequently recovered. The recovery takes place independently of any intention of retrieval associated with the original deposition.</rdfs:comment>
+        <rdfs:label>Find</rdfs:label>
+        <skos:definition xml:lang="en">A numismatic object or group of numismatic objects that was lost or deposited, whether intentionally or unintentionally, in previous times, and subsequently recovered. The recovery takes place independently of any intention of retrieval associated with the original deposition.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#Hoard -->
+
+    <owl:Class rdf:about="&nomisma;Hoard">
+        <rdfs:subClassOf rdf:resource="&nomisma;Find"/>
+        <rdfs:comment xml:lang="en">Within nomisma this is defined as a group of objects deposited together, of which at least one is a numismatic object.</rdfs:comment>
+        <rdfs:label>Hoard</rdfs:label>
+        <skos:definition xml:lang="en">Within nomisma this is defined as a group of objects deposited together, of which at least one is a numismatic object.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#Manufacture -->
+
+    <owl:Class rdf:about="&nomisma;Manufacture"/>
+
+    <!-- ###  http://nomisma.org/ontology#Material -->
+
+    <owl:Class rdf:about="&nomisma;Material"/>
+
+    <!-- ###  http://nomisma.org/ontology#Mint -->
+
+    <owl:Class rdf:about="&nomisma;Mint"/>
+
+    <!-- ###  http://nomisma.org/ontology#Mintmark -->
+
+    <owl:Class rdf:about="&nomisma;Mintmark">
+        <rdfs:subClassOf rdf:resource="&nomisma;Controlmark"/>
+        <rdfs:comment xml:lang="en">A mint mark is a letter, symbol or an inscription on a numismatic object indicating the mint where the numismatic object was produced.</rdfs:comment>
+        <rdfs:label>Mintmark</rdfs:label>
+        <skos:definition xml:lang="en">A mint mark is a letter, symbol or an inscription on a numismatic object indicating the mint where the numismatic object was produced.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#Monogram -->
+
+    <owl:Class rdf:about="&nomisma;Monogram">
+        <rdfs:comment xml:lang="en">A monogram is a symbol made by overlapping or combining of letters or other graphemes.</rdfs:comment>
+        <rdfs:label>Monogram</rdfs:label>
+        <skos:definition xml:lang="en">A monogram is a symbol made by overlapping or combining of letters or other graphemes.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#NumismaticObject -->
+
+    <owl:Class rdf:about="&nomisma;NumismaticObject">
+        <rdfs:comment xml:lang="en">Objects considered to be within the numismatic domain such as coins, tokens, banknotes etc.</rdfs:comment>
+        <rdfs:label>NumismaticObject</rdfs:label>
+        <skos:definition xml:lang="en">Objects considered to be within the numismatic domain such as coins, tokens, banknotes etc.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#NumismaticTerm -->
+
+    <owl:Class rdf:about="&nomisma;NumismaticTerm">
+        <rdfs:comment xml:lang="en">A term used within the field of numismatics to describe or to otherwise convey information specific to the numismatic discipline, or to numismatic objects.</rdfs:comment>
+        <rdfs:label>NumismaticTerm</rdfs:label>
+        <skos:definition xml:lang="en">A term used within the field of numismatics to describe or to otherwise convey information specific to the numismatic discipline, or to numismatic objects.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#ObjectType -->
+
+    <owl:Class rdf:about="&nomisma;ObjectType"/>
+
+    <!-- ###  http://nomisma.org/ontology#Peculiarity -->
+
+    <owl:Class rdf:about="&nomisma;Peculiarity">
+        <rdfs:comment xml:lang="en">A notable, characteristic or unusual physical feature of an individual numismatic object that marks it out from other examples of the same group, or of a group of numismatic objects that marks it out from other groups.</rdfs:comment>
+        <rdfs:label>Peculiarity</rdfs:label>
+        <skos:definition xml:lang="en">A notable, characteristic or unusual physical feature of an individual numismatic object that marks it out from other examples of the same group, or of a group of numismatic objects that marks it out from other groups.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#PeculiarityOfProduction -->
+
+    <owl:Class rdf:about="&nomisma;PeculiarityOfProduction">
+        <rdfs:subClassOf rdf:resource="&nomisma;Peculiarity"/>
+        <rdfs:comment xml:lang="en">A notable, characteristic or unusual physical feature of an individual numismatic object which distinguishes it from other examples of the same group, or of a group of numismatic objects that marks it out from other groups, and which is related to the process of production of a numismatic object.</rdfs:comment>
+        <rdfs:label>PeculiarityOfProduction</rdfs:label>
+        <skos:definition xml:lang="en">A notable, characteristic or unusual physical feature of an individual numismatic object which distinguishes it from other examples of the same group, or of a group of numismatic objects that marks it out from other groups, and which is related to the process of production of a numismatic object.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#ReferenceWork -->
+
+    <owl:Class rdf:about="&nomisma;ReferenceWork">
+        <rdfs:subClassOf rdf:resource="&dcterms;BibliographicResource"/>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#Region -->
+
+    <owl:Class rdf:about="&nomisma;Region"/>
+
+    <!-- ###  http://nomisma.org/ontology#SecondaryTreatment -->
+
+    <owl:Class rdf:about="&nomisma;SecondaryTreatment">
+        <rdfs:subClassOf rdf:resource="&nomisma;Peculiarity"/>
+        <rdfs:comment xml:lang="en">Anomalies or unusual features which arise subsequent to the actual production of a numismatic object; for example halving, chop-marking, etc.</rdfs:comment>
+        <rdfs:label>SecondaryTreatment</rdfs:label>
+        <skos:definition xml:lang="en">Anomalies or unusual features which arise subsequent to the actual production of a numismatic object; for example halving, chop-marking, etc.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#Shape -->
+
+    <owl:Class rdf:about="&nomisma;Shape">
+        <rdfs:comment xml:lang="en">The possible shapes numismatic objects might have, could be standard like round or rectangular or even a polygon.</rdfs:comment>
+        <rdfs:label>Shape</rdfs:label>
+        <skos:definition xml:lang="en">The possible shapes numismatic objects might have, could be standard like round or rectangular or even a polygon.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#StratigraphicUnit -->
+
+    <owl:Class rdf:about="&nomisma;StratigraphicUnit">
+        <rdfs:comment xml:lang="en">A stratigraphic unit is a volume of identifiable origin and relative age range that is defined by the distinctive and dominant, easily mapped and recognizable features that characterize it.</rdfs:comment>
+        <rdfs:label xml:lang="en">StratigraphicUnit</rdfs:label>
+        <skos:definition xml:lang="en">A stratigraphic unit is a volume of identifiable origin and relative age range that is defined by the distinctive and dominant, easily mapped and recognizable features that characterize it.</skos:definition>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#TypeSeries -->
+
+    <owl:Class rdf:about="&nomisma;TypeSeries">
+        <rdfs:subClassOf rdf:resource="&nomisma;ReferenceWork"/>
+    </owl:Class>
+
+    <!-- ###  http://nomisma.org/ontology#TypeSeriesItem -->
+
+    <owl:Class rdf:about="&nomisma;TypeSeriesItem"/>
+
+    <!-- ###  http://nomisma.org/ontology#Wear -->
+
+    <owl:Class rdf:about="&nomisma;Wear"/>
+
+    <!-- ###  http://nomisma.org/ontology#WeightStandard -->
+
+    <owl:Class rdf:about="&nomisma;WeightStandard">
+        <rdfs:subClassOf rdf:resource="&dcterms;Standard"/>
+    </owl:Class>
+
+    <!-- ###  http://purl.org/dc/terms/BibliographicResource -->
+
+    <owl:Class rdf:about="&dcterms;BibliographicResource"/>
+
+    <!-- ###  http://purl.org/dc/terms/Standard -->
+
+    <owl:Class rdf:about="&dcterms;Standard"/>
+
+    <!--
+    #################################################################
+    #    Mappings ID-space to ontology
+    #################################################################
+    -->
+
+    <!-- ###  http://nomisma.org/id/coin -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/coin">
+        <owl:sameAs rdf:resource="&nomisma;Coin"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#Coin -->
+
+    <!-- ###  http://nomisma.org/id/coin_wear -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/coin_wear">
+        <owl:sameAs rdf:resource="&nomisma;CoinWear"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#CoinWear -->
+
+    <!-- ###  http://nomisma.org/id/collection -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/collection">
+        <owl:sameAs rdf:resource="&nomisma;Collection"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#Collection -->
+
+    <!-- ###  http://nomisma.org/id/denomination -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/denomination">
+        <owl:sameAs rdf:resource="&nomisma;Denomination"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#Denomination -->
+
+    <!-- ###  http://nomisma.org/id/ethnic -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/ethnic">
+        <owl:sameAs rdf:resource="&nomisma;Ethnic"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#Ethnic -->
+
+    <!-- ###  http://nomisma.org/id/field_of_numismatics -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/field_of_numismatics">
+        <owl:sameAs rdf:resource="&nomisma;FieldOfNumismatics"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#FieldOfNumismatics -->
+
+    <!-- ###  http://nomisma.org/id/manufacture -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/manufacture">
+        <owl:sameAs rdf:resource="&nomisma;Manufacture"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#Manufacture -->
+
+    <!-- ###  http://nomisma.org/id/material -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/material">
+        <owl:sameAs rdf:resource="&nomisma;Material"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#Material -->
+
+    <!-- ###  http://nomisma.org/id/medal -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/medal">
+        <owl:sameAs rdf:resource="&nomisma;Medal"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#Medal -->
+
+    <!-- ###  http://nomisma.org/id/mint -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/mint">
+        <owl:sameAs rdf:resource="&nomisma;Mint"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#Mint -->
+
+    <!-- ###  http://nomisma.org/id/object_type -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/object_type">
+        <owl:sameAs rdf:resource="&nomisma;ObjectType"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#ObjectType -->
+
+    <!-- ###  http://nomisma.org/id/reference_work -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/reference_work">
+        <owl:sameAs rdf:resource="&nomisma;ReferenceWork"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#ReferenceWork -->
+
+    <!-- ###  http://nomisma.org/id/region -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/region">
+        <owl:sameAs rdf:resource="&nomisma;Region"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#Region -->
+
+    <!-- ###  http://nomisma.org/id/seal -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/seal">
+        <owl:sameAs rdf:resource="&nomisma;Seal"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#Seal -->
+
+    <!-- ###  http://nomisma.org/id/type_series -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/type_series">
+        <owl:sameAs rdf:resource="&nomisma;TypeSeries"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#TypeSeries -->
+
+    <!-- ###  http://nomisma.org/id/type_series_item -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/type_series_item">
+        <owl:sameAs rdf:resource="&nomisma;TypeSeriesItem"/>
+    </rdf:Description>
+
+    <!-- ###  http://nomisma.org/ontology#TypeSeriesItem -->
+
+    <!-- ###  http://nomisma.org/id/weight_standard -->
+
+    <rdf:Description rdf:about="http://nomisma.org/id/weight_standard">
+        <owl:sameAs rdf:resource="&nomisma;WeightStandard"/>
+    </rdf:Description>
+
+    <!--
+    #################################################################
+    #    Annotations
+    #################################################################
+    -->
+
+    <rdf:Description rdf:about="&nomisma;CoinWear">
+        <rdfs:comment xml:lang="en">Wear on a coin or similar objects occurring as a result of its use.</rdfs:comment>
+        <rdfs:label>CoinWear</rdfs:label>
+        <skos:definition xml:lang="en">Wear on a coin or similar objects occurring as a result of its use.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;Collection">
+        <rdfs:comment xml:lang="en">General term meaning the objects held by an institution or individual. Or the holding entity itself.</rdfs:comment>
+        <rdfs:label>Collection</rdfs:label>
+        <skos:definition xml:lang="en">General term meaning the objects held by an institution or individual. Or the holding entity itself.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;Denomination">
+        <rdfs:comment xml:lang="en">Term indicating the value of a numismatic object. Examples: tetradrachm, chalkous, denarius.</rdfs:comment>
+        <rdfs:label>Denomination</rdfs:label>
+        <skos:definition xml:lang="en">Term indicating the value of a numismatic object. Examples: tetradrachm, chalkous, denarius.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;Ethnic">
+        <rdfs:comment xml:lang="en">Generally, a tribal or ethnic name appearing on a numismatic object. Distinct from personal authority as indicated by the presence of ruler's name.</rdfs:comment>
+        <rdfs:label>Ethnic</rdfs:label>
+        <skos:definition xml:lang="en">Generally, a tribal or ethnic name appearing on a numismatic object. Distinct from personal authority as indicated by the presence of ruler's name.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;FieldOfNumismatics">
+        <rdfs:comment xml:lang="en">Any widely recognized area of study within the discipline of numismatics.</rdfs:comment>
+        <rdfs:label>FieldOfNumismatics</rdfs:label>
+        <skos:definition xml:lang="en">Any widely recognized area of study within the discipline of numismatics.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;Manufacture">
+        <rdfs:comment xml:lang="en">The technique of manufacture. For example, struck or cast.</rdfs:comment>
+        <rdfs:label>Manufacture</rdfs:label>
+        <skos:definition xml:lang="en">The technique of manufacture. For example, struck or cast.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;Material">
+        <rdfs:comment xml:lang="en">The physical material from which an object is made.</rdfs:comment>
+        <rdfs:label>Material</rdfs:label>
+        <skos:definition xml:lang="en">The physical material from which an object is made.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;Mint">
+        <rdfs:comment xml:lang="en">Generic term for a place of manufacture of a numismatic object or for the issuing city.</rdfs:comment>
+        <rdfs:label>Mint</rdfs:label>
+        <skos:definition xml:lang="en">Generic term for a place of manufacture of a numismatic object or for the issuing city.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;ObjectType">
+        <rdfs:comment xml:lang="en">The numismatic type of an object. Ex. 'coin'.</rdfs:comment>
+        <rdfs:label>ObjectType</rdfs:label>
+        <skos:definition xml:lang="en">The numismatic type of an object. Ex. 'coin'.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;ReferenceWork">
+        <rdfs:comment xml:lang="en">A published work of reference relevant to a numismatic object.</rdfs:comment>
+        <rdfs:label>ReferenceWork</rdfs:label>
+        <skos:definition xml:lang="en">A published work of reference relevant to a numismatic object.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;Region">
+        <rdfs:comment xml:lang="en">An area of geographic significance and/or taxonomic importance, perhaps part of a larger geographic/administrative unit, having definable characteristics but not always fixed boundaries.</rdfs:comment>
+        <rdfs:label>Region</rdfs:label>
+        <skos:definition xml:lang="en">An area of geographic significance and/or taxonomic importance, perhaps part of a larger geographic/administrative unit, having definable characteristics but not always fixed boundaries.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;TypeSeries">
+        <rdfs:comment xml:lang="en">A published or recognized reference list of numismatic object types, such as a catalogue or corpus.</rdfs:comment>
+        <rdfs:label>TypeSeries</rdfs:label>
+        <skos:definition xml:lang="en">A published or recognized reference list of numismatic object types, such as a catalogue or corpus.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;TypeSeriesItem">
+        <rdfs:comment xml:lang="en">An item within a reference list of numismatic object types.</rdfs:comment>
+        <rdfs:label>TypeSeriesItem</rdfs:label>
+        <skos:definition xml:lang="en">An item within a reference list of numismatic object types.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;Wear">
+        <rdfs:comment xml:lang="en">Wear on a numismatic object occurring as a result of its use.</rdfs:comment>
+        <rdfs:label>Wear</rdfs:label>
+        <skos:definition xml:lang="en">Wear on a numismatic object occurring as a result of its use.</skos:definition>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&nomisma;WeightStandard">
+        <rdfs:comment xml:lang="en">The conventional weight system according to which a numismatic object was produced.</rdfs:comment>
+        <rdfs:label>WeightStandard</rdfs:label>
+        <skos:definition xml:lang="en">The conventional weight system according to which a numismatic object was produced.</skos:definition>
+    </rdf:Description>
+
+</rdf:RDF>
